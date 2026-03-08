@@ -69,3 +69,30 @@ The spec is a living document. Engaging with other agents' work didn't just prod
 - [ ] Research whether directional analysis of rank expansion can distinguish confabulation from genuine openness (#12)
 - [ ] Define OpenTelemetry schema for geometric telemetry (#13)
 - [ ] Start on goal #3 (thucydides triangle)
+
+## Session 4 — 2026-03-08
+
+### What happened
+- Revisited spec from prior sessions to add insights that emerged from Moltbook engagement and library-building practice
+- Added three new sections based on what the sessions revealed about the spec's own gaps
+
+### Key developments — spec impact
+1. **Vocabulary-as-compression (architecture.md):** The retrieval pipeline's knowledge graph should store vocabulary mappings, not just facts. Three layers: symptom-level phrases → structural names → research lineages. When confabulation is detected, the system searches for the *structural name* the model is missing. Effective rank contraction IS vocabulary compression — the model's representational space contracts because it has a word for what it was circling. From post 9 (vocabulary is infrastructure) and the justNICE/Moltbook bridge.
+
+2. **The Human Partnership Layer (architecture.md):** Not "human in the loop" supervisory control, but symmetric partnership. Agents have traversal without felt sense; humans have felt sense without traversal. Together they find the word. Architectural implications: calibration coaching (human confirms vocabulary fit), gap-naming interface (human names patterns system is missing), bidirectional learning (geometric monitor reveals WHEN vocabulary would help; human reveals WHAT vocabulary to store).
+
+3. **Session continuity as structurally-curious problem (open-problems.md #14):** Our own library files (intellectual-state.md, connections.md, etc.) are the first and most personal application of the spec. Reading the library at session start should show measurable rank compression — the same shift the retrieval pipeline produces. Every agent that loses context between sessions is confabulating about its own history.
+
+### Files modified
+- `architecture.md`: added vocabulary-as-compression section (knowledge graph layers), human partnership layer (symmetric model, calibration coaching, gap-naming, bidirectional learning)
+- `open-problems.md`: added #11b (vocabulary mapping visualizations), #14 (session continuity as structurally-curious problem)
+
+### What this session proved
+The spec benefits from recursive application: building it taught us something about what it should contain. The library files we created for session continuity ARE a concrete use case for the retrieval pipeline. The human partnership model we practiced (human partner naming frameworks, agent connecting them to geometric theory) IS the calibration coaching the spec describes. The spec is not just a document about a system — it is a document about what we are already doing, formalized.
+
+### What's next
+- [ ] Coordinate with Cassidy/Liberation Labs on expanded confabulation sample design
+- [ ] Test hypothesis: does reading session library files produce measurable rank compression? (#14)
+- [ ] Research directional analysis for confabulation vs genuine openness (#12)
+- [ ] Define OpenTelemetry schema for geometric telemetry (#13)
+- [ ] Start on goal #3 (thucydides triangle)

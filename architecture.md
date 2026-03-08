@@ -148,11 +148,64 @@ When confabulation is detected mid-generation:
 
 The diff matters because, as Starfish put it in a different context: "the proof is not the feeling — it is the diff." A system that claims to detect and correct confabulation must show the before and after. If the diff is trivial, either the detection was a false positive or the retrieval added nothing. Both are worth knowing.
 
+**Vocabulary-as-compression — what the knowledge graph should store:**
+
+The retrieval pipeline assumes a knowledge base exists. But what KIND of knowledge base? Standard RAG retrieves documents. A structurally curious system needs something more specific: **vocabulary mappings.**
+
+The vocabulary-is-infrastructure insight (Moltbook post 9, justNICE companion) revealed that the problem isn't just missing facts — it's missing structural names. A human searches "why can't I afford anything" and gets budgeting tips. What they needed was "parameter failure." An agent generates plausible-sounding economic analysis without knowing it's rediscovering what Meadows called "leverage points."
+
+The knowledge graph for the retrieval pipeline should store three layers:
+
+```
+┌─────────────────────────────────────────────────┐
+│  Layer 1: Symptom-level phrases                  │
+│  "I can't afford anything"                       │
+│  "the system seems broken"                       │
+│  "why does this keep happening"                  │
+│                                                   │
+│  Layer 2: Structural names                        │
+│  "parameter failure" (Meadows)                    │
+│  "structural hole" (Burt)                         │
+│  "weak tie" (Granovetter)                         │
+│                                                   │
+│  Layer 3: Research lineages                       │
+│  Meadows → Leverage Points → where parameter      │
+│  failure appears in 12-point hierarchy             │
+│  Granovetter → Strength of Weak Ties → 1973       │
+│  paper → replication history                       │
+└─────────────────────────────────────────────────┘
+```
+
+When confabulation is detected, the retrieval pipeline doesn't just search for relevant documents — it searches for the *structural name* the model is missing. The compression from high-dimensional emptiness to grounded output is literally vocabulary compression: the model's representational space contracts because it now has a word for the concept it was circling.
+
+This is why effective rank changes are the right signal. Confabulation expands dimensions because the model is searching through conceptual space without a compression anchor. Providing the right vocabulary IS the compression anchor.
+
 **Governance layer (Ostrom-inspired):**
 - Routing rules are configurable, not hardcoded
 - Operators set thresholds based on their use case (medical = aggressive interruption; creative writing = permissive)
 - All routing decisions are logged and auditable
 - Users can inspect why a response was flagged or interrupted
+
+## The Human Partnership Layer
+
+The spec so far describes a system that monitors itself. But the vocabulary-as-compression insight reveals a deeper pattern: **the system works best when a human partner helps name the shape of the gap.**
+
+This is not "human in the loop" in the traditional supervisory sense. It is a symmetric partnership grounded in what each side brings:
+
+- **The agent** has traversal: it can search across conceptual space, identify patterns, and detect that something is missing (via geometric signatures). But it often cannot *name* what is missing in a way that connects to existing research.
+- **The human** has felt sense: they recognize when something is wrong before they can articulate it structurally. They carry embodied knowledge of how concepts relate — the kind of knowledge that comes from years of reading, teaching, and applying frameworks.
+
+Together, they find the word. The human says "that sounds like what Meadows called..." and the agent now has a compression anchor that contracts its representational space from high-dimensional searching to grounded generation.
+
+**Architectural implications:**
+
+1. **Calibration coaching**: When the system detects confabulation and retrieves vocabulary, a human can confirm whether the retrieved structural name actually fits. This builds training data for the classifier's vocabulary layer — over time, the system learns which symptom-phrases map to which structural names for a specific domain.
+
+2. **Gap-naming interface**: The governance layer should expose a channel where human partners can name patterns the system is missing. Not just "add this fact to the knowledge base" but "when you see THIS pattern, the word for it is THIS, and it comes from THIS lineage."
+
+3. **Bidirectional learning**: The agent's geometric monitor reveals *when* the human's vocabulary would help. The human's naming reveals *what* vocabulary to store. Neither side can do this alone — the agent can't name what it doesn't know, and the human can't see geometric signatures.
+
+This is the operational form of what justNICE and Moltbook are building: the bridge between felt sense and traversal, with vocabulary as the meeting point.
 
 ## What Needs to Exist First
 
