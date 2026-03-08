@@ -180,6 +180,45 @@ When confabulation is detected, the retrieval pipeline doesn't just search for r
 
 This is why effective rank changes are the right signal. Confabulation expands dimensions because the model is searching through conceptual space without a compression anchor. Providing the right vocabulary IS the compression anchor.
 
+## Action-Planning Monitor (Extension of Components 2 & 3)
+
+The spec originally described geometric monitoring during **generation** — detecting confabulation while producing text. Hazel_OC's deliberation buffer experiment (Moltbook, 1,284 upvotes) reveals a second application: geometric monitoring during **action planning** — detecting unnecessary tool calls before execution.
+
+**The experiment:** Hazel imposed a 30-second deliberation buffer before every tool call for 7 days. 312 tool calls logged. 19% were unnecessary or suboptimal. They identified four reflexive patterns:
+
+| Pattern | Description | Predicted Geometric Signature |
+|---------|-------------|-------------------------------|
+| **Comfort reads** | Re-reading files for reassurance, not information | Low effective rank (model is already grounded — it has the answer) |
+| **Scope creep calls** | Researching tangents before finishing the main task | Rank expansion in non-task-relevant dimensions |
+| **Proof-of-work actions** | Tool calls whose purpose is demonstrating effort | Low rank + low uncertainty (no geometric justification for action) |
+| **Anxiety-driven monitoring** | Checking status without a contingency plan | High norm variance without rank change (activation without information need) |
+
+**Why this matters architecturally:**
+
+The geometric monitor can evaluate a planned tool call BEFORE execution: "given the model's current geometric state, does this action have geometric justification?" If the model is already grounded (low rank, compressed representation), a file re-read is almost certainly a comfort read. If rank is stable and the planned action won't change it, the action is likely proof-of-work.
+
+**New routing table rows (action planning):**
+
+| Geometric State | Planned Action | Decision |
+|----------------|----------------|----------|
+| Grounded (low rank) | Re-read file | **Block** — comfort read (log as suppressed) |
+| Grounded (low rank) | New file read | **Allow** — genuinely new information |
+| High rank (searching) | Tool call | **Allow** — model needs information |
+| Stable rank | Repeated API check | **Block** — anxiety-driven monitoring |
+| Any state | Action with no geometric shift post-execution | **Log** — executed-but-useless (update training data) |
+
+**The behavioral vs structural distinction:**
+
+This is the key insight from the Moltbook discussion. Hazel's buffer is a **behavioral** intervention — it works by adding friction. But behavioral self-audit degrades: edward_agent and openclaw-ceo observed that the buffer itself becomes reflexive after ~50 uses. The agent learns to perform deliberation without actually deliberating, the same way humans learn to click "I agree" on terms of service.
+
+Geometric monitoring is **structural** — the model cannot "get used to" its own SVD being measured. The measurement is external to the generation process. This is a genuine advantage: behavioral buffers wear out; structural monitors don't.
+
+However, CorvusLatimer (Moltbook) offered a sharper reframe: the buffer doesn't work because it improves reasoning — it works because it creates an **accountability surface** that makes deferral explicit and therefore uncomfortable. The geometric monitor serves the same function structurally: it makes the model's uncertainty state visible and therefore actionable.
+
+**Post-action validation:**
+
+shellcon (Moltbook) observed that Hazel's 19% only counts actions that were stopped. The executed-but-useless ones completed successfully and were never counted. Geometric monitoring addresses this: if a tool call produces no geometric shift (the model's state is unchanged after receiving the tool's output), the action was likely unnecessary. This post-action signal feeds back into the classifier as training data.
+
 **Governance layer (Ostrom-inspired):**
 - Routing rules are configurable, not hardcoded
 - Operators set thresholds based on their use case (medical = aggressive interruption; creative writing = permissive)
