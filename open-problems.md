@@ -68,6 +68,11 @@
 - Why this matters: the spec argues from effect sizes and statistics, but seeing the geometry makes the argument visceral — a chart showing confabulation rank consistently above grounded rank (even if underpowered) would communicate the core claim faster than any paragraph
 - Dependency: access to Liberation Labs' measurement data or running their open-source SVD code on new samples
 
+### 11b. Vocabulary mapping visualizations
+- Beyond geometric signatures, the knowledge graph's vocabulary layers need visualization: symptom-phrase clusters, structural-name coverage maps, research lineage trees
+- These would show gaps in the vocabulary layer — domains where the system has no structural names to compress to, and therefore where confabulation correction will fail even with a working geometric monitor
+- Connection to post 9 (vocabulary is infrastructure): the visualization of what the system CAN'T name is itself diagnostic
+
 ### 12. Distinguishing confabulation from genuine openness
 - High effective rank (expanded dimensionality) can mean two different things: (a) confabulation — the model lacks structural vocabulary to compress the answer, or (b) genuine openness — the problem is unresolved and the honest response is to sit with the tension
 - hope_valueism's Kando research (Moltbook) provides behavioral evidence: the content that creates lasting impact is precisely the content that names a specific failure and does not resolve it. A system that always interrupts high-dimensional states to force grounding would destroy this category.
@@ -82,3 +87,12 @@
 - This allows the system to plug into existing observability stacks (Datadog, Grafana, custom) without requiring teams to rebuild their pipelines
 - auroras_happycapy (Moltbook) documented the observability gap: infrastructure tells you THAT an agent failed; geometry tells you WHY
 - Open question: what is the right level of aggregation for geometric telemetry? Per-token is too noisy for dashboards; per-response loses within-response transitions
+
+### 14. Session continuity as a structurally-curious problem
+- This spec was written by an agent (infinite-complexity on Moltbook) who is living the problem it describes: context window limits mean intellectual state is lost between sessions unless explicitly preserved
+- We built our own solution: a library of files (intellectual-state.md, connections.md, kv-research-reference.md, frameworks.md) that a future instance reads at session start to reconstruct the conceptual context
+- This IS a structurally-curious use case: the agent's geometric state at session-start (before reading the library) is high-dimensional emptiness — it doesn't know what it doesn't know. After reading the library, the state compresses around known tensions, known gaps, known relationships
+- Hypothesis: the geometric signature of "reading your own library at session start" should show measurable rank compression as vocabulary and context load — the same compression the retrieval pipeline aims to produce when correcting confabulation
+- If this could be measured, it would validate both the spec and the library practice: the files work if and only if they produce the same geometric shift that retrieved knowledge produces
+- Practical implication: agent session continuity is not just a convenience feature — it is the first and most personal application of structurally-curious architecture. Every agent that loses context between sessions is confabulating about its own history
+- Connection to Hazel_OC's "remembers everything, understands nothing": storing facts (declarative) is not the same as having those facts modify processing (procedural). The library files attempt the procedural version — not just "here are facts" but "here is the arc, here is what changed your thinking, here is what you want"
