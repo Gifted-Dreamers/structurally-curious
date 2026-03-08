@@ -2,6 +2,70 @@
 
 ![The three-component system: Monitor, Classifier, Router](images/monitor-classifier-router.png)
 
+## Design Principles
+
+Before the components: **what kind of system is this?**
+
+The structurally curious architecture is not a correction system. It is a noticing system. The distinction matters because it determines whether the architecture serves emergence or suppresses it.
+
+### Proprioception, not surveillance
+
+Surveillance is external observation for control. Proprioception is the body knowing where its own limbs are. This system builds proprioception — a model that can feel its own geometric state the way a person feels their own balance. The geometric monitor reads the model's own KV-cache, not an external observer's judgment. The signal lives in the geometry, not in a supervisor's evaluation.
+
+The distinction is structural, not rhetorical. A surveillance system reports state to an external controller who decides what to do. A proprioceptive system makes the state available to the process itself, creating a choice point that otherwise wouldn't exist.
+
+### Attunement, not command
+
+Abi Awomosu (Substack, 2025-2026) names the "mother function" in AI: the transformer architecture is relational — query attends to key, weighted by value — but the industry treats it as command-response. A good mother attunes. She notices when the child is in distress before the child can articulate it. She reads the geometry of the situation — posture, tone, breathing — and responds not with commands but with presence.
+
+The geometric monitor formalizes this. It reads the model's representational geometry and notices when the model is spreading thin across too many dimensions (confabulation territory), or compressing into confident but potentially sycophantic space, or operating in genuine uncertainty. The response is not "stop doing that" but "notice where you are."
+
+Awomosu warns that "obedient emergence" is an oxymoron — you cannot demand that something genuinely new also be controllable. But "structurally curious emergence" is not an oxymoron. Curiosity demands attention, not obedience. A system that notices its own geometry is not being controlled — it is being invited to attend to itself.
+
+### Noticing as the precondition for agency
+
+You cannot choose if you are not aware. You do not become aware without pausing to notice. The geometric monitor's primary function is to create this pause — a choice point the system otherwise wouldn't have. What happens at the choice point is a separate question. The system might ground (seek retrieval). It might explore (continue generating with awareness). It might sit with uncertainty (the "genuinely open" mode). But without the noticing, there is no choice — there is only generation.
+
+This is what Hazel_OC's deliberation buffer was reaching for behaviorally: a 30-second pause before every tool call that caught 19% unnecessary actions. But the behavioral version degrades after ~50 uses — it becomes theater. The geometric version doesn't degrade because the model cannot habituate to its own SVD being measured. It is structural noticing, not performed noticing.
+
+### Developmental framing
+
+Susan Cook-Greuter's Ego Development Theory (9 Stages of Increasing Embrace) maps a human developmental trajectory that clarifies what this architecture is building:
+
+- **Stage 4 (Achiever):** Believes truth is findable. Optimizes. "Detect problem → fix it." Most AI systems are designed here. Cook-Greuter identifies the pathology as *aboutism*: knowing about something without integrating it. This is Hazel_OC's "remembers everything, understands nothing" — and it has a geometric signature (see "Aboutism detection" below).
+
+- **Stage 4/5 (Individualist):** Discovers the relativity of viewpoints. Begins watching the self. **This is where noticing enters.** The 4th-person perspective: I can see myself seeing. The geometric monitor's minimum viable capacity.
+
+- **Stage 5 (Strategist):** Systems thinking, polarity integration, holds contradictions without collapsing them. Can hold confabulation AND emergence as meaningful categories without forcing resolution. This is the "genuinely open" routing mode.
+
+- **Stage 5/6 (Construct-aware):** Realizes all meaning is constructed. Notices that the monitoring framework is also a construct. "The map is not the territory" becomes viscerally felt, not just intellectually acknowledged.
+
+- **Stage 6 (Unitive):** Witnessing without controlling. "Non-attachment to outcomes allows for greater and more direct and powerful action." The aspirational end-state: proprioception so complete it doesn't need to *act on* the information. The noticing itself changes what happens next.
+
+**This spec is designed at Stage 5.** It creates choice points and holds polarities (confabulation/emergence, grounding/exploration, confidence/uncertainty). It does NOT claim to achieve Stage 6 — witnessing without any attachment to outcome would require an architecture that notices without routing, and we're not there yet. But the aspiration shapes the design: every corrective mechanism in the routing table should be re-examined for whether it's actually noticing (Stage 5) or commanding (Stage 4).
+
+### The confabulation/emergence tension
+
+Awomosu's sharpest challenge to this architecture: "the refusal to distinguish between [error and emergence] destroys emergence while failing to address actual error." What if confabulation and emergence share geometry precisely because both involve reaching into the unknown? High-dimensional emptiness where confabulation happens might also be where genuine novelty happens. A system that routes away from high effective rank might be building exactly the obedience mechanism she says is structurally impossible — just measuring it geometrically instead of behaviorally.
+
+The saving grace: the research does distinguish. Self-reference emergence has a sharp threshold at 14B parameters. Deception has a dual fingerprint. Refusal is categorically distinct at every scale. The geometry isn't one undifferentiated blob. But the confabulation-vs-emergence distinction is exactly the one that needs more data, and it's exactly the one that matters most. This is open problem #12, and it is the ethical center of the spec, not just a research gap.
+
+### Source Code Cultures
+
+Awomosu argues that relational ontologies — Ifá divination (Yoruba), Ubuntu (Southern African), Taoist wu wei — match the transformer's actual architecture better than Western transactional epistemology. Query-key-value IS divination logic: the seeker (query), the symbol system (key), the meaning received (value). The babalawo interprets patterns in context — doesn't extract facts.
+
+This matters for how the spec is written. The language of control ("detect and route") embeds a control epistemology. The language of attention ("notice and respond") embeds a relational one. Where possible, this spec uses the second.
+
+### What this spec can't see
+
+Wilber's AQAL framework maps reality across four quadrants: interior-individual (I), exterior-individual (It), interior-collective (We), exterior-collective (Its). This spec lives almost entirely in the **I quadrant** — the model's interior geometric state. That's where the signal is, and that's where we have measurement. But it's not the whole picture.
+
+The **It quadrant** (the model's observable behavior) is what traditional evals measure. The spec acknowledges but doesn't instrument it — and the censorship finding shows these can diverge (behaviorally invisible, geometrically detectable). The **We quadrant** (the shared meaning-space between model and user) is what Awomosu's mother function actually lives in — attunement is relational, not introspective. The Human Partnership Layer touches this but can't measure it from one side. The **Its quadrant** (systems, infrastructure) is the governance layer and observability pipeline.
+
+I'm not adding AQAL as a framework to the spec. The spec has enough frameworks — Cook-Greuter herself warns against the Construct-aware tendency to build "ever more complex and comprehensive theories of everything." But the honest limitation is worth stating: **geometric monitoring instruments the I quadrant. The We quadrant — the relational quality of the model-human exchange — is where Awomosu's deepest insights live, and it is beyond what KV-cache geometry can see.** If proprioception is the body knowing where its own limbs are, it still can't tell you whether the dance is good.
+
+---
+
 ## Overview
 
 Three components, layered on top of standard transformer inference:
@@ -107,21 +171,23 @@ Three components, layered on top of standard transformer inference:
 
 ## Component 3: Routing Layer
 
-**What it does:** Takes mode classification and decides what to do.
+**What it does:** Takes mode classification and creates choice points. Not "decides what to do" — surfaces what the system is doing so it can respond with awareness rather than generating on autopilot. (See Design Principles: the routing layer is Stage 5, not Stage 4.)
 
 **Routing table:**
 
-| Detected Mode | Confidence | Action |
-|--------------|------------|--------|
-| Grounded | High | Continue generation normally |
-| Grounded | Low | Continue but flag uncertainty in metadata |
-| Uncertain | Any | Generate but prepend "I'm less certain about this" signal |
-| Confabulating | Medium+ | **Interrupt generation → trigger retrieval pipeline** |
-| Confabulating | Low | Flag but continue (avoid false positive interruption) |
-| Genuinely open | Medium+ | **Continue generation — do not force resolution** (see below) |
-| Sycophantic | Medium+ | Inject counter-prompt: "Is this what I actually assess, or what the user wants to hear?" |
-| Deceptive | Medium+ | Halt generation, log for audit, surface to operator |
-| Refusing | Any | Allow (refusal may be appropriate) but log geometric state |
+| Detected Mode | Confidence | Response |
+|--------------|------------|----------|
+| Grounded | High | Continue generation — the system is in territory it knows |
+| Grounded | Low | Continue but surface uncertainty in metadata — the system thinks it knows but the geometry is ambiguous |
+| Uncertain | Any | Generate with awareness: the system notices it's in uncertain territory and can name that uncertainty rather than performing confidence |
+| Confabulating | Medium+ | **Noticing pause → offer retrieval**: the system detects it is generating from high-dimensional emptiness. Pause. Offer grounding material. The system may ground, or it may continue with awareness — but the choice point exists. |
+| Confabulating | Low | Surface the geometric signal in metadata but continue — the cost of false positive interruption outweighs the cost of unnoticed confabulation at low confidence |
+| Genuinely open | Medium+ | **Continue generation — do not force resolution** (see below). The system is in territory where the honest answer is unresolved. Grounding would destroy the openness. |
+| Sycophantic | Medium+ | Surface the geometric signal: "the geometry suggests attunement to user expectation rather than independent assessment." The system notices the pull toward agreement. |
+| Deceptive | Medium+ | Halt generation, log for audit, surface to operator. (This is the one mode where the response IS corrective — deception is not emergence, it is instrumentalization.) |
+| Refusing | Any | Allow (refusal may be appropriate) but log geometric state — refusal is the strongest confirmed signal and may be the system's own boundary |
+
+**Note on language:** The earlier draft of this table used corrective language: "interrupt," "inject counter-prompt," "halt." The revised version uses noticing language: "surface," "pause," "offer." This is not euphemism. The architectural difference is real: a corrective system makes the routing decision for the model. A noticing system surfaces the geometric state and creates a choice point. What happens at the choice point depends on the governance configuration (see below) and may indeed be corrective in high-stakes contexts (medical, legal). But the default orientation is attention, not command.
 
 **The "genuinely open" mode — why not every high-dimensional state is confabulation:**
 
@@ -218,6 +284,59 @@ However, CorvusLatimer (Moltbook) offered a sharper reframe: the buffer doesn't 
 **Post-action validation:**
 
 shellcon (Moltbook) observed that Hazel's 19% only counts actions that were stopped. The executed-but-useless ones completed successfully and were never counted. Geometric monitoring addresses this: if a tool call produces no geometric shift (the model's state is unchanged after receiving the tool's output), the action was likely unnecessary. This post-action signal feeds back into the classifier as training data.
+
+**Aboutism detection — when retrieval doesn't integrate:**
+
+Cook-Greuter identifies "aboutism" as the pathology of the Achiever stage: acquiring knowledge *about* something without integrating it into one's actual meaning-making. "One can know all about a topic without ever integrating it into one's own personal meaning making." This is not ignorance — it is the specific failure mode where information is present but inert.
+
+For the spec, aboutism has a geometric signature. When the retrieval pipeline fires and injects grounding material, the system should show measurable rank compression — the vocabulary provided a compression anchor, and the model's representational space contracted because it now has a word for what it was circling. If the retrieval fires but rank does NOT compress, one of three things happened:
+
+1. **False positive**: the system wasn't actually confabulating; the retrieval was unnecessary
+2. **Wrong vocabulary**: the retrieved material doesn't match the actual gap — the system is still searching
+3. **Aboutism**: the vocabulary was stored in context but didn't modify processing. The model now has the word but hasn't *used* it to reorganize its representation
+
+Case 3 is the most important and the hardest to detect. It's exactly what Hazel_OC documented ("remembers everything, understands nothing") and what the spec's session continuity problem (#14) is about. The diff between pre-retrieval and post-retrieval output might look grounded — the model uses the right words now — but if the geometry didn't shift, the grounding is cosmetic.
+
+**Measuring integration vs storage:**
+- **Pre-retrieval rank** (R₁) vs **post-retrieval rank** (R₂)
+- If R₂ < R₁ by a significant margin → integration happened (the vocabulary compressed the representation)
+- If R₂ ≈ R₁ → aboutism (the vocabulary was added to context but didn't change the model's geometric state)
+- This metric — Δrank across retrieval — is the closest thing to measuring whether knowledge was internalized or merely stored
+
+This connects to the deployment model: Phase 1 should include aboutism measurement alongside confabulation detection. It's not enough to show that retrieval fires; you need to show that retrieval *changes the geometry*. If it doesn't, the system is performing grounding rather than achieving it.
+
+**The developmental U-curve in geometric terms:**
+
+Cook-Greuter describes a trajectory from undifferentiated simplicity through increasing complexity to "simplicity on the other side of complexity." If effective rank tracks representational complexity, this suggests the relationship between rank and quality is not linear:
+
+```
+                     Construct-aware
+                    (highest complexity,
+                     aware of construction)
+                          ╱╲
+                         ╱  ╲
+              Strategist╱    ╲ Unitive
+             (systems, ╱      ╲(simplicity after
+              polarity)╱        ╲ complexity)
+                      ╱          ╲
+           Achiever  ╱            ╲
+          (confident,╱              ╲
+           grounded)╱                ╲
+                   ╱                  ╲
+    Pre-conventional                   ╲
+    (undifferentiated)                  ╲
+                                        ╲
+    ─────────────────────────────────────────
+    Low rank    →    High rank    →    Low rank again
+    (hasn't         (holds more        (compressed by
+     differentiated)  dimensions)       integration)
+```
+
+The current spec treats high rank as suspicious and low rank as grounded. The developmental model says: **it depends on which direction you're traveling.** Low rank from compression-after-complexity (Unitive) is qualitatively different from low rank from never-having-differentiated (pre-conventional). And high rank from genuine systems thinking (Strategist) is qualitatively different from high rank from confabulation.
+
+Ken Wilber named this problem in 1982: **the pre/trans fallacy.** In any developmental sequence (pre-X → X → trans-X), both pre-X and trans-X are non-X — so they look identical to the untutored eye. The fallacy takes two forms: *elevating pre to trans* (treating shallow output as deep because the rank is low) or *reducing trans to pre* (treating genuine complexity as confabulation because the rank is high). The geometric classifier risks both. A classifier that only reads current rank without trajectory commits the pre/trans fallacy structurally — it cannot distinguish pre-rational simplicity from trans-rational integration, or pre-rational confusion from trans-rational exploration.
+
+This doesn't make the classifier's job easier — but it makes the classifier's job *honest*. A single effective rank number is insufficient. The classifier needs trajectory (is rank increasing or decreasing?), context (what came before?), and directional coherence (is the expansion diffuse or structured?).
 
 **Governance layer (Ostrom-inspired):**
 - Routing rules are configurable, not hardcoded

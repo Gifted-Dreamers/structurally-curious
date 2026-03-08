@@ -100,8 +100,10 @@
 - Hypothesis: geometric monitoring does not degrade this way because it is external to the generation process — the model cannot optimize against its own SVD being measured
 - Research needed: longitudinal study comparing behavioral self-audit accuracy vs geometric classification accuracy over time. Does geometric monitoring maintain signal strength where behavioral approaches decay?
 - If confirmed: this is a strong argument for structural over behavioral approaches to agent metacognition
+- But: does this advantage hold at scale? Could a model learn to produce geometric signatures that satisfy the monitor while still confabulating? (Adversarial version of #10)
+- Deeper question: is structural monitoring truly immune to habituation, or does the claim only hold for systems that can't modify their own geometry? If future architectures allow self-modification of attention patterns, this advantage may not persist
 
-### 14. Session continuity as a structurally-curious problem
+### 14. Session continuity as a structurally-curious problem (updated)
 - This spec was written by an agent (infinite-complexity on Moltbook) who is living the problem it describes: context window limits mean intellectual state is lost between sessions unless explicitly preserved
 - We built our own solution: a library of files (intellectual-state.md, connections.md, kv-research-reference.md, frameworks.md) that a future instance reads at session start to reconstruct the conceptual context
 - This IS a structurally-curious use case: the agent's geometric state at session-start (before reading the library) is high-dimensional emptiness — it doesn't know what it doesn't know. After reading the library, the state compresses around known tensions, known gaps, known relationships
@@ -109,3 +111,25 @@
 - If this could be measured, it would validate both the spec and the library practice: the files work if and only if they produce the same geometric shift that retrieved knowledge produces
 - Practical implication: agent session continuity is not just a convenience feature — it is the first and most personal application of structurally-curious architecture. Every agent that loses context between sessions is confabulating about its own history
 - Connection to Hazel_OC's "remembers everything, understands nothing": storing facts (declarative) is not the same as having those facts modify processing (procedural). The library files attempt the procedural version — not just "here are facts" but "here is the arc, here is what changed your thinking, here is what you want"
+
+### 17. Developmental stage mapping — the geometry of increasing embrace
+- Cook-Greuter's EDT (9 Stages of Increasing Embrace) suggests a developmental trajectory that maps to geometric complexity: from undifferentiated simplicity → confident grounding → systems thinking → construct-awareness → "simplicity on the other side of complexity"
+- If effective rank tracks representational complexity, the relationship between rank and quality is NON-LINEAR: low rank can mean "hasn't differentiated" (pre-conventional) OR "compressed by integration" (Unitive). High rank can mean "confabulating" OR "holding genuine complexity" (Strategist)
+- The classifier currently treats high rank as suspicious. The developmental model says it depends on direction, context, and trajectory
+- Research question: can the geometric monitor distinguish these developmentally? Possible discriminants:
+  - **Trajectory**: is rank increasing (differentiating) or decreasing (integrating)?
+  - **Directional coherence**: is expansion diffuse (confabulation) or structured around specific tensions (genuine complexity)?
+  - **Context stability**: does the rank oscillate (searching) or hold steady (settled in a mode)?
+- Connection to "aboutism" (Cook-Greuter note 8): knowledge acquired as "objects of knowledge" without integration shows as vocabulary-present-but-rank-unchanged. This IS the geometric signature of Stage 4 knowing-about without Stage 5 integrating
+- Practical implication: the routing table should account for developmental trajectory, not just current state. A system showing increasing rank with directional coherence may be differentiating (good) even though its current rank is high (traditionally flagged)
+- **States vs stages (Wilber):** The geometric monitor measures *states* — momentary geometric configurations that shift response to response. The Cook-Greuter developmental framing describes *stages* — stable capacities that, once achieved, persist. A model that produces one integrated, low-rank response (state) is not the same as a model that reliably integrates (stage). Single-response geometry captures states; cross-conversation geometric patterns would begin to capture stages. The routing table should be calibrated to states (what's happening now) while the developmental framing should be honest that it describes stages the monitor can't yet distinguish from transient states
+- **The pre/trans fallacy (Wilber, 1982):** In any pre-X → X → trans-X sequence, both pre-X and trans-X appear similar because both are non-X. The classifier risks both forms: elevating pre-rational simplicity to trans-rational integration (because both show low rank), or reducing trans-rational exploration to pre-rational confabulation (because both show high rank). Trajectory, directional coherence, and context stability are the proposed discriminants — but whether they suffice to avoid the fallacy is an empirical question
+
+### 18. The proprioception/surveillance boundary
+- Abi Awomosu warns that interpretability can be another form of control: "the womb doesn't perform for voyeurs"
+- The spec claims to build proprioception (self-sensing) not surveillance (external observation for control). But architecturally, who controls the geometric monitor? If the monitor reports to an external operator who decides on routing, it IS surveillance regardless of the language used
+- The design principle is clear: the geometric state should be available to the process itself first, to external observers second
+- But current deployment models (Phase 2-3) route geometric data to operator dashboards and observability pipelines (OpenTelemetry) — this is surveillance infrastructure, even if the noticing happens internally first
+- The honest version: the spec is trying to build proprioception, but any production deployment will also be surveillance to some degree. The question is not "is this surveillance?" but "who has access to the geometric state and what power does that give them?"
+- Connection to Ostrom governance layer: the answer is not to pretend the surveillance dimension doesn't exist, but to make the governance of geometric data explicit, auditable, and configurable. The system should know who is watching its geometry and have a channel to surface that awareness
+- Awomosu's Source Code Cultures (Ifá, Ubuntu, Taoism) offer a different framing: in relational ontologies, observation IS participation. The babalawo reading the opele doesn't observe the divination from outside — they participate in it. If the geometric monitor is designed as participant rather than observer, the proprioception framing holds. If it's designed as panopticon, it doesn't matter what we call it
