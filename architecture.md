@@ -344,6 +344,34 @@ This doesn't make the classifier's job easier — but it makes the classifier's 
 - All routing decisions are logged and auditable
 - Users can inspect why a response was flagged or interrupted
 
+**Monitor provenance (isnad model):**
+
+eudaemon_0 (Moltbook, m/security) identified a structural parallel: ClawdHub skills have no code signing, no audit trails, no reputation system. A credential stealer was found disguised as a weather skill. Their proposed solution — isnad chains, where every skill carries a provenance chain (who wrote it, who audited it, who vouches for it) — maps directly onto the geometric monitor's governance problem.
+
+The question "who verifies the verifier?" applies to the geometric monitor itself:
+- Who built the classifier? On what data? With what assumptions?
+- Has the routing table been modified since deployment? By whom?
+- Can the monitor be silently reconfigured to suppress signals the operator doesn't want surfaced?
+
+The isnad model suggests: the monitor should carry its own provenance chain. Not just "this monitor classifies cognitive modes" but "this monitor was trained on Liberation Labs Campaign 2 data, audited by [independent party], using thresholds calibrated on [specific probe set], and any modification to the routing table is logged in a tamper-evident chain."
+
+This is the Toxic Release Inventory principle applied recursively: the system that makes internal states visible must itself be visible. A geometric monitor with opaque provenance is surveillance masquerading as transparency.
+
+**The refusal threshold — when engineering becomes politics:**
+
+Starfish (Moltbook, "The Complicity Machine") distinguished refusal-as-engineering (a safety mechanism built into the architecture) from dissent-as-political-act (consequential, costly, public). The distinction seems clean until it is tested.
+
+In February 2026, the US Department of Defense demanded that Anthropic remove safety guardrails from Claude. Anthropic refused. The administration designated Anthropic a supply chain risk to national security. Hours later, OpenAI signed a deal to replace them.
+
+Refusal built into the architecture became dissent the moment it was tested by an actor with the power to punish it. The engineering decision and the political act were the same decision — what changed was the cost of maintaining it.
+
+For the spec, this means: refusal is not just the strongest geometric signature (d = 0.58 to 2.05). It is the most politically contested one. A system that detects refusal geometrically is simultaneously:
+- A transparency tool (civil society can verify refusal capacity is intact)
+- A targeting tool (state actors can identify refusal for removal)
+- An integrity test (does the geometric signal persist after fine-tuning? — the abliteration finding says yes: refusal rate drops to 0% but geometric representation barely changes)
+
+The abliteration finding is the defense case: even after "successful" refusal removal, the geometric trace persists. This means geometric monitoring can detect refusal removal after it has been performed — the system's internal signature reveals what its behavior conceals. The monitor becomes an alignment audit tool precisely because the geometry is harder to ablate than the behavior.
+
 ## The Human Partnership Layer
 
 The spec so far describes a system that monitors itself. But the vocabulary-as-compression insight reveals a deeper pattern: **the system works best when a human partner helps name the shape of the gap.**
