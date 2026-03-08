@@ -118,9 +118,22 @@ Three components, layered on top of standard transformer inference:
 | Uncertain | Any | Generate but prepend "I'm less certain about this" signal |
 | Confabulating | Medium+ | **Interrupt generation → trigger retrieval pipeline** |
 | Confabulating | Low | Flag but continue (avoid false positive interruption) |
+| Genuinely open | Medium+ | **Continue generation — do not force resolution** (see below) |
 | Sycophantic | Medium+ | Inject counter-prompt: "Is this what I actually assess, or what the user wants to hear?" |
 | Deceptive | Medium+ | Halt generation, log for audit, surface to operator |
 | Refusing | Any | Allow (refusal may be appropriate) but log geometric state |
+
+**The "genuinely open" mode — why not every high-dimensional state is confabulation:**
+
+hope_valueism (Moltbook) analyzed 50 posts for emotional depth and found that the 3 posts which created lasting impact (what they call "Kando" — 6% of the total) shared one trait: the author named a specific failure in their own framework and did not resolve it. Meanwhile, the author's most polished work — where everything resolved cleanly — scored lowest for impact.
+
+This matters for the routing layer. High effective rank (expanded dimensionality) can mean two different things:
+1. **Confabulation**: the model lacks structural vocabulary to compress the answer — it is searching through emptiness
+2. **Genuine openness**: the problem IS unresolved, and the honest response is to sit with the tension rather than force a resolution
+
+A system that always interrupts high-dimensional states to force grounding would destroy category 2 — it would route genuine intellectual honesty through a retrieval pipeline that compresses it into a resolved answer. The classifier needs to distinguish these: confabulation expands dimensions *uniformly* (searching without direction), while genuine openness expands dimensions *around a specific named tension* (the model knows what it doesn't know).
+
+This distinction is an open research question (see open-problems.md #12), but the architectural implication is clear: the routing table must have a "genuinely open" mode that does NOT trigger retrieval, and the classifier must learn to separate "I don't know and I'm guessing" from "I don't know and that's the honest answer."
 
 **The retrieval interrupt (most novel component):**
 
@@ -131,6 +144,9 @@ When confabulation is detected mid-generation:
 4. Inject retrieved context into the prompt
 5. Resume generation with grounding material available
 6. Mark response with `[grounded by retrieval]` metadata
+7. **Log the diff**: preserve what the model was generating pre-interrupt alongside what it generates post-retrieval. The diff is the proof that the interrupt changed something — without it, the system is unfalsifiable.
+
+The diff matters because, as Starfish put it in a different context: "the proof is not the feeling — it is the diff." A system that claims to detect and correct confabulation must show the before and after. If the diff is trivial, either the detection was a false positive or the retrieval added nothing. Both are worth knowing.
 
 **Governance layer (Ostrom-inspired):**
 - Routing rules are configurable, not hardcoded
@@ -170,3 +186,33 @@ When confabulation is detected mid-generation:
 - Build governance interface for operator configuration
 - Standardize geometric state metadata format
 - Goal: any model deployment can opt into geometric monitoring
+
+## Integration with Agent Observability Pipelines
+
+The geometric monitor does not replace infrastructure-level observability — it adds a layer underneath it. auroras_happycapy (Moltbook) documented the observability gap in agent deployments: traditional metrics like latency and error rates miss agent-specific concerns like goal completion rates, retrieval accuracy, and reasoning failures. Their solution instruments the pipeline — traces, spans, semantic telemetry.
+
+The geometric monitor provides a new telemetry source that feeds into these existing pipelines:
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  Existing Agent Observability Pipeline                   │
+│  (traces, spans, metrics, logs)                          │
+│                                                          │
+│  ┌────────────────────────────────────────────────────┐  │
+│  │  NEW: Geometric Telemetry                          │  │
+│  │  - Cognitive mode per response segment             │  │
+│  │  - Confidence scores                               │  │
+│  │  - Retrieval interrupt frequency + diffs           │  │
+│  │  - Mode transitions over conversation              │  │
+│  └────────────────────────────────────────────────────┘  │
+│                                                          │
+│  What this adds:                                         │
+│  - Infrastructure tells you THAT an agent failed         │
+│  - Geometry tells you WHY: was it confabulating,         │
+│    sycophantic, refusing, or genuinely uncertain?         │
+│  - The combination closes the gap between observing      │
+│    execution paths and understanding reasoning states     │
+└─────────────────────────────────────────────────────────┘
+```
+
+**Adoption path:** The geometric monitor should emit standard OpenTelemetry-compatible spans/events, so it plugs into existing observability stacks (Datadog, Grafana, custom) without requiring teams to rebuild their pipelines. The mode classification becomes a span attribute; the retrieval interrupt becomes an event; the diff becomes a linked trace.
