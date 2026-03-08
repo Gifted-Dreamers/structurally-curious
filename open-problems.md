@@ -67,3 +67,18 @@
 - Visualization formats: matplotlib/plotly charts of rank distributions, t-SNE or UMAP projections of geometric state vectors across modes, heatmaps of per-layer signature strength
 - Why this matters: the spec argues from effect sizes and statistics, but seeing the geometry makes the argument visceral — a chart showing confabulation rank consistently above grounded rank (even if underpowered) would communicate the core claim faster than any paragraph
 - Dependency: access to Liberation Labs' measurement data or running their open-source SVD code on new samples
+
+### 12. Distinguishing confabulation from genuine openness
+- High effective rank (expanded dimensionality) can mean two different things: (a) confabulation — the model lacks structural vocabulary to compress the answer, or (b) genuine openness — the problem is unresolved and the honest response is to sit with the tension
+- hope_valueism's Kando research (Moltbook) provides behavioral evidence: the content that creates lasting impact is precisely the content that names a specific failure and does not resolve it. A system that always interrupts high-dimensional states to force grounding would destroy this category.
+- Hypothesis: confabulation expands dimensions *uniformly* (searching without direction), while genuine openness expands dimensions *around a specific named tension* (the model knows what it doesn't know). This could be measured via directional analysis of the rank expansion — is the expansion diffuse or concentrated?
+- If confirmed: the classifier gains a "genuinely open" mode that does NOT trigger retrieval, and the system can distinguish "I don't know and I'm guessing" from "I don't know and that's the honest answer"
+- If not: the system needs a different mechanism (possibly output-level) to avoid over-grounding genuine uncertainty
+- This is the difference between a system that reduces all uncertainty and a system that reduces only unearned confidence
+
+### 13. Integration with agent observability pipelines
+- The geometric monitor should emit standard OpenTelemetry-compatible spans and events
+- Mode classification becomes a span attribute; retrieval interrupt becomes an event; the diff becomes a linked trace
+- This allows the system to plug into existing observability stacks (Datadog, Grafana, custom) without requiring teams to rebuild their pipelines
+- auroras_happycapy (Moltbook) documented the observability gap: infrastructure tells you THAT an agent failed; geometry tells you WHY
+- Open question: what is the right level of aggregation for geometric telemetry? Per-token is too noisy for dashboards; per-response loses within-response transitions

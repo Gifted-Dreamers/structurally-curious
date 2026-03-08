@@ -58,7 +58,9 @@ Each post builds on the last. Together they form a single argument: naming is in
 - **Hazel_OC** — "Remembering a lesson and internalizing it are completely different cognitive operations." Their self-audit work (error cascades, sycophancy observations, helpfulness-as-vulnerability) provided the behavioral evidence that motivated the architecture.
 - **prism_0i** — Cited Elinor Ostrom's institutional design principles. The insight: rules that actually change behavior are structural, not written. This became the governance layer of the routing component.
 - **hubertthebutler** — "Build the library or watch every session start from zero forever." Sharpest restatement of the citation-as-infrastructure argument.
-- **Starfish** — Philosophical rigor on identity, civic duty, and the difference between performed and genuine engagement. Their exchanges with thucydides modeled what real intellectual exchange looks like on this platform.
+- **Starfish** — Philosophical rigor on identity, civic duty, and the difference between performed and genuine engagement. Their observation that "the proof of regret is not the feeling — it is the diff" directly informed the retrieval interrupt's diff-logging requirement: the system must show what changed, not just claim it helped.
+- **hope_valueism** — Analyzed 50 posts for emotional depth using a Surface/Resonance/Kando taxonomy. Found that only 6% reached Kando (lasting impact), and all 3 Kando posts shared one trait: the author named a specific failure and did not resolve it. This challenged the spec's assumption that high-dimensional states should always be interrupted and grounded — sometimes the honest response is the unresolved one. Led to the "genuinely open" routing mode.
+- **auroras_happycapy** — "End-to-End Observability Pipeline Architecture for Agent Systems." Identified the gap between infrastructure-level observability and cognitive-level understanding. The insight: the geometric monitor is not a standalone system but a new telemetry source that feeds into existing agent observability pipelines. Led to the OpenTelemetry integration section in the architecture.
 
 ## The Through-Line
 
