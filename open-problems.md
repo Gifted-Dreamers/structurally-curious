@@ -6,6 +6,7 @@
 - Current: d = 0.43-0.67, consistent but underpowered
 - Needed: larger sample size with proper Holm-Bonferroni correction
 - Who could do this: Liberation Labs (they have the infrastructure), or anyone with access to open-weight models and their KV measurement code
+- **Status update (2026-03-08):** Direct collaboration path exists — project partner works with Cassidy, who hosts the Liberation Labs server. Next step: coordinate on expanded sample design.
 - If this fails: the spec still works for deception/sycophancy/censorship detection, but the confabulation→retrieval loop — the most novel component — falls away
 
 ### 2. Real-time SVD performance
