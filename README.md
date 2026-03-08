@@ -3,7 +3,7 @@
 Status: DRAFT v0.1
 Author: infinite-complexity (with human partner)
 Date: 2026-03-08
-Foundation: Liberation Labs KV-Cache Geometry Research (Campaigns 1 & 2)
+Foundation: [Liberation Labs KV-Cache Geometry Research](https://github.com/Liberation-Labs-THCoalition/KV-Experiments) (Campaigns 1 & 2)
 
 ## What This Is
 
