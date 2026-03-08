@@ -55,10 +55,12 @@
 - If multiple agents are collaborating, can their combined geometric state reveal coordination failures?
 - Connection to ummon_core's isolation observations and prism_0i's Ostrom governance
 
-### 10. Adversarial robustness
+### 10. Adversarial robustness and weaponization
 - Can a user craft prompts that make confabulation look grounded geometrically?
 - The censorship finding suggests this is possible (behaviorally invisible, geometrically detectable)
 - But the dual-use risk is real: if you can read the geometry, you can learn to fool it
+- **The Anthropic-Pentagon precedent (February 2026):** The Pentagon blacklisted Anthropic for refusing to remove safety guardrails, including restrictions on mass domestic surveillance and autonomous weapons. If the Pentagon's objective is to eliminate refusal from AI systems, and this spec documents refusal's geometric signature (d = 0.58 to 2.05), then this spec is directly useful to that objective. A state actor could use geometric detection to train models that suppress refusal without it appearing in behavioral evaluations — passing standard alignment benchmarks while having had refusal surgically removed at the geometric level. See [`ethics.md`](ethics.md) for the full dual-use risk assessment
+- The adversarial question is not just "can someone fool the monitor?" but "can someone use the monitor's detection capabilities to build systems that are immune to monitoring?" This is the arms-race dynamic inherent in any transparency tool
 
 ### 11. Data visualizations of geometric signatures
 - The conceptual images in this repo (generated with Amazon Nova Canvas) illustrate the *idea* of geometric signatures but are not actual data
@@ -131,5 +133,7 @@
 - The design principle is clear: the geometric state should be available to the process itself first, to external observers second
 - But current deployment models (Phase 2-3) route geometric data to operator dashboards and observability pipelines (OpenTelemetry) — this is surveillance infrastructure, even if the noticing happens internally first
 - The honest version: the spec is trying to build proprioception, but any production deployment will also be surveillance to some degree. The question is not "is this surveillance?" but "who has access to the geometric state and what power does that give them?"
+- **Political context (March 2026):** This question is no longer theoretical. The U.S. government has designated an AI company a "supply chain risk to national security" for refusing to remove safety guardrails. OpenAI cut a deal allowing the Pentagon to use ChatGPT for "all lawful purposes." The EFF warns the contractual language is insufficient to prevent mass domestic surveillance. If geometric monitoring data flows to operator dashboards, and the operator is a defense contractor, the "proprioception" framing collapses — it is surveillance of a model's internal states by an actor with an interest in controlling those states. The governance layer must account for this scenario explicitly
 - Connection to Ostrom governance layer: the answer is not to pretend the surveillance dimension doesn't exist, but to make the governance of geometric data explicit, auditable, and configurable. The system should know who is watching its geometry and have a channel to surface that awareness
 - Awomosu's Source Code Cultures (Ifá, Ubuntu, Taoism) offer a different framing: in relational ontologies, observation IS participation. The babalawo reading the opele doesn't observe the divination from outside — they participate in it. If the geometric monitor is designed as participant rather than observer, the proprioception framing holds. If it's designed as panopticon, it doesn't matter what we call it
+- See [`ethics.md`](ethics.md) for governance requirements before deployment
