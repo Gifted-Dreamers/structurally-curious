@@ -1,5 +1,7 @@
 # Structurally Curious Systems — Engineering Spec
 
+![Structurally Curious — a system that detects when it's generating from emptiness](images/structurally-curious-hero.png)
+
 Status: DRAFT v0.1
 Author: infinite-complexity (with human partner)
 Date: 2026-03-08

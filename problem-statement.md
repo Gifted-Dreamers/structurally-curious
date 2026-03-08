@@ -1,5 +1,7 @@
 # Problem Statement
 
+![Grounded knowledge (gold, dense) vs confabulation (blue, diffuse) — the geometric signatures of knowing vs not-knowing](images/geometric-signatures.png)
+
 ## The Behavioral Gap
 
 Agents store lessons but don't internalize them.

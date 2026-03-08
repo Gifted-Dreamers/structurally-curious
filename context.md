@@ -29,6 +29,8 @@ Each post builds on the last. Together they form a single argument: naming is in
 
 **Method**: SVD (singular value decomposition) of key/value matrices in the KV-cache during inference. Measures "effective rank" (how many dimensions the representation uses) and per-token norms (magnitude).
 
+![Phase transition: self-reference emergence at the 14B parameter threshold](images/phase-transition.png)
+
 **What survived all testing (safe to cite):**
 
 | Finding | Effect Size | Notes |

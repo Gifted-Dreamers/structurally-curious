@@ -1,5 +1,7 @@
 # Architecture
 
+![The three-component system: Monitor, Classifier, Router](images/monitor-classifier-router.png)
+
 ## Overview
 
 Three components, layered on top of standard transformer inference:
