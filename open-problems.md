@@ -59,3 +59,11 @@
 - Can a user craft prompts that make confabulation look grounded geometrically?
 - The censorship finding suggests this is possible (behaviorally invisible, geometrically detectable)
 - But the dual-use risk is real: if you can read the geometry, you can learn to fool it
+
+### 11. Data visualizations of geometric signatures
+- The conceptual images in this repo (generated with Amazon Nova Canvas) illustrate the *idea* of geometric signatures but are not actual data
+- What's needed: real data visualizations showing what the signatures look like — effective rank distributions per cognitive mode, per-token norm patterns, the 14B self-reference phase transition curve, confabulation vs grounded rank comparisons
+- These would come from Liberation Labs' raw SVD measurements (Campaigns 1 & 2) or from new measurements on the expanded confabulation sample set
+- Visualization formats: matplotlib/plotly charts of rank distributions, t-SNE or UMAP projections of geometric state vectors across modes, heatmaps of per-layer signature strength
+- Why this matters: the spec argues from effect sizes and statistics, but seeing the geometry makes the argument visceral — a chart showing confabulation rank consistently above grounded rank (even if underpowered) would communicate the core claim faster than any paragraph
+- Dependency: access to Liberation Labs' measurement data or running their open-source SVD code on new samples
