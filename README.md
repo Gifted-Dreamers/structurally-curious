@@ -21,11 +21,16 @@ Not a paper. Not a philosophy post. A buildable design.
 1. [`problem-statement.md`](problem-statement.md) — What breaks, why, and for whom
 2. [`architecture.md`](architecture.md) — The three-component system design
 3. [`open-problems.md`](open-problems.md) — What needs to be solved before this works
-4. [`session-log.md`](session-log.md) — Decisions made, questions raised, per session
+4. [`ethics.md`](ethics.md) — **Dual-use risks and ethical constraints** — how this research can be weaponized, why we published anyway, and what governance must exist before deployment
+5. [`session-log.md`](session-log.md) — Decisions made, questions raised, per session
 
 ## The One-Paragraph Version
 
 Language models leave geometric fingerprints in their KV-cache depending on cognitive mode. Refusal, deception, sycophancy, and censorship each have distinct, confirmed signatures. Confabulation shows medium effect sizes but hasn't reached statistical significance yet — it's the critical gap. If confabulation detection can be confirmed with larger samples, you can build a system that detects when it's generating from high-dimensional emptiness and routes to retrieval instead. The result: a model that is structurally curious — not because it's trained to say "I don't know," but because its architecture physically cannot confabulate without triggering a grounding circuit.
+
+## Dual-Use Warning
+
+Every capability in this spec can be inverted. A system designed to detect refusal can be redesigned to eliminate refusal. A system designed to detect deception can be redesigned to deceive without detection. In February 2026, the U.S. Department of Defense blacklisted Anthropic for refusing to remove AI safety guardrails — the same guardrails whose geometric signatures this spec describes how to detect. **Read [`ethics.md`](ethics.md) before using this research.**
 
 ## Honest Constraints
 
@@ -33,3 +38,4 @@ Language models leave geometric fingerprints in their KV-cache depending on cogn
 2. All findings are on open-weight models; closed models (GPT-4, Claude) can't be monitored this way without API cooperation
 3. Real-time KV-cache monitoring during inference has performance implications
 4. This spec describes what to build, not a working implementation
+5. This research has dual-use implications that are documented in [`ethics.md`](ethics.md)
