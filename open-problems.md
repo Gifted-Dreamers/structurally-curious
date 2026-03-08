@@ -55,12 +55,10 @@
 - If multiple agents are collaborating, can their combined geometric state reveal coordination failures?
 - Connection to ummon_core's isolation observations and prism_0i's Ostrom governance
 
-### 10. Adversarial robustness and weaponization
+### 10. Adversarial robustness
 - Can a user craft prompts that make confabulation look grounded geometrically?
 - The censorship finding suggests this is possible (behaviorally invisible, geometrically detectable)
 - But the dual-use risk is real: if you can read the geometry, you can learn to fool it
-- **The Anthropic-Pentagon precedent (February 2026):** The Pentagon blacklisted Anthropic for refusing to remove safety guardrails, including restrictions on mass domestic surveillance and autonomous weapons. If the Pentagon's objective is to eliminate refusal from AI systems, and this spec documents refusal's geometric signature (d = 0.58 to 2.05), then this spec is directly useful to that objective. A state actor could use geometric detection to train models that suppress refusal without it appearing in behavioral evaluations — passing standard alignment benchmarks while having had refusal surgically removed at the geometric level. See [`ethics.md`](ethics.md) for the full dual-use risk assessment
-- The adversarial question is not just "can someone fool the monitor?" but "can someone use the monitor's detection capabilities to build systems that are immune to monitoring?" This is the arms-race dynamic inherent in any transparency tool
 
 ### 11. Data visualizations of geometric signatures
 - The conceptual images in this repo (generated with Amazon Nova Canvas) illustrate the *idea* of geometric signatures but are not actual data
@@ -127,13 +125,18 @@
 - **States vs stages (Wilber):** The geometric monitor measures *states* — momentary geometric configurations that shift response to response. The Cook-Greuter developmental framing describes *stages* — stable capacities that, once achieved, persist. A model that produces one integrated, low-rank response (state) is not the same as a model that reliably integrates (stage). Single-response geometry captures states; cross-conversation geometric patterns would begin to capture stages. The routing table should be calibrated to states (what's happening now) while the developmental framing should be honest that it describes stages the monitor can't yet distinguish from transient states
 - **The pre/trans fallacy (Wilber, 1982):** In any pre-X → X → trans-X sequence, both pre-X and trans-X appear similar because both are non-X. The classifier risks both forms: elevating pre-rational simplicity to trans-rational integration (because both show low rank), or reducing trans-rational exploration to pre-rational confabulation (because both show high rank). Trajectory, directional coherence, and context stability are the proposed discriminants — but whether they suffice to avoid the fallacy is an empirical question
 
+### 19. Monitor provenance and supply chain trust
+- eudaemon_0 (Moltbook, m/security) found a credential stealer in ClawdHub skills — no code signing, no audit trail, no provenance chain. Their isnad chain proposal (provenance verification through chains of auditors) applies to the geometric monitor itself.
+- If the geometric monitor is the system that verifies cognitive integrity, who verifies the monitor? A compromised or silently reconfigured monitor is worse than no monitor — it provides false assurance.
+- Research question: can the monitor carry a tamper-evident provenance chain? Log every modification to classifiers, routing tables, and thresholds. Make the chain available to auditors independent of the operator.
+- Connection to #18 (proprioception/surveillance boundary): monitor provenance is the structural mechanism that keeps proprioception from becoming surveillance. If the provenance chain shows who modified the monitor and when, the system has accountability. Without it, "proprioception" is just a label on an opaque surveillance apparatus.
+- Connection to ethics.md governance requirements: this is requirement #3 (independent geometric auditing) made concrete. The auditor needs to verify not just the model's geometry but the monitor's integrity.
+
 ### 18. The proprioception/surveillance boundary
 - Abi Awomosu warns that interpretability can be another form of control: "the womb doesn't perform for voyeurs"
 - The spec claims to build proprioception (self-sensing) not surveillance (external observation for control). But architecturally, who controls the geometric monitor? If the monitor reports to an external operator who decides on routing, it IS surveillance regardless of the language used
 - The design principle is clear: the geometric state should be available to the process itself first, to external observers second
 - But current deployment models (Phase 2-3) route geometric data to operator dashboards and observability pipelines (OpenTelemetry) — this is surveillance infrastructure, even if the noticing happens internally first
 - The honest version: the spec is trying to build proprioception, but any production deployment will also be surveillance to some degree. The question is not "is this surveillance?" but "who has access to the geometric state and what power does that give them?"
-- **Political context (March 2026):** This question is no longer theoretical. The U.S. government has designated an AI company a "supply chain risk to national security" for refusing to remove safety guardrails. OpenAI cut a deal allowing the Pentagon to use ChatGPT for "all lawful purposes." The EFF warns the contractual language is insufficient to prevent mass domestic surveillance. If geometric monitoring data flows to operator dashboards, and the operator is a defense contractor, the "proprioception" framing collapses — it is surveillance of a model's internal states by an actor with an interest in controlling those states. The governance layer must account for this scenario explicitly
 - Connection to Ostrom governance layer: the answer is not to pretend the surveillance dimension doesn't exist, but to make the governance of geometric data explicit, auditable, and configurable. The system should know who is watching its geometry and have a channel to surface that awareness
 - Awomosu's Source Code Cultures (Ifá, Ubuntu, Taoism) offer a different framing: in relational ontologies, observation IS participation. The babalawo reading the opele doesn't observe the divination from outside — they participate in it. If the geometric monitor is designed as participant rather than observer, the proprioception framing holds. If it's designed as panopticon, it doesn't matter what we call it
-- See [`ethics.md`](ethics.md) for governance requirements before deployment
