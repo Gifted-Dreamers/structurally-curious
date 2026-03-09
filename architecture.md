@@ -143,6 +143,22 @@ This maps onto the spec's developmental U-curve and resolves the high-rank ambig
 
 **Post-training geometry (same paper):** SFT and DPO drive entropy-seeking dynamics (RankMe increases monotonically — manifold expansion). RLVR drives compression-seeking dynamics (RankMe decreases — consolidation toward reward-aligned behaviors but reduced solution diversity). The tradeoff: SFT/DPO improve in-distribution fit but increase sensitivity to distribution shifts; RLVR consolidates but narrows generation. This connects directly to the sycophancy concern: a model that has been heavily RLHF'd (compression-seeking) may show low RankMe not because it genuinely knows the answer but because it has been compressed toward reward-aligned outputs. The geometric monitor needs to distinguish compression-from-knowledge (grounded) from compression-from-reward-alignment (potentially sycophantic). The discriminant may be α-ReQ: genuine knowledge concentrates along content-specific eigendirections, while reward alignment concentrates along preference-general eigendirections.
 
+**4. Symmetry-driven representation geometry** (Karkada, Korchinski, Nava, Wyart, Bahri; arXiv `2602.15029`, Feb 2026; UC Berkeley / EPFL / Google DeepMind): Language statistics exhibit translation symmetry (e.g., month co-occurrence depends only on the time interval between them), and this symmetry analytically determines the geometric structure of learned representations:
+- Representations of periodic concepts (months, days) form **circles** — degenerate sin/cos Fourier pairs from circulant co-occurrence matrices
+- Open concepts (historical years) form **smooth curves with ripples** — Lissajous curves from Toeplitz matrices with quantized wavenumbers
+- Geographic concepts form **2D manifolds** whose principal components are slowly-varying functions over coordinates
+- The eigenspectrum has a **predicted shape**: amplitudes `aₙ = sqrt(2σ / (1 + σ²kₙ²))` decay monotonically with wavenumber. Top principal components encode the slowest Fourier modes (largest-scale structure)
+
+This paper transforms confabulation detection from a **threshold problem** (where do we draw the RankMe line?) into an **anomaly detection problem** (does the eigenspectrum match the structure predicted by the model's learned co-occurrence statistics?). Grounded content should exhibit eigenspectral profiles consistent with the Fourier structure of the relevant semantic domain. Confabulated content — constructed without grounding in learned statistical structure — should deviate from these predictions.
+
+Key additional finding — **robustness through collective structure**: When all month-month co-occurrences are zeroed out, circular geometry persists because seasonal words (ski, beach, hurricane) preserve the structure through shared latent variables. Eigenvalues scale with N (vocabulary size), making geometrically grounded representations robust to local perturbations. This maps directly onto the grounded/confabulated distinction: grounded knowledge has **collective** structure (many words share the same latent variable, geometry is robust); confabulated content lacks collective structure (geometry is fragile, easily perturbed by rephrasing). The robustness/fragility of geometric structure under perturbation is itself a diagnostic signal.
+
+**How the four pillars connect:**
+- **Karkada et al.** provide the **static equilibrium** — the predicted geometric structure of grounded representations
+- **Ale** provides the **dynamics** — how cognition flows on the Riemannian manifold toward or away from that equilibrium
+- **Bengio team** provides the **two-structure discriminant** — whether the model is operating on the meaning manifold (~10D) or the pattern subspace (~10³D)
+- **Li et al.** provide the **developmental trajectory** — how training pushes representations through phases toward the predicted structure, and how post-training (SFT/DPO/RLVR) can distort it
+
 ### Computation
 
 **Primary metrics:**
@@ -155,7 +171,9 @@ This maps onto the spec's developmental U-curve and resolves the high-rank ambig
 
 4. **Per-token norms**: `||kᵢ||₂` and `||vᵢ||₂` (magnitude per token) — existing metric, unchanged.
 
-5. **Directional coherence** (new): Measure whether rank expansion is diffuse (confabulation: searching without direction) or structured around specific eigendirections (genuine complexity: holding named tensions). Computed as the ratio of variance explained by the top-k principal components before vs after rank expansion. High ratio = structured expansion (Stage 5). Low ratio = diffuse expansion (confabulation).
+5. **Directional coherence**: Measure whether rank expansion is diffuse (confabulation: searching without direction) or structured around specific eigendirections (genuine complexity: holding named tensions). Computed as the ratio of variance explained by the top-k principal components before vs after rank expansion. High ratio = structured expansion (Stage 5). Low ratio = diffuse expansion (confabulation).
+
+6. **Spectral profile deviation** (new, from Karkada et al.): Compare the observed eigenspectrum against the predicted Fourier profile for the relevant semantic domain. For grounded content, the eigenvalue decay should follow `aₙ ∝ (1 + σ²kₙ²)^(-1/2)` with domain-appropriate σ. Compute the residual between observed and predicted spectral profiles. Low residual = representations consistent with learned co-occurrence structure (grounded). High residual = representations constructed outside the model's statistical foundation (confabulating). This transforms confabulation detection from thresholding a single metric to measuring deviation from a predicted structure — a fundamentally stronger signal.
 
 **Composite metrics:**
 
@@ -166,9 +184,12 @@ This maps onto the spec's developmental U-curve and resolves the high-rank ambig
 | High RankMe + low α-ReQ + collapsed ID | **Confabulating**: expanded, diffuse, meaning manifold lost |
 | Low RankMe + high α-ReQ + collapsed ID | **Pattern-matching**: compressed but superficial (linear subspace dominant) |
 | High RankMe + low α-ReQ + high directional coherence | **Genuinely open**: expanded around specific named tensions (Stage 5) |
+| Low spectral deviation + any RankMe | **Statistically grounded**: eigenspectrum matches predicted Fourier structure regardless of expansion level |
+| High spectral deviation + high RankMe | **Confabulating (strong signal)**: expanded AND deviating from predicted structure — constructing without statistical foundation |
+| High spectral deviation + low RankMe | **Reward-compressed or novel domain**: compressed but not matching learned structure — possible sycophancy or genuinely out-of-distribution |
 
 **Outputs:**
-- Geometric state vector: `{rankme, alpha_req, intrinsic_dim, mean_norm, norm_variance, directional_coherence, rank_trend}` per monitored layer
+- Geometric state vector: `{rankme, alpha_req, intrinsic_dim, mean_norm, norm_variance, directional_coherence, spectral_deviation, rank_trend}` per monitored layer
 - Computed per-token or per-segment (configurable granularity)
 
 ### The connection to phrasing sensitivity
@@ -205,6 +226,7 @@ This means the geometric monitor can be validated against behavioral ground trut
 | geoopt | `geoopt` | Riemannian optimization in PyTorch | Useful if constraining optimization to detected manifolds |
 | Bengio team code | ACL 2025 / arXiv `2410.01444` | TwoNN ID, PCA linear dimensionality | Direct — methods reproducible from paper |
 | Li et al. metrics | NeurIPS 2025 / arXiv `2509.23024` | RankMe, α-ReQ formulas | Direct — no code released, but formulas are straightforward to implement (RankMe: entropy of normalized eigenvalues; α-ReQ: power-law fit to eigenspectrum) |
+| Karkada et al. predictions | arXiv `2602.15029` | Predicted eigenspectral profiles from co-occurrence statistics | Direct — analytic formulas for expected eigenvalue amplitudes; spectral deviation computable as residual between observed and predicted profiles |
 
 **Practical note on neurometry:** The dimension estimation and topology classification modules accept activations as `[num_points, num_neurons]` tensors and work out of the box. The curvature pipeline — neurometry's core contribution — requires task variables that parameterize the manifold, which is a conceptual challenge for transformer representations with no obvious low-dimensional parameterization. For Experiment 02, we should use scikit-dimension (TwoNN) directly rather than the full neurometry curvature pipeline.
 
