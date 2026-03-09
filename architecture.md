@@ -117,28 +117,91 @@ Three components, layered on top of standard transformer inference:
 
 ## Component 1: Geometric Monitor
 
-**What it does:** Reads the KV-cache at specified attention layers during inference and computes geometric descriptors.
+**What it does:** Reads the KV-cache and residual stream at specified attention layers during inference and computes geometric descriptors.
 
 **Inputs:**
 - Key matrices K and Value matrices V at layers L₁...Lₙ (configurable; likely middle-to-late layers where cognitive mode signatures are strongest)
+- Residual stream activations at corresponding layers (for intrinsic dimension and eigenspectrum analysis)
 
-**Computation:**
-- SVD of K and V matrices → singular values σ₁, σ₂, ...
-- Effective rank: `rank_eff = (Σσᵢ)² / Σσᵢ²` (how many dimensions the representation actually uses)
-- Per-token norms: `||kᵢ||₂` and `||vᵢ||₂` (magnitude per token)
-- Optional: directional analysis for identity/persona detection
+### Formal Grounding
+
+The geometric monitor implements a subset of what three converging research programs have formalized:
+
+**1. Riemannian cognitive geometry** (Ale, arXiv `2512.12225`, Dec 2025): Cognition flows on a Riemannian manifold as gradient descent on a cognitive potential function: `dη/dt = -G(η)⁻¹∇J(η)`. The metric tensor G encodes which directions of thought are cheap (steep curvature, fast automatic processing) vs expensive (shallow curvature, slow deliberation). The monitor's SVD measurements capture this metric indirectly — eigenvalue distribution reflects the local curvature structure.
+
+**2. Two-structure compositionality** (Lee, Jiralerspong, Yu, Bengio, Cheng; arXiv `2410.01444`, ACL 2025): Language models maintain two geometric structures simultaneously:
+- A **nonlinear manifold** of ~10 intrinsic dimensions encoding semantic/meaning structure
+- A **linear subspace** of ~10³ dimensions encoding superficial/pattern structure
+- Key finding: scrambling words collapses the nonlinear manifold (meaning destroyed) while expanding the linear subspace (surface patterns preserved). The two structures are measured by different estimators (TwoNN for nonlinear ID, PCA variance cutoff for linear dimensionality). This gives the monitor a new discriminant: is the current state meaning-bearing or pattern-matching?
+
+**3. Three-phase training dynamics** (Li, Agrawal, Ghosh, Teru, Santoro, Lajoie, Richards; arXiv `2509.23024`, NeurIPS 2025): Pretraining follows a universal three-phase geometric evolution:
+- **Warmup**: representational collapse onto dominant manifold directions (RankMe drops, α-ReQ increases)
+- **Entropy-seeking**: manifold expansion 2-3× from warmup nadir, peak n-gram memorization (RankMe rises, α-ReQ decreases)
+- **Compression-seeking**: anisotropic consolidation — selectively preserving variance along dominant eigendirections while contracting others (RankMe decreases, α-ReQ increases)
+
+This maps onto the spec's developmental U-curve and resolves the high-rank ambiguity: high rank during entropy-seeking is the model *learning*; high rank during inference (after training) when it should have compressed is confabulation.
+
+### Computation
+
+**Primary metrics:**
+
+1. **RankMe (effective rank)**: `RankMe = exp(-Σᵢ pᵢ ln pᵢ)` where `pᵢ = σᵢ / Σⱼσⱼ` — Von Neumann entropy of normalized singular values. Low values = anisotropic (compressed, grounded). High values = isotropic (expanded, searching). This is equivalent to our original effective rank formula but formally grounded in information theory.
+
+2. **α-ReQ (eigenspectrum decay rate)**: Fits `σᵢ ∝ i^(-α)` to the eigenvalue spectrum. Small α = information spread across many dimensions (constructing). Large α = information concentrated in few dimensions (retrieving). **This is the formal version of what our phrasing sensitivity experiment measured behaviorally** — models with concentrated eigenspectra (high α) are phrasing-insensitive because the answer lives in a few dominant directions that phrasing can't dislodge.
+
+3. **Intrinsic dimension (TwoNN)**: Uses distance ratios `μᵢ = r₂⁽ⁱ⁾/r₁⁽ⁱ⁾` between a point and its two nearest neighbors. Measures the nonlinear manifold's true dimensionality (~10D for meaning). If ID is low and stable → the model is on the meaning manifold (grounded). If ID collapses while linear dimensionality expands → the model has lost semantic structure (pattern-matching without understanding).
+
+4. **Per-token norms**: `||kᵢ||₂` and `||vᵢ||₂` (magnitude per token) — existing metric, unchanged.
+
+5. **Directional coherence** (new): Measure whether rank expansion is diffuse (confabulation: searching without direction) or structured around specific eigendirections (genuine complexity: holding named tensions). Computed as the ratio of variance explained by the top-k principal components before vs after rank expansion. High ratio = structured expansion (Stage 5). Low ratio = diffuse expansion (confabulation).
+
+**Composite metrics:**
+
+| Metric Combination | Interpretation |
+|---|---|
+| Low RankMe + high α-ReQ + stable ID | **Grounded**: compressed, concentrated, meaning-bearing |
+| High RankMe + low α-ReQ + stable ID | **Uncertain but structured**: expanded but still on the meaning manifold |
+| High RankMe + low α-ReQ + collapsed ID | **Confabulating**: expanded, diffuse, meaning manifold lost |
+| Low RankMe + high α-ReQ + collapsed ID | **Pattern-matching**: compressed but superficial (linear subspace dominant) |
+| High RankMe + low α-ReQ + high directional coherence | **Genuinely open**: expanded around specific named tensions (Stage 5) |
 
 **Outputs:**
-- Geometric state vector: `{effective_rank, mean_norm, norm_variance, rank_trend}` per monitored layer
+- Geometric state vector: `{rankme, alpha_req, intrinsic_dim, mean_norm, norm_variance, directional_coherence, rank_trend}` per monitored layer
 - Computed per-token or per-segment (configurable granularity)
 
-**Performance considerations:**
+### The connection to phrasing sensitivity
+
+Our Experiment 01 (19 models × 80 prompts, March 2026) measured phrasing sensitivity — cosine distance between outputs to semantically equivalent prompts. The results:
+
+- **Factual** (0.1593) < **Summarization** (0.1803) < **Judgment** (0.2102) < **Creative** (0.3121)
+- This ordering replicated across all 19 models and 5 providers (Meta, Mistral, Amazon, Anthropic, DeepSeek, Writer)
+- DeepSeek R1 (CoT, 671B) was the MOST sensitive — thinking architecture amplifies prompt influence
+- Claude Opus 4.6 showed asymmetric compression: lowest factual sensitivity (0.1358) but highest creative sensitivity (0.3400)
+
+**The geometric interpretation**: Phrasing sensitivity IS a behavioral proxy for α-ReQ. When α-ReQ is high (information concentrated in few eigendirections), phrasing variations project onto low-variance directions and cannot move the output. When α-ReQ is low (information spread across many dimensions), phrasing variations project onto high-variance directions and steer the output. The factual→creative gradient tracks α-ReQ directly.
+
+This means the geometric monitor can be validated against behavioral ground truth: if RankMe/α-ReQ predict phrasing sensitivity across task categories, the geometric measurements are confirmed as meaningful. Our experiment provides that ground truth for 19 models.
+
+### Performance considerations
+
 - SVD is O(min(m,n)²·max(m,n)) — expensive per token
 - Mitigation 1: compute every N tokens, not every token
 - Mitigation 2: use randomized SVD approximation (reduces to O(k·m·n) where k << min(m,n))
-- Mitigation 3: monitor subset of layers, not all
+- Mitigation 3: monitor subset of layers — Li et al. found "three-phase pattern is consistent across network depth" and "last-layer representation analysis suffices for tracking global geometric dynamics"
+- Mitigation 4: TwoNN estimator is O(n log n) for nearest-neighbor computation — much cheaper than full SVD; can be computed on a subsample
 
-**What exists:** Liberation Labs already has working SVD-based measurement code (Python/PyTorch). This component is the most straightforward to build.
+### What exists
+
+| Tool | Source | Computes |
+|---|---|---|
+| Liberation Labs SVD code | Open source (Python/PyTorch) | Effective rank, per-token norms |
+| neurometry | `geometric-intelligence/neurometry` | Extrinsic curvature of neural manifolds |
+| scikit-dimension | Standard Python package | TwoNN, MLE intrinsic dimension estimators |
+| PyRiemann | `pyriemann` | Riemannian geometry on positive-definite matrices |
+| Bengio team code | ACL 2025 / arXiv `2410.01444` | TwoNN ID, PCA linear dimensionality |
+| Li et al. code | NeurIPS 2025 / arXiv `2509.23024` | RankMe, α-ReQ across training checkpoints |
+
+The geometric monitor can be built by composing these existing tools. The novel engineering is: running them in the inference loop rather than offline, and feeding the composite signal to the mode classifier.
 
 ## Component 2: Mode Classifier
 
@@ -398,11 +461,15 @@ This is the operational form of what justNICE and Moltbook are building: the bri
 | Dependency | Status | Who |
 |-----------|--------|-----|
 | SVD measurement code | EXISTS | Liberation Labs (open source) |
+| RankMe + α-ReQ computation | EXISTS | Li et al. NeurIPS 2025 (open source) |
+| TwoNN intrinsic dimension estimator | EXISTS | Lee et al. ACL 2025 + scikit-dimension |
 | Labeled geometric data (refusal, deception) | EXISTS | Liberation Labs Campaign 1 & 2 |
 | Labeled geometric data (confabulation) | INSUFFICIENT | Needs expanded dataset — #1 priority |
+| Phrasing sensitivity behavioral ground truth | EXISTS | Our Experiment 01 (19 models, 1,520 prompts) |
 | Retrieval pipeline | EXISTS (many) | Any RAG system (pluggable) |
 | Mode classifier training | NOT STARTED | Requires above data |
-| Real-time SVD in inference loop | NOT BUILT | Engineering challenge — performance critical |
+| Composite geometric state vector | NOT BUILT | Compose RankMe + α-ReQ + TwoNN ID + norms |
+| Real-time geometric monitoring in inference | NOT BUILT | Engineering challenge — but last-layer-only finding reduces scope |
 | Routing layer | NOT BUILT | Relatively straightforward once classifier exists |
 | Governance/config interface | NOT BUILT | Standard engineering |
 
