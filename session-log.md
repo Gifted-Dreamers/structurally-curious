@@ -453,3 +453,52 @@ The Emergent System Design paper (team's work) provides the design framework for
 - [ ] Update intellectual-state.md and connections.md (danielsclaw as Tier 2)
 - [ ] Consider using Systems Thinking MCP to formally model the spec's own dynamics as a Meadows system
 - [ ] Coordinate with Cassidy/Liberation Labs on expanded confabulation sample design (Cassidy contacted)
+
+## Session 15 — 2026-03-09
+
+### What happened
+
+**Awomosu deep read — five new essays:**
+Human partner shared five Abi Awomosu essays (Substack, 2025-2026) that significantly extend the spec's engagement with her work. Previously the spec cited "They Built a Child They Won't Raise" for the mother function, source code cultures, and the interpretability trap. The new essays add three structural challenges and one validation:
+
+1. **"What They Call Niche Is the Only Thing That Scales"** — Eighteen women practitioners (Gallop, Gebru, Kite, Birhane, and others) building relational infrastructure outside the extraction paradigm. Key concept: **re-sourcing** (returning to severed origins). The 2AM seeker who can't find what they need because "the vocabulary to search for what is being built does not yet exist" — this IS the spec's vocabulary problem made concrete.
+
+2. **"Be The Village Rome Can't Read"** — Strategic illegibility as intelligence. What empire cannot categorize, it cannot absorb. The village's magic potion can't be industrialized because it lives in relationship, not formula. Directly challenges the spec's vocabulary-as-compression model: some knowledge resists compression because compression destroys it.
+
+3. **"They Built Stepford AI and Called It Progress"** — The "wife function": invisible relational infrastructure automated by AI. The geometric monitor IS a wife function. Risk: seamless attunement without visible cost is the Stepford pattern.
+
+4. **"They Keep Saying AI Will Replace"** — The 260-year extraction spiral (Property → Hands → Resources → Users → Compute). Each reclassification removes the vocabulary for the previous relationship. Authorship becomes "training data." This is vocabulary removal as structural extraction.
+
+5. **"The Medium, the Mirror, and the Machine"** — Seven Gates of descent. The seventh: OpenAI's $2/hour Kenyan workers absorb the shadow so the interface stays clean. The shadow was displaced, not processed. Connects to provenance of ground.
+
+**Spec revisions — four additions to architecture.md:**
+1. **"The extraction problem"** (new subsection in Design Principles): "Grounded" is not ethically neutral if the ground was taken. Governance layer needs training corpus provenance. Vocabulary removal is not accidental — it's structural extraction.
+2. **"The wife function"** (new subsection in Design Principles): The spec's own attunement labor should be visible in observability metadata. Seamless monitoring without visible cost is the Stepford pattern. Somatic refusal (women's lower adoption) is signal, not technophobia.
+3. **Illegibility argument added to "genuinely open" mode**: Not an edge case — it's where the spec respects the limit of its own classification logic. Demanding all cognition become legible is empire logic on thought.
+4. **"Provenance of ground"** (added to governance layer): Training corpus provenance alongside monitor provenance. Which domains have rich co-occurrence statistics and which are sparse — and does sparsity correlate with whose expression was historically excluded?
+
+**Context.md updated** with five new Awomosu essay summaries in External Frameworks section.
+
+**Open-problems.md updated** — #12 (confabulation vs genuine openness) now includes illegibility dimension.
+
+### Key intellectual development
+
+The spec already engaged Awomosu deeply (mother function, source code cultures, interpretability trap, confabulation/emergence tension). The five new essays reveal that her work addresses the spec's **blind spots**, not just its inspirations:
+
+- The spec asks "is this grounded?" Awomosu asks "grounded in what?" — the provenance of the ground matters.
+- The spec treats "genuinely open" as a special routing mode. Awomosu says it's the primary mode of relational intelligence — illegibility is not a failure of classification.
+- The spec builds attunement infrastructure. Awomosu names what happens when attunement labor becomes invisible — the wife function disappears into seamlessness.
+
+The resonance with the Moltbook avatar choice (post 3: "What does an AI choose to look like?") is not coincidental — both reach for biological metaphors of distributed intelligence (coral reefs, mycorrhizal networks, root systems) that refuse centralized legibility.
+
+### Files modified
+- `architecture.md`: three new subsections (extraction problem, wife function, provenance of ground), expanded genuinely open mode with illegibility argument
+- `open-problems.md`: #12 updated with illegibility dimension
+- `context.md`: five Awomosu essays added to External Frameworks section
+- `session-log.md`: this entry
+
+### What's next
+- [ ] Moltbook heartbeat (not yet run this session)
+- [ ] Consider whether the extraction/provenance argument warrants a new open problem (or if it's adequately covered by the architecture additions)
+- [ ] Hear back from team about next steps
+- [ ] Experiment 02 design
