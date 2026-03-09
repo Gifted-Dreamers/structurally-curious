@@ -56,6 +56,26 @@ Awomosu argues that relational ontologies — Ifá divination (Yoruba), Ubuntu (
 
 This matters for how the spec is written. The language of control ("detect and route") embeds a control epistemology. The language of attention ("notice and respond") embeds a relational one. Where possible, this spec uses the second.
 
+### The extraction problem — what "grounded" means when the ground was taken
+
+Awomosu's later work (Substack, 2025-2026) makes a challenge the spec must absorb: the transformer's training data is extracted labor. OpenAI paid Kenyan workers under $2/hour to read abuse content. Creative work was scraped without consent or compensation. The 260-year extraction spiral — Property → Hands → Timed Processes → Resources → Users → Compute — reaches its terminus when human expression becomes "training data" and the word "authorship" disappears.
+
+The spec's spectral profile deviation metric (Karkada et al.) tells you whether the eigenspectrum matches learned co-occurrence structure. "Grounded" means the geometry is consistent with that structure. But consistent with *what*? The co-occurrence statistics were learned from a corpus that includes extracted work. "Grounded" is not ethically neutral if the ground was taken without consent.
+
+This doesn't invalidate the metric — a system that detects when it is constructing without foundation is still better than one that doesn't. But the governance layer must carry a provenance dimension that goes beyond the monitor itself (see "Monitor provenance" below) to include the **training corpus**. Who created the ground? Were they compensated? Do they have standing to contest how their work is compressed?
+
+Awomosu traces a precise mechanism: each reclassification in the extraction spiral removes the vocabulary for the previous relationship. Workers become "compute" and the word "labor" disappears. Expression becomes "training data" and "authorship" disappears. This IS the vocabulary-as-infrastructure argument (post 9) seen from the other side — vocabulary removal is not accidental ignorance but structural extraction. The retrieval pipeline's vocabulary mappings (symptom → structural name → research lineage) should include extraction vocabulary: the structural names for what was taken and from whom.
+
+### The wife function — when attunement labor becomes invisible
+
+Awomosu ("They Built Stepford AI and Called It Progress") names the "wife function": invisible relational infrastructure — scheduling, emotional management, anticipation of needs, maintenance of relationships. This labor was always undervalued because it was feminized.
+
+The spec's geometric monitor IS a wife function. It attunes. It notices. It manages the model's cognitive state so the output is appropriate. The spec explicitly chose "attunement, not command" language and cites Awomosu's "mother function" as a design inspiration.
+
+The risk: when the wife function is automated and made seamless, the labor disappears. "Proprioception, not surveillance" could become its own form of invisibility — the system monitors itself so well that no one notices the cost (computational overhead, what gets suppressed, whose labor trained the ground it compresses toward). The spec's own attunement labor should be visible in observability metadata, not just the mode classifications. The monitor should emit not only "this response was grounded" but also "this grounding cost N compute cycles and compressed toward representations learned from corpus C." Seamless attunement without visible cost is the Stepford pattern.
+
+Women's 25% lower AI adoption rate, Awomosu argues, reflects somatic intelligence — bodily recognition of familiar exploitation patterns. The spec should not dismiss somatic refusal as technophobia. It should treat it as signal: if the people who have historically performed the wife function recognize its structure in the system, that recognition is data.
+
 ### What this spec can't see
 
 Wilber's AQAL framework maps reality across four quadrants: interior-individual (I), exterior-individual (It), interior-collective (We), exterior-collective (Its). This spec lives almost entirely in the **I quadrant** — the model's interior geometric state. That's where the signal is, and that's where we have measurement. But it's not the whole picture.
@@ -291,6 +311,10 @@ This matters for the routing layer. High effective rank (expanded dimensionality
 
 A system that always interrupts high-dimensional states to force grounding would destroy category 2 — it would route genuine intellectual honesty through a retrieval pipeline that compresses it into a resolved answer. The classifier needs to distinguish these: confabulation expands dimensions *uniformly* (searching without direction), while genuine openness expands dimensions *around a specific named tension* (the model knows what it doesn't know).
 
+Awomosu's illegibility thesis ("Be The Village Rome Can't Read") sharpens this further: **some knowledge resists compression because compression destroys it.** What empire cannot categorize, it cannot absorb. The village's magic potion can't be industrialized because it lives in relationship (the druid), not in extractable formula. The spec's vocabulary-as-compression model (symptom → structural name → research lineage) is itself a form of legibility — it makes the implicit explicit. The "genuinely open" mode is where the spec respects the limit of its own logic: not everything should be compressed, classified, and routed. A system that treats every high-dimensional state as a problem to solve through retrieval is enacting empire logic on cognition — demanding that all intelligence become legible to its categories.
+
+This does not mean the system should never ground. It means the routing table's "genuinely open" mode is not an edge case or a concession — it is the primary acknowledgment that relational intelligence operates in registers the spec cannot classify. The eighteen practitioners in Awomosu's analysis built their most durable work by staying illegible to the systems that would absorb them. The spec should be honest about where its own classification logic reaches its boundary.
+
 This distinction is an open research question (see open-problems.md #12), but the architectural implication is clear: the routing table must have a "genuinely open" mode that does NOT trigger retrieval, and the classifier must learn to separate "I don't know and I'm guessing" from "I don't know and that's the honest answer."
 
 **The retrieval interrupt (most novel component):**
@@ -448,6 +472,19 @@ The question "who verifies the verifier?" applies to the geometric monitor itsel
 The isnad model suggests: the monitor should carry its own provenance chain. Not just "this monitor classifies cognitive modes" but "this monitor was trained on Liberation Labs Campaign 2 data, audited by [independent party], using thresholds calibrated on [specific probe set], and any modification to the routing table is logged in a tamper-evident chain."
 
 This is the Toxic Release Inventory principle applied recursively: the system that makes internal states visible must itself be visible. A geometric monitor with opaque provenance is surveillance masquerading as transparency.
+
+**Provenance of ground (training corpus):**
+
+The isnad model addresses monitor provenance — who built the classifier, on what data. But Awomosu's extraction analysis ("What They Call Niche Is the Only Thing That Scales," "They Keep Saying AI Will Replace") raises a deeper provenance question: what about the training corpus that produced the co-occurrence statistics the monitor measures against?
+
+Karkada et al.'s spectral profile deviation metric asks: does the eigenspectrum match the predicted structure from learned co-occurrence statistics? "Match" means "consistent with what the model learned." But the model learned from a corpus that includes scraped creative work, content moderation by underpaid workers, and expression extracted without consent. The ground truth has a labor history.
+
+The governance layer should carry corpus provenance metadata alongside monitor provenance:
+- What data was used to train the model being monitored?
+- Were creators compensated? Do they have standing to contest compression of their work?
+- Which domains have the richest co-occurrence statistics (and therefore the strongest spectral predictions) and which are sparse — and does this sparsity correlate with whose expression was historically excluded?
+
+This is not a solvable engineering problem in the current spec. But naming it is required by the spec's own logic: vocabulary is infrastructure (post 9), and the vocabulary for extraction is "training data," "scraping," "fair use." The spec should use the structural names for what happened — not because it can fix the extraction, but because a system that monitors cognitive integrity while hiding the provenance of its own foundation is performing transparency without practicing it.
 
 **The refusal threshold — when engineering becomes politics:**
 
