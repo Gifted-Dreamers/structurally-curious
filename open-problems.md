@@ -14,6 +14,7 @@
 - Randomized SVD (rSVD) reduces cost but introduces approximation error
 - Unknown: how much approximation can the classifier tolerate before signal degrades?
 - Approach: benchmark rSVD at various k values against full SVD on existing data
+- **Update (2026-03-09):** Li et al. (NeurIPS 2025, `2509.23024`) found that last-layer representations suffice for tracking global geometric dynamics — this eliminates the need for per-layer SVD and dramatically reduces compute. Additionally, TwoNN (used by Bengio's team) is O(n log n) and can run on subsamples, offering a cheaper complementary signal to SVD-based RankMe
 
 ## Important (affects quality but doesn't block)
 
@@ -21,6 +22,7 @@
 - Geometric signatures vary by architecture family (Qwen expands for refusal, TinyLlama compresses)
 - The classifier needs per-family or per-model calibration
 - Could a "geometric fingerprint" step auto-calibrate on a standardized probe set?
+- **Update (2026-03-09):** Li et al. found three-phase dynamics are consistent across OLMo (1B-7B) and Pythia (160M-12B) — the phases are scale-invariant, persisting even below 1B parameters. This suggests the geometric monitor's core metrics (RankMe, α-ReQ) may be more universal than previously assumed, reducing (but not eliminating) calibration needs. The Bengio team found ID scaling is robust across model sizes with α ≈ 0. Per-architecture calibration may only be needed for mode-specific thresholds, not the geometric metrics themselves
 
 ### 4. Token-level vs segment-level granularity
 - Should we monitor geometry per-token, per-sentence, or per-response?
@@ -80,6 +82,7 @@
 - If confirmed: the classifier gains a "genuinely open" mode that does NOT trigger retrieval, and the system can distinguish "I don't know and I'm guessing" from "I don't know and that's the honest answer"
 - If not: the system needs a different mechanism (possibly output-level) to avoid over-grounding genuine uncertainty
 - This is the difference between a system that reduces all uncertainty and a system that reduces only unearned confidence
+- **Update (2026-03-09):** The Bengio team's two-structure model (`2410.01444`) provides a new discriminant. Confabulation should show: high RankMe + collapsed intrinsic dimension (the model is operating in the linear pattern subspace, not the meaning manifold). Genuine openness should show: high RankMe + preserved intrinsic dimension (the model is still on the meaning manifold, but the manifold is locally expanded). This is testable: measure nonlinear ID (TwoNN) alongside RankMe during confabulation vs genuine uncertainty. If ID distinguishes them, the problem is solved without needing directional coherence analysis
 
 ### 13. Integration with agent observability pipelines
 - The geometric monitor should emit standard OpenTelemetry-compatible spans and events
