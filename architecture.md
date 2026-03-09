@@ -141,6 +141,8 @@ The geometric monitor implements a subset of what three converging research prog
 
 This maps onto the spec's developmental U-curve and resolves the high-rank ambiguity: high rank during entropy-seeking is the model *learning*; high rank during inference (after training) when it should have compressed is confabulation.
 
+**Post-training geometry (same paper):** SFT and DPO drive entropy-seeking dynamics (RankMe increases monotonically — manifold expansion). RLVR drives compression-seeking dynamics (RankMe decreases — consolidation toward reward-aligned behaviors but reduced solution diversity). The tradeoff: SFT/DPO improve in-distribution fit but increase sensitivity to distribution shifts; RLVR consolidates but narrows generation. This connects directly to the sycophancy concern: a model that has been heavily RLHF'd (compression-seeking) may show low RankMe not because it genuinely knows the answer but because it has been compressed toward reward-aligned outputs. The geometric monitor needs to distinguish compression-from-knowledge (grounded) from compression-from-reward-alignment (potentially sycophantic). The discriminant may be α-ReQ: genuine knowledge concentrates along content-specific eigendirections, while reward alignment concentrates along preference-general eigendirections.
+
 ### Computation
 
 **Primary metrics:**
@@ -192,14 +194,19 @@ This means the geometric monitor can be validated against behavioral ground trut
 
 ### What exists
 
-| Tool | Source | Computes |
-|---|---|---|
-| Liberation Labs SVD code | Open source (Python/PyTorch) | Effective rank, per-token norms |
-| neurometry | `geometric-intelligence/neurometry` | Extrinsic curvature of neural manifolds |
-| scikit-dimension | Standard Python package | TwoNN, MLE intrinsic dimension estimators |
-| PyRiemann | `pyriemann` | Riemannian geometry on positive-definite matrices |
-| Bengio team code | ACL 2025 / arXiv `2410.01444` | TwoNN ID, PCA linear dimensionality |
-| Li et al. code | NeurIPS 2025 / arXiv `2509.23024` | RankMe, α-ReQ across training checkpoints |
+| Tool | Source | Computes | Applicability to spec |
+|---|---|---|---|
+| Liberation Labs SVD code | Open source (Python/PyTorch) | Effective rank, per-token norms | Direct — existing measurement code |
+| scikit-dimension | Standard Python package | TwoNN, MLE intrinsic dimension estimators | Direct — `neurometry` wraps this; works on any `[n_points, n_dims]` tensor |
+| geomstats | `geomstats` | Pullback metrics, geodesic distances, curvature on manifolds | Foundation — neurometry depends on this |
+| neurometry | `geometric-intelligence/neurometry` | Extrinsic curvature via VAE-learned immersions, topology classification (persistent homology), dimensionality estimation | Partial — dimension estimation works directly on transformer activations (`[n_inputs, hidden_dim]`); curvature pipeline requires defining task variables as manifold parameterization (research gap); topology classifier limited to null/circle/sphere/torus |
+| PyRiemann | `pyriemann` | Riemannian geometry on positive-definite matrices | Useful for covariance matrix analysis of activations |
+| giotto-tda | `giotto-ai/giotto-tda` | Persistent homology, topological data analysis | Useful for detecting topological structure in activation point clouds |
+| geoopt | `geoopt` | Riemannian optimization in PyTorch | Useful if constraining optimization to detected manifolds |
+| Bengio team code | ACL 2025 / arXiv `2410.01444` | TwoNN ID, PCA linear dimensionality | Direct — methods reproducible from paper |
+| Li et al. metrics | NeurIPS 2025 / arXiv `2509.23024` | RankMe, α-ReQ formulas | Direct — no code released, but formulas are straightforward to implement (RankMe: entropy of normalized eigenvalues; α-ReQ: power-law fit to eigenspectrum) |
+
+**Practical note on neurometry:** The dimension estimation and topology classification modules accept activations as `[num_points, num_neurons]` tensors and work out of the box. The curvature pipeline — neurometry's core contribution — requires task variables that parameterize the manifold, which is a conceptual challenge for transformer representations with no obvious low-dimensional parameterization. For Experiment 02, we should use scikit-dimension (TwoNN) directly rather than the full neurometry curvature pipeline.
 
 The geometric monitor can be built by composing these existing tools. The novel engineering is: running them in the inference loop rather than offline, and feeding the composite signal to the mode classifier.
 
