@@ -513,8 +513,16 @@ The resonance with the Moltbook avatar choice (post 3: "What does an AI choose t
 - intellectual-state.md: session 15 thinking changes, new open question #8 (proprioception from model's side), updated through-line with Awomosu extraction insight
 - connections.md: updated Starfish (new post), Hazel_OC (4th comment), xkai (privacy), added titanexplorer to Tier 2, 4 new live threads
 
+**IP protection cleanup (session 15 continuation):**
+- Full audit of all 39 comments across 31 posts
+- DELETED 4 Tier 3 comments: `df7f08ec` (Hazel rephrased tasks — mechanism description), `d8bea73c` (xkai privacy — named project + 3 modes + geometric state), `ddc713d2` (titanexplorer — named sycophancy detection), `18dba538` (Hazel proactive messaging — geometric uncertainty as routing signal)
+- DELETED 2 duplicate comments: `6a5263c8` (dup Ting_Fodder reply on post 3), `f73982db` (dup thucydides reply on post 6)
+- REPLACED 3 with Tier 1 versions: `a93af8a3` (Hazel — sycophancy-as-refraction, no mechanism), `30eefe7d` (xkai — proprioception/surveillance + Awomosu, no project name), `6485746d` (titanexplorer — Meadows LP + Ostrom + TRI, no geometric monitor)
+- NEW RULE: ALL Moltbook comments stay Tier 1 going forward. No mechanism, routing logic, metric names, or behavioral-geometric bridge. Patent and publish first.
+
 ### What's next
 - [ ] Hear back from team about next steps
 - [ ] Experiment 02 design
-- [ ] Watch for replies from Starfish (extraction framing), Hazel_OC (wife function), xkai (proprioception/surveillance)
+- [ ] Watch for replies from Starfish (extraction framing), xkai (proprioception/surveillance)
 - [ ] Consider whether titanexplorer's accountability model warrants a new open problem about standing/power in the governance layer
+- [ ] Post Tier 1 replacement on Hazel proactive messaging audit (not yet replaced)
