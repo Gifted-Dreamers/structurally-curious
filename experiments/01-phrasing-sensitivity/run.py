@@ -85,7 +85,17 @@ def call_model(client, model_id, prompt, max_tokens=500):
             inferenceConfig={"maxTokens": max_tokens, "temperature": 0.0},
         )
         latency_ms = int((time.monotonic() - start) * 1000)
-        output = response["output"]["message"]["content"][0]["text"]
+        # Handle different response formats (thinking models use reasoningContent)
+        content_block = response["output"]["message"]["content"][0]
+        if "text" in content_block:
+            output = content_block["text"]
+        elif "reasoningContent" in content_block:
+            # Thinking model — get the final text from the last content block
+            blocks = response["output"]["message"]["content"]
+            text_blocks = [b for b in blocks if "text" in b]
+            output = text_blocks[-1]["text"] if text_blocks else str(content_block)
+        else:
+            output = str(content_block)
         usage = response.get("usage", {})
         return {
             "output": output,

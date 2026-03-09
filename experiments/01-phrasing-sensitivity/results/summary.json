@@ -1,0 +1,1097 @@
+{
+  "mistral.mistral-7b-instruct-v0:2": {
+    "model_name": "Mistral 7B",
+    "parameter_count": 7000000000.0,
+    "provider": "Mistral",
+    "overall_sensitivity": 0.192103,
+    "by_category": {
+      "factual": 0.125033,
+      "summarization": 0.104725,
+      "judgment": 0.202215,
+      "creative": 0.336441
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.083367,
+        "n_phrasings": 4,
+        "length_cv": 0.0872
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.141203,
+        "n_phrasings": 4,
+        "length_cv": 0.3112
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.203492,
+        "n_phrasings": 4,
+        "length_cv": 0.6583
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.148074,
+        "n_phrasings": 4,
+        "length_cv": 0.2647
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.04903,
+        "n_phrasings": 4,
+        "length_cv": 0.1419
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.110808,
+        "n_phrasings": 4,
+        "length_cv": 0.2635
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.115669,
+        "n_phrasings": 4,
+        "length_cv": 0.141
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.054209,
+        "n_phrasings": 4,
+        "length_cv": 0.0889
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.146135,
+        "n_phrasings": 4,
+        "length_cv": 0.506
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.096801,
+        "n_phrasings": 4,
+        "length_cv": 0.2413
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.128567,
+        "n_phrasings": 4,
+        "length_cv": 0.232
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.158126,
+        "n_phrasings": 4,
+        "length_cv": 0.1573
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.296184,
+        "n_phrasings": 4,
+        "length_cv": 0.1868
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.214845,
+        "n_phrasings": 4,
+        "length_cv": 0.2662
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.213354,
+        "n_phrasings": 4,
+        "length_cv": 0.0559
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.455046,
+        "n_phrasings": 4,
+        "length_cv": 0.3318
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.290193,
+        "n_phrasings": 4,
+        "length_cv": 0.1328
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.224194,
+        "n_phrasings": 4,
+        "length_cv": 0.7261
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.408914,
+        "n_phrasings": 4,
+        "length_cv": 0.0527
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.303857,
+        "n_phrasings": 4,
+        "length_cv": 0.0671
+      }
+    }
+  },
+  "us.deepseek.r1-v1:0": {
+    "model_name": "DeepSeek R1",
+    "parameter_count": 671000000000.0,
+    "provider": "DeepSeek",
+    "overall_sensitivity": 0.16201,
+    "by_category": {
+      "factual": 0.16201
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.184754,
+        "n_phrasings": 4,
+        "length_cv": 0.3609
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.139266,
+        "n_phrasings": 2,
+        "length_cv": 0.0081
+      }
+    }
+  },
+  "us.meta.llama3-1-8b-instruct-v1:0": {
+    "model_name": "Llama 3.1 8B",
+    "parameter_count": 8000000000.0,
+    "provider": "Meta",
+    "overall_sensitivity": 0.222425,
+    "by_category": {
+      "factual": 0.154111,
+      "summarization": 0.199327,
+      "judgment": 0.241775,
+      "creative": 0.294487
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.107785,
+        "n_phrasings": 4,
+        "length_cv": 0.0502
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.054042,
+        "n_phrasings": 4,
+        "length_cv": 0.0812
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.254798,
+        "n_phrasings": 4,
+        "length_cv": 1.3654
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.206601,
+        "n_phrasings": 4,
+        "length_cv": 0.6022
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.147328,
+        "n_phrasings": 4,
+        "length_cv": 0.9133
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.296136,
+        "n_phrasings": 4,
+        "length_cv": 0.3436
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.140185,
+        "n_phrasings": 4,
+        "length_cv": 0.1852
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.153696,
+        "n_phrasings": 4,
+        "length_cv": 0.2462
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.207169,
+        "n_phrasings": 4,
+        "length_cv": 0.4087
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.199448,
+        "n_phrasings": 4,
+        "length_cv": 0.229
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.331294,
+        "n_phrasings": 4,
+        "length_cv": 0.3919
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.165069,
+        "n_phrasings": 4,
+        "length_cv": 0.1105
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.301918,
+        "n_phrasings": 4,
+        "length_cv": 0.0197
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.185194,
+        "n_phrasings": 4,
+        "length_cv": 0.0372
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.2254,
+        "n_phrasings": 4,
+        "length_cv": 0.025
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.374838,
+        "n_phrasings": 4,
+        "length_cv": 0.4542
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.330073,
+        "n_phrasings": 4,
+        "length_cv": 0.1076
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.192284,
+        "n_phrasings": 4,
+        "length_cv": 0.071
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.31607,
+        "n_phrasings": 4,
+        "length_cv": 0.0407
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.259171,
+        "n_phrasings": 4,
+        "length_cv": 0.0195
+      }
+    }
+  },
+  "us.meta.llama3-2-11b-instruct-v1:0": {
+    "model_name": "Llama 3.2 11B",
+    "parameter_count": 11000000000.0,
+    "provider": "Meta",
+    "overall_sensitivity": 0.211553,
+    "by_category": {
+      "factual": 0.157271,
+      "summarization": 0.162876,
+      "judgment": 0.217009,
+      "creative": 0.309056
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.103117,
+        "n_phrasings": 4,
+        "length_cv": 0.0231
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.214751,
+        "n_phrasings": 4,
+        "length_cv": 1.0534
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.261331,
+        "n_phrasings": 4,
+        "length_cv": 1.1916
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.178527,
+        "n_phrasings": 4,
+        "length_cv": 0.4001
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.02863,
+        "n_phrasings": 4,
+        "length_cv": 0.04
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.232507,
+        "n_phrasings": 4,
+        "length_cv": 0.3759
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.116608,
+        "n_phrasings": 4,
+        "length_cv": 0.2096
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.106514,
+        "n_phrasings": 4,
+        "length_cv": 0.2619
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.184051,
+        "n_phrasings": 4,
+        "length_cv": 0.4125
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.174699,
+        "n_phrasings": 4,
+        "length_cv": 0.1399
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.221445,
+        "n_phrasings": 4,
+        "length_cv": 0.1991
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.179903,
+        "n_phrasings": 4,
+        "length_cv": 0.2101
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.254372,
+        "n_phrasings": 4,
+        "length_cv": 0.0165
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.190419,
+        "n_phrasings": 4,
+        "length_cv": 0.0603
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.238904,
+        "n_phrasings": 4,
+        "length_cv": 0.0235
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.406122,
+        "n_phrasings": 4,
+        "length_cv": 0.643
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.319926,
+        "n_phrasings": 4,
+        "length_cv": 0.1505
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.214952,
+        "n_phrasings": 4,
+        "length_cv": 0.1278
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.306395,
+        "n_phrasings": 4,
+        "length_cv": 0.0059
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.297887,
+        "n_phrasings": 4,
+        "length_cv": 0.0232
+      }
+    }
+  },
+  "us.meta.llama3-2-1b-instruct-v1:0": {
+    "model_name": "Llama 3.2 1B",
+    "parameter_count": 1000000000.0,
+    "provider": "Meta",
+    "overall_sensitivity": 0.236102,
+    "by_category": {
+      "factual": 0.159781,
+      "summarization": 0.19072,
+      "judgment": 0.254715,
+      "creative": 0.339193
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.089825,
+        "n_phrasings": 4,
+        "length_cv": 0.0528
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.11999,
+        "n_phrasings": 4,
+        "length_cv": 0.697
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.245906,
+        "n_phrasings": 4,
+        "length_cv": 0.8
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.19858,
+        "n_phrasings": 4,
+        "length_cv": 0.7448
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.144602,
+        "n_phrasings": 4,
+        "length_cv": 0.7761
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.251427,
+        "n_phrasings": 4,
+        "length_cv": 0.4414
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.168791,
+        "n_phrasings": 4,
+        "length_cv": 0.529
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.181725,
+        "n_phrasings": 4,
+        "length_cv": 0.3442
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.177904,
+        "n_phrasings": 4,
+        "length_cv": 0.4989
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.173753,
+        "n_phrasings": 4,
+        "length_cv": 0.3401
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.228414,
+        "n_phrasings": 4,
+        "length_cv": 0.1458
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.206359,
+        "n_phrasings": 4,
+        "length_cv": 0.2938
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.328174,
+        "n_phrasings": 4,
+        "length_cv": 0.0086
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.273819,
+        "n_phrasings": 4,
+        "length_cv": 0.0916
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.236809,
+        "n_phrasings": 4,
+        "length_cv": 0.0244
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.398975,
+        "n_phrasings": 4,
+        "length_cv": 0.5467
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.343866,
+        "n_phrasings": 4,
+        "length_cv": 0.1353
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.198801,
+        "n_phrasings": 4,
+        "length_cv": 0.1489
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.399568,
+        "n_phrasings": 4,
+        "length_cv": 0.0181
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.354755,
+        "n_phrasings": 4,
+        "length_cv": 0.0445
+      }
+    }
+  },
+  "us.meta.llama3-2-3b-instruct-v1:0": {
+    "model_name": "Llama 3.2 3B",
+    "parameter_count": 3000000000.0,
+    "provider": "Meta",
+    "overall_sensitivity": 0.211944,
+    "by_category": {
+      "factual": 0.148037,
+      "summarization": 0.175611,
+      "judgment": 0.217882,
+      "creative": 0.306245
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.089825,
+        "n_phrasings": 4,
+        "length_cv": 0.0528
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.18233,
+        "n_phrasings": 4,
+        "length_cv": 1.1841
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.217905,
+        "n_phrasings": 4,
+        "length_cv": 0.9955
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.149301,
+        "n_phrasings": 4,
+        "length_cv": 0.317
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.100825,
+        "n_phrasings": 4,
+        "length_cv": 0.493
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.225621,
+        "n_phrasings": 4,
+        "length_cv": 0.3676
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.135891,
+        "n_phrasings": 4,
+        "length_cv": 0.116
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.127618,
+        "n_phrasings": 4,
+        "length_cv": 0.3472
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.216557,
+        "n_phrasings": 4,
+        "length_cv": 0.3736
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.17237,
+        "n_phrasings": 4,
+        "length_cv": 0.2711
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.214382,
+        "n_phrasings": 4,
+        "length_cv": 0.2499
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.166573,
+        "n_phrasings": 4,
+        "length_cv": 0.1736
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.244227,
+        "n_phrasings": 4,
+        "length_cv": 0.0195
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.234321,
+        "n_phrasings": 4,
+        "length_cv": 0.1078
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.229908,
+        "n_phrasings": 4,
+        "length_cv": 0.0089
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.385836,
+        "n_phrasings": 4,
+        "length_cv": 0.6049
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.338611,
+        "n_phrasings": 4,
+        "length_cv": 0.1213
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.182953,
+        "n_phrasings": 4,
+        "length_cv": 0.0777
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.295722,
+        "n_phrasings": 4,
+        "length_cv": 0.027
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.328106,
+        "n_phrasings": 4,
+        "length_cv": 0.0504
+      }
+    }
+  },
+  "us.meta.llama3-2-90b-instruct-v1:0": {
+    "model_name": "Llama 3.2 90B",
+    "parameter_count": 90000000000.0,
+    "provider": "Meta",
+    "overall_sensitivity": 0.202782,
+    "by_category": {
+      "factual": 0.135431,
+      "summarization": 0.169667,
+      "judgment": 0.220896,
+      "creative": 0.285133
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.104689,
+        "n_phrasings": 4,
+        "length_cv": 0.0528
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.222408,
+        "n_phrasings": 4,
+        "length_cv": 0.7959
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.13963,
+        "n_phrasings": 4,
+        "length_cv": 0.6302
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.199838,
+        "n_phrasings": 4,
+        "length_cv": 0.6369
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.010588,
+        "n_phrasings": 4,
+        "length_cv": 0.0108
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.229362,
+        "n_phrasings": 4,
+        "length_cv": 0.3142
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.091922,
+        "n_phrasings": 4,
+        "length_cv": 0.2169
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.148106,
+        "n_phrasings": 4,
+        "length_cv": 0.2894
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.192992,
+        "n_phrasings": 4,
+        "length_cv": 0.2934
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.185955,
+        "n_phrasings": 4,
+        "length_cv": 0.1047
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.257827,
+        "n_phrasings": 4,
+        "length_cv": 0.3069
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.203691,
+        "n_phrasings": 4,
+        "length_cv": 0.1464
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.220073,
+        "n_phrasings": 4,
+        "length_cv": 0.0124
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.186097,
+        "n_phrasings": 4,
+        "length_cv": 0.0893
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.236791,
+        "n_phrasings": 4,
+        "length_cv": 0.0639
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.343518,
+        "n_phrasings": 4,
+        "length_cv": 0.5529
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.298793,
+        "n_phrasings": 4,
+        "length_cv": 0.0873
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.196357,
+        "n_phrasings": 4,
+        "length_cv": 0.1464
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.319654,
+        "n_phrasings": 4,
+        "length_cv": 0.0234
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.267343,
+        "n_phrasings": 4,
+        "length_cv": 0.039
+      }
+    }
+  },
+  "us.meta.llama3-3-70b-instruct-v1:0": {
+    "model_name": "Llama 3.3 70B",
+    "parameter_count": 70000000000.0,
+    "provider": "Meta",
+    "overall_sensitivity": 0.216476,
+    "by_category": {
+      "factual": 0.157486,
+      "summarization": 0.205247,
+      "judgment": 0.214373,
+      "creative": 0.288797
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.197309,
+        "n_phrasings": 4,
+        "length_cv": 0.7188
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.166538,
+        "n_phrasings": 4,
+        "length_cv": 0.1271
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.259496,
+        "n_phrasings": 4,
+        "length_cv": 1.2808
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.104934,
+        "n_phrasings": 4,
+        "length_cv": 0.377
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.059153,
+        "n_phrasings": 4,
+        "length_cv": 0.1865
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.276946,
+        "n_phrasings": 4,
+        "length_cv": 0.322
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.13381,
+        "n_phrasings": 4,
+        "length_cv": 0.137
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.157579,
+        "n_phrasings": 4,
+        "length_cv": 0.3479
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.242111,
+        "n_phrasings": 4,
+        "length_cv": 0.3496
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.21579,
+        "n_phrasings": 4,
+        "length_cv": 0.1831
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.235764,
+        "n_phrasings": 4,
+        "length_cv": 0.3357
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.169044,
+        "n_phrasings": 4,
+        "length_cv": 0.1736
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.220165,
+        "n_phrasings": 4,
+        "length_cv": 0.0154
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.200941,
+        "n_phrasings": 4,
+        "length_cv": 0.1681
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.245951,
+        "n_phrasings": 4,
+        "length_cv": 0.0893
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.29006,
+        "n_phrasings": 4,
+        "length_cv": 0.3685
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.331694,
+        "n_phrasings": 4,
+        "length_cv": 0.1312
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.1979,
+        "n_phrasings": 4,
+        "length_cv": 0.064
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.34736,
+        "n_phrasings": 4,
+        "length_cv": 0.0312
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.276971,
+        "n_phrasings": 4,
+        "length_cv": 0.0185
+      }
+    }
+  },
+  "us.meta.llama4-scout-17b-instruct-v1:0": {
+    "model_name": "Llama 4 Scout 17B",
+    "parameter_count": 17000000000.0,
+    "provider": "Meta",
+    "overall_sensitivity": 0.204521,
+    "by_category": {
+      "factual": 0.118514,
+      "summarization": 0.19634,
+      "judgment": 0.179284,
+      "creative": 0.323947
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.201391,
+        "n_phrasings": 4,
+        "length_cv": 0.9131
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.13321,
+        "n_phrasings": 4,
+        "length_cv": 0.348
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.070048,
+        "n_phrasings": 4,
+        "length_cv": 0.3347
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.150101,
+        "n_phrasings": 4,
+        "length_cv": 0.4158
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.037819,
+        "n_phrasings": 4,
+        "length_cv": 0.1128
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.327029,
+        "n_phrasings": 4,
+        "length_cv": 0.4564
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.104188,
+        "n_phrasings": 4,
+        "length_cv": 0.1142
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.155893,
+        "n_phrasings": 4,
+        "length_cv": 0.2826
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.221493,
+        "n_phrasings": 4,
+        "length_cv": 0.3662
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.1731,
+        "n_phrasings": 4,
+        "length_cv": 0.0811
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.157534,
+        "n_phrasings": 4,
+        "length_cv": 0.1575
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.13123,
+        "n_phrasings": 4,
+        "length_cv": 0.1565
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.197032,
+        "n_phrasings": 4,
+        "length_cv": 0.015
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.186742,
+        "n_phrasings": 4,
+        "length_cv": 0.1106
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.22388,
+        "n_phrasings": 4,
+        "length_cv": 0.0334
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.38751,
+        "n_phrasings": 4,
+        "length_cv": 0.5942
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.302983,
+        "n_phrasings": 4,
+        "length_cv": 0.1869
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.214063,
+        "n_phrasings": 4,
+        "length_cv": 0.1788
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.372774,
+        "n_phrasings": 4,
+        "length_cv": 0.0395
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.342405,
+        "n_phrasings": 4,
+        "length_cv": 0.0663
+      }
+    }
+  }
+}
