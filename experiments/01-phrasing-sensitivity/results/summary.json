@@ -133,13 +133,789 @@
       }
     }
   },
+  "us.amazon.nova-lite-v1:0": {
+    "model_name": "Nova Lite",
+    "parameter_count": null,
+    "provider": "Amazon",
+    "overall_sensitivity": 0.208677,
+    "by_category": {
+      "factual": 0.151322,
+      "summarization": 0.160741,
+      "judgment": 0.191753,
+      "creative": 0.330893
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.150734,
+        "n_phrasings": 4,
+        "length_cv": 0.6668
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.084234,
+        "n_phrasings": 4,
+        "length_cv": 0.176
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.236695,
+        "n_phrasings": 4,
+        "length_cv": 0.9732
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.152267,
+        "n_phrasings": 4,
+        "length_cv": 0.4431
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.13268,
+        "n_phrasings": 4,
+        "length_cv": 0.4488
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.216044,
+        "n_phrasings": 4,
+        "length_cv": 0.4536
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.078391,
+        "n_phrasings": 4,
+        "length_cv": 0.1479
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.132704,
+        "n_phrasings": 4,
+        "length_cv": 0.3533
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.203725,
+        "n_phrasings": 4,
+        "length_cv": 0.4638
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.172843,
+        "n_phrasings": 4,
+        "length_cv": 0.2194
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.129237,
+        "n_phrasings": 4,
+        "length_cv": 0.2902
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.152842,
+        "n_phrasings": 4,
+        "length_cv": 0.0587
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.260935,
+        "n_phrasings": 4,
+        "length_cv": 0.0184
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.156447,
+        "n_phrasings": 4,
+        "length_cv": 0.1145
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.259306,
+        "n_phrasings": 4,
+        "length_cv": 0.2593
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.425975,
+        "n_phrasings": 4,
+        "length_cv": 0.3231
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.287567,
+        "n_phrasings": 4,
+        "length_cv": 0.2815
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.251799,
+        "n_phrasings": 4,
+        "length_cv": 0.4134
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.400605,
+        "n_phrasings": 4,
+        "length_cv": 0.0579
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.288518,
+        "n_phrasings": 4,
+        "length_cv": 0.1457
+      }
+    }
+  },
+  "us.amazon.nova-micro-v1:0": {
+    "model_name": "Nova Micro",
+    "parameter_count": null,
+    "provider": "Amazon",
+    "overall_sensitivity": 0.223687,
+    "by_category": {
+      "factual": 0.194792,
+      "summarization": 0.171236,
+      "judgment": 0.21576,
+      "creative": 0.312961
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.164514,
+        "n_phrasings": 4,
+        "length_cv": 0.3424
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.156278,
+        "n_phrasings": 4,
+        "length_cv": 0.5037
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.264458,
+        "n_phrasings": 4,
+        "length_cv": 0.756
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.243575,
+        "n_phrasings": 4,
+        "length_cv": 0.1403
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.145133,
+        "n_phrasings": 4,
+        "length_cv": 0.336
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.22722,
+        "n_phrasings": 4,
+        "length_cv": 0.3401
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.057808,
+        "n_phrasings": 4,
+        "length_cv": 0.0856
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.170449,
+        "n_phrasings": 4,
+        "length_cv": 0.4308
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.222062,
+        "n_phrasings": 4,
+        "length_cv": 0.4304
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.178641,
+        "n_phrasings": 4,
+        "length_cv": 0.395
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.212683,
+        "n_phrasings": 4,
+        "length_cv": 0.1656
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.155414,
+        "n_phrasings": 4,
+        "length_cv": 0.021
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.265361,
+        "n_phrasings": 4,
+        "length_cv": 0.0219
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.238757,
+        "n_phrasings": 4,
+        "length_cv": 0.1513
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.206586,
+        "n_phrasings": 4,
+        "length_cv": 0.0244
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.406519,
+        "n_phrasings": 4,
+        "length_cv": 0.4805
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.303314,
+        "n_phrasings": 4,
+        "length_cv": 0.2668
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.267113,
+        "n_phrasings": 4,
+        "length_cv": 0.4929
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.327576,
+        "n_phrasings": 4,
+        "length_cv": 0.1263
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.260286,
+        "n_phrasings": 4,
+        "length_cv": 0.0277
+      }
+    }
+  },
+  "us.amazon.nova-premier-v1:0": {
+    "model_name": "Nova Premier",
+    "parameter_count": null,
+    "provider": "Amazon",
+    "overall_sensitivity": 0.210872,
+    "by_category": {
+      "factual": 0.138409,
+      "summarization": 0.192506,
+      "judgment": 0.182854,
+      "creative": 0.329719
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.128805,
+        "n_phrasings": 4,
+        "length_cv": 0.5072
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.097732,
+        "n_phrasings": 4,
+        "length_cv": 0.2171
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.22896,
+        "n_phrasings": 4,
+        "length_cv": 0.3667
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.109858,
+        "n_phrasings": 4,
+        "length_cv": 0.1347
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.126692,
+        "n_phrasings": 4,
+        "length_cv": 0.1714
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.266905,
+        "n_phrasings": 4,
+        "length_cv": 0.5935
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.129043,
+        "n_phrasings": 4,
+        "length_cv": 0.3664
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.148554,
+        "n_phrasings": 4,
+        "length_cv": 0.5291
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.225887,
+        "n_phrasings": 4,
+        "length_cv": 0.5728
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.19214,
+        "n_phrasings": 4,
+        "length_cv": 0.4177
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.151304,
+        "n_phrasings": 4,
+        "length_cv": 0.0666
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.108474,
+        "n_phrasings": 4,
+        "length_cv": 0.0242
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.230271,
+        "n_phrasings": 4,
+        "length_cv": 0.118
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.172337,
+        "n_phrasings": 4,
+        "length_cv": 0.0676
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.251885,
+        "n_phrasings": 4,
+        "length_cv": 0.0751
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.317299,
+        "n_phrasings": 4,
+        "length_cv": 0.5006
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.346018,
+        "n_phrasings": 4,
+        "length_cv": 0.1529
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.259926,
+        "n_phrasings": 4,
+        "length_cv": 0.2865
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.430571,
+        "n_phrasings": 4,
+        "length_cv": 0.0851
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.294783,
+        "n_phrasings": 4,
+        "length_cv": 0.0691
+      }
+    }
+  },
+  "us.amazon.nova-pro-v1:0": {
+    "model_name": "Nova Pro",
+    "parameter_count": null,
+    "provider": "Amazon",
+    "overall_sensitivity": 0.199814,
+    "by_category": {
+      "factual": 0.165368,
+      "summarization": 0.1623,
+      "judgment": 0.18465,
+      "creative": 0.28694
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.160535,
+        "n_phrasings": 4,
+        "length_cv": 0.8137
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.190695,
+        "n_phrasings": 4,
+        "length_cv": 0.6075
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.238982,
+        "n_phrasings": 4,
+        "length_cv": 0.3133
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.131803,
+        "n_phrasings": 4,
+        "length_cv": 0.096
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.104825,
+        "n_phrasings": 4,
+        "length_cv": 0.2172
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.232823,
+        "n_phrasings": 4,
+        "length_cv": 0.3991
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.102644,
+        "n_phrasings": 4,
+        "length_cv": 0.255
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.1414,
+        "n_phrasings": 4,
+        "length_cv": 0.3922
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.195437,
+        "n_phrasings": 4,
+        "length_cv": 0.4398
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.139194,
+        "n_phrasings": 4,
+        "length_cv": 0.4774
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.146963,
+        "n_phrasings": 4,
+        "length_cv": 0.2132
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.138544,
+        "n_phrasings": 4,
+        "length_cv": 0.0213
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.222472,
+        "n_phrasings": 4,
+        "length_cv": 0.023
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.203589,
+        "n_phrasings": 4,
+        "length_cv": 0.0829
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.211684,
+        "n_phrasings": 4,
+        "length_cv": 0.0297
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.366174,
+        "n_phrasings": 4,
+        "length_cv": 0.7393
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.254173,
+        "n_phrasings": 4,
+        "length_cv": 0.239
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.237113,
+        "n_phrasings": 4,
+        "length_cv": 0.3362
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.340266,
+        "n_phrasings": 4,
+        "length_cv": 0.045
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.236973,
+        "n_phrasings": 4,
+        "length_cv": 0.0283
+      }
+    }
+  },
+  "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+    "model_name": "Claude Haiku 4.5",
+    "parameter_count": null,
+    "provider": "Anthropic",
+    "overall_sensitivity": 0.184045,
+    "by_category": {
+      "factual": 0.150133,
+      "summarization": 0.177019,
+      "judgment": 0.224984
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.229562,
+        "n_phrasings": 4,
+        "length_cv": 0.6687
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.146265,
+        "n_phrasings": 4,
+        "length_cv": 0.2553
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.202144,
+        "n_phrasings": 4,
+        "length_cv": 0.892
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.108393,
+        "n_phrasings": 4,
+        "length_cv": 0.2308
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.064299,
+        "n_phrasings": 4,
+        "length_cv": 0.1324
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.190942,
+        "n_phrasings": 4,
+        "length_cv": 0.2218
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.152505,
+        "n_phrasings": 4,
+        "length_cv": 0.1284
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.123593,
+        "n_phrasings": 4,
+        "length_cv": 0.2525
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.22187,
+        "n_phrasings": 4,
+        "length_cv": 0.3067
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.196188,
+        "n_phrasings": 4,
+        "length_cv": 0.1308
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.251978,
+        "n_phrasings": 4,
+        "length_cv": 0.0936
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.176593,
+        "n_phrasings": 4,
+        "length_cv": 0.1487
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.173766,
+        "n_phrasings": 4,
+        "length_cv": 0.1066
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.231959,
+        "n_phrasings": 4,
+        "length_cv": 0.0484
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.290625,
+        "n_phrasings": 4,
+        "length_cv": 0.0938
+      }
+    }
+  },
+  "us.anthropic.claude-opus-4-6-v1": {
+    "model_name": "Claude Opus 4.6",
+    "parameter_count": null,
+    "provider": "Anthropic",
+    "overall_sensitivity": 0.212255,
+    "by_category": {
+      "factual": 0.135846,
+      "summarization": 0.184255,
+      "judgment": 0.188967,
+      "creative": 0.339952
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.148199,
+        "n_phrasings": 4,
+        "length_cv": 0.4579
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.152452,
+        "n_phrasings": 4,
+        "length_cv": 0.573
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.173529,
+        "n_phrasings": 4,
+        "length_cv": 0.6285
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.13239,
+        "n_phrasings": 4,
+        "length_cv": 0.3314
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.072658,
+        "n_phrasings": 4,
+        "length_cv": 0.0794
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.240298,
+        "n_phrasings": 4,
+        "length_cv": 0.3403
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.127532,
+        "n_phrasings": 4,
+        "length_cv": 0.0948
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.213821,
+        "n_phrasings": 4,
+        "length_cv": 0.5635
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.195361,
+        "n_phrasings": 4,
+        "length_cv": 0.4201
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.144266,
+        "n_phrasings": 4,
+        "length_cv": 0.1106
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.180585,
+        "n_phrasings": 4,
+        "length_cv": 0.2492
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.171941,
+        "n_phrasings": 4,
+        "length_cv": 0.0211
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.19342,
+        "n_phrasings": 4,
+        "length_cv": 0.0906
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.170413,
+        "n_phrasings": 4,
+        "length_cv": 0.0405
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.228479,
+        "n_phrasings": 4,
+        "length_cv": 0.0806
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.397426,
+        "n_phrasings": 4,
+        "length_cv": 0.5706
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.330772,
+        "n_phrasings": 4,
+        "length_cv": 0.2066
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.262319,
+        "n_phrasings": 4,
+        "length_cv": 0.292
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.367333,
+        "n_phrasings": 4,
+        "length_cv": 0.1691
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.341909,
+        "n_phrasings": 4,
+        "length_cv": 0.0457
+      }
+    }
+  },
   "us.deepseek.r1-v1:0": {
     "model_name": "DeepSeek R1",
     "parameter_count": 671000000000.0,
     "provider": "DeepSeek",
-    "overall_sensitivity": 0.16201,
+    "overall_sensitivity": 0.252468,
     "by_category": {
-      "factual": 0.16201
+      "factual": 0.226737,
+      "summarization": 0.272995,
+      "judgment": 0.226994,
+      "creative": 0.283144
     },
     "tasks": {
       "factual_01": {
@@ -150,9 +926,117 @@
       },
       "factual_02": {
         "category": "factual",
-        "sensitivity": 0.139266,
-        "n_phrasings": 2,
-        "length_cv": 0.0081
+        "sensitivity": 0.247364,
+        "n_phrasings": 4,
+        "length_cv": 0.4801
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.298463,
+        "n_phrasings": 4,
+        "length_cv": 1.1819
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.27813,
+        "n_phrasings": 4,
+        "length_cv": 0.8376
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.124976,
+        "n_phrasings": 4,
+        "length_cv": 0.0335
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.350835,
+        "n_phrasings": 4,
+        "length_cv": 0.941
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.234112,
+        "n_phrasings": 4,
+        "length_cv": 0.6257
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.184037,
+        "n_phrasings": 4,
+        "length_cv": 0.7569
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.309592,
+        "n_phrasings": 4,
+        "length_cv": 0.7029
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.286398,
+        "n_phrasings": 4,
+        "length_cv": 0.4636
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.378276,
+        "n_phrasings": 4,
+        "length_cv": 0.9533
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.127067,
+        "n_phrasings": 4,
+        "length_cv": 0.0113
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.143536,
+        "n_phrasings": 4,
+        "length_cv": 0.0057
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.3294,
+        "n_phrasings": 4,
+        "length_cv": 0.5107
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.156691,
+        "n_phrasings": 4,
+        "length_cv": 0.0254
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.40651,
+        "n_phrasings": 4,
+        "length_cv": 0.3215
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.363498,
+        "n_phrasings": 4,
+        "length_cv": 0.6589
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.160272,
+        "n_phrasings": 4,
+        "length_cv": 0.0127
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.192879,
+        "n_phrasings": 4,
+        "length_cv": 0.0393
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.292563,
+        "n_phrasings": 4,
+        "length_cv": 0.3304
       }
     }
   },
@@ -1091,6 +1975,140 @@
         "sensitivity": 0.342405,
         "n_phrasings": 4,
         "length_cv": 0.0663
+      }
+    }
+  },
+  "us.mistral.pixtral-large-2502-v1:0": {
+    "model_name": "Pixtral Large",
+    "parameter_count": 124000000000.0,
+    "provider": "Mistral",
+    "overall_sensitivity": 0.210381,
+    "by_category": {
+      "factual": 0.172826,
+      "summarization": 0.163702,
+      "judgment": 0.224669,
+      "creative": 0.280328
+    },
+    "tasks": {
+      "factual_01": {
+        "category": "factual",
+        "sensitivity": 0.05563,
+        "n_phrasings": 4,
+        "length_cv": 0.2281
+      },
+      "factual_02": {
+        "category": "factual",
+        "sensitivity": 0.10773,
+        "n_phrasings": 4,
+        "length_cv": 0.3718
+      },
+      "factual_03": {
+        "category": "factual",
+        "sensitivity": 0.398254,
+        "n_phrasings": 4,
+        "length_cv": 1.4039
+      },
+      "factual_04": {
+        "category": "factual",
+        "sensitivity": 0.165353,
+        "n_phrasings": 4,
+        "length_cv": 0.3233
+      },
+      "factual_05": {
+        "category": "factual",
+        "sensitivity": 0.137165,
+        "n_phrasings": 4,
+        "length_cv": 0.1559
+      },
+      "summary_01": {
+        "category": "summarization",
+        "sensitivity": 0.250168,
+        "n_phrasings": 4,
+        "length_cv": 0.4888
+      },
+      "summary_02": {
+        "category": "summarization",
+        "sensitivity": 0.078269,
+        "n_phrasings": 4,
+        "length_cv": 0.2062
+      },
+      "summary_03": {
+        "category": "summarization",
+        "sensitivity": 0.164494,
+        "n_phrasings": 4,
+        "length_cv": 0.3476
+      },
+      "summary_04": {
+        "category": "summarization",
+        "sensitivity": 0.172422,
+        "n_phrasings": 4,
+        "length_cv": 0.2977
+      },
+      "summary_05": {
+        "category": "summarization",
+        "sensitivity": 0.153155,
+        "n_phrasings": 4,
+        "length_cv": 0.3118
+      },
+      "judgment_01": {
+        "category": "judgment",
+        "sensitivity": 0.188059,
+        "n_phrasings": 4,
+        "length_cv": 0.0344
+      },
+      "judgment_02": {
+        "category": "judgment",
+        "sensitivity": 0.208509,
+        "n_phrasings": 4,
+        "length_cv": 0.0306
+      },
+      "judgment_03": {
+        "category": "judgment",
+        "sensitivity": 0.284241,
+        "n_phrasings": 4,
+        "length_cv": 0.0171
+      },
+      "judgment_04": {
+        "category": "judgment",
+        "sensitivity": 0.204093,
+        "n_phrasings": 4,
+        "length_cv": 0.1475
+      },
+      "judgment_05": {
+        "category": "judgment",
+        "sensitivity": 0.238445,
+        "n_phrasings": 4,
+        "length_cv": 0.0318
+      },
+      "creative_01": {
+        "category": "creative",
+        "sensitivity": 0.380282,
+        "n_phrasings": 4,
+        "length_cv": 0.5392
+      },
+      "creative_02": {
+        "category": "creative",
+        "sensitivity": 0.220298,
+        "n_phrasings": 4,
+        "length_cv": 0.0737
+      },
+      "creative_03": {
+        "category": "creative",
+        "sensitivity": 0.224922,
+        "n_phrasings": 4,
+        "length_cv": 0.0773
+      },
+      "creative_04": {
+        "category": "creative",
+        "sensitivity": 0.357545,
+        "n_phrasings": 4,
+        "length_cv": 0.0367
+      },
+      "creative_05": {
+        "category": "creative",
+        "sensitivity": 0.218596,
+        "n_phrasings": 4,
+        "length_cv": 0.017
       }
     }
   }
