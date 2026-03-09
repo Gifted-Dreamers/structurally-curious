@@ -54,6 +54,7 @@ MODELS = [
     {"id": "us.amazon.nova-premier-v1:0", "params": None, "provider": "Amazon", "name": "Nova Premier"},
     {"id": "us.anthropic.claude-haiku-4-5-20251001-v1:0", "params": None, "provider": "Anthropic", "name": "Claude Haiku 4.5"},
     {"id": "us.anthropic.claude-sonnet-4-6", "params": None, "provider": "Anthropic", "name": "Claude Sonnet 4.6"},
+    {"id": "us.anthropic.claude-opus-4-6-v1", "params": None, "provider": "Anthropic", "name": "Claude Opus 4.6"},
     {"id": "us.writer.palmyra-x4-v1:0", "params": None, "provider": "Writer", "name": "Palmyra X4"},
     {"id": "us.writer.palmyra-x5-v1:0", "params": None, "provider": "Writer", "name": "Palmyra X5"},
 ]
