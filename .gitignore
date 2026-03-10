@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# HuggingFace model cache
+.cache/
+
+# OS
+.DS_Store
+
+# Internal docs (pushed to kristinesocall/structurally-curious instead)
+threat-analysis.md
+consolidation-analysis.md
+intellectual-state.md
+connections.md
+strategy.md
+frameworks.md
+kv-research-reference.md
