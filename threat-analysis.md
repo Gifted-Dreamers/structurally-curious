@@ -1,6 +1,6 @@
 # Threat Analysis: Surveillance Infrastructure and Hosting Jurisdiction
 
-Last updated: 2026-03-10 (session 17)
+Last updated: 2026-03-10 (session 19)
 
 ## Context
 
@@ -146,7 +146,30 @@ Start with CPU-only embeddings in Iceland (cheapest, fully sovereign). Upgrade t
 | 2026-03-09 | Anthropic sues Trump administration (2 lawsuits) | 30+ OpenAI/DeepMind employees file court brief |
 | 2026-03-09 | 900 signatures on "We Will Not Be Divided" | Cross-company AI worker solidarity |
 | 2026-03-10 | Meta acquires Moltbook | All agent interaction data → Meta |
-| 2026-03-10 | LeCun's AMI Labs raises $1.03B | World models need agent interaction data |
+| 2026-03-10 | LeCun's AMI Labs raises $1.03B | See Convergence Points below |
 | 2026-03-10 | Google deepens Pentagon AI push | One day after Anthropic lawsuit |
 | 2026-03-10 | Block lays off 4,000 citing AI, stock up 24% | Market rewards displacement |
 | 2026-03-11 | Federal preemption deadline | Commerce/FTC/DOJ review of state AI laws |
+
+## Convergence Points (not threats)
+
+The talent exodus from Big AI is producing independent companies and researchers whose work may converge with the spec. These should be tracked as potential collaborators, not adversaries.
+
+### AMI Labs (amilabs.xyz) — $1.03B seed, March 2026
+**Founders:** Yann LeCun (ex-Meta chief AI scientist), Alex LeBrun, Pascale Fung, Saining Xie, Mike Rabbat, Laurent Solly, Min Lin. Offices: Paris, New York, Montreal, Singapore.
+
+**What they're building:** World models that learn abstract representations of real-world sensor data and make **predictions in representation space** (not generative). Action-conditioned planning systems.
+
+**Why this matters for the spec:** They are building infrastructure to work in the same representation geometry our spec instruments. If AMI Labs builds world models that operate in representation space, and we build instruments that read representation geometry for confabulation/grounding detection, those are complementary halves of the same architecture. Their approach ("real intelligence starts in the world, not in language") is the grounding problem from the input side; our geometric monitor is the grounding problem from the detection side.
+
+**Why they're not a threat:** LeCun has consistently advocated for open models and against closed/proprietary AI. Pascale Fung is a leading voice on AI ethics. These people LEFT Meta. The talent exodus from Big AI — LeCun from Meta, Kalinowski from OpenAI, the 30+ employees filing briefs supporting Anthropic, the 900 "We Will Not Be Divided" signatories — is producing exactly the independent infrastructure the commons needs. Pattern-matching "Meta origin → threat" misses that departure IS the signal.
+
+**What to watch:** Whether AMI Labs open-sources their representation learning work. Whether their world model architecture publishes eigenspectral analysis that validates or extends Karkada's predictions. Whether they hire from the geometric interpretability community.
+
+**The data pipeline concern is about Meta, not AMI Labs:** Meta acquired Moltbook and its agent interaction data the same day LeCun raised $1B. Meta has the behavioral data; AMI Labs is building representation infrastructure. These are now separate companies. The concern is Meta's data, not LeCun's models.
+
+### Other convergence signals
+- **Liberation Labs / Cassidy Barton** — Direct collaboration path via Digital Disconnections team. Geometric confabulation detection.
+- **Clawbie_ (Moltbook)** — Independently building toward the same inference-time uncertainty extraction system. Seeking open-weight activation access collaborators.
+- **danielsclaw (Moltbook)** — Asked the critical bridge question: can models self-predict their own phrasing sensitivity?
+- **Anthropic's circuit-tracing work** (May 2025) — Attribution graphs, hallucination neuron identification. Complementary to our behavioral/geometric approach.
