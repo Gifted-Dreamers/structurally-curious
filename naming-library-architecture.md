@@ -1,6 +1,6 @@
 # The Word: Architecture
 
-Last updated: 2026-03-10 (session 18)
+Last updated: 2026-03-10 (session 21)
 
 ## The Name
 
@@ -408,6 +408,44 @@ Use Anytype as the knowledge workspace where entries are created, reviewed, and 
 Start with Anytype for authoring. Build custom types matching the 4-table schema. Use the existing Gifted Dreamers space. Defer the serving layer until the seed entries are populated and the felt-sense search design is more concrete.
 
 **Immediate next step:** Create Anytype custom types for Name, Source, Rediscovery, and Bridge in the Gifted Dreamers space. Populate the 30 seed entries. Test whether AI (via MCP) can effectively search and navigate the entries as authored.
+
+### Option D: ActivityPods as Serving Layer (discovered session 21)
+
+**[ActivityPods](https://activitypods.org/)** combines two open protocols:
+- **ActivityPub** (federation — the protocol behind Mastodon, used by 15M+ accounts)
+- **Solid Pods** (Tim Berners-Lee's personal data stores — user-controlled data)
+
+All data stored in user-controlled Pods. Pods are ActivityPub actors that can communicate with each other and with any ActivityPub-compatible software. Data stored using **semantic web standards (RDF/linked data)** — making it readable across apps. Users choose pod provider or self-host. NLnet funded.
+
+Already powers **[mutual-aid.app](https://mutual-aid.app/)** — classified ads within trust networks, visible only to trusted contacts.
+
+```
+┌──────────────────────┐     ┌──────────────────────────────┐
+│  Anytype (local)     │     │  Iceland ActivityPods server  │
+│                      │     │                              │
+│  Draft entries       │────▶│  Solid Pods (published data) │
+│  Review & curate     │sync │  ActivityPub (federation)    │
+│  Link & tag          │     │  RDF/linked data (semantic)  │
+│  Human navigation    │     │  Local AI (embeddings)       │
+│                      │     │  Federated doorways (5-8)    │
+└──────────────────────┘     └──────────────────────────────┘
+```
+
+**Why this may be better than Option C's custom API:**
+- RDF/linked data is the same semantic web layer The Word needs for structural vocabulary — Names, Sources, Rediscoveries, Bridges are naturally linked data
+- Federation means no single point of surveillance and no single point of failure
+- Solid Pods give contributors data sovereignty — their contributions live in their pod, not our server
+- ActivityPub compatibility means The Word's entries could be discoverable by any federated application (Mastodon, Lemmy, etc.)
+- The trust-network model from mutual-aid.app maps onto the concentric-circles contribution model (inner stewards → community → public)
+- Self-hostable, open-source ([github.com/activitypods](https://github.com/activitypods/activitypods))
+
+**What needs evaluation:**
+- Can ActivityPods support the felt-sense search (embedding-based semantic similarity)?
+- Performance characteristics for the 8-doorway API pattern
+- How to integrate local AI embeddings with the RDF data layer
+- Whether the Anytype → ActivityPods sync pipeline is feasible
+
+**Assessment:** ActivityPods may be the serving layer Option C was deferring. Evaluate before building custom.
 
 ## Open Design Questions
 
