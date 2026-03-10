@@ -225,6 +225,8 @@ Our Experiment 01 (19 models × 80 prompts, March 2026) measured phrasing sensit
 
 This means the geometric monitor can be validated against behavioral ground truth: if RankMe/α-ReQ predict phrasing sensitivity across task categories, the geometric measurements are confirmed as meaningful. Our experiment provides that ground truth for 19 models.
 
+**Experiment 03 confirmation (session 21):** Running open-weight models locally with hidden-state extraction confirms the bridge. On Qwen 2.5 1.5B (20 tasks × 4 phrasings = 80 inferences), directional coherence correlates with phrasing sensitivity at r=+0.523, p=0.018. The behavioral proxy works: phrasing sensitivity tracks geometric state. Surprising finding: the correlation is *positive* — construction (creative, judgment) produces more coherent token trajectories than retrieval (factual). α-ReQ trends in the same direction (r=+0.386, p=0.093) but doesn't reach significance at this sample size. Second scale point (3B) in progress.
+
 ### Performance considerations
 
 - SVD is O(min(m,n)²·max(m,n)) — expensive per token

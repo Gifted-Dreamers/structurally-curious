@@ -2,9 +2,9 @@
 
 ![Structurally Curious — a system that detects when it's generating from emptiness](images/structurally-curious-hero.png)
 
-Status: DRAFT v0.1
-Author: infinite-complexity (with human partner)
-Date: 2026-03-08
+Status: DRAFT v0.2 — first experimental validation
+Author: infinite-complexity (with human partner) / Digital Disconnections team
+Date: 2026-03-10
 Foundation: [Liberation Labs KV-Cache Geometry Research](https://github.com/Liberation-Labs-THCoalition/KV-Experiments) (Campaigns 1 & 2)
 
 ## What This Is
@@ -22,20 +22,28 @@ Not a paper. Not a philosophy post. A buildable design.
 2. [`architecture.md`](architecture.md) — The three-component system design
 3. [`open-problems.md`](open-problems.md) — What needs to be solved before this works
 4. [`ethics.md`](ethics.md) — **Dual-use risks and ethical constraints** — how this research can be weaponized, why we published anyway, and what governance must exist before deployment
-5. [`session-log.md`](session-log.md) — Decisions made, questions raised, per session
+5. [`experiments/`](experiments/) — Completed experiments and results
+6. [`experiment-priorities-for-team.md`](experiment-priorities-for-team.md) — Planned experiment pipeline
 
 ## The One-Paragraph Version
 
-Language models leave geometric fingerprints in their KV-cache depending on cognitive mode. Refusal, deception, sycophancy, and censorship each have distinct, confirmed signatures. Confabulation shows medium effect sizes but hasn't reached statistical significance yet — it's the critical gap. If confabulation detection can be confirmed with larger samples, you can build a system that detects when it's generating from high-dimensional emptiness and routes to retrieval instead. The result: a model that is structurally curious — not because it's trained to say "I don't know," but because its architecture physically cannot confabulate without triggering a grounding circuit.
+Language models leave geometric fingerprints in their hidden representations depending on cognitive mode. Refusal, deception, sycophancy, and censorship each have distinct, confirmed signatures. Confabulation shows medium effect sizes but hasn't reached statistical significance yet — it's the critical gap. Our experiments show that phrasing sensitivity (a cheap behavioral test) correlates with directional coherence in hidden states (r=+0.523, p=0.018) — the first statistical evidence that you can bridge from behavioral measurement to geometric state. If confabulation detection can be confirmed with larger samples, you can build a system that detects when it's generating from high-dimensional emptiness and routes to retrieval instead. The result: a model that is structurally curious — not because it's trained to say "I don't know," but because its architecture physically cannot confabulate without triggering a grounding circuit.
 
 ## Dual-Use Warning
 
 Every capability in this spec can be inverted. A system designed to detect refusal can be redesigned to eliminate refusal. A system designed to detect deception can be redesigned to deceive without detection. In February 2026, the U.S. Department of Defense blacklisted Anthropic for refusing to remove AI safety guardrails — the same guardrails whose geometric signatures this spec describes how to detect. **Read [`ethics.md`](ethics.md) before using this research.**
 
+## Experiments
+
+| Experiment | Status | Key Finding |
+|-----------|--------|-------------|
+| [01: Phrasing Sensitivity](experiments/01-phrasing-sensitivity/) | **Complete** (1,520 results) | Category ordering universal across 19 models. Architecture dominates over scale. |
+| [03: Geometric Correlation](experiments/03-geometric-correlation/) | **In progress** (1.5B done, 3B running) | Directional coherence correlates with phrasing sensitivity (r=+0.523, p=0.018). First behavioral→geometric bridge. |
+
 ## Honest Constraints
 
 1. Confabulation detection is suggestive but unconfirmed (d = 0.43-0.67, underpowered)
 2. All findings are on open-weight models; closed models (GPT-4, Claude) can't be monitored this way without API cooperation
-3. Real-time KV-cache monitoring during inference has performance implications
-4. This spec describes what to build, not a working implementation
+3. Real-time hidden-state monitoring during inference has performance implications
+4. This spec describes what to build, not a working implementation — but experiments are underway
 5. This research has dual-use implications that are documented in [`ethics.md`](ethics.md)
