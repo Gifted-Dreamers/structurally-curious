@@ -111,7 +111,31 @@ The US federal government is assembling a surveillance and control infrastructur
 - Triggered by ICE killing two US citizens: Renee Good (Jan 7) and Alex Pretti (Jan 24) during Operation Metro Surge ([Wikipedia Renee Good](https://en.wikipedia.org/wiki/Killing_of_Ren%C3%A9e_Good); [Wikipedia Alex Pretti](https://en.wikipedia.org/wiki/Killing_of_Alex_Pretti))
 - 100,000+ workers unpaid; TSA staffing shortages ([CNN](https://www.cnn.com/2026/02/12/politics/department-homeland-security-government-shutdown); [NPR](https://www.npr.org/2026/02/14/nx-s1-5713914/department-of-homeland-security-shutdown))
 
-**CISA:** Absent from Cyber Strategy. Budget declining. Staff declining.
+**CISA — Gutted:**
+- Budget: $2.87B → $2.38B proposed (-17%, -$491M). Operational funding: $2.38B → $1.96B (-$420M+)
+- Staffing: 3,400 → projected 2,324 (-33%). ~1,000 departed by May 2025 via buyouts/resignations
+- **Election Security Program: eliminated entirely** (14 staff, $39.6M) — support halted Mar 2025, leaving thousands of state/local govts without assistance ahead of 2026 midterms
+- Election Infrastructure ISAC (EI-ISAC): all funding cut (established 2018 post-Russian interference)
+- Multi-State ISAC (MS-ISAC): funding cut
+- Cyber scholarship program: cut 60%+. National Risk Management Center: 35 positions, $70M cut
+- During shutdown: only 38% of remaining staff working; rest furloughed
+- **Cybersecurity Information Sharing Act expired** during shutdown — companies losing legal shield for sharing threat intel
+- Leader of federal cyber defense programs resigned Mar 2026
+- FBI also cut $560M / 1,900 staff; DOE cyber office cut 30%+; NSF CS research: $952M → $346M
+- Election officials say trust with CISA "broken" ([Votebeat](https://www.votebeat.org/2026/01/15/cisa-election-security-trust-broken-trump-chris-krebs-denise-merrill/))
+- ([Nextgov](https://www.nextgov.com/cybersecurity/2025/06/cisa-projected-lose-third-its-workforce-under-trumps-2026-budget/405726/); [BankInfoSecurity](https://www.bankinfosecurity.com/trump-homeland-security-budget-guts-cisa-staff-key-programs-a-28576); [TechCrunch](https://techcrunch.com/2026/02/25/us-cybersecurity-agency-cisa-reportedly-in-dire-shape-amid-trump-cuts-and-layoffs/); [The Conversation](https://theconversation.com/federal-shutdown-deals-blow-to-already-hobbled-cybersecurity-agency-266862))
+
+**DEF CON Franklin (civilian response):**
+- Launched Aug 2024 by Jake Braun (fmr acting Principal Deputy National Cyber Director) + Jeff Moss (DEF CON founder)
+- 350 volunteer hackers pairing with under-resourced water utilities and K-12 schools
+- Named for Benjamin Franklin's volunteer fire department — "we're in the gap period"
+- Pilot: 6 water utilities (UT, VT, IN, OR). Scaling to 50,000+ US water utilities
+- Partners: National Rural Water Association, Dragos, Cyber Resilience Corps, Aspen Digital, AWWA
+- Funded by Craig Newmark Philanthropies; UChicago Harris Cyber Policy Initiative
+- Related: UnDisruptable27 (Josh Corman, IST, $700K Craig Newmark)
+- ([CyberScoop](https://cyberscoop.com/franklin-project-cybersecurity-volunteers-jeff-moss-def-con/); [The Record](https://therecord.media/def-con-franklin-water-utility-cybersecurity-volunteers); [NBC News](https://www.nbcnews.com/tech/security/army-volunteer-hackers-help-protect-american-water-systems-schools-rcna165461))
+
+**Absent from Cyber Strategy** despite calling for "unprecedented coordination."
 
 **Schedule F:** 50,000 federal employees reclassifiable to at-will. OPM finalized rule Feb 2026.
 

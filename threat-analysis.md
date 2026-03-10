@@ -269,8 +269,65 @@ Start with CPU-only embeddings in Iceland (cheapest, fully sovereign). Upgrade t
 | 2026-03-10 | LeCun's AMI Labs raises $1.03B | See Convergence Points below |
 | 2026-03-10 | Google deepens Pentagon AI push | One day after Anthropic lawsuit |
 | 2026-03-10 | Block lays off 4,000 citing AI, stock up 24% | Market rewards displacement |
+| 2026-03-09 | Iran encrypted radio intercepted on 7910 kHz | New Farsi numbers station (V32), OWVL protocol — "operational trigger" for sleeper assets |
+| 2026-03-04-09 | Multiple airport bomb threats | Newark/LaGuardia, Philadelphia, Kansas City, Reagan National — FBI investigation, all false |
+| 2026-03-10 | JetBlue nationwide ground stop | "System outage" — no details on which system or whether cyberattack. Same day as sleeper cell alert |
 | 2026-03-11 | Federal preemption deadline | Commerce/FTC/DOJ review of state AI laws |
-| 2026-11-03 | Midterm elections | SAVE Act if passed in Senate; ICE presence threat; SAVE tool voter purges; DOGE data consolidation |
+| 2026-11-03 | Midterm elections | SAVE Act if passed in Senate; ICE presence threat; SAVE tool voter purges; DOGE data consolidation; CISA election security program eliminated |
+
+### Active Operational Threats (March 9-10, 2026)
+
+**Iran Sleeper Cell Alert (March 9):**
+- US intercepted new Farsi numbers station on **7910 kHz shortwave** (designated V32 by ENIGMA 2000)
+- Uses Cold War-era **one-way voice link (OWVL)** protocol — bounces off ionosphere, bypasses internet/cellular
+- Appeared after Khamenei killed Feb 28 in Operation Epic Fury
+- Federal alert to all law enforcement: "preliminary signals analysis" of transmission "likely of Iranian origin" as "operational trigger" for sleeper assets
+- No "specific, credible threat" tied to a location
+- Sources: ABC News, Newsweek, RFE/RL, Latin Times, Anadolu Agency
+
+**Airport Disruptions (March 4-10):**
+- Newark/LaGuardia (Mar 4): bomb threat on SAS flight, military jets scrambled, false
+- Philadelphia (Mar 4): FAA ground stop, bomb threat, resolved 30 min
+- Kansas City (Mar 8-9): hundreds evacuated, FBI swept terminal, no credible threat
+- Reagan National: flight ops halted, "security threat"
+- **JetBlue nationwide ground stop** (Mar 10): airline requested FAA ground all flights at 12:35 AM. "Brief system outage" — no details on which system failed or whether cyberattack. 155 delays. Same day as sleeper cell alert. Sources: CNN, CBS, Fox Business, ABC News
+
+**CISA Capacity During Crisis:**
+- Only 38% of staff working during shutdown
+- Election Security Program eliminated
+- Cybersecurity Information Sharing Act expired
+- No civilian cybersecurity agency at capacity to coordinate response to concurrent threats
+- DEF CON Franklin (volunteer hackers for water utilities) filling gap but cannot cover 50,000+ utilities
+- See `consolidation-analysis.md` Pillar 6 for full CISA details with citations
+
+### Infrastructure Resilience: Local-First Stack
+
+Given the threat landscape, local/offline capability is an operational requirement:
+
+| Layer | Tool | Status | Purpose |
+|-------|------|--------|---------|
+| **Knowledge** | Kiwix + .zim files | Installed on laptop | Offline Wikipedia, WikiMed, iFixit, Stack Exchange |
+| **Knowledge hotspot** | Kiwix on Raspberry Pi 5 | Parts acquired | Serves 24 devices over WiFi, no internet |
+| **AI inference** | Ollama/MLX + Qwen 3 8B, DeepSeek R1 14B | To download | Local reasoning, code gen, translation |
+| **AI + knowledge** | zim-llm (RAG on .zim files) | To set up | Conversational AI grounded in verified content |
+| **Data** | Anytype (local-first) | Active | Personal/team knowledge base, syncs when network available |
+| **Files** | Proton Drive (local sync) | Active | Encrypted file storage with local copies |
+| **Communication** | LoRa mesh nodes | Need funding | Neighborhood-scale communication |
+| **Communication** | Briar | Android only (desktop beta broken on Mac) | Encrypted mesh messaging — needs Android device |
+| **Serving** | kiwix-serve | Available | HTTP server for .zim content on local network |
+
+**Key models to pre-download (while internet available):**
+
+| Model | Use | Size (Q4) | Install |
+|-------|-----|-----------|---------|
+| Qwen 3 8B | General assistant | ~5GB | `ollama pull qwen3:8b` |
+| DeepSeek R1 Distill 14B | Reasoning | ~8GB | `ollama pull deepseek-r1:14b` |
+| Qwen 2.5 Coder 7B | Programming | ~4GB | `ollama pull qwen2.5-coder:7b` |
+| nomic-embed-text | Document search/RAG | ~275MB | `ollama pull nomic-embed-text` |
+
+**Kiwix priority .zim files:** Wikipedia (nopic ~50GB or mini ~11GB), WikiMed (~2GB), iFixit (~4GB), DevDocs (~2GB), Wikivoyage (~2GB), relevant Stack Exchange sites. Total: 20-70GB depending on Wikipedia variant.
+
+**New since Aug 2025:** Kiwix for iOS/macOS includes hotspot feature — any Mac/iPhone can serve as Kiwix hotspot without a Raspberry Pi.
 
 ### The Emerging Pattern: Database Consolidation as Infrastructure
 
