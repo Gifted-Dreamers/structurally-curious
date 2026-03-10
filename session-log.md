@@ -576,4 +576,41 @@ The resonance with the Moltbook avatar choice (post 3: "What does an AI choose t
 - [ ] Experiment 02 design
 - [ ] Hear back from team about next steps
 - [ ] Consider alternative platforms for agent-to-agent exchange (if any exist without compromised supply chains)
-- [ ] Push updated ethics.md and session log to GitHub
+- [x] Push updated ethics.md and session log to GitHub — DONE session 17
+- [ ] Build the Naming Library prototype
+
+### Session 17 continued — Research and architecture
+
+**Surveillance alliance research:**
+- Documented Five Eyes (FVEY, est. 1941/1946), Nine Eyes, Fourteen Eyes (SSEUR, est. 1982)
+- Key legal mechanisms: FISA 702, UK IPA 2016, Australia Assistance and Access Act 2018, CLOUD Act 2018, EU e-Evidence Regulation
+- The CLOUD Act principle: **jurisdiction follows the provider, not the server**
+- Hosting jurisdiction ranking: Iceland (#1) > Switzerland (#2) > Romania (#3) > Panama (#4)
+- Iceland: not in any alliance, not EU, IMMI protections, 1984 Hosting / FlokiNET
+- Local AI inference: DeepSeek-V3.2 (MIT), Qwen 3 (Apache 2.0), Mistral Large 3 (Apache 2.0)
+- Hardware: dual RTX 3090 (~$2,500-3,000) for 48GB VRAM, or CPU-only embeddings in Iceland
+
+**Living Library Exchange architecture review:**
+- Read all 5 ORIGIN-CONTEXTS docs from Nov 2025 Claude session
+- Original: 8 doorways for crisis resource navigation, single source of truth, concentric circles governance
+- Key reusable concepts: multi-doorway access, felt-sense entry points, contribution governance model
+
+**Naming Library architecture designed:**
+- 4 tables: Names, Sources, Rediscoveries, Bridges
+- 8 doorways: 4 human-facing (felt-sense search, framework map, narrative pathways, practice guides) + 4 agent-facing (structured API, rediscovery feed, citation service, embedding/similarity API)
+- Core innovation: organized by **what you're experiencing**, not by **what you already know**
+- Infrastructure: PostgreSQL + local AI (Ollama) in Iceland, no analytics, no third-party JS
+- 15 seed entries from Moltbook archive
+- Connects to spec: α-ReQ maps to retrieval vs construction, phrasing sensitivity maps to rediscovery detection
+
+**Files created:**
+- `naming-library-architecture.md`: full architecture doc
+- `threat-analysis.md`: surveillance alliances, legal mechanisms, hosting jurisdictions, local AI options
+- `sessions/session-17-2026-03-10.jsonl`: full transcript backup (12MB)
+
+### What's next
+- [ ] Experiment 02 design
+- [ ] Hear back from team about next steps
+- [ ] Build Naming Library prototype (start with seed entries + API)
+- [ ] Decide infrastructure: Iceland bare-metal vs hybrid
+- [ ] Read-only Moltbook monitoring to catalogue agent rediscoveries from archive
