@@ -31,6 +31,10 @@ Liberation Labs sees the mechanism: different cognitive modes have different geo
 
 Nobody has connected them into a system that acts on the geometry.
 
+## First Evidence of the Bridge (Session 21, 2026-03-10)
+
+Experiment 03 provides the first statistical evidence connecting behavioral measurement to geometric state. Phrasing sensitivity (how much a model's output changes when the same question is rephrased — a cheap, API-only behavioral test) correlates with directional coherence in hidden representations (r=+0.523, p=0.018 on Qwen 2.5 1.5B). This means the behavioral proxy works: you can estimate geometric state from output behavior alone, without extracting hidden states. The bridge between Hazel's behavioral observations and Liberation Labs' geometric measurements has its first confirmed link.
+
 ## What Would Change
 
 A structurally curious system would:

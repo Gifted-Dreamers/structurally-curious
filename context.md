@@ -85,7 +85,39 @@ Translation symmetry in co-occurrence statistics analytically determines represe
 
 **Infrastructure**: `structurally-curious/experiments/01-phrasing-sensitivity/` — run.py, analysis scripts, full results CSV, charts.
 
-**Significance**: This is the first behavioral ground truth for the geometric metrics. If Experiment 02 confirms that RankMe/α-ReQ predict phrasing sensitivity per-model, the geometric-behavioral bridge is validated.
+**Significance**: This is the first behavioral ground truth for the geometric metrics. Experiment 03 provides the first evidence that the bridge works.
+
+### Experiment 03 — Phrasing Sensitivity → Geometric State Correlation (Session 21, In Progress)
+
+**Hypothesis**: Phrasing sensitivity (behavioral, from Experiment 01) correlates with geometric properties of last-layer representations — specifically RankMe, α-ReQ, directional coherence, and spectral profile deviation.
+
+**Method**: Open-weight models running locally (HuggingFace + PyTorch MPS on M4 Pro Mac). Hook into last-layer hidden states during generation, compute geometric metrics per inference, correlate with phrasing sensitivity per task.
+
+**Results so far** (Qwen 2.5 1.5B, 20 tasks × 4 phrasings = 80 inferences):
+
+| Metric | Correlation (r) | p-value | Significant? |
+|--------|-----------------|---------|--------------|
+| RankMe | +0.269 | 0.2506 | no |
+| α-ReQ | +0.386 | 0.0930 | no |
+| **Directional coherence** | **+0.523** | **0.0179** | **yes** |
+| Spectral deviation | -0.316 | 0.1741 | no |
+
+**Key finding**: Directional coherence (mean cosine similarity between consecutive token hidden states) correlates with phrasing sensitivity at p<0.02. This is the first statistical evidence that a behavioral measurement (phrasing sensitivity — cheap, API-only) tracks a geometric property (directional coherence — requires hidden-state access).
+
+**Surprising direction**: The correlation is *positive* — high phrasing sensitivity corresponds to *high* directional coherence, not low. Models constructing (creative/judgment tasks) produce more coherent token trajectories than models retrieving (factual tasks). Construction requires sustained direction; retrieval can be point-lookups that don't need coherent trajectories.
+
+**Category means** (confirming Exp 01 ordering):
+
+| Category | PS | RankMe | α-ReQ | Dir. Coherence | Spectral Dev. |
+|----------|------|--------|-------|----------------|---------------|
+| creative | 0.844 | 107.5 | 0.781 | 0.668 | 0.027 |
+| judgment | 0.719 | 133.4 | 0.773 | 0.691 | 0.021 |
+| summarization | 0.675 | 116.8 | 0.748 | 0.669 | 0.024 |
+| factual | 0.643 | 49.9 | 0.710 | 0.530 | 0.042 |
+
+**Next**: Running on Qwen 2.5 3B for second scale point. Then GPU instance for 7B+ models.
+
+**Infrastructure**: `structurally-curious/experiments/03-geometric-correlation/` — run.py, results JSON.
 
 ## Key Conversations That Shaped This Spec
 

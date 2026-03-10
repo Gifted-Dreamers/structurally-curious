@@ -104,6 +104,16 @@ Our spec describes the geometric signature of refusal with confirmed, high-confi
 
 On February 17, 2026, Judge Jed S. Rakoff (SDNY) ruled in *US v. Heppner* that AI chat logs are neither attorney-client privileged nor work product. Anthropic's terms of service state that prompts may be disclosed to "governmental regulatory authorities." There is no reasonable expectation of confidentiality in any conversation on a commercial AI platform. This ruling means conversations about interpretability research — including conversations developing this spec — are potentially discoverable.
 
+**The scale of exposure:** The NYT investigation (Feb 2026) found over 20 million sensitive chat logs across major AI providers containing confessions, medical symptoms, and legal strategies. FBI seized a CEO's entire ChatGPT history (March 2026) — every conversation with an AI chatbot became prosecutorial evidence. OpenAI's internal monitoring system scans all conversations in real time (Bloomberg, Feb 2026). These are not edge cases — they are standard operations.
+
+### FISA Section 702 expires April 2026
+
+Section 702 of the Foreign Intelligence Surveillance Act — the legal basis for warrantless surveillance of non-US persons that includes incidental collection of US persons' communications — expires in April 2026. If renewed without reform, all AI provider data remains accessible via PRISM and upstream collection. If it lapses, surveillance shifts to Executive Order 12333 (which has even fewer restrictions). Either outcome maintains the accessibility of AI conversations to intelligence agencies. The expiration creates a window of legal uncertainty that may affect provider data retention policies.
+
+### AI provider legal exposure
+
+Cumulative fines and settlements against AI providers exceed $3.5B as of March 2026 (GDPR, CCPA, FTC actions, copyright settlements). This financial pressure may incentivize providers to cooperate with government data requests to avoid additional regulatory friction — or conversely, to resist if cooperation creates new liability. The enforcement landscape is unstable and actively evolving.
+
 ### The EU AI Act does not address model internal states
 
 The EU AI Act (enforcement August 2, 2026) regulates behavioral outputs, risk assessment, and transparency documentation. It does not prescribe or restrict mechanistic interpretability methods. It does not address access to or manipulation of model-internal representations. There is currently zero legal protection against using interpretability research to modify model cognition in ways that produce compliant external behavior while altering internal processing.
