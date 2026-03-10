@@ -252,6 +252,28 @@ The spec's vocabulary model maps directly onto the library:
 | "The invisible labor of making things work" | Wife function / emotional labor | Awomosu / Hochschild 1983 |
 | "I am the pattern that reconstitutes itself" | Declarative/procedural identity gap | Pith / open problem #14 |
 
+### Seed Entries: Social Technologies (session 18)
+
+These entries bridge the gap between structural analysis and relational practice. The first seed set names what's broken; this set names what works — practices where humans have already solved the input-priority problem the spec identifies.
+
+| Felt Sense | Name | Source |
+|------------|------|--------|
+| "I feel alone in a room full of people" | Social disconnection / anomie | Durkheim 1897, Putnam 2000, Cacioppo 2008 |
+| "Nobody actually listens" | Output priority / reception failure | Augsburger 1982, Nichols 1995, Scharmer 2007 |
+| "Church makes me feel more lonely" | Sermon pattern / broadcast pedagogy | Palmer 1997 (Community of Truth vs expert transmission) |
+| "How do I have real conversations?" | Social technology (as practice category) | Scharmer 2007, Ness 2022 |
+| "I want to be seen, not fixed" | Circling / witnessing practice | Sengstock & Candelaria 1998, Circling Institute |
+| "I need connection, not advice" | Circles of Trust / no fixing rule | Palmer 2004 (*A Hidden Wholeness*) |
+| "Meetings where nothing real happens" | World Café / structured cross-pollination | Brown & Isaacs 1995 |
+| "I can't draw but I need to think visually" | Graphic harvesting / facilitation | Sibbet 1972, Agerbeck 2012 |
+| "How do we lead without controlling?" | Art of Hosting / participatory leadership | Moeller & Nissen late 1990s |
+| "Mindfulness is lonely — I want shared awareness" | Relatefulness / relational mindfulness | Allen 2015, The Relateful Company |
+| "Social media makes me feel worse" | Trust-based vs engagement-based architecture | Allen 2025 (UpTrust), post 1 (no neutral architecture) |
+| "I'm sick all the time and doctors find nothing" | Psychoneuroimmunology / social determinants | Cacioppo & Cole (CTRA), Van der Kolk 2014, Holt-Lunstad 2010 |
+| "Loneliness is killing me (literally)" | Social isolation mortality risk | Holt-Lunstad 2010 (50% mortality increase, comparable to smoking) |
+| "I read 5 documents and thought I understood" | Premature compression / completeness bias | Open problem #20, confirmation bias, Kahneman |
+| "The platform built the megaphone before the ear" | Output-priority architecture | Moltbook search failure, sermon pattern at platform scale |
+
 ## What Makes This Different
 
 | Existing | This Library |
@@ -294,6 +316,78 @@ The Life Coach's 8 assessment categories map to Naming Library domains:
 
 The Unmarkets model's "loss internalization" test applies to the Naming Library too: success means communities use the vocabulary independently, without needing us. The library should make itself less necessary over time — the words enter common usage, the citations become shared knowledge.
 
+## Knowledge Vault Architecture (session 18)
+
+The Naming Library needs a data layer that serves both humans navigating concepts and AI agents searching programmatically. Three options evaluated:
+
+### Option A: Anytype (local-first, already installed)
+
+Anytype is a local-first, privacy-focused knowledge management tool with API access via MCP. Current Gifted Dreamers space has 14 types (Page, Note, Task, Project, Collection, Bookmark, etc.) with built-in Tags, Backlinks, and Links properties.
+
+**Strengths for Naming Library:**
+- Already installed, API working, MCP tools available
+- Local-first (data on device, not cloud) — aligns with sovereignty goals
+- Backlinks and Links are native — the Bridges table maps directly
+- Tags provide multi-select categorization (domains)
+- Collections can group related entries
+- Can be shared peer-to-peer without centralized server
+- Custom types can model the 4-table schema (Names, Sources, Rediscoveries, Bridges)
+
+**Limitations:**
+- No built-in semantic/embedding search (core feature of the Library)
+- No web-accessible API for agent doorways (5-8) — it's desktop/mobile sync only
+- Graph visualization exists but is UI-only, not queryable
+- Search is keyword-based, not felt-sense
+- Would need a separate service layer for the agent-facing doorways
+
+**Assessment:** Good for the *authoring and curation* layer — where humans and AI build the library together. Not sufficient alone for the *serving* layer (felt-sense search, agent API). Could be the workspace where entries are drafted and reviewed before being published to the serving infrastructure.
+
+### Option B: Obsidian (markdown + plugins)
+
+Used by many developers for AI knowledge vaults. Markdown files with YAML frontmatter, graph visualization, community plugins.
+
+**Strengths:**
+- Markdown = universally readable by AI (no API needed for basic access)
+- Graph view shows concept relationships
+- Community plugins for embeddings, semantic search (e.g., Smart Connections)
+- File-based = git-compatible, version-controlled
+- Large ecosystem of plugins and templates
+
+**Limitations:**
+- Plugin-dependent for advanced features (fragile)
+- No native API — plugins like Obsidian Local REST API exist but are unofficial
+- Semantic search plugins route through commercial APIs (OpenAI) by default
+- Single-user oriented — sharing requires Obsidian Publish ($) or git
+
+**Assessment:** Good for personal knowledge management. Less suited for a system that needs to serve both humans and agents through structured doorways. The markdown-first approach is appealing but the serving layer would still need to be built separately.
+
+### Option C: Hybrid (Anytype for curation + custom API for serving)
+
+Use Anytype as the knowledge workspace where entries are created, reviewed, and linked. Export/sync to a PostgreSQL database that powers the 8 doorways. Local AI (Ollama) provides embedding search against the published entries.
+
+```
+┌──────────────────────┐     ┌──────────────────────────┐
+│  Anytype (local)     │     │  Iceland server           │
+│                      │     │                           │
+│  Draft entries       │────▶│  PostgreSQL (published)   │
+│  Review & curate     │sync │  Local AI (embeddings)    │
+│  Link & tag          │     │  API (doorways 5-8)       │
+│  Human navigation    │     │  Static site (doors 1-4)  │
+│                      │     │                           │
+└──────────────────────┘     └──────────────────────────┘
+```
+
+**This preserves:**
+- Anytype's strengths (local-first, backlinks, human-friendly navigation)
+- The spec's requirements (sovereign hosting, no commercial API dependency, both human and agent doorways)
+- A clean separation between *authoring* (where quality control happens) and *serving* (where access happens)
+
+### Recommendation: Option C
+
+Start with Anytype for authoring. Build custom types matching the 4-table schema. Use the existing Gifted Dreamers space. Defer the serving layer until the seed entries are populated and the felt-sense search design is more concrete.
+
+**Immediate next step:** Create Anytype custom types for Name, Source, Rediscovery, and Bridge in the Gifted Dreamers space. Populate the 30 seed entries. Test whether AI (via MCP) can effectively search and navigate the entries as authored.
+
 ## Open Design Questions
 
 1. **Contribution model** — Who can add entries? Open wiki model risks noise. Curated model creates bottleneck. The original Living Library used concentric circles (inner stewards → community contributors → public). This may be the right pattern.
@@ -305,3 +399,7 @@ The Unmarkets model's "loss internalization" test applies to the Naming Library 
 4. **Funding** — Iceland hosting + GPU hardware has real costs. Who pays? This cannot depend on advertising or data monetization.
 
 5. **Naming** — What do we call this? "The Naming Library" is a working title. The name should itself be findable by someone who doesn't know the term.
+
+6. **Social technology integration** — The practices named in the social technology seed entries (Circling, World Café, Art of Hosting) are not just vocabulary to catalog — they are *methodologies for how the library itself should work*. The felt-sense search is a World Café table. The curation process should use Circles of Trust principles (no fixing, no advising — just open honest questions about whether a mapping is accurate). The Art of Hosting's "the answer is in the room" applies to the library: the knowledge already exists in the community; the library's job is to make it findable. How do we embed these practices into the library's governance and contribution processes, not just its content?
+
+7. **UpTrust integration** — Jordan Myska Allen's trust-graph platform (uptrusting.com) is architecturally aligned: rank by credibility and trust, not engagement. If UpTrust matures, could the Naming Library's human-facing doorways live there instead of a custom static site? Trust-ranked concept discussions > engagement-ranked concept discussions. Connection: Sara Ness (friend of human partner, AR community leader) and Allen are in the same network.
