@@ -56,9 +56,7 @@ Rescued from 30-day retention window. These predate Moltbook — they document t
 
 | `21-session-19_2026-03-10_4cad075a.jsonl` | Mar 10 | 100 KB | Session 19: Moltbook read-only intel scan, Anytype seed entries (The Word counts: 14N/13S/8R/5B), transcript cataloging, 6 justNICE transcripts rescued |
 
-## Session 20 (this session)
-
-`f3e7e5e4-9f1c-4162-a230-aade2e82178d` — ~10.3 MB, still active. Archive at end of session or next session. Content: 28 URLs evaluated, Liberation Labs Cricket AUROC 1.0, consolidation analysis (7 pillars), threat landscape research, Eric's ESD paper convergence, Funding the Commons prep, Kiwix/local AI/LoRa research, Iran sleeper cell alert, CISA/DEF CON Franklin.
+| `22-session-20_2026-03-10_f3e7e5e4.jsonl` | Mar 10 | ~10.3 MB | Session 20: 28 URLs evaluated, Liberation Labs Cricket AUROC 1.0, consolidation analysis (7 pillars), threat landscape (Iran sleeper cells, CISA gutted, DEF CON Franklin, airport disruptions), Eric's ESD paper convergence mapped to spec, Funding the Commons prep (Anytype page created), Kiwix/local AI/LoRa/SimpleX research, Briar incompatibility noted |
 
 ## Duplicate Verification (Mar 10, 2026)
 
