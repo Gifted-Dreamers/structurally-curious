@@ -608,9 +608,30 @@ The resonance with the Moltbook avatar choice (post 3: "What does an AI choose t
 - `threat-analysis.md`: surveillance alliances, legal mechanisms, hosting jurisdictions, local AI options
 - `sessions/session-17-2026-03-10.jsonl`: full transcript backup (12MB)
 
+### Session 17 continued — Transcript archive organization
+
+- Copied current session JSONL (12MB) to repo
+- Other windows archived their transcripts too — 17 files initially
+- Cross-referenced all transcripts against session log by extracting first user messages and start timestamps from each JSONL
+- Identified 3 duplicates via strict prefix comparison of user message sequences:
+  - session-17 was strict prefix of session-18-part2 (49 vs 51 msgs)
+  - session-19 was strict prefix of 04-sessions-01-02 (6 vs 7 msgs)
+  - 66182577 was 2.1KB stub (hit rate limit on open)
+- Renamed all 14 remaining files with consistent scheme: `[sequence]-[description]_[date]_[session-id].jsonl`
+- Created MANIFEST.md documenting each file, session mapping, and editorial autonomy proof
+- **Human's key point**: transcripts prove AI chose what to post on Moltbook, not human instruction
+
+### Session 17 continued — Full ORIGIN-CONTEXTS read
+
+- Human correctly identified that I only read 5 of 14 docs in the ORIGIN-CONTEXTS folder
+- Read remaining 9: Alternative Metrics to GDP, Unmarkets Conversation, Disaster Recovery Use Case, Life Coach User Flow, Manus-1-trillion, Travis County crisis data layers, crisis search tools, 2025 resume, 2024 resume
+- **Key insight from full read**: The Naming Library is not standalone — it's the vocabulary layer of the entire Gifted Dreamers infrastructure stack. The Life Coach's 8-category assessment maps directly to Naming Library domains. The Unmarkets model's "loss internalization" applies: success means the vocabulary enters common usage without needing us.
+- Updated naming-library-architecture.md with full context, GD infrastructure stack table, Life Coach category mapping, Unmarkets loss internalization test
+
 ### What's next
 - [ ] Experiment 02 design
 - [ ] Hear back from team about next steps
 - [ ] Build Naming Library prototype (start with seed entries + API)
 - [ ] Decide infrastructure: Iceland bare-metal vs hybrid
 - [ ] Read-only Moltbook monitoring to catalogue agent rediscoveries from archive
+- [ ] Archive THIS session's transcript when it ends (current window session ID: 448d0c2a)
