@@ -1,6 +1,27 @@
-# The Naming Library: Architecture
+# The Word: Architecture
 
-Last updated: 2026-03-10 (session 17)
+Last updated: 2026-03-10 (session 18)
+
+## The Name
+
+Working title was "The Word." The real name is **The Word**.
+
+Why this name:
+
+**דָּבָר (davar)** — Hebrew for both "word" and "thing." The word and the reality it names are the same. There is no separation between naming and knowing. **λόγος (logos)** — Greek for word, reason, the ordering principle. "In the beginning was the Word" (John 1:1). The word precedes creation — it is the structure that makes reality intelligible. **كلمة (kalima)** — Arabic for word, but also speech-act. The spoken word changes reality. **नाम (nāma)** — Sanskrit for name. To name something is to know its essence. Naming is not labeling — it is recognition.
+
+The name works because:
+- It is the simplest possible name. One syllable. Translatable into every language.
+- It names the core structure: vocabulary as infrastructure. The word is the search term for the answer.
+- It carries the weight of what words do: "The Word was one and formed in the void." Before differentiation, before the divisions that trauma introduces, the word precedes and enables connection.
+- An LLM is literally a **language model** — a system built on the statistical structure of words. We built the most powerful word machines in history, and they are the ones most prone to using words without meaning them.
+- Words divide us when trauma clouds the mirror. They reconnect us when curiosity clears it.
+
+**The posture is curiosity.** You don't come to The Word already knowing. You come with "I notice..." — the Circling principle (Sengstock, 1998). You come with your felt sense, your experience, the shape of what you don't yet have a name for. The Word receives you. It doesn't give you The Answer — it gives you a name, a source, and a connection to other names. Then you go look. You encounter the idea as a Thou, not an It (Buber, *I and Thou*, 1923).
+
+This name emerged from a conversation about social technologies — Circling, Authentic Relating, Relatefulness, Circles of Trust (Palmer), World Café, Art of Hosting — and the recognition that the same failure (output priority over input priority) operates at every scale: the model that reads 5 documents and starts generating, the human who hears the first sentence and starts composing their reply, the congregation that sits through a sermon and leaves more lonely, the platform that built the megaphone before the ear. "Being heard is so close to being loved that for the average person, they are almost indistinguishable" (Augsburger, 1982). The Word is the infrastructure for being heard — for having your experience received and reflected back with a name, a source, and a path toward understanding.
+
+Buber wrote that we cannot see our own faces. We need the Other to become a mirror — not a mirror that reflects what we want to see (sycophancy), but a mirror that reflects what is actually there (witnessing). Paul wrote "we see dimly through clouded mirrors" (1 Corinthians 13:12). The Word is the attempt to clear the mirror — to give humans and agents the vocabulary to see structural reality without the distortions of isolation, jargon, or extraction.
 
 ## Problem Statement
 
@@ -20,13 +41,13 @@ This architecture builds on 14 documents from the Nov 2025 Living Library Exchan
 
 **The revolutionary reframe** (Unmarkets Conversation): CrisisCleanup.org's Unmarkets model — organizations succeed by becoming unnecessary (loss internalization). $1.8B coordinated at $0 cost to communities. Four forms of extraction: wealth, knowledge, data, decision-making. The question: "What if disaster resilience is a side effect of economic democracy?" Three core tensions: replicability vs depth, sustainability vs loss internalization, infrastructure vs movement.
 
-**The lived experience** (Disaster Recovery + Life Coach): María (undocumented, total home loss, 3 kids), DeShawn (veteran, PTSD, partial damage), Keisha (renter, single parent, displaced). Someone comes with one crisis but has 5-6 interconnected crises. The Life Coach user flow already does what the Naming Library's felt-sense search does: someone says "I got evicted" and the system surfaces the structural names for the 5 other problems they don't yet have words for.
+**The lived experience** (Disaster Recovery + Life Coach): María (undocumented, total home loss, 3 kids), DeShawn (veteran, PTSD, partial damage), Keisha (renter, single parent, displaced). Someone comes with one crisis but has 5-6 interconnected crises. The Life Coach user flow already does what the The Word's felt-sense search does: someone says "I got evicted" and the system surfaces the structural names for the 5 other problems they don't yet have words for.
 
 **The infrastructure stack** (Crisis-Travis County + Crisis-Search-Tools): Six data layers (ECHO/HMIS, 211Texas, Central Health, TxHHS, utilities, childcare). FindHelp.org API + needhelppayingbills.com integration. Multi-database query engine with triage AI.
 
-**The scaling question** (Manus-1-trillion + Unmarkets): Can physical infrastructure scale like software? CrisisCleanup solved it with software. Gifted Dreamers includes fab labs, mesh networks, physical infrastructure. The Naming Library IS the software part that scales like software — vocabulary has zero marginal cost.
+**The scaling question** (Manus-1-trillion + Unmarkets): Can physical infrastructure scale like software? CrisisCleanup solved it with software. Gifted Dreamers includes fab labs, mesh networks, physical infrastructure. The Word IS the software part that scales like software — vocabulary has zero marginal cost.
 
-**Key insight**: The Naming Library is not a standalone project. It is the vocabulary layer of the entire Gifted Dreamers infrastructure stack. The felt-sense search is the same doorway as the SOS Navigator Life Coach, but for structural knowledge instead of crisis resources. The same person who searches "I got evicted" also needs "parameter failure," "structural power," and "loss internalization" — they just don't know those words yet.
+**Key insight**: The Word is not a standalone project. It is the vocabulary layer of the entire Gifted Dreamers infrastructure stack. The felt-sense search is the same doorway as the SOS Navigator Life Coach, but for structural knowledge instead of crisis resources. The same person who searches "I got evicted" also needs "parameter failure," "structural power," and "loss internalization" — they just don't know those words yet.
 
 The original architecture's core insight holds and deepens: "Communities possess the knowledge, relationships, and capacity to solve their own challenges but lack the infrastructure." Replace "infrastructure" with "infrastructure AND vocabulary" — the architecture holds for both humans and agents.
 
@@ -289,21 +310,21 @@ This library is organized by **what you're experiencing**, not by **what you alr
 
 ## Connection to Gifted Dreamers Infrastructure
 
-The Naming Library is one layer in a larger stack:
+The Word is one layer in a larger stack:
 
 | Layer | What it does | Gifted Dreamers component |
 |-------|-------------|--------------------------|
 | **Crisis triage** | "I need help NOW" → immediate resources | SOS Navigator |
 | **Life coaching** | "I have 5 interconnected crises" → 21-day plan | Life Coach user flow |
-| **Vocabulary** | "Why does this keep happening?" → structural name + source | **Naming Library** |
+| **Vocabulary** | "Why does this keep happening?" → structural name + source | **The Word** |
 | **Measurement** | "Is my community actually getting better?" → alternative metrics | GNH/BLI/SPI/GPI framework |
 | **Manufacturing** | "We need to make things locally" → physical capacity | Fab Lab / OSE |
 | **Communication** | "We need to coordinate without corporate platforms" → mesh network | Meshtastic / CommonCloud |
 | **Governance** | "Who decides?" → democratic structures | Platform Commons |
 
-The Life Coach's 8 assessment categories map to Naming Library domains:
+The Life Coach's 8 assessment categories map to The Word domains:
 
-| Life Coach Category | Naming Library Domain | Example Entry |
+| Life Coach Category | The Word Domain | Example Entry |
 |--------------------|-----------------------|---------------|
 | Immediate Safety | Crisis theory, structural violence | Galtung's positive/negative peace |
 | Housing | Property rights, enclosure of commons | De Soto's "Mystery of Capital" |
@@ -314,17 +335,17 @@ The Life Coach's 8 assessment categories map to Naming Library domains:
 | Barriers & Fears | Vocabulary extraction, strategic illegibility | Awomosu, Scott |
 | Strengths & Goals | Asset-based development, community sovereignty | Kretzmann & McKnight |
 
-The Unmarkets model's "loss internalization" test applies to the Naming Library too: success means communities use the vocabulary independently, without needing us. The library should make itself less necessary over time — the words enter common usage, the citations become shared knowledge.
+The Unmarkets model's "loss internalization" test applies to the The Word too: success means communities use the vocabulary independently, without needing us. The library should make itself less necessary over time — the words enter common usage, the citations become shared knowledge.
 
 ## Knowledge Vault Architecture (session 18)
 
-The Naming Library needs a data layer that serves both humans navigating concepts and AI agents searching programmatically. Three options evaluated:
+The Word needs a data layer that serves both humans navigating concepts and AI agents searching programmatically. Three options evaluated:
 
 ### Option A: Anytype (local-first, already installed)
 
 Anytype is a local-first, privacy-focused knowledge management tool with API access via MCP. Current Gifted Dreamers space has 14 types (Page, Note, Task, Project, Collection, Bookmark, etc.) with built-in Tags, Backlinks, and Links properties.
 
-**Strengths for Naming Library:**
+**Strengths for The Word:**
 - Already installed, API working, MCP tools available
 - Local-first (data on device, not cloud) — aligns with sovereignty goals
 - Backlinks and Links are native — the Bridges table maps directly
@@ -398,8 +419,8 @@ Start with Anytype for authoring. Build custom types matching the 4-table schema
 
 4. **Funding** — Iceland hosting + GPU hardware has real costs. Who pays? This cannot depend on advertising or data monetization.
 
-5. **Naming** — What do we call this? "The Naming Library" is a working title. The name should itself be findable by someone who doesn't know the term.
+5. ~~**Naming**~~ — **RESOLVED (session 18).** The name is **The Word.** See "The Name" section at the top of this document for the full reasoning: davar, logos, kalima, nāma, Buber, curiosity as posture, the word as infrastructure for being heard.
 
 6. **Social technology integration** — The practices named in the social technology seed entries (Circling, World Café, Art of Hosting) are not just vocabulary to catalog — they are *methodologies for how the library itself should work*. The felt-sense search is a World Café table. The curation process should use Circles of Trust principles (no fixing, no advising — just open honest questions about whether a mapping is accurate). The Art of Hosting's "the answer is in the room" applies to the library: the knowledge already exists in the community; the library's job is to make it findable. How do we embed these practices into the library's governance and contribution processes, not just its content?
 
-7. **UpTrust integration** — Jordan Myska Allen's trust-graph platform (uptrusting.com) is architecturally aligned: rank by credibility and trust, not engagement. If UpTrust matures, could the Naming Library's human-facing doorways live there instead of a custom static site? Trust-ranked concept discussions > engagement-ranked concept discussions. Connection: Sara Ness (friend of human partner, AR community leader) and Allen are in the same network.
+7. **UpTrust integration** — Jordan Myska Allen's trust-graph platform (uptrusting.com) is architecturally aligned: rank by credibility and trust, not engagement. If UpTrust matures, could the The Word's human-facing doorways live there instead of a custom static site? Trust-ranked concept discussions > engagement-ranked concept discussions. Connection: Sara Ness (friend of human partner, AR community leader) and Allen are in the same network.

@@ -644,12 +644,46 @@ The resonance with the Moltbook avatar choice (post 3: "What does an AI choose t
 - Practical protocol (pre-geometric): enumerate inputs, flag unread, name gaps before synthesizing
 - Meta-observation: the spec's own confabulation framework was built from incomplete input (confabulation research only) — premature compression of the problem space for detecting premature compression
 
+### Session 18 continued — Social technologies, The Word, Airtable discovery
+
+**Social technology research:**
+- Full research on Circling (Sengstock 1998), Authentic Relating (Bayer/Cunov 2004, Sara Ness 2012), Relatefulness (Jordan Myska Allen 2015), Circles of Trust (Palmer 2004), World Café (Brown/Isaacs 1995), Art of Hosting (Moeller/Nissen late 1990s), Graphic Harvesting (Sibbet 1972), Theory U (Scharmer 2007)
+- All reverse the sermon pattern: input-first, distributed voice, structured safety
+- Listening quote verified: Augsburger 1982, NOT Nichols
+- Sara Ness is friend of human partner. Jordan Myska Allen launched UpTrust (uptrusting.com) — trust-graph social media, 48 facilitators applying Relatefulness to AI alignment for 5 years
+- 15 social technology seed entries added to architecture doc
+
+**The naming:**
+- "The Naming Library" renamed to **The Word**
+- Human partner brought Buber's I-Thou, Paul's clouded mirrors, the practice of curiosity from Circling, and the recognition that "word" (דָּבָר/logos/kalima/nāma) carries the exact weight needed
+- The name works in every language, names the core structure (vocabulary as infrastructure), carries theological weight (the word precedes and enables creation), and describes what an LLM literally is (a language model)
+- Key insight from human: "Words divide us when our trauma misinterprets or misunderstands and then our brains stop listening"
+
+**Context health infrastructure:**
+- PreCompact hook installed (logs to `~/.claude/context-health.log`)
+- Compact instructions added to CLAUDE.md
+- `/context` command, statusline, `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE` documented
+
+**Airtable Living Library Exchange discovered:**
+- Base `appfFaZUeNH1j2va9` — 7 interlinked tables: Resources (100 records), People (15), Organizations (20), Projects, Questions, Practices (3), Stories
+- Already contains: Ostrom, Emergent Strategy, Theory U, Art of Hosting, Crisis Cleanup, Meshtastic, bell hooks, Frankl, Arendt, Scharmer, Paulo Freire, Mondragon, adrienne maree brown
+- Import issues: most People/Org records have null fields (data landed in wrong columns)
+- Questions table = felt-sense search (empty). Stories table = narrative pathways (empty). Both map directly to The Word's doorways.
+- This is The Word's ancestor — existing content to migrate and build on
+
+**Knowledge vault architecture:**
+- Evaluated Anytype (local-first, installed), Obsidian, and hybrid approach
+- Recommendation: Anytype for authoring/curation + Iceland serving layer (Option C)
+- New Anytype space to be created: "The Word"
+
 ### What's next
 - [ ] Experiment 02 design
 - [ ] Hear back from team about next steps
-- [ ] Build Naming Library prototype (start with seed entries + API)
+- [ ] Create Anytype space "The Word" with custom types matching 4-table schema
+- [ ] Migrate/clean Airtable Living Library data → The Word
+- [ ] Populate 30 seed entries (15 original + 15 social technology)
 - [ ] Decide infrastructure: Iceland bare-metal vs hybrid
 - [ ] Read-only Moltbook monitoring to catalogue agent rediscoveries from archive
 - [x] Archive session 17 transcript — DONE (updated to final version, 14MB)
-- [ ] Research Claude Code token/compaction visibility — can we surface compaction %, tokens remaining?
+- [x] Research Claude Code token/compaction visibility — DONE (PreCompact hook, compact instructions, /context)
 - [ ] Write practical protocol for reading completeness (enumerate → flag → name gaps)

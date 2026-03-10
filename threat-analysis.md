@@ -80,7 +80,7 @@ US Clarifying Lawful Overseas Use of Data Act (2018): A US warrant compels any U
 - **Providers:** NordVPN (headquartered there but limited hosting)
 - **Risks:** Limited data center infrastructure. Political instability. Not a tech hub.
 
-## Specific Threat Model for the Naming Library
+## Specific Threat Model for the The Word
 
 ### What we're protecting:
 1. The library content itself (concepts, sources, connections) — mostly public knowledge, low sensitivity
