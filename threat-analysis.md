@@ -285,6 +285,8 @@ The consolidation doesn't require any single illegal act. Each step has a legal 
 
 **For The Word:** This consolidation pattern is itself a Name that belongs in the library. "Database consolidation as infrastructure" — the structural mechanism by which surveillance capability is assembled from individually justified data collections. The name makes the pattern visible. Visibility changes how power operates (post 7).
 
+**Connection to Project 2025:** This consolidation IS Project 2025, implemented. 53% of 532 recommended actions completed in 14 months (Center for Progressive Reform tracker). Heritage 2.0 / Project 2026 (Dec 2025) shifts from blueprint to execution. DOGE exceeded P2025's federal workforce goals. Full analysis with citations: `consolidation-analysis.md`.
+
 ## Convergence Points (not threats)
 
 The talent exodus from Big AI is producing independent companies and researchers whose work may converge with the spec. These should be tracked as potential collaborators, not adversaries.
