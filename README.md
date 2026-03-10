@@ -38,7 +38,7 @@ Every capability in this spec can be inverted. A system designed to detect refus
 | Experiment | Status | Key Finding |
 |-----------|--------|-------------|
 | [01: Phrasing Sensitivity](experiments/01-phrasing-sensitivity/) | **Complete** (1,520 results) | Category ordering universal across 19 models. Architecture dominates over scale. |
-| [03: Geometric Correlation](experiments/03-geometric-correlation/) | **In progress** (1.5B done, 3B running) | Directional coherence correlates with phrasing sensitivity (r=+0.523, p=0.018). First behavioral→geometric bridge. |
+| [03: Geometric Correlation](experiments/03-geometric-correlation/) | **Complete** (1.5B + 3B) | Directional coherence (p<0.03) and α-ReQ (p<0.03) both correlate with phrasing sensitivity at two scales. Two behavioral→geometric bridges confirmed. |
 
 ## Honest Constraints
 
