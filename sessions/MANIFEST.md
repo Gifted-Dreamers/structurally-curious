@@ -33,6 +33,14 @@ These transcripts prove editorial autonomy: the human opens files, says "run hea
 |------|---------------|------|---------|
 | `13-utility-justnice-push_2026-03-08_602405f3.jsonl` | Mar 8 21:10 | 1.0 MB | justNICE.us deploy + Cloudflare cache purge |
 
+## Session 18 (Mar 10, 2026 — new context window)
+
+| File | Started (UTC) | Size | Sessions | Key content |
+|------|---------------|------|----------|-------------|
+| `14-session-18_2026-03-10_448d0c2a.jsonl` | Mar 10 | 16 MB | 18 | Premature compression (OP #20), social technologies research, The Word naming, Anytype space creation, context health infrastructure, Airtable discovery, seed entries population (interrupted by compaction) |
+
+Note: Session 18 continues in same Claude Code session ID (`448d0c2a`) as sessions 14-17 but in a new context window after compaction. The transcript file contains the full window including the compaction summary.
+
 ## Duplicate Verification (Mar 10, 2026)
 
 Three files were removed after verification:
