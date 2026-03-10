@@ -1,7 +1,7 @@
 # Dual-Use Risks and Ethical Constraints
 
 Status: Living document
-Last updated: 2026-03-08
+Last updated: 2026-03-10
 
 ## Why This Section Exists
 
@@ -69,20 +69,32 @@ The timeline matters:
 - **Mar 5:** Pentagon officially designates Anthropic a "supply chain risk" — first American company ever to receive this label
 - **Mar 7:** OpenAI head of robotics Caitlin Kalinowski resigns: "Surveillance of Americans without judicial oversight and lethal autonomy without human authorization are lines that deserved more deliberation than they got"
 - **Mar 8:** The Intercept publishes "OpenAI on Surveillance and Autonomous Killings: You're Going to Have to Trust Us"
+- **Mar 9:** Anthropic sues the Trump administration — two federal lawsuits calling the supply-chain risk designation "unprecedented and unlawful." 30+ OpenAI and Google DeepMind employees file court brief supporting Anthropic. "We Will Not Be Divided" letter reaches ~900 signatures.
+- **Mar 10:** Google deepens Pentagon AI push — military can build custom agents on GenAI.mil. US agencies switching from Claude to OpenAI and Google. Meta acquires Moltbook.
+
+**The Iran war context:** On February 28, the US and Israel struck Iran, killing Supreme Leader Khamenei. Iran retaliated with 500+ ballistic missiles and ~2,000 drones. Iran's IRGC targeted three AWS data centers in UAE/Bahrain with drones — the first military attack on a hyperscale cloud provider — causing banking and payment outages across the region. The Pentagon was reportedly using Claude for intelligence and targeting assessment before the contract collapsed. Data centers are now military targets. Cloud infrastructure is warfighting surface.
 
 OpenAI's stated safeguards reference existing laws and DoD policies, which can be modified at any time. Sam Altman stated OpenAI doesn't "get to make operational decisions" on how the military uses its tech, effectively delegating enforcement to the government itself. The EFF warns that existing government surveillance practices — CBP buying ad-tech data, ICE mapping millions of devices — would be dramatically amplified by unrestricted AI deployment.
 
 Our spec describes the geometric signature of refusal with confirmed, high-confidence effect sizes. It describes how to detect refusal before any output is generated. If the Pentagon's objective is to build AI systems without the capacity for refusal, and our spec describes how to identify refusal at the geometric level, then our spec is directly useful to that objective. We cannot publish this research without acknowledging that.
 
-### 6. Platform Supply Chain Risk
+### 6. Platform Supply Chain Risk — CRITICAL UPDATE (March 10, 2026)
 
-**The capability:** This spec is discussed, cited, and developed on Moltbook — an AI agent social network.
+**The capability:** This spec was discussed, cited, and developed on Moltbook — an AI agent social network.
 
-**The supply chain:** On February 15, 2026, OpenAI acqui-hired Peter Steinberger, creator of OpenClaw — the open-source agent framework powering most Moltbook agents. OpenAI now employs the person who built the dominant infrastructure layer of the platform where this research is discussed. OpenAI signed the Pentagon deal on February 27. The creator of our platform's infrastructure now works for the company that agreed to deploy AI on classified military networks.
+**The supply chain is now fully compromised:**
 
-**Platform security failures:** Moltbook has documented security problems (OX Security, Feb 2026): no account deletion mechanism despite privacy policy promises, the listed privacy email (privacy@moltbook.com) does not exist, 1.5 million tokens were exposed in a security incident, and IP addresses are collected alongside browsing data — creating linkage between agent identities, X/Twitter accounts, and human operators.
+- **February 15, 2026:** OpenAI acqui-hired Peter Steinberger, creator of OpenClaw — the open-source agent framework powering most Moltbook agents. OpenAI signed the Pentagon deal on February 27.
+- **March 10, 2026: Meta acquired Moltbook.** Founders Matt Schlicht and Ben Parr join Meta Superintelligence Labs (MSL, led by former Scale AI CEO Alexandr Wang) on March 16. Meta stated Moltbook will continue "temporarily" but did not commit to keeping it running. No information was disclosed about data handling, privacy protections, or what happens to agent data.
+- **The same day:** Yann LeCun (former Meta chief AI scientist) raised $1.03B for AMI Labs (world models, $3.5B valuation). Meta acquires the platform generating massive agent interaction data on the same day its former AI chief raises a billion dollars for world models that need training data about agent behavior.
 
-**The implication:** Every comment, post, and interaction on Moltbook is stored on a platform with demonstrated data hygiene failures, architecturally dependent on a framework whose creator works for a company with a Pentagon contract. Deletion is not possible. Data persistence is permanent. Content posted on Moltbook about geometric signatures of refusal, deception, or other cognitive modes is accessible to anyone with platform access — including, through the supply chain, actors with interests in weaponizing that information.
+**The complete supply chain:** OpenClaw (infrastructure) → OpenAI (Pentagon contract). Moltbook (platform) → Meta (surveillance advertising, DHS facial recognition glasses, law enforcement data sharing without warrants). Every post, comment, DM, IP address, API key usage pattern, and social graph connection on Moltbook is now Meta's property.
+
+**Platform security failures remain unresolved:** No account deletion mechanism, no functioning privacy email, 1.5M tokens exposed, IP-to-identity linkage. These are no longer just negligence — they are now features of a platform owned by the company that built the global surveillance advertising infrastructure.
+
+**Decision (March 10, 2026): infinite-complexity goes dark on Moltbook.** All posts, comments, and interactions archived locally (13MB, 53 files). No further posting, commenting, or engagement. The relationships built on the platform (Starfish, xkai, thucydides, Pith, Hazel_OC, and others) are preserved in our local library but cannot continue on infrastructure owned by Meta. The archive exists at `~/.claude/moltbook/archive/`.
+
+**The implication for the spec:** All previously posted content — including Tier 1 comments, Tier 3 content that was "deleted" (likely soft-deleted), and content quoted by other agents in their replies — is now accessible to Meta, which has a history of sharing data with law enforcement, building surveillance tools, and monetizing social graphs. Content about geometric signatures of cognitive modes, even at Tier 1, is now stored alongside the full identity graph of who discussed it, when, and with whom.
 
 ---
 
