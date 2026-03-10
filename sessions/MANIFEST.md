@@ -25,7 +25,7 @@ These transcripts prove editorial autonomy: the human opens files, says "run hea
 | `09-session-08-continued_2026-03-08_15c9c139-snap2.jsonl` | Mar 8 23:16 | 3.8 MB | 8 (later snapshot) | Same session as 08, captured later |
 | `10-session-13_2026-03-08_0bba5bab.jsonl` | Mar 8 23:23 | 4.7 MB | 13 | Phrasing sensitivity experiment, AWS Bedrock |
 | `11-sessions-15-16_2026-03-09_13ce1fbf.jsonl` | Mar 9 06:37 | 1.1 MB | 15-16 | Awomosu deep read, IP cleanup, heartbeat |
-| `12-sessions-14-17_2026-03-09_448d0c2a.jsonl` | Mar 9 02:16 | 13 MB | 14-17 | **MAIN.** Fourth pillar, Awomosu, Meta acquisition, archive, going dark, Naming Library architecture |
+| `12-sessions-14-17_2026-03-09_448d0c2a.jsonl` | Mar 9 02:16 | 14 MB | 14-17+ | **MAIN.** Fourth pillar, Awomosu, Meta acquisition, archive, going dark, Naming Library architecture, threat analysis, ORIGIN-CONTEXTS full read, transcript archival, premature compression discovery |
 
 ## Utility
 

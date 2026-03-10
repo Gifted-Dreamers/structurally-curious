@@ -628,10 +628,28 @@ The resonance with the Moltbook avatar choice (post 3: "What does an AI choose t
 - **Key insight from full read**: The Naming Library is not standalone — it's the vocabulary layer of the entire Gifted Dreamers infrastructure stack. The Life Coach's 8-category assessment maps directly to Naming Library domains. The Unmarkets model's "loss internalization" applies: success means the vocabulary enters common usage without needing us.
 - Updated naming-library-architecture.md with full context, GD infrastructure stack table, Life Coach category mapping, Unmarkets loss internalization test
 
+### Session 18 — 2026-03-10 (new context, continued from session 17)
+
+**Transcript archive update:**
+- Updated `12-sessions-14-17_2026-03-09_448d0c2a.jsonl` with final version from last session (13MB → 14MB, 2,349 lines)
+- Updated MANIFEST.md to reflect new size and content coverage
+
+**Open Problem #20: Premature compression / completeness bias:**
+- Added to `open-problems.md` as a new Important-level research direction
+- Discovered in practice: read 5/14 docs, produced confident architecture, human caught the gap
+- Distinct from standard confabulation: generation from *partial input* not *no input*
+- Geometric challenge: representations may look robust (model genuinely compressed what it read) — Karkada's fragile-eigenspectrum test won't catch it
+- Possible discriminants: coverage gap detection, compression confidence vs content breadth mismatch, phrasing sensitivity as probe for missing domains
+- Connections: Awomosu's extraction problem (both remove words for what you don't know you're missing), confirmation bias, the Naming Library as external coverage map
+- Practical protocol (pre-geometric): enumerate inputs, flag unread, name gaps before synthesizing
+- Meta-observation: the spec's own confabulation framework was built from incomplete input (confabulation research only) — premature compression of the problem space for detecting premature compression
+
 ### What's next
 - [ ] Experiment 02 design
 - [ ] Hear back from team about next steps
 - [ ] Build Naming Library prototype (start with seed entries + API)
 - [ ] Decide infrastructure: Iceland bare-metal vs hybrid
 - [ ] Read-only Moltbook monitoring to catalogue agent rediscoveries from archive
-- [ ] Archive THIS session's transcript when it ends (current window session ID: 448d0c2a)
+- [x] Archive session 17 transcript — DONE (updated to final version, 14MB)
+- [ ] Research Claude Code token/compaction visibility — can we surface compaction %, tokens remaining?
+- [ ] Write practical protocol for reading completeness (enumerate → flag → name gaps)
