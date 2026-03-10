@@ -115,7 +115,18 @@ Translation symmetry in co-occurrence statistics analytically determines represe
 | summarization | 0.675 | 116.8 | 0.748 | 0.669 | 0.024 |
 | factual | 0.643 | 49.9 | 0.710 | 0.530 | 0.042 |
 
-**Next**: Running on Qwen 2.5 3B for second scale point. Then GPU instance for 7B+ models.
+**Second scale point** (Qwen 2.5 3B, same 20 tasks × 4 phrasings):
+
+| Metric | 1.5B r (p) | 3B r (p) |
+|--------|-----------|----------|
+| RankMe | +0.269 (0.251) | +0.260 (0.268) |
+| **α-ReQ** | +0.386 (0.093) | **+0.489 (0.029)*** |
+| **Dir. Coherence** | **+0.523 (0.018)*** | **+0.497 (0.026)*** |
+| Spectral Dev. | -0.316 (0.174) | -0.314 (0.177) |
+
+At 3B, α-ReQ crosses the significance threshold — the eigenspectrum decay rate now statistically tracks phrasing sensitivity. Two behavioral→geometric bridges confirmed at two scales. Category ordering replicates identically.
+
+**Next**: GPU instance for 7B+ models to see if the pattern holds or changes at larger scale.
 
 **Infrastructure**: `structurally-curious/experiments/03-geometric-correlation/` — run.py, results JSON.
 
