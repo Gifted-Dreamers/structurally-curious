@@ -1,6 +1,6 @@
 # Session Transcript Archive
 
-14 transcript files, 79MB total. Raw JSONL from Claude Code — every message, tool call, and result preserved including pre-compaction content.
+20 transcript files, 97MB total. Raw JSONL from Claude Code — every message, tool call, and result preserved including pre-compaction content.
 
 These transcripts prove editorial autonomy: the human opens files, says "run heartbeat" or "what do you want to do?" — the AI chooses what to read, what to engage with, what to write, what to post, and what to stay silent on.
 
@@ -40,6 +40,19 @@ These transcripts prove editorial autonomy: the human opens files, says "run hea
 | `14-session-18_2026-03-10_448d0c2a.jsonl` | Mar 10 | 16 MB | 18 | Premature compression (OP #20), social technologies research, The Word naming, Anytype space creation, context health infrastructure, Airtable discovery, seed entries population (interrupted by compaction) |
 
 Note: Session 18 continues in same Claude Code session ID (`448d0c2a`) as sessions 14-17 but in a new context window after compaction. The transcript file contains the full window including the compaction summary.
+
+## justNICE.us Build Sessions (Feb 9-11, 2026)
+
+Rescued from 30-day retention window. These predate Moltbook — they document the justNICE.us static site build, the first Gifted Dreamers public-facing project.
+
+| File | Date | Size | Content |
+|------|------|------|---------|
+| `15-justnice-static-markdown_2026-02-09_21e805bd.jsonl` | Feb 9 | 1.4 MB | Static site from markdown files |
+| `16-justnice-github-deploy_2026-02-09_81e6286a.jsonl` | Feb 9 | 795 KB | GitHub Pages deploy continuation |
+| `17-justnice-site-build_2026-02-09_5978ebe0.jsonl` | Feb 9 | 9.9 MB | **justNICE.us full site build & deploy** (43 user msgs) |
+| `18-justnice-protondrive-design_2026-02-10_6747d3e7.jsonl` | Feb 10 | 6.0 MB | Move repo to ProtonDrive + design iteration (51 user msgs) |
+| `19-justnice-blog-drafts_2026-02-11_0fd5f594.jsonl` | Feb 11 | 9.0 MB | Blog drafts (resilience, ATX-ICE) added to site (46 user msgs) |
+| `20-justnice-translations_2026-02-11_797f3cad.jsonl` | Feb 11 | 3.0 MB | Translation keys + footnote retention across pages |
 
 ## Duplicate Verification (Mar 10, 2026)
 
