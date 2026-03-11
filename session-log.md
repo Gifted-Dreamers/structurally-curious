@@ -386,3 +386,72 @@ This is the spec's Design Principles articulated from felt sense. The refusal/co
 4. Run more experiments (Exp 02a on local qwen, Exp 02c DystopiaBench)
 5. GD website narrative merge
 6. GPU quota appeal (email reply)
+
+## Session 24 — 2026-03-10
+
+**Priority Sort, Eric's Full Vision, Unrig USA Website Spec**
+
+### What happened
+- Full priority sort across all ventures: (1) Unrig website, (2) socallcgroup.com, (3) Paradigm LLC filing, (4) Living Library import, (5) Moltbook intel to Anytype, (6) cloudpublica.org landing, (7) GD website, (8) experiments, (9) GPU appeal.
+- Received and processed Eric's full vision messages: UberPaperclip (Paperclip + The Word + spec + ESD abstractions), isomorphic method (= Bridges table), Lennon's Law (consensus enabling autonomy = synchronization), CAHAS (Complex AI-Human As System) as new field.
+- Built complete Unrig USA website spec (`unrig-usa-website-spec.md`): 7 pages, 20 anti-corruption safeguards across 8 categories, Meadows-informed Problem page, n8n webhook forms, ProPublica meets National Archives aesthetic.
+- Updated MEMORY.md with revenue chain, Eric communication style, team dynamics.
+
+### Key intellectual developments
+1. Eric's "alarm clock" = geometric monitor. His "isomorphic method" = Bridges table.
+2. The Paradigm systems analysis IS Doorway 1 applied to politics.
+3. Revenue chain as ecosystem: Unrig → Paradigm → socallcgroup.com.
+4. Eric wants abstractions before implementations — lead with framing, not deliverables.
+
+### Files created
+- `UnrigUSA/unrig-usa-website-spec.md`
+
+## Session 25 — 2026-03-10
+
+**Comprehensive Analysis for Press, Primary Source Verification**
+
+### What happened
+- Copied consolidation-analysis.md and threat-analysis.md to UnrigUSA folder for sharing with whistleblower reporter.
+- Identified story angle: "Database Consolidation as Infrastructure" — the structural pattern connecting individually legal actions into surveillance capability.
+- Built reporter-ready document with 70+ citations. Human corrections drove quality arc:
+  - "we need more primary sources, not just news sources" → switched to .gov/court filings
+  - "wikipedia is not a primary source" → removed all Wikipedia
+  - "we need court cases with actual evidence" → added docket numbers, filing URLs
+  - "the #what connects them section needs to be higher" → restructured with hook first
+  - "you need to research more by using the tools" → used USAspending API, MuckRock, Iran Cost Ticker
+- Used USAspending.gov REST API to verify: Palantir $1.83B/120 contracts (ICE contract 70CTD022FR0000170), discovered VOWS platform (marriage vetting at USCIS), Cellebrite $118M/20 contracts, Paragon $2M DHS (Graphite spyware hardware).
+- Read NSPM-7 from whitehouse.gov — actual language targets political opposition, labels "anti-fascism" as terrorist rallying cry.
+- Generated 3 Mermaid diagrams → PNG (seven pillars, assembled profile, timeline).
+- Generated 16+ page PDF via pandoc+weasyprint.
+- Updated intellectual-state.md, threat-analysis.md, MEMORY.md.
+- Pushed to kristinesocall/structurally-curious at e655ee8.
+- Archived session 25 transcript to sessions/.
+
+### Key intellectual developments
+1. **Transparency tools are research instruments**: USAspending API returned verified contract numbers that news articles only approximated. Input before output.
+2. **NSPM-7 primary source more extreme than reported**: Most reporting says "targeting extremism." Actual text targets political opposition.
+3. **MuckRock FOIA non-compliance as structural opacity**: 39 requests, DOGE non-responsive. Pillar 6 at the administrative level.
+4. **LWV v. DHS SAVE finding**: 33 flags out of 18M = 0.00018%. System designed for chilling effect, not verification.
+5. **Document quality arc mirrors spec quality arc**: Each human correction raised the evidentiary standard.
+6. **Goal #4 is Goals 1-3 applied**: Comprehensive analysis uses spec's pattern recognition, post 7's LP6 intervention, and feeds the revenue chain.
+
+### Files created
+- `UnrigUSA/comprehensive-analysis-footnoted.md` (70+ footnotes, primary deliverable)
+- `UnrigUSA/comprehensive-analysis-for-press.md` (inline links version)
+- `UnrigUSA/comprehensive-analysis-for-press.pdf` (16+ page styled PDF)
+- `UnrigUSA/style.css`, 3 Mermaid diagrams → PNG
+- `UnrigUSA/consolidation-analysis.md`, `UnrigUSA/threat-analysis.md` (copies)
+
+### Commits
+- `e655ee8` (kristinesocall/structurally-curious)
+
+### What's next
+1. **Share analysis with reporter** — files ready
+2. **socallcgroup.com** — needs site to be billable
+3. **Paradigm LLC filing support**
+4. Import Living Library CSV into Anytype
+5. Seed Moltbook intel into Anytype
+6. Landing page on cloudpublica.org (Doorway 1)
+7. GD website narrative merge
+8. More experiments
+9. GPU quota appeal
