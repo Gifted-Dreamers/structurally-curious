@@ -24,6 +24,7 @@ Not a paper. Not a philosophy post. A buildable design.
 4. [`ethics.md`](ethics.md) — **Dual-use risks and ethical constraints** — how this research can be weaponized, why we published anyway, and what governance must exist before deployment
 5. [`experiments/`](experiments/) — Completed experiments and results
 6. [`experiment-priorities-for-team.md`](experiment-priorities-for-team.md) — Planned experiment pipeline
+7. [`living-library-v2-architecture.md`](living-library-v2-architecture.md) — **The deployment target** — Living Library Exchange v2 for humans and AI, with three-tier resilience (cloud, local network, fully offline)
 
 ## The One-Paragraph Version
 

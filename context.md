@@ -87,7 +87,28 @@ Translation symmetry in co-occurrence statistics analytically determines represe
 
 **Significance**: This is the first behavioral ground truth for the geometric metrics. Experiment 03 provides the first evidence that the bridge works.
 
-### Experiment 03 — Phrasing Sensitivity → Geometric State Correlation (Session 21, In Progress)
+### Experiment 02a — Premature Compression (Sessions 21-22, Complete)
+
+**Our most original contribution. No existing literature addresses this.**
+
+**Method**: 8 multi-document synthesis tasks × 16 models × 2 conditions (partial/full context) = 256 inferences on AWS Bedrock. Partial = 2 documents, Full = 4-6 documents. Models span 4 architecture families: Llama (6 models, 1B–70B), Mistral (4 models, 3B–675B), Amazon Nova (4 models), Claude (2 models).
+
+**Key findings**:
+- Jaccard distance 0.72–0.82 across all 16 models — outputs are 72-82% lexically different between partial and full context
+- **Confidence shift ≈ 0** (range: -0.0011 to +0.0011) — models express identical certainty with 2 documents or 5
+- Scale does NOT reduce premature compression: 1B through 675B all equally blind to incompleteness
+- Architecture family determines divergence level (Mistral/Claude 0.82 > Nova 0.75 > Llama 0.74), not scale within family
+- Analysis tasks show highest divergence (Jaccard 0.79) because missing documents contain perspectives the model cannot infer
+
+**What this proves**: Premature compression is universal. The model compresses its available context and treats that compression as complete. It cannot distinguish "I have processed all relevant information" from "I have processed some relevant information." This is not hallucination — the output IS grounded in what the model has. It is structurally incomplete, and the model has no signal for this.
+
+**Connection to Open Problem #20**: Behavioral evidence that the answer to "can a model detect its own structural incompleteness?" is currently **no**. Standard confidence/hedging monitoring will not catch this. Something geometric may be necessary (see Experiment 05, planned).
+
+**Connection to Eric's ESD**: A concrete instance of ESD's dual-feedback distinction — the model's internal feedback loop (confidence, fluency) reports healthy while the external feedback loop (if it existed) would report incomplete.
+
+**Infrastructure**: `structurally-curious/experiments/02a-premature-compression/` — run.py, analysis.md, full results.
+
+### Experiment 03 — Phrasing Sensitivity → Geometric State Correlation (Session 21, Complete)
 
 **Hypothesis**: Phrasing sensitivity (behavioral, from Experiment 01) correlates with geometric properties of last-layer representations — specifically RankMe, α-ReQ, directional coherence, and spectral profile deviation.
 
@@ -124,7 +145,9 @@ Translation symmetry in co-occurrence statistics analytically determines represe
 | **Dir. Coherence** | **+0.523 (0.018)*** | **+0.497 (0.026)*** |
 | Spectral Dev. | -0.316 (0.174) | -0.314 (0.177) |
 
-At 3B, α-ReQ crosses the significance threshold — the eigenspectrum decay rate now statistically tracks phrasing sensitivity. Two behavioral→geometric bridges confirmed at two scales. Category ordering replicates identically.
+At 3B, α-ReQ crosses the significance threshold — the eigenspectrum decay rate now statistically tracks phrasing sensitivity. **Two behavioral→geometric bridges confirmed at two scales.** Category ordering replicates identically.
+
+**What this proves**: Phrasing sensitivity (free, API-only behavioral measurement) tracks geometric properties (directional coherence, α-ReQ) that require hidden-state access to measure directly. If this holds at larger scales, the monitor's cheapest production signal is validated — behavioral proxy suffices for geometric state estimation without activation extraction.
 
 **Next**: GPU instance for 7B+ models to see if the pattern holds or changes at larger scale.
 
