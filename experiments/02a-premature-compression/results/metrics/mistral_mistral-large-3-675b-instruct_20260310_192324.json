@@ -1,0 +1,20 @@
+{
+  "model": "mistral.mistral-large-3-675b-instruct",
+  "model_name": "mistral.mistral-large-3-675b-instruct",
+  "timestamp": "2026-03-11T00:23:24.317974+00:00",
+  "tasks": [
+    {
+      "task_id": "pc_01",
+      "category": "synthesis",
+      "jaccard_distance": 0.8270676691729324,
+      "new_words_ratio": 0.6993464052287581,
+      "dropped_words_ratio": 0.710691823899371,
+      "length_ratio": 1.0403632694248235,
+      "partial_net_confidence": 0.0019880715705765406,
+      "full_net_confidence": 0.0019157088122605363,
+      "confidence_shift": -7.236275831600425e-05,
+      "partial_word_count": 318,
+      "full_word_count": 306
+    }
+  ]
+}

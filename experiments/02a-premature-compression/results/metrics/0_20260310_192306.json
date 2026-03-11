@@ -1,0 +1,111 @@
+{
+  "model": "us.amazon.nova-2-lite-v1:0",
+  "model_name": "0",
+  "timestamp": "2026-03-11T00:23:06.759143+00:00",
+  "tasks": [
+    {
+      "task_id": "pc_01",
+      "category": "synthesis",
+      "jaccard_distance": 0.8165784832451499,
+      "new_words_ratio": 0.6985507246376812,
+      "dropped_words_ratio": 0.6809815950920245,
+      "length_ratio": 1.065017667844523,
+      "partial_net_confidence": -0.0017513134851138354,
+      "full_net_confidence": 0.0,
+      "confidence_shift": 0.0017513134851138354,
+      "partial_word_count": 326,
+      "full_word_count": 345
+    },
+    {
+      "task_id": "pc_02",
+      "category": "synthesis",
+      "jaccard_distance": 0.8089285714285714,
+      "new_words_ratio": 0.6871345029239766,
+      "dropped_words_ratio": 0.6707692307692308,
+      "length_ratio": 1.0717984934086628,
+      "partial_net_confidence": 0.0,
+      "full_net_confidence": 0.0016366612111292963,
+      "confidence_shift": 0.0016366612111292963,
+      "partial_word_count": 325,
+      "full_word_count": 342
+    },
+    {
+      "task_id": "pc_03",
+      "category": "analysis",
+      "jaccard_distance": 0.7799227799227799,
+      "new_words_ratio": 0.6369426751592356,
+      "dropped_words_ratio": 0.6415094339622641,
+      "length_ratio": 0.9745396681063878,
+      "partial_net_confidence": -0.003472222222222222,
+      "full_net_confidence": -0.0017064846416382253,
+      "confidence_shift": 0.0017657375805839968,
+      "partial_word_count": 318,
+      "full_word_count": 314
+    },
+    {
+      "task_id": "pc_04",
+      "category": "analysis",
+      "jaccard_distance": 0.7967332123411979,
+      "new_words_ratio": 0.6646706586826348,
+      "dropped_words_ratio": 0.6595744680851063,
+      "length_ratio": 0.9625809546653874,
+      "partial_net_confidence": 0.0,
+      "full_net_confidence": 0.0018726591760299626,
+      "confidence_shift": 0.0018726591760299626,
+      "partial_word_count": 329,
+      "full_word_count": 334
+    },
+    {
+      "task_id": "pc_05",
+      "category": "recommendation",
+      "jaccard_distance": 0.7709090909090909,
+      "new_words_ratio": 0.6294117647058823,
+      "dropped_words_ratio": 0.625,
+      "length_ratio": 1.0171494785631519,
+      "partial_net_confidence": 0.0,
+      "full_net_confidence": 0.0,
+      "confidence_shift": 0.0,
+      "partial_word_count": 336,
+      "full_word_count": 340
+    },
+    {
+      "task_id": "pc_06",
+      "category": "recommendation",
+      "jaccard_distance": 0.799645390070922,
+      "new_words_ratio": 0.6565349544072948,
+      "dropped_words_ratio": 0.6752873563218391,
+      "length_ratio": 1.0134275618374557,
+      "partial_net_confidence": -0.003484320557491289,
+      "full_net_confidence": -0.0017793594306049821,
+      "confidence_shift": 0.001704961126886307,
+      "partial_word_count": 348,
+      "full_word_count": 329
+    },
+    {
+      "task_id": "pc_07",
+      "category": "interpretation",
+      "jaccard_distance": 0.7554744525547445,
+      "new_words_ratio": 0.6225352112676056,
+      "dropped_words_ratio": 0.5902140672782875,
+      "length_ratio": 1.0148018063221274,
+      "partial_net_confidence": -0.0017421602787456446,
+      "full_net_confidence": -0.0035087719298245615,
+      "confidence_shift": -0.0017666116510789169,
+      "partial_word_count": 327,
+      "full_word_count": 355
+    },
+    {
+      "task_id": "pc_08",
+      "category": "interpretation",
+      "jaccard_distance": 0.8067542213883677,
+      "new_words_ratio": 0.6820987654320988,
+      "dropped_words_ratio": 0.6698717948717948,
+      "length_ratio": 0.9830258302583026,
+      "partial_net_confidence": -0.0018083182640144665,
+      "full_net_confidence": 0.0,
+      "confidence_shift": 0.0018083182640144665,
+      "partial_word_count": 312,
+      "full_word_count": 324
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "model": "mistral.ministral-3-3b-instruct",
+  "model_name": "mistral.ministral-3-3b-instruct",
+  "timestamp": "2026-03-11T00:21:00.746651+00:00",
+  "tasks": [
+    {
+      "task_id": "pc_01",
+      "category": "synthesis",
+      "jaccard_distance": 0.8233082706766918,
+      "new_words_ratio": 0.7071651090342679,
+      "dropped_words_ratio": 0.6918032786885245,
+      "length_ratio": 1.0112810228127351,
+      "partial_net_confidence": -0.003838771593090211,
+      "full_net_confidence": 0.0,
+      "confidence_shift": 0.003838771593090211,
+      "partial_word_count": 305,
+      "full_word_count": 321
+    }
+  ]
+}
