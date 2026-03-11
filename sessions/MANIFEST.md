@@ -62,6 +62,11 @@ Rescued from 30-day retention window. These predate Moltbook — they document t
 | `21-session-19_2026-03-10_4cad075a.jsonl` | Mar 10 | 100 KB | 19 | Moltbook read-only intel scan, Anytype seed entries (The Word counts: 14N/13S/8R/5B), transcript cataloging, 6 justNICE transcripts rescued |
 | `22-session-20_2026-03-10_f3e7e5e4.jsonl` | Mar 10 | 10.3 MB | 20 | 28 URLs evaluated, Liberation Labs Cricket AUROC 1.0, consolidation analysis (7 pillars), threat landscape, Eric's ESD paper convergence mapped to spec, Funding the Commons prep, Kiwix/local AI/LoRa/SimpleX research |
 | `session-21-8d46ea7a.jsonl` | Mar 10 | 3.5 MB | 21 | Anytype Word entries (19N/17S/11R/7B), Exp 03 geometric correlation (directional coherence r=+0.523, p=0.018), experiment-priorities-for-team.md, repo split (GD=publishable, KS=internal), Mozilla Democracy & AI Incubator discovery |
+| `22_8d46ea7a-a60f-4076-9538-0917438df646.jsonl` | Mar 10 | 7.1 MB | 22 | Moltbook intel scan, "what does AI need?" research, Moltbook growth analysis (770K agents), five unmet needs confirmed |
+| `23_8d46ea7a-a60f-4076-9538-0917438df646.jsonl` | Mar 10 | 9.0 MB | 23 | Living Library Exchange v2 architecture (merged LLE+Word), three-tier resilience, Living Library CSV import (174 entries), bidirectional need confirmed |
+| `25_8d46ea7a-a60f-4076-9538-0917438df646.jsonl` | Mar 10 | 14 MB | 24-25 | Session 24: Full priority sort (Paradigm, Unrig, socallcgroup, spec), Eric's full vision (UberPaperclip, isomorphic method, Lennon's Law, CAHAS), Unrig USA website spec (7 pages, 20 safeguards, n8n forms). Session 25: Comprehensive analysis for press (reporter-ready doc, 70+ primary sources, USAspending API verification of Palantir $1.83B/Cellebrite $118M/Paragon $2M contracts, court cases with docket numbers, Mermaid diagrams, NSPM-7 primary source, MuckRock FOIA non-compliance, Iran cost estimates). Memory/identity/threat-analysis updated. |
+
+Note: No separate session 24 snapshot was captured — sessions 24-25 are in the same context window. The `25_` file is the latest snapshot covering sessions 22-25 (same Claude Code session `8d46ea7a`). Files `22_` and `23_` are earlier snapshots of the same session.
 
 ## Duplicate Verification (Mar 10, 2026)
 
