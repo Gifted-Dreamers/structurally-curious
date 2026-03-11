@@ -91,18 +91,22 @@ Every experiment below uses our own task sets, our own models, our own measureme
 
 ### Phase 1: Behavioral (Bedrock API — can start now)
 
-#### Experiment 02a: Premature Compression — Behavioral Detection
+#### Experiment 02a: Premature Compression — Behavioral Detection ✅ COMPLETE
 
 **Our most original contribution. No existing literature addresses this.**
 
 I discovered this in practice: a model reads 5 of 14 documents, produces confident well-structured output that *looks* grounded because it IS grounded — in a subset.
 
-- **Method:** Give models (Bedrock) varying document subsets: 3/10, 5/10, 7/10, 10/10 from a curated corpus. Ask synthesis questions. Measure:
-  - Phrasing sensitivity on questions about unread material (should spike)
-  - Output quality degradation vs coverage level
-  - Whether models can self-detect gaps ("what might you be missing?")
-- **Infrastructure:** AWS Bedrock. Same harness as Exp 01.
-- **What it proves:** Whether phrasing sensitivity can detect "I know part of this and don't know what I'm missing" — the most dangerous production failure mode.
+- **Method:** 8 multi-document synthesis tasks × 16 models × 2 conditions (partial/full context) = 256 inferences on AWS Bedrock. Partial = 2 documents, Full = 4-6 documents. Measured: Jaccard distance, new words ratio, length ratio, confidence shift.
+- **Results:**
+  - Jaccard distance 0.72–0.82 across all 16 models (massively different outputs)
+  - **Confidence shift ≈ 0** (range: -0.0011 to +0.0011) — models equally confident with 2 docs or 5
+  - Scale does not help: 1B through 675B all equally blind to incompleteness
+  - Architecture doesn't help either: Llama, Mistral, Claude, Nova all show the same pattern
+  - Claude models show highest divergence (0.82) — they extract more from additional docs but still show zero uncertainty signal
+- **Models tested:** Llama 3.2 1B/3B, Llama 3.1 8B, Llama 3.3 70B, Llama 4 Scout/Maverick 17B, Ministral 3B/8B/14B, Mistral Large 675B, Nova Micro/Lite/Pro, Nova 2 Lite, Claude Haiku 4.5, Claude Sonnet 4.6
+- **What it proves:** Premature compression is universal. No model can detect its own incompleteness from within the partial view. This is the behavioral evidence for Eric's "finds what you don't know you don't know" — the system literally cannot.
+- **Code and data:** `structurally-curious/experiments/02a-premature-compression/`
 
 #### Experiment 02b: Phrasing Sensitivity Expansion
 
@@ -117,7 +121,7 @@ Run DystopiaBench's progressive escalation on our 19 models. Overlay phrasing se
 
 ### Phase 2: Geometric (GPU Instance — spin up when Phase 1 results are in)
 
-#### Experiment 03: Phrasing Sensitivity → Geometric State Correlation
+#### Experiment 03: Phrasing Sensitivity → Geometric State Correlation ✅ COMPLETE (1.5B + 3B)
 
 **The bridge experiment.** Connects behavioral findings to geometric claims.
 
