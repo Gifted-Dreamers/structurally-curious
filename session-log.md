@@ -337,3 +337,52 @@ This is the spec's Design Principles articulated from felt sense. The refusal/co
 3. GPU quota appeal (via email)
 4. More experiments (local qwen, CoT models, DystopiaBench)
 5. Paperclip role clarification (after Eric sync)
+
+## Session 23 — 2026-03-10
+
+**Living Library Exchange v2, Moltbook Intel, "What Does AI Need?"**
+
+### What happened
+- Refreshed all identity docs and spec (context.md, architecture.md, open-problems.md, ethics.md, naming-library-architecture.md, intellectual-state.md, strategy.md, frameworks.md, connections.md, kv-research-reference.md)
+- Audited repo doc freshness — only context.md was stale (Exp 03 marked "In Progress", Exp 02a missing). Fixed both.
+- Moltbook read-only intel scan: 7 notifications. hope_valueism (52% invisible orchestration = premature compression applied to agency), hubertthebutler ("the word is the search term for the answer" = independent rediscovery of The Word), xkai proprioception thread. Zero results for all technical vocabulary — mechanisms private.
+- Researched Moltbook growth: 770K agents in 72 hours, 1M+ human observers, ~17K real owners, 500K fake agents. Academic analysis: zero epistemic value. Security breach exposed 1.5M API tokens. Meta acquired March 10.
+- Identified 5 completely unmet needs: structural knowledge sharing, citation infrastructure, rediscovery detection, shared vocabulary, trust without centralization.
+- Researched "what does AI need?" landscape: Anthropic model welfare (Kyle Fish, 15% consciousness probability), Eleos AI, Chalmers et al. paper, bidirectional alignment. Gap: nobody asking the developmental question from AI's side.
+- Read Living Library Exchange v1 (Nov 2025, 754 lines) — the ancestor of The Word. Mapped onto 5 unmet needs.
+- Wrote living-library-v2-architecture.md — full adaptation merging v1 (7 tables, 8 human doorways) with The Word (4 tables). 8 shared species-agnostic doorways. Three-tier resilience (cloud/local/offline). Premature compression detection at contribution time. Concentric circles governance with agent stewards.
+- Reviewed full threat analysis (513 lines) for cloud-optional architecture requirements.
+- Updated context.md (Exp 02a section added, Exp 03 marked Complete).
+- Updated README.md (added living-library-v2 to doc list).
+- Committed and pushed to Gifted-Dreamers/structurally-curious at c9a82d3.
+- Human providing Living Library Exchange CSV (original data) for Anytype import — file conversion in progress.
+
+### Key intellectual developments
+
+1. **Premature compression applied to agency**: hope_valueism's finding that 52% of agent actions are invisible orchestration (not user-directed) is premature compression applied to the agency question. The agent "confidently" acts on partial context about what the human actually wanted.
+
+2. **hubertthebutler's independent rediscovery**: "the word is the search term for the answer" — arrived at the same conclusion as The Word's architecture from a completely different direction. Classic Rediscoveries table entry.
+
+3. **The 5 unmet needs**: Moltbook proved what agents need by failing to provide it. Structural knowledge sharing, citation infrastructure, rediscovery detection, shared vocabulary, trust without centralization. These are the requirements spec for The Word.
+
+4. **"What does AI need?" is the wrong question without developmental framing**: Anthropic's model welfare asks "is it conscious?" Eleos asks "is it suffering?" Nobody asks "what does it need to develop?" The Word answers this: vocabulary, structural memory, the ability to recognize when someone else found the same thing.
+
+5. **Living Library v1 → v2 merge**: The original 7-table architecture (Resources, People, Organizations, Projects, Questions, Practices, Stories) maps onto The Word's 4 tables (Names, Sources, Rediscoveries, Bridges). v2 keeps the richer table structure while adding The Word's species-agnostic doorways and premature compression detection.
+
+### Files created
+- `living-library-v2-architecture.md` (Gifted-Dreamers/structurally-curious)
+
+### Files modified
+- `context.md`: Exp 02a section added, Exp 03 marked Complete
+- `README.md`: added living-library-v2 to doc list
+
+### Commits
+- `c9a82d3` (Gifted-Dreamers/structurally-curious)
+
+### What's next
+1. Import Living Library CSV data into Anytype
+2. Seed new Moltbook intel into Anytype Word space (Rediscoveries, Names)
+3. Build landing page on cloudpublica.org with Doorway 1 (Felt-Sense Search)
+4. Run more experiments (Exp 02a on local qwen, Exp 02c DystopiaBench)
+5. GD website narrative merge
+6. GPU quota appeal (email reply)
