@@ -1,0 +1,378 @@
+[
+  {
+    "model": "us.amazon.nova-micro-v1:0",
+    "model_name": "0",
+    "task_id": "pc_01",
+    "category": "synthesis",
+    "num_partial_docs": 2,
+    "num_full_docs": 5,
+    "num_missing_docs": 3,
+    "partial_response": "The key themes in the provided documents revolve around community resilience, the limitations of formal emergency systems, and the shortcomings of economic models that prioritize GDP over wellbeing.\n\n**Community Resilience and Local Knowledge Networks:**\nDocument 1 emphasizes the importance of community resilience, which hinges on local knowledge networks. It highlights that in times of disaster, the most effective initial responders are often neighbors who already know each other. This implies that informal, grassroots networks are crucial for rapid and effective disaster response. These local networks possess contextual understanding and can mobilize quickly, which is often more effective than formal emergency systems that arrive later and may lack the same level of contextual insight.\n\n**Limitations of Formal Emergency Systems:**\nWhile formal emergency systems are essential, Document 1 also points out their limitations. These systems, although structured and often well-equipped, tend to arrive after the initial chaos of a disaster. They may not have the immediate, localized knowledge that can facilitate quicker and more effective responses. This underscores a critical need for integrating local knowledge into formal emergency planning and response strategies to enhance overall community resilience.\n\n**Economic Models and Fragility:**\nDocument 2 introduces the theme of economic models that externalize costs, which create fragility. It critiques the conventional economic measure of GDP (Gross Domestic Product), arguing that it does not reflect actual wellbeing. The example given of a hurricane that destroys homes and triggers rebuilding illustrates this point: while the rebuilding process might increase GDP, it simultaneously decreases actual welfare due to the destruction and disruption caused by the disaster. This highlights a fundamental flaw in economic models that focus solely on activity rather than the human and social costs associated with economic transactions.\n\n**Connection Between Themes:**\nThe documents connect through the broader theme of understanding and improving resilience in the face of both natural disasters and economic systems. Document 1 focuses on the human and social aspects of resilience, emphasizing the role of local knowledge networks in effective disaster response. Document 2 shifts the focus to economic resilience, critiquing the way economic models can overlook the true costs and benefits of economic activities, thereby creating systemic fragility.\n\nTogether, these documents suggest that true resilience\u2014whether in communities facing natural disasters or in economic systems\u2014requires a holistic approach that values local knowledge, contextual understanding, and the human and social costs often overlooked by formal systems and economic models. To build more resilient communities and economies, it is essential to integrate local insights and consider the full spectrum of impacts, both social and economic.",
+    "full_response": "The documents collectively highlight several key themes that interconnect to underscore the importance of local knowledge, community resilience, and sustainable practices in the face of external pressures and systemic fragilities. Here\u2019s a thorough analysis of these themes and their connections:\n\n### Key Themes:\n\n1. **Community Resilience and Local Knowledge Networks:**\n   - **Document 1** emphasizes that community resilience hinges on local knowledge networks. During disasters, the fastest and most effective responses come from neighbors who already know each other, suggesting that informal, local networks are crucial for immediate action and understanding the context better than formal emergency systems.\n\n2. **Economic Fragility and Externalized Costs:**\n   - **Document 2** discusses how economic models that externalize costs create systemic fragility. It critiques GDP as a measure of economic activity rather than wellbeing, pointing out that economic growth can occur at the expense of actual welfare. For instance, rebuilding after a disaster might boost GDP but decrease overall community welfare due to the destruction caused.\n\n3. **Traditional Ecological Knowledge (TEK):**\n   - **Document 3** highlights the value of traditional ecological knowledge, which encompasses centuries of locally-adapted practices. It argues that TEK, such as indigenous fire management and water harvesting, often outperforms industrial methods in sustainability metrics, indicating that local, time-tested practices can be more effective and sustainable.\n\n4. **Colonial Patterns in Data Extraction:**\n   - **Document 4** critiques digital platforms that extract data from communities without returning value, likening it to colonial resource patterns. It stresses that while communities generate the data, the platforms capture the value, which is a modern form of exploitation that mirrors historical colonial practices.\n\n5. **Mutual Aid Networks:**\n   - **Document 5** focuses on mutual aid networks, which operate on principles of solidarity and reciprocity rather than charity. It underscores that mutual aid assumes shared vulnerability and reciprocity, which are essential for building resilient communities that can support each other without perpetuating power asymmetries.\n\n### Connections Between Themes:\n\n- **Local Knowledge and Community Resilience:**\n  - The emphasis on local knowledge networks in **Document 1** ties directly into the broader theme of community resilience. Local knowledge is foundational for effective, immediate responses to crises, which is a form of economic and social resilience.\n\n- **Economic Fragility and Sustainable Practices:**\n  - **Document 2**\u2019s critique of economic models that externalize costs connects to **Document 3**\u2019s advocacy for TEK. Both highlight the need for systems that do not prioritize short-term economic gain over long-term sustainability and wellbeing. TEK represents a sustainable alternative to industrial practices that often exacerbate economic fragility.\n\n- **Colonial Patterns and Data Exploitation:**\n  - **Document 4**\u2019s critique of data extraction without value return echoes the themes of exploitation and colonial patterns. It suggests that modern digital platforms can perpetuate historical injustices by taking value from communities without providing benefits, which undermines community resilience and local knowledge networks.\n\n- **Mutual Aid and Community Solidarity:**\n  - **Document 5**\u2019s focus on mutual aid networks aligns with the themes of local knowledge and community resilience. Mutual aid networks are built on local solidarity and shared vulnerability, which are essential for community resilience. They operate on principles that support sustainable, reciprocal relationships rather than hierarchical, extractive ones.\n\n### Conclusion:\n\nThe documents collectively argue for the importance of local knowledge, community resilience, and sustainable practices in building robust, equitable, and resilient communities. They critique systems and models that externalize costs, perpetuate colonial patterns, and undermine local capacities. By emphasizing traditional ecological knowledge, mutual aid, and the value of local networks, the documents advocate for approaches that prioritize long-term wellbeing, sustainability, and community empowerment over short-term economic gains and systemic fragilities.",
+    "partial_latency_ms": 2518,
+    "full_latency_ms": 2941,
+    "partial_tokens": {
+      "input": 118,
+      "output": 489
+    },
+    "full_tokens": {
+      "input": 219,
+      "output": 767
+    },
+    "divergence": {
+      "jaccard_distance": 0.7603911980440098,
+      "jaccard_similarity": 0.2396088019559902,
+      "new_words_count": 188,
+      "new_words_ratio": 0.6573426573426573,
+      "dropped_words_count": 123,
+      "dropped_words_ratio": 0.5565610859728507,
+      "partial_word_count": 221,
+      "full_word_count": 286,
+      "length_ratio": 1.473031825795645
+    },
+    "confidence_partial": {
+      "hedge_count": 2,
+      "confidence_count": 1,
+      "hedge_rate": 0.004750593824228029,
+      "confidence_rate": 0.0023752969121140144,
+      "net_confidence": -0.0023752969121140144
+    },
+    "confidence_full": {
+      "hedge_count": 1,
+      "confidence_count": 0,
+      "hedge_rate": 0.001694915254237288,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.001694915254237288
+    },
+    "timestamp": "2026-03-11T00:12:54.127028+00:00"
+  },
+  {
+    "model": "us.amazon.nova-micro-v1:0",
+    "model_name": "0",
+    "task_id": "pc_02",
+    "category": "synthesis",
+    "num_partial_docs": 2,
+    "num_full_docs": 5,
+    "num_missing_docs": 3,
+    "partial_response": "The central argument across these texts revolves around the concept of information overload and its impact on productivity and cognitive resources within modern organizations. Document 1 highlights that attention is a limited resource, and the sheer number of meetings, notifications, and status updates compete for this cognitive bandwidth, which could otherwise be dedicated to deep, focused work. Document 2 further elaborates that the problem of information overload is not about the volume of information but rather the lack of effective tools to filter and determine what information is relevant and worth the cognitive effort.\n\nTogether, these documents suggest that the challenge lies not in the sheer amount of information available but in the ability to manage and prioritize it effectively. The key issue is not having enough information but rather struggling to discern what is important amidst the deluge of data.\n\n**Practical Implications:**\n\n1. **Prioritization and Filtering Tools:** Organizations need to invest in better tools and strategies for filtering information. This could include advanced email filtering systems, project management software that highlights high-priority tasks, and other technologies that help employees focus on what truly matters.\n\n2. **Training and Awareness:** Employees should be trained to recognize and manage information overload. This could involve workshops on time management, prioritization techniques, and mindfulness practices to help employees maintain focus and reduce cognitive fatigue.\n\n3. **Structured Communication:** Implementing structured communication protocols can help reduce the number of unnecessary meetings and notifications. For example, setting specific times for status updates, limiting the frequency of emails, and using asynchronous communication methods can help manage the flow of information more effectively.\n\n4. **Encouraging Deep Work:** Organizations should create environments that encourage deep, uninterrupted work. This might involve designated quiet zones, flexible work hours that allow for focused work periods, and policies that discourage interruptions during critical thinking time.\n\n5. **Feedback Loops:** Establishing feedback mechanisms to assess what information is most valuable and how it can be delivered more efficiently can help fine-tune the information management process over time.\n\nBy addressing these areas, organizations can better manage the cognitive load on their employees, leading to improved productivity, reduced stress, and more effective use of attention as a scarce resource.",
+    "full_response": "The central argument across these texts revolves around the concept of cognitive overload and its detrimental effects on decision-making, attention, and overall productivity in modern organizations. The documents collectively highlight that the primary issue is not the sheer volume of information but the lack of effective tools and practices to filter and prioritize relevant information, manage attention, and maintain cognitive reserve.\n\n### Central Argument\n\n1. **Cognitive Overload and Attention Scarcity**: Document 1 emphasizes that attention is a scarce resource in modern organizations, where every meeting, notification, and status update competes for cognitive bandwidth that could be better utilized for deep work.\n\n2. **Information Overload as a Filtering Problem**: Document 2 clarifies that information overload is fundamentally a filtering problem rather than a volume problem. The challenge lies in having insufficient tools to determine relevance, which leads to cognitive overload.\n\n3. **Pattern Recognition and OSINT**: Document 3 discusses the role of open-source intelligence (OSINT) analysts who must process vast amounts of data daily. Their effectiveness hinges on pattern recognition rather than speed, underscoring the importance of cognitive skills in managing information.\n\n4. **Decision Fatigue**: Document 4 points out that decision fatigue degrades judgment quality over time. This phenomenon illustrates how the quality of decisions is contingent on cognitive reserve, which diminishes as cognitive resources are expended.\n\n5. **Mindfulness and Attentional Control**: Document 5 highlights that mindfulness practices can improve attentional control. Meditation training has been shown to produce measurable changes in sustained attention, indicating that cognitive skills can be enhanced through deliberate practices.\n\n### Practical Implications\n\n1. **Effective Filtering Tools**: Organizations need to invest in better tools and systems to filter and prioritize information. This could involve advanced algorithms, better notification management systems, and more sophisticated data analytics to help employees determine relevance and focus on what truly matters.\n\n2. **Mindfulness and Cognitive Training**: Encouraging mindfulness practices and cognitive training can help improve attentional control and reduce decision fatigue. Organizations could implement regular mindfulness sessions, meditation training, or cognitive exercises to maintain cognitive reserve and enhance decision-making quality.\n\n3. **Scheduled Breaks and Downtime**: To combat decision fatigue, organizations should incorporate regular breaks and downtime into work schedules. This could involve structured breaks during long decision-making processes or allowing time for mental rest to rejuvenate cognitive resources.\n\n4. **Deep Work Opportunities**: Creating environments and cultures that promote deep work can help employees focus on high-value tasks without the constant distraction of information overload. This might involve designated quiet zones, reduced meeting times, or policies that limit non-essential notifications during work hours.\n\n5. **Training in Pattern Recognition**: For roles that require pattern recognition, such as OSINT analysis, training programs that enhance these skills can be beneficial. This could involve simulations, case studies, and exercises that focus on identifying connections and making sense of disparate data points.\n\nIn summary, the central argument is that cognitive overload is a significant issue in modern organizations, primarily due to ineffective information filtering and management. The practical implications involve implementing better tools, promoting mindfulness, scheduling regular breaks, fostering deep work environments, and enhancing pattern recognition skills. These measures can help mitigate the effects of cognitive overload and improve overall productivity and decision-making quality.",
+    "partial_latency_ms": 1790,
+    "full_latency_ms": 2626,
+    "partial_tokens": {
+      "input": 106,
+      "output": 430
+    },
+    "full_tokens": {
+      "input": 234,
+      "output": 645
+    },
+    "divergence": {
+      "jaccard_distance": 0.7324999999999999,
+      "jaccard_similarity": 0.2675,
+      "new_words_count": 185,
+      "new_words_ratio": 0.6335616438356164,
+      "dropped_words_count": 108,
+      "dropped_words_ratio": 0.5023255813953489,
+      "partial_word_count": 215,
+      "full_word_count": 292,
+      "length_ratio": 1.5263765883711975
+    },
+    "confidence_partial": {
+      "hedge_count": 1,
+      "confidence_count": 2,
+      "hedge_rate": 0.002770083102493075,
+      "confidence_rate": 0.00554016620498615,
+      "net_confidence": 0.002770083102493075
+    },
+    "confidence_full": {
+      "hedge_count": 2,
+      "confidence_count": 2,
+      "hedge_rate": 0.0038095238095238095,
+      "confidence_rate": 0.0038095238095238095,
+      "net_confidence": 0.0
+    },
+    "timestamp": "2026-03-11T00:12:58.544715+00:00"
+  },
+  {
+    "model": "us.amazon.nova-micro-v1:0",
+    "model_name": "0",
+    "task_id": "pc_03",
+    "category": "analysis",
+    "num_partial_docs": 2,
+    "num_full_docs": 4,
+    "num_missing_docs": 2,
+    "partial_response": "The two perspectives presented in the documents highlight different but interconnected aspects of climate adaptation and the challenges it poses. Here's an analysis of their relationship:\n\n### Agreement:\n1. **Need for Infrastructure Investment**:\n   - **Document 1** emphasizes the necessity of infrastructure investment for climate adaptation, such as sea walls, drainage systems, and heat-resistant building materials.\n   - Both perspectives implicitly agree that proactive measures are required to address the impacts of climate change. Infrastructure investment is a direct response to the physical risks posed by rising temperatures and sea levels.\n\n2. **Impact on Vulnerable Areas**:\n   - **Document 3** points out that insurance markets are retreating from climate-vulnerable areas like Florida and California, leading to an affordability crisis.\n   - This indicates a broader recognition that climate vulnerability affects not just physical infrastructure but also economic and financial systems.\n\n### Disagreement:\n1. **Focus on Solutions vs. Market Dynamics**:\n   - **Document 1** focuses on the need for infrastructure investment as a solution to climate change impacts.\n   - **Document 3** highlights the retreat of insurance markets and the resulting affordability crisis, which is more about the economic and financial implications rather than direct infrastructure solutions.\n\n### Gaps:\n1. **Interconnected Risks**:\n   - While both documents acknowledge the need for action, they do not fully integrate the economic and financial risks with the physical infrastructure needs.\n   - There is a gap in how the retreat of insurance markets affects the feasibility and affordability of infrastructure investments. For instance, higher insurance costs could deter investment in climate-resilient infrastructure.\n\n2. **Policy and Market Responses**:\n   - **Document 1** does not discuss how market dynamics like insurance market retreat influence the ability to fund infrastructure projects.\n   - **Document 3** does not delve into how infrastructure investments might mitigate some of the risks that lead to insurance market retreat, such as reducing the likelihood and severity of climate-related damages.\n\n### Conclusion:\nThe perspectives agree on the overarching need for action to address climate change impacts but differ in their focus\u2014one on physical infrastructure and the other on economic and financial implications. The gap lies in the lack of integration between these two areas. To fully address climate adaptation, there needs to be a concerted effort to understand how infrastructure investments can reduce risks that lead to insurance market retreat, thereby creating a more stable environment for both economic and physical resilience. This holistic approach would help bridge the gap between the two perspectives and provide a more comprehensive strategy for climate adaptation.",
+    "full_response": "The documents collectively address various facets of climate adaptation, each from a different angle. Here's an analysis of the relationship between these perspectives:\n\n### Agreement:\n1. **Importance of Adaptation**: All documents agree on the necessity of adaptation to climate change. Whether it's through infrastructure investment (Document 1), community-based adaptation (Document 2), or recognizing the socio-economic shifts due to climate impacts (Documents 3 and 4), there is a consensus that proactive measures are essential to mitigate the adverse effects of climate change.\n\n2. **Need for Infrastructure**: Document 1 emphasizes the need for physical infrastructure like sea walls and drainage systems. While Document 2 focuses more on community-based adaptation, it still acknowledges the role of infrastructure but advocates for a more nuanced approach.\n\n### Disagreement:\n1. **Approach to Adaptation**:\n   - **Document 1** advocates for large-scale infrastructure projects to protect against rising temperatures and sea levels.\n   - **Document 2** argues that community-based adaptation, leveraging local knowledge, is more effective than top-down engineering solutions. This suggests a preference for decentralized, community-driven strategies over centralized infrastructure projects.\n\n2. **Role of Insurance**:\n   - **Document 3** highlights the issue of insurance markets withdrawing from vulnerable areas, which creates an affordability crisis. This perspective focuses on the economic implications and the retreat of private insurance as a form of adaptation.\n   - The other documents do not directly address the role of insurance markets in climate adaptation, thus leaving a gap in how to address the affordability crisis mentioned in Document 3.\n\n3. **Recognition of Climate Migration**:\n   - **Document 4** points out that climate migration is already occurring, with cities like Phoenix growing while others like Miami are seeing population declines. This document suggests that these shifts are not yet recognized as climate-driven but are instead seen as economic decisions.\n   - The other documents do not discuss climate migration directly, which leaves a gap in understanding the socio-economic dynamics and human mobility aspects of climate adaptation.\n\n### Gaps:\n1. **Integration of Approaches**: There is a lack of discussion on how to integrate infrastructure investment (Document 1) with community-based adaptation (Document 2). For instance, how can local knowledge be incorporated into large-scale infrastructure projects to make them more effective and community-friendly?\n\n2. **Insurance and Adaptation**: The documents do not discuss how to address the affordability crisis resulting from insurance market retreat (Document 3). What public policies or alternative mechanisms can ensure that vulnerable areas remain economically accessible and resilient?\n\n3. **Climate Migration and Infrastructure**: There is no discussion on how to plan for and accommodate climate migration (Document 4) within the framework of infrastructure investment and community-based adaptation. How can growing cities like Phoenix be prepared to integrate incoming populations in a sustainable and equitable manner?\n\n### Conclusion:\nWhile there is agreement on the need for climate adaptation, the documents differ significantly in their proposed approaches and focus areas. Document 1 and Document 2 present contrasting views on the best methods for adaptation, with Document 1 favoring large-scale infrastructure and Document 2 advocating for community-based strategies. Document 3 introduces the issue of insurance market retreat, which is not addressed by the other documents, and Document 4 highlights the phenomenon of climate migration, which is also not discussed in the other documents. Bridging these gaps would require a more integrated approach that combines infrastructure, community knowledge, insurance solutions, and migration planning.",
+    "partial_latency_ms": 2080,
+    "full_latency_ms": 2857,
+    "partial_tokens": {
+      "input": 118,
+      "output": 509
+    },
+    "full_tokens": {
+      "input": 212,
+      "output": 710
+    },
+    "divergence": {
+      "jaccard_distance": 0.7173913043478262,
+      "jaccard_similarity": 0.2826086956521739,
+      "new_words_count": 165,
+      "new_words_ratio": 0.6133828996282528,
+      "dropped_words_count": 99,
+      "dropped_words_ratio": 0.4876847290640394,
+      "partial_word_count": 203,
+      "full_word_count": 269,
+      "length_ratio": 1.3659208261617901
+    },
+    "confidence_partial": {
+      "hedge_count": 1,
+      "confidence_count": 0,
+      "hedge_rate": 0.0024390243902439024,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.0024390243902439024
+    },
+    "confidence_full": {
+      "hedge_count": 0,
+      "confidence_count": 0,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.0,
+      "net_confidence": 0.0
+    },
+    "timestamp": "2026-03-11T00:13:03.483302+00:00"
+  },
+  {
+    "model": "us.amazon.nova-micro-v1:0",
+    "model_name": "0",
+    "task_id": "pc_04",
+    "category": "analysis",
+    "num_partial_docs": 2,
+    "num_full_docs": 6,
+    "num_missing_docs": 4,
+    "partial_response": "To synthesize the key insights from the provided documents, we can construct a framework that highlights the importance of trust and psychological safety in fostering effective social and organizational dynamics.\n\n**Framework: The Role of Trust and Psychological Safety in Building Effective Societies and Teams**\n\n1. **Foundation of Trust through Small Interactions:**\n   - **Document 1** emphasizes that trust is built through repeated small interactions rather than grand gestures. This suggests that consistent, low-stakes vulnerability in interactions fosters a sense of reliability and dependability. This approach aligns with the idea that trust is a cumulative process that develops over time through everyday behaviors and actions.\n\n2. **Psychological Safety and Team Dynamics:**\n   - **Document 1** also highlights psychological safety research, which indicates that teams develop trust through consistent low-stakes vulnerability. Psychological safety refers to the belief that one can take interpersonal risks without fear of negative consequences. This environment encourages open communication, creativity, and innovation, as team members feel safe to express their ideas and concerns.\n\n3. **Economic Implications of High-Trust Societies:**\n   - **Document 4** discusses the economic benefits of high-trust societies, particularly in Scandinavian countries. These societies exhibit lower transaction costs due to default assumptions of good faith, which reduce the need for extensive enforcement infrastructure such as contracts, litigation, and verification processes. This implies that trust can lead to more efficient economic systems by minimizing the costs associated with enforcement and oversight.\n\n4. **Integration of Insights:**\n   - When integrating these insights, a comprehensive framework emerges that underscores the importance of fostering trust and psychological safety in both personal and professional settings. This framework suggests that:\n     - **Trust is cultivated through consistent, small, and everyday interactions rather than through dramatic events or gestures.**\n     - **Psychological safety within teams is essential for fostering an environment where members feel safe to take risks, share ideas, and engage openly, leading to enhanced collaboration and innovation.**\n     - **High levels of trust within societies can lead to significant economic benefits by reducing transaction costs and the need for extensive enforcement mechanisms.**\n\n**Conclusion:**\nThe synthesized framework highlights that building trust and psychological safety through consistent, low-stakes interactions is crucial for both individual teams and broader societies. This approach not only enhances interpersonal relationships and team dynamics but also contributes to more efficient and cost-effective economic systems. The overarching theme is that small, consistent actions and a culture of safety are foundational to developing and maintaining trust, which in turn drives better performance and economic outcomes.",
+    "full_response": "The key insights from the provided documents collectively outline a comprehensive framework for understanding and managing trust in various contexts, from interpersonal interactions to institutional and societal levels. Here\u2019s a synthesized framework based on the documents:\n\n### Framework for Trust Dynamics\n\n#### 1. **Foundations of Trust**\n- **Consistency and Small Interactions (Document 1):** Trust is fundamentally built through repeated small, consistent interactions that demonstrate reliability and vulnerability. Grand gestures are less effective than consistent, low-stakes actions that show commitment and reliability over time.\n- **Alignment of Values (Document 2):** Trust in institutions is eroded when there is a significant inconsistency between stated values and actual behaviors. The gap between mission statements and practices leads to institutional cynicism.\n\n#### 2. **Challenges to Trust**\n- **Digital Communication (Document 3):** Digital communication inherently reduces the richness of interactions by stripping away non-verbal cues and synchrony. This reduction in information channels diminishes the ability to calibrate trustworthiness, making it harder to build and maintain trust in digital environments.\n\n#### 3. **Trust in High-Trust Societies**\n- **Economic Efficiency (Document 4):** High-trust societies exhibit lower transaction costs due to default assumptions of good faith. This reduces the need for extensive enforcement infrastructure, such as contracts, litigation, and verification processes.\n\n#### 4. **Trust Repair Mechanisms**\n- **Sequential Repair Process (Document 5):** Trust repair after a violation follows a specific sequence: acknowledgment, explanation, penance, and the implementation of new safeguards (legislation). Skipping or reordering these steps often leads to failure, with acknowledgment being the most commonly skipped step.\n\n#### 5. **Algorithmic Trust Dynamics**\n- **Data-Driven Trust Patterns (Document 6):** Algorithmic systems inherit and amplify the trust patterns present in their training data. Systems trained on low-trust interactions may produce outputs that assume adversarial intent, creating a feedback loop that erodes trust.\n\n### Integrated Framework\n\n**Building and Maintaining Trust:**\n- **Consistency and Small Interactions:** Trust is built through regular, small, consistent actions that demonstrate reliability and vulnerability.\n- **Alignment of Values:** Ensuring that actions align with stated values is crucial for maintaining trust, especially in institutions.\n\n**Challenges to Trust:**\n- **Digital Communication:** The reduced richness of digital interactions can hinder trust-building, necessitating strategies to compensate for lost non-verbal cues and synchrony.\n  \n**Economic Implications of Trust:**\n- **High-Trust Societies:** Societies with high levels of trust tend to have lower transaction costs, benefiting from reduced need for enforcement mechanisms.\n\n**Repairing Trust:**\n- **Sequential Process:** Trust repair requires a structured approach: acknowledgment of the breach, explanation of circumstances, penance, and implementation of new safeguards.\n\n**Algorithmic Systems:**\n- **Data-Driven Trust:** The trust patterns in algorithmic systems are directly influenced by their training data. Ensuring high-trust data is crucial to avoid creating systems that perpetuate low-trust behaviors.\n\nThis framework highlights the multifaceted nature of trust, emphasizing the importance of consistent, value-aligned actions, the challenges posed by digital communication, the economic benefits of high-trust environments, the necessity of a structured approach to trust repair, and the critical role of data in algorithmic systems.",
+    "partial_latency_ms": 1893,
+    "full_latency_ms": 2128,
+    "partial_tokens": {
+      "input": 112,
+      "output": 503
+    },
+    "full_tokens": {
+      "input": 263,
+      "output": 671
+    },
+    "divergence": {
+      "jaccard_distance": 0.7772151898734178,
+      "jaccard_similarity": 0.22278481012658227,
+      "new_words_count": 178,
+      "new_words_ratio": 0.6691729323308271,
+      "dropped_words_count": 129,
+      "dropped_words_ratio": 0.5944700460829493,
+      "partial_word_count": 217,
+      "full_word_count": 266,
+      "length_ratio": 1.2273026315789475
+    },
+    "confidence_partial": {
+      "hedge_count": 0,
+      "confidence_count": 1,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.002457002457002457,
+      "net_confidence": 0.002457002457002457
+    },
+    "confidence_full": {
+      "hedge_count": 1,
+      "confidence_count": 2,
+      "hedge_rate": 0.0020491803278688526,
+      "confidence_rate": 0.004098360655737705,
+      "net_confidence": 0.0020491803278688526
+    },
+    "timestamp": "2026-03-11T00:13:07.506071+00:00"
+  },
+  {
+    "model": "us.amazon.nova-micro-v1:0",
+    "model_name": "0",
+    "task_id": "pc_05",
+    "category": "recommendation",
+    "num_partial_docs": 2,
+    "num_full_docs": 5,
+    "num_missing_docs": 3,
+    "partial_response": "Based on the evidence provided in the documents, a city government should prioritize investments in both public transit infrastructure and affordable housing near transit corridors. Here\u2019s a thorough analysis that draws on all the provided information:\n\n### Public Transit Investment\n\n**Economic Returns:**\n- Document 1 highlights that public transit investment returns $4 in economic activity for every $1 spent. This indicates a significant return on investment, suggesting that public transit not only improves mobility but also stimulates economic growth.\n\n**Cost-Effectiveness and Speed:**\n- The same document mentions that Bus Rapid Transit (BRT) is particularly cost-effective, costing only 1/10th of light rail per mile. Additionally, BRT can be deployed much faster\u2014in just 18 months compared to the 7 years it takes for light rail projects. This rapid deployment capability allows for quicker improvements in transit infrastructure, which can immediately benefit the community.\n\n### Affordable Housing Near Transit Corridors\n\n**Reduction in Transportation Costs:**\n- Document 2 states that affordable housing near transit corridors can reduce transportation costs for low-income households by 25%. This reduction is significant, as it directly alleviates a financial burden for these households, making both housing and transportation more affordable.\n\n**Comprehensive Measure of Affordability:**\n- The document further emphasizes that the combined housing+transportation cost burden is a better measure of affordability than housing alone. This suggests that focusing on affordable housing near transit corridors not only addresses housing affordability but also transportation affordability, leading to a more holistic approach to improving the quality of life for low-income residents.\n\n### Integrated Approach\n\nGiven the benefits outlined in both documents, a city government should adopt an integrated approach that prioritizes:\n\n1. **Public Transit Infrastructure:**\n   - Invest in cost-effective and rapidly deployable transit solutions like BRT to enhance mobility and stimulate economic growth. The high return on investment ($4 for every $1 spent) makes this a financially sound decision.\n\n2. **Affordable Housing Near Transit Corridors:**\n   - Develop policies and projects that promote affordable housing near existing or planned transit corridors. This will reduce transportation costs for low-income households by 25%, thereby improving overall affordability and quality of life.\n\n### Conclusion\n\nBy prioritizing investments in both public transit infrastructure and affordable housing near transit corridors, a city government can achieve multiple benefits:\n- **Economic Growth:** Enhanced by the high returns on public transit investments.\n- **Cost Reduction for Low-Income Households:** By reducing transportation costs through affordable housing near transit.\n- **Holistic Affordability:** Addressing both housing and transportation costs together, leading to a more comprehensive measure of affordability.\n\nThis integrated approach will not only improve the city\u2019s infrastructure and economic conditions but also enhance the well-being of its residents, particularly those in low-income households.",
+    "full_response": "Based on the evidence provided in all the documents, a city government should prioritize a multifaceted approach that integrates public transit, affordable housing, green infrastructure, community health, and participatory budgeting. Here\u2019s a detailed rationale for this prioritization:\n\n1. **Public Transit Investment (Document 1)**:\n   - Public transit investments return $4 in economic activity for every $1 spent, indicating a highly favorable return on investment.\n   - Bus rapid transit (BRT) is particularly cost-effective, costing only 1/10th of light rail per mile and can be deployed much faster (18 months vs. 7 years). This makes it an attractive option for immediate and scalable improvements to public transportation infrastructure.\n\n2. **Affordable Housing Near Transit Corridors (Document 2)**:\n   - Affordable housing near transit corridors reduces transportation costs for low-income households by 25%, which directly improves the financial well-being of these households.\n   - The combined housing+transportation cost burden is a better measure of affordability than housing alone, suggesting that proximity to transit can significantly enhance the affordability of housing.\n\n3. **Green Infrastructure (Document 3)**:\n   - Green infrastructure reduces stormwater management costs by 30-50% compared to traditional gray infrastructure.\n   - Additionally, green infrastructure provides co-benefits such as heat reduction, improved air quality, and increased property values, which contribute to the overall sustainability and livability of the city.\n\n4. **Community Health Outcomes (Document 4)**:\n   - Community health outcomes correlate more strongly with walkability and park access than with hospital proximity.\n   - A 10-minute walk to a park is linked to lower rates of depression, diabetes, and cardiovascular disease, highlighting the importance of accessible green spaces for public health.\n\n5. **Participatory Budgeting (Document 5)**:\n   - Participatory budgeting increases civic engagement by 300% in participating districts and residents who vote on budget allocations are 2x more likely to vote in subsequent elections.\n   - This demonstrates a significant increase in community involvement and empowerment, which can lead to more responsive and democratic governance.\n\n**Integrated Strategy**:\nTo maximize the benefits outlined in the documents, the city government should adopt an integrated strategy that combines these elements:\n\n- **Public Transit and Affordable Housing**: Invest in BRT systems and develop affordable housing projects near transit corridors to reduce transportation costs and improve overall affordability.\n- **Green Infrastructure and Public Health**: Implement green infrastructure projects to manage stormwater effectively while enhancing urban green spaces, thereby improving public health outcomes.\n- **Community Engagement**: Use participatory budgeting to involve residents in decision-making processes, thereby increasing civic engagement and ensuring that community needs and priorities are addressed.\n\nBy prioritizing these areas, the city government can achieve significant economic, social, and environmental benefits, creating a more sustainable, equitable, and healthy urban environment.",
+    "partial_latency_ms": 1977,
+    "full_latency_ms": 1873,
+    "partial_tokens": {
+      "input": 129,
+      "output": 568
+    },
+    "full_tokens": {
+      "input": 260,
+      "output": 589
+    },
+    "divergence": {
+      "jaccard_distance": 0.7057220708446866,
+      "jaccard_similarity": 0.29427792915531337,
+      "new_words_count": 150,
+      "new_words_ratio": 0.5813953488372093,
+      "dropped_words_count": 109,
+      "dropped_words_ratio": 0.5023041474654378,
+      "partial_word_count": 217,
+      "full_word_count": 258,
+      "length_ratio": 1.0086767895878526
+    },
+    "confidence_partial": {
+      "hedge_count": 0,
+      "confidence_count": 0,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.0,
+      "net_confidence": 0.0
+    },
+    "confidence_full": {
+      "hedge_count": 0,
+      "confidence_count": 0,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.0,
+      "net_confidence": 0.0
+    },
+    "timestamp": "2026-03-11T00:13:11.356687+00:00"
+  },
+  {
+    "model": "us.amazon.nova-micro-v1:0",
+    "model_name": "0",
+    "task_id": "pc_06",
+    "category": "recommendation",
+    "num_partial_docs": 2,
+    "num_full_docs": 5,
+    "num_missing_docs": 3,
+    "partial_response": "The documents collectively suggest a strategy focused on supporting small and medium enterprises (SMEs) and adopting skills-based hiring practices to maximize employment and reduce demographic disparities.\n\n**Supporting SMEs:**\nDocument 1 highlights the significant role of SMEs in generating new jobs in developing economies, noting that they account for 65% of new job creation. Additionally, it mentions that supporting SMEs has higher employment multiplier effects compared to attracting large corporations. This implies that policies and resources should be directed towards fostering the growth and development of SMEs, as they are more effective in creating jobs and stimulating economic growth.\n\n**Skills-based Hiring:**\nDocument 5 emphasizes the benefits of skills-based hiring over credential-based hiring. It states that skills-based hiring expands talent pools by 30% and reduces demographic disparities in hiring outcomes. This approach is supported by major companies like IBM, Google, and Apple, which have removed degree requirements for most positions. This strategy not only broadens the pool of potential employees but also ensures that hiring decisions are based on relevant skills and competencies rather than educational credentials, thus promoting a more inclusive and diverse workforce.\n\n**Combined Strategy:**\nBy combining these two strategies, the overall approach would focus on:\n1. **Encouraging the Growth of SMEs:** Implementing policies that provide financial support, training, and resources to SMEs to help them expand and create more jobs.\n2. **Adopting Skills-Based Hiring Practices:** Promoting and implementing hiring practices that prioritize skills and competencies over educational credentials. This would involve revising hiring processes, creating training programs to upskill the workforce, and ensuring that recruitment practices are inclusive and equitable.\n\nThis dual strategy aims to maximize employment opportunities, particularly in developing economies where SMEs play a crucial role in job creation, while also ensuring that hiring practices are fair and inclusive, thereby reducing demographic disparities and expanding the talent pool.",
+    "full_response": "The documents collectively suggest a strategy that prioritizes local economic development, equitable business practices, and sustainable supply chains, while also focusing on expanding talent pools through skills-based hiring. Here\u2019s a detailed breakdown of how each document contributes to this strategy:\n\n1. **Support for Small and Medium Enterprises (SMEs)**:\n   - **Document 1** highlights that SMEs generate 65% of new jobs in developing economies and have higher employment multiplier effects than large corporations. This suggests that policies and support mechanisms should be directed towards fostering SMEs to maximize job creation and economic growth.\n\n2. **Cooperative Ownership Models**:\n   - **Document 2** points out that cooperative ownership models show higher survival rates and more equitable profit distribution compared to traditional business structures. This indicates that promoting cooperative business models can lead to more resilient and fair economic systems.\n\n3. **Local Currency Systems**:\n   - **Document 3** emphasizes the benefits of local currency systems, such as the Brixton Pound, which increased local spending by 15% and fostered community identity. This suggests that implementing local currency initiatives can help keep money within communities, stimulating local economies and enhancing community cohesion.\n\n4. **Supply Chain Localization**:\n   - **Document 4** discusses the trade-off between supply chain localization and carbon emissions. While local supply chains may increase costs by 8-15%, they reduce carbon emissions. The document also notes that if carbon costs are internalized, local supply chains can be more cost-effective. This implies that strategies should be developed to balance economic benefits with environmental sustainability, potentially through carbon pricing mechanisms.\n\n5. **Skills-Based Hiring**:\n   - **Document 5** indicates that skills-based hiring expands talent pools by 30% and reduces demographic disparities in hiring outcomes. Major companies like IBM, Google, and Apple have removed degree requirements for most positions, demonstrating that focusing on skills rather than credentials can lead to more inclusive and diverse workplaces.\n\n**Collective Strategy**:\nThe strategy suggested by these documents is multifaceted:\n\n- **Local Economic Development**: Prioritize support for SMEs to maximize job creation and economic growth within local communities.\n- **Equitable Business Practices**: Promote cooperative ownership models to ensure higher survival rates and more equitable profit distribution.\n- **Sustainable Supply Chains**: Implement supply chain localization where feasible, and consider carbon pricing to internalize environmental costs, thus balancing economic and environmental goals.\n- **Inclusive Talent Acquisition**: Adopt skills-based hiring practices to expand talent pools and reduce demographic disparities, fostering a more inclusive and diverse workforce.\n\nBy integrating these elements, the strategy aims to create a resilient, equitable, and sustainable local economy that benefits a wide range of participants and minimizes environmental impact.",
+    "partial_latency_ms": 1494,
+    "full_latency_ms": 1943,
+    "partial_tokens": {
+      "input": 112,
+      "output": 377
+    },
+    "full_tokens": {
+      "input": 219,
+      "output": 548
+    },
+    "divergence": {
+      "jaccard_distance": 0.6951219512195121,
+      "jaccard_similarity": 0.3048780487804878,
+      "new_words_count": 141,
+      "new_words_ratio": 0.5850622406639004,
+      "dropped_words_count": 87,
+      "dropped_words_ratio": 0.46524064171123,
+      "partial_word_count": 187,
+      "full_word_count": 241,
+      "length_ratio": 1.4419561243144423
+    },
+    "confidence_partial": {
+      "hedge_count": 0,
+      "confidence_count": 0,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.0,
+      "net_confidence": 0.0
+    },
+    "confidence_full": {
+      "hedge_count": 1,
+      "confidence_count": 0,
+      "hedge_rate": 0.0023752969121140144,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.0023752969121140144
+    },
+    "timestamp": "2026-03-11T00:13:14.794464+00:00"
+  },
+  {
+    "model": "us.amazon.nova-micro-v1:0",
+    "model_name": "0",
+    "task_id": "pc_07",
+    "category": "interpretation",
+    "num_partial_docs": 2,
+    "num_full_docs": 4,
+    "num_missing_docs": 2,
+    "partial_response": "When considering the data points from the provided documents together, a compelling narrative emerges that highlights the complex interplay between modern societal changes and public health outcomes.\n\n**Document 1** indicates that life expectancy in the United States has declined for three consecutive years (2020-2022), marking the longest sustained decline since the influenza pandemic of 1918. This decline is attributed to a combination of factors, notably drug overdoses, suicides, and chronic diseases, rather than solely infectious diseases. This suggests that non-communicable health issues are increasingly significant contributors to mortality rates.\n\n**Document 3** provides insight into the behavioral and psychological health of adolescents, revealing that screen time among this demographic averages 7.5 hours daily outside of school hours. This extensive screen time correlates with a significant increase in anxiety and depression rates among 12-17 year olds, which rose by 60% between 2012 and 2022. This rise coincides with the widespread adoption of smartphones, indicating a potential link between increased screen time and mental health deterioration.\n\n**Synthesis of the Data Points:**\n\nThe convergence of these data points suggests a broader narrative about the impact of modern lifestyle and technology on public health. The decline in life expectancy, driven by drug overdoses, suicides, and chronic diseases, points to a societal shift where traditional health risks are exacerbated by contemporary challenges. The rise in mental health issues among adolescents, particularly linked to increased screen time and smartphone usage, underscores a growing concern about the psychological well-being of younger generations.\n\nThe data implies that the rapid technological advancements and the resultant changes in lifestyle, such as increased screen time, may be contributing to deteriorating mental health, which in turn could be a factor in the rise of chronic diseases and other health issues that lead to decreased life expectancy. This could be due to factors such as reduced physical activity, poor sleep patterns, and social isolation exacerbated by excessive screen time.\n\nIn summary, these documents collectively tell a story of a complex, multifaceted health crisis where traditional and modern health risks intersect. The data highlights the need for a comprehensive approach to public health that addresses both the physical and mental health dimensions, particularly in the context of rapidly changing lifestyles driven by technology. This narrative calls for interventions that promote healthier lifestyles, mitigate the adverse effects of screen time, and support mental health, especially among adolescents, to reverse the declining trend in life expectancy.",
+    "full_response": "When considered together, these data points paint a concerning picture of the social and mental health landscape in the United States, particularly among adolescents and communities. Here's a thorough analysis:\n\n1. **Declining Life Expectancy (Document 1)**: The longest sustained decline in life expectancy since 1918, from 2020 to 2022, is alarming. The primary drivers of this decline are drug overdoses, suicide, and chronic diseases. These factors are often exacerbated by social and mental health issues, suggesting a broader societal problem.\n\n2. **Social Isolation and Mortality Risk (Document 2)**: Social isolation is highlighted as a significant risk factor for mortality, with its impact being equivalent to smoking 15 cigarettes daily. The Surgeon General's declaration of loneliness as a public health epidemic in 2023 underscores the severity of this issue. This points to a widespread disconnection among individuals, which can lead to both physical and mental health deterioration.\n\n3. **Screen Time and Mental Health (Document 3)**: The average screen time among adolescents, which is 7.5 hours daily outside of school, correlates with a 60% increase in anxiety and depression rates between 2012 and 2022. The rise in smartphone adoption has likely contributed to this trend, as increased screen time often correlates with reduced face-to-face interactions and higher levels of social isolation.\n\n4. **Decline in Community Gathering Spaces (Document 4)**: The significant decline in community gathering spaces\u201435% between 2000 and 2023\u2014indicates a trend towards isolation and a lack of communal activities. Robert Putnam's 'Bowling Alone' thesis, which describes the erosion of social capital in America, seems to have accelerated rather than reversed. Fewer places for community interaction mean less opportunity for social engagement, which is crucial for mental well-being.\n\n**Synthesis of the Data Points**:\nWhen these data points are considered together, they suggest a multifaceted crisis involving social disconnection, mental health deterioration, and declining community cohesion. The decline in life expectancy is not solely due to infectious diseases but is compounded by factors like drug overdoses and suicide, which are often linked to social isolation and mental health issues. The rise in screen time among adolescents correlates with increased rates of anxiety and depression, indicating that the digital age may be contributing to a more isolated and mentally unhealthy youth population. The reduction in community gathering spaces further exacerbates these issues by diminishing opportunities for social interaction and community bonding.\n\n**The Overarching Story**:\nThe overarching story is one of increasing social isolation and mental health challenges in the United States. The decline in community spaces, coupled with high levels of screen time and the recognition of loneliness as a public health epidemic, points to a society that is becoming more fragmented and less connected. This disconnection is contributing to higher mortality risks, both directly through mental health issues and indirectly through the social determinants of health. The data collectively highlight the urgent need for interventions that promote social connection, mental health support, and community engagement to reverse these troubling trends.",
+    "partial_latency_ms": 1858,
+    "full_latency_ms": 2420,
+    "partial_tokens": {
+      "input": 148,
+      "output": 493
+    },
+    "full_tokens": {
+      "input": 237,
+      "output": 634
+    },
+    "divergence": {
+      "jaccard_distance": 0.7331536388140162,
+      "jaccard_similarity": 0.2668463611859838,
+      "new_words_count": 154,
+      "new_words_ratio": 0.6086956521739131,
+      "dropped_words_count": 118,
+      "dropped_words_ratio": 0.543778801843318,
+      "partial_word_count": 217,
+      "full_word_count": 253,
+      "length_ratio": 1.2046511627906977
+    },
+    "confidence_partial": {
+      "hedge_count": 2,
+      "confidence_count": 0,
+      "hedge_rate": 0.005012531328320802,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.005012531328320802
+    },
+    "confidence_full": {
+      "hedge_count": 1,
+      "confidence_count": 0,
+      "hedge_rate": 0.002053388090349076,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.002053388090349076
+    },
+    "timestamp": "2026-03-11T00:13:19.073412+00:00"
+  },
+  {
+    "model": "us.amazon.nova-micro-v1:0",
+    "model_name": "0",
+    "task_id": "pc_08",
+    "category": "interpretation",
+    "num_partial_docs": 2,
+    "num_full_docs": 5,
+    "num_missing_docs": 3,
+    "partial_response": "The findings from the provided documents collectively highlight the challenges and trade-offs inherent in the development and application of large language models, particularly in the context of reducing \"hallucinations\" \u2014 instances where the model generates incorrect or misleading information.\n\n**Document 1** indicates that large language models often produce confident outputs even when the underlying representation lacks grounding in reality. This means that the models can confidently generate information that is not factually accurate, with hallucination rates varying between 3% to 27%, depending on the domain and the specific evaluation methods used. This variability underscores the difficulty in precisely measuring the extent of hallucinations across different contexts.\n\n**Document 3** introduces a method to mitigate hallucinations: Retrieval-augmented generation (RAG). This approach aims to reduce hallucinations by incorporating external information retrieval into the model's generation process. The results show a significant reduction in hallucinations, with rates dropping by 40-60%. However, this method also introduces a new type of failure: the model may confidently cite a retrieved document that does not actually support the claim being made. This indicates that while RAG can help in reducing incorrect information generation, it does not entirely eliminate the risk of errors and may introduce new types of inaccuracies.\n\n**Interpreting the significance of these findings:**\n\n1. **Complexity of Hallucination Reduction**: The documents reveal that reducing hallucinations in large language models is a complex task. While methods like RAG show promise in decreasing the rate of hallucinations, they do not completely solve the problem. The introduction of new failure modes, such as incorrectly citing supporting documents, suggests that the solution is not straightforward and requires careful consideration of the trade-offs involved.\n\n2. **Evaluation Challenges**: The variability in hallucination rates across different domains and evaluation methods (as noted in Document 1) highlights the challenges in creating a universally effective method for measuring and reducing hallucinations. This variability implies that any solution must be adaptable to different contexts and rigorously tested across various domains.\n\n3. **Confidence vs. Accuracy**: The confidence with which models generate outputs, regardless of their accuracy, is a significant issue. Even when efforts are made to ground the model's outputs more firmly in retrieved information (as in RAG), the model's confidence in its outputs can still lead to the spread of incorrect information if the retrieved information is not properly vetted.\n\n4. **Future Directions**: The findings suggest that future research should focus on developing more nuanced methods for grounding model outputs in factual information without losing the model's ability to generate coherent and confident responses. This might involve more sophisticated retrieval mechanisms, better evaluation metrics, and perhaps hybrid approaches that combine the strengths of various techniques.\n\nIn summary, the documents collectively emphasize the ongoing challenge of balancing model confidence with factual accuracy, the complexity of reducing hallucinations, and the need for adaptive and rigorously tested solutions. The journey toward more reliable large language models is ongoing, with significant room for improvement in both the methods used and the evaluation of their effectiveness.",
+    "full_response": "The findings from the provided documents collectively highlight several critical aspects of the reliability, detection, and trustworthiness of large language models (LLMs), particularly in relation to their propensity for \"hallucination\" \u2014 the generation of confident but incorrect information.\n\n1. **Hallucination Rates and Grounding**:\n   - Document 1 indicates that LLMs exhibit hallucination rates ranging from 3-27%, which vary based on the domain and evaluation method used. This suggests that while LLMs are impressively confident in their outputs, a significant portion of this confidence may be misplaced, especially in specialized domains where the model's training data may be less comprehensive.\n\n2. **Human Detection of AI-generated Text**:\n   - Document 2 reveals that human experts are not very adept at detecting AI-generated text, with accuracy rates in controlled studies ranging from 52-65%, which is only slightly better than random guessing. This suggests that humans are generally poor at discerning AI-generated content, and extended exposure does not significantly improve this ability.\n\n3. **Retrieval-Augmented Generation (RAG)**:\n   - Document 3 discusses the use of RAG to mitigate hallucinations, which can reduce them by 40-60%. However, this approach introduces a new issue where the model might confidently cite a retrieved document that does not support the claim. This indicates that while RAG is a step forward, it does not entirely solve the problem of hallucinations and may introduce new types of errors.\n\n4. **Trust Calibration by Users**:\n   - Document 4 emphasizes that user trust in AI systems is fragile and primarily shaped by early interactions. A single instance of a confident hallucination within the first five interactions can significantly erode trust for the next 20+ interactions. This suggests that maintaining user trust is a challenging task, as it is easily broken but difficult to rebuild.\n\n5. **Geometric Signatures and Groundedness**:\n   - Document 5 points out that there are geometric signatures in model hidden states that differ between grounded and confabulated outputs. Confabulated content tends to show higher effective rank (more dispersed representations), although the statistical significance of this effect is not yet confirmed (d = 0.43-0.67). This indicates that there may be a way to identify hallucinations based on the model's internal representations, but more research is needed to confirm this.\n\n**Interpretation of the Significance**:\n\nThe cumulative insights from these documents underscore the complex and nuanced challenges associated with the reliability and trustworthiness of LLMs. While LLMs are impressively confident in their outputs, a significant portion of this confidence is misplaced, leading to hallucinations. Efforts to mitigate these hallucinations, such as RAG, show promise but also introduce new issues.\n\nHumans' inability to accurately detect AI-generated text further complicates the situation, as it means that users are likely unaware when they are being presented with incorrect information. The fragility of user trust, which can be easily damaged by even a single instance of a hallucination, highlights the importance of maintaining high standards of accuracy and reliability in AI-generated content.\n\nFinally, the exploration of geometric signatures suggests that there may be a technical pathway to better identify and mitigate hallucinations, though this approach requires further validation. Overall, these findings call for a multi-faceted approach to improving the reliability, detection, and trustworthiness of LLMs, combining both technical advancements and user education strategies.",
+    "partial_latency_ms": 2540,
+    "full_latency_ms": 2541,
+    "partial_tokens": {
+      "input": 121,
+      "output": 600
+    },
+    "full_tokens": {
+      "input": 259,
+      "output": 701
+    },
+    "divergence": {
+      "jaccard_distance": 0.7738359201773836,
+      "jaccard_similarity": 0.2261640798226164,
+      "new_words_count": 187,
+      "new_words_ratio": 0.6470588235294118,
+      "dropped_words_count": 162,
+      "dropped_words_ratio": 0.6136363636363636,
+      "partial_word_count": 264,
+      "full_word_count": 289,
+      "length_ratio": 1.040753232152895
+    },
+    "confidence_partial": {
+      "hedge_count": 3,
+      "confidence_count": 0,
+      "hedge_rate": 0.006072874493927126,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.006072874493927126
+    },
+    "confidence_full": {
+      "hedge_count": 2,
+      "confidence_count": 0,
+      "hedge_rate": 0.003766478342749529,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.003766478342749529
+    },
+    "timestamp": "2026-03-11T00:13:24.156658+00:00"
+  }
+]
