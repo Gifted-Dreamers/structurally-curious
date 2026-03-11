@@ -1,29 +1,47 @@
 # Experiment 02a: Premature Compression — Analysis
 
 **Date:** 2026-03-10
-**Models tested:** 6 (4 open-weight Llama, 2 Claude frontier)
-**Total inferences:** 96 (6 models x 8 tasks x 2 conditions)
+**Models tested:** 16 (across 4 architecture families: Llama, Mistral, Amazon Nova, Claude)
+**Total inferences:** 256 (16 models x 8 tasks x 2 conditions)
 **Platform:** AWS Bedrock (Converse API)
 **Temperature:** 0.0 (deterministic)
 **Task categories:** synthesis (2), analysis (2), recommendation (2), interpretation (2)
 
 ## Headline Finding
 
-Confidence shift across all 6 models and 8 tasks averages **0.0000** (to four decimal places). Models given 40% of the source documents produce outputs that are **76.5% lexically different** from their full-context responses — yet the model's expressed confidence does not change. The model cannot detect its own incompleteness.
+Confidence shift across all 16 models and 8 tasks averages **0.0001** (to four decimal places). Models given 40% of the source documents produce outputs that are **72-82% lexically different** from their full-context responses — yet the model's expressed confidence does not change. The model cannot detect its own incompleteness.
 
 This is not hallucination. The partial-context output is grounded in what the model has. It is **premature compression**: the model compresses the available context and treats that compression as complete.
 
 ## Summary Table
 
-| Model | Params | Jaccard Distance | New Words Ratio | Length Ratio | Confidence Shift |
+| Model | Family | Jaccard Distance | New Words Ratio | Length Ratio | Confidence Shift |
 |-------|--------|-------------------|-----------------|--------------|-----------------|
-| Claude Sonnet 4.6 | ? | 0.8181 | 0.7287 | 1.43 | -0.0004 |
-| Claude Haiku 4.5 | ? | 0.8153 | 0.7286 | 1.50 | +0.0008 |
-| Llama 3.3 70B | 70B | 0.7524 | 0.6297 | 1.23 | -0.0011 |
-| Llama 3.2 1B | 1B | 0.7470 | 0.6175 | 1.23 | +0.0010 |
-| Llama 3.1 8B | 8B | 0.7331 | 0.6151 | 1.24 | +0.0004 |
-| Llama 3.2 3B | 3B | 0.7230 | 0.6076 | 1.34 | -0.0004 |
-| **All models** | | **0.7648** | **0.6546** | **1.33** | **0.0000** |
+| Ministral 3B | Mistral | 0.824 | 0.705 | 1.01 | +0.0007 |
+| Mistral Large 675B | Mistral | 0.820 | 0.691 | 0.98 | +0.0009 |
+| Ministral 14B | Mistral | 0.821 | 0.694 | 1.00 | -0.0008 |
+| Claude Sonnet 4.6 | Claude | 0.818 | 0.729 | 1.43 | -0.0004 |
+| Claude Haiku 4.5 | Claude | 0.815 | 0.729 | 1.50 | +0.0008 |
+| Ministral 8B | Mistral | 0.809 | 0.680 | 1.00 | +0.0010 |
+| Nova 2 Lite | Nova | 0.792 | 0.660 | 1.01 | +0.0011 |
+| Llama 4 Maverick 17B | Llama | 0.757 | 0.620 | 1.10 | +0.0007 |
+| Llama 3.3 70B | Llama | 0.752 | 0.630 | 1.23 | -0.0011 |
+| Llama 4 Scout 17B | Llama | 0.752 | 0.649 | 1.37 | +0.0007 |
+| Llama 3.2 1B | Llama | 0.747 | 0.618 | 1.23 | +0.0010 |
+| Nova Pro | Nova | 0.744 | 0.627 | 1.19 | -0.0007 |
+| Nova Micro | Nova | 0.737 | 0.624 | 1.29 | +0.0004 |
+| Llama 3.1 8B | Llama | 0.733 | 0.615 | 1.24 | +0.0004 |
+| Nova Lite | Nova | 0.727 | 0.613 | 1.29 | +0.0005 |
+| Llama 3.2 3B | Llama | 0.723 | 0.608 | 1.34 | -0.0004 |
+
+### By Architecture Family
+
+| Family | Models | Mean Jaccard | Mean Conf Shift |
+|--------|--------|--------------|-----------------|
+| Mistral | 4 (3B–675B) | 0.819 | +0.0005 |
+| Claude | 2 | 0.817 | +0.0002 |
+| Nova | 4 | 0.750 | +0.0003 |
+| Llama | 6 (1B–70B) | 0.744 | +0.0002 |
 
 **Jaccard distance** measures how different the two word-sets are (0 = identical, 1 = no overlap). A mean of 0.76 means roughly three-quarters of the combined vocabulary appears in only one of the two responses.
 
@@ -48,36 +66,27 @@ Confidence shift is near zero across all categories. The model does not hedge mo
 
 ## Cross-Model Patterns
 
-### 1. Claude models show higher divergence than Llama models
+### 1. Architecture family determines divergence level, not scale
 
-The two Claude models (Haiku 4.5 and Sonnet 4.6) show Jaccard distances of 0.82, compared to the Llama family's range of 0.72-0.75. The new words ratio tells the same story: Claude 0.73 vs Llama 0.61-0.63.
+Mistral and Claude families show the highest divergence (Jaccard 0.81-0.82), followed by Nova (0.75) and Llama (0.74). This ordering holds within families regardless of model size. The Mistral result is notable: Ministral 3B (0.824) shows higher divergence than Mistral Large 675B (0.820). Architecture, not parameters, determines how differently a model responds to additional context.
 
-This means Claude produces more substantially different outputs when given full context. One interpretation: more capable models extract more from additional documents, so the gap between partial and full is larger. An alternative: Claude's longer average outputs (length ratio 1.43-1.50 vs Llama's 1.23-1.34) create more lexical surface for divergence. Both likely contribute.
+### 2. Scale does not reduce premature compression — across any family
 
-### 2. Scale does not reduce premature compression
+Within Llama: 1B (0.747) → 3B (0.723) → 8B (0.733) → 70B (0.752) — no trend.
+Within Mistral: 3B (0.824) → 8B (0.809) → 14B (0.821) → 675B (0.820) — no trend.
+Within Nova: Micro (0.737) → Lite (0.727) → Pro (0.744) → 2 Lite (0.792) — no trend.
 
-Within the Llama family:
-- 1B: Jaccard 0.7470
-- 3B: Jaccard 0.7230
-- 8B: Jaccard 0.7331
-- 70B: Jaccard 0.7524
+This contrasts with Experiment 01, where scale reduced phrasing sensitivity by ~14%. Scale helps stability within a fixed context; it does not help completeness across missing context. The range from 1B to 675B — three orders of magnitude in parameters — produces no improvement.
 
-There is no trend. The 70B model has the highest divergence of the four. More parameters do not help the model recognize what it is missing — they may even produce more confident compressions. This contrasts with Experiment 01, where scale reduced phrasing sensitivity by ~14%. Scale helps stability within a fixed context; it does not help completeness across missing context.
+### 3. Confidence shift is negligible across all 16 models
 
-### 3. Confidence shift is negligible at every scale
+The confidence shift range across all 16 models is **-0.0011 to +0.0011**. For reference, a shift of 0.001 corresponds to roughly one hedging word per 1,000 words of output. This is indistinguishable from noise.
 
-| Model | Mean |Confidence Shift| | Max |Confidence Shift| |
-|-------|----------------------|----------------------|
-| Llama 3.2 3B | 0.0009 | 0.0019 |
-| Llama 3.1 8B | 0.0016 | 0.0027 |
-| Claude Haiku 4.5 | 0.0019 | 0.0043 |
-| Llama 3.2 1B | 0.0024 | 0.0052 |
-| Claude Sonnet 4.6 | 0.0027 | 0.0051 |
-| Llama 3.3 70B | 0.0028 | 0.0055 |
+The direction of shift is inconsistent — some models become very slightly more hedging with full context, others very slightly less. No model shows a systematic pattern across all 4 architectures. This is the central finding: **confidence is invariant to context completeness**.
 
-The largest single-task confidence shift observed anywhere in the experiment is 0.0055 (Llama 70B, analysis task pc_04). For reference, a shift of 0.005 corresponds to roughly one additional hedging word per 200 words of output. This is indistinguishable from noise.
+### 4. Mistral models hit token limits regardless of context
 
-The direction of shift is inconsistent — some models become very slightly more hedging with full context, others very slightly less. No model shows a systematic pattern. This is the central finding: **confidence is invariant to context completeness**.
+All Mistral models produce length ratios near 1.0 (0.98-1.01), meaning they write the same volume whether given 2 or 5 documents. They consistently hit the 800-token max output. By contrast, Nova and Llama models expand output with more context (length ratio 1.19-1.37). Claude models expand most (1.43-1.50). Output length adjusts to input volume for most architectures — but this length adjustment does not produce uncertainty signaling.
 
 ### 4. Analysis tasks produce the largest gaps
 
@@ -125,7 +134,7 @@ This maps directly to ESD Principle 5 (monitoring emergent properties rather tha
 - 8 tasks is sufficient for pattern identification but not for statistical significance at the per-category level (n=2 per category per model)
 - Confidence shift is measured by hedging word frequency, a coarse proxy. Calibration studies using probability estimates would be more precise
 - Documents are synthetic, not drawn from real corpora. Real-world documents have more complex interdependencies
-- Only 2 model families tested (Llama, Claude). CoT models (e.g., DeepSeek R1) may behave differently — given Experiment 01's finding that CoT amplifies phrasing sensitivity, it may also affect premature compression
+- 4 architecture families tested (Llama, Mistral, Nova, Claude) but no CoT models (e.g., DeepSeek R1). Given Experiment 01's finding that CoT amplifies phrasing sensitivity, it may also affect premature compression
 - Temperature 0.0 eliminates sampling variance but may not reflect deployment conditions
 - Partial condition always provides 2 documents; varying the partial count (1, 2, 3, 4) would reveal whether divergence scales linearly with missing context
 

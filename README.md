@@ -38,6 +38,7 @@ Every capability in this spec can be inverted. A system designed to detect refus
 | Experiment | Status | Key Finding |
 |-----------|--------|-------------|
 | [01: Phrasing Sensitivity](experiments/01-phrasing-sensitivity/) | **Complete** (1,520 results) | Category ordering universal across 19 models. Architecture dominates over scale. |
+| [02a: Premature Compression](experiments/02a-premature-compression/) | **Complete** (16 models) | Models produce 72-82% different outputs with partial vs full context but show zero confidence shift. No model can detect its own incompleteness. |
 | [03: Geometric Correlation](experiments/03-geometric-correlation/) | **Complete** (1.5B + 3B) | Directional coherence (p<0.03) and α-ReQ (p<0.03) both correlate with phrasing sensitivity at two scales. Two behavioral→geometric bridges confirmed. |
 
 ## Honest Constraints
