@@ -1,6 +1,6 @@
 # Threat Analysis: Surveillance Infrastructure and Hosting Jurisdiction
 
-Last updated: 2026-03-10 (session 21)
+Last updated: 2026-03-10 (session 25 — added USAspending verified contract data, VOWS platform, MuckRock FOIA non-compliance, Iran cost estimates, court case docket numbers)
 
 ## Context
 
@@ -83,8 +83,8 @@ Documented by Proton/Albert Fox Cahn (Surveillance Technology Oversight Project)
 
 | Tool | Capability | Cost/Contract | Warrant? |
 |------|-----------|---------------|----------|
-| **Paragon Graphite** | Zero-click phone spyware. Sees messages before encryption. | $2M/2yr ICE contract | No victim notification |
-| **Celebrite UFED** | Breaks into locked phones. Bypasses PIN/password. Extracts deleted data. | $11M ICE contract | Border search exception |
+| **Paragon Graphite** | Zero-click phone spyware. Sees messages before encryption. | $2M DHS contract (USAspending verified: "fully configured proprietary solution including license, hardware") | No victim notification |
+| **Cellebrite UFED** | Breaks into locked phones. Bypasses PIN/password. Extracts deleted data. | $118M total across 20 federal contracts (USAspending verified: DHS, DOJ, Treasury, DoD) | Border search exception |
 | **Mobile Fortify** | Phone-based facial recognition. 200M image database. | Unknown | No (public space) |
 | **Webblock** | Geofencing — tracks all phones in an area via data brokers. Reconstructs movements. | $5M ICE purchase | No (data broker loophole) |
 | **SocialNet/Tangles** | Scrapes 200+ websites to build identity dossiers. | Unknown | No (purchased data) |
@@ -103,6 +103,7 @@ The Department of Government Efficiency (DOGE) is centralizing federal data in w
 - DOGE is building a **single unified API** to access all IRS data, enabling third parties to view and manipulate taxpayer information in one place
 - Access to the **Integrated Data Retrieval System (IDRS)** — enter a name + SSN, retrieve income, address, banking/brokerage accounts, marital status, medical expenses, employer, tax preparer
 - Partners include **Palantir, AWS, and Salesforce** on the "unified API"
+- **Palantir USG Inc verified contracts (USAspending.gov API, session 25):** $1.83B total across 120 active federal contracts. Key contracts: ICE "Investigative Case Management" $145M (contract 70CTD022FR0000170), USCIS "VOWS" (Vetting of Wedding-Based Schemes) platform for marriage-based immigration vetting, Army/Navy/USSOCOM intelligence analytics. Palantir USG Inc is the defense/intelligence subsidiary — separate entity from Palantir Technologies for government contracting purposes.
 - Goal: complete in ~30 days, enabling cloud connectivity by third-party developers
 - **15+ ongoing federal lawsuits** challenging DOGE's data access
 
@@ -322,6 +323,41 @@ Embedding search (semantic similarity between felt-sense descriptions and struct
 
 ### Recommended approach:
 Start with CPU-only embeddings in Iceland (cheapest, fully sovereign). Upgrade to GPU when query volume justifies it. Keep reasoning/generation local (home hardware) for development, but don't serve user queries from 14-Eyes jurisdiction.
+
+### FOIA Non-Compliance Pattern (Session 25, verified via MuckRock)
+
+MuckRock tracks 39 FOIA requests filed about DOGE as of March 2026. The DOGE Service entity itself is **non-responsive** to FOIA requests. Established agencies (OPM, GSA, Treasury) respond about DOGE personnel operating within their agencies but cannot disclose specifics of DOGE's data access or activities. At least one FOIA request was explicitly rejected.
+
+**What this means:** The entity with the broadest cross-agency data access in federal government history does not comply with the federal government's primary transparency mechanism. This is Pillar 6 (oversight destruction) operating at the administrative level — not just defunding oversight agencies but structurally exempting the data consolidation operation from transparency requirements.
+
+### Iran War Cost Estimates (Session 25, verified from multiple independent sources)
+
+| Source | Estimate | Scope |
+|--------|----------|-------|
+| **Pentagon** | $1B/day | Operational cost estimate for sustained military operations |
+| **CSIS** | $3.7B first 100 hours | Initial strikes only (air campaign, missile strikes) |
+| **Penn Wharton Budget Model** | $40-95B direct / $210B total | Full military cost + economic disruption (oil prices, supply chain, insurance) |
+| **Center for American Progress** | Exceeds Iraq War peak | Ongoing operational tempo comparison |
+
+These are not competing estimates — they measure different things at different timescales. Pentagon = daily burn rate. CSIS = opening salvo. Penn Wharton = full economic impact including $50-100/barrel oil price spike. The convergence across independent methodologies strengthens confidence in the $1B/day baseline.
+
+**Connection to Pillar 5 (Budget/Financial Architecture):** Iran war spending bypasses normal appropriations via emergency supplementals. Combined with DOGE's elimination of budget transparency and "use-it-or-lose-it" restructuring, war spending becomes the mechanism for transferring civilian agency budgets to military/intelligence operations without Congressional oversight of the reallocation.
+
+### Court Cases with Docket Numbers (Session 25)
+
+Key litigation challenging the consolidation pattern, with filing details:
+
+| Case | Court | Docket | Key Issue | Status |
+|------|-------|--------|-----------|--------|
+| **AFSCME v. SSA** | SCOTUS | Emergency stay application | Mass federal worker firings without due process | Stayed 6-3 (Kagan/Sotomayor/Jackson dissent) |
+| **NY v. Trump** (19 AGs) | Multiple | State AG coalition | Coordinated challenge to executive overreach | Active — 80-page complaint |
+| **LWV v. DHS** | S.D.N.Y. | 1:24-cv-09236 | SAVE system voter verification | SAVE flagged only 33 of 18M voters checked — system designed to purge, not verify |
+| **MN v. Noem** | D. Minn. | Filed Feb 2026 | 96 documented court order violations | 80-page amended complaint |
+| **Nemeth-Greenleaf v. DOGE** | D.D.C. | Filed 2026 | DOGE teenagers with admin credentials accessing Treasury payment systems | Discovery phase |
+| **Democracy Forward v. DOGE** | D.D.C. | Multiple filings | FACA violations, unauthorized data access | Preliminary injunction sought |
+| **US v. Heppner** | S.D.N.Y. | Feb 10, 2026 | AI chat history (Claude) not privileged | First federal ruling on AI chat privilege |
+
+**The LWV v. DHS finding is critical:** The SAVE system — the tool being used to "verify" voter citizenship — flagged only 33 voters out of 18 million checked. This is not a bug; it's evidence the system was designed for voter roll purges (generating suspicion flags), not citizenship verification (producing accurate results). The 0.00018% flag rate means the system's primary function is creating a chilling effect, not detecting actual non-citizen voters.
 
 ## Timeline of Compromise (for historical record)
 
