@@ -10,6 +10,8 @@
 
 **Subdomain:** word.cloudpublica.org
 
+**Related Plan:** `plans/cloudpublica-investigations-site.md` — ProPublica-style investigations site at cloudpublica.org root (same domain). The Word provides vocabulary infrastructure; the investigations site publishes the structural analysis that demonstrates why vocabulary matters. Both served via CF Pages under the Enterprise zone.
+
 **Docker repo:** commoncloud.git/04-docker-server/ (docker-compose.yml, nginx/conf.d/)
 
 **Anytype Word space ID:** bafyreidtuzkizdckcm7ofvjewtaq2agebgvszyqmmrmnghcblifwuoaa5a.9g641q4x5sey

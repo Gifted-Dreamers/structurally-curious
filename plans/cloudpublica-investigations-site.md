@@ -8,6 +8,8 @@
 
 **Tech Stack:** Static HTML + Tailwind CSS (CDN), Mermaid.js for diagrams, CF Pages for hosting, GitHub Actions for CI/CD.
 
+**Related Plan:** `docs/superpowers/plans/2026-03-12-the-word-demo.md` — The Word API + MCP server at word.cloudpublica.org (same domain, different subdomain). The Word provides vocabulary infrastructure; this site provides the investigations that demonstrate why that vocabulary matters.
+
 **Source Material:**
 - `UnrigUSA/comprehensive-analysis-for-press.md` — flagship investigation (~540 lines, 110+ sources)
 - `UnrigUSA/diagram-*.mmd` — 3 Mermaid diagrams (need regeneration)
