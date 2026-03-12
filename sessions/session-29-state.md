@@ -28,6 +28,18 @@
 
 ## PENDING (for next session)
 
+### Priority 0: Mozilla Application (DEADLINE Mar 16)
+- [ ] Draft proposal at `docs/mozilla-democracy-ai-proposal.md` — DONE, needs iteration
+- [ ] **Design Word contribution security architecture** — read/propose separation, poisoning protection
+- [ ] **Update proposal Q7/Q8** to make read/propose/review separation explicit
+- [ ] **Record 2-minute demo video** — felt-sense search, JSON-LD, exit ramp concept
+- [ ] **Build MCP server** (read-only + propose) — strongest differentiator for Q10
+- [ ] Confirm GD 501(c)(3) EIN and good standing
+- [ ] Add real usage numbers (API calls since deployment)
+- [ ] Update engagement strategy for agent read-only access now vs governed contribution later
+- [ ] Integrate Moltbook intel, new URLs, OSINT tools into Word entries (enrichment)
+- [ ] Final review + submit by Mar 16 11:59pm PT
+
 ### Priority 1: CloudPublica Investigations Site
 - [ ] Execute plan at `plans/cloudpublica-investigations-site.md`
 - [ ] Phase 1: CF Pages project, DNS (root only, keep subdomains on Docker)
