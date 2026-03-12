@@ -157,3 +157,15 @@ STRETCH: Contribution form on word.cloudpublica.org → Anytype → API (human l
 - Art of Hosting — participatory leadership
 - World Café — structured conversation
 - Theory U — presencing methodology
+- Regenerative Design — beyond sustainability to net-positive (Holcim/Systemiq framework)
+- Place-Based Value — rooted-in-place as design principle (vs extractive placelessness)
+- Material Passports — provenance tracking for physical infrastructure (digital twin analogue)
+- Sponge Infrastructure — nature-integrated resilience (Chinese sponge cities model)
+- Database Consolidation as Infrastructure — the surveillance pattern (Meadows LP6 in reverse)
+- Involuntary Transparency — making power visible (LittleSis, OpenSecrets, OCCRP)
+
+### From local file research (session 28):
+- **Holcim/Systemiq "Regenerative Revolution"** — 4 principles (Evolving/Time, People-Centric, Rooted/Place, Integrated/Nature) map onto Word's design. $6T/yr built environment investment = vocabulary infrastructure analogy. Case studies for Paradigm pitch.
+- **justNICE transparency tools blog** — 35+ OSINT tools organized by category. Overlaps with UnrigUSA appendix. Migrate to cloudpublica.org blog. Several tools are Word entry candidates (especially framing tools as "vocabulary for seeing").
+- **UnrigUSA comprehensive analysis** — 478 lines, 43 footnotes, court docket numbers. Press-ready. "Tools for Making Power Visible" appendix at bottom = operational complement to The Word's "vocabulary makes cognition visible."
+- **UnrigUSA consolidation analysis** — Seven pillars structural pattern. "Naming makes power visible, but naming also makes the namer visible." Disclosure tiering connection.
