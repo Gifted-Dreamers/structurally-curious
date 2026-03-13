@@ -337,6 +337,84 @@ The Life Coach's 8 assessment categories map to The Word domains:
 
 The Unmarkets model's "loss internalization" test applies to the The Word too: success means communities use the vocabulary independently, without needing us. The library should make itself less necessary over time — the words enter common usage, the citations become shared knowledge.
 
+## Enterprise Infrastructure Layer
+
+The Word runs on a full enterprise stack, entirely funded through nonprofit technology programs. This means infrastructure costs are zero — all development funding goes to vocabulary, not hosting.
+
+### Compute & Edge (Cloudflare Civil Society — $250K credits)
+
+Accepted into Cloudflare's Civil Society cohort for infrastructure protection. Provides:
+- **Workers** — serverless API at the edge (target architecture for The Word API)
+- **D1** — serverless SQLite at edge (migration path from Docker SQLite)
+- **Workers AI** ($50K cap) — multilingual embedding models at edge for felt-sense search
+- **Vectorize** — vector database for semantic similarity search
+- **Browser Rendering /crawl API** — ethical web crawling for BITE pattern detection at scale
+- **R2 Storage** — S3-compatible, zero egress fees (vocabulary exports, research PDFs)
+- **Analytics Engine** — privacy-first metrics (no cookies, no PII)
+- **3 Enterprise zones** — cloudpublica.org, commoncloud.cc, gifteddreamers.org
+- **Enterprise WAF, DDoS, Bot Management** — included
+
+### Observability (Datadog — $100K credits)
+
+- **LLM Observability** — monitor Workers AI embedding quality, latency, cost
+- **Synthetic Monitoring** — global uptime checks for word.cloudpublica.org
+- **RUM** — real user monitoring for search-to-name conversion metrics
+- **APM** — distributed tracing across Docker API + CF Workers
+- **Cloud SIEM** — security event correlation with CF Logpush
+- **Workflow Automation** — trigger actions from monitoring events (e.g., coverage gap → entry candidate)
+
+### DevSecOps (GitLab Ultimate — free)
+
+- **SAST + Secret Detection** — automatic security scanning on every merge request
+- **Container Scanning** — CVE detection in Docker images
+- **Dependency Scanning** — vulnerable npm package flagging
+- **DAST** — automated penetration testing against running instances
+- **Compliance Framework** — enforceable security standards
+- **DORA Metrics** — deployment frequency, lead time, MTTR, change failure rate
+- **50,000 CI/CD minutes/month** — build, test, deploy automation
+
+### Security Operations (Splunk Enterprise + ES + SOAR — 10 GB/day)
+
+- **Enterprise Security (SIEM)** — threat detection, risk-based alerting
+- **SOAR Playbooks** — automated incident response (100 actions/day)
+- **ML Toolkit** — anomaly detection on usage patterns (poisoning attempt detection)
+- **CF Logpush → Splunk** — Enterprise zone logs flow to SIEM
+- **GitLab audit events → Splunk** — code change correlation with security posture
+
+### Application Monitoring (New Relic — 3 licenses)
+
+- **Synthetics** — global uptime checks (complement Datadog)
+- **AI Monitoring** — Workers AI quality and cost tracking
+- **SLIs/SLOs** — reliability targets ("99.9% felt-sense search uptime")
+- **Browser Monitoring** — RUM for CloudPublica investigations site
+
+### Incident Management (PagerDuty — 3 licenses)
+
+- **On-call routing** — alerts from Datadog/Splunk/NR → phone/SMS
+- **Incident lifecycle** — detection to resolution tracking
+- **Integration hub** — connects all monitoring platforms
+
+### Cloud Compute
+
+- **AWS** — $5K credits, full Bedrock model access (Claude, Llama, Mistral, Titan embeddings)
+- **Azure** — $2K credits
+- **Local** — Mac M4 Pro 24GB, Ollama (qwen2.5:7b + nomic-embed) for offline/development
+
+### Total Credit Value
+
+| Platform | Credits | Key Capability |
+|----------|---------|---------------|
+| Cloudflare Civil Society | $250K | Edge compute, AI, security |
+| Datadog | $100K | Observability, LLM monitoring |
+| AWS | $5K | Bedrock models, hosting |
+| Azure | $2K | Backup compute |
+| GitLab Ultimate | ~$100K value | DevSecOps, CI/CD |
+| Splunk ES + SOAR | ~$50K value | SIEM, automation |
+| New Relic (3 seats) | ~$10K value | APM, synthetics |
+| PagerDuty (3 seats) | ~$5K value | Incident management |
+| Google Ad Grants | $120K/yr | Awareness ($10K/mo) |
+| **Total** | **$640K+** | **Zero infrastructure cost** |
+
 ## Knowledge Vault Architecture (session 18)
 
 The Word needs a data layer that serves both humans navigating concepts and AI agents searching programmatically. Three options evaluated:
