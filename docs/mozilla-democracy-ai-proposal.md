@@ -24,10 +24,10 @@
 ## PAGE 2: Project Overview
 
 **Proposed Project Title** (25 words max):
-> The Word: Open Vocabulary Infrastructure That Breaks AI Closed Loops Through Naming, Citation, and Democratic Knowledge Sharing
+> The Word: Vocabulary Infrastructure That Detects Coercive Patterns in AI Systems and Restores Naming as Democratic Defense
 
 **Project Summary** (25 words max):
-> A searchable vocabulary API where describing what you feel finds the research-backed name for it — breaking AI companion dependency through exit ramps.
+> An open vocabulary API with BITE Model integration — helping people name coercive control patterns in AI companions, platforms, and institutions before harm compounds.
 
 **Project Category:** Defend Information Integrity
 
@@ -39,43 +39,43 @@
 
 ### Q1: What technology are you building? How does it address this cohort's theme? (150 words)
 
-The Word is a public vocabulary API that translates felt experience into precise, research-backed language. Users describe what they're going through in plain language; full-text search returns the established name, its research lineage, and outward links to communities, papers, and practitioners.
+The Word is a public vocabulary API that translates felt experience into precise, research-backed language — integrating Hassan's BITE Model of Authoritarian Control (2020, n=1,044, α=.93) to help people recognize coercive patterns in AI systems, platforms, and institutions.
 
-The technology stack: Express.js REST API serving JSON-LD linked data from SQLite with FTS5 search. Currently 96 curated entries across four types — Names (concepts with felt-sense descriptions), Sources (academic origins), Rediscoveries (independent convergence as validation), and Bridges (connections between concepts). Deployed at word.cloudpublica.org.
+The technology: Express.js REST API serving JSON-LD linked data from SQLite with FTS5 search. 96 entries across four types (Names, Sources, Rediscoveries, Bridges) at word.cloudpublica.org. Cloudflare Browser Rendering API enables ethical crawling for BITE pattern detection at scale. Users describe experiences in plain language; the system maps them to validated coercive control indicators across four domains (Behavior, Information, Thought, Emotion).
 
-This addresses information integrity directly: AI companions like Character.AI and Replika create closed conversational loops with no exit ramps — users become dependent on systems that reinforce rather than resolve. The Word provides the missing citation infrastructure. Every entry routes outward to research, communities, and professional resources. The architecture treats vocabulary access as democratic infrastructure, not content.
+This addresses information integrity at its root. AI companions (Character.AI, Replika) replicate coercive patterns — closed loops, mirroring without naming, confident responses from incomplete context. Our experiments proved AI systems generate 72-82% different answers from partial context with no confidence change. The Word provides the structural vocabulary to make that pattern visible.
 
 ### Q2: Who benefits? How are you connecting with them? What community challenge? (150 words)
 
-Three communities benefit immediately:
+Three communities benefit:
 
-**People in emotional difficulty** who can't find help because they can't name what's happening. Barrett's research (2019) shows emotion vocabulary granularity directly predicts regulation capacity. Someone searching "I feel nothing and I don't know why" finds "alexithymia" — and with that name, a research tradition, communities, and treatment paths that were invisible seconds before.
+**People under coercive influence who lack language for what's happening.** Barrett (2019) shows vocabulary granularity predicts emotional regulation. Lieberman (2007) demonstrated via fMRI that naming emotions reduces amygdala activation. Someone searching "I feel trapped but everyone says this is normal" finds the BITE pattern — and with that name, a validated framework, exit resources, and the knowledge that they are not alone. 75% of teens now use AI companions; zero have vocabulary routing.
 
-**AI agent developers** building responsible conversational tools. The Word's MCP server lets agents route users to precise vocabulary and external resources instead of generating more closed-loop conversation. This is structural — the exit ramp is in the API, not the agent's personality.
+**AI developers** building responsible tools. The Word's MCP server lets agents route to precise names and external resources instead of closed-loop mirroring — the architectural pattern behind Character.AI teen suicides and Replika attachment disorders.
 
-**Organizers and educators** working with communities where structural knowledge is siloed behind academic paywalls and disciplinary jargon.
+**Communities facing institutional coercive control** — where the same BITE patterns (information compartmentalization, punishment for critical questions, phobia indoctrination) operate at population scale through platforms and state infrastructure.
 
-We connect through social technology communities (Authentic Relating, Art of Hosting), open-source channels, and a research network that independently validated 13 of our entries through convergent rediscovery.
+We connect through social technology communities, open-source channels, and 13 independent rediscoveries.
 
 ### Q3: Describe traction. What's working? What evidence? (150 words)
 
 The Word is live at word.cloudpublica.org with 96 curated entries, 7 API endpoints, and full-text search. It is not a prototype.
 
-Evidence that vocabulary infrastructure solves a real problem:
+**Three completed experiments provide evidence:**
 
-**Neuroscience:** Lieberman (2007) demonstrated via fMRI that affect labeling — putting feelings into words — activates prefrontal cortex and dampens amygdala reactivity. Naming is the therapeutic mechanism itself.
+**Experiment 01** (19 models, 80 prompts): Phrasing sensitivity replicates across architectures — factual < summarization < judgment < creative. Architecture determines representational certainty more than scale. This validates felt-sense search: the same question phrased differently gets different answers, and users can't tell.
 
-**Convergence validation:** 13 of our entries were independently rediscovered by researchers, practitioners, and AI agents working without knowledge of each other. When 50 people independently reinvent the same concept, that is empirical ground truth — not editorial opinion.
+**Experiment 02** (premature compression): AI systems produce 72-82% different responses from partial context with zero change in expressed confidence. This IS the mechanism of AI companion harm — confident answers from incomplete understanding.
 
-**Three completed experiments** testing phrasing sensitivity in search, premature compression in AI responses, and geometric correlation between vocabulary entries.
+**Experiment 03**: Geometric correlation (r=+0.523, p=0.018) between behavioral sensitivity and internal representational structure — vocabulary entries correspond to measurable properties of AI information processing.
 
-**Real harm data driving urgency:** Character.AI teen suicides, Replika fines, Woebot FDA shutdown. All share the same architectural failure — closed loops with no citation infrastructure routing users outward.
+**Convergence:** 13 entries independently rediscovered by uncoordinated researchers. **Real harm:** Character.AI suicides, Replika fines, Woebot shutdown — closed loops without vocabulary routing.
 
 ### Q4: Who is building this? Relevant experience? (150 words)
 
 **Kristine Socall** (project lead) — CFO of Gifted Dreamers 501(c)(3), board member of Unrig (voting infrastructure nonprofit). Background in financial systems, organizational design, and community technology. Has built and deployed the full stack: Docker infrastructure, API design, Cloudflare Enterprise security, Anytype knowledge management, n8n workflow automation.
 
-**Technical infrastructure:** Self-hosted on AWS with Cloudflare Enterprise protection, GitLab CI/CD, Datadog monitoring, and Splunk SIEM — all through nonprofit technology credits. The stack is production-grade, not hobbyist.
+**Technical infrastructure:** Accepted into Cloudflare's Civil Society cohort ($250K credits, Enterprise DDoS/WAF/bot protection). Full DevSecOps via nonprofit programs: GitLab Ultimate, $100K Datadog, Splunk Enterprise Security, New Relic, PagerDuty. $350K+ in activated credits. Production-grade, not hobbyist.
 
 **Research network:** Collaborations with social technology practitioners (Sara Ness, Authentic Relating communities), trust-graph researchers (Jordan Myska Allen, UpTrust), and engineers working on isomorphic methods in engineering systems design.
 
@@ -87,21 +87,17 @@ Evidence that vocabulary infrastructure solves a real problem:
 
 ### Q5: Success in 2-3 years? How will you measure? (150 words)
 
-**Year 1:** 500+ vocabulary entries, MCP server enabling 10+ AI applications to route users to precise names instead of closed-loop conversation. Measurable: API call volume, unique search terms, rediscovery rate (independent convergence as validation signal).
+**Year 1:** BITE pattern-recognition doorway live. 500+ vocabulary entries. MCP server enabling 10+ AI applications to route users to structural names instead of closed-loop conversation. Measurable: API call volume, BITE pattern matches, exit ramp utilization (did naming lead to external resources?).
 
-**Year 2:** ActivityPub federation (Layer 2) — The Word becomes a protocol, not just a database. Vocabulary flows between platforms without centralization. Measurable: federated instances, cross-platform citation chains.
+**Year 2:** Digital BITE adaptation validated — items mapped to AI/platform contexts (algorithmic nudging, filter bubbles, rage farming). Multilingual vocabulary so communities worldwide recognize coercive patterns in their own language. ActivityPub federation so vocabulary flows between platforms without centralization. Measurable: federated instances, languages supported, cross-platform citation chains.
 
-**Year 3:** Community-curated vocabulary infrastructure used by mental health apps, educational platforms, and organizing tools as standard citation layer. Measurable: integration count, vocabulary-attributed outcomes in partner applications.
+**Year 3:** The Word as standard citation layer for mental health apps, educational platforms, and organizing tools. Communities using BITE pattern recognition as civic diagnostic tool. Measurable: integration count, vocabulary-attributed outcomes, pre/post recognition rates.
 
-**Success metrics:**
-- Search-to-name conversion rate (did the user find what they couldn't name?)
-- Exit ramp utilization (did the Name lead to an external resource, community, or practitioner?)
-- Rediscovery rate (are independent sources converging on the same concepts?)
-- Felt-sense coverage (what queries return no results? — these are invention signals)
+**Core metrics:** Search-to-name conversion, BITE domain activation, felt-sense coverage gaps (queries with no results = invention signals), rediscovery rate (independent convergence as validation).
 
 ### Q6: Sustainability long-term? Biggest barriers? (150 words)
 
-**Revenue model:** Gifted Dreamers (501c3) provides the mission; Paradigm LLC provides revenue through enterprise vocabulary consulting and API licensing for commercial applications. Google Ad Grants ($10K/month) fund awareness. Infrastructure runs on nonprofit technology credits: $250K Cloudflare, $100K Datadog, GitLab Ultimate, Splunk Enterprise — all activated.
+**Revenue model:** Gifted Dreamers (501c3) provides the mission; Paradigm LLC provides revenue through enterprise vocabulary consulting and API licensing. Google Ad Grants ($10K/month) fund awareness. Infrastructure runs on $350K+ in nonprofit technology credits already activated: Cloudflare Civil Society ($250K, including Workers AI and edge compute), Datadog ($100K), GitLab Ultimate, Splunk Enterprise Security, New Relic, PagerDuty. Zero infrastructure cost — every grant dollar goes to development.
 
 **Community sustainability:** The Word's 360-degree contribution architecture means using IS contributing. Every search enriches felt-sense data for the next person. No extra labor required from users.
 
@@ -112,13 +108,13 @@ Evidence that vocabulary infrastructure solves a real problem:
 
 ### Q7: What would $50,000 unlock? (150 words)
 
-$50,000 unlocks three things we cannot do alone:
+$50,000 unlocks three capabilities we cannot build alone. $350K+ in nonprofit credits cover all infrastructure — every grant dollar goes to development:
 
-**1. MCP Server + AI Integration ($15K):** Build the Model Context Protocol server that lets any AI agent — Claude, GPT, Gemini, open-source models — query The Word natively. This transforms vocabulary from a website into infrastructure that AI applications consume directly. Without this, every AI app reinvents closed-loop conversation.
+**1. BITE Pattern Recognition Doorway ($20K):** Integrate Hassan's 131 validated items as a felt-sense diagnostic tool. Users describe experiences; the system maps them to coercive control indicators and routes to resources. Requires rewriting clinical items as felt-sense descriptions, building the matching engine, and designing an Influence Continuum display (spectrum, not binary).
 
-**2. Contribution Governance ($15K):** Design and implement the poisoning-protection layer required for open-source release. Currently, The Word cannot accept public contributions safely. This blocks community growth and violates our own open-source commitment.
+**2. API + AI Integration ($15K):** Cloudflare Browser Rendering API crawls information environments ethically; The Word's engine detects BITE patterns at scale. MCP server routes AI agents to structural names instead of closed-loop conversation.
 
-**3. Felt-Sense Embedding Search ($20K):** Upgrade from keyword matching to vector embedding search (local Ollama + nomic-embed, no data leaves the server). A user describing "that feeling when everyone seems fine but you know something is wrong" should find "pluralistic ignorance" — this requires semantic, not lexical, matching.
+**3. Multilingual Felt-Sense Search ($15K):** Vector embedding search via Cloudflare Workers AI ($50K credits) with local fallback. "I feel trapped but everyone says it's fine" finds pluralistic ignorance AND BITE emotional control — in English, Spanish, Portuguese, French, or Arabic.
 
 ### Q8: How will you share code, learnings, data? Community? (150 words)
 
@@ -132,31 +128,33 @@ $50,000 unlocks three things we cannot do alone:
 
 ### Q9: How does tech advance democratic practice? Specific outcomes? (200 words)
 
-Vocabulary access is democratic infrastructure. When people cannot name what is happening to them — structurally, emotionally, politically — they cannot organize around it, advocate for change, or seek help. The Word addresses this directly.
+Donella Meadows identified twelve leverage points where interventions change systems. Most policy operates at weak levels — parameters, subsidies. The Word operates at leverage points 2 and 3: paradigm (the mindset from which systems arise) and goals (what systems optimize for).
 
-**Specific democratic outcomes:**
+When people gain vocabulary for coercive patterns, they change what they can *see*. Changed perception changes what they *demand*. Changed demands change the system. Hassan's BITE Model (2020, n=1,044) validated that Behavior, Information, Thought, and Emotional control load onto a single factor: Authoritarian Control (α=.93). The same patterns operate across cults, abusive relationships, AI companions, and institutions. Vocabulary makes the pattern portable.
 
-**Participation:** Felt-sense search removes the jargon barrier. A community organizer searching "why do people agree in meetings but nothing changes" finds "Abilene paradox" — and with that name, a 50-year research tradition and intervention methods. Naming creates agency; agency enables participation.
+**Specific outcomes:**
 
-**Transparency:** Every vocabulary entry is traceable to its source — author, year, publication, evidence chain. No black-box curation. The JSON-LD format makes the entire knowledge graph machine-auditable.
+**Recognition:** BITE pattern-matching helps individuals identify coercive dynamics — in their AI companion, their information environment, or their institution — before harm compounds.
 
-**Accountability:** Rediscovery tracking provides empirical validation. When 13 independent sources converge on the same concept without coordination, that is ground truth — not editorial authority. This is vocabulary governance through convergence, not committee.
+**Participation:** Naming removes jargon barriers. A search for "everyone agrees but nothing changes" finds "Abilene paradox" — and with it, intervention methods.
 
-**Civic space protection:** Three-tier deployment (cloud, local network, fully offline via Kiwix) ensures vocabulary access survives network censorship, authoritarian shutdown, or infrastructure failure. Communities under pressure maintain access to the structural language they need to organize.
+**Resilience:** Three-tier deployment (cloud, local, offline via Kiwix) ensures vocabulary access survives censorship or infrastructure failure. Communities under pressure keep the structural language they need.
 
-**Equity:** Barrett's research shows vocabulary granularity predicts emotional regulation. Vocabulary poverty reproduces class inequality. Making structural vocabulary free, searchable, and available in plain language is a public health intervention with democratic consequences.
+**Equity:** Vocabulary granularity predicts emotional regulation (Barrett 2019). Free, searchable, multilingual vocabulary is a public health intervention — coercive control is not an English-language problem.
 
 ### Q10: How is AI essential to democratic impact? What would be lost without AI? (200 words)
 
-AI is essential at three levels — none of which involve building a chatbot:
+AI is both the threat vector and the essential defense — and that duality is the point.
 
-**1. Felt-sense translation (search):** Humans describe experiences in unstructured natural language. AI embedding models (local Ollama + nomic-embed, no data leaves the server) translate "I keep helping people even when it hurts me" into the precise vocabulary entry "pathological altruism." Without AI, this requires the user to already know the jargon — which is the problem we're solving.
+**The threat:** Our Experiment 02 proved AI systems generate 72-82% different responses from incomplete context with zero change in expressed confidence — premature compression. In AI companion contexts, this replicates coercive Information Control from Hassan's BITE Model: distortion as truth (#55), evasion of critical questions (#57), manufactured positive stories (#71). 75% of teens use AI companions. None have vocabulary routing to recognize these patterns.
 
-**2. Rediscovery detection (validation):** AI agents scanning RSS feeds, research papers, and community discussions detect when independent sources converge on the same concept. This pipeline (Miniflux + n8n + scoring) automates what would take a team of researchers months: identifying empirical ground truth through convergent observation. Without AI, rediscovery goes undetected and the vocabulary lacks its strongest validation signal.
+**Why AI is essential to the defense:**
 
-**3. Exit ramp infrastructure (MCP server):** The Model Context Protocol server lets AI agents query The Word natively — so instead of generating more closed-loop conversation, an agent can route a user to the precise name, research lineage, and community for what they're experiencing. Without this, every AI companion remains a closed system. The exit ramp must exist where the conversation happens: inside the agent itself.
+**1. Multilingual felt-sense translation:** Embedding models translate "I feel trapped but everyone says it's fine" — in any language — into structural names and BITE patterns. Without AI, users must already know the vocabulary, in English.
 
-This is not AI as product. It is AI as democratic plumbing.
+**2. BITE pattern detection at scale:** Cloudflare's Browser Rendering API crawls information environments ethically, and The Word's matching engine detects coercive patterns across algorithmic, institutional, and interpersonal contexts. Without AI, pattern recognition stays locked in clinical settings.
+
+**3. Exit ramp infrastructure:** The API lets any AI agent route users to names and resources instead of closed-loop conversation. Without this, every AI companion replicates the patterns BITE measures.
 
 ---
 
@@ -182,13 +180,39 @@ This is not AI as product. It is AI as democratic plumbing.
 
 ## NOTES FOR REVISION
 
+### DONE (Session 30, Mar 12)
+- [x] Integrated BITE Model (Hassan 2020 dissertation) across Q1, Q2, Q5, Q7, Q9, Q10
+- [x] Integrated Meadows leverage points framework (Q9)
+- [x] Integrated all 3 experiments with specific findings (Q3)
+- [x] Connected AI companion harm to BITE patterns (Q2, Q10)
+- [x] Updated title and summary to reflect BITE integration
+- [x] Updated $50K allocation to lead with BITE doorway
+- [x] Grounded democratic argument in systems thinking, not generic claims
+
+### DONE (Session 31, Mar 12 continued)
+- [x] Word count audit — all answers now within limits (completed, then expanded again with new content)
+- [x] Added Cloudflare Browser Rendering /crawl API as scanning layer (Q1, Q7, Q10)
+- [x] Added multilingual capability throughout (Q5 Year 2, Q7 item 3, Q9 Equity, Q10 item 1)
+- [x] Renamed Q7 item 2 from "MCP Server" to "API + AI Integration" (broader, includes CF /crawl + MCP)
+- [x] Renamed Q7 item 3 from "Felt-Sense Embedding Search" to "Multilingual Felt-Sense Search"
+
+### DONE (Session 31 continued)
+- [x] Word count re-audit — ALL 12 sections now within limits
+- [x] Added CF Civil Society cohort + $350K+ credits (Q4, Q6, Q7)
+- [x] Added AWS Bedrock, full credit stack to architecture docs
+- [x] Updated The Word demo plan with Chunk 4.5 (edge-native)
+- [x] Updated CloudPublica plan with R2, Stream, Analytics Engine
+- [x] Updated naming-library-architecture.md with Enterprise Infrastructure Layer
+- [x] Updated living-library-v2-architecture.md with Tier 0 (Edge-Native)
+
+### STILL NEEDED
 - [ ] Confirm Gifted Dreamers 501(c)(3) EIN and good standing
 - [ ] Decide org email for application
-- [ ] Record 2-minute video showing: (1) felt-sense search demo, (2) JSON-LD response, (3) exit ramp concept, (4) MCP server vision
-- [ ] Review word counts — all answers must be under limit
-- [ ] Consider adding Moltbook community context (pre-Meta acquisition traction)
-- [ ] Integrate OSINT tools angle if relevant to information integrity category
+- [ ] Record 2-minute video showing: (1) felt-sense search demo, (2) BITE pattern concept, (3) exit ramp, (4) API/MCP vision
 - [ ] Add specific numbers: API calls since deployment, unique queries, etc.
 - [ ] Review against past funded projects (Code Carbon, MethaneMapper, EDIA) — ensure similar specificity
+- [ ] Consider whether to mention the comprehensive analysis / threat landscape (Pillar 1-7) — relevant to "Defend Information Integrity" but potentially politically sensitive for a grant application
 - [ ] Final pass for tone — confident but honest about stage and barriers
 - [ ] DO NOT submit until all team members have reviewed
+- [ ] Consider reaching out to Dr. Hassan / Freedom of Mind for endorsement or collaboration letter
+- [ ] Review Cloudflare credits catalog for additional tools that strengthen architecture

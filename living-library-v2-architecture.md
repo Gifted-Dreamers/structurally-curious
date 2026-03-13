@@ -53,7 +53,28 @@ Three things happened that require a new architecture:
 
 ## Infrastructure Tiers
 
-The threat analysis establishes that cloud availability cannot be assumed. The architecture must degrade gracefully across three tiers.
+The threat analysis establishes that cloud availability cannot be assumed. The architecture must degrade gracefully across four tiers.
+
+### Tier 0: Edge-Native (Cloudflare — deployed)
+
+Before federation (Tier 1), The Word runs on Cloudflare's edge network through the Civil Society cohort ($250K credits):
+
+- **API**: Cloudflare Workers (serverless, globally distributed)
+- **Database**: D1 (serverless SQLite at edge) — same schema as local SQLite
+- **Embeddings**: Workers AI ($50K cap) — multilingual models for felt-sense search
+- **Vector Search**: Vectorize — semantic similarity across vocabulary entries
+- **Scanning**: Browser Rendering /crawl API — ethical BITE pattern detection at scale
+- **Storage**: R2 (S3-compatible, zero egress) — exports, PDFs, research assets
+- **Monitoring**: Datadog ($100K) + Splunk ES + New Relic + PagerDuty
+- **Security**: Enterprise WAF, DDoS, Bot Management, GitLab SAST/DAST
+- **Compute fallback**: AWS Bedrock ($5K credits) for model diversity, Azure ($2K) for redundancy
+
+This tier provides:
+- Global distribution without origin servers
+- Zero infrastructure cost (nonprofit credits)
+- Automatic scaling
+- Enterprise-grade security
+- Migration path: Docker SQLite → D1 is schema-compatible
 
 ### Tier 1: Federated Cloud (normal operation)
 - ActivityPods instances in Iceland (1984 Hosting or FlokiNET)
@@ -83,6 +104,8 @@ The threat analysis establishes that cloud availability cannot be assumed. The a
 
 ### Degradation Path
 ```
+Tier 0 (edge-native) → Cloudflare compromised or nonprofit credits exhausted
+  ↓
 Tier 1 (federated cloud) → pod provider compromised or unreachable
   ↓
 Tier 2 (local network) → serve from local device, peers sync via WiFi/mesh
@@ -90,7 +113,7 @@ Tier 2 (local network) → serve from local device, peers sync via WiFi/mesh
 Tier 3 (fully offline) → .zim + ollama + anytype local vault
 ```
 
-Each tier is a proper subset of the one above. No tier requires any capability from a higher tier. The .zim export is the "emergency backup" — it works with no electricity beyond a charged phone.
+Each tier is a proper subset of the one above. No tier requires any capability from a higher tier. Tier 0 is the current stepping stone — globally distributed, zero-cost via nonprofit credits, schema-compatible with both the federated vision (Tier 1) and the local SQLite fallback (Tiers 2-3). The .zim export is the "emergency backup" — it works with no electricity beyond a charged phone.
 
 ---
 
@@ -266,6 +289,23 @@ This is Experiment 02a applied as infrastructure. The system cannot force comple
 ---
 
 ## Implementation Stack
+
+### Tier 0 (Edge-Native — Cloudflare)
+
+| Component | Technology | Why |
+|-----------|-----------|-----|
+| **API** | Cloudflare Workers | Serverless, globally distributed, zero cold starts. Same REST endpoints as Docker origin. |
+| **Database** | D1 (serverless SQLite) | Same schema as local SQLite and Docker deployment. Migration is a file copy. |
+| **Embeddings** | Workers AI (nomic-embed-text or multilingual) | $50K cap within Civil Society cohort. Runs at edge, no origin needed. |
+| **Vector search** | Vectorize | Native integration with D1 + Workers AI. Semantic similarity across Names table. |
+| **Object storage** | R2 (S3-compatible) | Zero egress fees. Exports, PDFs, research assets. Replaces origin file serving. |
+| **Scanning** | Browser Rendering API | Headless Chromium at edge. Ethical BITE pattern detection at scale. |
+| **Security** | Enterprise WAF + Bot Management | Included in Civil Society cohort. DDoS, rate limiting, bot detection. |
+| **Monitoring** | Datadog ($100K) + Splunk ES + New Relic + PagerDuty | Nonprofit credits. Full observability stack at zero cost. |
+| **Compute fallback** | AWS Bedrock ($5K) + Azure ($2K) | Model diversity for embeddings. Redundancy if Workers AI cap exhausted. |
+| **CI/CD** | GitLab SAST/DAST (Ultimate, nonprofit) | Security scanning on every deploy. Free with nonprofit tier. |
+
+**Migration path:** Current Docker SQLite (word.cloudpublica.org) → D1 is schema-compatible. Workers serve the same REST API. ActivityPods federation (Tier 1) layers on top when ready — Tier 0 doesn't block it.
 
 ### Tier 1 (Cloud)
 

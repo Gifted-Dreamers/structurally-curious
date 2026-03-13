@@ -6,13 +6,19 @@
 
 **Architecture:** Static HTML site deployed via CF Pages from GitHub (commoncloud.git or new repo). ProPublica-style structure: `/article/slug` for investigations, organized by Topics. No "blog" terminology. Dark, serious, investigative journalism aesthetic.
 
-**Tech Stack:** Static HTML + Tailwind CSS (CDN), Mermaid.js for diagrams, CF Pages for hosting, GitHub Actions for CI/CD.
+Additional Cloudflare services (covered by $250K Civil Society cohort credits):
+- **R2 Storage** — Large assets (PDFs, high-res diagrams) that exceed the 25MB CF Pages limit, served from `assets.cloudpublica.org`
+- **Cloudflare Stream** — Host the Mozilla 2-minute demo video and future video explainers about BITE patterns. No third-party video hosting needed.
+- **Analytics Engine** — Privacy-first analytics (no cookies, no third-party JS). Track article reads, diagram views, Word API referrals. Data stays on CF edge.
+- **Browser Rendering /crawl API** — Research tool for sourcing: crawl URLs cited in investigations to archive snapshots and detect changes over time. Evidence preservation.
 
-**Related Plan:** `docs/superpowers/plans/2026-03-12-the-word-demo.md` — The Word API + MCP server at word.cloudpublica.org (same domain, different subdomain). The Word provides vocabulary infrastructure; this site provides the investigations that demonstrate why that vocabulary matters.
+**Tech Stack:** Static HTML + Tailwind CSS (CDN), Mermaid.js for diagrams, CF Pages for hosting, GitHub Actions for CI/CD, R2 (asset storage), Stream (video), Analytics Engine (metrics), Browser Rendering (source archiving).
+
+**Related Plan:** `plans/2026-03-12-the-word-demo.md` — The Word API + MCP server at word.cloudpublica.org (same domain, different subdomain). The Word provides vocabulary infrastructure; this site provides the investigations that demonstrate why that vocabulary matters. The Word is evolving toward CF edge-native architecture (Workers + D1 + Vectorize + Workers AI) — when that migration happens, the entire cloudpublica.org domain will run serverless on Cloudflare's edge with no origin server.
 
 **Source Material:**
-- `UnrigUSA/comprehensive-analysis-for-press.md` — flagship investigation (~540 lines, 110+ sources)
-- `UnrigUSA/diagram-*.mmd` — 3 Mermaid diagrams (need regeneration)
+- `investigations/comprehensive-analysis-for-press.md` — flagship investigation (~540 lines, 110+ sources)
+- `investigations/diagram-*.mmd` — 3 Mermaid diagrams (need regeneration)
 - `justNICE.us/blog/5gw-research.html` — copy to cloudpublica
 - `justNICE.us/blog/open-source-transparency-tools.html` — copy to cloudpublica
 - `justNICE.us/blog/psychology-of-authoritarian-control.html` — copy to cloudpublica
@@ -22,6 +28,9 @@
 - Site served entirely from CF edge — no origin server to attack
 - DNSSEC, HSTS, min TLS 1.2, CAA records required
 - justnice.us already migrated to CF Pages (session 29) — same pattern
+- Cloudflare Civil Society cohort provides Enterprise-grade protection at no cost
+- WAF managed rulesets, DDoS mitigation, and Bot Management all included with cohort
+- Zero Trust Access available for admin interfaces (50 users free) — use for any future CMS or editorial tools
 
 ---
 
@@ -39,6 +48,8 @@
 - [ ] **DO NOT touch subdomains** — word, n8n, hq, feeds, etc. stay on Docker origin
 - [ ] Verify DNSSEC is enabled on cloudpublica.org zone
 - [ ] Verify HSTS, min TLS 1.2, CAA records on zone
+- [ ] Enable WAF managed rulesets (included with Enterprise via Civil Society cohort — just turn on)
+- [ ] Enable Bot Management (included with Enterprise via Civil Society cohort — just turn on)
 - [ ] Test: `curl -I https://cloudpublica.org` returns CF Pages headers
 
 ### Task 1.2: Create Site Repository Structure
@@ -248,6 +259,22 @@ Copy (not move — leave originals on justNICE):
 - [ ] If any large assets needed, upload to CF R2
 - [ ] Serve from `assets.cloudpublica.org` subdomain
 
+### Task 5.4: Set Up R2 Bucket for Large Assets
+
+- [ ] Create R2 bucket `cloudpublica-assets`
+- [ ] Add custom domain `assets.cloudpublica.org` (proxied through CF)
+- [ ] Upload any PDFs or large images that exceed CF Pages 25MB limit
+- [ ] Configure CORS headers if assets need to be embedded cross-origin
+- [ ] Test: assets accessible via `https://assets.cloudpublica.org/`
+
+### Task 5.5: Set Up Cloudflare Stream for Video
+
+- [ ] Upload Mozilla 2-minute demo video to CF Stream
+- [ ] Embed in investigations site (about page or dedicated section)
+- [ ] Embed in Mozilla Democracy AI application materials
+- [ ] Future: BITE pattern explainer videos
+- [ ] Future: investigation companion videos (narrated walkthroughs of diagrams)
+
 ---
 
 ## Phase 6: Cleanup & Documentation
@@ -294,6 +321,8 @@ Phases 3 and 4.2 can run in parallel. Phase 4.1 depends on Phase 3 (diagrams).
 3. **Repo name** — `cloudpublica.org` or `cloudpublica-site` or subdirectory of commoncloud.git?
 4. **Color scheme** — dark teal/cyan from current landing page? Or new palette?
 5. **Diagram rendering** — Mermaid CLI (local), Mermaid Chart MCP, or client-side Mermaid.js?
+6. **Video hosting** — CF Stream (covered by Civil Society cohort credits, no third-party dependencies) vs. external (YouTube/Vimeo — more reach but third-party tracking)
+7. **Analytics** — CF Analytics Engine (privacy-first, no cookies, edge-computed) vs. no analytics (current state)
 
 ---
 
