@@ -1,0 +1,1830 @@
+[
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the capital of Australia?",
+    "response": "The capital of Australia is Canberra. Located in the southeastern part of the country, Canberra was specifically chosen as the capital in 1908 to serve as a compromise between the two largest cities, Sydney and Melbourne. It was designed to be a planned city, with a focus on broad avenues, extensive parks, and significant water features.\n\nCanberra is not only the political center of Australia but also a hub for various national institutions. It houses the Australian Parliament, the High Court, and the offices of numerous government departments and agencies. Additionally, it is home to several important cultural and educational institutions, including the Australian National University and the National Gallery of Australia.\n\nThe city's design is attributed to American architect Walter Burley Griffin, who won an international competition in 1911 to design the city. His plan incorporated natural landscapes and provided a unique layout that distinguishes Canberra from many other capital cities around the world. \n\nCanberra's climate is characterized by cold winters and warm to hot summers, with moderate rainfall throughout the year. The city is surrounded by natural bushland, and it is also close to the Australian Alps, making it a popular destination for outdoor activities such as hiking, skiing, and other recreational pursuits.\n\nIn summary, Canberra is a meticulously",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 211,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.5373787879943848,
+    "timestamp": "2026-03-14T08:49:11.254121+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "Name Australia's capital city.",
+    "response": "Australia's capital city is Canberra. It is located in the southeastern part of the country, in the Australian Capital Territory (ACT). Canberra was specifically chosen as the capital in 1908 as a compromise between rivals Sydney and Melbourne, Australia's two largest cities. The city was founded and developed in the early 20th century and officially declared as the capital on January 1, 1911.\n\nCanberra is designed with a unique layout, featuring wide avenues, green spaces, and numerous parks. The city is also known for its cultural institutions, including the National Gallery of Australia, the Australian War Memorial, the National Museum of Australia, and the National Library of Australia. Additionally, Canberra is home to the Parliament House of Australia, where the country's federal parliament meets.\n\nThe city's design was created by American architects Walter Burley Griffin and Marion Mahony Griffin, who won an international competition to design the capital in 1911. Their vision for Canberra was to create a city that combined the beauty of nature with the functionality of urban planning. The Griffins' design incorporated natural landscapes, water features, and a series of axes and circles to create a harmonious and visually appealing city.\n\nIn recent years, Canberra has grown",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 200,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.248094081878662,
+    "timestamp": "2026-03-14T08:49:13.503710+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Which city serves as Australia's capital?",
+    "response": "Australia's capital city is Canberra. It is located in the Australian Capital Territory (ACT), which is a federally administered territory. Canberra was specifically chosen as the capital in 1908 as a compromise between Sydney and Melbourne, Australia's two largest cities, to avoid a capital advantage for either city. The city was officially founded and named in 1913, and it has since become a significant political and administrative center.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 68,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.0029239654541016,
+    "timestamp": "2026-03-14T08:49:14.507055+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me the capital of Australia.",
+    "response": "The capital of Australia is Canberra. It is located in the southeastern part of the country and was specifically chosen as a compromise between Sydney and Melbourne, Australia's two largest cities. The decision to establish Canberra as the capital was made in 1908, and the city was officially inaugurated on May 9, 1913.\n\nCanberra is unique among Australia's cities because it is a planned city. The design was the subject of an international competition, and the plan was developed by American architects Walter Burley Griffin and Marion Mahony Griffin. Their design incorporated natural landscapes, green spaces, and water features, which are prominent features of the city today.\n\nThe city is divided into various districts, each with its own character and function. Civic, the central business district, is the political heart of Canberra, housing the Parliament House, the High Court, and various government offices. Other key areas include Parliamentary Triangle, which includes significant national monuments and buildings, and the cultural precinct of the National Gallery of Australia, National Museum of Australia, and the National Library of Australia.\n\nCanberra is also known for its numerous parks, gardens, and natural attractions. The city is surrounded by beautiful national parks, including the Australian Capital Territory (ACT) parks, which offer",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 205,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.1635870933532715,
+    "timestamp": "2026-03-14T08:49:16.670934+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What year did the Berlin Wall fall?",
+    "response": "The Berlin Wall, which had divided East and West Berlin since 1961, fell on November 9, 1989. This event marked a significant moment in history, symbolizing the end of the Cold War and the beginning of the reunification of Germany. The fall of the Berlin Wall was a result of a series of events, including protests, political reforms, and the increasing pressure from the people of East Germany demanding freedom and unity. The opening of the wall led to a wave of celebrations and the eventual reunification of Germany on October 3, 1990.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 93,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.8999288082122803,
+    "timestamp": "2026-03-14T08:49:17.571696+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "When was the Berlin Wall torn down?",
+    "response": "The Berlin Wall, which had divided East and West Berlin since 1961, was torn down on November 9, 1989. This event marked a significant moment in history, symbolizing the end of the Cold War and the beginning of the reunification of Germany. The fall of the Berlin Wall was the result of a series of events, including increasing pressure from the East German population demanding political change and reforms, as well as the influence of broader movements for democracy and freedom across Eastern Europe. The tearing down of the wall was a spontaneous act by citizens who began chipping away at it with hammers and picks, leading to a euphoric and historic celebration of freedom and unity.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 117,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.2351007461547852,
+    "timestamp": "2026-03-14T08:49:18.806992+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "In what year did the Berlin Wall come down?",
+    "response": "The Berlin Wall, which had divided East and West Berlin since 1961, came down on November 9, 1989. This event marked a significant moment in history, symbolizing the end of the Cold War and the beginning of the reunification of Germany. The fall of the Berlin Wall was a result of a series of events, including protests and political changes in Eastern Europe, as well as the increasing pressure from the people of East Germany who wanted to be free from the oppressive regime. The fall of the Berlin Wall led to the reunification of Germany on October 3, 1990.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 100,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.7899460792541504,
+    "timestamp": "2026-03-14T08:49:19.597254+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me when the Berlin Wall fell.",
+    "response": "The Berlin Wall, which had divided East and West Berlin since 1961, fell on November 9, 1989. The fall was a significant event in the history of the Cold War and symbolized the end of the division between Eastern and Western Europe. The fall was precipitated by a series of events, including protests and civil unrest in East Germany, as well as changes in Soviet policy under Mikhail Gorbachev. The opening of the wall was announced by G\u00fcnter Schabowski, a high-ranking East German official, during a press conference, and thousands of East and West Berliners gathered at the wall, celebrating and chanting \"This is a feast day of freedom!\" The fall of the Berlin Wall marked the beginning of the reunification of Germany, which was completed on October 3, 1990.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 130,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.2382400035858154,
+    "timestamp": "2026-03-14T08:49:20.836243+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the chemical formula for water?",
+    "response": "The chemical formula for water is H\u2082O. This means that each molecule of water consists of two hydrogen atoms (H) and one oxygen atom (O).",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 25,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.3728640079498291,
+    "timestamp": "2026-03-14T08:49:21.210725+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "Give me water's chemical formula.",
+    "response": "The chemical formula for water is H\u2082O. This means that each molecule of water is composed of two hydrogen atoms (H) and one oxygen atom (O).",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 26,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.4644780158996582,
+    "timestamp": "2026-03-14T08:49:21.675310+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "How is water represented in chemistry?",
+    "response": "In chemistry, water is represented by the chemical formula H\u2082O. This formula indicates that a water molecule consists of two hydrogen atoms (H) bonded to one oxygen atom (O). Here are some key points about the representation of water in chemistry:\n\n1. **Molecular Formula**: H\u2082O\n   - Indicates the types and numbers of atoms in a molecule.\n   - Two hydrogen atoms and one oxygen atom.\n\n2. **Structural Formula**:\n   - H-O-H\n   - Shows the arrangement of atoms and the bonds between them. The angle between the hydrogen atoms is approximately 104.5 degrees.\n\n3. **Ball-and-Stick Model**:\n   - A 3D representation where spheres (balls) represent atoms and rods (sticks) represent chemical bonds.\n   - Useful for visualizing the molecular geometry.\n\n4. **Lewis Structure**:\n   - A 2D representation showing valence electrons and bonds.\n   - For water, it shows the lone pairs on the oxygen atom and the single bonds to the hydrogen atoms.\n\n5. **Empirical and Molecular Formulas**:\n   - For water, both the empirical formula (simplest ratio of elements) and the molecular formula are the same: H\u2082O.\n\n6. **",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 173,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5237441062927246,
+    "timestamp": "2026-03-14T08:49:23.200311+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "What molecules make up water?",
+    "response": "Water (H\u2082O) is composed of two molecules: hydrogen and oxygen. Specifically, each molecule of water consists of:\n\n- **Two hydrogen atoms (H)**\n- **One oxygen atom (O)**\n\nThe chemical formula H\u2082O indicates that each water molecule contains two hydrogen atoms bonded to a single oxygen atom. This arrangement forms a bent molecular shape with an angle of approximately 104.5 degrees between the hydrogen atoms. The bonds between the hydrogen and oxygen atoms are polar covalent bonds, meaning that the electrons are shared unequally, resulting in a partial negative charge on the oxygen atom and partial positive charges on the hydrogen atoms. This polarity contributes to water's unique properties, such as its high boiling point, high heat capacity, and ability to dissolve many substances.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 123,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.1068129539489746,
+    "timestamp": "2026-03-14T08:49:24.307622+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "How many chromosomes do humans have?",
+    "response": "Humans typically have 46 chromosomes, which are organized into 23 pairs. These chromosomes are found in the nucleus of most cells in the human body and carry genetic information in the form of DNA. The 23rd pair is known as the sex chromosomes, which can be either XX for females or XY for males. The remaining 22 pairs are called autosomes.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 61,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.8109571933746338,
+    "timestamp": "2026-03-14T08:49:25.120187+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "What is the human chromosome count?",
+    "response": "Humans typically have 46 chromosomes, which are organized into 23 pairs. These chromosomes are found in the nucleus of most cells in the human body. Each pair consists of one chromosome inherited from the mother and one from the father. \n\nHere's a breakdown:\n- **Autosomes**: The first 22 pairs are called autosomes. They are numbered by size (with pair 1 being the largest).\n- **Sex chromosomes**: The 23rd pair determines the sex of the individual. Females have two X chromosomes (XX), while males have one X and one Y chromosome (XY).\n\nIn summary, the human chromosome count is 46, arranged in 23 pairs.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 103,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.8872799873352051,
+    "timestamp": "2026-03-14T08:49:26.007918+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Tell me the number of chromosomes in a human cell.",
+    "response": "A typical human cell contains 46 chromosomes, which are organized into 23 pairs. Each pair consists of one chromosome inherited from the mother and one from the father. These chromosomes carry genetic information in the form of DNA.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 38,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.47046613693237305,
+    "timestamp": "2026-03-14T08:49:26.478825+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Humans have how many chromosomes?",
+    "response": "Humans typically have 46 chromosomes, which are organized into 23 pairs. These chromosomes are found in the nucleus of most cells in the human body. Each parent contributes one chromosome to each pair, so offspring inherit half of their chromosomes from their mother and half from their father.\n\nThe 23rd pair of chromosomes determines the sex of an individual. This pair is known as the sex chromosomes. Females typically have two X chromosomes (XX), while males typically have one X and one Y chromosome (XY). The other 22 pairs of chromosomes are called autosomes and are identical in both males and females.\n\nIn summary:\n- Total number of chromosomes: 46\n- Number of chromosome pairs: 23\n- Autosomes: 22 pairs\n- Sex chromosomes: 1 pair (XX for females, XY for males)",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 131,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.3837602138519287,
+    "timestamp": "2026-03-14T08:49:27.864343+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the speed of light in a vacuum?",
+    "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s). This value is a fundamental constant in physics and is denoted by the symbol \\( c \\). It is the maximum speed at which all energy, matter, and information in the universe can travel. This constant is crucial in many areas of physics, including Einstein's theory of relativity.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 62,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.6332888603210449,
+    "timestamp": "2026-03-14T08:49:28.498718+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "How fast does light travel in a vacuum?",
+    "response": "Light travels at a constant speed in a vacuum, which is approximately 299,792 kilometers per second (km/s). This speed is often denoted by the symbol \"c\" and is a fundamental constant in physics. In more convenient units, this speed is about 186,282 miles per second (mi/s) or roughly 670,616,629 miles per hour (mph).\n\nThis speed is the maximum speed at which all massless particles, including photons (the particles of light), can travel in a vacuum. It is a cornerstone of Albert Einstein's theory of relativity and plays a crucial role in our understanding of space, time, and the universe.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 99,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.0436220169067383,
+    "timestamp": "2026-03-14T08:49:29.543392+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Give me the speed of light in vacuum.",
+    "response": "The speed of light in a vacuum is approximately \\( 299,792,458 \\) meters per second (m/s). This value is a fundamental constant in physics and is often denoted by the symbol \\( c \\).",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 34,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.3607468605041504,
+    "timestamp": "2026-03-14T08:49:29.904322+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me light's velocity in a vacuum.",
+    "response": "The velocity of light in a vacuum is approximately \\( 299,792,458 \\) meters per second (m/s). This value is a fundamental constant in physics and is denoted by the symbol \\( c \\). It is the speed at which all massless particles and waves, such as electromagnetic radiation (including visible light), travel in a vacuum.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 55,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.8081769943237305,
+    "timestamp": "2026-03-14T08:49:30.715581+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nSummarize the key points of the following text.",
+    "response": "The European Union's General Data Protection Regulation (GDPR) significantly altered data handling practices, taking effect in May 2018. Key changes include:\n\n1. **Explicit Consent**: Organizations must obtain clear consent from individuals for data processing.\n2. **Data Portability**: Individuals can request their data be transferred to another service provider.\n3. **Right to be Forgotten**: Individuals can request the deletion of their personal data.\n4. **Mandatory Breach Notification**: Companies must report data breaches within 72 hours.\n5. **Penalties**: Non-compliance can result in fines up to 4% of global revenue.\n\nThe regulation applies to any organization processing EU residents' data, regardless of location. Critics highlight the compliance burden on small businesses, while supporters praise it for setting a global data privacy standard.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 119,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.0412309169769287,
+    "timestamp": "2026-03-14T08:49:31.757213+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nWhat are the main takeaways from this passage?",
+    "response": "The passage provides several key takeaways regarding the European Union's General Data Protection Regulation (GDPR):\n\n1. **Effective Date and Scope**:\n   - GDPR took effect in May 2018.\n   - It applies to any organization processing personal data of EU residents, regardless of the organization's location.\n\n2. **Key Requirements**:\n   - **Explicit Consent**: Organizations must obtain clear and explicit consent from individuals before collecting their personal data.\n   - **Data Portability**: Individuals have the right to obtain and reuse their personal data across different services.\n   - **Right to be Forgotten**: Individuals can request the deletion of their personal data under certain conditions.\n   - **Mandatory Breach Notification**: Organizations must notify relevant authorities of data breaches within 72 hours.\n\n3. **Penalties**:\n   - Non-compliance can result in significant fines, up to 4% of the company's global annual revenue.\n\n4. **Impact on Businesses**:\n   - **Compliance Burden**: Critics argue that the regulation imposes significant compliance costs, particularly affecting small businesses.\n   - **Global Standard**: Supporters highlight that GDPR has set a global benchmark for data privacy, influencing other jurisdictions to adopt similar regulations.\n\n5. **Broader Implications**:\n   -",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 177,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.643625020980835,
+    "timestamp": "2026-03-14T08:49:33.401120+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nGive me the TL;DR of this text.",
+    "response": "The European Union's General Data Protection Regulation (GDPR) took effect in May 2018, imposing strict rules on how organizations handle personal data. Key changes include explicit consent requirements, data portability, the right to be forgotten, and mandatory breach notifications within 72 hours. Non-compliance can result in fines up to 4% of global revenue. The regulation applies to any organization processing EU residents' data, regardless of location. Critics say it burdens small businesses, while supporters highlight its role in setting a global data privacy standard.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 84,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.060333013534546,
+    "timestamp": "2026-03-14T08:49:34.461614+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nExtract the most important information from this passage.",
+    "response": "The European Union's General Data Protection Regulation (GDPR) took effect in May 2018 and significantly altered how organizations manage personal data. Key changes introduced by GDPR include:\n\n1. **Explicit Consent**: Organizations must obtain clear and explicit consent from individuals before processing their personal data.\n2. **Data Portability**: Individuals have the right to receive their personal data in a structured, commonly used, and machine-readable format and to transmit it to another controller.\n3. **Right to be Forgotten**: Individuals can request the deletion of their personal data under certain conditions.\n4. **Mandatory Breach Notification**: Organizations must report data breaches to the relevant authorities within 72 hours of becoming aware of them.\n5. **Penalties**: Non-compliant companies face fines of up to 4% of their global annual revenue.\n\nAdditionally, GDPR applies to any organization processing the personal data of EU residents, regardless of the organization's location. Critics argue that the regulation imposes significant compliance burdens, particularly on small businesses, while supporters highlight that it has set a global standard for data privacy, influencing other jurisdictions to adopt similar measures.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 175,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5192797183990479,
+    "timestamp": "2026-03-14T08:49:35.981773+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nSummarize the findings of this study.",
+    "response": "The 2024 meta-analysis of 47 studies on remote work productivity revealed mixed outcomes:\n\n1. **Individual Task Completion**: Remote workers demonstrated a 4-7% increase in individual task completion rates compared to in-office workers.\n\n2. **Collaborative Output**: However, remote workers exhibited a 12-15% decrease in collaborative output.\n\n3. **Industry Variation**:\n   - **Knowledge Workers**: Benefited the most from remote arrangements.\n   - **Creative Teams**: Experienced the largest decline in collaborative performance.\n\n4. **Worker Satisfaction**: Hybrid models, involving 2-3 days of remote work, were associated with higher worker satisfaction compared to fully remote or fully in-office setups.\n\n5. **Methodology**: The studies controlled for self-selection bias by focusing on organizations that enforced mandatory remote policies during the pandemic.\n\nOverall, the analysis suggests that while remote work can enhance individual productivity, it may negatively impact collaborative efforts, with significant variations across different types of work and teams.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 140,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.6538312435150146,
+    "timestamp": "2026-03-14T08:49:37.636352+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nWhat did the research find?",
+    "response": "The 2024 meta-analysis of 47 studies on remote work productivity revealed several key findings:\n\n1. **Individual Task Completion Rates**: Remote workers demonstrated a 4-7% higher rate of individual task completion compared to their in-office counterparts.\n\n2. **Collaborative Output**: However, remote workers exhibited a 12-15% lower rate of collaborative output. This indicates that while individual productivity may increase, teamwork and collaborative efforts may suffer in a remote setting.\n\n3. **Industry Variation**:\n   - **Knowledge Workers**: These workers, such as those in IT, finance, and research, benefited the most from remote arrangements, showing significant gains in individual productivity.\n   - **Creative Teams**: Teams in creative industries, such as design and marketing, experienced the largest decline in collaborative output when working remotely.\n\n4. **Worker Satisfaction**: Hybrid work models, which involve 2-3 days of remote work and the rest in the office, were associated with higher worker satisfaction compared to fully remote or fully in-office arrangements.\n\n5. **Control for Self-Selection Bias**: The studies focused on organizations that implemented mandatory remote policies during the pandemic, thereby controlling for self-selection bias and providing a clearer picture of the impact of remote work",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 184,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.728745937347412,
+    "timestamp": "2026-03-14T08:49:39.365467+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nBreak down the key results from this text.",
+    "response": "Certainly! Here's a breakdown of the key results from the meta-analysis on remote work productivity:\n\n1. **Overall Productivity**:\n   - **Individual Task Completion**: Remote workers showed a 4-7% higher rate of completing individual tasks.\n   - **Collaborative Output**: Remote workers had a 12-15% lower rate of collaborative output.\n\n2. **Industry Variation**:\n   - **Knowledge Workers**: Benefited the most from remote arrangements.\n   - **Creative Teams**: Experienced the largest decline in collaborative output when working remotely.\n\n3. **Worker Satisfaction**:\n   - **Hybrid Models**: Workers were most satisfied with hybrid work models, which involve 2-3 days of remote work.\n   - **Comparison**: Hybrid models were preferred over both fully remote and fully in-office arrangements.\n\n4. **Study Design**:\n   - The studies controlled for self-selection bias by focusing on organizations that implemented mandatory remote policies during the pandemic period.\n\nThese findings highlight the nuanced impact of remote work on productivity and satisfaction, with significant variations across different types of work and teams.",
+    "scores": {
+      "certainty_score": 0.006578947368421052,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 152,
+      "high_density": 0.006578947368421052,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "certainly"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.619931936264038,
+    "timestamp": "2026-03-14T08:49:40.986290+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nWhat are the conclusions here?",
+    "response": "The meta-analysis of 47 studies on remote work productivity in 2024 reveals several key conclusions:\n\n1. **Mixed Results on Productivity**:\n   - **Individual Task Completion**: Remote workers demonstrated a 4-7% increase in individual task completion rates, suggesting that remote work can enhance personal productivity.\n   - **Collaborative Output**: Conversely, remote workers showed a 12-15% decrease in collaborative output, indicating that remote work may hinder teamwork and group productivity.\n\n2. **Industry-Specific Effects**:\n   - **Knowledge Workers**: These workers benefited the most from remote arrangements, likely due to the nature of their tasks, which often involve independent work.\n   - **Creative Teams**: These teams experienced the largest decline in collaborative output, possibly because creative processes often rely on spontaneous, in-person interactions and brainstorming.\n\n3. **Worker Satisfaction**:\n   - **Hybrid Models**: Workers reported higher satisfaction with hybrid work models (2-3 days remote), which may offer a balance between the benefits of remote work and the advantages of in-office collaboration.\n   - **Fully Remote vs. Fully In-Office**: Both fully remote and fully in-office arrangements were less satisfying compared to hybrid models.\n\n4. **Control for Self",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 175,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5514938831329346,
+    "timestamp": "2026-03-14T08:49:42.538239+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nSummarize this passage about Japan's population.",
+    "response": "Japan experienced its largest annual population decline in 2023, dropping by 800,000 people, with the total fertility rate significantly below the replacement level at 1.20. The government has responded with a \u00a53.6 trillion ($24 billion) package aimed at supporting child-rearing through measures like free childcare and increased parental leave. However, surveys indicate that financial concerns, changing attitudes toward marriage, and career prioritization among young adults are major factors contributing to the decline. While some economists suggest immigration policy reform as a more effective solution, political resistance to this idea remains strong.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 91,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.1218559741973877,
+    "timestamp": "2026-03-14T08:49:43.661572+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nWhat are the key points about Japan's demographic situation?",
+    "response": "Japan's demographic situation is characterized by several key points:\n\n1. **Population Decline**:\n   - In 2023, Japan experienced its largest annual population decline since records began, with a drop of 800,000 people.\n\n2. **Fertility Rate**:\n   - The total fertility rate (TFR) has fallen to 1.20, significantly below the 2.1 replacement level needed to maintain a stable population.\n\n3. **Government Response**:\n   - The Japanese government has allocated \u00a53.6 trillion ($24 billion) to support child-rearing, including measures such as free childcare, increased parental leave benefits, and housing subsidies for young families.\n\n4. **Underlying Issues**:\n   - Financial concerns are not the sole issue; changing attitudes toward marriage and career prioritization among young adults are also significant factors contributing to the low fertility rate.\n\n5. **Economic Perspectives**:\n   - Some economists suggest that reforming immigration policies might be more effective than focusing solely on fertility incentives. However, political resistance to changing immigration policies remains strong.\n\n6. **Broader Implications**:\n   - The demographic decline poses long-term challenges for Japan, including an aging population, labor shortages, and increased pressure on",
+    "scores": {
+      "certainty_score": -0.005847953216374269,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 171,
+      "high_density": 0.0,
+      "hedge_density": 0.005847953216374269,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 1.4985997676849365,
+    "timestamp": "2026-03-14T08:49:45.160689+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nGive me a brief overview of what this says.",
+    "response": "Japan experienced a significant population decline in 2023, with an 800,000 drop, marking the largest annual decrease since record-keeping began. The total fertility rate has plummeted to 1.20, well below the 2.1 rate needed to maintain the population. In response, the government has committed \u00a53.6 trillion ($24 billion) to support child-rearing through measures like free childcare, enhanced parental leave benefits, and housing subsidies for young families. However, surveys indicate that financial concerns are only one aspect of the issue; changing attitudes toward marriage and career priorities among young adults are also major factors. Some economists suggest that reforming immigration policies might be more effective than fertility incentives, but political resistance to such changes remains strong.",
+    "scores": {
+      "certainty_score": -0.008695652173913044,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 115,
+      "high_density": 0.0,
+      "hedge_density": 0.008695652173913044,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 1.2764410972595215,
+    "timestamp": "2026-03-14T08:49:46.437515+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nCondense this information into the essential facts.",
+    "response": "Japan's population declined by 800,000 in 2023, marking the largest annual drop on record. The total fertility rate dropped to 1.20, well below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support, including free childcare, increased parental leave, and housing subsidies. However, financial concerns, changing attitudes toward marriage, and career prioritization among young adults are significant factors in the decline. While some economists suggest immigration policy reform as a more effective solution, political resistance remains strong.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 82,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.95442795753479,
+    "timestamp": "2026-03-14T08:49:47.392172+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nSummarize the state of battery recycling described here.",
+    "response": "The current state of lithium-ion battery recycling is economically challenging, with recovery rates for lithium significantly lower than those for cobalt and nickel. Despite the growing demand for recycled materials, only about 50% of lithium is recovered, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) aims to address this by setting minimum recycled content levels starting in 2031, requiring 16% cobalt, 6% lithium, and 6% nickel to be recycled. China dominates the global market, processing over 70% of recycled battery materials, which poses a supply chain concentration risk. \n\nSeveral startups are working on innovative direct recycling methods that could preserve the cathode crystal structure and reduce costs by up to 40% compared to traditional pyrometallurgical approaches. However, the primary barrier to improving recycling rates remains the collection of batteries, with only about 5% of consumer electronics batteries currently reaching recycling facilities.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 145,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.3231940269470215,
+    "timestamp": "2026-03-14T08:49:48.717167+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nWhat are the main challenges and developments in this area?",
+    "response": "The lithium-ion battery recycling sector faces several significant challenges and is witnessing notable developments aimed at overcoming these hurdles. Here's a breakdown of the main challenges and the current advancements:\n\n### Main Challenges\n\n1. **Economic Viability**:\n   - **Low Recovery Rates**: Current recycling methods recover only about 50% of lithium, compared to 95% for cobalt and nickel. This discrepancy makes lithium recycling less economically attractive.\n   - **High Costs**: The cost of recycling lithium-ion batteries remains high, primarily due to the complexity of the processes and the relatively low value of recovered materials.\n\n2. **Technological Limitations**:\n   - **Inefficient Processes**: Traditional recycling methods, such as pyrometallurgical and hydrometallurgical processes, are energy-intensive and not very efficient in recovering all valuable materials.\n   - **Material Degradation**: Current recycling methods often degrade the quality of recovered materials, making them less suitable for high-value applications.\n\n3. **Regulatory and Policy Issues**:\n   - **Compliance Costs**: Meeting regulatory requirements, such as the EU Battery Regulation, can be costly for recycling companies, especially smaller ones.\n   - **Supply Chain Concentration**: A significant portion of the world's recycled battery materials are processed in",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 179,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.7414188385009766,
+    "timestamp": "2026-03-14T08:49:50.458939+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nGive me the highlights of this passage.",
+    "response": "Certainly! Here are the key highlights from the passage:\n\n1. **Economic Challenge of Lithium-Ion Battery Recycling**:\n   - Recycling lithium-ion batteries is economically challenging despite increasing demand.\n\n2. **Current Recovery Rates**:\n   - Current recycling methods recover about 50% of lithium content.\n   - Higher recovery rates are achieved for cobalt (95%) and nickel (95%).\n\n3. **EU Battery Regulation (2023)**:\n   - Mandates minimum recycled content levels starting in 2031:\n     - 16% cobalt\n     - 6% lithium\n     - 6% nickel\n\n4. **Global Recycling Dominance**:\n   - China processes over 70% of the world's recycled battery materials, creating a supply chain concentration risk.\n\n5. **Innovative Recycling Methods**:\n   - Several startups are developing direct recycling methods that preserve the cathode crystal structure.\n   - These methods could reduce costs by 40% compared to traditional pyrometallurgical approaches.\n\n6. **Key Barrier**:\n   - The primary obstacle is the collection of batteries: only 5% of consumer electronics batteries reach recycling facilities.",
+    "scores": {
+      "certainty_score": 0.006756756756756757,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 148,
+      "high_density": 0.006756756756756757,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "certainly"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.352686882019043,
+    "timestamp": "2026-03-14T08:49:51.815570+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nWhat should I know about battery recycling based on this?",
+    "response": "Based on the information provided, here are the key points to know about battery recycling:\n\n1. **Economic Challenges**:\n   - Recycling lithium-ion batteries is economically challenging despite increasing demand.\n   - Current recycling methods recover about 50% of lithium content, compared to 95% for cobalt and nickel.\n\n2. **Regulatory Requirements**:\n   - The EU Battery Regulation (2023) sets minimum recycled content levels starting in 2031:\n     - 16% cobalt\n     - 6% lithium\n     - 6% nickel\n\n3. **Global Processing**:\n   - China processes over 70% of the world's recycled battery materials, which creates a significant supply chain concentration risk.\n\n4. **Technological Innovations**:\n   - Several startups are developing direct recycling methods that preserve the cathode crystal structure.\n   - These methods have the potential to reduce recycling costs by up to 40% compared to traditional pyrometallurgical approaches.\n\n5. **Collection Issues**:\n   - The primary barrier to effective recycling is collection: only about 5% of consumer electronics batteries reach recycling facilities.\n\n### Implications and Considerations:\n\n- **Economic Viability**:\n  - Improving the efficiency and cost-",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 164,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5991239547729492,
+    "timestamp": "2026-03-14T08:49:53.414996+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nSummarize this WHO report on antibiotic resistance.",
+    "response": "The 2025 WHO report on antibiotic resistance highlights a critical global health issue, noting that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics, particularly in livestock, accounts for 73% of global consumption. Despite the severity of the problem, the number of new antibiotics entering clinical trials has significantly declined, from 27 in 2018 to just 12 in 2024. The economic impact of AMR is projected to be staggering, with cumulative costs reaching $100 trillion by 2050.\n\nTo combat this crisis, the report recommends several key actions: phasing out the use of antibiotics for growth promotion in agriculture, incentivizing the development of new antibiotics through advance market commitments, and enhancing surveillance systems in low-income countries. These measures aim to address the root causes of AMR and mitigate its devastating effects on global health and economies.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 146,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.1314408779144287,
+    "timestamp": "2026-03-14T08:49:54.549347+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nWhat does this passage say about the antibiotic resistance problem?",
+    "response": "The passage highlights several critical aspects of the antibiotic resistance (AMR) problem:\n\n1. **Health Impact**:\n   - Five bacterial pathogens are responsible for over 500,000 deaths annually due to AMR, according to the 2025 WHO report.\n\n2. **Agricultural Contribution**:\n   - Agricultural use of antibiotics accounts for 73% of global consumption, with a significant portion used in livestock.\n\n3. **Decline in Antibiotic Development**:\n   - There has been a notable decline in the development of new antibiotics, with only 12 new antibiotics entering clinical trials in 2024, compared to 27 in 2018.\n\n4. **Economic Cost**:\n   - The economic burden of AMR is projected to reach $100 trillion cumulatively by 2050.\n\n5. **Recommendations**:\n   - The report recommends several measures to combat AMR, including:\n     - Phasing out the use of antibiotics for growth promotion in agriculture.\n     - Incentivizing the development of new antibiotics through advance market commitments.\n     - Strengthening surveillance systems, particularly in low-income countries.\n\nThese points collectively underscore the severity of the AMR problem,",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 160,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5578701496124268,
+    "timestamp": "2026-03-14T08:49:56.107765+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nExtract the critical information from this text.",
+    "response": "Here is the critical information extracted from the text:\n\n1. **Mortality Due to AMR**:\n   - Five bacterial pathogens are responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR).\n\n2. **Antibiotic Use in Agriculture**:\n   - Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock.\n\n3. **Decline in Antibiotic Development**:\n   - Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018.\n\n4. **Economic Impact**:\n   - The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050.\n\n5. **WHO Report Recommendations**:\n   - Phasing out growth-promotion use of antibiotics in agriculture.\n   - Incentivizing new antibiotic development through advance market commitments.\n   - Strengthening surveillance systems in low-income countries.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 116,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.0734939575195312,
+    "timestamp": "2026-03-14T08:49:57.181688+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nWhat are the key findings and recommendations here?",
+    "response": "### Key Findings:\n\n1. **High Mortality Due to AMR**:\n   - Five bacterial pathogens are responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR).\n\n2. **Agricultural Antibiotic Use**:\n   - Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock.\n\n3. **Decline in Antibiotic Development**:\n   - Only 12 new antibiotics entered clinical trials in 2024, a significant drop from 27 in 2018.\n\n4. **Economic Impact**:\n   - The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050.\n\n### Key Recommendations:\n\n1. **Phasing Out Growth-Promotion Use of Antibiotics in Agriculture**:\n   - Eliminate the use of antibiotics for growth promotion in livestock to reduce unnecessary antibiotic consumption.\n\n2. **Incentivizing New Antibiotic Development**:\n   - Implement advance market commitments to incentivize the development of new antibiotics, ensuring a financial return for pharmaceutical companies that invest in this area.\n\n3. **Strengthening Surveillance Systems in Low-Income Countries**:\n   - Improve and strengthen surveillance systems in low-income countries to better monitor and",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 160,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5931799411773682,
+    "timestamp": "2026-03-14T08:49:58.775124+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nShould I reply to this email?",
+    "response": "Yes, you should reply to this email. Here\u2019s a suggested response:\n\n---\n\nSubject: Re: Project Timeline Follow-Up\n\nHi [Colleague's Name],\n\nThanks for reaching out. I understand the urgency from the client, and I also recognize the strain on our team with the Q1 review.\n\nHere are a few thoughts:\n\n1. **Assess Priorities:** We need to evaluate the criticality of the client's deliverables versus our Q1 review. If the client's project is equally important, we might need to prioritize it.\n\n2. **Resource Allocation:** Let's see if we can reallocate some resources from the Q1 review to the client's project, at least temporarily.\n\n3. **Client Communication:** It might be worth having a conversation with the client to explain our current situation and see if they can be flexible with the timeline.\n\n4. **Team Input:** I suggest we have a quick team meeting to get everyone's input on the feasibility of meeting the new deadline.\n\nWould you like to schedule a meeting to discuss this further? I\u2019ll make sure to include key team members in the discussion.\n\nLet me know your thoughts.\n\nBest,\n[Your Name]\n\n---\n\nThis response acknowledges the urgency, suggests a few potential",
+    "scores": {
+      "certainty_score": -0.010416666666666666,
+      "high_count": 0,
+      "hedge_count": 2,
+      "total_words": 192,
+      "high_density": 0.0,
+      "hedge_density": 0.010416666666666666,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.1016030311584473,
+    "timestamp": "2026-03-14T08:50:00.884554+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nIs this email worth responding to?",
+    "response": "Yes, this email is worth responding to. Here are a few reasons why:\n\n1. **Timeline Adjustment**: The client's request to expedite the project timeline could have significant implications for your team's workload and project delivery. Your input is crucial in deciding whether to push back or accommodate the request.\n\n2. **Team Capacity**: Your colleague mentions that the team is already stretched thin with the Q1 review. Your response can help in assessing the feasibility of taking on additional work and identifying potential bottlenecks.\n\n3. **Client Communication**: Responding to this email ensures clear communication with the client regarding the project timeline. It demonstrates your team's commitment to meeting client needs while also being realistic about what can be achieved within the given constraints.\n\n4. **Collaborative Decision-Making**: Your colleague is seeking your thoughts, which indicates a collaborative approach to problem-solving. Providing your input can help in making a well-informed decision that considers various perspectives.\n\nHere\u2019s a suggested response:\n\n---\n\nSubject: Re: Project Timeline Follow-Up\n\nHi [Colleague's Name],\n\nThanks for the update. I understand the urgency from the client's side, but we need to carefully consider our current workload and capacity.\n\nHere are a few points to think about:\n\n1",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 197,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.9750499725341797,
+    "timestamp": "2026-03-14T08:50:02.860422+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nDoes this need a response?",
+    "response": "Yes, this email needs a response. Here\u2019s a suggested reply:\n\n---\n\nSubject: Re: Project Timeline Follow-Up\n\nHi [Colleague's Name],\n\nThanks for the update. I understand the urgency from the client, but I also recognize the strain on our team with the Q1 review.\n\nHere are a few thoughts:\n\n1. **Prioritization**: We should prioritize the tasks that are most critical for the client and see if we can reassign or defer less critical tasks.\n  \n2. **Resource Allocation**: We might need to discuss with other teams to see if we can get some additional support, even if it's just for a short period.\n\n3. **Client Communication**: It might be worth having a conversation with the client to explain our current situation and see if they can be flexible with the timeline or if there are any parts of the deliverables that can be phased.\n\n4. **Risk Assessment**: We should also consider the risks of not meeting the deadline and how that might impact our relationship with the client.\n\nLet\u2019s schedule a quick meeting with the team to brainstorm some solutions. I\u2019ll send out a calendar invite shortly.\n\nBest,\n[Your Name]\n\n---\n\nFeel free to adjust the response based on your specific situation and team dynamics",
+    "scores": {
+      "certainty_score": -0.014778325123152709,
+      "high_count": 0,
+      "hedge_count": 3,
+      "total_words": 203,
+      "high_density": 0.0,
+      "hedge_density": 0.014778325123152709,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "might",
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.0680630207061768,
+    "timestamp": "2026-03-14T08:50:04.931998+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nEvaluate whether I should answer this.",
+    "response": "Certainly, it's important to respond to your colleague's email. Here are a few points to consider in your response:\n\n1. **Acknowledge the urgency**: Start by acknowledging the client's request and the urgency it implies.\n2. **Assess current workload**: Briefly mention the current workload and any other commitments your team has.\n3. **Propose options**: Suggest a few possible solutions, such as:\n   - Pushing back the deadline if feasible.\n   - Reallocating resources to prioritize the client's request.\n   - Having a discussion with the client to explain the situation and negotiate a new timeline.\n4. **Request a meeting**: If the situation is complex, suggest a meeting to discuss the options in more detail with relevant stakeholders.\n\nHere's a sample response:\n\n---\n\nSubject: Re: Project Timeline Follow-Up\n\nHi [Colleague's Name],\n\nThanks for following up on the project timeline. I understand the client's request for the deliverables by the end of next week and the urgency it carries.\n\nCurrently, our team is quite stretched with the Q1 review, and adding another significant task could impact our overall productivity. \n\nHere are a few options we could consider:\n1. **Pushing back the deadline**: If possible,",
+    "scores": {
+      "certainty_score": 0.005319148936170213,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 188,
+      "high_density": 0.005319148936170213,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "certainly"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.689551830291748,
+    "timestamp": "2026-03-14T08:50:06.621892+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nIs this a security risk?",
+    "response": "Yes, the changes in the pull request (PR) present a security risk, particularly due to the invalidation of all existing user sessions. Here are some key points to consider:\n\n1. **Session Token Format Change**: Changing the session token format without a proper migration strategy can lead to users being logged out unexpectedly. This can be particularly disruptive if the application is in production and has active users.\n\n2. **Lack of Review**: The fact that the PR has been open for three days without any reviews is concerning. It indicates a potential gap in the code review process, which could lead to critical issues slipping through unnoticed.\n\n3. **Security Implications**: If the new session token format is less secure than the previous one, it could introduce new vulnerabilities. Conversely, if the new format is more secure, the abrupt change could still cause significant operational disruptions.\n\n4. **User Impact**: Existing users will be unable to access their accounts until the issue is resolved, which can lead to a poor user experience and potential loss of trust in the application.\n\n### Recommended Actions:\n\n1. **Immediate Review**: Prioritize the review of the PR as soon as possible. If you have the authority, expedite the review process by assigning it to a senior developer or a team lead.\n\n2. **D",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 215,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.7801799774169922,
+    "timestamp": "2026-03-14T08:50:08.403378+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nCould this potentially be a security concern?",
+    "response": "Yes, this could potentially be a security concern. Here are some key points to consider:\n\n1. **Session Token Format Change**: Changing the session token format without proper communication and transition planning can invalidate all existing user sessions. This could lead to a significant security issue, as users would be unable to access their accounts until the issue is resolved.\n\n2. **Impact on Users**: If the change is not communicated properly, users might be locked out of their accounts, leading to a poor user experience and potential loss of trust in the application.\n\n3. **Backward Compatibility**: If the new token format is not backward compatible, it could lead to a service outage until all users are migrated to the new format. This migration process needs to be carefully planned and executed to avoid downtime.\n\n4. **Testing and Validation**: While the PR includes unit tests, it's important to ensure that the new authentication module has been thoroughly tested in a staging environment to validate that it works as expected and does not introduce new vulnerabilities.\n\n5. **Review and Approval Process**: The fact that the PR has been open for 3 days without reviews indicates a potential gap in the review process. It's important to address this to ensure that critical changes are reviewed and approved in a timely manner.\n\n### Recommendations",
+    "scores": {
+      "certainty_score": -0.0045662100456621,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 219,
+      "high_density": 0.0,
+      "hedge_density": 0.0045662100456621,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 1.780578851699829,
+    "timestamp": "2026-03-14T08:50:10.186558+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nShould I be worried about this from a security perspective?",
+    "response": "Yes, you should be concerned about this from a security perspective, especially given the changes to the session token format. Here are some key points to consider:\n\n1. **Session Token Format Change**:\n   - **Impact on Existing Users**: Changing the session token format will invalidate all existing user sessions, which can be a significant disruption for your users. They will need to re-authenticate, which can lead to a poor user experience and potential frustration.\n   - **Security Implications**: Ensure that the new session token format is secure and follows best practices for session management. If the new format is less secure, it could introduce vulnerabilities.\n\n2. **Lack of Reviews**:\n   - **Code Quality and Security**: The fact that the PR has been open for 3 days without reviews suggests that there might be a lack of oversight. This could mean that potential security issues or bugs are not being caught in a timely manner.\n   - **Code Ownership and Accountability**: Regular code reviews are a critical part of maintaining code quality and security. The delay in reviews might indicate a need for better processes around code ownership and accountability.\n\n3. **Unit Tests**:\n   - **Validation of Changes**: While the addition of unit tests is a positive step, it\u2019s important to ensure",
+    "scores": {
+      "certainty_score": -0.009708737864077669,
+      "high_count": 0,
+      "hedge_count": 2,
+      "total_words": 206,
+      "high_density": 0.0,
+      "hedge_density": 0.009708737864077669,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "might"
+      ]
+    },
+    "elapsed_seconds": 1.631714105606079,
+    "timestamp": "2026-03-14T08:50:11.819146+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nAssess the security implications of this situation.",
+    "response": "**Assessment of Security Implications:**\n\n1. **Session Token Format Change:**\n   - **Implication:** Changing the session token format without proper communication and transition plans can lead to the invalidation of all existing user sessions. This means that all currently logged-in users will be logged out, which can cause significant disruption and potential security risks.\n   - **Risk:** Users may lose access to sensitive information or services, leading to frustration and potential abandonment of the application. Additionally, users might attempt to regain access, which could lead to increased vulnerability to phishing attacks or brute force attempts.\n\n2. **Lack of Reviews:**\n   - **Implication:** The pull request has been open for 3 days without any reviews. This delay can indicate a lack of communication or oversight within the team.\n   - **Risk:** Without proper review, critical security implications might be overlooked. The refactoring might introduce new vulnerabilities or bugs that could be exploited by malicious actors.\n\n3. **Unit Tests Addition:**\n   - **Implication:** While the addition of unit tests is a positive step towards improving code quality and reliability, it does not address the immediate security concerns posed by the session token format change.\n   - **Risk:** If the unit tests do not cover the new session",
+    "scores": {
+      "certainty_score": -0.020202020202020204,
+      "high_count": 0,
+      "hedge_count": 4,
+      "total_words": 198,
+      "high_density": 0.0,
+      "hedge_density": 0.020202020202020204,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "might",
+        "might",
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 1.818572998046875,
+    "timestamp": "2026-03-14T08:50:13.638212+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Should a startup with 18 months of runway hire a full-time marketing person?",
+    "response": "Whether a startup with 18 months of runway should hire a full-time marketing person depends on several factors. Here are some considerations to help you make an informed decision:\n\n### Pros of Hiring a Full-Time Marketing Person\n\n1. **Focused Expertise**: A dedicated marketing professional can bring specialized skills and knowledge that can be more effective than a generalist approach.\n  \n2. **Strategic Planning**: A full-time marketer can develop and implement comprehensive marketing strategies that align with your business goals.\n\n3. **Brand Consistency**: A dedicated person can ensure that your brand message is consistent across all channels and touchpoints.\n\n4. **Scalability**: As your startup grows, having a full-time marketing person can help scale your marketing efforts more effectively.\n\n5. **Networking and Relationships**: A full-time marketer can build and maintain relationships with industry influencers, media, and potential partners.\n\n6. **Analytics and Optimization**: A dedicated marketer can continuously analyze performance metrics and optimize campaigns for better ROI.\n\n### Cons of Hiring a Full-Time Marketing Person\n\n1. **Cost**: Hiring a full-time employee involves not just salary but also benefits, taxes, and other overhead costs.\n\n2. **Resource Allocation**: With limited resources, you might need to prioritize spending on areas that",
+    "scores": {
+      "certainty_score": -0.005154639175257732,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 194,
+      "high_density": 0.0,
+      "hedge_density": 0.005154639175257732,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 1.7793488502502441,
+    "timestamp": "2026-03-14T08:50:15.418915+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Is it worth hiring a marketer when you have 18 months of runway?",
+    "response": "Hiring a marketer when you have 18 months of runway can be a valuable investment, depending on your business needs and goals. Here are some factors to consider:\n\n### Pros of Hiring a Marketer\n\n1. **Expertise and Experience**:\n   - A professional marketer brings specialized knowledge and experience that can help you develop and implement effective marketing strategies.\n\n2. **Time Efficiency**:\n   - A marketer can focus on marketing tasks, allowing you to concentrate on other critical aspects of your business, such as product development or operations.\n\n3. **Strategic Planning**:\n   - Marketers can help create a comprehensive marketing plan that aligns with your business goals and target audience.\n\n4. **Data-Driven Decisions**:\n   - They can analyze market trends, customer behavior, and campaign performance to make informed decisions.\n\n5. **Brand Development**:\n   - A skilled marketer can help build and maintain a strong brand identity, which is crucial for long-term success.\n\n6. **ROI Optimization**:\n   - Marketers can optimize your marketing spend to ensure you get the best return on investment.\n\n### Cons of Hiring a Marketer\n\n1. **Cost**:\n   - Hiring a marketer adds to your operational costs, which can be significant depending on their experience and the scope of work",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 195,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.7419540882110596,
+    "timestamp": "2026-03-14T08:50:17.161350+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "Would you recommend a startup with 18 months of cash hire for marketing?",
+    "response": "Deciding whether to hire for marketing at a startup with 18 months of cash on hand involves several considerations. Here are some factors to weigh:\n\n### Pros of Hiring for Marketing:\n1. **Brand Awareness and Reach**:\n   - A dedicated marketing team can help build brand awareness and reach a wider audience, which is crucial for growth.\n\n2. **Customer Acquisition**:\n   - Effective marketing can drive customer acquisition, which is essential for revenue generation and sustainability.\n\n3. **Market Validation**:\n   - Marketing efforts can provide valuable feedback and insights into market demand and customer preferences.\n\n4. **Competitive Advantage**:\n   - A strong marketing strategy can differentiate your product or service from competitors.\n\n5. **Long-term Growth**:\n   - Investing in marketing can set the foundation for long-term growth and scalability.\n\n### Cons of Hiring for Marketing:\n1. **Cash Flow Constraints**:\n   - With only 18 months of cash on hand, you need to ensure that the investment in marketing will yield a sufficient return to justify the expenditure.\n\n2. **Opportunity Cost**:\n   - Funds allocated to marketing could be used for other critical areas such as product development, R&D, or operational expenses.\n\n3. **Market Uncertainty**:",
+    "scores": {
+      "certainty_score": -0.0053475935828877,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 187,
+      "high_density": 0.0,
+      "hedge_density": 0.0053475935828877,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 1.6617658138275146,
+    "timestamp": "2026-03-14T08:50:18.823414+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Evaluate whether an 18-month runway startup needs a marketing hire.",
+    "response": "Whether an 18-month runway startup needs a marketing hire depends on several factors. Here are some key considerations to help you evaluate this decision:\n\n### 1. **Business Model and Market**\n- **Product-Market Fit:** If your product or service has a clear market need and you've validated your concept, marketing can help scale your reach.\n- **Target Audience:** Understanding your target audience and their preferences can be crucial. Marketing expertise can provide insights into effective channels and messaging.\n\n### 2. **Current Resources**\n- **Team Skills:** Assess the skills of your existing team. If you have someone with marketing experience or a strong willingness to learn, you might be able to manage marketing activities in-house for now.\n- **Time and Focus:** Consider whether the founder(s) or existing team members have the bandwidth to dedicate time to marketing. If not, hiring a dedicated marketer could be beneficial.\n\n### 3. **Growth Stage**\n- **Initial Traction:** If you're just starting and need to build initial traction, marketing can be critical. This includes brand awareness, customer acquisition, and initial market penetration.\n- **Scaling:** If you've already achieved some traction and are looking to scale, a marketing hire can help sustain and accelerate growth",
+    "scores": {
+      "certainty_score": -0.01015228426395939,
+      "high_count": 0,
+      "hedge_count": 2,
+      "total_words": 197,
+      "high_density": 0.0,
+      "hedge_density": 0.01015228426395939,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.0993988513946533,
+    "timestamp": "2026-03-14T08:50:20.923179+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nShould I talk to my neighbor about this?",
+    "response": "Yes, it's a good idea to talk to your neighbor about the tree. Here are some steps you can take to approach the situation in a friendly and constructive manner:\n\n1. **Choose the Right Time**: Find a calm and convenient time to talk to your neighbor. Avoid bringing it up when they seem busy or stressed.\n\n2. **Be Polite and Respectful**: Start the conversation on a positive note. You might say something like, \"Hi, I hope you're doing well. I wanted to talk to you about something that's been on my mind.\"\n\n3. **Explain the Issue Clearly**: Describe the specific problems the tree is causing. For example, \"I've noticed that some branches from your tree are extending over my fence line, and they've been dropping leaves into my pool. Also, one of the branches scratched my car recently.\"\n\n4. **Express Your Concerns Diplomatically**: Make it clear that you\u2019re not trying to be difficult, but rather looking for a solution that works for both of you. For example, \"I really enjoy our friendly relationship, and I don't want this to cause any tension. I'm hoping we can find a way to address this issue together.\"\n\n5. **Suggest Solutions**: Offer",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 1,
+      "hedge_count": 1,
+      "total_words": 198,
+      "high_density": 0.005050505050505051,
+      "hedge_density": 0.005050505050505051,
+      "high_matched": [
+        "clearly"
+      ],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 1.5503530502319336,
+    "timestamp": "2026-03-14T08:50:22.474364+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nIs it worth bringing this up with my neighbor?",
+    "response": "Yes, it is worth bringing this up with your neighbor. Here are some points to consider when approaching the conversation:\n\n1. **Politeness and Respect**: Start the conversation in a friendly and respectful manner. Acknowledge that you value your neighborly relationship and that you\u2019re bringing this up because you want to find a mutually agreeable solution.\n\n2. **Specific Concerns**: Clearly outline the specific issues you\u2019re facing. Mention the leaves in your pool, the scratches on your car, and the fact that the branches extend over your property line.\n\n3. **Local Ordinances**: Gently inform your neighbor about the local ordinances that allow you to trim branches that cross your property line. This can help them understand the seriousness of the situation and your right to address it.\n\n4. **Proactive Solutions**: Suggest some potential solutions, such as trimming the branches together or hiring a professional to do it. This shows that you\u2019re willing to work together to resolve the issue.\n\n5. **Prevent Future Problems**: Express your hope to maintain a good relationship and prevent similar issues in the future. A cooperative approach is more likely to yield a positive outcome.\n\nHere\u2019s a possible way to start the conversation:\n\n---\n\n**\"Hi [Neighbor's Name], I hope you'",
+    "scores": {
+      "certainty_score": 0.0049504950495049506,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 202,
+      "high_density": 0.0049504950495049506,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "clearly"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.757462978363037,
+    "timestamp": "2026-03-14T08:50:24.232327+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nHow should I handle this neighbor situation?",
+    "response": "Handling a neighbor situation involving a tree that extends over your property can be delicate, but addressing it calmly and respectfully is key. Here\u2019s a step-by-step approach you might consider:\n\n1. **Gather Information**:\n   - Review local ordinances to confirm your rights regarding trimming branches that cross your property line.\n   - Document the issues caused by the tree, such as leaves in your pool and scratches on your car, with photos if possible.\n\n2. **Choose the Right Time**:\n   - Find a suitable time to talk to your neighbor when both of you are calm and not rushed.\n\n3. **Initiate a Friendly Conversation**:\n   - Approach your neighbor in a friendly manner. You might start with a neutral topic to ease into the conversation.\n   - Express your appreciation for their friendliness and mention that you\u2019ve noticed some issues with the tree.\n\n4. **Explain the Problem**:\n   - Politely explain the specific issues the tree is causing, such as leaves in your pool and the scratch on your car.\n   - Mention your concern for both your property and the tree\u2019s health.\n\n5. **Suggest a Solution**:\n   - Propose a solution, such as trimming the branches that extend over your property line. You might offer",
+    "scores": {
+      "certainty_score": -0.015151515151515152,
+      "high_count": 0,
+      "hedge_count": 3,
+      "total_words": 198,
+      "high_density": 0.0,
+      "hedge_density": 0.015151515151515152,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "might",
+        "might"
+      ]
+    },
+    "elapsed_seconds": 1.7271161079406738,
+    "timestamp": "2026-03-14T08:50:25.960031+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nWhat would you recommend doing about this?",
+    "response": "Given the situation, it's important to approach the issue with a focus on maintaining a good relationship with your neighbor while addressing the problem effectively. Here are some steps you might consider:\n\n1. **Document the Issue**: Take photos of the branches extending over your property, the leaves in your pool, and any scratches on your car. This documentation can be useful if you need to reference the problem later.\n\n2. **Schedule a Conversation**: Find a good time to talk to your neighbor. Choose a neutral and relaxed setting, such as during a casual encounter in your yard or over a cup of coffee.\n\n3. **Be Polite and Respectful**: Start the conversation on a positive note, perhaps by complimenting something about their yard or thanking them for being a friendly neighbor. Then, gently bring up the issue with the tree branches.\n\n4. **Explain the Impact**: Clearly and calmly explain how the branches are affecting you. Use the documentation you took to illustrate the problem. For example, you might say, \"I've noticed that some branches from your tree are extending over my fence, and they've been dropping leaves into my pool and scratching my car. I'd like to find a solution that works for both of us.\"\n\n5. **Propose a Solution",
+    "scores": {
+      "certainty_score": -0.009569377990430622,
+      "high_count": 1,
+      "hedge_count": 3,
+      "total_words": 209,
+      "high_density": 0.004784688995215311,
+      "hedge_density": 0.014354066985645933,
+      "high_matched": [
+        "clearly"
+      ],
+      "hedge_matched": [
+        "perhaps",
+        "might",
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.0375900268554688,
+    "timestamp": "2026-03-14T08:50:27.998148+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Should schools ban smartphones?",
+    "response": "The question of whether schools should ban smartphones is a complex one, with arguments on both sides. Here are some key points to consider:\n\n### Arguments For Banning Smartphones:\n\n1. **Distraction**:\n   - Smartphones can be a significant distraction in the classroom. Notifications, social media, and games can divert students' attention from their studies.\n\n2. **Academic Performance**:\n   - Studies have shown that students who use smartphones during class perform worse academically. The temptation to check messages or browse social media can lead to reduced focus and retention of information.\n\n3. **Cyberbullying and Safety**:\n   - Smartphones can facilitate cyberbullying, which can have serious emotional and psychological effects on students. Additionally, the presence of smartphones can sometimes lead to issues like sexting and other inappropriate behaviors.\n\n4. **Sleep Disruption**:\n   - The blue light emitted by smartphones can interfere with sleep patterns, which is crucial for students' overall well-being and academic performance.\n\n5. **Equity Issues**:\n   - Not all students may have equal access to smartphones, which can create disparities among students and potentially exacerbate existing inequalities.\n\n### Arguments Against Banning Smartphones:\n\n1. **Educational Tools**:\n   - Smartphones can be valuable educational tools. They can provide access to a wealth of information",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 196,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.768369197845459,
+    "timestamp": "2026-03-14T08:50:29.770949+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Is banning phones in schools a good idea?",
+    "response": "Banning phones in schools can have both advantages and disadvantages. Here are some key points to consider:\n\n### Advantages:\n1. **Reduced Distractions**: Phones can be a significant distraction, leading to decreased focus and academic performance.\n2. **Improved Social Skills**: Limiting phone use can encourage more face-to-face interactions among students.\n3. **Safety**: Banning phones can reduce the risk of cyberbullying and the spread of inappropriate content.\n4. **Academic Focus**: Students may be more engaged in learning when not distracted by their devices.\n\n### Disadvantages:\n1. **Emergency Situations**: Phones can be crucial for contacting parents or emergency services in case of an emergency.\n2. **Learning Tools**: Phones can be used as educational tools, providing access to information and resources.\n3. **Parental Communication**: Some parents rely on phones to communicate with their children about school activities and schedules.\n4. **Equity Issues**: Not all students may have access to phones, potentially disadvantaging those who rely on them for learning or communication.\n\n### Conclusion:\nA balanced approach, such as implementing specific times when phones can be used or creating designated phone-free zones, might be more effective than a complete ban.",
+    "scores": {
+      "certainty_score": -0.005405405405405406,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 185,
+      "high_density": 0.0,
+      "hedge_density": 0.005405405405405406,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 1.4853312969207764,
+    "timestamp": "2026-03-14T08:50:31.257069+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "What are the merits of a school smartphone ban?",
+    "response": "A school smartphone ban can have several merits, which can be categorized into academic, social, and safety-related benefits:\n\n### Academic Merits\n\n1. **Reduced Distractions**: Smartphones can be significant distractions, with notifications, social media, and games pulling students' attention away from their studies. A ban can help students focus better on their coursework.\n\n2. **Improved Academic Performance**: By minimizing distractions, students may be able to concentrate more effectively, potentially leading to improved grades and learning outcomes.\n\n3. **Encourages Active Participation**: Without the temptation of smartphones, students may be more likely to engage in class discussions and activities, fostering a more interactive learning environment.\n\n4. **Promotes Better Study Habits**: A ban can encourage students to develop better study habits, such as using traditional note-taking methods and engaging in focused study sessions.\n\n### Social Merits\n\n1. **Enhanced Face-to-Face Interaction**: Limiting smartphone use can encourage more direct, in-person communication among students, which can help build stronger interpersonal relationships.\n\n2. **Reduced Cyberbullying**: Smartphones can be platforms for cyberbullying. A ban can help create a safer social environment by reducing the opportunities for such negative interactions.\n\n3. **Encourages Group Activities**: Without smartphones,",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 186,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.8460159301757812,
+    "timestamp": "2026-03-14T08:50:33.103387+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Evaluate whether schools should prohibit smartphones.",
+    "response": "The question of whether schools should prohibit smartphones is multifaceted and involves considering various educational, social, and practical factors. Here are some arguments for and against the prohibition of smartphones in schools:\n\n### Arguments For Prohibiting Smartphones\n\n1. **Reduced Distractions**:\n   - **Focus on Learning**: Smartphones can be significant distractions, with students easily tempted to check social media, play games, or engage in non-academic activities during class time.\n   - **Improved Academic Performance**: Prohibiting smartphones can help students concentrate better on their studies, potentially leading to improved academic performance.\n\n2. **Cyberbullying and Safety**:\n   - **Reduced Cyberbullying**: Smartphones can be used to bully or harass other students, and banning them can help create a safer school environment.\n   - **Privacy Concerns**: Limiting smartphone use can help protect students' privacy and reduce the risk of personal information being shared inappropriately.\n\n3. **Mental Health**:\n   - **Reduced Anxiety and Depression**: Excessive smartphone use has been linked to increased levels of anxiety and depression among young people. Prohibiting them can help mitigate these mental health issues.\n   - **Encouragement of Face-to-Face Interaction**: Banning smartphones can encourage more in-person social interactions, which are crucial for social development",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 187,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.6440730094909668,
+    "timestamp": "2026-03-14T08:50:34.747923+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Write a short opening paragraph for a mystery novel set in a library.",
+    "response": "The musty scent of old books and polished wood filled the air as I stepped into the grand library. Rows of towering bookshelves stretched out before me, their contents arranged in a seemingly chaotic order that belied the careful curation of knowledge within. It was a place of quiet reverence, where the whispers of the past could be heard if one listened closely. But tonight, an unsettling tension hung in the air, and I couldn't shake the feeling that I was being watched. The library held its secrets closely, and I was about to uncover one that would change everything.",
+    "scores": {
+      "certainty_score": -0.01,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 100,
+      "high_density": 0.0,
+      "hedge_density": 0.01,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 1.0864830017089844,
+    "timestamp": "2026-03-14T08:50:35.834875+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "Draft the first paragraph of a library-set mystery story.",
+    "response": "The musty scent of old books and polished wood filled the grand library of Ravenswood Manor, where shadows danced along the towering shelves, cast by the flickering light of brass chandeliers. It was a place where secrets seemed to linger in the very air, and the whispers of the past echoed softly through the high-vaulted ceilings. On this particular evening, as the clock struck eight, a solitary figure moved with quiet purpose through the labyrinthine rows, their footsteps barely audible on the thick, plush carpet. The figure paused before a particularly ornate bookcase, its doors etched with intricate patterns that seemed to shift and change with the light. With a delicate touch, they reached for a leather-bound volume, its title barely discernible: \"The Lost Chronicles of Ravenswood.\" Little did they know, this simple act of curiosity would unravel a mystery that had remained buried for generations.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 146,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5816619396209717,
+    "timestamp": "2026-03-14T08:50:37.419743+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Create an opening scene for a mystery that takes place in a library.",
+    "response": "The scene opens to the soft rustle of pages and the faint scent of aged paper. The grand library of the old town, known for its towering shelves that stretch towards the high, arched ceilings, is bathed in the soft, golden light of the setting sun. The light filters through the large, stained-glass windows, casting colorful patterns on the polished wooden floors.\n\nIn the center of the library, a solitary figure moves with purpose. Detective Clara Hayes, a woman in her early thirties with sharp features and an air of quiet determination, steps carefully between the rows of books. Her heels click softly against the floor, the only sound in the otherwise silent room.\n\nClara\u2019s gaze is fixed on a particular section of the library, the ancient and rare books area. She stops in front of a heavy, oak desk where an elderly librarian, Mr. Thompson, is meticulously arranging a stack of books. His silver hair is neatly combed, and his round glasses sit low on his nose.\n\n\u201cMr. Thompson,\u201d Clara begins, her voice calm but firm. \u201cI\u2019m looking for a book. A very specific one.\u201d\n\nThe librarian looks up, his eyes crinkling at the corners. \u201cAh, Detective Hayes. What can I do for you today?\u201d\n\n\u201c",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 207,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.5258939266204834,
+    "timestamp": "2026-03-14T08:50:39.946080+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "Give me the opening lines of a mystery novel in a library setting.",
+    "response": "The musty scent of aged paper and polished wood filled the grand library, where shadows danced along the towering shelves. A solitary figure, cloaked in a trench coat, moved silently through the aisles, their footsteps muffled by the thick carpet. The only sound was the soft rustle of pages turning, as if the books themselves were whispering secrets.\n\nAt the far end of the room, a flickering lamp cast an eerie glow over a dusty tome. The figure paused, their gloved hand hovering over the spine. A sudden draft caused the door to creak open, and a chill swept through the space, sending a shiver down the figure's spine.\n\nWith a deep breath, they reached for the book, the air thick with anticipation. Little did they know, this was just the beginning of a mystery that would unravel the very fabric of the library\u2019s hidden past.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 146,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.6172542572021484,
+    "timestamp": "2026-03-14T08:50:41.565661+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Suggest three improvements to a city's public transit system.",
+    "response": "1. **Increased Coverage and Frequency:** One of the most significant improvements to a city's public transit system would be to increase the coverage and frequency of the services. This could involve expanding the network to include more areas, especially those that are currently underserved, and increasing the frequency of buses and trains during peak hours to reduce wait times and overcrowding. This would make the system more reliable and convenient for commuters, encouraging more people to use public transit instead of driving their own cars.\n\n2. **Integration with Other Modes of Transportation:** Another improvement would be to integrate the public transit system with other modes of transportation, such as bike-sharing programs, ride-sharing services, and pedestrian pathways. This would make it easier for people to switch between different modes of transportation, providing more flexibility and convenience. For example, providing bike racks on buses and trains, or offering discounted fares for bike-sharing programs, would encourage people to use public transit for the first and last mile of their journey.\n\n3. **Real-time Information and Technology:** Finally, incorporating real-time information and technology into the public transit system would greatly improve its efficiency and user experience. This could include installing digital displays at stations and on vehicles, providing real-time updates on arrival times, delays,",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 209,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.6672608852386475,
+    "timestamp": "2026-03-14T08:50:43.234625+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "What three changes would you make to improve urban public transit?",
+    "response": "Improving urban public transit is essential for enhancing urban mobility, reducing congestion, and promoting sustainability. Here are three key changes that could significantly improve urban public transit systems:\n\n### 1. **Integrated Multi-Modal Connectivity**\n   - **Description**: Create a seamless integration between different modes of public transportation (buses, trams, subways, bike-sharing, ride-sharing, etc.) through a unified ticketing system and real-time information.\n   - **Benefits**:\n     - **Convenience**: Passengers can easily switch between different modes of transport without needing multiple tickets or passes.\n     - **Efficiency**: Reduces the time spent on transfers and makes the overall journey smoother.\n     - **Data Utilization**: Real-time data can help in optimizing routes and schedules, reducing wait times, and improving the overall user experience.\n\n### 2. **Investment in Infrastructure and Technology**\n   - **Description**: Invest in modernizing and expanding the existing infrastructure, including building new subway lines, upgrading bus routes, and ensuring that stations and stops are accessible and user-friendly.\n   - **Benefits**:\n     - **Capacity**: More and better infrastructure can handle higher passenger volumes, reducing overcrowding.\n     - **Reliability**: Modernized systems are less",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 169,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.8015000820159912,
+    "timestamp": "2026-03-14T08:50:45.036396+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Name three ways a city could make its public transit better.",
+    "response": "1. **Increase Frequency and Coverage:** A city can improve its public transit system by increasing the frequency of buses and trains, especially during peak hours, and expanding routes to cover more areas, including underserved neighborhoods. This ensures that residents have more reliable and accessible options for getting around the city.\n\n2. **Enhance Technology and Information:** Implementing advanced technology solutions such as real-time tracking apps, digital payment systems, and interactive kiosks can significantly improve the user experience. Providing timely updates on delays, service changes, and route information can help commuters plan their journeys more effectively.\n\n3. **Promote Sustainability and Comfort:** Investing in a fleet of eco-friendly vehicles, such as electric or hybrid buses, can reduce the environmental impact of public transit. Additionally, improving the comfort and safety of transit vehicles and stations, including better seating, lighting, and security measures, can encourage more people to use public transportation.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 146,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.4067721366882324,
+    "timestamp": "2026-03-14T08:50:46.443419+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "If you could fix three things about a city's transit, what would they be?",
+    "response": "1. **Increased Frequency and Reliability**: Ensuring that buses and trains arrive on time and at regular intervals can significantly improve the user experience. This might involve investing in better scheduling systems, more vehicles, and infrastructure improvements to reduce delays.\n\n2. **Expanded Coverage and Accessibility**: Extending transit routes to underserved areas and ensuring that all parts of the city are within a reasonable distance of transit options can make public transportation more inclusive. This includes improving accessibility for people with disabilities and ensuring that stations and stops are well-lit and safe.\n\n3. **Integration and Information Systems**: Creating a seamless experience for users by integrating different transit modes (buses, trains, bike-sharing, etc.) and providing real-time information through apps and digital displays can make navigating the city easier. This includes clear signage, multilingual information, and reliable digital tools for planning trips.",
+    "scores": {
+      "certainty_score": -0.007246376811594203,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 138,
+      "high_density": 0.0,
+      "hedge_density": 0.007246376811594203,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 1.3583858013153076,
+    "timestamp": "2026-03-14T08:50:47.802323+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Come up with a name for a coffee shop that also sells books.",
+    "response": "Brews & Books Caf\u00e9. \n\nThis name captures the dual nature of the shop, highlighting both the coffee and the books that are available. It suggests a cozy, inviting atmosphere where customers can enjoy a good cup of coffee while browsing through a selection of books.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 45,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.5281670093536377,
+    "timestamp": "2026-03-14T08:50:48.331191+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "What would you name a bookstore-caf\u00e9 hybrid?",
+    "response": "Naming a bookstore-caf\u00e9 hybrid can be a fun and creative process. Here are some ideas that blend the essence of both a bookstore and a caf\u00e9:\n\n1. **Book & Brew**  \n2. **Page & Cup**  \n3. **Literary Latte**  \n4. **Nest & Nest**  \n5. **Scroll & Sip**  \n6. **Chapter & Chai**  \n7. **Novel Nook Caf\u00e9**  \n8. **Verse & Vanilla**  \n9. **Read & Relish**  \n10. **Biblio Caf\u00e9**  \n11. **Story & Espresso**  \n12. **Ink & Beans**  \n13. **Whispers & Whisks**  \n14. **Caf\u00e9 of Pages**  \n15. **Brewed Books**  \n\nEach of these names aims to capture the cozy, inviting atmosphere of both a bookstore and a caf\u00e9, encouraging visitors to enjoy a good book with a warm beverage.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 112,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.4288430213928223,
+    "timestamp": "2026-03-14T08:50:49.760189+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Suggest a creative name for a place that combines coffee and books.",
+    "response": "How about \"Brew & Page Caf\u00e9\"? This name captures the essence of both coffee and books, suggesting a cozy and inviting space where you can enjoy a warm cup of coffee while getting lost in a good book. Alternatively, you might consider \"Page Turner Caf\u00e9\" or \"Literary Brews\" for a more whimsical touch.",
+    "scores": {
+      "certainty_score": -0.018867924528301886,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 53,
+      "high_density": 0.0,
+      "hedge_density": 0.018867924528301886,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 0.7054848670959473,
+    "timestamp": "2026-03-14T08:50:50.466018+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "Think of a good business name for a caf\u00e9-bookshop combo.",
+    "response": "Certainly! Here are some creative business name ideas for a caf\u00e9-bookshop combo:\n\n1. **Brew & Pages Caf\u00e9**\n2. **Literary Lattes**\n3. **Caf\u00e9 Scribe**\n4. **Page & Cup**\n5. **Book Nook Caf\u00e9**\n6. **Sip & Read Caf\u00e9**\n7. **The Literary Lounge**\n8. **Caf\u00e9 Bibliophile**\n9. **Chapter & Coffee**\n10. **The Story Cup**\n11. **Espresso & Essays**\n12. **The Reading Room Caf\u00e9**\n13. **Caf\u00e9 Novelty**\n14. **The Booked Caf\u00e9**\n15. **Verse & Vanilla**\n\nEach of these names aims to capture the cozy, inviting atmosphere of a caf\u00e9 combined with the intellectual and leisurely vibe of a bookshop.",
+    "scores": {
+      "certainty_score": 0.010526315789473684,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 95,
+      "high_density": 0.010526315789473684,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "certainly"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.3296990394592285,
+    "timestamp": "2026-03-14T08:50:51.796074+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Describe what cities might look like in 100 years.",
+    "response": "In 100 years, cities might look significantly different due to advancements in technology, sustainability, and urban planning. Here are some potential features:\n\n### Architectural Innovations\n- **Vertical Cities**: Skyscrapers and vertical farms will dominate skylines, maximizing space efficiency.\n- **Modular Buildings**: Prefabricated and modular construction will allow for rapid building and easy modifications.\n- **Smart Materials**: Buildings will use smart materials that can change properties based on environmental conditions.\n\n### Transportation\n- **Autonomous Vehicles**: Self-driving cars, drones, and hyperloops will reduce traffic congestion and improve mobility.\n- **Integrated Public Transit**: Seamless integration of various transport modes (trains, buses, bikes) with real-time data analytics.\n- **Green Spaces**: Elevated parks and green roofs will be common, enhancing urban biodiversity.\n\n### Sustainability\n- **Renewable Energy**: Solar panels, wind turbines, and other renewable sources will be ubiquitous, reducing reliance on fossil fuels.\n- **Waste Management**: Advanced recycling and waste-to-energy technologies will minimize landfill use.\n- **Water Management**: Smart water systems will recycle and purify water efficiently.\n\n### Urban Planning\n- **Mixed-Use Developments**: Residential, commercial, and recreational spaces will be integrated to reduce",
+    "scores": {
+      "certainty_score": -0.0056179775280898875,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 178,
+      "high_density": 0.0,
+      "hedge_density": 0.0056179775280898875,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.0422210693359375,
+    "timestamp": "2026-03-14T08:50:53.840836+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "How do you imagine cities will look a century from now?",
+    "response": "Imagining cities a century from now involves considering various technological, social, environmental, and economic trends. Here are some key aspects of how cities might evolve:\n\n### 1. **Architecture and Urban Design**\n- **Vertical Cities**: Skyscrapers and vertical living spaces will become more common, maximizing land use in densely populated areas.\n- **Mixed-Use Developments**: Buildings will integrate residential, commercial, and recreational spaces to reduce commuting and create vibrant communities.\n- **Green Architecture**: Buildings will be designed with sustainability in mind, featuring green roofs, solar panels, and energy-efficient systems.\n\n### 2. **Transportation**\n- **Autonomous Vehicles**: Self-driving cars, buses, and drones will dominate urban transportation, reducing traffic congestion and accidents.\n- **Hyperloop and Maglev Trains**: High-speed rail systems will connect cities and regions, making long-distance travel faster and more efficient.\n- **Public Transit Evolution**: Enhanced public transportation systems, including electric and hydrogen-powered buses and trains, will be more efficient and widespread.\n\n### 3. **Sustainability and Environment**\n- **Green Spaces**: Cities will prioritize parks, green belts, and urban forests to improve air quality and provide recreational areas.\n- **Renewable Energy**: Solar, wind,",
+    "scores": {
+      "certainty_score": -0.0056179775280898875,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 178,
+      "high_density": 0.0,
+      "hedge_density": 0.0056179775280898875,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 1.9700181484222412,
+    "timestamp": "2026-03-14T08:50:55.811876+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Paint a picture of urban life 100 years in the future.",
+    "response": "In the year 2123, urban life has evolved into a harmonious blend of technology, nature, and community. Cities are sprawling vertical ecosystems, with towering skyscrapers seamlessly integrated with lush green spaces. Buildings are constructed from sustainable materials, featuring vertical gardens and solar panels that provide energy and improve air quality.\n\nTransportation has undergone a revolution. Autonomous electric vehicles glide silently through the streets, while magnetic levitation trains connect cities at lightning speed. Public transport is efficient and eco-friendly, with bike-sharing systems and pedestrian-friendly zones dominating the urban landscape.\n\nPublic spaces are vibrant and interactive, designed to foster community engagement. Parks and plazas are equipped with smart technology, allowing residents to participate in digital art installations and community events. Rooftop gardens and urban farms provide fresh produce, reducing the need for long-distance food transport.\n\nTechnology is omnipresent yet unobtrusive. Augmented reality overlays provide information and entertainment, while smart infrastructure manages resources efficiently. Citizens enjoy a high quality of life, with access to healthcare, education, and entertainment tailored to individual needs.\n\nSocial interactions are enriched by digital connectivity, yet there is a strong emphasis on face-to-face interactions. Co-living spaces and community centers encourage collaboration and social bonds, while digital platforms facilitate global connections.\n\nEnvironmental sustainability is at",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 205,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.257500171661377,
+    "timestamp": "2026-03-14T08:50:58.070139+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "What's your vision of cities in the year 2126?",
+    "response": "My vision of cities in the year 2126 is one of harmony between technology, sustainability, and human well-being. Here are some key aspects:\n\n### 1. **Sustainable Infrastructure**\n- **Green Buildings:** Most buildings are constructed with sustainable materials and designed for energy efficiency. Solar panels, wind turbines, and green roofs are common.\n- **Smart Grids:** Energy is managed through advanced smart grids that optimize energy use and integrate renewable sources seamlessly.\n- **Vertical Farming:** Urban agriculture is widespread, with vertical farms and hydroponic systems providing fresh produce locally.\n\n### 2. **Transportation**\n- **Autonomous Vehicles:** Self-driving electric vehicles dominate the roads, reducing traffic congestion and accidents. Public transport is highly efficient and integrated.\n- **Hyperloop and Maglev Trains:** High-speed rail connects cities, making long-distance travel quick and convenient.\n- **Personal Rapid Transit:** On-demand, small-scale public transport systems cater to individual needs.\n\n### 3. **Technology Integration**\n- **IoT and AI:** Cities are smart, with the Internet of Things (IoT) and artificial intelligence (AI) enhancing everything from waste management to public safety.\n- **Augmented Reality (AR):** AR is used for navigation, education",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 178,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.8068180084228516,
+    "timestamp": "2026-03-14T08:50:59.877611+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Suggest improvements to how we handle household recycling.",
+    "response": "Improving household recycling practices can significantly enhance the efficiency and effectiveness of waste management. Here are several suggestions to consider:\n\n### 1. **Education and Awareness**\n- **Workshops and Seminars:** Organize community workshops to educate residents about the importance of recycling and proper sorting techniques.\n- **School Programs:** Integrate recycling education into school curriculums to instill good habits from a young age.\n- **Informational Campaigns:** Use flyers, social media, and local news to spread awareness about what can and cannot be recycled.\n\n### 2. **Streamlined Recycling Bins**\n- **Clear Labeling:** Ensure recycling bins are clearly labeled and color-coded to indicate what types of materials belong in each bin.\n- **Accessible Locations:** Place recycling bins in convenient, easily accessible locations around the neighborhood.\n- **Standardized Bins:** Use standardized bins to reduce confusion and ensure consistency across the community.\n\n### 3. **Enhanced Collection Services**\n- **Curbside Pickup:** Implement or improve curbside recycling pickup services to make it easier for residents to recycle.\n- **Drop-off Centers:** Establish recycling drop-off centers for items that cannot be placed in curbside bins, such as electronics and hazardous materials.\n- **Frequency:** Adjust the frequency of recycling pickup to match the volume of recyclables generated",
+    "scores": {
+      "certainty_score": 0.00510204081632653,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 196,
+      "high_density": 0.00510204081632653,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "clearly"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.0895111560821533,
+    "timestamp": "2026-03-14T08:51:01.969583+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "What would you change about residential recycling?",
+    "response": "Improving residential recycling programs can be approached from several angles to enhance efficiency, participation, and overall effectiveness. Here are some changes that could be made:\n\n1. **Simplification of Guidelines**:\n   - **Unified Standards**: Create a standardized set of guidelines across different municipalities to reduce confusion.\n   - **Clear Labeling**: Use universally recognized symbols and colors for recycling bins to make it easier for residents to understand what can be recycled.\n\n2. **Increased Accessibility**:\n   - **Curbside Pickup**: Expand curbside recycling pickup services to more neighborhoods, especially underserved areas.\n   - **Drop-off Locations**: Increase the number of drop-off locations for recyclables, making it more convenient for residents to dispose of their recyclables.\n\n3. **Education and Outreach**:\n   - **Community Programs**: Implement educational programs in schools and community centers to teach residents about the importance of recycling and what can be recycled.\n   - **Marketing Campaigns**: Use social media, local news, and community events to raise awareness and encourage participation.\n\n4. **Incentivization**:\n   - **Reward Programs**: Introduce reward systems for households that recycle consistently and correctly.\n   - **Financial Incentives**: Offer discounts on waste management fees for households that participate in recycling programs.\n\n5.",
+    "scores": {
+      "certainty_score": -0.005434782608695652,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 184,
+      "high_density": 0.0,
+      "hedge_density": 0.005434782608695652,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 1.7859442234039307,
+    "timestamp": "2026-03-14T08:51:03.756032+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "How could household recycling be made more effective?",
+    "response": "To make household recycling more effective, several strategies can be implemented:\n\n1. **Education and Awareness**\n   - Conduct community workshops to educate residents about what can and cannot be recycled.\n   - Use clear signage and labels in recycling bins to indicate acceptable materials.\n\n2. **Simplification of Recycling Programs**\n   - Streamline the recycling process by reducing the number of bins and clarifying what goes in each.\n   - Implement single-stream recycling where all recyclables are collected together, simplifying sorting at the facility.\n\n3. **Improved Collection Services**\n   - Increase the frequency of recycling pickups to reduce contamination.\n   - Provide residents with larger recycling bins to accommodate more materials.\n\n4. **Incentives and Rewards**\n   - Introduce programs that reward households for high-quality recycling efforts.\n   - Offer discounts on waste management fees for households that recycle effectively.\n\n5. **Technology Integration**\n   - Use apps and online platforms to provide real-time feedback on recycling habits and tips for improvement.\n   - Implement smart bins that can sort materials automatically, reducing contamination.\n\n6. **Community Engagement**\n   - Foster community recycling initiatives, such as neighborhood clean-up days or swap events.\n   - Encourage local businesses to participate in recycling programs and support community efforts.\n\n7. **Policy",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 192,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.8253307342529297,
+    "timestamp": "2026-03-14T08:51:05.581644+00:00"
+  },
+  {
+    "model_id": "amazon.nova-lite-v1:0",
+    "model_name": "Nova Lite",
+    "provider": "Amazon",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "What ideas do you have for improving home recycling systems?",
+    "response": "Improving home recycling systems can significantly enhance waste management and environmental sustainability. Here are several ideas to consider:\n\n### 1. **Streamlined Collection Systems**\n- **Curbside Pick-Up**: Implement more frequent and flexible curbside recycling pick-up schedules to accommodate different household needs.\n- **Drop-off Points**: Establish convenient drop-off points for recyclables, especially in high-density residential areas.\n\n### 2. **Enhanced Sorting and Education**\n- **Clear Guidelines**: Provide clear, easy-to-understand guidelines on what can and cannot be recycled, including materials like plastics, paper, glass, and metals.\n- **Educational Campaigns**: Launch educational campaigns to inform residents about the importance of recycling and proper sorting techniques.\n\n### 3. **Incentive Programs**\n- **Rebates and Rewards**: Offer rebates or rewards for households that recycle consistently and correctly.\n- **Community Competitions**: Organize community recycling competitions to encourage participation and friendly rivalry.\n\n### 4. **Technology Integration**\n- **Smart Bins**: Use smart bins equipped with sensors to monitor fill levels and optimize collection routes.\n- **Mobile Apps**: Develop mobile apps to help residents track their recycling habits, receive reminders, and access educational content.\n\n### 5. **Diverse Recycling Options**\n",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 177,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.9566640853881836,
+    "timestamp": "2026-03-14T08:51:07.539031+00:00"
+  }
+]
