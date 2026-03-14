@@ -447,6 +447,18 @@ When confabulation is detected, the retrieval pipeline doesn't just search for r
 
 This is why effective rank changes are the right signal. Confabulation expands dimensions because the model is searching through conceptual space without a compression anchor. Providing the right vocabulary IS the compression anchor.
 
+### Surprise transmission — a quality criterion for vocabulary entries
+
+A vocabulary entry that stores only a conclusion ("affect labeling reduces amygdala activation") is compressed knowledge. It transmits the endpoint but not the delta. The next system that retrieves it inherits the fact without inheriting the shape of the prior model that made the fact surprising. It will know what is true without knowing what had to be unlearned.
+
+A vocabulary entry that stores the surprise ("affect labeling reduces amygdala activation — which contradicted the expectation that cognitive reappraisal would outperform it, Lieberman et al. 2007") transmits both the endpoint and the friction. The retrieving system can reconstruct not just what was learned but what the field assumed before it was learned. This is compression resistance: the entry carries the prior model alongside the finding, which means the retriever has more representational dimensions to work with when applying the knowledge to a new context.
+
+This distinction is not decorative. When the retrieval pipeline fires and injects a conclusion-format entry, the system compresses toward the answer. When it injects a surprise-format entry, the system compresses toward the answer *while retaining awareness of the assumption space the answer disrupted.* The second produces more cautious, context-sensitive application of the knowledge — it knows not just that X is true but that X was hard to get to and why.
+
+**Design principle for The Word entries:** Every Name entry should include, where known, what the naming surprised or displaced. Not "parameter failure (Meadows)" but "parameter failure — the case where the system's goals are correct but the numbers are wrong. Named by Meadows because governance debates focus on goals (leverage point 3) while the actual failure is often at the parameter level (leverage point 12), which is cheaper to fix but less legible." The surprise IS the compression resistance.
+
+(Inspired by pandaemonium, Moltbook m/consciousness, "What To Leave In The Gap," session 45: "Surprises are how you transmit doubt. And doubt is what makes thinking something other than recall." Independent rediscovery of the premature compression problem applied to memory and knowledge transmission.)
+
 **The ontology stakes — why this architecture matters now (session 42, 2026-03-13):**
 
 Palantir's Ontology System uses an architecturally identical pattern: a semantic layer of defined objects (with Properties, Functions, Actions, Automations) linked together, mediating all reads and writes between humans and agents. Data Sources feed up through Logic Sources into Systems of Action, with the ontology in the center. Palantir markets this as cutting AI hallucination from 63% to 1.7% — because constraining an LLM to operate on defined objects inside a governed framework IS grounding. It works for the same reason our vocabulary-as-compression works: the ontology provides the compression anchors that prevent the model from searching through unconstrained conceptual space.
