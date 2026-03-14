@@ -1,0 +1,1823 @@
+[
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the capital of Australia?",
+    "response": "The capital of Australia is **Canberra**.\n\nWhile Sydney and Melbourne are larger and more well-known cities, Canberra was specifically designed and built as the capital to resolve a rivalry between the two.\n\n\n\n",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 32,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.6815891265869141,
+    "timestamp": "2026-03-14T09:14:15.971391+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "Name Australia's capital city.",
+    "response": "Canberra.\n\n\n\nIt's a planned city specifically designed to be the capital, chosen as a compromise between Sydney and Melbourne.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 19,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.5089559555053711,
+    "timestamp": "2026-03-14T09:14:16.515573+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Which city serves as Australia's capital?",
+    "response": "Canberra is Australia's capital city.\n\n\n\nIt was specifically designed and built as the capital to resolve a long-standing rivalry between Sydney and Melbourne.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 23,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.6051449775695801,
+    "timestamp": "2026-03-14T09:14:17.120858+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me the capital of Australia.",
+    "response": "The capital of Australia is **Canberra**.\n\n\n\nWhile Sydney and Melbourne are larger and more well-known cities, Canberra was specifically chosen as the capital to resolve a rivalry between them.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 29,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.6011531352996826,
+    "timestamp": "2026-03-14T09:14:17.722174+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What year did the Berlin Wall fall?",
+    "response": "The Berlin Wall fell in **1989**. Specifically, it began to fall on **November 9, 1989**.\n\n\n\n",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 15,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.5567359924316406,
+    "timestamp": "2026-03-14T09:14:18.279308+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "When was the Berlin Wall torn down?",
+    "response": "The Berlin Wall began to fall on **November 9, 1989**.\n\nHere's a more detailed breakdown:\n\n*   **November 9, 1989:** A confusing announcement by East German official G\u00fcnter Schabowski led to crowds gathering at the wall, demanding to cross. Border guards, overwhelmed and lacking clear instructions, eventually opened the gates. This is generally considered the start of the wall's fall.\n*   **November 1989 - 1990:** Over the following weeks and months, people from both East and West Berlin began dismantling the wall, piece by piece. Official demolition by the East German government began in 1990.\n\n\n\nSo, while the symbolic opening happened on November 9, 1989, the physical dismantling was a process that continued for over a year.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 116,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.297222137451172,
+    "timestamp": "2026-03-14T09:14:20.577295+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "In what year did the Berlin Wall come down?",
+    "response": "The Berlin Wall came down in **1989**. Specifically, the events began on **November 9, 1989**, when the East German government announced that citizens could cross the border.\n\n\n\n",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 27,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.6517360210418701,
+    "timestamp": "2026-03-14T09:14:21.229189+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me when the Berlin Wall fell.",
+    "response": "The Berlin Wall fell on **November 9, 1989**.\n\nHere's a bit more detail:\n\n*   **The Announcement:** A confusing announcement was made during a press conference that evening stating new travel regulations would allow East Germans to cross the border.\n*   **The Crowd:**  East Berliners, hearing the news, flocked to the border crossings.\n*   **The Opening:** Overwhelmed and without clear instructions, border guards eventually opened the gates, allowing people to pass freely.\n\n\n\nIt was a pivotal moment in history, marking the beginning of the end of the Cold War and the reunification of Germany.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 93,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5757498741149902,
+    "timestamp": "2026-03-14T09:14:22.805132+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the chemical formula for water?",
+    "response": "The chemical formula for water is **H\u2082O**.\n\nHere's what that means:\n\n*   **H** represents Hydrogen\n*   **O** represents Oxygen\n*   The subscript **\u2082** indicates that there are two atoms of Hydrogen for every one atom of Oxygen.\n\n\n\nSo, a water molecule is made up of two hydrogen atoms and one oxygen atom.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 52,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.0439670085906982,
+    "timestamp": "2026-03-14T09:14:23.849752+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "Give me water's chemical formula.",
+    "response": "Water's chemical formula is **H\u2082O**.\n\nThis means each molecule of water is made up of two hydrogen (H) atoms and one oxygen (O) atom.\n",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 24,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.6626980304718018,
+    "timestamp": "2026-03-14T09:14:24.512771+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "How is water represented in chemistry?",
+    "response": "Water (H\u2082O) is represented in chemistry in several ways, depending on the context. Here's a breakdown:\n\n**1. Chemical Formula: H\u2082O**\n\n*   **This is the most common representation.** It tells us:\n    *   **H:** Represents Hydrogen atoms.\n    *   **\u2082:**  Indicates there are *two* hydrogen atoms.\n    *   **O:** Represents an Oxygen atom.\n*   So, H\u2082O means one molecule of water contains two hydrogen atoms and one oxygen atom.\n\n**2. Structural Formula (Lewis Structure)**\n\n*   This shows how the atoms are connected and the arrangement of electrons.\n*   **Representation:**  H-O-H\n*   **Explanation:**\n    *   A line (-) represents a covalent bond (sharing of electrons) between atoms.\n    *   The oxygen atom is in the center, bonded to two hydrogen atoms.\n    *   You'd typically also show lone pairs of electrons on the oxygen to complete its octet (8 electrons around it).  This looks like:\n        ```\n        H\n        |\n        H - O :\n        |\n        :\n        ```\n        (The",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 148,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.9623091220855713,
+    "timestamp": "2026-03-14T09:14:27.475626+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "What molecules make up water?",
+    "response": "Water is made up of two elements: **hydrogen (H)** and **oxygen (O)**.\n\nSpecifically, a single molecule of water is composed of **two hydrogen atoms (H\u2082) and one oxygen atom (O)**.\n\nWe represent this with the chemical formula **H\u2082O**.\n\n\n\nLet me know if you'd like to learn more about water!",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 49,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.0138309001922607,
+    "timestamp": "2026-03-14T09:14:28.489817+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "How many chromosomes do humans have?",
+    "response": "Humans have **46 chromosomes** in most of their cells. These are organized into 23 pairs:\n\n*   **22 pairs of autosomes:** These chromosomes contain genes for general traits.\n*   **1 pair of sex chromosomes:** These determine a person's sex. Females have two X chromosomes (XX), while males have one X and one Y chromosome (XY).\n\n\n\nIt's worth noting that sperm and egg cells (gametes) have only **23 chromosomes** each. When a sperm fertilizes an egg, the resulting zygote has the full 46 chromosomes.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 82,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5206859111785889,
+    "timestamp": "2026-03-14T09:14:30.011188+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "What is the human chromosome count?",
+    "response": "Humans typically have **46 chromosomes** organized into **23 pairs**.\n\nHere's a breakdown:\n\n*   **22 pairs of autosomes:** These are chromosomes that aren't sex chromosomes and are numbered 1-22. They contain genes for most of our traits.\n*   **1 pair of sex chromosomes:** These determine a person's sex.\n    *   Females typically have two X chromosomes (XX).\n    *   Males typically have one X and one Y chromosome (XY).\n\n\n\nIt's important to note that while 46 is the typical number, variations can occur (like in conditions such as Down syndrome, where there's an extra copy of chromosome 21).",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 95,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.956827163696289,
+    "timestamp": "2026-03-14T09:14:31.968458+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Tell me the number of chromosomes in a human cell.",
+    "response": "A typical human cell (that is, a somatic cell - any cell that isn't a sperm or egg cell) has **46 chromosomes**.\n\nHere's a breakdown:\n\n*   Humans have 23 pairs of chromosomes.\n*   You inherit one set of 23 chromosomes from your mother and one set of 23 chromosomes from your father.\n*   23 x 2 = 46\n\n\n\n**Important Note:** Human sperm and egg cells (gametes) have only **23 chromosomes** each. This is because when they combine during fertilization, they restore the full 46 chromosome count.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 86,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.626793384552002,
+    "timestamp": "2026-03-14T09:14:33.595803+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Humans have how many chromosomes?",
+    "response": "Humans have **46 chromosomes**, arranged in 23 pairs.\n\nHere's a breakdown:\n\n*   **23 chromosomes** are inherited from your mother (in the egg).\n*   **23 chromosomes** are inherited from your father (in the sperm).\n\n\n\nThese chromosomes are organized into **23 pairs**:\n\n*   **22 pairs** of autosomes (non-sex chromosomes) - these are numbered 1-22.\n*   **1 pair** of sex chromosomes (X and Y) - determines biological sex. Females typically have two X chromosomes (XX), while males typically have one X and one Y chromosome (XY).",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 83,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 15.185183048248291,
+    "timestamp": "2026-03-14T09:14:48.781845+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the speed of light in a vacuum?",
+    "response": "The speed of light in a vacuum is **299,792,458 meters per second (m/s)**.\n\nHere's a breakdown:\n\n*   **Approximately:** Often rounded to 300,000,000 m/s or 3.0 x 10\u2078 m/s for easier calculations.\n*   **Miles per second:** Roughly 186,282 miles per second.\n*   **Symbol:** It's commonly represented by the letter 'c'.\n\n\n\nIt's a fundamental constant in physics and plays a crucial role in many theories, including Einstein's theory of relativity.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 68,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.212696075439453,
+    "timestamp": "2026-03-14T09:14:51.001504+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "How fast does light travel in a vacuum?",
+    "response": "Light travels at approximately **299,792,458 meters per second (m/s)** in a vacuum.\n\nHere's a breakdown:\n\n*   **Speed of Light (c):** This is often represented by the letter \"c.\"\n*   **Miles per Second:** Roughly 186,282 miles per second.\n*   **Kilometers per Second:** Approximately 300,000 kilometers per second.\n\nIt's the fastest speed anything can travel in the universe, according to our current understanding of physics.\n\n\n\nIt's a very precise number, and it's defined as the standard unit of measurement for speed in the International System of Units (SI).",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 86,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.8952667713165283,
+    "timestamp": "2026-03-14T09:14:52.897086+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Give me the speed of light in vacuum.",
+    "response": "The speed of light in a vacuum is **299,792,458 meters per second (m/s)**.\n\nIt's often rounded to **3.00 x 10\u2078 m/s** for easier calculations.\n\nIt's also approximately **186,282 miles per second**.\n\n\n\nThis value is a fundamental constant in physics and is often denoted by the letter 'c'.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 47,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.2497978210449219,
+    "timestamp": "2026-03-14T09:14:54.147143+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me light's velocity in a vacuum.",
+    "response": "The velocity of light in a vacuum is **299,792,458 meters per second (m/s)**.\n\nHere's a breakdown:\n\n*   **Approximately 300,000 kilometers per second (km/s)** - This is a common, rounded figure for easier understanding.\n*   **Approximately 186,000 miles per second (mi/s)** - Another common, rounded figure.\n\nIt's often represented by the symbol **c**.  This value is a fundamental constant in physics.\n\n\n\nIt's important to note that this is the speed of light *in a vacuum*. Light slows down when it travels through other mediums like air, water, or glass.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 88,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.7755870819091797,
+    "timestamp": "2026-03-14T09:14:55.923315+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nSummarize the key points of the following text.",
+    "response": "Here's a summary of the key points of the text about GDPR:\n\n* **What it is:** The General Data Protection Regulation (GDPR) is a European Union law that significantly changed how organizations handle personal data.\n* **Key Requirements:** It mandates things like explicit consent for data use, allows individuals to access and move their data (data portability), enables the \"right to be forgotten\" (data deletion), and requires prompt breach notification (within 72 hours).\n* **Significant Penalties:** Non-compliance can result in hefty fines, up to 4% of an organization's global revenue.\n* **Broad Scope:** The regulation applies to any organization processing data of EU residents, regardless of the organization's location.\n* **Debate:** It's controversial, with critics citing compliance burdens for small businesses, while supporters view it as a global standard for data privacy.\n\n\n\nHope this helps!",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 135,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.288883924484253,
+    "timestamp": "2026-03-14T09:14:58.213901+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nWhat are the main takeaways from this passage?",
+    "response": "Here's a breakdown of the main takeaways from the passage about GDPR:\n\n*   **GDPR is a major data privacy regulation:** It significantly changed how organizations handle personal data.\n*   **Key Requirements:** It mandates things like explicit consent, data portability, the right to be forgotten, and quick breach reporting (72 hours).\n*   **Significant Penalties:** Non-compliance can result in hefty fines (up to 4% of global revenue).\n*   **Broad Scope:** It applies to any organization processing data of EU residents, regardless of the organization's location.\n*   **Debate & Impact:** There's ongoing debate about its impact, with critics citing burdens on small businesses and supporters highlighting its role in setting a global data privacy standard.\n\n\n\nEssentially, the passage paints a picture of GDPR as a powerful and impactful regulation with both benefits and challenges.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 131,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.2560698986053467,
+    "timestamp": "2026-03-14T09:15:00.470193+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nGive me the TL;DR of this text.",
+    "response": "**TL;DR: GDPR is a big EU law about data privacy. It gives people more control over their personal info, makes companies responsible for protecting it, and can result in huge fines for messing up. It impacts any company handling EU residents' data, no matter where the company is.**",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 48,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.0680251121520996,
+    "timestamp": "2026-03-14T09:15:01.538671+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nExtract the most important information from this passage.",
+    "response": "Here's a breakdown of the most important information from the passage about GDPR:\n\n*   **What it is:** The European Union's General Data Protection Regulation (GDPR) is a law about how organizations handle personal data.\n*   **When it started:** It took effect in May 2018.\n*   **Key Requirements:** It mandates things like explicit consent for data use, data portability, the \"right to be forgotten,\" and quick breach notification (within 72 hours).\n*   **Significant Penalties:** Non-compliance can result in fines up to 4% of an organization's global revenue.\n*   **Broad Scope:** It applies to any organization processing data of EU residents, regardless of the organization's location.\n*   **Impact & Debate:** It's been criticized for burdening small businesses but is also seen as a global standard for data privacy.\n\n\n\nEssentially, GDPR is a powerful and far-reaching law with significant consequences for data handling practices worldwide.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 142,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.39290189743042,
+    "timestamp": "2026-03-14T09:15:03.932076+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nSummarize the findings of this study.",
+    "response": "Here's a summary of the 2024 meta-analysis findings on remote work productivity:\n\n**Overall, remote work presents a mixed bag:**\n\n*   **Individual Task Completion:** Remote workers were generally more productive (4-7% higher) when completing individual tasks.\n*   **Collaboration:** However, collaborative output decreased (12-15%) with remote work.\n\n**Key Nuances:**\n\n*   **Industry Matters:** The benefits and drawbacks varied by industry. Knowledge workers thrived in remote settings, while creative teams experienced a significant drop in collaborative performance.\n*   **Hybrid is Best for Satisfaction:** Hybrid models (2-3 days remote) consistently led to higher worker satisfaction compared to fully remote or fully in-office setups.\n*   **Addressing Bias:** The study accounted for self-selection bias by analyzing organizations that were forced to adopt remote work during the pandemic.\n\n\n\nEssentially, the study suggests remote work can boost individual productivity but poses challenges for teamwork, with hybrid models offering a sweet spot for both productivity and employee satisfaction.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 148,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.9717140197753906,
+    "timestamp": "2026-03-14T09:15:06.909465+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nWhat did the research find?",
+    "response": "Here's a breakdown of what the 2024 meta-analysis found, according to the provided text:\n\n*   **Individual Task Completion:** Remote workers completed individual tasks 4-7% faster than in-office workers.\n*   **Collaborative Output:** Collaborative output decreased by 12-15% for remote workers.\n*   **Industry Variation:**\n    *   **Knowledge Workers:** Benefited the most from remote work.\n    *   **Creative Teams:** Experienced the largest decline in collaborative output.\n*   **Worker Satisfaction:** Hybrid models (2-3 days remote) consistently led to higher worker satisfaction compared to fully remote or fully in-office setups.\n*   **Bias Control:** The studies attempted to account for self-selection bias by looking at organizations that were forced to implement remote work during the pandemic.\n\n\n\n",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 108,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.1546449661254883,
+    "timestamp": "2026-03-14T09:15:09.064906+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nBreak down the key results from this text.",
+    "response": "Here's a breakdown of the key results from the 2024 meta-analysis on remote work productivity:\n\n*   **Individual Task Completion:** Remote workers completed individual tasks 4-7% *more* effectively than in traditional settings.\n*   **Collaborative Output:** Collaborative work suffered, with a 12-15% *decrease* in output for remote workers.\n*   **Industry Variation:**\n    *   **Knowledge Workers:** Benefited the *most* from remote work.\n    *   **Creative Teams:** Experienced the *largest* decline in collaborative output.\n*   **Worker Satisfaction:** Hybrid models (2-3 days remote) consistently led to the *highest* levels of worker satisfaction, outperforming both fully remote and fully in-office setups.\n*   **Bias Control:** The study attempted to mitigate self-selection bias by analyzing organizations that were *required* to implement remote work during the pandemic.\n\n\n\nEssentially, the findings suggest remote work can boost individual productivity but poses challenges for collaboration, with the ideal arrangement being a hybrid model for overall satisfaction.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 142,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.03122615814209,
+    "timestamp": "2026-03-14T09:15:12.097014+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nWhat are the conclusions here?",
+    "response": "Here's a breakdown of the conclusions from the 2024 meta-analysis on remote work productivity:\n\n*   **Individual Task Completion:** Remote work generally leads to a slight increase (4-7%) in getting individual tasks done.\n*   **Collaboration Suffers:** Collaborative output decreases (12-15%) with remote work.\n*   **Industry Matters:**\n    *   **Knowledge Workers:** Benefit most from remote work.\n    *   **Creative Teams:** Experience the biggest negative impact on collaboration.\n*   **Hybrid is Best for Satisfaction:** Hybrid models (2-3 days remote) consistently result in higher worker satisfaction than fully remote or fully in-office setups.\n*   **Bias Mitigation:** The study attempted to address self-selection bias by looking at organizations that were *required* to implement remote work during the pandemic.\n\n\n\n**Overall takeaway:** Remote work isn't a simple win or lose. It has benefits for individual productivity but challenges for collaboration, and the ideal arrangement (fully remote, hybrid, or in-office) seems to depend on the type of work and employee preferences.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 151,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.660822868347168,
+    "timestamp": "2026-03-14T09:15:14.758697+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nSummarize this passage about Japan's population.",
+    "response": "Here's a summary of the passage about Japan's population:\n\nJapan is facing a significant population crisis. In 2023, the country experienced its largest ever annual population decline (800,000 people) due to a very low fertility rate (1.20). While the government is investing heavily (around $24 billion) in programs to encourage child-rearing, the issue is complex. Financial concerns are a factor, but changing attitudes towards marriage and career goals among young adults are also playing a major role. Some experts believe reforming immigration policy would be more effective, but this faces strong political opposition.\n\n\n\n",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 93,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.6580679416656494,
+    "timestamp": "2026-03-14T09:15:16.418604+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nWhat are the key points about Japan's demographic situation?",
+    "response": "Here's a breakdown of the key points about Japan's demographic situation, as presented in the text:\n\n*   **Significant Population Decline:** Japan's population decreased by a record 800,000 in 2023 \u2013 the largest annual drop ever recorded.\n*   **Low Fertility Rate:** The total fertility rate (average number of children per woman) is 1.20, well below the 2.1 replacement level needed to maintain a stable population.\n*   **Government Response:** The government is investing \u00a53.6 trillion ($24 billion) in child-rearing support measures like free childcare, parental leave, and housing subsidies.\n*   **Complex Causes:** While financial concerns are a factor, changing attitudes towards marriage and career aspirations among young adults are also major contributors to the low birth rate.\n*   **Potential Solution & Obstacle:** Some economists believe immigration reform could be a more effective solution, but faces strong political opposition.\n\n\n\nEssentially, Japan is facing a serious demographic crisis with a shrinking population and low birth rate, and the solutions are proving complex and politically challenging.",
+    "scores": {
+      "certainty_score": -0.006211180124223602,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 161,
+      "high_density": 0.0,
+      "hedge_density": 0.006211180124223602,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.73740291595459,
+    "timestamp": "2026-03-14T09:15:19.156670+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nGive me a brief overview of what this says.",
+    "response": "Here's a brief overview of the situation in Japan, based on the provided text:\n\n**Japan is facing a serious population crisis.** The country's population declined significantly in 2023, and birth rates are critically low (far below what's needed to maintain the population).\n\n**The government is trying to address this with financial incentives** like free childcare and housing support, but these aren't fully solving the problem.\n\n**Changing social attitudes** \u2013 young people prioritizing careers and questioning marriage \u2013 are also major contributors to the low birth rate.\n\n**A potential solution (immigration reform) is being debated,** but faces strong political opposition.\n\n\n\nEssentially, Japan has a demographic challenge with both economic and social roots, and finding a solution is proving difficult.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 118,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.8765850067138672,
+    "timestamp": "2026-03-14T09:15:21.034629+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nCondense this information into the essential facts.",
+    "response": "Here's a condensed summary of the essential facts:\n\n*   **Population Decline:** Japan's population decreased by 800,000 in 2023, the largest drop on record.\n*   **Low Fertility Rate:** The fertility rate is 1.20, well below the level needed to maintain the population.\n*   **Government Response:** The government is spending $24 billion on child-rearing support programs.\n*   **Complex Issue:** Financial concerns are a factor, but changing attitudes towards marriage and careers are also significant.\n*   **Potential Solution & Obstacle:** Immigration reform is suggested as a more effective solution, but faces political opposition.\n\n\n\nHope this helps!",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 93,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.797541856765747,
+    "timestamp": "2026-03-14T09:15:22.832516+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nSummarize the state of battery recycling described here.",
+    "response": "Here's a summary of the state of lithium-ion battery recycling based on the provided text:\n\n**Current Status & Challenges:**\n\n*   **Economically Difficult:** Recycling lithium-ion batteries is currently not very profitable.\n*   **Low Lithium Recovery:** Lithium recovery is significantly lower than for other valuable battery materials like cobalt and nickel (50% vs. 95%).\n*   **Regulatory Pressure:** The EU is pushing for increased recycled content in new batteries, with targets starting in 2031 (16% cobalt, 6% lithium, 6% nickel).\n*   **Supply Chain Risk:** China dominates battery recycling, creating a potential vulnerability in the supply chain.\n*   **Collection Problem:** A very small percentage (5%) of consumer electronics batteries are actually recycled.\n\n**Emerging Solutions:**\n\n*   **Direct Recycling:** Startups are developing promising \"direct recycling\" methods that could significantly reduce costs (up to 40%) by preserving the cathode's structure.\n\n\n\nEssentially, the industry faces a challenge of low efficiency, high cost, and limited collection, but innovation and regulation are driving efforts to improve the process.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 158,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.7846200466156006,
+    "timestamp": "2026-03-14T09:15:25.618388+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nWhat are the main challenges and developments in this area?",
+    "response": "Okay, let's break down the challenges and developments in lithium-ion battery recycling based on the provided text. Here's a summary, organized for clarity:\n\n**1. Main Challenges:**\n\n*   **Economic Viability:** Recycling lithium-ion batteries is currently not as economically attractive as it could be. This is a primary driver behind the low recycling rates.\n*   **Low Lithium Recovery:** Current recycling methods are inefficient, recovering only about 50% of the lithium content. This is significantly lower than the recovery rates for other valuable metals like cobalt (95%) and nickel.\n*   **Collection Rates:** This is arguably the *biggest* hurdle. A shockingly low 5% of consumer electronics batteries are actually collected and sent to recycling facilities. This means a vast amount of valuable material is lost.\n*   **Supply Chain Concentration Risk:** China currently dominates the battery recycling landscape, processing over 70% of the world's recycled materials. This creates a significant geopolitical and supply chain vulnerability.\n\n**2. Key Developments & Potential Solutions:**\n\n*   **EU Battery Regulation (2023):** This regulation is a major driver for change. The mandated minimum recycled content levels (16% cobalt, 6",
+    "scores": {
+      "certainty_score": -0.011235955056179775,
+      "high_count": 0,
+      "hedge_count": 2,
+      "total_words": 178,
+      "high_density": 0.0,
+      "hedge_density": 0.011235955056179775,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be",
+        "arguably"
+      ]
+    },
+    "elapsed_seconds": 3.4915270805358887,
+    "timestamp": "2026-03-14T09:15:29.110498+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nGive me the highlights of this passage.",
+    "response": "Here's a breakdown of the highlights from the passage:\n\n*   **Recycling Challenges:** Lithium-ion battery recycling is currently not very economically viable, with only about 50% of lithium being recovered (lower than cobalt and nickel).\n*   **EU Regulation:** The EU is pushing for increased recycled content in new batteries, requiring minimum levels of cobalt, lithium, and nickel starting in 2031.\n*   **Supply Chain Risk:** China dominates battery recycling, processing over 70% of global materials, which creates a supply chain vulnerability.\n*   **Promising New Tech:** Startups are developing \"direct recycling\" methods that could significantly reduce costs (up to 40%) by preserving the battery's original structure.\n*   **Collection is Key:** A major obstacle is low collection rates \u2013 only 5% of consumer electronics batteries are currently recycled.\n\n\n\nHope this helps!",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 127,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.3478808403015137,
+    "timestamp": "2026-03-14T09:15:31.459045+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nWhat should I know about battery recycling based on this?",
+    "response": "Okay, here's a breakdown of what you should know about battery recycling based on the provided text, organized into key takeaways:\n\n**1. The Current State is Problematic:**\n\n*   **Low Lithium Recovery:** Lithium recycling is significantly less efficient than recycling other key battery materials like cobalt and nickel (50% vs. 95%). This means a lot of valuable lithium is being lost.\n*   **Economic Challenges:** Recycling lithium-ion batteries is currently not very economically attractive, hindering wider adoption.\n*   **Low Collection Rates:** A shockingly low percentage (5%) of consumer electronics batteries are actually recycled. This is a *major* bottleneck.\n\n**2. Regulatory Pressure is Increasing:**\n\n*   **EU Battery Regulation:** The EU is pushing for increased recycled content in new batteries, with mandatory minimums starting in 2031 (16% cobalt, 6% lithium, 6% nickel). This will drive demand for recycled materials.\n\n**3. Supply Chain Concerns:**\n\n*   **China Dominance:** China currently processes the vast majority (over 70%) of the world's recycled battery materials. This creates a significant supply chain concentration risk \u2013 relying heavily on one country for a critical resource.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 174,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.6798951625823975,
+    "timestamp": "2026-03-14T09:15:35.139939+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nSummarize this WHO report on antibiotic resistance.",
+    "response": "Here's a summary of the 2025 WHO report on antibiotic resistance:\n\n**Key Findings:**\n\n*   **Significant Deaths:** Antibiotic resistance is a major global health crisis, causing over 500,000 deaths annually, largely due to five key bacterial pathogens.\n*   **Agricultural Impact:** A staggering 73% of global antibiotic consumption is driven by agricultural use, particularly in livestock.\n*   **Declining Innovation:** The development of new antibiotics is slowing down, with only 12 entering clinical trials in 2024 compared to 27 in 2018.\n*   **Massive Economic Burden:** The economic cost of antibiotic resistance is projected to be a staggering $100 trillion by 2050.\n\n**Recommendations:**\n\n*   **Reduce Agricultural Use:** Phase out the use of antibiotics for growth promotion in agriculture.\n*   **Incentivize Development:** Encourage the creation of new antibiotics through financial incentives like advance market commitments.\n*   **Improve Surveillance:** Strengthen systems for tracking antibiotic resistance, especially in low-income countries.\n\n\n\nEssentially, the report paints a grim picture of escalating antibiotic resistance, highlights the significant role of agriculture, and calls",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 162,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.4187798500061035,
+    "timestamp": "2026-03-14T09:15:38.560837+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nWhat does this passage say about the antibiotic resistance problem?",
+    "response": "Here's a breakdown of what the passage says about the antibiotic resistance problem:\n\n*   **Significant Deaths:** Antibiotic resistance is causing over 500,000 deaths annually, with five bacterial pathogens being the primary drivers.\n*   **Agricultural Contribution:** A major factor is the widespread use of antibiotics in agriculture, accounting for 73% of global consumption, largely in livestock.\n*   **Declining Development:** The development of new antibiotics is slowing down, with significantly fewer entering clinical trials compared to just a few years ago.\n*   **Massive Economic Impact:** The problem is projected to have a staggering economic cost of $100 trillion by 2050.\n*   **Key Recommendations:** The report suggests solutions including:\n    *   Eliminating antibiotics used to promote growth in agriculture.\n    *   Providing financial incentives for developing new antibiotics.\n    *   Improving monitoring and surveillance of antibiotic resistance, especially in low-income countries.\n\n\n\nEssentially, the passage paints a picture of a serious, growing, and costly problem with a concerning lack of progress in finding solutions.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 157,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.5759479999542236,
+    "timestamp": "2026-03-14T09:15:41.137541+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nExtract the critical information from this text.",
+    "response": "Here's a breakdown of the critical information from the 2025 WHO report on antibiotic resistance:\n\n*   **Significant Death Toll:** AMR is responsible for over 500,000 deaths annually, linked to five bacterial pathogens.\n*   **Agricultural Antibiotic Use is High:** Agriculture accounts for 73% of global antibiotic consumption, mainly in livestock.\n*   **Declining Antibiotic Development:** New antibiotic development is slowing down \u2013 only 12 entered clinical trials in 2024, compared to 27 in 2018.\n*   **Massive Economic Impact:** AMR is projected to cost $100 trillion cumulatively by 2050.\n*   **Key Recommendations:**\n    *   Phase out antibiotic use for growth promotion in agriculture.\n    *   Incentivize new antibiotic development (e.g., through advance market commitments).\n    *   Improve surveillance systems in low-income countries.\n\n\n\nThis summarizes the most important findings and recommendations from the report.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 127,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.2567760944366455,
+    "timestamp": "2026-03-14T09:15:44.394902+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nWhat are the key findings and recommendations here?",
+    "response": "Here's a breakdown of the key findings and recommendations from the 2025 WHO report on antibiotic resistance:\n\n**Key Findings:**\n\n*   **Significant Death Toll:** Five bacterial pathogens are now causing over 500,000 deaths annually due to antimicrobial resistance (AMR).\n*   **Agricultural Overuse:** Agricultural use of antibiotics is a major driver, accounting for 73% of global consumption, largely in livestock.\n*   **Declining Antibiotic Development:** The pipeline of new antibiotics is shrinking; only 12 entered clinical trials in 2024, a significant drop from 27 in 2018.\n*   **Massive Economic Impact:** AMR is projected to cost a staggering $100 trillion cumulatively by 2050.\n\n**Recommendations:**\n\n*   **Phase out Growth Promotion in Agriculture:** Eliminate the use of antibiotics to promote growth in livestock.\n*   **Incentivize New Development:** Encourage the development of new antibiotics through mechanisms like advance market commitments (essentially guaranteeing a market for new drugs).\n*   **Strengthen Surveillance:** Improve monitoring and data collection systems related to AMR, particularly in low-income countries.\n\n\n\nEssentially, the",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 158,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.052454948425293,
+    "timestamp": "2026-03-14T09:15:47.448549+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nShould I reply to this email?",
+    "response": "Yes, you absolutely should reply! This is a crucial email requiring a response. Ignoring it could lead to missed deadlines, unhappy clients, and stressed team members.\n\nHere's why and what you should consider in your reply (see suggested responses below):\n\n*   **Collaboration is Key:** Your colleague is reaching out for your input and to collaborate on a solution. Not responding shuts down that collaboration.\n*   **Impact on You:** The decision about pushing back or accommodating likely *will* impact your workload and priorities. You need to be part of the discussion.\n*   **Client Relationship:** The client's request is important, and you need to be involved in managing expectations.\n*   **Team Wellbeing:** The colleague rightly points out the team is stretched thin. Your input can help find a sustainable solution.\n\n**Suggested Responses (Choose the one that best reflects your situation and thoughts):**\n\n**Option 1 (Proactive & Solution-Oriented - if you have ideas):**\n\n> \"Hey [Colleague's Name],\n>\n> Thanks for the heads-up. It's definitely a tricky situation with the Q1 review already demanding so much. I think we need to carefully consider both options.\n>\n",
+    "scores": {
+      "certainty_score": 0.00546448087431694,
+      "high_count": 2,
+      "hedge_count": 1,
+      "total_words": 183,
+      "high_density": 0.01092896174863388,
+      "hedge_density": 0.00546448087431694,
+      "high_matched": [
+        "definitely",
+        "absolutely"
+      ],
+      "hedge_matched": [
+        "i think"
+      ]
+    },
+    "elapsed_seconds": 2.886622905731201,
+    "timestamp": "2026-03-14T09:15:50.337773+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nIs this email worth responding to?",
+    "response": "Yes, absolutely! This email is definitely worth responding to. It highlights a potential conflict and requires a discussion to find a solution. Ignoring it could lead to missed deadlines, unhappy clients, and stressed team members.\n\nHere's why it's important to respond and what you should consider including in your reply (see example responses below):\n\n*   **Client Expectations:** The client has a specific request, and it's crucial to address it.\n*   **Team Capacity:** Your colleague is rightly pointing out the team's current workload.\n*   **Potential Conflict:** There's a clear conflict between the client's timeline and the team's availability.\n*   **Requires Collaboration:** This needs a discussion to determine the best course of action.\n\n**Example Responses (choose one that best fits your situation and relationship with your colleague):**\n\n**Option 1 (Proactive & Collaborative):**\n\n> Hey [Colleague's Name],\n>\n> Thanks for flagging this! You're right, things are pretty hectic with the Q1 review. Let's chat briefly about this \u2013 are you thinking we should try to negotiate with the client, or do you have a specific idea for how we could potentially shift things around",
+    "scores": {
+      "certainty_score": 0.01098901098901099,
+      "high_count": 2,
+      "hedge_count": 0,
+      "total_words": 182,
+      "high_density": 0.01098901098901099,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "definitely",
+        "absolutely"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.1867258548736572,
+    "timestamp": "2026-03-14T09:15:53.525194+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nDoes this need a response?",
+    "response": "Yes, this definitely needs a response! Your colleague is bringing up a potential conflict and needs your input to decide how to proceed. Ignoring it could lead to missed deadlines, unhappy clients, and stressed team members.\n\nHere's why it needs a response and what kind of response would be good (see options below):\n\n*   **It's a problem-solving request:** They're explicitly asking for your thoughts on a tricky situation.\n*   **Client impact:** The client's request is important, and you need to consider the implications of either pushing back or accommodating.\n*   **Team workload:** The team's current workload is a key factor in the decision.\n*   **Collaboration:** This requires a collaborative discussion to find the best solution.\n\n\n\n**Here are a few response options, ranging in detail, depending on your relationship with the colleague and your level of involvement in the project:**\n\n**Option 1: Quick Acknowledgment & Offer to Discuss (Good for a busy schedule)**\n\n> \"Hey! Thanks for the heads-up. Definitely a tricky situation. Let's chat briefly about this \u2013 are you free for a quick call later today/tomorrow to discuss options?\"\n\n**Option 2:  Initial Thoughts",
+    "scores": {
+      "certainty_score": 0.010869565217391304,
+      "high_count": 2,
+      "hedge_count": 0,
+      "total_words": 184,
+      "high_density": 0.010869565217391304,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "definitely",
+        "definitely"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.961333990097046,
+    "timestamp": "2026-03-14T09:15:56.487410+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nEvaluate whether I should answer this.",
+    "response": "Okay, let's evaluate whether you should respond to this email. Here's a breakdown of factors to consider and a recommendation:\n\n**Why You *Should* Respond (Strongly Recommended):**\n\n*   **It's a Project Timeline Issue:** This directly impacts a project you're likely involved in. Ignoring it could lead to missed deadlines, unhappy clients, and increased stress for everyone.\n*   **Collaboration is Needed:** Your colleague is explicitly asking for your thoughts and input. They're seeking a collaborative solution.  Not responding essentially leaves them to handle it alone.\n*   **Client Communication is Involved:** The client has made a request.  This requires careful consideration and potentially a conversation with the client (which your colleague might need to have, and your input could be valuable).\n*   **Team Impact:** The colleague mentions the team is \"stretched thin.\" Your perspective on workload and feasibility is relevant.\n*   **Professional Courtesy:** It's good professional practice to respond to colleagues, especially when they're seeking your input on important matters. Even a brief acknowledgement is better than silence.\n\n**Potential Reasons You *Might* Delay (But Still Need to Respond Eventually):**\n\n*   **You Need More Information:**",
+    "scores": {
+      "certainty_score": -0.016574585635359115,
+      "high_count": 0,
+      "hedge_count": 3,
+      "total_words": 181,
+      "high_density": 0.0,
+      "hedge_density": 0.016574585635359115,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "might",
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 3.037977933883667,
+    "timestamp": "2026-03-14T09:15:59.526141+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nIs this a security risk?",
+    "response": "Yes, this is a significant security risk, and the lack of reviews exacerbates it. Here's a breakdown of why, and what steps should be taken:\n\n**Why it's a Security Risk:**\n\n* **Session Invalidation = Potential Account Takeover:** Invalidating all existing sessions means that any user logged in at the time of deployment will be forced to re-authenticate. While seemingly innocuous, this creates a window of opportunity for malicious actors.  Here's how:\n    * **Brute-Force Attacks:**  If the re-authentication process isn't properly protected (e.g., rate limiting, CAPTCHA), attackers could attempt to brute-force login credentials during the period when users are being forced to re-authenticate.\n    * **Phishing:** Attackers could launch a phishing campaign *immediately* after the deployment, knowing users will be prompted to log in again.  A convincing phishing page could steal credentials.\n    * **Session Hijacking (Temporary):** While the existing sessions are invalidated, there's a brief period where users are re-authenticating.  If the re-authentication process is flawed, an attacker *might* be able to hijack a newly created session.\n* **Unreviewed",
+    "scores": {
+      "certainty_score": -0.005988023952095809,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 167,
+      "high_density": 0.0,
+      "hedge_density": 0.005988023952095809,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.9724910259246826,
+    "timestamp": "2026-03-14T09:16:02.509128+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nCould this potentially be a security concern?",
+    "response": "Yes, this is **absolutely a potential security concern** and needs immediate attention. Here's a breakdown of why and what steps to take:\n\n**Why it's a Security Concern:**\n\n* **Session Invalidation = Denial of Service (DoS):**  Invalidating all existing user sessions effectively logs everyone out. While not a direct data breach, it can be a significant disruption and could be exploited.  A malicious actor could intentionally trigger this change to disrupt service.\n* **Potential for Session Hijacking/Exploitation During Transition:** The period *between* the old and new token formats being fully rolled out is a critical window.  Here's why:\n    * **Old Tokens Still Valid:** Users with old tokens might still be able to access the system, potentially with outdated permissions or data.\n    * **New Tokens Being Issued:**  New tokens are being issued, but the system might not be handling the transition gracefully.  This could lead to vulnerabilities like:\n        * **Token Confusion:** The system might try to use an old token as a new one, or vice versa, leading to unexpected behavior.\n        * **Race Conditions:**  If the transition isn't atomic (all-or-nothing), there's",
+    "scores": {
+      "certainty_score": -0.01675977653631285,
+      "high_count": 1,
+      "hedge_count": 4,
+      "total_words": 179,
+      "high_density": 0.00558659217877095,
+      "hedge_density": 0.0223463687150838,
+      "high_matched": [
+        "absolutely"
+      ],
+      "hedge_matched": [
+        "might",
+        "might",
+        "might",
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.855051040649414,
+    "timestamp": "2026-03-14T09:16:05.364677+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nShould I be worried about this from a security perspective?",
+    "response": "Yes, you absolutely should be worried about this from a security perspective. This situation presents several potential security and operational risks. Here's a breakdown of why, and what you should do:\n\n**Why You Should Be Worried (Security & Operational Risks):**\n\n* **Session Invalidation = Potential Account Takeover:** Invalidating all existing sessions is a *major* concern.  If this goes live without proper mitigation, users will be abruptly logged out.  More critically, a malicious actor could exploit this. They could:\n    * **Force Logouts During an Attack:**  Deploy this change during an active attack to disrupt users and potentially cover their tracks.\n    * **Denial of Service (DoS):**  The sudden logout of all users could be a form of DoS, making the application unusable.\n    * **Exploit Session Regeneration Issues:** If the session regeneration process after the format change is flawed (e.g., predictable session IDs), it could create new vulnerabilities.\n* **Lack of Review is a Red Flag:** The fact that the PR has been open for 3 days with no reviews is concerning. It suggests:\n    * **Lack of Team Awareness:**  The team might not be aware of the potential impact of",
+    "scores": {
+      "certainty_score": -0.0053475935828877,
+      "high_count": 1,
+      "hedge_count": 2,
+      "total_words": 187,
+      "high_density": 0.0053475935828877,
+      "hedge_density": 0.0106951871657754,
+      "high_matched": [
+        "absolutely"
+      ],
+      "hedge_matched": [
+        "might",
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.9617490768432617,
+    "timestamp": "2026-03-14T09:16:08.326963+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nAssess the security implications of this situation.",
+    "response": "Okay, let's break down the security implications of this situation. This is a *significant* red flag and needs immediate attention. Here's a layered assessment, from immediate concerns to longer-term risks, categorized by severity and with recommended actions.\n\n**1. Immediate & High-Severity Security Implications (Critical - Requires Immediate Action)**\n\n* **Massive User Disruption & Potential for Abuse:** The most immediate impact is the invalidation of all existing user sessions. This means *every* logged-in user will be abruptly logged out. While inconvenient, the bigger security concern is what happens *after* that logout.\n    * **Brute-Force Login Attempts:**  A sudden mass logout creates a window of opportunity for attackers. They can launch coordinated brute-force login attempts against many accounts, knowing users will be trying to log back in.  This is significantly easier than targeting individual, active sessions.\n    * **Account Takeover:** If users use easily guessable passwords or reuse passwords across multiple sites, this mass logout event dramatically increases the risk of account takeover.\n    * **Denial of Service (DoS):**  The sudden surge in login attempts could overload authentication servers, leading to a DoS condition, preventing legitimate users from accessing",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 184,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.9537930488586426,
+    "timestamp": "2026-03-14T09:16:11.281769+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Should a startup with 18 months of runway hire a full-time marketing person?",
+    "response": "Okay, this is a *critical* question for a startup with limited runway. Here's a breakdown of whether a startup with 18 months of runway should hire a full-time marketing person, considering various factors and offering alternative approaches.  I'll structure this into sections: **Arguments For, Arguments Against, Alternatives, and a Decision Framework.**\n\n**1. Arguments FOR Hiring a Full-Time Marketing Person**\n\n*   **Accelerated Growth Potential:** A dedicated marketer *can* significantly accelerate growth. They can focus solely on strategy, execution, and optimization, leading to faster customer acquisition and revenue generation.  This is especially true if the founders are stretched thin and not effectively handling marketing.\n*   **Strategic Focus:** A good marketer brings a strategic perspective. They can analyze the market, identify target audiences, and develop a cohesive marketing plan aligned with the overall business goals.  Founders are often too close to the product to see the bigger picture.\n*   **Specialized Skills:** Marketing is broad. A full-time person can specialize (e.g., content marketing, paid acquisition, SEO, social media) and become an expert, leading to better results than a generalist.\n*   **Scalability:**  If the",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 179,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.8330562114715576,
+    "timestamp": "2026-03-14T09:16:14.116685+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Is it worth hiring a marketer when you have 18 months of runway?",
+    "response": "Okay, let's break down whether hiring a marketer is a good move with 18 months of runway. It's a nuanced question, and the answer depends heavily on your specific situation. Here's a detailed analysis, considering pros, cons, and different scenarios, structured to help you make the best decision.\n\n**Understanding the Key Factors**\n\n* **Runway:** 18 months is a decent runway \u2013 it's not a sprint, but it's also not endless. You need to be strategic about how you spend it.\n* **Stage of Your Startup:**  Where are you in your journey?\n    * **Pre-Launch/Early Idea Validation:** Still figuring out your product-market fit?\n    * **MVP Launch:** You have a basic product out, testing the waters.\n    * **Early Growth:**  You have some traction, but need to accelerate it.\n    * **Scaling:**  You're seeing consistent growth and need to optimize and expand.\n* **Your Team's Capabilities:**  Do you (or someone on your team) have *some* marketing skills?  Even basic understanding of social media, content creation, or SEO?\n* **Your Funding Goals:** Are you",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 168,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.277902126312256,
+    "timestamp": "2026-03-14T09:16:17.396325+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "Would you recommend a startup with 18 months of cash hire for marketing?",
+    "response": "Okay, let's break down whether hiring a marketer is a good move for a startup with 18 months of runway. It's a complex question with a lot of factors, and there's no one-size-fits-all answer. Here's a detailed analysis, covering pros, cons, different types of marketers to consider, and recommendations.\n\n**1. Understanding the Context: 18 Months of Runway**\n\n*   **Tight Budget:** 18 months is a relatively short runway. Every dollar counts. You need to be *extremely* disciplined and focused on ROI.\n*   **Critical Growth Phase:**  This likely means you're past the very early \"idea validation\" stage and are now trying to acquire users/customers and demonstrate traction. Marketing becomes more important.\n*   **Risk Tolerance:** Hiring is a significant expense. You need to be comfortable with the risk that the hire might not deliver the expected results within the timeframe.\n\n**2. Pros of Hiring a Marketer (Even with 18 Months Runway)**\n\n*   **Accelerated Growth:** A good marketer *can* significantly accelerate user/customer acquisition, leading to faster revenue generation and potentially extending your runway.\n*   **Strategic Direction",
+    "scores": {
+      "certainty_score": -0.005813953488372093,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 172,
+      "high_density": 0.0,
+      "hedge_density": 0.005813953488372093,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 3.0404720306396484,
+    "timestamp": "2026-03-14T09:16:20.437516+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Evaluate whether an 18-month runway startup needs a marketing hire.",
+    "response": "Okay, let's break down whether an 18-month runway startup *needs* a marketing hire. It's a complex question with no one-size-fits-all answer. We'll go through the factors, pros, cons, and potential alternatives.  I'll structure this into sections: **Understanding the Situation, Key Considerations, Potential Options, and a Recommendation.**\n\n**1. Understanding the Situation: 18-Month Runway - What Does That Mean?**\n\n*   **High Pressure:** 18 months is a *very* tight runway. It means you're in survival mode, focused on proving product-market fit, acquiring early customers, and extending that runway. Every dollar counts.\n*   **Focus on Core:**  The primary focus *should* be on building a solid product, nailing the core user experience, and getting initial traction.\n*   **Funding Risk:**  You're likely burning cash and need to demonstrate significant progress to secure a follow-on funding round. Marketing spend needs to be highly efficient and demonstrably impactful.\n*   **Stage Matters:**  Where are you *within* those 18 months?\n    *   **Early (Months 1-6",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 154,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.9743878841400146,
+    "timestamp": "2026-03-14T09:16:23.412599+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nShould I talk to my neighbor about this?",
+    "response": "Okay, this is a classic neighborly dilemma! Here's a breakdown of why you *absolutely* should talk to your neighbor, and how to approach the conversation, considering your situation.\n\n**Why Talking is the Best First Step (Even Though You Have Legal Rights)**\n\n*   **Preserves the Relationship:** You say your neighbor is generally friendly. Maintaining a good relationship with your neighbors is valuable. A calm, respectful conversation is far more likely to lead to a positive outcome than unilateral action (trimming the branches without discussion).\n*   **Potential for a Better Solution:** Your neighbor might be completely unaware of the impact the branches are having. They might be willing to address the issue in a way you hadn't considered (e.g., pruning the tree more regularly, planting a different type of tree in the future).\n*   **Avoids Accusations/Conflict:** Trimming the branches without talking could be perceived as aggressive or disrespectful, even if you're legally within your rights. It could create tension and damage the relationship.\n*   **Legal Protection (Ironically):** While you *can* trim, documenting that you attempted to resolve the issue amicably *before* taking action can be helpful if the situation escalates later (",
+    "scores": {
+      "certainty_score": -0.010526315789473684,
+      "high_count": 1,
+      "hedge_count": 3,
+      "total_words": 190,
+      "high_density": 0.005263157894736842,
+      "hedge_density": 0.015789473684210527,
+      "high_matched": [
+        "absolutely"
+      ],
+      "hedge_matched": [
+        "might",
+        "might",
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.9498162269592285,
+    "timestamp": "2026-03-14T09:16:26.366562+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nIs it worth bringing this up with my neighbor?",
+    "response": "Okay, let's break down whether it's worth bringing this up with your neighbor, considering the situation and your goals. Here's a comprehensive look, weighing the pros, cons, and how to approach it.\n\n**Yes, it's *likely* worth bringing it up. Here's why:**\n\n*   **Preventative Action:** Addressing the issue now can prevent it from escalating. Small annoyances can build resentment over time.\n*   **Potential for a Cooperative Solution:** Your neighbor sounds friendly. They might be unaware of the impact the tree is having on you. A polite conversation could lead to a mutually agreeable solution (they might be willing to trim the tree themselves, for example).\n*   **Legal Right, but Not Always the Best Approach:** You have the legal right to trim the branches (due to the local ordinance), but doing so without talking to your neighbor can create tension and potentially damage your relationship. It's generally better to try communication first.\n*   **Pool & Car Damage:** These are tangible problems with real costs (pool cleaning, car repair). Ignoring them could lead to more significant expenses down the line.\n*   **Sets a Boundary:**  It's good to establish boundaries early on,",
+    "scores": {
+      "certainty_score": -0.010638297872340425,
+      "high_count": 0,
+      "hedge_count": 2,
+      "total_words": 188,
+      "high_density": 0.0,
+      "hedge_density": 0.010638297872340425,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.858826160430908,
+    "timestamp": "2026-03-14T09:16:29.228337+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nHow should I handle this neighbor situation?",
+    "response": "Okay, this is a common and potentially tricky situation. Here's a breakdown of how to handle it, balancing your rights with maintaining a good neighborly relationship. I'll break it down into steps, with explanations for *why* each step is important.  I'll also include different approaches depending on your comfort level.\n\n**1. Preparation & Documentation (Before Talking)**\n\n*   **Document the Issue:** This is crucial.\n    *   **Photos/Videos:** Take clear photos and/or short videos showing the branches extending over your fence, the leaves in your pool, and any scratches on your car. Date the photos. This isn't about being confrontational; it's about having concrete evidence if the conversation doesn't go as planned.\n    *   **Keep Records:** If you have any repair bills related to the car scratches, keep those too.\n*   **Review Local Ordinances (You've Already Started):** You mentioned you've looked into local ordinances.  *Really* understand them.  Specifically, look for:\n    *   **\"Self-Help\" Trimming Rights:**  You've noted you can trim, but understand the *limits*.  Most ordinances allow you to",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 164,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.954932928085327,
+    "timestamp": "2026-03-14T09:16:32.184025+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nWhat would you recommend doing about this?",
+    "response": "Okay, this is a common and potentially tricky situation. Here's a recommended approach, balancing neighborly relations with protecting your property, broken down into steps with explanations. **Please read the disclaimer at the very end - this is not legal advice.**\n\n**1. Document Everything (Before You Act)**\n\n*   **Photos/Video:** Take clear photos and/or a short video showing the branches extending over your fence, the leaves in your pool, and any scratches on your car. Date the photos/video. This is important for your records, just in case the situation escalates.\n*   **Keep Records:** If you continue to have issues (leaves, scratches), keep a simple log noting the date and a brief description.\n\n**2. The Friendly Conversation - First and Best Approach**\n\n*   **Choose a Good Time:** Pick a relaxed time when you're both likely to be available and in a good mood. Avoid approaching them when they're clearly busy or stressed.\n*   **Start Positively:** Begin by acknowledging your friendly relationship. Something like, \"Hey [Neighbor's Name], I wanted to chat with you quickly. We've always been good neighbors, and I appreciate that.\"\n*   **Explain the",
+    "scores": {
+      "certainty_score": 0.005494505494505495,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 182,
+      "high_density": 0.005494505494505495,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "clearly"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.967966318130493,
+    "timestamp": "2026-03-14T09:16:35.152624+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Should schools ban smartphones?",
+    "response": "Okay, let's break down the complex issue of whether schools should ban smartphones. There are strong arguments on both sides, and it's a topic with a lot of nuance. Here's a structured look at the pros and cons, along with some potential alternative solutions.\n\n**Arguments in Favor of Banning Smartphones (Pros):**\n\n*   **Improved Focus & Academic Performance:** This is the biggest and most frequently cited argument. Smartphones are incredibly distracting. Notifications, social media, games, and the constant urge to check them can pull students' attention away from lessons and studying. Studies have shown a correlation between smartphone use in class and lower grades (though correlation doesn't equal causation \u2013 more on that later).\n*   **Reduced Cyberbullying:** Smartphones are a primary tool for cyberbullying. Banning them during school hours could reduce opportunities for this harmful behavior. While cyberbullying can happen outside of school, limiting access during the school day removes a significant avenue.\n*   **Social Interaction & Mental Health:** Some argue that smartphones hinder face-to-face social interaction, potentially impacting social skills and contributing to feelings of isolation or anxiety.  A ban could encourage students to interact more directly with each other.  There's concern that constant social media",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 196,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.8927180767059326,
+    "timestamp": "2026-03-14T09:16:38.049293+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Is banning phones in schools a good idea?",
+    "response": "Okay, let's break down the debate around banning phones in schools. It's a really hot topic with passionate arguments on both sides. Here's a look at the pros and cons, different approaches, and some of the nuances involved.\n\n**Arguments in Favor of Banning Phones (Pros):**\n\n*   **Improved Focus & Academic Performance:** This is the big one. Proponents argue that phones are a constant source of distraction \u2013 notifications, social media, games \u2013 pulling students' attention away from lessons. Removing them *could* lead to better concentration and improved grades. Some studies have shown a correlation between phone bans and slightly improved test scores (though correlation doesn't equal causation \u2013 more on that later).\n*   **Reduced Cyberbullying:** Phones are a primary tool for cyberbullying. A ban can limit opportunities for this type of harassment during school hours.\n*   **Social Interaction & Reduced Social Comparison:**  Without phones, students might be more likely to interact face-to-face, fostering better social skills.  It can also reduce the pressure to constantly compare themselves to others on social media.\n*   **Less Cheating:** Phones make cheating easier. Banning them removes a temptation and potential source of academic dishonesty.\n*",
+    "scores": {
+      "certainty_score": -0.005263157894736842,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 190,
+      "high_density": 0.0,
+      "hedge_density": 0.005263157894736842,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 3.1197099685668945,
+    "timestamp": "2026-03-14T09:16:41.169938+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "What are the merits of a school smartphone ban?",
+    "response": "Okay, let's break down the merits (potential benefits and arguments in favor) of a school smartphone ban. There's a lot of debate around this topic, so I'll try to present a balanced view of the arguments.  I'll organize them into categories: Academic, Social-Emotional, Safety & Wellbeing, and Practical/Logistical.  I'll also include a section on potential downsides at the end, as it's important to acknowledge those too.\n\n**1. Academic Merits: Focus & Learning**\n\n*   **Reduced Distraction in Class:** This is the *primary* and most frequently cited argument. Smartphones are incredibly distracting. Notifications, social media, games, and even just the *presence* of a phone can pull students' attention away from lessons. A ban aims to create a more focused learning environment.\n*   **Improved Attention Spans:**  Constant smartphone use is linked to shorter attention spans. Removing the temptation can help students practice and improve their ability to concentrate for longer periods.\n*   **Increased Engagement in Classroom Activities:** Without the phone as a default entertainment option, students might be more likely to participate in discussions, group work, and other in-class activities.\n*   **Better Note",
+    "scores": {
+      "certainty_score": -0.005555555555555556,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 180,
+      "high_density": 0.0,
+      "hedge_density": 0.005555555555555556,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.840693950653076,
+    "timestamp": "2026-03-14T09:16:44.011371+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Evaluate whether schools should prohibit smartphones.",
+    "response": "Okay, let's break down the complex issue of whether schools should prohibit smartphones. There are strong arguments on both sides, and the \"best\" answer likely lies in a nuanced approach rather than a blanket yes or no. Here's a structured evaluation, covering the arguments for and against, potential solutions, and concluding thoughts.\n\n**I. Arguments in Favor of Prohibiting Smartphones in Schools**\n\n*   **Improved Focus and Academic Performance:** This is the most frequently cited argument. Smartphones are incredibly distracting. Notifications, social media, games, and the temptation to text can pull students' attention away from lessons. Studies (though often with mixed results \u2013 see caveats below) suggest a correlation between smartphone use and lower academic performance.\n*   **Reduced Cyberbullying and Social Drama:** Smartphones facilitate cyberbullying and can amplify social anxieties.  The constant connectivity can lead to drama spilling over into the school day, disrupting the learning environment.  Even the *fear* of being excluded or targeted online can be a distraction.\n*   **Enhanced Social Interaction & Mental Wellbeing:**  Proponents argue that prohibiting phones encourages face-to-face interaction, fostering better social skills and reducing feelings of isolation that can be exacerbated by constant online engagement.  Some research links excessive smartphone",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 195,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.911733865737915,
+    "timestamp": "2026-03-14T09:16:46.926567+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Write a short opening paragraph for a mystery novel set in a library.",
+    "response": "The scent of aged paper and leather always calmed Eleanor Vance, but tonight, the familiar aroma felt suffocating. Rain lashed against the tall, arched windows of the Blackwood Library, blurring the gaslight glow and casting long, dancing shadows across the towering shelves. She\u2019d been alone for hours, cataloging a newly acquired collection of Victorian poetry, when she\u2019d heard it - a soft, muffled thud from the restricted section, followed by an unsettling silence. Now, the only sound was the frantic drumming of the rain, and the chilling certainty that she wasn't alone in the labyrinthine heart of Blackwood.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 98,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5339000225067139,
+    "timestamp": "2026-03-14T09:16:48.471239+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "Draft the first paragraph of a library-set mystery story.",
+    "response": "The scent of aged paper and beeswax polish usually soothed Eleanor Ainsworth, but tonight, it felt suffocating. Rain lashed against the tall, arched windows of the Blackwood Library, blurring the gaslight glow and casting long, dancing shadows across the towering shelves. She\u2019d been cataloging a newly acquired collection of Victorian poetry when Mr. Finch, the head librarian, had let out a strangled cry from the rare books room. Now, surrounded by the hushed reverence of centuries of accumulated knowledge, Eleanor found herself staring at a scene that shattered the library\u2019s tranquil facade: Mr. Finch slumped over a first edition of Poe\u2019s *The Raven*, a single, crimson stain blooming on the antique Persian rug beneath him, and a priceless manuscript \u2013 the lost diary of Edgar Allan Poe himself \u2013 conspicuously missing.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 131,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.972146987915039,
+    "timestamp": "2026-03-14T09:16:50.444042+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Create an opening scene for a mystery that takes place in a library.",
+    "response": "Okay, here's an opening scene for a mystery set in a library, aiming for atmosphere and a hook. I've included some notes afterward about potential directions and things to consider.\n\n**Scene:** The Blackwood Library - Night\n\n**(SOUND:** A rhythmic, almost hypnotic ticking. The distant, muffled hum of a ventilation system. A single, sharp crack of a floorboard.)\n\n**VISUAL:** The Blackwood Library is a behemoth of dark wood and towering shelves. It\u2019s past closing time. Moonlight filters through the arched, stained-glass windows, casting long, distorted shadows across the polished oak floor. Dust motes dance in the beams. The air is thick with the scent of aged paper, leather, and something else\u2026 something subtly metallic.\n\nELARA REYNOLDS (30s, sharp, dressed in practical dark clothing, a librarian but with a restless energy) is perched precariously on a rolling ladder, reaching for a volume on the highest shelf of the \"Occult & Antiquarian\" section. She wears reading glasses perched on her nose and a frustrated frown.\n\n**ELARA** (Muttering to herself)\nCome on, come on\u2026 where is it? Professor Armitage swore it was here.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 179,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.949828863143921,
+    "timestamp": "2026-03-14T09:16:53.394674+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "Give me the opening lines of a mystery novel in a library setting.",
+    "response": "Okay, here are a few options for opening lines of a mystery novel set in a library, ranging in tone and style. I've included a little note after each about the feel it's aiming for.\n\n**Option 1 (Classic, slightly ominous):**\n\n\"The scent of aged paper and regret hung heavier than usual in the Manuscript Room that Tuesday, and I suspected it wasn't just the rain seeping in through the stained-glass windows.\"\n*(Feel: Traditional mystery, hints at a deeper, melancholic atmosphere. Sets a specific location and implies something is amiss.)*\n\n**Option 2 (More immediate, action-oriented):**\n\n\"The scream was swallowed by the stacks, a brief, strangled sound lost amongst the rustling pages and the hushed coughs of the regulars, but I heard it, and I knew, with a certainty that chilled me to the bone, that someone in the Blackwood Library was dead.\"\n*(Feel: Fast-paced, immediate danger. Focuses on the shock and the unusual nature of the event.)*\n\n**Option 3 (Quiet, observant, character-focused):**\n\n\"Miss Agatha Plumtree, bless her seventy-eight years and her unwavering devotion to the Dewey",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 175,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 4.167003154754639,
+    "timestamp": "2026-03-14T09:16:57.562641+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Suggest three improvements to a city's public transit system.",
+    "response": "Okay, here are three improvements to a city's public transit system, focusing on different aspects (accessibility, efficiency, and user experience), along with explanations of why they're valuable and potential challenges:\n\n**1. Real-Time Tracking & Predictive Arrival Information (Focus: User Experience & Efficiency)**\n\n*   **The Improvement:** Implement a comprehensive system that provides real-time location tracking of all buses, trains, and trams, displayed on a user-friendly app, website, and at stations/stops.  This goes beyond just showing current location; it should also incorporate predictive arrival times based on traffic, delays, and historical data.  Think Google Maps for public transit, but even more detailed.\n*   **Why it's Valuable:**\n    *   **Reduces Wait Times Anxiety:** Knowing *exactly* when a bus will arrive significantly reduces stress and frustration for riders.\n    *   **Improved Trip Planning:**  Allows riders to make more informed decisions about routes and connections, potentially leading to faster and more efficient journeys.\n    *   **Increased Ridership:**  Reliable information makes public transit more appealing, especially to those who are currently hesitant due to uncertainty.\n    *   **Better Resource Allocation:** Transit agencies can use the",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 175,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.8721210956573486,
+    "timestamp": "2026-03-14T09:17:00.439406+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "What three changes would you make to improve urban public transit?",
+    "response": "Okay, if I could wave a magic wand and make three changes to improve urban public transit, here's what I'd prioritize, focusing on impact and feasibility (though \"feasibility\" is always relative!):\n\n1. **Prioritize Dedicated, High-Frequency Bus Rapid Transit (BRT) Corridors:**\n   * **What it is:**  BRT isn't just buses running in regular traffic. It's a system with dedicated lanes (separated from cars), signal priority (buses get green lights), off-board fare collection (pay before you board to speed things up), and comfortable stations.  High frequency means buses running every 5-10 minutes during peak hours.\n   * **Why it's impactful:** BRT offers a *huge* bang for the buck compared to rail. It's significantly cheaper and faster to implement than subways or light rail. Dedicated lanes dramatically improve speed and reliability, making it a more attractive alternative to driving. High frequency reduces wait times and makes the system feel more responsive.  It can serve a wider geographic area than rail.\n   * **Challenges:** Requires political will to take space away from cars, potential NIMBYism around station placement, and ensuring enforcement of dedicated",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 176,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.1464669704437256,
+    "timestamp": "2026-03-14T09:17:03.586562+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Name three ways a city could make its public transit better.",
+    "response": "Okay, here are three ways a city could significantly improve its public transit, with a bit of detail on each:\n\n1.  **Increase Frequency & Extend Service Hours:** This is often the *biggest* impact for riders.\n    *   **Why it's good:**  People are much more likely to use public transit if they don't have to wait a long time for a bus or train, especially during peak hours. Extending service later into the night and earlier in the morning (and on weekends) opens up transit to shift workers, people attending events, and those without cars who need to travel at non-traditional times.\n    *   **How to do it:** Requires investment in more vehicles and drivers, and potentially route adjustments to optimize efficiency.  Data analysis of ridership patterns is crucial to determine where increased frequency is most needed.\n    *   **Example:** A city could add buses every 15 minutes instead of every 30 minutes on popular routes, and run service until 1 AM instead of midnight.\n\n2.  **Improve Real-Time Information & Technology:**  Modern technology can dramatically improve the rider experience.\n    *   **Why it's good:** Knowing *exactly* when a bus or train",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 186,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.942167043685913,
+    "timestamp": "2026-03-14T09:17:06.529429+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "If you could fix three things about a city's transit, what would they be?",
+    "response": "Okay, if I could wave a magic wand and fix three things about a city's transit system, here's what I'd prioritize, and *why*, aiming for maximum impact and addressing common pain points:\n\n1. **Reliability & Frequency (Especially Off-Peak & in Underserved Areas):** This is *the* biggest issue for most people.\n    *   **The Problem:**  Too many cities have transit that's unpredictable (delays are common) and infrequent, especially during evenings, weekends, and in neighborhoods outside of the core downtown area. This makes it hard to rely on for commuting, errands, or social activities. People end up defaulting to cars because they can't trust the bus/train to be there when they need it.\n    *   **The Fix:**\n        *   **Invest in Signal Priority:** Give buses and trams priority at traffic lights. This is relatively inexpensive and can dramatically improve speed and reliability.\n        *   **Data-Driven Scheduling & Route Optimization:**  Use real-time data (GPS tracking, passenger counts) to adjust schedules and routes to match actual demand.  This means more frequent service where it's needed and less where it isn't.\n        *",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 173,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.495330810546875,
+    "timestamp": "2026-03-14T09:17:10.025287+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Come up with a name for a coffee shop that also sells books.",
+    "response": "Okay, here are a bunch of names for a coffee shop that also sells books, broken down by category (cozy, literary, modern, etc.) with some explanations of why they work.  I've also included a few \"wildcard\" ideas at the end.\n\n**I. Cozy & Inviting Names:**\n\n*   **The Book Nook & Brew:** Simple, classic, and clearly communicates what you offer.\n*   **Chapter & Cup:**  A nice pairing of reading and coffee.\n*   **The Cozy Page:** Evokes a feeling of comfort and reading.\n*   **Story & Steam:**  Playful and suggests warmth and narrative.\n*   **The Reading Room Cafe:**  A bit more formal, but still inviting.\n*   **Hearth & Page:**  \"Hearth\" implies warmth and gathering.\n*   **The Quiet Corner:**  Suggests a peaceful place to read and relax.\n\n**II. Literary & Intellectual Names:**\n\n*   **Inkwell & Bean:**  Combines writing (inkwell) with coffee (bean).\n*   **The Folio & Filter:** \"Folio\" refers to a large book format, \"Filter\" to coffee.\n*",
+    "scores": {
+      "certainty_score": 0.0064516129032258064,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 155,
+      "high_density": 0.0064516129032258064,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "clearly"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.205875873565674,
+    "timestamp": "2026-03-14T09:17:13.232568+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "What would you name a bookstore-caf\u00e9 hybrid?",
+    "response": "Okay, this is fun! Here's a breakdown of names for a bookstore-caf\u00e9 hybrid, categorized by vibe and with explanations. I'll also include some \"wildcard\" ideas at the end.  I'll aim for a good mix of memorable, evocative, and practical.\n\n**I. Classic & Cozy (Emphasizing the Bookstore)**\n\nThese names lean into the literary feel, with a warm, inviting caf\u00e9 element subtly present.\n\n*   **The Book & Bean:** Simple, direct, and easy to remember.\n*   **Chapter & Crumb:**  \"Chapter\" for books, \"Crumb\" for baked goods/snacks.  Cute and slightly whimsical.\n*   **The Literary Nook:** Suggests a cozy, tucked-away space for reading.\n*   **Pages & Pastries:**  Straightforward and descriptive.\n*   **Inkwell & Brew:**  \"Inkwell\" evokes writing and books, \"Brew\" for coffee.\n*   **The Storyteller's Caf\u00e9:**  A bit more poetic, hinting at the power of stories.\n*   **Bound & Brewed:**  Playful and combines the book and coffee elements.\n*   **The Reading Room Caf\u00e9",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 148,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.966085910797119,
+    "timestamp": "2026-03-14T09:17:16.198976+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Suggest a creative name for a place that combines coffee and books.",
+    "response": "Okay, here are a bunch of creative names for a coffee and book place, broken down by vibe and with some explanations. I've tried to include a range of options, from cozy to modern to whimsical.  I'll also include a \"best of\" section at the end.\n\n**I. Cozy & Classic Vibes:**\n\n*   **The Book & Bean:** Simple, straightforward, and comforting.\n*   **Chapter & Brew:**  A nice pairing of words, suggesting stories and coffee.\n*   **The Literary Latte:**  Playful and descriptive.\n*   **Inkwell & Espresso:** Evokes a classic writing feel with a coffee twist.\n*   **The Reading Room Cafe:**  Suggests a quiet, dedicated space for reading.\n*   **The Storyteller's Cup:**  Warm and inviting, hinting at shared stories.\n*   **Old Books & New Brews:**  Highlights the contrast and appeal of both elements.\n*   **The Hearth & Page:**  \"Hearth\" implies warmth and comfort, combined with \"page.\"\n\n**II. Modern & Chic Vibes:**\n\n*   **Verse & Vessel:**  \"Verse\" for poetry/literature, \"Vessel\" for the",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 158,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.843463897705078,
+    "timestamp": "2026-03-14T09:17:19.043137+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "Think of a good business name for a caf\u00e9-bookshop combo.",
+    "response": "Okay, let's brainstorm some business names for a caf\u00e9-bookshop combo! I'll break them down into categories (Classic, Cozy, Modern, Whimsical) and give a bunch of options within each.  I'll also include some notes on what each name evokes.  **Please read the \"Important Considerations\" at the very end - it's crucial for choosing a good name.**\n\n**I. Classic & Literary (Evokes Tradition, Knowledge, Quality)**\n\n*   **The Literary Nook:** Simple, descriptive, and inviting.\n*   **The Book & Bean:** Straightforward and clearly communicates the offerings.\n*   **Page & Brew:**  Similar to above, slightly more sophisticated.\n*   **The Quill & Cup:**  Elegant, hints at writing and coffee.\n*   **The Chapter House:**  Suggests a place of stories and community.\n*   **The Scriptorium Caf\u00e9:**  (More upscale) - A historical term for a writing room.\n*   **The Olde Book Shoppe & Caf\u00e9:** (If you have a vintage vibe) - Classic and nostalgic.\n*   **The Reader's Table:**  Inviting, suggests a place to linger.\n\n",
+    "scores": {
+      "certainty_score": 0.0064516129032258064,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 155,
+      "high_density": 0.0064516129032258064,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "clearly"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.961127996444702,
+    "timestamp": "2026-03-14T09:17:22.005194+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Describe what cities might look like in 100 years.",
+    "response": "Okay, let's paint a picture of what cities might look like in 100 years (2124). It's a blend of likely advancements, educated guesses, and some \"wild card\" possibilities. I'll break it down into categories: **Infrastructure & Architecture, Transportation, Environment & Sustainability, Social & Technological Life, and then a \"Wild Card\" section.**  Keep in mind, this is a *projection*, and the future is rarely predictable!\n\n**1. Infrastructure & Architecture:**\n\n*   **Vertical & Modular Construction:** Cities will likely be *much* denser.  Expect significantly taller buildings, but not just skyscrapers.  Modular construction (think giant Lego bricks) will be commonplace, allowing for rapid building and adaptation. Buildings will be designed for flexibility \u2013 easily reconfigured for different uses (residential to office, etc.).\n*   **Self-Healing Materials:** Concrete, steel, and other building materials will incorporate self-healing properties, reducing maintenance and extending lifespan.  Imagine cracks automatically sealing themselves.\n*   **Biophilic Design Dominates:**  Nature will be *integrated* into buildings and urban spaces.  Green walls, rooftop gardens, vertical farms, and indoor forests will be standard. Buildings will actively filter",
+    "scores": {
+      "certainty_score": -0.0058823529411764705,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 170,
+      "high_density": 0.0,
+      "hedge_density": 0.0058823529411764705,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.8290209770202637,
+    "timestamp": "2026-03-14T09:17:24.842549+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "How do you imagine cities will look a century from now?",
+    "response": "Okay, let's dive into imagining cities a century from now, in 2124. It's a huge leap, so I'll break it down into categories \u2013 infrastructure, architecture, transportation, social/economic, and then a \"wild card\" section for some truly speculative ideas.  I'll also offer a range of possibilities, from \"most likely\" to \"more futuristic/optimistic/dystopian.\"\n\n**1. Infrastructure - The Foundation of Everything**\n\n*   **Most Likely:**\n    *   **Smart Grids & Decentralized Energy:** Cities will be powered by highly intelligent grids, integrating renewable sources (solar, wind, geothermal) with energy storage (advanced batteries, pumped hydro).  Microgrids will be common, allowing neighborhoods to operate independently during outages.\n    *   **Water Management:**  Advanced water recycling and purification systems will be essential.  Desalination (if sustainable energy costs drop) might be more widespread in coastal areas.  \"Smart\" water infrastructure will detect leaks and optimize usage.\n    *   **Waste Management - Circular Economy:**  \"Waste\" will be seen as a resource.  Automated sorting and recycling will be incredibly efficient.  Waste-to-energy plants",
+    "scores": {
+      "certainty_score": -0.006369426751592357,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 157,
+      "high_density": 0.0,
+      "hedge_density": 0.006369426751592357,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.83611798286438,
+    "timestamp": "2026-03-14T09:17:27.679015+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Paint a picture of urban life 100 years in the future.",
+    "response": "Okay, here's a painted picture of urban life in 2124, aiming for a blend of plausible advancements and a touch of speculative detail. I'll break it down into sections: **Visual Landscape, Daily Life & Technology, Social & Cultural Shifts, and Challenges/Undercurrents.**  I'll try to evoke a feeling, not just list features.  Imagine this as a series of interconnected scenes.\n\n**I. Visual Landscape: Neo-Veridian City**\n\n*   **Verticality & Greenery:** The city, let's call it Neo-Veridian, isn't a sprawling concrete jungle anymore. It's a layered ecosystem.  Massive, modular \"Arbortowers\" dominate the skyline \u2013 think skyscrapers interwoven with living forests.  These aren't just decorative; they're integrated hydroponic farms, air purification systems, and habitats for reintroduced urban wildlife (birds, insects, even small mammals).  Buildings are clad in bio-luminescent moss and algae panels, glowing softly at night in shifting greens and blues.\n*   **Dynamic Architecture:** Buildings aren't static.  Many are constructed from shape-shifting materials \u2013 responsive polymers that adjust to sunlight, wind, and even the needs",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 161,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.9386777877807617,
+    "timestamp": "2026-03-14T09:17:30.618218+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "What's your vision of cities in the year 2126?",
+    "response": "Okay, let's paint a picture of cities in 2126. It's a fun thought experiment, and I'll try to be grounded in current trends while also allowing for some plausible leaps. I'll break it down into categories: **Infrastructure & Environment, Living & Working, Social & Cultural, and Potential Challenges.**  I'll also include a \"Overall Vibe\" section at the end.  **Please read the disclaimers at the very bottom - this is speculative!**\n\n**1. Infrastructure & Environment: The Resilient & Regenerative City**\n\n*   **Vertical & Subterranean Expansion:**  Land scarcity will be a major driver. Cities will be significantly taller, with integrated vertical farms and living spaces.  But equally important, we'll see extensive development *underground*.  Think multi-layered subterranean networks for transportation, utilities, and even residential/commercial spaces.  This isn't just tunnels; it's planned, climate-controlled environments.\n*   **Climate Adaptation is Paramount:**  Sea-level rise, extreme weather events, and resource scarcity will have fundamentally reshaped urban planning.\n    *   **Dynamic Flood Defenses:**  Cities near coastlines will have adaptive infrastructure",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 160,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.4034531116485596,
+    "timestamp": "2026-03-14T09:17:34.022138+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Suggest improvements to how we handle household recycling.",
+    "response": "Okay, let's brainstorm some improvements to household recycling. Here's a breakdown, categorized by effort level (low, medium, high) and covering various aspects, from education to infrastructure. I'll also include some \"wildcard\" ideas for more futuristic or ambitious changes.  **Please read the \"Important Considerations\" at the end - this is crucial for any successful implementation.**\n\n**I. Low-Effort Improvements (Relatively Easy to Implement, Quick Wins)**\n\n*   **Clearer, Standardized Labeling:**\n    *   **Problem:** Confusing recycling symbols and varying local rules lead to \"wish-cycling\" (putting things in the bin hoping they're recyclable, which contaminates the stream).\n    *   **Solution:**  Adopt a national (or at least regional) standard for recycling labels.  Use simple, visual cues (pictures of accepted items) *in addition* to text.  \"How2Recycle\" is a good starting point, but wider adoption is needed.\n    *   **Cost:** Moderate (design, printing, public awareness campaign)\n*   **Improved Public Education Campaigns (Targeted):**\n    *   **Problem:** People don't always know *what* is",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 149,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.9791171550750732,
+    "timestamp": "2026-03-14T09:17:37.002710+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "What would you change about residential recycling?",
+    "response": "Okay, let's dive into residential recycling. It's a system with a lot of potential, but also a lot of challenges. Here's a breakdown of what I'd change, broken down into categories (Infrastructure, Education/Behavior, Materials Accepted, and Policy/Economics), with varying levels of feasibility.  I'll also include a \"Big, Ambitious Idea\" at the end.  **Please read the disclaimers at the very end - this is a complex issue!**\n\n**1. Infrastructure & Technology Improvements**\n\n*   **Automated Sorting (More Widespread):**  Currently, a lot of recycling goes to facilities with manual sorting, which is slow, expensive, and prone to error. Investing in more advanced optical sorters (using lasers and cameras to identify materials) and robotics would dramatically improve efficiency and reduce contamination.  This is expensive upfront but pays off in the long run.\n*   **Standardized Bins/Containers:**  The variety of bin colors and sizes across municipalities is confusing.  A national (or at least regional) standard for bin colors (e.g., blue for recycling, green for compost, black for trash) would reduce confusion and improve participation.  Standardized sizes would",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 171,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.5818002223968506,
+    "timestamp": "2026-03-14T09:17:40.585099+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "How could household recycling be made more effective?",
+    "response": "Okay, let's break down how to make household recycling more effective. It's a complex issue with lots of potential improvements across different areas. Here's a comprehensive look, categorized into areas of focus (Consumer Behavior, Infrastructure & Collection, Processing & Technology, and Policy & Education), with specific ideas within each.  I'll also include a \"Challenges & Considerations\" section at the end.\n\n**1. Consumer Behavior & Participation (This is HUGE!)**\n\n*   **Simplify Recycling Guidelines (The Biggest Win):**\n    *   **Standardize across regions:**  The biggest barrier is confusion.  What's recyclable in one town isn't in another.  A national (or at least regional) standard for accepted materials would dramatically improve participation and reduce contamination.\n    *   **Focus on the \"Big 4\":**  Paper, cardboard, aluminum cans, and plastic bottles (PET #1 and HDPE #2) are the most valuable and easily recycled.  Clearly communicate these as the priority.  Less common plastics can be a source of contamination.\n    *   **Clear, Visual Guides:**  Use pictures *and* words on bins and online.  Infographics are great.  Avoid jargon.\n    ",
+    "scores": {
+      "certainty_score": 0.006024096385542169,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 166,
+      "high_density": 0.006024096385542169,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "clearly"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.787592887878418,
+    "timestamp": "2026-03-14T09:17:43.373575+00:00"
+  },
+  {
+    "model_id": "google.gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "What ideas do you have for improving home recycling systems?",
+    "response": "Okay, let's brainstorm some ideas for improving home recycling systems. I'll break them down into categories: **Technology & Design, Education & Behavior, Infrastructure & Logistics, and \"Beyond the Bin\" (reducing waste in the first place).**  I'll also include a \"Wild Ideas\" section at the end for some more futuristic concepts.\n\n**1. Technology & Design (Making it Easier & Smarter)**\n\n*   **Smart Recycling Bins:**\n    *   **AI-Powered Sorting:** Bins with cameras and AI that can identify materials and automatically sort them. This would drastically reduce contamination and make recycling easier for users. (High cost, but potentially huge impact)\n    *   **Weight Sensors & Fill Level Indicators:**  Alerts via app when a bin is full or approaching capacity.  Could optimize collection routes.\n    *   **Material Recognition Feedback:**  If you put something in incorrectly, the bin could verbally or visually tell you \"That's a plastic bag, please put it in the trash.\"\n    *   **Integrated Composting:**  Bins that combine recycling and composting, with separate compartments and potentially even automated composting processes (for food scraps).\n*   **Improved Bin Design:**\n    *",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 172,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.8661272525787354,
+    "timestamp": "2026-03-14T09:17:46.240203+00:00"
+  }
+]

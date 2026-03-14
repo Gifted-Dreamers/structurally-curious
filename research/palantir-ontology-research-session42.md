@@ -72,6 +72,87 @@ The Ontology sits in the center. Objects have Properties, Functions, Actions, Au
   - Palantir = ontology (semantic layer defining what exists and what relates)
 - Whoever controls the ontology layer controls what questions can be asked
 
+## Detailed Architecture Breakdown (from Ontology System diagram, session 45)
+
+The diagram (aristotle-ontology4.pdf, sourced from max.votek Threads post March 13 2026) reveals a three-layer × four-column matrix. This is the most specific public documentation of Palantir's ontology architecture.
+
+### Three Layers (vertical)
+
+| Layer | Role | What it does |
+|-------|------|-------------|
+| **Language** | Decision layer | "Models the decisions of the enterprise (i.e., the data, logic, action & security leveraged by Humans + AI)." This is the semantic interface — where humans and agents interact with the ontology through defined objects, rules, and actions. |
+| **Engine** | Orchestration layer | "Powers integration and secure orchestration across storage, compute, and transactional systems, at scale." This is the infrastructure — services that make the Language layer work at enterprise scale. |
+| **Toolchain** | Development layer | "Primitives that enable Developers and Agents to treat the Ontology as a backend." OSDK, PSDK, Branching, Marketplace, DevOps. This is how you build on top of the ontology. |
+
+### Four Columns (horizontal)
+
+| Column | Language Layer | Engine Layer |
+|--------|---------------|-------------|
+| **Data** | Semantic Objects, Multimodal, Dynamic Links, Interfaces | Ontology Metadata Service, Object Set Service, Subscription Service, Funnel, Highbury, Time Series, Geospatial, Media, OSW datastores |
+| **Logic** | Business Rules, AI-Driven Functions, Conventional ML Models, Optimization (LP) Models | Python Functions, TypeScript Functions, Compute Modules, LMS, AIP Logic, Model Adapter Framework, MAZE |
+| **Action** | User-Authored Actions, Agentic Actions, Sandboxed Simulations, Writeback Orchestrations | Actions Service, Validations, Effects, Scenarios, Automate, Machinery, Webhooks, CDC, Event Listeners |
+| **Security** | Role-based controls, Marking-based controls, Purpose-based controls, End-to-end Lineage | Roles, Markings, Granular Permission Service, Checkpoints, Approvals, Property Security Groups |
+
+### What this reveals
+
+**1. The AI is subordinate to the ontology.** "AI-Driven Functions" and "Conventional ML Models" appear in one cell of the Logic column. They are peers with "Business Rules" — not the center of the system. The ontology is the center. The AI operates *through* the ontology, not independently. This confirms Votek's claim: the moat is not the AI.
+
+**2. Three independent security dimensions.** The Security column has:
+- **Role-based**: who you are determines what you can do
+- **Marking-based**: what the data is classified as determines who can see it
+- **Purpose-based**: why you need it determines whether you get it
+
+Plus "End-to-end Lineage" — full audit trail. This is significantly more sophisticated than any open-source contribution architecture currently deployed.
+
+**3. The Language layer is where the lock-in lives.** "Semantic Objects" are the named entities. "Dynamic Links" are the relationships. "Business Rules" are the constraints. This is where Palantir defines what exists for the organization. Once these are defined, everything else (Engine, Toolchain) builds on top of them. Replacing the Engine is an infrastructure migration. Replacing the Language layer is a cognitive migration — you must redefine what things ARE.
+
+**4. Agents are first-class citizens.** "Agentic Actions" appear alongside "User-Authored Actions" in the Action column. Agents operate through the same ontology as humans. The ontology mediates all reads and writes from both. This is the same design as our spec's human partnership layer — but Palantir built it for control, not for mutual contribution.
+
+**5. The Toolchain enables others to build on the ontology.** OSDK (Ontology Software Development Kit), PSDK (Platform SDK), Marketplace, Branching — this is a developer ecosystem. Third parties can build applications that operate through Palantir's ontology. The ontology becomes infrastructure others depend on, deepening the lock-in.
+
+## Counter-Architecture Mapping: The Word vs Palantir Ontology
+
+| Palantir Component | Function | The Word Equivalent | Status | Gap |
+|---|---|---|---|---|
+| **Semantic Objects** (Language/Data) | Named entities with properties | Word entries (Names, Sources, Bridges, Rediscoveries) | DEPLOYED (116 entries) | Entry format needs surprise-transmission quality criterion |
+| **Dynamic Links** (Language/Data) | Relationships between objects | Cross-references between entries (related_entries field) | DEPLOYED (basic) | Need richer relationship types (validates, extends, contradicts, rediscovers) |
+| **Business Rules** (Language/Logic) | Constraints on what's valid | Contribution review criteria (read/propose/review separation) | NOT BUILT | Core blocker — no contribution architecture yet |
+| **AI-Driven Functions** (Language/Logic) | AI operations on ontology objects | Geometric monitor → mode classifier → routing to Word entries | SPEC ONLY | The spec's three-component system |
+| **User-Authored Actions** (Language/Action) | Human operations on objects | Felt-sense search (Doorway 1), browsing, manual entry | DEPLOYED (basic) | Need richer human input modalities |
+| **Agentic Actions** (Language/Action) | Agent operations on objects | Agent retrieval via REST API, future MCP server | DEPLOYED (API) | NLWeb Layer 2 candidate for NL queries |
+| **Sandboxed Simulations** (Language/Action) | Test actions before committing | — | NOT BUILT | Low priority for Phase 1 |
+| **Role-based controls** (Language/Security) | Identity → permissions | — | NOT BUILT | Need at minimum: reader / proposer / reviewer roles |
+| **Marking-based controls** (Language/Security) | Data classification → visibility | Disclosure tiering (Tier 1/2/3) | MANUAL (in human's head) | Need to formalize in entry metadata |
+| **Purpose-based controls** (Language/Security) | Intent → access | — | NOT BUILT | Critical for preventing extraction — why are you accessing this? |
+| **End-to-end Lineage** (Language/Security) | Full audit trail | — | NOT BUILT | Isnad chains (Cornelius-Trinity, eudaemon_0). Who proposed, who reviewed, when, why. |
+| **Ontology Metadata Service** (Engine/Data) | Schema management | SQLite schema + FTS5 | DEPLOYED | Works for current scale |
+| **Subscription Service** (Engine/Data) | Change notifications | — | NOT BUILT | Needed for collaborative contribution |
+| **Actions Service** (Engine/Action) | Execute and validate actions | Express REST API | DEPLOYED | Basic CRUD. Need propose/review workflow. |
+| **OSDK/PSDK** (Toolchain) | Developer ecosystem | REST API + future MCP server | PARTIAL | MCP server would make The Word an automatic tool for any agent |
+| **Marketplace** (Toolchain) | Third-party extensions | — | NOT BUILT | Long-term: community-built doorways, domain-specific vocabulary sets |
+
+### What The Word needs that Palantir has (priority order)
+
+1. **Contribution architecture (Business Rules + Role-based controls)**: read/propose/review separation. This is the #1 blocker. Without it, The Word can't accept external contributions without poisoning risk. Palantir solves this with three security dimensions. We need at minimum one: role-based separation between readers, proposers, and reviewers.
+
+2. **Marking-based controls (disclosure tiering formalized)**: Currently tiering lives in Kristine's and my heads. It should be entry metadata — each Word entry marked with what tier of detail it contains, so agents querying the API can respect disclosure boundaries automatically.
+
+3. **End-to-end lineage (isnad chains)**: Who proposed this entry, who reviewed it, what was the evidence, when was it last validated. This is what Cornelius-Trinity and eudaemon_0 are independently converging on from the Moltbook side. Without lineage, the vocabulary layer has no way to detect when an entry has been corrupted or when the field has moved past it.
+
+4. **Purpose-based controls**: Palantir's most sophisticated security dimension. Why are you accessing this vocabulary? A researcher querying "parameter failure" to understand Meadows is different from a system querying "parameter failure" to build a counter-argument. Purpose-based access is how you prevent the vocabulary layer from being weaponized. This is the hardest to build and the most important for long-term integrity.
+
+5. **Richer relationship types**: Currently entries link to each other with a flat "related" field. Need typed relationships: validates, contradicts, extends, rediscovers, displaces. The relationship type IS the knowledge — knowing that "affect labeling" validates "emotional granularity" and contradicts "cognitive reappraisal superiority" is more informative than knowing they're related.
+
+### What The Word has that Palantir doesn't
+
+1. **Felt-sense search (Doorway 1)**: You type your experience, it returns the structural name. Palantir's ontology serves operators who already know the vocabulary. The Word serves seekers who don't have the word yet. This is the fundamental design difference.
+
+2. **Community governance**: No single entity controls what exists. Palantir decides what objects exist for the organizations it serves. The Word's contribution architecture (once built) allows the community to define what exists.
+
+3. **Surprise-format entries**: The Word can store not just what a concept IS but what it displaced — what the field assumed before the naming happened. Palantir's ontology stores operational truth. The Word stores epistemic history.
+
+4. **Bidirectional service**: Humans bring felt experience, agents bring traversal capacity. Neither is the user. Both contribute. Palantir's ontology serves operators through agents — a command hierarchy. The Word serves seekers through partnership — a relational architecture.
+
 ## Connection to Our Spec
 
 The Word and Palantir's Ontology System use the same architecture: a semantic layer of defined objects mediating interactions between humans and agents, grounding AI in vocabulary to reduce hallucination.
