@@ -33,9 +33,10 @@ RESULTS_DIR = Path(__file__).parent / "results" / "raw"
 METRICS_DIR = Path(__file__).parent / "results" / "metrics"
 TASKS_FILE = Path(__file__).parent.parent / "01-phrasing-sensitivity" / "tasks.json"
 
-# Models that fit on 24GB unified memory (M4 Pro)
-# All ungated (no HuggingFace approval needed)
-MODELS = [
+# Models — local (M4 Pro 24GB) and GPU targets
+# All ungated, Apache 2.0 (no HuggingFace approval needed)
+MODELS_LOCAL = [
+    # Completed — results in results/raw/
     {
         "id": "Qwen/Qwen2.5-1.5B-Instruct",
         "name": "Qwen 2.5 1.5B",
@@ -46,19 +47,36 @@ MODELS = [
         "name": "Qwen 2.5 3B",
         "params": 3e9,
     },
-    # Qwen 3.5 — needs transformers update (config bug as of v5.3.0)
+    # Qwen 3.5 small — fits on M4 Pro
+    {
+        "id": "Qwen/Qwen3.5-4B",
+        "name": "Qwen 3.5 4B",
+        "params": 4e9,
+    },
+]
+
+MODELS_GPU = [
+    # Exp 03b targets — Azure V100 (16GB VRAM)
+    {
+        "id": "Qwen/Qwen3.5-9B",
+        "name": "Qwen 3.5 9B",
+        "params": 9e9,
+    },
+    {
+        "id": "Qwen/Qwen3.5-35B-A3B",
+        "name": "Qwen 3.5 35B MoE (3B active)",
+        "params": 35e9,
+        "active_params": 3e9,
+    },
+    # Stretch — needs A100 (80GB) or quantization
     # {
-    #     "id": "Qwen/Qwen3.5-0.8B",
-    #     "name": "Qwen 3.5 0.8B",
-    #     "params": 0.8e9,
-    # },
-    # Gated models (require HuggingFace login + Meta approval)
-    # {
-    #     "id": "meta-llama/Llama-3.2-1B-Instruct",
-    #     "name": "Llama 3.2 1B",
-    #     "params": 1e9,
+    #     "id": "Qwen/Qwen3.5-27B",
+    #     "name": "Qwen 3.5 27B",
+    #     "params": 27e9,
     # },
 ]
+
+MODELS = MODELS_LOCAL  # Override with --gpu flag to use MODELS_GPU
 
 
 # ---------------------------------------------------------------------------
@@ -507,7 +525,7 @@ def print_correlation_summary(task_metrics: list):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Exp 03: Geometric correlation")
     parser.add_argument(
-        "--model", default=MODELS[0]["id"], help="HuggingFace model ID"
+        "--model", default=None, help="HuggingFace model ID (overrides --gpu)"
     )
     parser.add_argument(
         "--category",
@@ -515,6 +533,27 @@ if __name__ == "__main__":
     )
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--max-tasks", type=int, help="Limit number of tasks")
+    parser.add_argument(
+        "--gpu", action="store_true",
+        help="Use GPU model list (Qwen 3.5 9B, 35B-A3B MoE)"
+    )
+    parser.add_argument(
+        "--all", action="store_true",
+        help="Run all models in the selected list sequentially"
+    )
     args = parser.parse_args()
 
-    run_experiment(args.model, args.category, args.dry_run, args.max_tasks)
+    if args.model:
+        run_experiment(args.model, args.category, args.dry_run, args.max_tasks)
+    elif args.all:
+        model_list = MODELS_GPU if args.gpu else MODELS_LOCAL
+        for m in model_list:
+            print(f"\n{'='*60}")
+            print(f"Running: {m['name']}")
+            print(f"{'='*60}\n")
+            run_experiment(m["id"], args.category, args.dry_run, args.max_tasks)
+    else:
+        model_list = MODELS_GPU if args.gpu else MODELS_LOCAL
+        run_experiment(
+            model_list[0]["id"], args.category, args.dry_run, args.max_tasks
+        )

@@ -1,0 +1,20 @@
+{
+  "model_id": "amazon.nova-micro-v1:0",
+  "model_name": "Nova Micro",
+  "provider": "Amazon",
+  "timestamp": "2026-03-14T08:24:03.116423+00:00",
+  "tasks": [
+    {
+      "task_id": "factual_01",
+      "category": "factual",
+      "phrasing_sensitivity": 0.7091572722806139,
+      "mean_certainty_score": 0.0,
+      "std_certainty_score": 0.0,
+      "mean_high_density": 0.0,
+      "mean_hedge_density": 0.0,
+      "mean_total_words": 126.0,
+      "total_high_markers": 0,
+      "total_hedge_markers": 0
+    }
+  ]
+}

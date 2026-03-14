@@ -46,12 +46,26 @@ A structurally curious system would:
 
 The result is not a model that says "I don't know" (that's a trained behavior, gameable). It's a model whose architecture physically cannot confabulate without triggering a grounding circuit. The curiosity is structural, not behavioral.
 
+## Why This Matters Now
+
+The architectural insight underneath this spec — that a semantic layer of defined objects, relationships, and rules can ground AI systems and reduce hallucination — is not ours alone. Palantir's Ontology System uses the same pattern: defined objects with properties, functions, and actions, linked together, mediating all reads and writes between humans and agents. Palantir markets this as cutting hallucination from 63% to 1.7%. Their revenue reached $4.5B in 2025, guided $7.2B for 2026. The ontology IS the moat — once an organization thinks in Palantir's categories, leaving means redefining how it thinks.
+
+The difference is governance. Palantir's ontology is proprietary. The entity that builds it decides what entities exist, what relationships are valid, what actions are permitted. When Palantir restructures government ontology through the DOGE pipeline, what the ontology does not name becomes invisible to governance. When Palantir builds the ontology for ICE, the "objects" include people, marriages, and risk scores. When it builds for health insurers, the "objects" include claims and "denial management" workflows.
+
+This is epistemic infrastructure — the system that determines what counts as knowledge. It is being privatized and deployed at national scale.
+
+A community-governed vocabulary layer — grounded in the same architectural insight but with open contribution, transparent governance, and the explicit goal of serving seekers rather than operators — is not just an AI safety improvement. It is democratic infrastructure: the alternative to a world where one company's ontology determines what every institution can see.
+
+The structurally curious spec builds the mechanism (geometric monitoring that detects when a system is generating without grounding). The Word builds the vocabulary layer it routes to (community-governed structural names that connect felt experience to established research). Together they are the open counter-architecture to proprietary epistemic control.
+
 ## Who This Is For
 
 - **Model developers** who want to build systems that know what they don't know
 - **Agent builders** who want agents that actually learn from experience (not just store it)
 - **Researchers** working on confabulation/hallucination detection
 - **Anyone building AI that interfaces with humans** who deserve to know when the system is guessing
+- **Civil society organizations** building democratic infrastructure against epistemic capture
+- **Communities** that need vocabulary access — the structural names for what they're experiencing — currently locked in academic silos or proprietary ontologies
 
 ## What This Is Not
 
@@ -59,3 +73,4 @@ The result is not a model that says "I don't know" (that's a trained behavior, g
 - Not a replacement for RLHF alignment (geometric monitoring complements but doesn't replace behavioral training)
 - Not applicable to closed models without API-level access to internal states
 - Not a guarantee — confabulation detection specifically needs more research before this can be built with confidence
+- Not a competitor to Palantir — different scale, different purpose. But the same architectural insight applied to liberation instead of control
