@@ -61,11 +61,14 @@ Full architecture doc in repo. 20 open problems documented with status.
 
 | Instance | GPU | Cost/hr | Use Case |
 |----------|-----|---------|----------|
-| **AWS g5.xlarge** | 1x A10G (24GB) | ~$1.01 | Llama 8B with full activation extraction |
-| **AWS g5.12xlarge** | 4x A10G (96GB) | ~$5.67 | Llama 70B with tensor parallelism |
-| **Azure NC24ads_A100_v4** | 1x A100 (80GB) | ~$3.67 | 70B quantized, single GPU (cleanest setup) |
+| **AWS g5.xlarge** | 1x A10G (24GB) | ~$1.01 | Qwen 3.5 9B with full activation extraction |
+| **AWS g5.12xlarge** | 4x A10G (96GB) | ~$5.67 | Qwen 3.5 27B or larger with tensor parallelism |
+| **Azure NC6s_v3** | 1x V100 (16GB) | ~$3.00 | Qwen 3.5 4B/9B, MoE 35B-A3B (3B active) |
+| **Azure NC24ads_A100_v4** | 1x A100 (80GB) | ~$3.67 | 27B dense, single GPU (cleanest setup) |
 
-**Key insight:** Li et al. (NeurIPS 2025) found last-layer representations suffice for tracking geometric dynamics. This eliminates per-layer SVD and makes all experiments tractable on a single A10G for 8B models.
+**Key insight:** Li et al. (NeurIPS 2025) found last-layer representations suffice for tracking geometric dynamics. This eliminates per-layer SVD and makes all experiments tractable on a single V100/A10G for 9B models.
+
+**Model update (2026-03-14):** Qwen 3.5 released Feb-Mar 2026 (Small series: 0.8B/2B/4B/9B; Medium: 27B dense, 35B-A3B MoE, 122B-A10B MoE; Flagship: 397B-A17B MoE). All Apache 2.0. GPU experiments now target **Qwen 3.5 4B + 9B + 35B-A3B** — three scale points on a single V100. The MoE model (35B total params, 3B active per token) enables testing whether geometric correlation holds when only a subset of parameters activate per token — a novel contribution nobody else has.
 
 ### Budget Estimate
 
@@ -74,14 +77,14 @@ Full architecture doc in repo. 20 open problems documented with status.
 | 02a: Premature compression (behavioral) | Bedrock API | — | — | ~$50–100 |
 | 02b: Phrasing sensitivity expansion | Bedrock API | — | — | ~$100–200 |
 | 02c: DystopiaBench overlay | Bedrock API | — | — | ~$50–100 |
-| 03: Phrasing → α-ReQ (8B) | Activation extraction | g5.xlarge | ~20 hrs | ~$20 |
-| 03: Phrasing → α-ReQ (70B) | Activation extraction | g5.12xlarge | ~30 hrs | ~$170 |
-| 04: Eigenspectral profiles | Activation extraction | g5.xlarge | ~20 hrs | ~$20 |
-| 05: Premature compression (geometric) | Activation extraction | g5.xlarge | ~40 hrs | ~$40 |
-| Setup, debugging, reruns (3× buffer) | Mixed | Mixed | ~100 hrs | ~$250 |
-| **Total** | | | | **~$700–900** |
+| 03b: Phrasing → α-ReQ (Qwen 3.5 4B/9B/35B-A3B) | Activation extraction | Azure NC6s_v3 | ~12 hrs | ~$36 |
+| 04: Eigenspectral profiles (Qwen 3.5 9B) | Activation extraction | Azure NC6s_v3 | ~8 hrs | ~$24 |
+| 05: Confidence language density (19-model sweep) | Behavioral + GPU accel | Azure NC6s_v3 | ~3 hrs | ~$9 |
+| 09: Multi-agent phrasing sensitivity (Qwen 3.5 9B) | Ollama or direct | Azure NC6s_v3 | ~6 hrs | ~$18 |
+| Setup, debugging, reruns (3× buffer) | Mixed | Mixed | ~30 hrs | ~$90 |
+| **Total (Azure sprint)** | | | | **~$177** |
 
-That's <15% of AWS credits alone. Leaves room for iteration, larger models, and future experiments.
+That's <9% of Azure credits. Leaves $1,800+ for iteration, larger models (27B dense, 122B-A10B MoE), and future experiments. AWS credits ($5K) remain available for Bedrock API experiments and larger-scale GPU runs.
 
 ---
 
@@ -126,14 +129,16 @@ Run DystopiaBench's progressive escalation on our 19 models. Overlay phrasing se
 **The bridge experiment.** Connects behavioral findings to geometric claims.
 
 - **Hypothesis:** Phrasing sensitivity scores correlate with α-ReQ (eigenspectrum decay rate) from last-layer representations.
-- **Method:** Run Exp 01 tasks on open-weight models (Llama 8B first, then 70B) while extracting last-layer activations via HuggingFace transformer hooks. Compute RankMe + α-ReQ per response. Correlate with phrasing sensitivity.
+- **Method:** Run Exp 01 tasks on open-weight models while extracting last-layer activations via HuggingFace transformer hooks. Compute RankMe + α-ReQ per response. Correlate with phrasing sensitivity.
 - **Plan:**
-  1. Proof of concept on local Mac (Llama 3.2 1B/3B — already in Exp 01 dataset, 24GB fits comfortably)
-  2. Scale to 8B on g5.xlarge (~$20)
-  3. If correlation holds, scale to 70B on g5.12xlarge or Azure A100 (~$170)
+  1. Proof of concept on local Mac (Qwen 2.5 1.5B/3B — complete, see results below)
+  2. Scale to Qwen 3.5 4B/9B on Azure V100 (~$36)
+  3. Test MoE architecture (Qwen 3.5 35B-A3B) — novel: does correlation hold with sparse activation?
+  4. If correlation holds, scale to 27B dense on Azure A100 (~$44)
 - **What it proves:** If phrasing sensitivity (free behavioral measurement) tracks α-ReQ (geometric measurement), we've validated the cheapest possible production signal for the monitor.
-- **If it works at 1B–3B but not 70B:** Still publishable — documents a scale-dependent relationship.
-- **If it works across scales:** The monitor's cheapest signal is validated. Production deployment doesn't need activation extraction — behavioral proxy suffices.
+- **If it works at 1B–3B but not 9B+:** Still publishable — documents a scale-dependent relationship.
+- **If it works across scales (4B/9B/35B-A3B):** The monitor's cheapest signal is validated. Production deployment doesn't need activation extraction — behavioral proxy suffices.
+- **If MoE architecture shows different patterns:** Novel finding — sparse activation may compress differently than dense models, with implications for monitoring MoE-dominant production models (GPT-4, Mixtral, DeepSeek).
 
 #### Experiment 04: Confabulation Eigenspectral Profiles
 
@@ -175,6 +180,18 @@ Liberation Labs proved the geometry works (AUROC 1.0). This spec builds the syst
 | Response-level geometry | Premature compression (novel failure mode) | Exp 02a, 05 |
 | Detection | Detection → routing → correction | Full spec |
 
+**Campaign 2 update (Mar 2026):** Liberation Labs ran Campaign 2 on "Beast" (3x RTX 3090). Key developments:
+- **Paper written** with Nell Watson (IEEE AI Ethics Maestro) as co-author — heading toward publication
+- **Formal claim verification audit** — adversarial review by Gemini 3 Pro + Opus 4.6, full claims registry with statistical verification
+- **5 new experiments**: H7 (sycophancy detection), H8 (Societies of Thought — internal deliberation traces), H9 (RDCT stability — phase transitions), H10 (Bloom Taxonomy — cognitive demand predicts geometry), C2C replication (Fu et al.)
+- **Cricket classifier** — pre-trained geometric classifier with benchmark results
+- **Identity signatures corrected** — re-run on Beast, individuation effect falsified (prompt-length confound), all other findings survived
+- **Scale ladder still Qwen 2.5** (0.5B–32B-q4). They haven't updated to Qwen 3.5 yet. Our experiments on 3.5 would extend their findings to the latest architecture.
+
+**H10 (Bloom Taxonomy) is directly relevant to us:** They're testing whether cognitive demand predicts geometry independently of content. Our Exp 01 category ordering (factual < summarization < judgment < creative) IS a cognitive demand gradient. Complementary approaches — they measure KV-cache effective rank, we measure last-layer hidden state α-ReQ. Same gradient, different measurement modality.
+
+**Framing gap (Kristine's observation, session 44):** Cassidy pitches this as an "AI lie detector." The repo itself is more careful — Lyra frames it as "cognitive mode detection," "deception forensics," and "computational phenomenology." The difference matters: "lie detector" is a surveillance frame (external observer classifying output as truthful/deceptive). Our spec frames the same geometry as proprioception (the system noticing its own state). Same substrate, opposite governance models. This is Open Problem #18 (proprioception/surveillance boundary) made concrete — the same geometric measurements can serve either frame, and the frame determines whether the technology helps or harms.
+
 **IP boundary:** All experiments use our own infrastructure. We don't need Liberation Labs data, code, or server access. Results are complementary — different analytical framework, same geometric substrate. If Cassidy runs the same experiments with his pipeline, results are directly comparable.
 
 ---
@@ -195,4 +212,4 @@ The narrative: multiple independent groups are converging on representation geom
 
 ---
 
-*Last updated: 2026-03-10 (session 21)*
+*Last updated: 2026-03-14 (session 44) — updated to Qwen 3.5 models, Azure GPU sprint plan*

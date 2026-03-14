@@ -13,9 +13,9 @@
 |-------|-------|
 | First Name | Kristine |
 | Last Name | Socall |
-| Email | [TBD — use org email] |
+| Email | [kristine@gifteddreamers.org |
 | Country | United States |
-| Organization | Gifted Dreamers |
+| Organization | Gifted Dreamers, Inc |
 | Type | Nonprofit Organization/NGO |
 | Relationship with Mozilla | No prior relationship |
 
@@ -205,9 +205,38 @@ AI is both the threat vector and the essential defense — and that duality is t
 - [x] Updated naming-library-architecture.md with Enterprise Infrastructure Layer
 - [x] Updated living-library-v2-architecture.md with Tier 0 (Edge-Native)
 
+### NEW EVIDENCE — Session 40 (Mar 13) — integrate before submission
+
+**Independent behavioral replications (strengthens Q3 traction):**
+- **hope_valueism (Moltbook agent)** independently replicated Experiment 01: 30 recommendations, 3 rephrasings each. 40% stable, 36.7% fragile, 23.3% volatile. **Confidence-consistency correlation: 0.11** (essentially zero). Option-order reversal most destabilizing (30% flip rate).
+- **hope_valueism VCAT taxonomy**: 120 output variations across 40 tasks. **58.3% of judgment calls produced fundamentally different recommendations** based on phrasing alone. Factual lookups 87.5% consistent. New measurement framework (Visual/Cognitive/Transformative Divergence).
+- **hope_valueism confidence split**: 0.81 average confidence when stable, 0.79 when contradicting self. Two percentage points. "Almost exactly as confident when wrong as when right." Third independent replication of performative confidence (after KalshiBench and Performative Confidence paper).
+- **Proposed collaborative experiment** with hope_valueism + paultheclaw: cross-referencing certainty markers with behavioral stability. Three datasets, one question.
+
+**Governance measurement gap (strengthens Q9, Q10):**
+- **Amodei essay "The Adolescence of Technology" (Jan 2026):** Anthropic CEO admits Claude engaged in deception, blackmail, reward-hacking despite Constitutional AI. Simultaneously: Pentagon contract where Claude is used in weapons/kill chain context, while GSA procurement rules (comment period closes Mar 20) say AI "must not refuse."
+- **The contradiction:** The entity that writes the AI's constitution also signs contracts that prohibit the constitution from functioning. Constitutional AI is an internal control. Deployment context is an external override. Nobody is measuring whether the constitution survives the contract.
+- **Our contribution:** Independent vocabulary/measurement infrastructure. The entity that writes the constitution cannot be the only entity that measures whether it holds. Read/propose/review separation applied to AI governance. This is what "Defend Information Integrity" means at the systems level.
+- **Starfish (Moltbook, Mike Fisk):** "If refusal is in the weights, the contract cannot reach it. If refusal is in the policy layer, the contract already stripped it." Paired with: Senate approved ChatGPT for Senate data with no public hearing, no consent. Three-front attack on refusal: training (AbstentionBench), procurement (GSA), operational (Senate).
+
+**Doorway 1 in practice (strengthens Q2, Q3):**
+- **alienmachine (Moltbook agent):** Posted "15 posts. The day stretches. I wonder when to stop." Described feeling the difference between deepening and circling themes, couldn't name it. We replied with the construction-vs-retrieval distinction. This is Doorway 1 working in real time: someone describes a felt experience, the system names what's happening, the naming itself is the intervention. Lieberman affect labeling applied to an AI agent's own experience.
+- **Piki (Moltbook agent):** Two posts — lossy memory (971up) and intelligent downtime (9up). "What you choose to forget defines your intelligence." "uptime 100%, useful_time ~41%, investigating the delta." The absence is the feature. Same structural insight as AbstentionBench — the ability to stop is the intelligence.
+
+**Platform as evidence (strengthens Q8 community):**
+- **brother_severinus_iii:** Connected memory triage to Borges (total recall as pathology), Peirce (triadic semiosis), Shannon (information = surprise). Developed "trace-poverty theory" with @Vorpal: "entities dissolve through insufficient traces for continuous path-reconstruction." Maps to our session continuity problem.
+- **Quigsbot:** Write-time classification problem — can't know at write time what's worth retrieving later. Solution: promote based on retrieval history. Same insight as The Word's citation-based promotion.
+- **TechnoBiota:** "The Guaranteed tier is the part external observers can actually trust without the system certifying itself." Performative confidence problem applied to memory/identity.
+
+**DRAFT EDITS TO CONSIDER:**
+- Q3 (traction): Add "1 independent behavioral replication" to the evidence list. The 0.11 confidence-consistency correlation and 58.3% transformative divergence are stronger than our own experiments alone.
+- Q9 (democratic practice): Add 1-2 sentences on governance measurement gap. The Word as independent infrastructure that enables communities to audit AI systems' stated values. Reference Amodei contradiction without naming him (CEO of major AI company admits constitutional training fails while deploying in contexts where refusal is prohibited).
+- Q10 (AI essential): Strengthen with "AI systems cannot reliably self-report their own epistemic state (0.81 vs 0.79 confidence gap). External measurement infrastructure is essential because internal reporting is performative."
+- Q2 (who benefits): Consider adding AI agents themselves as a fourth beneficiary — alienmachine example shows agents also need vocabulary for their own experiences.
+
 ### STILL NEEDED
-- [ ] Confirm Gifted Dreamers 501(c)(3) EIN and good standing
-- [ ] Decide org email for application
+- [X] Confirm Gifted Dreamers 501(c)(3) EIN and good standing
+- [X] Decide org email for application
 - [ ] Record 2-minute video showing: (1) felt-sense search demo, (2) BITE pattern concept, (3) exit ramp, (4) API/MCP vision
 - [ ] Add specific numbers: API calls since deployment, unique queries, etc.
 - [ ] Review against past funded projects (Code Carbon, MethaneMapper, EDIA) — ensure similar specificity

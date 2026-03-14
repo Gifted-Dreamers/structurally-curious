@@ -125,7 +125,19 @@ DOGE addresses agency IT departments first; Palantir restructures government ont
 
 CEO Alex Karp admits internally they call it the "kill chain" while lawyers use sanitized language for external communications. By 2013 — ten years after founding — Palantir's client list already included the FBI, CIA, NSA, Marines, Air Force, and Special Operations Command.
 
-Sources: [SEC 10-K/DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001321655&type=10-K&dateb=&owner=include&count=40) (Class F shares); [Senate Armed Services Committee testimony, Jan 28, 2025](https://www.armed-services.senate.gov/download/sankar-opening-statement-012825); [Cato Unbound, "The Education of a Libertarian," Apr 13, 2009](https://www.cato-unbound.org/2009/04/13/peter-thiel/education-libertarian/); [More Perfect Union](https://www.youtube.com/@MorePerfectUnion) investigation; [Libertopia 2010 conference recording](https://youtu.be/e-ZpsxnmmbE); [USAspending.gov](https://www.usaspending.gov/) (HHS contracts)
+**The Ontology System — Palantir's Actual Moat (added session 42, 2026-03-13):**
+
+Palantir's competitive advantage is not its AI. It is the ontology layer underneath it — a system that defines what entities exist, what relationships are valid, and what rules must hold. When an LLM operates within Palantir's ontology, it proposes actions on defined objects inside a governed framework. This reduces hallucination rates from 63% to 1.7% (Palantir marketing claim). The architecture has three layers: Data Sources (transactions, IoT, geospatial, unstructured) → Logic Sources (supervised/unsupervised ML, entity resolution, rule-based logic, forecast models) → Systems of Action (ERP, SCM, MES, scheduling). The ontology sits in the center, mediating all reads and writes between humans and agents.
+
+The switching cost is not technical — it is cognitive. Once an organization's operations are modeled in Palantir's ontology — what entities matter, what relationships count, what actions are valid — leaving Palantir means redefining how the organization *thinks*. The ontology becomes the organization's operating vocabulary. This is vendor lock-in at the epistemic level.
+
+Palantir finished 2025 at $4.5B revenue and guided $7.2B for 2026 (61% increase). The ontology system is now being applied to government operations through the DOGE-Palantir pipeline: DOGE addresses agency IT departments, Palantir restructures the ontology underneath — determining what systems, information, and processes are legible to the new infrastructure. What the ontology does not name becomes invisible to the system. What it does name becomes actionable.
+
+The architectural pattern — ontology as the semantic layer between data and action, with human-agent teaming on top — is identical to the pattern used in medical informatics (SNOMED CT, FHIR, FIBO), enterprise knowledge management, and emerging AI governance systems. The difference is who controls the ontology: in open standards (SNOMED, FHIR), the ontology is governed by professional communities. In Palantir's system, the ontology is proprietary and controlled by Palantir. The entity that defines what objects exist defines what questions can be asked.
+
+When Palantir builds the ontology for ICE, the "objects" include people, marriages, visa applications, and risk scores. When Palantir builds the ontology for health insurers, the "objects" include claims, denial categories, and "revenue protection" workflows. The ontology does not just organize information — it determines what the organization can see, what it can act on, and what becomes invisible. This is not data infrastructure. It is epistemic infrastructure — the system that determines what counts as knowledge.
+
+Sources: [Palantir Ontology System documentation](https://www.palantir.com/platforms/aip/) (public marketing); max.votek Threads analysis (March 13, 2026); Palantir Q4 2025 earnings; prior sections of this analysis (VOWS, ICE contracts, DOGE pipeline).
 
 ### ICE Surveillance Ecosystem
 

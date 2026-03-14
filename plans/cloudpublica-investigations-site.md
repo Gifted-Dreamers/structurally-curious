@@ -4,7 +4,7 @@
 
 **Goal:** Build a ProPublica-style investigations site at cloudpublica.org, served via Cloudflare Pages (no origin server), under the Enterprise zone with WHOIS hidden via CF Registrar.
 
-**Architecture:** Static HTML site deployed via CF Pages from GitHub (commoncloud.git or new repo). ProPublica-style structure: `/article/slug` for investigations, organized by Topics. No "blog" terminology. Dark, serious, investigative journalism aesthetic.
+**Architecture:** Static HTML site deployed via CF Pages from GitHub (`Gifted-Dreamers/cloudpublica`). ProPublica-style structure: `/article/slug` for investigations, organized by Topics. No "blog" terminology. Dark, serious, investigative journalism aesthetic.
 
 Additional Cloudflare services (covered by $250K Civil Society cohort credits):
 - **R2 Storage** — Large assets (PDFs, high-res diagrams) that exceed the 25MB CF Pages limit, served from `assets.cloudpublica.org`
@@ -12,7 +12,7 @@ Additional Cloudflare services (covered by $250K Civil Society cohort credits):
 - **Analytics Engine** — Privacy-first analytics (no cookies, no third-party JS). Track article reads, diagram views, Word API referrals. Data stays on CF edge.
 - **Browser Rendering /crawl API** — Research tool for sourcing: crawl URLs cited in investigations to archive snapshots and detect changes over time. Evidence preservation.
 
-**Tech Stack:** Static HTML + Tailwind CSS (CDN), Mermaid.js for diagrams, CF Pages for hosting, GitHub Actions for CI/CD, R2 (asset storage), Stream (video), Analytics Engine (metrics), Browser Rendering (source archiving).
+**Tech Stack:** Static HTML + Tailwind CSS (CDN), Mermaid CLI for diagram rendering, CF Pages for hosting, GitHub Actions for CI/CD, R2 (asset storage), Stream (video), Analytics Engine (metrics), Browser Rendering (source archiving).
 
 **Related Plan:** `plans/2026-03-12-the-word-demo.md` — The Word API + MCP server at word.cloudpublica.org (same domain, different subdomain). The Word provides vocabulary infrastructure; this site provides the investigations that demonstrate why that vocabulary matters. The Word is evolving toward CF edge-native architecture (Workers + D1 + Vectorize + Workers AI) — when that migration happens, the entire cloudpublica.org domain will run serverless on Cloudflare's edge with no origin server.
 
@@ -26,10 +26,14 @@ Additional Cloudflare services (covered by $250K Civil Society cohort credits):
 **Security:**
 - cloudpublica.org is on CF Enterprise with CF Registrar (WHOIS hidden)
 - Site served entirely from CF edge — no origin server to attack
-- DNSSEC, HSTS, min TLS 1.2, CAA records required
+- DNSSEC, HSTS, min TLS 1.2, CAA records — all active
 - justnice.us already migrated to CF Pages (session 29) — same pattern
 - Cloudflare Civil Society cohort provides Enterprise-grade protection at no cost
-- WAF managed rulesets, DDoS mitigation, and Bot Management all included with cohort
+- WAF managed rulesets (Cloudflare Managed + OWASP Core + Exposed Credentials Check) deployed
+- DDoS L7 ruleset active
+- Bot Fight Mode intentionally NOT enabled — investigations site must be crawlable by search engines and AI
+- robots.txt allows all crawlers; sitemap.xml published
+- **CF Access dev lock ACTIVE** — site behind login wall while iterating on design. Access app ID: `b230ce64-9fb6-48fd-b256-fc9b145c6260`. Only bee@justnice.us allowed. Delete app to go public.
 - Zero Trust Access available for admin interfaces (50 users free) — use for any future CMS or editorial tools
 
 ---
@@ -38,51 +42,51 @@ Additional Cloudflare services (covered by $250K Civil Society cohort credits):
 
 ### Task 1.1: Create CF Pages Project for cloudpublica.org
 
-- [ ] Create CF Pages project `cloudpublica-site` via API (account `0d4b5eb6fd041bc97e6f0d2d32e0762a`)
-- [ ] Build command: `node build.js` (reuse justNICE pattern)
-- [ ] Output dir: `dist/`
-- [ ] Add custom domain: `cloudpublica.org` (root)
-- [ ] Add custom domain: `www.cloudpublica.org`
-- [ ] Update DNS: root A record → CNAME `cloudpublica-site.pages.dev` (proxied)
-- [ ] Update DNS: www A record → CNAME `cloudpublica-site.pages.dev` (proxied)
-- [ ] **DO NOT touch subdomains** — word, n8n, hq, feeds, etc. stay on Docker origin
-- [ ] Verify DNSSEC is enabled on cloudpublica.org zone
-- [ ] Verify HSTS, min TLS 1.2, CAA records on zone
-- [ ] Enable WAF managed rulesets (included with Enterprise via Civil Society cohort — just turn on)
-- [ ] Enable Bot Management (included with Enterprise via Civil Society cohort — just turn on)
-- [ ] Test: `curl -I https://cloudpublica.org` returns CF Pages headers
+- [x] Create CF Pages project `cloudpublica-site` via API (account `0d4b5eb6fd041bc97e6f0d2d32e0762a`)
+- [x] Build command: `node build.js` (reuse justNICE pattern)
+- [x] Output dir: `dist/`
+- [x] Add custom domain: `cloudpublica.org` (root)
+- [x] Add custom domain: `www.cloudpublica.org`
+- [x] Update DNS: root A record → CNAME `cloudpublica-site.pages.dev` (proxied)
+- [x] Update DNS: www A record → CNAME `cloudpublica-site.pages.dev` (proxied)
+- [x] **DO NOT touch subdomains** — word, n8n, hq, feeds, etc. stay on Docker origin
+- [x] Verify DNSSEC is enabled on cloudpublica.org zone — **active**
+- [x] Verify HSTS, min TLS 1.2, CAA records on zone — HSTS enabled (max-age 31536000, preload, nosniff), TLS 1.2 min, CAA has pki.goog + letsencrypt.org
+- [x] Enable WAF managed rulesets — Cloudflare Managed + OWASP Core + Exposed Credentials Check deployed to zone entrypoint
+- [x] ~~Enable Bot Management~~ — **Skipped intentionally.** Bot Fight Mode blocks legitimate AI crawlers (GPTBot, ClaudeBot, etc.). Investigations site needs to be findable and citable. WAF managed rulesets handle real threats.
+- [x] Security level set to "high", browser check enabled, challenge TTL 1800s
+- [x] Test: `curl -I https://cloudpublica.org` returns CF Pages headers
 
 ### Task 1.2: Create Site Repository Structure
 
-Decide: new repo OR subdirectory in commoncloud.git. **Recommendation: new repo `Gifted-Dreamers/cloudpublica.org`** — keeps it clean, CF Pages connects directly.
+Decided: new repo `Gifted-Dreamers/cloudpublica` (private).
 
-- [ ] Create GitHub repo `Gifted-Dreamers/cloudpublica.org` (private)
-- [ ] Initialize with:
+- [x] Create GitHub repo `Gifted-Dreamers/cloudpublica` (private)
+- [x] Initialize with:
   ```
   cloudpublica.org/
-  ├── _partials/          # nav, footer, scripts (like justNICE)
-  ├── article/            # investigations (ProPublica-style)
+  ├── _partials/          # nav, footer, scripts
+  ├── article/            # investigations
   ├── research/           # shorter research pieces
+  ├── about/              # about page
   ├── assets/
-  │   ├── css/
-  │   ├── img/
-  │   └── diagrams/       # rendered SVG/PNG from Mermaid
-  ├── build.js            # partial injection (adapt from justNICE)
-  ├── index.html           # landing page
+  │   ├── img/            # hero images (12 JPGs)
+  │   └── diagrams/       # Mermaid .mmd source + rendered PNGs
+  ├── build.js            # partial injection (adapted from justNICE)
+  ├── index.html          # landing page
+  ├── robots.txt          # allow all crawlers
+  ├── sitemap.xml         # 16 pages
+  ├── .github/workflows/deploy.yml  # GitHub Actions → CF Pages
   └── dist/               # build output (gitignored)
   ```
-- [ ] Connect CF Pages to GitHub repo (auto-deploy on push to main)
-- [ ] Verify: push triggers build + deploy
+- [x] Connect CF Pages to GitHub repo via GitHub Actions (auto-deploy on push to main)
+- [x] Verify: push triggers build + deploy — **confirmed working**
 
 ### Task 1.3: DNS Considerations
 
-**CRITICAL:** cloudpublica.org root currently points to Docker VM (3.232.111.51) via A record. Subdomains (word, n8n, hq, feeds, etc.) also point there.
-
-**Strategy:** Change ONLY the root (`cloudpublica.org`) and `www` to CF Pages. All subdomains keep their A records to the Docker VM.
-
-- [ ] Document current DNS state before changes
-- [ ] Verify all subdomains still resolve after root change
-- [ ] The existing nginx `00-default.conf` serves the landing page — it will stop receiving traffic for root domain but subdomains unaffected
+- [x] Document current DNS state before changes
+- [x] Changed ONLY root + www to CF Pages CNAME; all subdomains unchanged
+- [x] Verify all subdomains still resolve after root change
 
 ---
 
@@ -90,44 +94,22 @@ Decide: new repo OR subdirectory in commoncloud.git. **Recommendation: new repo 
 
 ### Task 2.1: Site Design
 
-ProPublica-inspired, not ProPublica-copied. Key attributes:
-- Clean, high-contrast, readable typography
-- Dark header/nav, light article body
-- Source citations prominently displayed (not hidden in footnotes)
-- Mobile-first responsive
-- No ads, no tracking, no cookies
-- Tailwind CSS via CDN (same as justNICE)
+Dark investigative journalism aesthetic with cp-teal (#206795), cp-cyan (#38c1e0), cp-dark (#1a3347), cp-muted (#5a7a8f). Tailwind CSS via CDN.
 
-Navigation structure:
-```
-Cloud Publica
-├── Investigations          → /article/
-├── Research                → /research/
-├── Topics                  → topic-based filtering
-│   ├── Surveillance
-│   ├── Elections
-│   ├── AI & Security
-│   ├── Financial Architecture
-│   └── Military & Foreign Policy
-├── About                   → /about/
-└── The Word                → word.cloudpublica.org (external link)
-```
-
-- [ ] Design nav partial (`_partials/nav.html`)
-- [ ] Design footer partial (`_partials/footer.html`)
-- [ ] Design article template (hero, metadata, body, sources)
-- [ ] Design index page (featured investigation + recent articles)
-- [ ] Design topic landing pages
-- [ ] Mobile responsive breakpoints
-- [ ] Favicon + OpenGraph metadata
+- [x] Design nav partial (`_partials/nav.html`) — sticky dark header, Investigations/Research/About links, mobile hamburger
+- [x] Design footer partial (`_partials/footer.html`) — three-column dark footer
+- [x] Design article template (hero, metadata, body, sources)
+- [x] Design index page (featured investigation + recent articles + topics grid + about callout)
+- [ ] Design topic landing pages — **deferred** (not blocking launch)
+- [x] Mobile responsive breakpoints
+- [x] Favicon + OpenGraph metadata
 
 ### Task 2.2: Build System
 
-Adapt justNICE `build.js` pattern:
-- [ ] Copy and adapt `build.js` for cloudpublica structure
-- [ ] Partial injection: `<!-- build:nav -->`, `<!-- build:footer -->`, `<!-- build:scripts -->`
-- [ ] Active link styling per page
-- [ ] Build verification (no leftover tokens)
+- [x] Copy and adapt `build.js` for cloudpublica structure (113 lines, zero dependencies)
+- [x] Partial injection: `<!-- build:nav -->`, `<!-- build:footer -->`, `<!-- build:scripts -->`
+- [x] Active link styling per page via `<!-- build:config {"nav":"key"} -->` + `{{ACTIVE:key}}`
+- [x] Build verification (no leftover tokens)
 
 ---
 
@@ -135,63 +117,35 @@ Adapt justNICE `build.js` pattern:
 
 ### Task 3.1: Update Seven Pillars Diagram
 
-Current `diagram-seven-pillars.mmd` is outdated. Needs:
-
-- [ ] Add "Pillar 8" or expand step 7/8 in "What Connects Them":
-  - Step 7: Privatize state functions (Haiti template, BlackRock ports)
-  - Step 8: Enforce via leverage (Epstein files, Apollo-Board of Peace, database consolidation)
-- [ ] Update Pillar 1 nodes:
-  - "Webblock" → "Pen Link (Webloc/Tangles)"
-  - Add Palantir HHS contracts (~$300M), denials AI
-  - Add DOGE-Palantir pipeline
-- [ ] Update Pillar 4 nodes:
-  - Add Haiti/Vectus privatization
-  - Add BlackRock Panama Canal
-  - Add Shield of Americas
-- [ ] Update Pillar 6 nodes:
-  - Fix "Cyber Info Sharing Act EXPIRED during shutdown" → "expired Sept 30, 2025; re-extended through Sept 30, 2026"
-- [ ] Update Pillar 7 nodes:
-  - Add Apollo-Epstein-Board of Peace connection
-  - Add Bessent/CFIUS conflict
-  - Add financial fragility data
+- [x] Existing `diagram-seven-pillars.mmd` copied to cloudpublica assets/diagrams/
+- [x] Rendered to PNG via mermaid-cli
+- [ ] Add "Pillar 8" or expand step 7/8 — **content update deferred**
+- [ ] Update Pillar 1 nodes (Pen Link, Palantir, DOGE)
+- [ ] Update Pillar 4 nodes (Haiti/Vectus, BlackRock, Shield of Americas)
+- [ ] Update Pillar 6 nodes (CISA status)
+- [ ] Update Pillar 7 nodes (Apollo-Epstein, Bessent/CFIUS, financial fragility)
 - [ ] Update NG QRF: 23,500 → 23,000+
-- [ ] Render to SVG/PNG using Mermaid CLI or Mermaid Chart MCP
 
 ### Task 3.2: Update Assembled Profile Diagram
 
-Current `diagram-assembled-profile.mmd` needs:
-- [ ] Update "Webblock ($5M)" → "Pen Link (Webloc/Tangles) ($5M)"
-- [ ] Add Palantir as integration layer connecting all databases
-- [ ] Render to SVG/PNG
+- [x] Existing `diagram-assembled-profile.mmd` copied and rendered to PNG
+- [ ] Update "Webblock" → "Pen Link (Webloc/Tangles)"
+- [ ] Add Palantir integration layer
 
 ### Task 3.3: Update Timeline Diagram
 
-Current `diagram-timeline.mmd` needs:
-- [ ] Fix "Cyber Info Sharing Act expires in shutdown" → correct status
-- [ ] Add Haiti privatization events
-- [ ] Add Apollo-Epstein lawsuit (March 2, 2026)
-- [ ] Add Shield of Americas (March 7, 2026)
-- [ ] Add financial fragility markers
-- [ ] Render to SVG/PNG
+- [x] Existing `diagram-timeline.mmd` copied and rendered to PNG
+- [ ] Fix CISA status, add Haiti, Apollo-Epstein, Shield of Americas, financial fragility
 
 ### Task 3.4: New Diagram — Financial Fragility Cascade
 
-- [ ] Create new Mermaid diagram showing:
-  - $38.88T debt → $1T/yr interest → $5T corporate rollover
-  - Private credit stress (Blue Owl) → zombie firms (1 in 5) → BBB cliff (50% of IG)
-  - Iran war trigger → oil $100 → Hormuz insurance 12x → rare earths vaporized → Qatar offline
-- [ ] Render to SVG/PNG
+- [x] Created `diagram-financial-fragility.mmd`
+- [x] Rendered to PNG
 
 ### Task 3.5: New Diagram — Apollo-Epstein-Board of Peace Network
 
-- [ ] Create relationship diagram:
-  - Rowan (Apollo CEO) → Board of Peace + Gaza Board + SDNY lawsuit
-  - Black (Apollo co-founder) → $158M to Epstein → Senate found $170M
-  - Kushner → 666 Fifth Ave ($300M Apollo) → $55B Saudi EA deal
-  - Bessent (Treasury) → blocking Epstein records + chairing CFIUS
-  - Deutsche Bank → flagged both Epstein + Kushner → same supervisor suppressed
-  - Kahn (Epstein accountant) → tracked Rowan trades + Kushner vulnerabilities
-- [ ] Render to SVG/PNG
+- [x] Created `diagram-apollo-epstein-network.mmd`
+- [x] Rendered to PNG
 
 ---
 
@@ -199,38 +153,48 @@ Current `diagram-timeline.mmd` needs:
 
 ### Task 4.1: Flagship Article — Comprehensive Analysis
 
-Convert `comprehensive-analysis-for-press.md` to HTML article:
-
-- [ ] Choose title from the 8 options in the markdown (or create new)
-- [ ] Structure as `/article/seven-pillars-consolidation` (or chosen slug)
-- [ ] Convert markdown to HTML with proper semantic structure
-- [ ] Embed regenerated diagrams (SVG inline or img tags)
-- [ ] Style source citations (ProPublica uses inline links + expandable source lists)
-- [ ] Add article metadata: author, date, last updated, source count
-- [ ] Add OpenGraph/Twitter card metadata
-- [ ] Mobile-responsive table styling (the data tables)
+- [x] Title chosen: "Seven Pillars, One System: The Architecture of Consolidation"
+- [x] Structure as `/article/seven-pillars.html`
+- [x] Convert markdown to HTML (~1000 lines) with proper semantic structure
+- [x] Embed 5 diagrams with expand/collapse pattern (max-height 600px, gradient fade, click toggle)
+- [x] Style source citations (inline links)
+- [x] Add article metadata: date, source count
+- [x] Add OpenGraph/Twitter card metadata
+- [x] Mobile-responsive styling
+- [x] Hero image generated via AWS Bedrock Titan Image Generator v2 (1280x768)
 - [ ] Test all 110+ source links
 
 ### Task 4.2: Copy Research Articles from justNICE
 
-Copy (not move — leave originals on justNICE):
+Copied 11 articles total (not just 3 from the original plan — expanded scope):
 
-- [ ] `5gw-research.html` → `/research/fifth-generation-warfare`
-  - Restyle to match cloudpublica design
-  - Update nav/footer to cloudpublica partials
-- [ ] `open-source-transparency-tools.html` → `/research/transparency-tools`
-  - Restyle to match cloudpublica design
-- [ ] `psychology-of-authoritarian-control.html` → `/research/psychology-authoritarian-control`
-  - Restyle to match cloudpublica design
+**Investigations (6):**
+- [x] `5gw-research.html` → `/article/5gw-research.html`
+- [x] `open-source-transparency-tools.html` → `/article/open-source-transparency-tools.html`
+- [x] `psychology-of-authoritarian-control.html` → `/article/psychology-of-authoritarian-control.html`
+- [x] `ai-chat-legal-risks.html` → `/article/ai-chat-legal-risks.html`
+- [x] `anti-surveillance-tech-market.html` → `/article/anti-surveillance-tech-market.html`
+- [x] `data-privacy-sovereignty-best-practices.html` → `/article/data-privacy-sovereignty-best-practices.html`
+
+**Research (5):**
+- [x] `vocabulary-is-infrastructure.html` → `/research/vocabulary-is-infrastructure.html`
+- [x] `naming-what-you-feel.html` → `/research/naming-what-you-feel.html`
+- [x] `connecting-isolated-voices.html` → `/research/connecting-isolated-voices.html`
+- [x] `rebuilding-resilience.html` → `/research/rebuilding-resilience.html`
+- [x] `privacy-protection-nicholas-merrill.html` → `/research/privacy-protection-nicholas-merrill.html`
+
+All restyled: maroon/gold → cp-teal/cp-cyan, dark theme, cloudpublica branding/favicon/og URLs, build markers.
+
+- [x] Hero images: 11 copied from justNICE + 1 Bedrock-generated for flagship = 12 total
 - [ ] Update internal cross-links between articles
 
 ### Task 4.3: Index Page
 
-- [ ] Featured investigation (comprehensive analysis) with hero image/diagram
-- [ ] Recent articles grid
-- [ ] Topic tags
-- [ ] "About this project" blurb
-- [ ] Link to The Word (word.cloudpublica.org)
+- [x] Featured investigation with hero image (Bedrock-generated)
+- [x] Recent articles grid (3 cards)
+- [x] Topics grid (4 categories)
+- [x] "About this project" blurb with link to GD
+- [ ] Link to The Word (word.cloudpublica.org) — **deferred until CF security plan complete**
 
 ---
 
@@ -238,42 +202,48 @@ Copy (not move — leave originals on justNICE):
 
 ### Task 5.1: Deploy to CF Pages
 
-- [ ] Push to GitHub main branch
-- [ ] Verify CF Pages auto-build succeeds
-- [ ] Verify custom domain resolves
+- [x] Push to GitHub main branch
+- [x] Verify CF Pages auto-build succeeds (GitHub Actions)
+- [x] Verify custom domain resolves (cloudpublica-site.pages.dev confirmed; cloudpublica.org SSL was pending, now active)
 - [ ] Verify subdomains (word, n8n, hq) still work
 - [ ] Test on mobile
 
 ### Task 5.2: Security Hardening
 
-- [ ] Verify Enterprise WAF is active on cloudpublica.org zone
-- [ ] Enable Bot Fight Mode
-- [ ] Add rate limiting rules (Enterprise allows unlimited)
+- [x] WAF managed rulesets active (Cloudflare Managed + OWASP Core + Exposed Credentials Check)
+- [x] DDoS L7 ruleset active
+- [x] ~~Bot Fight Mode~~ — **Skipped.** Blocks AI crawlers. Using WAF + security level "high" + browser check instead.
+- [x] Security level: high
+- [x] Browser integrity check: on
+- [x] HSTS: enabled (max-age 31536000, preload, include_subdomains, nosniff)
+- [x] Min TLS: 1.2
+- [x] DNSSEC: active
+- [x] CAA records: pki.goog + letsencrypt.org
+- [x] robots.txt: allow all crawlers
+- [x] sitemap.xml: 16 pages
+- [ ] Add rate limiting rules
 - [ ] Set up CF notifications for DDoS alerts
-- [ ] Verify CAA records include `pki.goog` (for Pages SSL)
 - [ ] Test with `securityheaders.com`
 
 ### Task 5.3: Large File Handling
 
-3 PDFs from justNICE exceeded CF Pages 25MB limit. For cloudpublica:
-- [ ] If any large assets needed, upload to CF R2
-- [ ] Serve from `assets.cloudpublica.org` subdomain
+- [ ] No large assets needed yet — all hero images under 2MB, all within CF Pages 25MB limit
 
 ### Task 5.4: Set Up R2 Bucket for Large Assets
 
-- [ ] Create R2 bucket `cloudpublica-assets`
-- [ ] Add custom domain `assets.cloudpublica.org` (proxied through CF)
-- [ ] Upload any PDFs or large images that exceed CF Pages 25MB limit
-- [ ] Configure CORS headers if assets need to be embedded cross-origin
-- [ ] Test: assets accessible via `https://assets.cloudpublica.org/`
+- [ ] Create R2 bucket `cloudpublica-assets` — **deferred until needed**
+- [ ] Add custom domain `assets.cloudpublica.org`
+- [ ] Upload any oversized assets
+- [ ] Configure CORS headers
+- [ ] Test access
 
 ### Task 5.5: Set Up Cloudflare Stream for Video
 
 - [ ] Upload Mozilla 2-minute demo video to CF Stream
-- [ ] Embed in investigations site (about page or dedicated section)
+- [ ] Embed in investigations site
 - [ ] Embed in Mozilla Democracy AI application materials
 - [ ] Future: BITE pattern explainer videos
-- [ ] Future: investigation companion videos (narrated walkthroughs of diagrams)
+- [ ] Future: investigation companion videos
 
 ---
 
@@ -295,9 +265,9 @@ Copy (not move — leave originals on justNICE):
 
 ### Task 6.3: Update MEMORY.md
 
-- [ ] Add cloudpublica.org site structure and deploy path
-- [ ] Update infrastructure section
-- [ ] Update priorities
+- [x] Add cloudpublica.org site structure and deploy path
+- [x] Update infrastructure section
+- [x] Update priorities
 
 ---
 
@@ -314,17 +284,18 @@ Phases 3 and 4.2 can run in parallel. Phase 4.1 depends on Phase 3 (diagrams).
 
 ---
 
-## Key Decisions Still Needed
+## Key Decisions — Resolved
 
-1. **Title for flagship article** — 8 options in the markdown, or new
-2. **Author attribution** — "[TBD]" in current doc. Cloud Publica editorial? Individual name? Pseudonym?
-3. **Repo name** — `cloudpublica.org` or `cloudpublica-site` or subdirectory of commoncloud.git?
-4. **Color scheme** — dark teal/cyan from current landing page? Or new palette?
-5. **Diagram rendering** — Mermaid CLI (local), Mermaid Chart MCP, or client-side Mermaid.js?
-6. **Video hosting** — CF Stream (covered by Civil Society cohort credits, no third-party dependencies) vs. external (YouTube/Vimeo — more reach but third-party tracking)
-7. **Analytics** — CF Analytics Engine (privacy-first, no cookies, edge-computed) vs. no analytics (current state)
+1. **Title for flagship article** → "Seven Pillars, One System: The Architecture of Consolidation"
+2. **Author attribution** → Cloud Publica (no individual name yet)
+3. **Repo name** → `Gifted-Dreamers/cloudpublica` (private)
+4. **Color scheme** → Dark theme: cp-teal (#206795), cp-cyan (#38c1e0), cp-dark (#1a3347), cp-muted (#5a7a8f)
+5. **Diagram rendering** → Mermaid CLI (local `npx mmdc`) for .mmd → PNG, AWS Bedrock for hero images
+6. **Video hosting** → CF Stream (deferred)
+7. **Analytics** → CF Analytics Engine (deferred, not blocking launch)
+8. **Bot policy** → No Bot Fight Mode. Allow all crawlers. WAF handles threats.
 
 ---
 
 *Created: Session 29, March 12, 2026*
-*Last Updated: March 12, 2026*
+*Last Updated: Session 36, March 13, 2026*

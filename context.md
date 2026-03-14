@@ -54,6 +54,8 @@ Each post builds on the last. Together they form a single argument: naming is in
 
 **Why we trust this research**: The authors falsified their own headline finding (individuation), caught and corrected their own statistical error (pseudoreplication from greedy decoding), and expanded from mostly-Qwen to 6 architecture families in Campaign 2. This is what methodological honesty looks like.
 
+**Campaign 2 update (Mar 2026):** Paper in prep with Nell Watson (IEEE AI Ethics Maestro). Formal claim verification audit completed (adversarial review by Gemini 3 Pro + Opus 4.6, full claims registry). 5 new experiments: sycophancy (H7), Societies of Thought (H8), RDCT stability (H9), Bloom Taxonomy (H10), C2C replication. Pre-trained "Cricket" classifier. Identity signatures re-run and corrected on Beast (3x RTX 3090). Scale ladder still Qwen 2.5 (0.5B–32B-q4). **Framing note:** The repo frames this as "cognitive mode detection" and "computational phenomenology." Cassidy pitches it externally as an "AI lie detector" — a surveillance frame that the spec's proprioception design explicitly opposes (see Open Problem #18).
+
 ### Formal Grounding — Four Converging Research Programs
 
 The spec's geometric monitor is not speculative. Four independent research programs converge on the same conclusion: the eigenspectrum of hidden representations contains structured information about what a model knows versus what it is constructing.

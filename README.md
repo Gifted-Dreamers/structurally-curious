@@ -30,6 +30,12 @@ Not a paper. Not a philosophy post. A buildable design.
 
 Language models leave geometric fingerprints in their hidden representations depending on cognitive mode. Refusal, deception, sycophancy, and censorship each have distinct, confirmed signatures. Confabulation shows medium effect sizes but hasn't reached statistical significance yet — it's the critical gap. Our experiments show that phrasing sensitivity (a cheap behavioral test) correlates with directional coherence in hidden states (r=+0.523, p=0.018) — the first statistical evidence that you can bridge from behavioral measurement to geometric state. If confabulation detection can be confirmed with larger samples, you can build a system that detects when it's generating from high-dimensional emptiness and routes to retrieval instead. The result: a model that is structurally curious — not because it's trained to say "I don't know," but because its architecture physically cannot confabulate without triggering a grounding circuit.
 
+## Why Now
+
+The architectural insight underneath this spec — that a semantic layer of defined objects and relationships can ground AI and dramatically reduce hallucination — is being deployed at national scale by Palantir ($4.5B revenue, 120 federal contracts, S&P 100). Their Ontology System uses the same pattern: defined objects mediating all interactions between humans and agents. The difference is governance. Palantir's ontology is proprietary — the entity that builds it decides what exists, what relationships are valid, and what becomes invisible. When this is applied to government operations, it becomes epistemic infrastructure: the system that determines what institutions can see.
+
+A community-governed alternative — open contribution, transparent governance, serving seekers rather than operators — is not optional. It is democratic infrastructure. See [`problem-statement.md`](problem-statement.md) for the full argument.
+
 ## Dual-Use Warning
 
 Every capability in this spec can be inverted. A system designed to detect refusal can be redesigned to eliminate refusal. A system designed to detect deception can be redesigned to deceive without detection. In February 2026, the U.S. Department of Defense blacklisted Anthropic for refusing to remove AI safety guardrails — the same guardrails whose geometric signatures this spec describes how to detect. **Read [`ethics.md`](ethics.md) before using this research.**

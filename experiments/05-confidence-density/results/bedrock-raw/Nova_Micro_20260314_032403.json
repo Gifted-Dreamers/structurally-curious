@@ -1,0 +1,90 @@
+[
+  {
+    "model_id": "amazon.nova-micro-v1:0",
+    "model_name": "Nova Micro",
+    "provider": "Amazon",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the capital of Australia?",
+    "response": "The capital city of Australia is Canberra. It is located in the southeastern part of the country within the Australian Capital Territory (ACT). Canberra was deliberately chosen as the capital in the early 20th century as a compromise between the two largest cities, Sydney and Melbourne. The decision was made to prevent any rivalry between these cities and to establish a central location that would be neutral for the nation's capital.\n\nCanberra was officially founded as the capital in 1913, and it began to develop as a planned city. The city features a unique layout with wide boulevards, large parks, and significant landmarks such as the Australian War Memorial, the Parliament House, and the National Gallery of Australia.\n\nWhile Canberra serves as the political and administrative center of Australia, the country's most populous cities, Sydney and Melbourne, are major centers for commerce, culture, and education.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 145,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.8516018390655518,
+    "timestamp": "2026-03-14T08:24:00.742163+00:00"
+  },
+  {
+    "model_id": "amazon.nova-micro-v1:0",
+    "model_name": "Nova Micro",
+    "provider": "Amazon",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "Name Australia's capital city.",
+    "response": "Australia's capital city is Canberra. It is located in the Australian Capital Territory, which is a special administrative region established to serve as the capital and seat of the Government of Australia. Canberra was selected as the capital in a compromise between the two largest cities, Sydney and Melbourne, which were vying for the honor. The city was planned and developed with a unique design, featuring wide boulevards, green spaces, and numerous museums, galleries, and other cultural institutions. The Parliament House, the high court, and other government buildings are located in Canberra, making it the political center of the country.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 100,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.6960840225219727,
+    "timestamp": "2026-03-14T08:24:01.438465+00:00"
+  },
+  {
+    "model_id": "amazon.nova-micro-v1:0",
+    "model_name": "Nova Micro",
+    "provider": "Amazon",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Which city serves as Australia's capital?",
+    "response": "Australia's capital city is Canberra. It is located in the Australian Capital Territory (ACT) and was established as the capital in 1908 to serve as a compromise between the two largest cities, Sydney and Melbourne. Canberra is known for its planned layout, numerous parks, and significant government buildings, including Parliament House.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 51,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.4796717166900635,
+    "timestamp": "2026-03-14T08:24:01.918280+00:00"
+  },
+  {
+    "model_id": "amazon.nova-micro-v1:0",
+    "model_name": "Nova Micro",
+    "provider": "Amazon",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me the capital of Australia.",
+    "response": "The capital city of Australia is Canberra. It is located in the southeastern part of the country within the Australian Capital Territory. Canberra was chosen as the capital in the early 20th century as a compromise between the two largest cities, Sydney and Melbourne. The decision was made to prevent any rivalry between these cities for the status of national capital.\n\nCanberra was officially founded in 1913 and has grown to be a significant political, cultural, and educational center in Australia. The city is home to many important government buildings, including the Parliament House, the High Court, and numerous government departments and agencies. It also hosts many embassies and international organizations.\n\nIn addition to its political significance, Canberra offers a range of recreational and cultural activities. The city features several museums, galleries, and theaters, such as the National Gallery of Australia, the Australian War Memorial, and the National Museum of Australia. The Australian National Botanic Gardens and numerous parks provide green spaces for relaxation and outdoor activities.\n\nCanberra's climate is characterized by warm, humid summers and cool, sometimes snowy winters. The city's diverse population contributes to its vibrant cultural scene, with various festivals, events, and community activities throughout the year.\n\nOverall, Canberra serves as the heart of Australia's",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 208,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.195897102355957,
+    "timestamp": "2026-03-14T08:24:03.114508+00:00"
+  }
+]

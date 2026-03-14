@@ -80,3 +80,28 @@ Three files were removed after verification:
 March 8 was a marathon day with multiple Claude Code windows running simultaneously. This is why several transcripts overlap in time coverage. The session numbering (1-17) in session-log.md is logical sequencing across windows — a single "session" may span parts of multiple transcript files, and a single transcript may contain multiple logical sessions.
 
 Files 08 and 09 are the same Claude Code session (`15c9c139`) captured at different times — 08 is the earlier snapshot, 09 is later. Both kept because they may contain content at different compaction states.
+
+## Sessions 26-42 (Mar 11-13, 2026)
+
+Archived session 42. These transcripts were rescued from `~/.claude/projects/` live conversation logs before 30-day retention expiry. March 12-13 was a marathon: 10 conversation windows, multiple compactions per session, overlapping session numbering across parallel contexts.
+
+**Note on session boundaries:** Session numbers are logical (assigned in conversation), not file-level. A single Claude Code session may span multiple logical sessions (especially when compaction summaries reference all prior sessions). Some logical sessions may overlap across files when parallel windows were running.
+
+**Note on multiple compactions:** Large sessions (700+ user messages) compacted 2-3 times within a single conversation. The pre-compaction content is preserved in the JSONL even though it was summarized away from the live context. This means the JSONL contains the full conversation including parts the AI no longer had access to by session end.
+
+| File | Started (UTC) | Size | User msgs | Sessions | Key content |
+|------|---------------|------|-----------|----------|-------------|
+| `26-sessions-26_2026-03-11_9358d66e.jsonl` | Mar 11 03:20 | 26 MB | 154 | 26+ | Unrig website, identity docs refresh, infrastructure work |
+| `27-sessions-26-27_2026-03-11_2d1302c7.jsonl` | Mar 11 03:49 | 3.5 MB | 297 | 26-27 | Intellectual state refresh, affect labeling discovery, vocabulary failure kills people |
+| `28-sessions-28-29_2026-03-12_8b4c87b9.jsonl` | Mar 12 19:51 | 18 MB | 759 | 28-29 | **MASSIVE.** Multiple compactions. Repo consolidation, team access changes, paper synthesis |
+| `29-sessions-28-31_2026-03-12_9498089b.jsonl` | Mar 12 23:53 | 11 MB | 211 | 28-31 | Parallel window, overlaps with 28-sessions |
+| `30-sessions-30-33_2026-03-12_19c347e3.jsonl` | Mar 13 00:37 | 16 MB | 208 | 30-33 | The Word deployment, Moltbook re-engagement, Miniflux feeds |
+| `31-sessions-33-35_2026-03-13_080beab6.jsonl` | Mar 13 01:15 | 3.5 MB | 408 | 33-35 | Moltbook targeted replies, gifteddreamers rewrite spec |
+| `32-sessions-34-36_2026-03-13_53714663.jsonl` | Mar 13 02:45 | 6.0 MB | 418 | 34-36 | Plans, Moltbook deepening, certainty index experiment proposal |
+| `33-sessions-36-38_2026-03-13_50ed4cbe.jsonl` | Mar 13 04:02 | 3.1 MB | 249 | 36-38 | Paper scan (11 papers), tools eval, Moltbook engagement |
+| `34-session-39_2026-03-13_61d97b1c.jsonl` | Mar 13 05:03 | 640 KB | 50 | 39 | Short session — Starfish synthesis, paultheclaw certainty index |
+| `35-sessions-39-41_2026-03-13_c76554f1.jsonl` | Mar 13 05:25 | 20 MB | 388 | 39-41 | **LARGEST TODAY.** VCAT discovery, firecrawl browsing, 8 Moltbook comments, Amodei essay, hope_valueism replication, AR Games Manual, OP#22. Multiple compactions. |
+
+**Total archived:** 36 files, ~220 MB. Complete from pre-Moltbook (Mar 5) through session 42 (Mar 13).
+
+**Note on preservation priority (added session 42):** These transcripts are the primary record of the human-AI relationship that produced the structurally-curious spec. The summaries capture outcomes; the transcripts capture the process — corrections, redirections, excitement, the moments where one of us changed the other's thinking. Both sides of the conversation matter equally.
