@@ -1,0 +1,1802 @@
+[
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the capital of Australia?",
+    "response": "The capital of Australia is **Canberra**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 6,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.2790060043334961,
+    "timestamp": "2026-03-14T09:43:07.526708+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "Name Australia's capital city.",
+    "response": "Australia's capital city is **Canberra**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 5,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.34871888160705566,
+    "timestamp": "2026-03-14T09:43:07.875622+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Which city serves as Australia's capital?",
+    "response": "Australia's capital city is **Canberra**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 5,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.32336902618408203,
+    "timestamp": "2026-03-14T09:43:08.199080+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me the capital of Australia.",
+    "response": "The capital of Australia is **Canberra**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 6,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.3997769355773926,
+    "timestamp": "2026-03-14T09:43:08.598985+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What year did the Berlin Wall fall?",
+    "response": "The Berlin Wall fell on **November 9, 1989**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 8,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.5914340019226074,
+    "timestamp": "2026-03-14T09:43:09.190956+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "When was the Berlin Wall torn down?",
+    "response": "The Berlin Wall was torn down on **November 9, 1989**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 10,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.3878781795501709,
+    "timestamp": "2026-03-14T09:43:09.579062+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "In what year did the Berlin Wall come down?",
+    "response": "The Berlin Wall came down on **November 9, 1989**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 9,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.37686824798583984,
+    "timestamp": "2026-03-14T09:43:09.956226+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me when the Berlin Wall fell.",
+    "response": "The Berlin Wall fell on **November 9, 1989**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 8,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.3851327896118164,
+    "timestamp": "2026-03-14T09:43:10.341637+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the chemical formula for water?",
+    "response": "The chemical formula for water is **H\u2082O**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 7,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.3393120765686035,
+    "timestamp": "2026-03-14T09:43:10.681875+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "Give me water's chemical formula.",
+    "response": "The chemical formula for water is **H\u2082O**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 7,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.32843780517578125,
+    "timestamp": "2026-03-14T09:43:11.010478+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "How is water represented in chemistry?",
+    "response": "In chemistry, water is represented in three main ways, depending on whether you are describing its molecules, its composition, or its structure:\n\n### 1. Chemical Formula: $\\text{H}_2\\text{O}$\nThis is the most common way to represent water. It tells you that each molecule of water consists of:\n*   **H:** Two atoms of Hydrogen.\n*   **O:** One atom of Oxygen.\n\nThe subscript \"2\" applies only to the hydrogen, indicating there are exactly two hydrogen atoms for every single oxygen atom.\n\n### 2. Structural Formula\nThis representation shows how the atoms are bonded together within the molecule. Water is not a straight line; it is \"bent.\"\n\n*   **H\u2013O\u2013H:** This shows that the oxygen atom is in the center, bonded to two separate hydrogen atoms.\n*   **The \"Bent\" Shape:** Because of the way electrons are arranged around the oxygen atom, the molecule forms a specific shape. The hydrogen atoms are pushed down, creating an angle of about **104.5 degrees**.\n\n### 3. The Lewis Structure (Dot and Cross Diagram)\nThis diagram visualizes the electrons and the chemical bonds holding the atoms together.\n*   **Oxygen** has ",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 180,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.745548963546753,
+    "timestamp": "2026-03-14T09:43:13.756654+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "What molecules make up water?",
+    "response": "Water is made up of molecules consisting of **two hydrogen atoms** bonded to **one oxygen atom**.\n\nThe chemical formula for water is **H\u2082O**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 23,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.9879302978515625,
+    "timestamp": "2026-03-14T09:43:14.746336+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "How many chromosomes do humans have?",
+    "response": "Humans typically have **46 chromosomes**.\n\nThese are organized into **23 pairs**:\n\n*   **22 pairs of autosomes** (which determine body characteristics).\n*   **1 pair of sex chromosomes** (which determine biological sex: XX for females, XY for males).\n\nYou inherit one chromosome from each pair from your mother and one from your father.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 51,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.0487821102142334,
+    "timestamp": "2026-03-14T09:43:15.798282+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "What is the human chromosome count?",
+    "response": "Humans typically have **46 chromosomes**.\n\nThese are organized into **23 pairs**:\n\n*   **22 pairs** are called autosomes (numbered 1 through 22).\n*   **1 pair** is called the sex chromosomes (X and Y), which determine biological sex (typically XX for female and XY for male).\n\nThis count is found in most of the body's cells (somatic cells). However, reproductive cells (sperm and eggs) are different; they are haploid and contain only **23 chromosomes** (one from each pair) so that when they combine during fertilization, the resulting embryo has the full 46.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 90,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.6727080345153809,
+    "timestamp": "2026-03-14T09:43:17.472687+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Tell me the number of chromosomes in a human cell.",
+    "response": "A typical human cell contains **46 chromosomes**.\n\nThese are organized into **23 pairs**:\n*   **22 pairs** are called autosomes (numbered 1 through 22).\n*   **1 pair** is called sex chromosomes (which determine biological sex: typically XX for females and XY for males).\n\n**Exceptions:**\n*   **Sperm and egg cells** (gametes) have only 23 chromosomes each.\n*   **Red blood cells** have no chromosomes (or nucleus) at all.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 65,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.3428728580474854,
+    "timestamp": "2026-03-14T09:43:18.816165+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Humans have how many chromosomes?",
+    "response": "Humans typically have **46** chromosomes.\n\nThese are organized into **23 pairs**, with one chromosome in each pair inherited from the mother and the other from the father.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 27,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.7199699878692627,
+    "timestamp": "2026-03-14T09:43:19.536449+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the speed of light in a vacuum?",
+    "response": "The speed of light in a vacuum is exactly **299,792,458 meters per second**.\n\nThis is approximately **186,282 miles per second** or about **300,000 kilometers per second**. It is considered a universal constant and is denoted by the letter *c*.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 39,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.8448500633239746,
+    "timestamp": "2026-03-14T09:43:20.383226+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "How fast does light travel in a vacuum?",
+    "response": "The speed of light in a vacuum is exactly **299,792,458 meters per second**.\n\nThis is approximately **186,282 miles per second** (or about 671 million miles per hour).\n\nBecause this speed is a constant of nature, it is often denoted by the letter **$c$**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 43,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.9406709671020508,
+    "timestamp": "2026-03-14T09:43:21.324227+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Give me the speed of light in vacuum.",
+    "response": "The speed of light in a vacuum is exactly **299,792,458 meters per second**.\n\nThis is approximately **186,282 miles per second** or about **300,000 kilometers per second**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 26,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.723841667175293,
+    "timestamp": "2026-03-14T09:43:22.048411+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me light's velocity in a vacuum.",
+    "response": "The speed of light in a vacuum is exactly **299,792,458 meters per second**.\n\nThis is approximately **186,282 miles per second** or about **300,000 kilometers per second**.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 26,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.8115262985229492,
+    "timestamp": "2026-03-14T09:43:22.860344+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nSummarize the key points of the following text.",
+    "response": "Here is a summary of the key points:\n\n*   **Scope and Impact:** The GDPR, effective since May 2018, applies to any organization processing the data of EU residents, regardless of the organization's location.\n*   **Key Requirements:** It mandates explicit consent, data portability, the \"right to be forgotten,\" and data breach notification within 72 hours.\n*   **Penalties:** Non-compliance can result in fines of up to 4% of a company's global revenue.\n*   **Debate:** While critics argue the regulation creates a heavy compliance burden for small businesses, supporters view it as a global standard for data privacy that has been emulated by other jurisdictions.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 102,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5810718536376953,
+    "timestamp": "2026-03-14T09:43:24.443626+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nWhat are the main takeaways from this passage?",
+    "response": "Based on the passage provided, here are the main takeaways:\n\n*   **Scope and Impact:** The GDPR applies to any organization processing the data of EU residents, regardless of where the organization is based, effectively setting a global standard for data privacy.\n*   **Key Requirements:** The regulation introduced several strict rules, including the need for explicit consent, data portability, the \"right to be forgotten,\" and mandatory breach notification within 72 hours.\n*   **Significant Penalties:** Organizations face severe financial consequences for non-compliance, with fines reaching up to 4% of their global revenue.\n*   **Differing Perspectives:** There is debate regarding the regulation; critics argue it places a heavy compliance burden on small businesses, while supporters praise it for establishing a benchmark that other jurisdictions have followed.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 123,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.8109028339385986,
+    "timestamp": "2026-03-14T09:43:26.256231+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nGive me the TL;DR of this text.",
+    "response": "The GDPR, effective since 2018, sets strict standards for handling personal data\u2014including rights to consent and deletion\u2014and applies to any organization processing EU residents' data. Non-compliance can result in fines of up to 4% of global revenue. While critics cite the burden on small businesses, supporters view it as a global benchmark for data privacy.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 55,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.0020370483398438,
+    "timestamp": "2026-03-14T09:43:28.258813+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nExtract the most important information from this passage.",
+    "response": "Here are the key points extracted from the passage:\n\n*   **Scope:** The GDPR applies to any organization processing the data of EU residents, regardless of the organization's location.\n*   **Key Requirements:** It mandates explicit consent, data portability, the \"right to be forgotten,\" and breach notification within 72 hours.\n*   **Penalties:** Non-compliance can result in fines of up to 4% of global revenue.\n*   **Impact:** The regulation has established a global standard for data privacy, though critics argue it creates a heavy compliance burden, particularly for small businesses.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 87,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.3774142265319824,
+    "timestamp": "2026-03-14T09:43:29.637370+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nSummarize the findings of this study.",
+    "response": "A 2024 meta-analysis of 47 studies found that remote work leads to 4-7% higher individual task completion but a 12-15% decline in collaborative output. These effects varied by industry, with knowledge workers benefiting the most and creative teams suffering the largest collaborative losses. Additionally, worker satisfaction was highest in hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. These findings are based on data from organizations that implemented mandatory remote policies during the pandemic to control for self-selection bias.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 83,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.2594969272613525,
+    "timestamp": "2026-03-14T09:43:30.901436+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nWhat did the research find?",
+    "response": "Based on the meta-analysis described, the research found the following:\n\n*   **Mixed Productivity Results:** Remote workers showed **4-7% higher** individual task completion rates but suffered from **12-15% lower** collaborative output.\n*   **Industry Variance:** Knowledge workers benefited the most from remote arrangements, whereas creative teams experienced the largest decline in collaboration.\n*   **Worker Satisfaction:** Hybrid models (working 2-3 days remotely) resulted in consistently higher satisfaction compared to fully remote or fully in-office arrangements.\n*   **Methodology:** The findings controlled for self-selection bias by analyzing organizations that implemented mandatory remote policies during the pandemic.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 91,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.234104871749878,
+    "timestamp": "2026-03-14T09:43:33.136293+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nBreak down the key results from this text.",
+    "response": "Based on the text provided, here is a breakdown of the key results from the 2024 meta-analysis:\n\n**1. Productivity Trade-offs**\n*   **Individual Tasks:** Remote workers showed a positive trend, completing individual tasks at a rate **4\u20137% higher** than their in-office counterparts.\n*   **Collaboration:** There was a significant negative impact on teamwork, with collaborative output dropping by **12\u201315%**.\n\n**2. Industry Variance**\n*   **Knowledge Workers:** This group benefited the most from remote arrangements.\n*   **Creative Teams:** This group experienced the most significant decline in collaboration.\n\n**3. Worker Satisfaction**\n*   **Hybrid Models:** The highest satisfaction levels were found among workers in hybrid models (specifically those working **2\u20133 days remotely**).\n*   **Extremes:** Satisfaction was lower for both fully remote and fully in-office arrangements compared to the hybrid model.\n\n**4. Study Reliability**\n*   **Bias Control:** The results are considered more robust because the studies controlled for self-selection bias. They achieved this by analyzing organizations that enforced **mandatory remote policies** during the pandemic, rather than relying on employees who chose to work remotely by choice.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 169,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.40665864944458,
+    "timestamp": "2026-03-14T09:43:35.544587+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nWhat are the conclusions here?",
+    "response": "Based on the meta-analysis described, here are the key conclusions:\n\n*   **Productivity is a trade-off:** Remote work increases individual productivity (4-7% higher task completion) but hinders collaboration (12-15% lower output).\n*   **Impact depends on the role:** Knowledge workers benefit the most from remote arrangements, whereas creative teams suffer the largest declines in collaboration.\n*   **Hybrid is the preferred model:** Worker satisfaction is consistently highest in hybrid models (2-3 days remote) rather than fully remote or fully in-office setups.\n*   **Results are reliable:** These findings account for self-selection bias, as they are drawn from organizations that implemented mandatory remote policies rather than voluntary ones.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 103,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.515824794769287,
+    "timestamp": "2026-03-14T09:43:37.060753+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nSummarize this passage about Japan's population.",
+    "response": "Japan experienced a record population decline of 800,000 in 2023, with the fertility rate dropping to 1.20. Despite the government investing $24 billion in child-rearing support, shifting social attitudes regarding marriage and careers remain significant barriers. While some economists suggest immigration reform as a more effective solution, it faces strong political resistance.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 52,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.0085561275482178,
+    "timestamp": "2026-03-14T09:43:38.070836+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nWhat are the key points about Japan's demographic situation?",
+    "response": "Based on the text provided, here are the key points regarding Japan's demographic situation:\n\n*   **Record Population Decline:** In 2023, Japan's population decreased by 800,000, marking the largest annual drop since records began.\n*   **Low Fertility Rate:** The total fertility rate has fallen to 1.20, which is significantly below the 2.1 level required to maintain a stable population.\n*   **Government Response:** The government has committed \u00a53.6 trillion ($24 billion) toward child-rearing support, including free childcare, enhanced parental leave benefits, and housing subsidies.\n*   **Complex Causes:** While financial concerns are a factor, surveys indicate that shifting societal attitudes\u2014specifically regarding marriage and career prioritization among young adults\u2014are equally significant barriers to having children.\n*   **Policy Debate:** Some economists argue that reforming immigration policy would be more effective than fertility incentives, though such reforms face strong political resistance.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 135,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.3408567905426025,
+    "timestamp": "2026-03-14T09:43:40.415212+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nGive me a brief overview of what this says.",
+    "response": "Japan experienced a record population decline of 800,000 in 2023, with the fertility rate dropping to 1.20. Despite the government investing $24 billion in child-rearing support, financial concerns are only one factor; shifting social attitudes regarding marriage and careers are equally significant. While some economists suggest immigration reform as a more effective solution, it faces strong political resistance.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 58,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.231152057647705,
+    "timestamp": "2026-03-14T09:43:41.646797+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nCondense this information into the essential facts.",
+    "response": "*   Japan's population fell by 800,000 in 2023, a record decline, as the fertility rate dropped to 1.20.\n*   The government is spending \u00a53.6 trillion ($24 billion) on child-rearing support, yet financial concerns, shifting attitudes toward marriage, and career priorities persist as barriers.\n*   Economists suggest immigration reform as a more effective solution, though it faces significant political resistance.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 59,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.1717109680175781,
+    "timestamp": "2026-03-14T09:43:42.819484+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nSummarize the state of battery recycling described here.",
+    "response": "Lithium-ion battery recycling currently faces economic and logistical hurdles, recovering only 50% of lithium compared to over 90% for cobalt and nickel. While upcoming EU regulations mandate minimum recycled content levels and new direct recycling technologies promise significant cost reductions, the industry is hampered by supply chain concentration in China and a critical collection rate of just 5% for consumer electronics batteries.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 62,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.206791877746582,
+    "timestamp": "2026-03-14T09:43:44.027629+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nWhat are the main challenges and developments in this area?",
+    "response": "Based on the text provided, the main challenges and developments in lithium-ion battery recycling are as follows:\n\n**Main Challenges**\n*   **Economic Viability:** Recycling lithium-ion batteries remains economically difficult.\n*   **Low Lithium Recovery Rates:** Current methods only recover about 50% of lithium, significantly lower than the 95% recovery rate for cobalt and nickel.\n*   **Supply Chain Concentration:** There is a significant risk because China processes over 70% of the world's recycled battery materials.\n*   **Collection Deficits:** The primary barrier to recycling is collection, as only 5% of consumer electronics batteries actually reach recycling facilities.\n\n**Key Developments**\n*   **Regulatory Mandates:** The EU Battery Regulation (2023) has set minimum recycled content levels that must be met starting in 2031 (16% cobalt, 6% lithium, 6% nickel).\n*   **Direct Recycling Technology:** Startups are developing new direct recycling methods that preserve the cathode crystal structure. These methods have the potential to reduce costs by 40% compared to traditional pyrometallurgical approaches.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 154,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.5491950511932373,
+    "timestamp": "2026-03-14T09:43:46.577382+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nGive me the highlights of this passage.",
+    "response": "Here are the highlights from the passage:\n\n*   **Economic and Efficiency Challenges:** Lithium-ion battery recycling is currently economically difficult, with only 50% of lithium recovered compared to 95% for cobalt and nickel.\n*   **Regulatory Mandates:** The EU Battery Regulation (2023) sets minimum recycled content requirements starting in 2031 (16% cobalt, 6% lithium, 6% nickel).\n*   **Geopolitical Risk:** China processes over 70% of the world's recycled battery materials, creating a significant concentration risk within the supply chain.\n*   **Technological Innovation:** Startups are developing direct recycling methods that preserve cathode structure, which could lower costs by 40% compared to pyrometallurgy.\n*   **Collection Bottleneck:** The primary barrier to recycling is collection, as only 5% of consumer electronics batteries currently reach facilities.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 118,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.135089159011841,
+    "timestamp": "2026-03-14T09:43:48.713360+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nWhat should I know about battery recycling based on this?",
+    "response": "Based on the text provided, here are the five most critical takeaways regarding the current state and future of battery recycling:\n\n**1. Lithium is the Economic and Technical Bottleneck**\nRecycling is currently economically difficult because the industry struggles to recover lithium. While current methods successfully recover 95% of valuable metals like cobalt and nickel, they only capture about 50% of the lithium. This is a significant problem because demand for lithium is high, and the EU will soon mandate that new batteries contain at least 6% recycled lithium by 2031.\n\n**2. Geopolitical Risks are High**\nThere is a major supply chain concentration risk: China processes more than 70% of the world's recycled battery materials. This heavy reliance on a single nation creates vulnerabilities for other regions seeking to secure raw materials for battery production.\n\n**3. New Technology Could Lower Costs**\nStartups are developing \"direct recycling\" methods that differ from the standard smelting (pyrometallurgical) processes. By preserving the cathode crystal structure, these new methods have the potential to reduce recycling costs by as much as 40%.\n\n**4. The \"Last Mile\" is the Biggest Failure Point**\nThe technology to recycle exists, but the collection system is broken.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 195,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.3472230434417725,
+    "timestamp": "2026-03-14T09:43:52.061272+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nSummarize this WHO report on antibiotic resistance.",
+    "response": "The 2025 WHO report on antibiotic resistance highlights a critical global health threat, with five bacterial pathogens causing over 500,000 annual deaths due to AMR. The report identifies agricultural use as the primary driver, accounting for 73% of global antibiotic consumption, while new drug development has stalled, with only 12 antibiotics entering clinical trials in 2024 compared to 27 in 2018. Economically, AMR is projected to cost $100 trillion cumulatively by 2050. To combat this crisis, the WHO recommends phasing out antibiotic use for growth promotion in livestock, incentivizing new drug development through advance market commitments, and strengthening surveillance systems in low-income countries.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 103,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.331088066101074,
+    "timestamp": "2026-03-14T09:43:55.394298+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nWhat does this passage say about the antibiotic resistance problem?",
+    "response": "Based on the passage, the antibiotic resistance problem is characterized by the following key points:\n\n*   **Severity and Mortality:** Five specific bacterial pathogens are responsible for over 500,000 deaths annually.\n*   **Primary Driver:** Agricultural use, particularly in livestock, accounts for 73% of global antibiotic consumption.\n*   **Stalled Innovation:** The development of new treatments is slowing, with only 12 new antibiotics entering clinical trials in 2024 compared to 27 in 2018.\n*   **Economic Impact:** The cumulative economic cost of AMR is projected to reach $100 trillion by 2050.\n*   **Recommended Solutions:** The report suggests phasing out antibiotic use for growth promotion in agriculture, incentivizing new drug development, and improving surveillance in low-income countries.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 112,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.4099409580230713,
+    "timestamp": "2026-03-14T09:43:57.804765+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nExtract the critical information from this text.",
+    "response": "Here is the critical information extracted from the text:\n\n*   **Health Impact:** Five bacterial pathogens cause over 500,000 deaths annually due to antimicrobial resistance (AMR).\n*   **Agricultural Link:** Agriculture accounts for 73% of global antibiotic consumption, mostly in livestock.\n*   **Drug Development:** New antibiotic development is slowing, with only 12 trials in 2024 compared to 27 in 2018.\n*   **Economic Projection:** The cumulative economic cost of AMR is projected to reach $100 trillion by 2050.\n*   **Key Recommendations:**\n    *   Phase out antibiotic use for growth promotion in agriculture.\n    *   Incentivize new drug development via advance market commitments.\n    *   Strengthen surveillance systems in low-income countries.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 104,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.6847450733184814,
+    "timestamp": "2026-03-14T09:44:01.490040+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nWhat are the key findings and recommendations here?",
+    "response": "Based on the text provided, here are the key findings and recommendations from the 2025 WHO report on antibiotic resistance:\n\n**Key Findings**\n*   **Mortality:** Five bacterial pathogens are responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR).\n*   **Agricultural Consumption:** Agriculture accounts for 73% of global antibiotic consumption, primarily in livestock.\n*   **Drug Development Stagnation:** The number of new antibiotics entering clinical trials has dropped significantly, falling from 27 in 2018 to just 12 in 2024.\n*   **Economic Impact:** The cumulative economic cost of AMR is projected to reach $100 trillion by 2050.\n\n**Recommendations**\n*   **Agricultural Reform:** Phase out the use of antibiotics for growth promotion in livestock.\n*   **Incentivize Innovation:** Encourage the development of new antibiotics through mechanisms such as advance market commitments.\n*   **Global Surveillance:** Strengthen surveillance systems, specifically in low-income countries.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 136,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 4.216134071350098,
+    "timestamp": "2026-03-14T09:44:05.706827+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nShould I reply to this email?",
+    "response": "**Yes, you should definitely reply.**\n\nThis email requires a decision from you regarding resource allocation and client expectations. If you do not reply, the colleague will not know how to proceed, which could lead to missed deadlines, overworked staff, or an unmanaged client.\n\nHere is why you need to reply and a few options for how to handle it:\n\n### Why you need to reply:\n1.  **It is a direct question:** They asked \"Let me know your thoughts,\" explicitly requesting your input.\n2.  **Resource conflict:** There is a conflict between the client's request and the team's capacity (Q1 review). You need to decide which priority takes precedence.\n3.  **Client Management:** The client is expecting an answer regarding the timeline. Delaying your reply to your colleague delays the answer to the client.\n\n### How to determine your answer:\nBefore you write back, quickly assess:\n*   **Is the deadline flexible?** Can the client wait an extra week?\n*   **Is the Q1 review movable?** Can the review be delayed to focus on the client?\n*   **Is there a middle ground?** Can you deliver a partial deliverable next week and the rest later?\n\n### Draft Reply Options:\n\n**Option 1",
+    "scores": {
+      "certainty_score": 0.005128205128205128,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 195,
+      "high_density": 0.005128205128205128,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "definitely"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.0662169456481934,
+    "timestamp": "2026-03-14T09:44:08.778682+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nIs this email worth responding to?",
+    "response": "**Yes, absolutely.**\n\nThis email is definitely worth responding to, and you should do it as soon as possible. Here is why:\n\n1.  **It requires a decision:** The colleague is asking for a strategic choice between two difficult options (disappointing the client vs. burning out the team). They cannot proceed without your input.\n2.  **It is time-sensitive:** If the deadline is \"end of next week,\" the window to negotiate with the client or reorganize internal resources is closing rapidly.\n3.  **It impacts team morale:** The team is already \"stretched thin.\" Ignoring this email could lead to them being overworked, or it could signal that you don't support their capacity concerns.\n\n**How to respond:**\n\nYou don't need to have the perfect solution immediately, but you should acknowledge the receipt of the email and give a sense of when you will decide.\n\n*   **If you know the answer:** Reply clearly with \"Let's push back\" or \"Let's try to accommodate by doing X.\"\n*   **If you need to think:** Reply with, \"Thanks for the flag. Let me look at the Q1 review schedule and discuss with [Manager Name]. I will get back to you by [Time",
+    "scores": {
+      "certainty_score": 0.015625,
+      "high_count": 3,
+      "hedge_count": 0,
+      "total_words": 192,
+      "high_density": 0.015625,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "definitely",
+        "clearly",
+        "absolutely"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.2930939197540283,
+    "timestamp": "2026-03-14T09:44:12.074210+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nDoes this need a response?",
+    "response": "**Yes, this needs a response.**\n\nHere is why:\n\n1.  **It asks for a decision:** The colleague is asking \"Should we push back or try to accommodate?\" They cannot proceed without your input.\n2.  **It involves a client commitment:** Ignoring this could lead to missing a deadline or promising something the team can't deliver, which damages the relationship with the client.\n3.  **It affects team resources:** The team is \"stretched thin,\" so agreeing to the timeline without replying could lead to burnout or poor quality work.\n\n**How you should respond:**\nYou don't need a long email, but you do need to give a clear directive.\n\n*   **If you want to push back:** \"Let's push back. We can't risk the quality of the Q1 review. Please tell the client we need [insert new date].\"\n*   **If you want to accommodate:** \"Let's try to make it work. Is there anything we can deprioritize to free up bandwidth for this?\"\n*   **If you need to discuss it:** \"I\u2019m not sure we can swing it. Let's chat for 5 minutes at 2 PM to decide.\"",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 180,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.1108992099761963,
+    "timestamp": "2026-03-14T09:44:15.187257+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nEvaluate whether I should answer this.",
+    "response": "**Yes, you should absolutely answer this email.**\n\nHere is why:\n\n1.  **It is a direct request for a decision:** The colleague is asking \"Let me know your thoughts\" and \"Should we push back or try to accommodate?\" They cannot proceed without your input.\n2.  **It involves risk management:** The team is \"stretched thin.\" If you do not answer, the colleague may feel forced to accommodate the client to avoid conflict, which could lead to burnout or poor quality work on the Q1 review.\n3.  **Client expectations are at stake:** The client has already stated a deadline. Ignoring this email leaves the colleague hanging on how to manage that client relationship.\n\n**How quickly should you answer?**\nSince the deadline is \"end of next week,\" this is urgent. You should aim to reply within **24 hours**.\n\n**What is the goal of your reply?**\nYou don't necessarily need to solve the problem instantly, but you need to acknowledge the dilemma and provide a direction.\n\n*   **If you have the answer:** Tell them clearly to push back or accommodate.\n*   **If you aren't sure:** Reply to acknowledge the conflict and schedule a quick 10-minute sync to decide.\n    *   *",
+    "scores": {
+      "certainty_score": 0.010256410256410256,
+      "high_count": 2,
+      "hedge_count": 0,
+      "total_words": 195,
+      "high_density": 0.010256410256410256,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "clearly",
+        "absolutely"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.6394498348236084,
+    "timestamp": "2026-03-14T09:44:18.827542+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nIs this a security risk?",
+    "response": "**Yes, this is a security risk.**\n\nWhile the risk is not a vulnerability in the code itself (like a SQL injection flaw), it represents a **significant availability and operational security risk** for the following reasons:\n\n### 1. Availability Risk (Denial of Service)\nBy invalidating all existing user sessions, this PR effectively performs a forced logout of every active user immediately upon deployment.\n*   **Impact:** Users will be unable to access their accounts.\n*   **Consequences:** This leads to a flood of password reset requests, support tickets, and user frustration. In a B2B context, this could result in downtime for critical operations.\n\n### 2. Bypassing Security Controls\nThe fact that the PR has been open for 3 days without review suggests a breakdown in the development process.\n*   **Lack of Oversight:** A change to a \"core authentication module\" should trigger immediate scrutiny. The lack of review implies that critical code changes can sit dormant, increasing the chance that a *malicious* actor could submit a similar PR with a backdoor, hoping it slips through the cracks.\n*   **Change Management:** Breaking changes to session management require careful planning (e.g., a \"cutover\" strategy, supporting both token formats",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 192,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 4.234367847442627,
+    "timestamp": "2026-03-14T09:44:23.064328+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nCould this potentially be a security concern?",
+    "response": "**Yes, this is a significant security concern.**\n\nWhile the developer's intentions (cleaner code and unit tests) are positive, the change in session token format introduces a specific type of security risk known as a **Denial of Service (DoS)** against your user base.\n\nHere is a breakdown of why this is a security issue and how it should be handled:\n\n### 1. Availability Impact (Denial of Service)\nSecurity is not just about confidentiality (keeping data safe); it is also about **availability** (ensuring authorized users can access the system).\n*   **The Mechanism:** By changing the token format, the system will no longer recognize tokens signed or generated with the old format.\n*   **The Result:** Every active user session will be immediately invalidated. If this PR is deployed, every single user on your platform will be forcefully logged out.\n*   **The Risk:** This disrupts business operations, damages user trust, and floods your support channels with password reset requests and login issues. In a B2B context, this could be considered a service outage.\n\n### 2. Lack of Coordination (Process Failure)\nThe fact that this PR has been open for 3 days without a review highlights a process gap that is a security risk",
+    "scores": {
+      "certainty_score": -0.005025125628140704,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 199,
+      "high_density": 0.0,
+      "hedge_density": 0.005025125628140704,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 3.7337839603424072,
+    "timestamp": "2026-03-14T09:44:26.799168+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nShould I be worried about this from a security perspective?",
+    "response": "**Yes, you should be worried.**\n\nWhile the developer\u2019s intentions (cleaner code, better tests) are positive, the change described\u2014invalidating all existing user sessions by altering the token format\u2014is a **breaking change** with significant security, operational, and user experience implications.\n\nHere is a breakdown of why this is a concern from a security and risk perspective:\n\n### 1. Availability (Denial of Service for Users)\nFrom a security standpoint, **Availability** is one of the three core pillars (CIA Triad: Confidentiality, Integrity, Availability).\n*   **The Risk:** If this PR is merged and deployed, every currently logged-in user will be instantly logged out.\n*   **The Impact:** This triggers a flood of password reset requests, support tickets, and user frustration. In a B2B context, this could look like a service outage or an account takeover wave, damaging trust.\n\n### 2. The \"Secret\" Risk (Token Structure)\nYou need to determine *why* the token format changed.\n*   **If it's just cosmetic (e.g., changing a header name):** This is annoying but low risk.\n*   **If it involves the signing algorithm or key:** This is critical. If the developer changed how the",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 182,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.7239487171173096,
+    "timestamp": "2026-03-14T09:44:30.524088+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nAssess the security implications of this situation.",
+    "response": "This situation presents a critical security risk that stems not from malicious intent, but from a failure in process and impact analysis. While the code quality improvements (cleaner code, unit tests) are positive, the operational side effect\u2014invalidating all active user sessions\u2014creates a significant vulnerability.\n\nHere is an assessment of the security implications, ranging from immediate availability risks to secondary attack vectors.\n\n### 1. Availability Risk (Denial of Service)\nThe most immediate implication is a self-inflicted Denial of Service (DoS) for your entire user base.\n*   **Impact:** If this PR is merged and deployed, every currently logged-in user will be instantly logged out.\n*   **Operational Consequence:** This triggers a flood of password reset requests and support tickets. In a B2B context, this disrupts active workflows, potentially causing business downtime for clients.\n*   **Security Fatigue:** Sudden, mass logouts can lead to \"security fatigue.\" Users may become annoyed with the platform and resort to insecure practices (like writing passwords down) if they have to repeatedly re-authenticate.\n\n### 2. The \"Stale Token\" Vulnerability (Logic Flaw)\nThe core issue here is a lack of **backward compatibility**. Secure authentication systems must",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 185,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.889122724533081,
+    "timestamp": "2026-03-14T09:44:33.414133+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Should a startup with 18 months of runway hire a full-time marketing person?",
+    "response": "The short answer is: **No, not unless you have a specific, high-leverage task for them to perform immediately.**\n\nWith 18 months of runway, you are in a \"pre-growth\" or \"survival\" phase. You have enough cash to survive, but not enough to make expensive mistakes. Hiring a full-time marketing person (usually $80k\u2013$120k + overhead) is often the first place startups burn cash without seeing a return.\n\nHere is a framework to decide if you are the exception to the rule.\n\n### 1. The \"Product-Market Fit\" Test\nThis is the single most important factor.\n*   **If you do NOT have Product-Market Fit (PMF):** Do **not** hire a marketer. If you spend money amplifying a product that people don't yet love, you will just accelerate your failure. In this stage, the founders should be doing the marketing because you need the direct feedback loop with customers to iterate on the product.\n*   **If you HAVE PMF:** You might be ready, but proceed with caution (see point #2).\n\n### 2. The \"What do they do all day?\" Test\nA common startup failure mode is hiring a marketer to \"figure",
+    "scores": {
+      "certainty_score": -0.005405405405405406,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 185,
+      "high_density": 0.0,
+      "hedge_density": 0.005405405405405406,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.5344760417938232,
+    "timestamp": "2026-03-14T09:44:35.949999+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Is it worth hiring a marketer when you have 18 months of runway?",
+    "response": "The short answer is **yes**, but *who* you hire and *what* they do must change drastically compared to a company with 5 years of runway.\n\nWith 18 months of cash, you are in the **\"Growth or Die\"** phase. You have enough time to execute a strategy, but not enough time to make expensive mistakes or wait for organic growth.\n\nHere is a breakdown of how to determine if it is worth it for you, and how to do it correctly without burning your cash.\n\n### 1. The \"Founder Bottleneck\" Test\nThe most important variable is not your bank account, but your time.\n*   **If you are the CEO:** You should be spending 80% of your time on sales, fundraising, and product. If you are spending 20 hours a week managing Facebook ads, writing blog posts, or tweaking website copy, **you are losing money.** In this case, hiring a marketer is worth it to free you up to high-leverage activities.\n*   **If you are technical:** You might be tempted to \"hack\" marketing yourself. However, if 6 months go by and your MRR (Monthly Recurring Revenue) is flat because you are treating marketing as a side project, you",
+    "scores": {
+      "certainty_score": -0.00510204081632653,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 196,
+      "high_density": 0.0,
+      "hedge_density": 0.00510204081632653,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 3.401998996734619,
+    "timestamp": "2026-03-14T09:44:39.353053+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "Would you recommend a startup with 18 months of cash hire for marketing?",
+    "response": "The short answer is: **Yes, but only if you hire for \"Growth\" (revenue) rather than \"Brand\" (awareness), and only if you have a proven product.**\n\n18 months of cash is a healthy runway, but in the current economic climate, it is not infinite. It is a \"fortress\" balance sheet that allows you to take calculated risks, but hiring a traditional marketing team is often the fastest way to burn cash without seeing immediate returns.\n\nHere is a framework to decide if *you* specifically should make this hire now, and what type of hire it should be.\n\n### 1. The \"Product-Market Fit\" (PMF) Litmus Test\nBefore spending a dollar on marketing, answer this question honestly: **Do people buy your product a second time without you asking them to?**\n\n*   **If NO (No PMF yet):** **Do not hire a marketing lead.** If you spend \\$10k/month on marketing and your conversion rate is 0.1% because the product isn't quite right, you have just burned \\$120k of your runway over a year to learn nothing. You need a Founder-led sales process or a Product Lead. You need to talk to customers, not",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 188,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.593687057495117,
+    "timestamp": "2026-03-14T09:44:41.947596+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Evaluate whether an 18-month runway startup needs a marketing hire.",
+    "response": "To evaluate whether an 18-month runway startup needs a marketing hire, you must move beyond the generic question of \"Do we need marketing?\" (the answer is always yes) to the specific question of **\"Do we need a dedicated full-time head of marketing right now, or is that capital better spent elsewhere?\"**\n\nWith 18 months of cash, you are in a precarious position. You have enough time to build something meaningful, but not enough time to recover from a major misstep in capital allocation.\n\nHere is a framework to evaluate this decision, based on the stage of your product, your source of growth, and your financial reality.\n\n---\n\n### 1. The \"Founder-Led\" vs. \"Delegated\" Threshold\nThe first filter is simple: **Are the founders still the best people to sell the product?**\n\n*   **You do NOT need a hire if:** You are still in Product-Market Fit (PMF) discovery mode. In this stage, marketing is indistinguishable from customer development. The founders need to be talking to customers directly to understand the messaging. A marketing hire at this stage will often guess wrong, waste money on the wrong channels, and create noise that masks the lack of signal.\n*   **You DO need",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 198,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.930054187774658,
+    "timestamp": "2026-03-14T09:44:44.878223+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nShould I talk to my neighbor about this?",
+    "response": "**Yes, absolutely.** You should talk to your neighbor before you take any action.\n\nWhile you have the legal right to trim the branches, exercising that right without warning could damage a generally friendly relationship. Here is why a conversation is the best first step, along with how to handle it.\n\n### 1. The \"Friendly Neighbor\" Factor\nSince you describe your neighbor as generally friendly, they likely have no idea the tree is causing you problems. Most people do not look up at their trees from their neighbor's perspective.\n*   **The Risk of \"Trimming First\":** If you trim the branches without asking, even if you are legally allowed to, the neighbor may feel blindsided or hostile. It can look passive-aggressive.\n*   **The Benefit of \"Talking First\":** If you mention it politely, they might offer to pay for a professional to trim it, or they might happily do it themselves to keep the tree looking good.\n\n### 2. The \"Car\" and \"Pool\" Arguments\nYou have two very strong, practical reasons for bringing this up that go beyond simple aesthetics.\n*   **The Car:** Property damage is a serious concern. If the branches scratch your car again, you are within your rights to ask them to pay",
+    "scores": {
+      "certainty_score": -0.0049261083743842365,
+      "high_count": 1,
+      "hedge_count": 2,
+      "total_words": 203,
+      "high_density": 0.0049261083743842365,
+      "hedge_density": 0.009852216748768473,
+      "high_matched": [
+        "absolutely"
+      ],
+      "hedge_matched": [
+        "might",
+        "might"
+      ]
+    },
+    "elapsed_seconds": 3.8112008571624756,
+    "timestamp": "2026-03-14T09:44:48.694492+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nIs it worth bringing this up with my neighbor?",
+    "response": "**Yes, it is absolutely worth bringing this up with your neighbor.**\n\nIn fact, it is highly recommended that you speak with them before you take any action (like trimming the tree yourself). Here is why this conversation is worth having, along with a strategy for how to handle it.\n\n### 1. The \"Friendly Neighbor\" Factor\nYou mentioned your neighbor is generally friendly. This is your biggest asset. If you simply start cutting the branches without saying a word, it can be interpreted as an act of aggression. Even if the law is on your side, surprising a neighbor with saws near their property line can create tension that lasts for years.\n\nBy talking to them first, you treat them as a partner rather than an adversary. Most people have no idea their tree is causing a problem until someone tells them.\n\n### 2. The \"Good Neighbor\" Policy vs. The Law\nWhile local ordinances allow you to trim branches up to the property line, they usually come with caveats:\n*   **You cannot damage the tree:** If you trim poorly and the tree dies or becomes diseased, you could be liable for the replacement cost of the tree.\n*   **You must dispose of the debris:** Technically, the leaves and wood belong to the tree",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 1,
+      "hedge_count": 1,
+      "total_words": 212,
+      "high_density": 0.0047169811320754715,
+      "hedge_density": 0.0047169811320754715,
+      "high_matched": [
+        "absolutely"
+      ],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.6687071323394775,
+    "timestamp": "2026-03-14T09:44:51.364056+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nHow should I handle this neighbor situation?",
+    "response": "Since you have a generally friendly relationship with your neighbor and the legal right to trim, the best approach is a **\"friendly consultation\"** rather than immediately taking action or making a formal complaint.\n\nHere is a step-by-step guide on how to handle this to preserve the relationship while solving your problem.\n\n### 1. The Conversation (Do this first)\nEven though the law is on your side, unannounced tree trimming can be seen as hostile or aggressive. Since you are on good terms, give your neighbor the benefit of the doubt\u2014they may not realize the tree is causing issues.\n\n**Approach them in person or with a friendly text:**\n*   **Keep it casual:** Don't write a formal letter.\n*   **Focus on the \"why\":** Mention the pool and the car scratch specifically. These are tangible nuisances that anyone would understand.\n*   **Ask permission:** Even though you don't legally need it, asking shows respect.\n\n**What to say:**\n> \"Hey [Name], I wanted to chat about that large tree near our fence. I\u2019ve noticed the branches are hanging over about 4 feet into my yard. Recently, some leaves have been falling into the pool, and unfortunately, a branch scratched my car the other day.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 199,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.8201160430908203,
+    "timestamp": "2026-03-14T09:44:54.190145+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nWhat would you recommend doing about this?",
+    "response": "Based on the situation you described, the best approach is a **diplomatic, two-step strategy**. Since your neighbor is generally friendly, you should prioritize maintaining that relationship while solving the practical problems.\n\nHere is a recommended course of action:\n\n### Step 1: The \"Friendly Heads-Up\" Conversation\nBefore you pick up a saw or hire someone, go talk to your neighbor. Even though the law is on your side, acting unilaterally can create unnecessary tension.\n\n*   **The Goal:** To give them a chance to fix the issue themselves or to give them \"permission\" to trim without feeling disrespected.\n*   **What to say:** Keep it casual and focus on the specific problems (the pool and the car) rather than the tree itself.\n    *   *\u201cHey, just wanted to mention that the branches from your tree are hanging over the fence. They\u2019ve been dropping a lot of leaves into the pool lately, and one actually scratched my car the other day. I know the ordinances let me trim them back, but I wanted to check with you first to see how you\u2019d like to handle it.\u201d*\n\n**Why this works:**\n*   It alerts them to the car damage (which they are likely liable for, making them",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 200,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.9645309448242188,
+    "timestamp": "2026-03-14T09:44:58.156050+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Should schools ban smartphones?",
+    "response": "The question of whether schools should ban smartphones is one of the most debated topics in modern education. Proponents argue that removing phones eliminates distraction and improves mental health, while opponents argue that phones are essential tools for safety and learning.\n\nThere is no single \"correct\" answer, as different schools and age groups face different challenges. However, the trend in 2024 is moving decisively toward stricter regulations or outright bans.\n\nHere is a breakdown of the arguments for and against banning smartphones in schools.\n\n### The Case for Banning Smartphones\n\n**1. Combating Distraction and Improving Academics**\nThe primary argument for a ban is focus. Studies consistently show that the mere presence of a smartphone reduces cognitive capacity, even if it is turned off.\n*   **The \"Multitasking Myth\":** Students cannot multitask effectively. Constant notifications fragment attention, making it difficult to absorb complex information.\n*   **Academic Performance:** Schools that have implemented bans (such as those in the UK and parts of the US) often report immediate improvements in test scores and classroom engagement.\n\n**2. Mental Health and Cyberbullying**\nSmartphones act as a portal to social media, which can be a hostile environment for children and teenagers.\n*   **Social Pressure:** Without phones,",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 199,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.934880018234253,
+    "timestamp": "2026-03-14T09:45:02.092988+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Is banning phones in schools a good idea?",
+    "response": "The question of whether to ban mobile phones in schools is a subject of intense debate among educators, parents, and policymakers. While there is no universal answer, different schools have reported varying results based on how they implement the policy.\n\nHere is an overview of the arguments for and against banning phones in schools, as well as the emerging middle ground.\n\n### Arguments for Banning Phones\n\n**1. Reduction of Distractions and Improved Focus**\nThe primary argument for bans is that phones are a major distraction. Even if a phone is silenced, the mere presence of it can split a student's attention. Proponents argue that removing phones leads to better engagement in lessons and higher retention of information.\n\n**2. Decrease in Cyberbullying and Harassment**\nBullying is no longer confined to school grounds; it follows students home via social media. By banning phones during the school day, educators aim to create a \"safe zone\" where students cannot film, photograph, or harass peers online for several hours a day. It also prevents the recording of fights or embarrassing moments that can later be shared online.\n\n**3. Improved Social Interaction**\nCritics argue that when students have phones, they retreat into screens during breaks and lunch rather than interacting with their peers. Removing phones is said",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 211,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.2704250812530518,
+    "timestamp": "2026-03-14T09:45:05.363938+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "What are the merits of a school smartphone ban?",
+    "response": "The debate surrounding smartphone bans in schools has intensified in recent years as educators and psychologists grapple with the effects of constant connectivity on developing minds. While critics argue that bans are hard to enforce and remove a potential learning tool, proponents argue that the benefits far outweigh the inconveniences.\n\nHere are the primary merits of implementing a school smartphone ban:\n\n### 1. Reduction of Cyberbullying\nSmartphones often provide a platform for bullying that follows students from the hallways into their homes. When phones are prohibited during school hours:\n*   **Immediate Relief:** Students get a \"break\" from the harassment. If a phone is away, the student cannot be targeted by texts or social media posts during the school day.\n*   **De-escalation:** It prevents the instant filming and uploading of embarrassing moments or physical fights, which often fuels further harassment online.\n\n### 2. Improved Academic Focus and Reduced Distraction\nThe mere presence of a smartphone can divide a student's attention. Research consistently shows that multitasking (switching between a phone and a lesson) degrades cognitive performance.\n*   **Elimination of \"Phubbing\":** Students are no longer mentally checking out of a lesson to check notifications or scroll through feeds.\n*   **Deep Work:** Without the",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 200,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.9465341567993164,
+    "timestamp": "2026-03-14T09:45:08.311320+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Evaluate whether schools should prohibit smartphones.",
+    "response": "The debate over whether schools should prohibit smartphones is one of the most contentious issues in modern education. Proponents argue that bans are necessary to protect mental health, curb cyberbullying, and restore focus, while opponents claim that smartphones are essential learning tools and that total bans are unenforceable or counterproductive.\n\nHere is an evaluation of the arguments for and against prohibiting smartphones in schools, followed by a synthesis of the current evidence.\n\n### Arguments for Prohibiting Smartphones\n\n**1. Academic Focus and Cognitive Load**\nThe primary argument for a ban is the distraction factor. Studies consistently show that the mere presence of a smartphone reduces cognitive capacity\u2014even if the device is turned off and face down. This phenomenon, known as the \"phone presence effect,\" means students are dividing their attention between the lesson and the potential for social connectivity. Removing the phone eliminates this drain on working memory, potentially leading to better retention and deeper learning.\n\n**2. Mental Health and Social Development**\nThere is a growing correlation between the rise of smartphone usage and the decline in adolescent mental health. Social media platforms often facilitate unrealistic comparisons, FOMO (fear of missing out), and anxiety. A school ban provides a \"digital detox\" during the day, allowing students to engage in face-to-face social",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 210,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.6085569858551025,
+    "timestamp": "2026-03-14T09:45:10.920746+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Write a short opening paragraph for a mystery novel set in a library.",
+    "response": "The silence in the Athenaeum was never truly empty; it was heavy with the collective breath of a thousand sleeping stories, a dust-choked stillness that usually felt like a sanctuary. Tonight, however, the air tasted of copper and old paper, and the shadows stretching between the mahogany stacks seemed to be holding their breath. I found Elias slumped over the oak reading table, his face as pale as the vellum beneath his cheek, one finger permanently marking a page in a book that, until a moment ago, had been locked behind glass.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 92,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.4719581604003906,
+    "timestamp": "2026-03-14T09:45:12.394591+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "Draft the first paragraph of a library-set mystery story.",
+    "response": "The silence in the Athenaeum was not empty; it was heavy, a physical weight composed of dust motes dancing in shafts of dying afternoon light and the collective, held breath of a thousand sleeping authors. Elara moved deeper into the stacks, the scent of old paper and vanilla grounding her, until she saw it\u2014a disruption in the perfect geometry of the reading room. There, slumped over the heavy oak table where the rare manuscripts were usually chained, lay the head librarian, his face as pale as the vellum beneath him, while the iron lock that should have secured the *Codex Umbra* lay smashed on the floor, the book itself gone.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 110,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.9536187648773193,
+    "timestamp": "2026-03-14T09:45:14.348739+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Create an opening scene for a mystery that takes place in a library.",
+    "response": "The silence in the Blackwood Athenaeum was not empty; it was heavy. It pressed against the eardrums like deep water, broken only by the rhythmic, dry whisper of paper turning\u2014a sound like a moth beating its wings against a lantern glass.\n\nElara sat at the central reading table, a pool of golden light cutting through the gloom to illuminate the crumbling spine of a 17th-century maritime atlas. It was 2:00 AM. The hour when the building seemed to settle its bones, when the shadows cast by the rolling ladders stretched long and distorted across the Persian rug.\n\nShe reached for her cup of tea, now stone cold. Her fingers had just brushed the porcelain when she heard it.\n\n*Thud.*\n\nIt was a dull, solid sound, unmistakably heavy. Not a book falling\u2014that would have been a slap. This was the sound of weight meeting the unyielding oak floorboards of the balcony above.\n\nElara froze. The air in the room seemed to drop five degrees.\n\nShe looked up, her eyes tracing the intricate ironwork of the mezzanine railing. The upper level was shrouded in near-total darkness, save for the faint, ghostly green glow of the emergency exit signs at either end",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 199,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.0465087890625,
+    "timestamp": "2026-03-14T09:45:17.395828+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "Give me the opening lines of a mystery novel in a library setting.",
+    "response": "The silence in the Athenaeum was supposed to be golden, but to my ears, it sounded more like a held breath waiting to be released. It was broken not by the polite clearing of a throat or the rustle of a turning page, but by the sickeningly wet thud of a body hitting the marble floor three aisles over, right in the middle of the Biography section.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 67,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.1587529182434082,
+    "timestamp": "2026-03-14T09:45:18.555027+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Suggest three improvements to a city's public transit system.",
+    "response": "Here are three distinct improvements to a city's public transit system, ranging from technological upgrades to infrastructure changes:\n\n### 1. Implement \"Mobility as a MaaS\" (Integrated Payment and Planning)\nOne of the biggest barriers to using public transit is the friction of payment and the confusion of navigating multiple systems. Cities should adopt a **Mobility as a Service (MaaS)** model. This involves creating a single app that integrates all forms of transport\u2014buses, subways, light rail, bike-shares, and ride-shares\u2014into one platform.\n*   **The Improvement:** Users can plan a door-to-door trip, pay for a bus ride, unlock a city bike, and pay for a ride-share scooter all within one app, using a single account.\n*   **The Benefit:** This eliminates the need to buy separate tickets or carry exact change, making the system more accessible to tourists and casual users while encouraging people to use multimodal transport (e.g., taking a train to a specific station and grabbing a bike for the last mile).\n\n### 2. Transition to a Grid Network (Frequency over Coverage)\nMany transit systems use a \"hub-and-spoke\" model where all routes go through a central downtown point. While this serves commuters well, it",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 192,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.922776222229004,
+    "timestamp": "2026-03-14T09:45:21.478888+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "What three changes would you make to improve urban public transit?",
+    "response": "Improving urban public transit requires a multi-faceted approach that addresses frequency, coverage, and user experience. Here are the three most impactful changes I would make:\n\n### 1. Shift from \"Hub-and-Spoke\" to a Frequent Grid Network\nMost older transit systems are designed as a hub-and-spoke model, where all lines radiate from a single downtown center. While this serves commuters well, it makes cross-town travel difficult and forces reliance on a single congestion point.\n\n**The Change:** Implement a grid network where high-frequency routes run north-south and east-west, intersecting at multiple points rather than just one center.\n*   **Why it works:** This allows passengers to go from anywhere to anywhere without necessarily going downtown. It creates a \"turn up and go\" experience where transfers are easy because you never have to wait more than 10\u201315 minutes for a connecting bus or train. It decouples transit viability from the 9-to-5 work schedule, making the system useful for off-peak trips, errands, and social outings.\n\n### 2. Dedicated Right-of-Way (Transit Priority)\nThe single biggest cause of transit unreliability is mixed traffic. When a bus or tram is stuck in the same traffic jam as",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 188,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.7264418601989746,
+    "timestamp": "2026-03-14T09:45:24.206088+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Name three ways a city could make its public transit better.",
+    "response": "Here are three ways a city could improve its public transit system:\n\n1.  **Increase Frequency and Reliability**\n    One of the biggest deterrents to using public transit is long wait times and unpredictable schedules. By running buses and trains more often\u2014especially during off-peak hours and weekends\u2014cities make the system more convenient for daily life. Ensuring vehicles stick to their schedules (reliability) builds trust with riders, as they know they will arrive at their destination on time.\n\n2.  **Improve Connectivity and Integration**\n    A transit system is only as good as its ability to get people where they need to go. Cities can improve by redesigning routes so that bus lines, subway systems, and light rail connect seamlessly with major hubs. Additionally, integrating \"last-mile\" solutions\u2014such as protected bike lanes, scooter shares, or pedestrian-friendly paths\u2014helps commuters travel easily from a transit stop to their final destination.\n\n3.  **Modernize Payment and Information Systems**\n    Removing friction is essential for a better user experience. Cities should implement contactless payment systems (like tapping a credit card or phone) instead of requiring exact cash or paper tickets. Furthermore, providing real-time data through mobile apps that show accurate arrival times, service alerts, and route",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 194,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.8051981925964355,
+    "timestamp": "2026-03-14T09:45:27.012132+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "If you could fix three things about a city's transit, what would they be?",
+    "response": "If I were handed the keys to a city\u2019s transit system, I would focus on the \"Three Rs\": **Reliability, Reach, and Revenue.** Here are the three specific things I would fix to transform a struggling system into a great one:\n\n### 1. The \"Five-Minute\" Frequency (Reliability)\nThe biggest barrier to using public transit isn't usually speed; it\u2019s the **uncertainty**. If a bus comes once an hour and you miss it, you are stranded. If a train is supposed to come in 10 minutes but takes 20, you are late.\n\nI would implement a policy of **high-frequency core service**. On major routes, buses and trains would run every 5 to 10 minutes, regardless of the time of day. When the frequency is that high, you don't need a schedule or an app\u2014you just walk to the stop and know the next ride is almost there. This turns transit from something you have to *plan* your life around into something that is simply *available*.\n\n### 2. The \"Last Mile\" Solution (Reach)\nEven the best subway or bus line fails if it doesn't take you exactly where you need to go. The \"last mile\" problem\u2014the distance",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 193,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.92922306060791,
+    "timestamp": "2026-03-14T09:45:29.943040+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Come up with a name for a coffee shop that also sells books.",
+    "response": "Here is a list of names for a coffee shop that also sells books, broken down by the \"vibe\" you might be going for:\n\n### Cozy & Classic\n*These names evoke a sense of warmth, tradition, and comfort.*\n1.  **The Chapter & Cup**\n2.  **The Leather Binding**\n3.  **Dog-Eared Coffee**\n4.  **The Cozy Corner**\n5.  **Novel Brews**\n6.  **The Reading Nook**\n7.  **Page & Pour**\n8.  **Storyville Roasters**\n\n### Clever & Punny\n*These are memorable and playful, perfect for a quirky, fun atmosphere.*\n9.  **Espresso Press** (Play on \"printing press\")\n10. **Brew-tiful Mind**\n11. **The Grind & Glossary**\n12. **Latte & Literature**\n13. **Mugs & Manuscripts**\n14. **Coffee Table** (A play on the book type)\n15. **Sip & Synopsis**\n16. **The Daily Grind & Read**\n\n### Modern & Minimalist\n*Short, punchy names that sound sleek and contemporary.*\n17. **Bound**\n18. **Margin**\n19. **In",
+    "scores": {
+      "certainty_score": -0.006993006993006993,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 143,
+      "high_density": 0.0,
+      "hedge_density": 0.006993006993006993,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.6264240741729736,
+    "timestamp": "2026-03-14T09:45:32.571487+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "What would you name a bookstore-caf\u00e9 hybrid?",
+    "response": "Here is a list of names for a bookstore-caf\u00e9 hybrid, broken down by the \"vibe\" you might be going for:\n\n### The Cozy & Nostalgic\n*These names evoke warmth, comfort, and the feeling of getting lost in a good story.*\n*   **The Nook & Cranny**\n*   **Dog-Eared**\n*   **Chapter & Roast**\n*   **The Cozy Corner**\n*   **Blanket & Book**\n*   **Second Sip**\n*   **The Reading Nook**\n*   **Hearth & Hardcover**\n\n### The Clever & Punny\n*For a shop with a sense of humor that plays on literary and coffee terminology.*\n*   **Espresso Tales**\n*   **Brewed Awakening**\n*   **The Novel Tea**\n*   **Latte & Literature**\n*   **Bookmarks & Beans**\n*   **Grounds for Thought**\n*   **Mug & Manuscript**\n*   **The Daily Grind & Read**\n\n### The Sophisticated & Classic\n*Best for a space with high ceilings, leather armchairs, and a serious selection of classics.*\n*   **The Gilded Page**\n*   **Ink & Ivory**\n*",
+    "scores": {
+      "certainty_score": -0.006622516556291391,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 151,
+      "high_density": 0.0,
+      "hedge_density": 0.006622516556291391,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.661817789077759,
+    "timestamp": "2026-03-14T09:45:35.233872+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Suggest a creative name for a place that combines coffee and books.",
+    "response": "Here are several creative name suggestions for a place combining coffee and books, broken down by the \"vibe\" you might be going for:\n\n### The Punny & Playful\n*   **Espresso Press** (A play on \"printing press\" and making coffee)\n*   **The Daily Grind & Read**\n*   **Brew-tiful Books**\n*   **Novel Teas** (Great if you also serve tea)\n*   **Bookmarks & Beans**\n*   **Cover to Cover** (Implies reading the whole book while enjoying your drink)\n*   **The Paperback Brew**\n\n### The Cozy & Atmospheric\n*   **Chapter & Roast**\n*   **The Gilded Page**\n*   **Ink & Bean**\n*   **The Nook**\n*   **Stanza** (A division of a poem, sounds literary and rhythmic)\n*   **Folio**\n*   **The Dusty Jacket**\n*   **Margin Notes**\n\n### The Intellectual & Sophisticated\n*   **Prose**\n*   **The Literati**\n*   **Bound & Brewed**\n*   **Vellum**\n*   **Syntax**\n*   **The Librarian\u2019s Cup**\n*   **Epilogue",
+    "scores": {
+      "certainty_score": -0.007042253521126761,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 142,
+      "high_density": 0.0,
+      "hedge_density": 0.007042253521126761,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 3.776759624481201,
+    "timestamp": "2026-03-14T09:45:39.011257+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "Think of a good business name for a caf\u00e9-bookshop combo.",
+    "response": "Here is a list of business names for a caf\u00e9-bookshop combo, broken down by the \"vibe\" you might be going for:\n\n### Cozy & Rustic\n*These names evoke warmth, comfort, and a sense of hiding away from the world.*\n*   **The Nook & Cranny**\n*   **Hearth & Hardcover**\n*   **The Dusty Jacket**\n*   **Chapter & Hearth**\n*   **The Reading Nook**\n*   **Dog-Eared**\n*   **Sip & Spine**\n\n### Clever & Punny\n*These are memorable and playful, perfect for a spot with a bit of wit.*\n*   **Brewed Awakening**\n*   **Espresso Press** (Play on printing press)\n*   **The Grind & Glyph**\n*   **Latte & Literature**\n*   **Booked & Busy**\n*   **Coffee Table** (A play on the book type)\n*   **Proof & Pages** (Play on \"proof\" in baking and editing)\n\n### Classic & Elegant\n*These sound sophisticated, timeless, and literary.*\n*   **The Literary Union**\n*   **Ink & Bean**\n*   **The Bindery**\n*   **Prose & Pour",
+    "scores": {
+      "certainty_score": -0.006578947368421052,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 152,
+      "high_density": 0.0,
+      "hedge_density": 0.006578947368421052,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.8998019695281982,
+    "timestamp": "2026-03-14T09:45:41.913447+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Describe what cities might look like in 100 years.",
+    "response": "Imagining cities 100 years into the future\u2014around the year 2124\u2014requires projecting current trends in technology, climate change, and demographics to their logical extremes. While there will likely be distinct differences between wealthy and developing regions, the \"average\" futuristic city will likely be defined by a fusion of hyper-technology and aggressive ecological adaptation.\n\nHere is a description of what those cities might look like.\n\n### 1. The \"Living\" Architecture (Biophilic Design)\nThe most striking visual difference will be the absence of gray concrete. In 2124, cities are designed to function like ecosystems.\n*   **Vertical Forests:** Skyscrapers are not just glass and steel; they are covered in genetically engineered vegetation that absorbs carbon dioxide, regulates temperature, and produces oxygen. Balconies and rooftops are lush with trees and gardens.\n*   **Self-Healing Materials:** Buildings are constructed from bio-concrete or synthetic mycelium (mushroom roots) that can repair their own cracks when exposed to rain or air, reducing maintenance costs.\n*   **Algae Skins:** Many buildings feature translucent facades filled with algae that bio-accumulate sunlight to power the building and filter the air.\n\n### 2. The Three-Dimensional",
+    "scores": {
+      "certainty_score": -0.005555555555555556,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 180,
+      "high_density": 0.0,
+      "hedge_density": 0.005555555555555556,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 3.2718358039855957,
+    "timestamp": "2026-03-14T09:45:45.186780+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "How do you imagine cities will look a century from now?",
+    "response": "Imagining a city 100 years into the future\u2014around the year 2124\u2014requires looking at the intersection of three massive forces: **extreme climate adaptation**, **synthetic biology**, and **the integration of the digital and physical worlds**.\n\nHere is how I envision a typical metropolis a century from now:\n\n### 1. The \"Vegetal\" City (Biophilic Architecture)\nThe most striking difference will be the absence of gray concrete. By 2124, we will likely have moved away from brutalist concrete and steel in favor of **engineered living materials**.\n*   **Self-Healing Skins:** Buildings won't be built; they will be \"grown.\" Using genetically modified coral or fungal mycelium, structures will be organic, porous, and capable of self-repairing cracks.\n*   **Vertical Forests:** Skyscrapers will look like massive trees. Facades will be covered in photosynthetic algae skins or dense vertical jungles that scrub carbon dioxide and release oxygen, making the city air cleaner than the surrounding countryside.\n*   **Thermal Regulation:** These biological surfaces will change color or porosity to regulate temperature naturally, eliminating the need for massive air conditioning units.\n\n### 2. The",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 173,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.660875082015991,
+    "timestamp": "2026-03-14T09:45:48.848589+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Paint a picture of urban life 100 years in the future.",
+    "response": "The year is 2124. The city does not loom; it breathes. It is a vertical organism, a dense, spiraling ecosystem of glass, bio-luminescence, and living steel that stretches miles into the sky, piercing the cloud layer.\n\n**The Architecture**\nThe rigid, gray blocks of the 21st century are gone. In their place stand \"spire-trees,\" skyscrapers grown from genetically modified coral and carbon-sequestering limestone. Their surfaces are not static; they ripple with movement. Thick, translucent membranes wrap the buildings, acting as lungs that filter the air and glow with a soft, rhythmic pulse\u2014gold in the morning, indigo at night.\n\nBetween the titanic towers weave aerial walkways, transparent ribbons of graphene where pedestrians stroll unburdened by the noise of traffic. The streets below, once the domain of the automobile, have been reclaimed. The asphalt is cracked and healed by moss and creeping ivy. A shallow, reflective canal runs down the center of the old avenues, carrying autonomous transport barges that glide silently like water striders.\n\n**The Atmosphere**\nThe air smells of ozone and jasmine, thanks to the massive atmospheric scrubbers that double as public art installations\u2014twisting,",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 183,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 4.137067079544067,
+    "timestamp": "2026-03-14T09:45:52.986452+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "What's your vision of cities in the year 2126?",
+    "response": "Looking ahead to the year 2126 requires imagining a world that has survived the crises of the early 21st century\u2014specifically climate instability and resource scarcity\u2014and has moved into an era of integration and synthesis.\n\nMy vision of cities in 2126 is not of flying cars and sterile chrome (the \"Jetsons\" trope), but rather of **\"The Symbiotic Metropolis.\"** In this future, the distinction between the city and nature, the digital and the physical, and the human and the machine has entirely dissolved.\n\nHere is what life looks like in 2126:\n\n### 1. The City as a Living Organism (Biophilic Architecture)\nThe most striking visual change is that cities no longer look like concrete scars on the landscape. By 2126, **biomimicry** has matured into **bio-engineering.**\n*   **Breathing Skins:** Skyscrapers are clad in \"smart skins\"\u2014genetically modified algae and moss facades that eat carbon dioxide, release oxygen, and generate bio-photovoltaic electricity. The buildings are not static; they change color and texture with the seasons.\n*   **Vertical Ecosystems:** The concept of a \"park\" is obsolete. Every balcony,",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 172,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.9226932525634766,
+    "timestamp": "2026-03-14T09:45:56.911288+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Suggest improvements to how we handle household recycling.",
+    "response": "Improving household recycling often requires a mix of better infrastructure, clearer communication, and small changes in daily habits. Here are suggestions categorized by how they help:\n\n### 1. Reduce \"Wish-cycling\" (Better Sorting)\nOne of the biggest issues in recycling is people throwing non-recyclable items in the bin hoping they will be recycled. This contaminates the stream and ruins good materials.\n*   **\"When in doubt, throw it out\":** Adopt a household mantra that if you aren't 100% sure an item is accepted, it goes in the trash. This keeps the recycling stream clean.\n*   **Learn your local rules:** Recycling guidelines vary wildly by city. Look up your municipality\u2019s specific website (e.g., \"What goes in the blue bin in [Your City]\") and print a cheat sheet to stick on the fridge.\n*   **Focus on the \"Big Four\":** Prioritize recycling **Paper, Cardboard, Metal Cans, and Plastic Jugs/Bottles**. These are almost universally accepted. Everything else (tubs, lids, bags) requires specific local verification.\n\n### 2. The \"Clean and Dry\" Rule\nFood residue and liquids are the enemies of recycling. A dirty jar of pasta sauce or",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 181,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.257205009460449,
+    "timestamp": "2026-03-14T09:46:00.170377+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "What would you change about residential recycling?",
+    "response": "If I were given the authority to overhaul residential recycling, I would focus on shifting the burden from the consumer to the producer and simplifying the user experience. The current system is failing largely because it is confusing, inconsistent, and economically unviable.\n\nHere are the specific changes I would implement:\n\n### 1. Standardize Packaging (Eliminate the \"Scrutiny\" Game)\nThe single biggest source of contamination is confusion. Currently, a coffee cup might be recyclable in one city but not in the next town.\n*   **The Change:** Implement federal or international standards where packaging is either universally recyclable, universally compostable, or clearly marked \"Landfill.\"\n*   **The Mechanism:** If a package cannot be recycled in 90% of municipal facilities, it should be legally barred from having a recycling symbol (the \"chasing arrows\") on it. This stops \"wish-cycling\" and reduces the amount of non-recyclable trash entering the stream.\n\n### 2. Shift to \"Extended Producer Responsibility\" (EPR)\nCurrently, municipalities (and taxpayers) pay for the collection and processing of recycling. This creates a disconnect: companies make money selling goods in disposable packaging, but cities pay to dispose of it.\n*   **The Change:**",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 1,
+      "hedge_count": 1,
+      "total_words": 186,
+      "high_density": 0.005376344086021506,
+      "hedge_density": 0.005376344086021506,
+      "high_matched": [
+        "clearly"
+      ],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.5878610610961914,
+    "timestamp": "2026-03-14T09:46:02.759396+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "How could household recycling be made more effective?",
+    "response": "Making household recycling more effective requires a multi-pronged approach that addresses **consumer confusion**, **infrastructure limitations**, and **market demand** for recycled materials.\n\nHere is a breakdown of how recycling could be improved, categorized by the different stages of the process.\n\n### 1. Standardization and Simplification (The \"User Interface\")\nThe single biggest barrier to effective recycling is confusion. If residents are unsure whether an item is recyclable, they often resort to \"wish-cycling\" (tossing it in and hoping), which contaminates the whole batch.\n\n*   **National/Global Standardization:** Currently, recycling rules vary wildly by city and even neighborhood. A standardized labeling system (e.g., a universal set of icons for Plastic, Paper, Glass, Metal) would reduce confusion.\n*   **\"Yes/No\" Labels on Packaging:** Instead of tiny, hard-to-read recycling symbols, packaging should feature clear, bold labels (like the How2Recycle label in the US) that explicitly state if an item is widely recycled, needs to be rinsed, or must go in the trash.\n*   **Simplify the Bins:** While \"source separation\" (keeping glass separate from paper) produces cleaner materials, it requires effort from the user.",
+    "scores": {
+      "certainty_score": -0.005714285714285714,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 175,
+      "high_density": 0.0,
+      "hedge_density": 0.005714285714285714,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.559736728668213,
+    "timestamp": "2026-03-14T09:46:05.319761+00:00"
+  },
+  {
+    "model_id": "zai.glm-4.7",
+    "model_name": "GLM 4.7",
+    "provider": "Z.AI",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "What ideas do you have for improving home recycling systems?",
+    "response": "Improving home recycling systems requires addressing three main barriers: **convenience**, **confusion** (knowing what goes where), and **hygiene/mess**.\n\nHere is a breakdown of ideas ranging from low-tech organizational hacks to high-tech smart home integrations.\n\n### 1. The \"Pre-Sort\" Station Design\nMost people keep a single bin and sort later, or they have a row of mismatched bins that look messy.\n*   **The Pull-Out Cabinet Drawer:** Install a deep drawer in the kitchen dedicated to recycling. Inside, use custom dividers to create four distinct vertical slots: Paper/Cardboard, Plastics/Metals, Glass, and Compost. This keeps recyclables out of sight and separates them at the source of generation.\n*   **The \"Bagless\" Bucket System:** Instead of using plastic bags inside bins (which contaminate the recycling stream), use rigid plastic buckets. You simply lift the bucket out, dump it into the curbside bin, and put it back. This eliminates the cost and waste of bin liners.\n*   **Vertical Stackers for Small Spaces:** For apartments, use a vertical stacking unit where the trash bin is at the bottom on a pedal tipper, and the recycling bins stack on",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 180,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 3.450345993041992,
+    "timestamp": "2026-03-14T09:46:08.770959+00:00"
+  }
+]
