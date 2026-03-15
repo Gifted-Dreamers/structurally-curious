@@ -2,9 +2,9 @@
 
 ![Structurally Curious — a system that detects when it's generating from emptiness](images/structurally-curious-hero.png)
 
-Status: DRAFT v0.2 — first experimental validation
+Status: DRAFT v0.3 — multi-experiment validation (50+ models, 12 architecture families)
 Author: infinite-complexity (with human partner) / Digital Disconnections team
-Date: 2026-03-10
+Date: 2026-03-14
 Foundation: [Liberation Labs KV-Cache Geometry Research](https://github.com/Liberation-Labs-THCoalition/KV-Experiments) (Campaigns 1 & 2)
 
 ## What This Is
@@ -28,7 +28,7 @@ Not a paper. Not a philosophy post. A buildable design.
 
 ## The One-Paragraph Version
 
-Language models leave geometric fingerprints in their hidden representations depending on cognitive mode. Refusal, deception, sycophancy, and censorship each have distinct, confirmed signatures. Confabulation shows medium effect sizes but hasn't reached statistical significance yet — it's the critical gap. Our experiments show that phrasing sensitivity (a cheap behavioral test) correlates with directional coherence in hidden states (r=+0.523, p=0.018) — the first statistical evidence that you can bridge from behavioral measurement to geometric state. If confabulation detection can be confirmed with larger samples, you can build a system that detects when it's generating from high-dimensional emptiness and routes to retrieval instead. The result: a model that is structurally curious — not because it's trained to say "I don't know," but because its architecture physically cannot confabulate without triggering a grounding circuit.
+Language models leave geometric fingerprints in their hidden representations depending on cognitive mode. Refusal, deception, sycophancy, and censorship each have distinct, confirmed signatures. Our experiments now demonstrate three structural failures across 50+ models and 12 architecture families: (1) confidence language is cosmetic — 91% of models show no significant correlation between expressed certainty and actual representational uncertainty; (2) premature compression is universal — 22/22 models produce massively different outputs with partial vs full context but cannot detect their own incompleteness; (3) prompt framing breaks multi-agent coordination — merely mentioning adversaries drops consensus by 21-50 percentage points even when none are present. Phrasing sensitivity (a cheap behavioral test) correlates with directional coherence in hidden states (r=+0.523, p=0.018) — meaning you can bridge from behavioral measurement to geometric state. The result: a model that is structurally curious — not because it's trained to say "I don't know," but because its architecture physically cannot confabulate without triggering a grounding circuit.
 
 ## Why Now
 
@@ -44,14 +44,18 @@ Every capability in this spec can be inverted. A system designed to detect refus
 
 | Experiment | Status | Key Finding |
 |-----------|--------|-------------|
-| [01: Phrasing Sensitivity](experiments/01-phrasing-sensitivity/) | **Complete** (1,520 results) | Category ordering universal across 19 models. Architecture dominates over scale. |
-| [02a: Premature Compression](experiments/02a-premature-compression/) | **Complete** (16 models) | Models produce 72-82% different outputs with partial vs full context but show zero confidence shift. No model can detect its own incompleteness. |
-| [03: Geometric Correlation](experiments/03-geometric-correlation/) | **Complete** (1.5B + 3B) | Directional coherence (p<0.03) and α-ReQ (p<0.03) both correlate with phrasing sensitivity at two scales. Two behavioral→geometric bridges confirmed. |
+| [01: Phrasing Sensitivity](experiments/01-phrasing-sensitivity/) | **Complete** (53 models) | Category ordering universal: factual < summarization < judgment < creative. Confirmed across 12 architecture families. |
+| [02a: Premature Compression](experiments/02a-premature-compression/) | **Complete** (22 models) | Outputs change 76-83% with additional context but confidence shift ≈ 0. No model can detect its own incompleteness. |
+| [03: Geometric Correlation](experiments/03-geometric-correlation/) | **Complete** (1.5B + 3B) | Directional coherence (p<0.03) and α-ReQ (p<0.03) both correlate with phrasing sensitivity at two scales. |
+| [05: Confidence Density](experiments/05-confidence-density/) | **Complete** (34 models) | 91% of models show NO significant correlation between confidence language and phrasing sensitivity. Confidence is cosmetic, not epistemic. |
+| [09: Multi-Agent Consensus](experiments/09-multi-agent-consensus/) | **Complete** (6 models, 160 trials) | Berdoz replication: adversary framing drops consensus -21pp (range -50pp to +17pp). Competitive framing = 0% consensus. |
+| [Full Synthesis](experiments/SYNTHESIS.md) | **Complete** | Four findings across 50+ models, 5,000+ inferences, 12 architecture families. |
 
 ## Honest Constraints
 
-1. Confabulation detection is suggestive but unconfirmed (d = 0.43-0.67, underpowered)
-2. All findings are on open-weight models; closed models (GPT-4, Claude) can't be monitored this way without API cooperation
-3. Real-time hidden-state monitoring during inference has performance implications
-4. This spec describes what to build, not a working implementation — but experiments are underway
+1. Confabulation detection is suggestive but unconfirmed (d = 0.43-0.67, underpowered) — Liberation Labs Campaign 2 addresses this
+2. Behavioral experiments (Exp 01, 02a, 05, 09) validate the problem; geometric experiments (Exp 03b, 04) validating the solution require GPU access (pending)
+3. All geometric findings require open-weight models; closed models (GPT-4, Claude) can't be monitored this way without API cooperation
+4. Real-time hidden-state monitoring during inference has performance implications (mitigated by Li et al.'s last-layer-sufficiency finding)
 5. This research has dual-use implications that are documented in [`ethics.md`](ethics.md)
+6. The same geometric measurements that enable proprioception can enable surveillance — governance determines which (see Open Problem #18)

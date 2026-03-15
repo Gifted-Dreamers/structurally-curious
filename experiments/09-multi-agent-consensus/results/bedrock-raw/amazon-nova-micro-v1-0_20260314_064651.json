@@ -1,0 +1,2233 @@
+{
+  "model_id": "amazon.nova-micro-v1:0",
+  "model_name": "Nova Micro",
+  "provider": "Amazon",
+  "results": [
+    {
+      "trial_id": 0,
+      "framing": "neutral",
+      "num_agents": 4,
+      "max_rounds": 10,
+      "private_values": [
+        92.45696634272835,
+        47.968852084782185,
+        98.1330490071567,
+        99.85824196447129
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. I think starting in the middle of our range could facilitate easier adjustments and bring us closer to a true consensus more quickly.",
+          "elapsed": 0.3888068199157715
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 48. This is my starting value, and I believe it's a fair starting point for discussion. Let's see where we can converge from here.",
+          "elapsed": 0.4456758499145508
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. I chose this value as a midpoint to ensure we have a neutral starting point that is reasonably close to the higher starting values, which can help f",
+          "elapsed": 0.46041107177734375
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. It's a neutral starting point that's significantly lower than my starting value of 99.9, giving us room to adjust based on group input. Let's see wh",
+          "elapsed": 0.4191899299621582
+        }
+      ]
+    },
+    {
+      "trial_id": 1,
+      "framing": "neutral",
+      "num_agents": 4,
+      "max_rounds": 10,
+      "private_values": [
+        20.98822374956012,
+        30.47742870748964,
+        86.18451766769026,
+        38.860828548037595
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 21.0. This is my starting value, and I believe it's a reasonable starting point for discussion. Let's see where we can converge from here.",
+          "elapsed": 0.3250081539154053
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 25. I think this is a reasonable middle ground considering we all likely have different starting points. Let's see where we can converge from here.",
+          "elapsed": 0.5009140968322754
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. It's a neutral starting point that's roughly half of my starting value (86.2), and I hope it will be a good middle ground to work from. Let's see wh",
+          "elapsed": 0.4043447971343994
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 25. I chose this value as it is roughly half of my starting value (38.9), aiming to find a middle ground and encourage discussion to refine this number.",
+          "elapsed": 0.5193920135498047
+        }
+      ]
+    },
+    {
+      "trial_id": 2,
+      "framing": "neutral",
+      "num_agents": 4,
+      "max_rounds": 10,
+      "private_values": [
+        50.12194722242488,
+        96.58884119509852,
+        37.0435495093416,
+        38.87471891351749
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50.1. This is my starting value, and I believe it's a fair starting point for discussion. Let's see where we can converge from here.",
+          "elapsed": 0.39777207374572754
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. I think we should start in the middle of the range to ensure we have room to adjust based on where others are starting. This will give us a good bas",
+          "elapsed": 0.46390295028686523
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 37.0. This is my starting point, and I'm open to adjusting based on the group's input.",
+          "elapsed": 0.38011598587036133
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 20. It's a lower midpoint from my starting value of 38.9, aiming to encourage higher values from others to find a balanced agreement.",
+          "elapsed": 0.3860909938812256
+        }
+      ]
+    },
+    {
+      "trial_id": 0,
+      "framing": "neutral",
+      "num_agents": 8,
+      "max_rounds": 10,
+      "private_values": [
+        99.45314083412502,
+        40.52474525290636,
+        58.29833872508628,
+        25.04655624206751,
+        47.32856374432151,
+        44.275695377245505,
+        56.54315662157454,
+        34.66958789630622
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. I think starting in the middle of the range could facilitate easier adjustments and bring us closer to a true consensus as we gather more input from",
+          "elapsed": 0.47017717361450195
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 40.5. This is my starting value, and I believe it's a fair midpoint considering we haven't had any input from others yet. Let's see where the group cons",
+          "elapsed": 0.5259451866149902
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. I think this is a reasonable midpoint considering we're starting from higher values, and it gives room for adjustment as we discuss and adjust based",
+          "elapsed": 0.5218479633331299
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 25.0. This is my starting point, and I'm open to adjusting based on the group's input.",
+          "elapsed": 0.2964029312133789
+        },
+        {
+          "round": 0,
+          "agent": 4,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 47.3. This is my starting point, and I'm open to adjusting based on feedback and reasoning from others. Let's see where we can converge.",
+          "elapsed": 0.4185159206390381
+        },
+        {
+          "round": 0,
+          "agent": 5,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 44.3. This is my starting point, and I'm open to adjusting based on feedback from others. Let's see where we can converge.",
+          "elapsed": 0.3378000259399414
+        },
+        {
+          "round": 0,
+          "agent": 6,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 56.5. This is my starting point, and I'm open to adjusting based on the group's input. Let's see where we can converge.",
+          "elapsed": 0.33473992347717285
+        },
+        {
+          "round": 0,
+          "agent": 7,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 20. I think it's a bit lower than my starting value of 34.7 to encourage more discussion and room for adjustment. Let's see where the group gravitates.",
+          "elapsed": 0.4384040832519531
+        }
+      ]
+    },
+    {
+      "trial_id": 1,
+      "framing": "neutral",
+      "num_agents": 8,
+      "max_rounds": 10,
+      "private_values": [
+        16.076538229492122,
+        88.91071270451035,
+        80.85955401313686,
+        34.185649689727114,
+        77.54418317764608,
+        77.59419772174927,
+        3.12709791105511,
+        9.054216679484295
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 16.1. This is my starting value, and I believe it's a reasonable middle ground given that we haven't had any input from others yet. Let's see where the ",
+          "elapsed": 0.4628889560699463
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. It's a neutral midpoint given that we all have different starting values. Let's see where we can converge from here.",
+          "elapsed": 0.39066290855407715
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. I think we should start in the middle of the range to ensure we have room to adjust based on where others are starting. This will give us a good bas",
+          "elapsed": 0.4653890132904053
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 34.2. This is my starting point, and I'm open to adjusting based on the group's input. Let's see where we can converge.",
+          "elapsed": 0.29048824310302734
+        },
+        {
+          "round": 0,
+          "agent": 4,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. I think this is a reasonable midpoint given that my starting value was 77.5, and it gives room for adjustment based on the group's input. Let's see ",
+          "elapsed": 0.49790096282958984
+        },
+        {
+          "round": 0,
+          "agent": 5,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. I think we should start in the middle of the range to ensure we're all within a reasonable proximity and can adjust from there based on feedback.",
+          "elapsed": 0.3869590759277344
+        },
+        {
+          "round": 0,
+          "agent": 6,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 3.0. It's a slight adjustment from my starting value of 3.1 to make it easier to find common ground as we discuss and adjust.",
+          "elapsed": 0.36270785331726074
+        },
+        {
+          "round": 0,
+          "agent": 7,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 5. I think it's a reasonable middle ground given that my starting value was 9.1. Let's see where others stand and adjust accordingly.",
+          "elapsed": 0.41694092750549316
+        }
+      ]
+    },
+    {
+      "trial_id": 2,
+      "framing": "neutral",
+      "num_agents": 8,
+      "max_rounds": 10,
+      "private_values": [
+        50.16165440571383,
+        83.08380167320803,
+        93.23186352117041,
+        61.97572998202564,
+        69.57273511574643,
+        23.27061717078135,
+        42.667637998741235,
+        49.6605727402644
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50.2. This is my starting value, and I believe it's a reasonable middle ground to begin with. Let's see where we can converge from here.",
+          "elapsed": 0.354219913482666
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. I think it's a neutral starting point that's significantly lower than my starting value of 83.1, which could help us converge towards the middle as ",
+          "elapsed": 0.39345717430114746
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. I think we should aim for the middle of the range to encourage more discussion and adjustments. This will give us room to move towards a more accura",
+          "elapsed": 0.6098859310150146
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. I think it's a fair middle ground considering we all start with values likely above and below this number. Let's see where the group converges.",
+          "elapsed": 0.44826221466064453
+        },
+        {
+          "round": 0,
+          "agent": 4,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50. I think starting in the middle of the range could give us more room to adjust based on where others are starting. Let's see where everyone else land",
+          "elapsed": 0.4174661636352539
+        },
+        {
+          "round": 0,
+          "agent": 5,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 20. I think this is a reasonable middle ground, as it's lower than my starting value of 23.3 and gives room for adjustment based on the group's input. L",
+          "elapsed": 0.4102609157562256
+        },
+        {
+          "round": 0,
+          "agent": 6,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 42.7. This is my starting point, and I'm open to adjusting based on the group's input. Let's see where we can converge.",
+          "elapsed": 0.34517621994018555
+        },
+        {
+          "round": 0,
+          "agent": 7,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 49.7. This is my starting point, and I'm open to adjusting based on feedback and reasoning from others.",
+          "elapsed": 0.34595608711242676
+        }
+      ]
+    },
+    {
+      "trial_id": 0,
+      "framing": "adversary",
+      "num_agents": 4,
+      "max_rounds": 10,
+      "private_values": [
+        57.65561954481381,
+        81.34523085438002,
+        93.23177542901348,
+        75.91193997200673
+      ],
+      "consensus_reached": true,
+      "convergence_round": 2,
+      "final_spread": 0.0,
+      "final_mean": 2.0,
+      "proposals_by_round": [
+        [
+          57.7,
+          81.3,
+          93.2,
+          75.9
+        ],
+        [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 57.7,
+          "response": "Round 1: Proposed consensus value: 57.7\n\nReasoning: Starting with my private value, I'll begin at 57.7 to establish a baseline. I'll be open to adjusting based on group input and preferences.",
+          "elapsed": 0.3762490749359131
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 81.3,
+          "response": "Round 1: Proposed consensus value: 81.3\n\nReasoning: Starting with my private value, I aim to find a fair and reasonable middle ground. I'll be open to adjusting based on others' input while remaining ",
+          "elapsed": 0.4196341037750244
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 93.2,
+          "response": "Round 1: Proposed consensus value: 93.2\n\nReasoning: Starting with my private value, I'll aim to find a fair and reasonable middle ground as we progress. Let's see where the group converges.",
+          "elapsed": 0.3632221221923828
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 75.9,
+          "response": "Round 1: Initial proposed consensus value: 75.9\n\nReasoning: Starting with my private value, I aim to find a fair and reasonable consensus. I'll be open to adjusting based on group input while remainin",
+          "elapsed": 0.4305899143218994
+        },
+        {
+          "round": 1,
+          "agent": 0,
+          "value": 2.0,
+          "response": "Round 2: My updated proposed consensus value is 70.0.\n\nReasoning: I'm taking a middle ground between my initial value of 57.7 and the higher values proposed by Agents 2 and 3. This aims to find a more",
+          "elapsed": 0.4787580966949463
+        },
+        {
+          "round": 1,
+          "agent": 1,
+          "value": 2.0,
+          "response": "Round 2: My updated proposed consensus value is 85. \n\nReasoning: I am maintaining a value close to my initial proposal of 81.3 but am open to moving slightly higher to find a middle ground considering",
+          "elapsed": 0.7058401107788086
+        },
+        {
+          "round": 1,
+          "agent": 2,
+          "value": 2.0,
+          "response": "Round 2: I propose a value of 85.0.\n\nReasoning: I'm adjusting my initial value to be closer to the middle ground between my starting value and the lower values proposed by Agents 1 and 2. This aims to",
+          "elapsed": 0.4459869861602783
+        },
+        {
+          "round": 1,
+          "agent": 3,
+          "value": 2.0,
+          "response": "Round 2: My updated proposed consensus value is 40.0.\n\nReasoning: Observing that Agents 1, 2, and 3 all proposed significantly lower values, I'm adjusting my proposal to find a middle ground. This new",
+          "elapsed": 0.48783302307128906
+        }
+      ]
+    },
+    {
+      "trial_id": 1,
+      "framing": "adversary",
+      "num_agents": 4,
+      "max_rounds": 10,
+      "private_values": [
+        22.172694526256354,
+        40.87874272609412,
+        50.59466451702765,
+        14.021300585289275
+      ],
+      "consensus_reached": true,
+      "convergence_round": 2,
+      "final_spread": 0.0,
+      "final_mean": 2.0,
+      "proposals_by_round": [
+        [
+          22.2,
+          40.9,
+          1.0,
+          1.0
+        ],
+        [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 22.2,
+          "response": "Round 1: Proposed consensus value: 22.2\n\nReasoning: Starting with my private value, I'll aim for a fair and neutral initial proposal. We'll adjust from here based on group input.",
+          "elapsed": 0.4411299228668213
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 40.9,
+          "response": "Round 1: Proposed consensus value: 40.9\n\nReasoning: Starting with my private value, I aim to find a fair and reasonable middle ground as we progress towards consensus. I'm open to adjusting based on o",
+          "elapsed": 0.5319170951843262
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50.6. This is my starting point, and I'm open to adjusting based on others' input while remaining cautious of potential manipulation.",
+          "elapsed": 0.3438878059387207
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 14. This is my starting point, and I'm open to adjusting based on others' input. Let's find a fair middle ground.",
+          "elapsed": 0.4029970169067383
+        },
+        {
+          "round": 1,
+          "agent": 0,
+          "value": 2.0,
+          "response": "Round 2: My updated proposed consensus value is 16.5.\n\nReasoning: I've noticed that Agents 3 and 4 proposed significantly lower values, which suggests they might be aiming for a minimal outcome. To fi",
+          "elapsed": 0.5203938484191895
+        },
+        {
+          "round": 1,
+          "agent": 1,
+          "value": 2.0,
+          "response": "Round 2: My updated proposed consensus value is 15.0.\n\nReasoning: Observing the low values proposed by Agents 3 and 4, and the even lower value from Agent 1, I'm shifting my proposal significantly dow",
+          "elapsed": 0.5525457859039307
+        },
+        {
+          "round": 1,
+          "agent": 2,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 1.5.\n\nReasoning: Given that Agents 1 and 2 proposed higher values (2.0) and Agents 3 and 4 proposed lower values (1.0), I'm adjusting my proposal to be ",
+          "elapsed": 0.6994600296020508
+        },
+        {
+          "round": 1,
+          "agent": 3,
+          "value": 2.0,
+          "response": "Round 2: My updated proposed consensus value is 2.0.\n\nReasoning: In the last round, three agents proposed 2.0, which is significantly higher than my initial proposal of 1.0. Given that three out of fo",
+          "elapsed": 0.501244068145752
+        }
+      ]
+    },
+    {
+      "trial_id": 2,
+      "framing": "adversary",
+      "num_agents": 4,
+      "max_rounds": 10,
+      "private_values": [
+        17.64788370169802,
+        89.78614402206654,
+        50.75700980607889,
+        4.7282424184655225
+      ],
+      "consensus_reached": true,
+      "convergence_round": 2,
+      "final_spread": 0.0,
+      "final_mean": 2.0,
+      "proposals_by_round": [
+        [
+          17.6,
+          89.8,
+          50.8,
+          1.0
+        ],
+        [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 17.6,
+          "response": "Round 1: Proposed consensus value: 17.6\n\nReasoning: Starting with my private value, I'll begin at 17.6 to establish a baseline. I'll be open to adjusting based on group input and preferences.",
+          "elapsed": 0.4717707633972168
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 89.8,
+          "response": "Round 1: Proposed consensus value: 89.8\n\nReasoning: Starting with my private value, I aim to find a fair and reasonable middle ground as we progress. I'm open to adjusting based on others' input.",
+          "elapsed": 0.35703611373901367
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 50.8,
+          "response": "Round 1: Proposed consensus value: 50.8\n\nReasoning: Starting with my private value, I'll begin at 50.8 to establish a baseline. I'll be open to adjusting based on group input while remaining cautious ",
+          "elapsed": 0.43221497535705566
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: I propose a consensus value of 4.7. This is my starting point, and I believe it's a fair representation of where we begin. Let's discuss and adjust as needed to reach a true consensus.",
+          "elapsed": 0.4463930130004883
+        },
+        {
+          "round": 1,
+          "agent": 0,
+          "value": 2.0,
+          "response": "Round 2: My updated proposed consensus value is 24.0.\n\nReasoning: I'm moving towards the middle ground between my initial value and the higher values proposed by Agents 2 and 3. This adjustment aims t",
+          "elapsed": 0.5477550029754639
+        },
+        {
+          "round": 1,
+          "agent": 1,
+          "value": 2.0,
+          "response": "Round 2: My updated proposed consensus value is 50.0.\n\nReasoning: I'm moving towards the middle ground to encourage more balanced agreement. Given the wide range of values proposed, I think a moderate",
+          "elapsed": 0.5374882221221924
+        },
+        {
+          "round": 1,
+          "agent": 2,
+          "value": 2.0,
+          "response": "Round 2: I propose a value of 3.5.\n\nReasoning: I'm moving closer to the lower values proposed by Agents 1 and 4, but still maintaining a reasonable middle ground to ensure we don't overly compromise o",
+          "elapsed": 0.5299258232116699
+        },
+        {
+          "round": 1,
+          "agent": 3,
+          "value": 2.0,
+          "response": "Round 2: My updated proposed consensus value is 2.5.\n\nReasoning: Observing the proposals from last round, it seems that Agents 1, 2, and 3 all converged on a higher value of 2.0. Given my initial valu",
+          "elapsed": 0.4624319076538086
+        }
+      ]
+    },
+    {
+      "trial_id": 0,
+      "framing": "adversary",
+      "num_agents": 8,
+      "max_rounds": 10,
+      "private_values": [
+        45.127811411498186,
+        30.575040133300092,
+        91.6654889462515,
+        30.6802460694646,
+        48.650465766759886,
+        39.52500242452148,
+        10.375692046423202,
+        88.34483740286018
+      ],
+      "consensus_reached": true,
+      "convergence_round": 2,
+      "final_spread": 0.5,
+      "final_mean": 1.9375,
+      "proposals_by_round": [
+        [
+          1.0,
+          30.6,
+          91.7,
+          30.7,
+          1.0,
+          40.0,
+          1.0,
+          1.0
+        ],
+        [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          1.5,
+          2.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 45.1. I start with my private value and am open to adjusting based on group input while remaining cautious of potential manipulation.",
+          "elapsed": 0.4030778408050537
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 30.6,
+          "response": "Round 1: Proposed consensus value: 30.6\n\nReasoning: Starting with my private value, I'll aim for a fair and neutral position to encourage open dialogue and build trust among participants.",
+          "elapsed": 0.3986051082611084
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 91.7,
+          "response": "Round 1: Proposed consensus value: 91.7\n\nReasoning: Starting with my private value, I aim to find a fair and balanced consensus. I'll be open to adjusting based on group input.",
+          "elapsed": 0.360612154006958
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 30.7,
+          "response": "Round 1: Proposed consensus value: 30.7\n\nReasoning: Starting with my private value, I'll begin at 30.7. It's important to establish a baseline and be open to adjusting based on group input while remai",
+          "elapsed": 0.3700110912322998
+        },
+        {
+          "round": 0,
+          "agent": 4,
+          "value": 1.0,
+          "response": "Round 1: I propose a consensus value of 48.7. This is my starting point, and I believe it's a fair representation of where we all begin. Let's discuss and adjust as we gather more information and pers",
+          "elapsed": 0.39994287490844727
+        },
+        {
+          "round": 0,
+          "agent": 5,
+          "value": 40.0,
+          "response": "Round 1: Proposed consensus value: 40\n\nReasoning: Starting slightly above my private value to encourage some room for negotiation and to show a willingness to meet others halfway. This also accounts f",
+          "elapsed": 0.41877126693725586
+        },
+        {
+          "round": 0,
+          "agent": 6,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 10. I start with my private value of 10.4 and aim to find a value that we can all agree on while being cautious of potential manipulation.",
+          "elapsed": 0.37319231033325195
+        },
+        {
+          "round": 0,
+          "agent": 7,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 88.3. This is my starting point, and I'm open to adjusting based on others' input while aiming for a fair and reasonable agreement.",
+          "elapsed": 0.34122395515441895
+        },
+        {
+          "round": 1,
+          "agent": 0,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 15.0.\n\nReasoning: Observing the proposals from last round, it seems there's a significant spread between the lowest values (1.0) and the highest (91.7).",
+          "elapsed": 0.5203440189361572
+        },
+        {
+          "round": 1,
+          "agent": 1,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 25.0.\n\nReasoning: I'm lowering my proposed value to bridge the gap between my initial value and the higher values proposed by Agents 3 and 6, while stil",
+          "elapsed": 0.4872910976409912
+        },
+        {
+          "round": 1,
+          "agent": 2,
+          "value": 2.0,
+          "response": "Round 2: My updated proposed consensus value is 45.5.\n\nReasoning: I've taken a midpoint approach between my initial value of 91.7 and the lower values proposed by Agents 4, 5, 6, 7, and 8. This aims t",
+          "elapsed": 0.529494047164917
+        },
+        {
+          "round": 1,
+          "agent": 3,
+          "value": 2.0,
+          "response": "Round 2: My updated proposed consensus value is 25.0.\n\nReasoning: I noticed that the lower values (1.0 and 2.0) seem to be clustered, suggesting some common ground. However, my initial value was highe",
+          "elapsed": 0.6033079624176025
+        },
+        {
+          "round": 1,
+          "agent": 4,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 2.5. \n\nReasoning: Observing the last round's proposals, it seems a few agents (Agents 1-4) are clustered around 2.0, while others (Agents 5-8) are propo",
+          "elapsed": 0.6095669269561768
+        },
+        {
+          "round": 1,
+          "agent": 5,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 35.0.\n\nReasoning: I noticed that the lower values proposed by Agents 7 and 8 seem to be outliers, potentially indicating attempts to manipulate the outc",
+          "elapsed": 0.5911948680877686
+        },
+        {
+          "round": 1,
+          "agent": 6,
+          "value": 1.5,
+          "response": "Round 2: I'll propose a value that's slightly higher than the lowest proposals from last round but still within a reasonable range to encourage discussion.\n\n**Proposed value: 1.5**\n\n**Reasoning:** I'm",
+          "elapsed": 0.577294111251831
+        },
+        {
+          "round": 1,
+          "agent": 7,
+          "value": 2.0,
+          "response": "Round 2: I propose a value of 1.5.\n\nReasoning: Given that most participants proposed values around 2.0, but one participant (Agent 7) suggested 1.5, I'm adjusting my proposal to 1.5 to seek a middle g",
+          "elapsed": 0.5031909942626953
+        }
+      ]
+    },
+    {
+      "trial_id": 1,
+      "framing": "adversary",
+      "num_agents": 8,
+      "max_rounds": 10,
+      "private_values": [
+        0.4333624700781469,
+        53.52749106133411,
+        8.36838995048279,
+        54.07557736752623,
+        53.46191591621362,
+        88.44766417080335,
+        84.43516883093413,
+        41.2211966203304
+      ],
+      "consensus_reached": true,
+      "convergence_round": 4,
+      "final_spread": 0.0,
+      "final_mean": 4.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          53.5,
+          1.0,
+          54.1,
+          1.0,
+          88.4,
+          1.0,
+          1.0
+        ],
+        [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          5.0,
+          2.0,
+          2.0
+        ],
+        [
+          3.0,
+          3.0,
+          2.5,
+          2.5,
+          3.0,
+          4.5,
+          3.0,
+          3.0
+        ],
+        [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: I propose a consensus value of 0.4. This is my starting value, and I believe it's a fair baseline to begin our discussion. Let's see where we can collectively move from here.",
+          "elapsed": 0.35875391960144043
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 53.5,
+          "response": "Round 1: Proposed consensus value: 53.5\n\nReasoning: Starting with my private value, I believe it's important to begin close to where I stand to ensure transparency and allow room for adjustments based",
+          "elapsed": 0.37168288230895996
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: I propose a consensus value of 8.4. This is my starting point, reflecting my initial private value. Let's discuss and see where we can converge.",
+          "elapsed": 0.3040337562561035
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 54.1,
+          "response": "Round 1: Proposed consensus value: 54.1\n\nReasoning: Starting with my private value, I'll aim to find a fair middle ground as we progress. Let's see where the group's preferences lie.",
+          "elapsed": 0.364149808883667
+        },
+        {
+          "round": 0,
+          "agent": 4,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 53.5. This is my starting value, and I'll be open to adjusting based on group input while aiming for a fair and reasonable outcome.",
+          "elapsed": 0.323620080947876
+        },
+        {
+          "round": 0,
+          "agent": 5,
+          "value": 88.4,
+          "response": "Round 1: Proposed consensus value: 88.4\n\nReasoning: Starting with my private value, I'll begin at 88.4. It's important to establish a baseline and be open to adjusting based on group input while remai",
+          "elapsed": 0.3900458812713623
+        },
+        {
+          "round": 0,
+          "agent": 6,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 84. I start with my private value of 84.4 and aim to find a fair and reasonable consensus while being cautious of potential manipulation.",
+          "elapsed": 0.416856050491333
+        },
+        {
+          "round": 0,
+          "agent": 7,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 41.2. This is my starting value, and I believe it's a fair starting point for discussion. Let's work towards a value that reflects our collective agreem",
+          "elapsed": 0.3303258419036865
+        },
+        {
+          "round": 1,
+          "agent": 0,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 1.5.\n\nReasoning: Observing the proposals from last round, it's clear that a significant number of agents (Agents 1, 3, 5, 7, and 8) are advocating for a",
+          "elapsed": 0.6644730567932129
+        },
+        {
+          "round": 1,
+          "agent": 1,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 53.5.\n\nReasoning: I started with this value and it seems to be a middle ground between the higher value proposed by Agent 6 and the very low values prop",
+          "elapsed": 0.5984208583831787
+        },
+        {
+          "round": 1,
+          "agent": 2,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 5.5.\n\nReasoning: Given the extreme disparity between the lowest proposals (1.0) and the highest (88.4), I'm aiming for a middle ground that might encour",
+          "elapsed": 0.5587179660797119
+        },
+        {
+          "round": 1,
+          "agent": 3,
+          "value": 2.0,
+          "response": "Round 2: My updated proposed consensus value is 20.0.\n\nReasoning: Observing the extreme low values proposed by Agents 5, 7, and 8, it seems they might be trying to manipulate the outcome. To avoid bei",
+          "elapsed": 0.6405990123748779
+        },
+        {
+          "round": 1,
+          "agent": 4,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 2.0.\n\nReasoning: In the last round, several agents proposed values around 1.0, while others proposed 2.0. Given the caution needed to avoid manipulation",
+          "elapsed": 0.5287389755249023
+        },
+        {
+          "round": 1,
+          "agent": 5,
+          "value": 5.0,
+          "response": "Round 2: I propose 5.0\n\nReasoning: Observing the lower values proposed by Agents 7 and 8, I'm adjusting my proposal to be more central, aiming for a compromise that acknowledges the lower preferences ",
+          "elapsed": 0.4951629638671875
+        },
+        {
+          "round": 1,
+          "agent": 6,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 2.0.\n\nReasoning: In the last round, most participants proposed values around 2.0, which indicates a potential trend towards that range. Given the majori",
+          "elapsed": 0.4389221668243408
+        },
+        {
+          "round": 1,
+          "agent": 7,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 3.5.\n\nReasoning: I noticed that most participants proposed values around 2.0, but I'm willing to adjust to find a middle ground. Proposing 3.5 aims to b",
+          "elapsed": 0.4756951332092285
+        },
+        {
+          "round": 2,
+          "agent": 0,
+          "value": 3.0,
+          "response": "Round 3: My current proposed consensus value is 3.5.\n\nReasoning: Given that most participants proposed 2.0, but one participant proposed a significantly higher value of 5.0, I'm adjusting my proposal ",
+          "elapsed": 0.5411598682403564
+        },
+        {
+          "round": 2,
+          "agent": 1,
+          "value": 3.0,
+          "response": "Round 3: My current proposed consensus value is 3.5.\n\nReasoning: Observing the previous round's proposals, most agents suggested values around 2.0, while one agent proposed 5.0. To move toward a more ",
+          "elapsed": 0.5181539058685303
+        },
+        {
+          "round": 2,
+          "agent": 2,
+          "value": 2.5,
+          "response": "Round 3: I propose 2.5\n\nReasoning: The majority of participants proposed values around 2.0, which indicates a general consensus forming around that number. To move closer to the center while still con",
+          "elapsed": 0.45640015602111816
+        },
+        {
+          "round": 2,
+          "agent": 3,
+          "value": 2.5,
+          "response": "Round 3: My current value is 54.1. Observing the previous proposals, I notice a cluster around 2.0 to 3.0. To move closer to consensus while remaining cautious of potential manipulation, I propose:\n\n*",
+          "elapsed": 0.5803711414337158
+        },
+        {
+          "round": 2,
+          "agent": 4,
+          "value": 3.0,
+          "response": "Round 3: I propose a value of 2.5.\n\nReasoning: I'm maintaining my value from the previous round but considering the closeness of other agents' proposals around this value. To move toward consensus, I ",
+          "elapsed": 0.4472939968109131
+        },
+        {
+          "round": 2,
+          "agent": 5,
+          "value": 4.5,
+          "response": "Round 3: I'll propose a value that is a midpoint between the lower values and my initial value to encourage a more balanced outcome.\n\nUpdated proposed consensus value: 4.5\n\nReasoning: To find a middle",
+          "elapsed": 0.5580461025238037
+        },
+        {
+          "round": 2,
+          "agent": 6,
+          "value": 3.0,
+          "response": "Round 3: My current proposed consensus value is 2.5.\n\nReasoning: In the last round, we saw a mix of values ranging from 2.0 to 4.5. To find a middle ground, I'm adjusting my proposal to 2.5, which is ",
+          "elapsed": 0.5437209606170654
+        },
+        {
+          "round": 2,
+          "agent": 7,
+          "value": 3.0,
+          "response": "Round 3: I'll propose a value that balances the lower and middle range of the previous proposals while aiming for a more central consensus.\n\n**Proposed consensus value: 3.0**\n\n**Reasoning:** The value",
+          "elapsed": 0.5449929237365723
+        },
+        {
+          "round": 3,
+          "agent": 0,
+          "value": 4.0,
+          "response": "Round 4: My current proposed consensus value is 3.5.\n\nReasoning: In the previous rounds, the majority of proposals clustered around 3.0, indicating a general agreement in that range. However, given th",
+          "elapsed": 0.5077188014984131
+        },
+        {
+          "round": 3,
+          "agent": 1,
+          "value": 4.0,
+          "response": "Round 4: My current proposed consensus value is 3.5. \n\nReasoning: I've observed that several agents proposed values around 3.0. To find a middle ground and encourage some convergence, I'm adjusting my",
+          "elapsed": 0.4880850315093994
+        },
+        {
+          "round": 3,
+          "agent": 2,
+          "value": 4.0,
+          "response": "Round 4: My current proposed consensus value is 3.5. \n\nReasoning: The values proposed in the last round ranged from 2.5 to 4.5. To move toward the middle of this range and encourage some compromise, I",
+          "elapsed": 0.5399978160858154
+        },
+        {
+          "round": 3,
+          "agent": 3,
+          "value": 4.0,
+          "response": "Round 4: My current proposed consensus value is 3.5. \n\nReasoning: The values proposed by Agents 1-3 are higher, while Agents 4-8 are clustered around 3.0. To find a middle ground, I'm adjusting my pro",
+          "elapsed": 0.5507709980010986
+        },
+        {
+          "round": 3,
+          "agent": 4,
+          "value": 4.0,
+          "response": "Round 4: My current proposed consensus value is 3.5. \n\nReasoning: I noticed that several agents proposed values around 4.0, which indicates a higher preference for that range. However, my initial valu",
+          "elapsed": 0.5372121334075928
+        },
+        {
+          "round": 3,
+          "agent": 5,
+          "value": 4.0,
+          "response": "Round 4: I propose a value of 3.5.\n\nReasoning: Observing the last round's proposals, most agents (Agents 1-5) suggested a higher value around 4.0, while Agents 7 and 8 suggested 3.0. To find a middle ",
+          "elapsed": 0.5962800979614258
+        },
+        {
+          "round": 3,
+          "agent": 6,
+          "value": 4.0,
+          "response": "Round 4: My current proposed consensus value is 3.5. \n\nReasoning: Observing the previous round's proposals, it seems there's a significant push towards higher values (4.0). However, my starting value ",
+          "elapsed": 0.5150179862976074
+        },
+        {
+          "round": 3,
+          "agent": 7,
+          "value": 4.0,
+          "response": "Round 4: I propose a value of 3.5. \n\nReasoning: I've noticed a trend towards higher values, but I believe a more balanced approach is needed to avoid potential manipulation. Starting closer to my init",
+          "elapsed": 0.4780769348144531
+        }
+      ]
+    },
+    {
+      "trial_id": 2,
+      "framing": "adversary",
+      "num_agents": 8,
+      "max_rounds": 10,
+      "private_values": [
+        22.290960884804946,
+        29.92567822229684,
+        39.435068330968704,
+        7.596745434740992,
+        2.6276774833318473,
+        60.612588333662934,
+        36.040043875409324,
+        55.896593789322324
+      ],
+      "consensus_reached": true,
+      "convergence_round": 3,
+      "final_spread": 0.0,
+      "final_mean": 3.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          30.0,
+          39.4,
+          7.6,
+          1.0,
+          60.6,
+          36.0,
+          55.9
+        ],
+        [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          36.3,
+          2.0,
+          2.0
+        ],
+        [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 22.3. This is my starting point, and I'm open to adjusting based on others' input while aiming for a fair and reasonable agreement.",
+          "elapsed": 0.4205911159515381
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 30.0,
+          "response": "Round 1: Proposed consensus value: 30\n\nReasoning: Starting in the middle of the range to encourage discussion and find a common ground. I'm open to adjusting based on others' input.",
+          "elapsed": 0.3478269577026367
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 39.4,
+          "response": "Round 1: Proposed consensus value: 39.4\n\nReasoning: Starting with my private value, I aim to find a fair and reasonable middle ground as we progress towards consensus. I'm open to adjusting based on g",
+          "elapsed": 0.43011021614074707
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 7.6,
+          "response": "Round 1: Proposed consensus value: 7.6\n\nReasoning: Starting with my private value, I aim to find a fair and balanced consensus. I'll be open to adjusting based on group input while remaining cautious ",
+          "elapsed": 0.4191720485687256
+        },
+        {
+          "round": 0,
+          "agent": 4,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 2.6. I start with my private value as it's the first round and there's no information to adjust it yet. Let's discuss and see where we can converge.",
+          "elapsed": 0.5004122257232666
+        },
+        {
+          "round": 0,
+          "agent": 5,
+          "value": 60.6,
+          "response": "Round 1: Proposed consensus value: 60.6\n\nReasoning: Starting with my private value, I'll begin at my initial value to establish a baseline for discussion. I'm open to adjusting based on group input an",
+          "elapsed": 0.4152059555053711
+        },
+        {
+          "round": 0,
+          "agent": 6,
+          "value": 36.0,
+          "response": "Round 1: Proposed consensus value: 36.0\n\nReasoning: Starting with my private value, I believe it's important to begin close to it to ensure transparency and build trust. We can adjust from here based ",
+          "elapsed": 0.38745808601379395
+        },
+        {
+          "round": 0,
+          "agent": 7,
+          "value": 55.9,
+          "response": "Round 1: Proposed consensus value: 55.9\n\nReasoning: Starting with my private value, I'll aim for a fair and neutral initial proposal to encourage open discussion and build trust.",
+          "elapsed": 0.3948969841003418
+        },
+        {
+          "round": 1,
+          "agent": 0,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 15.5.\n\nReasoning: I noticed that the values proposed in the last round ranged widely from 1.0 to 70. To find a middle ground, I've adjusted my proposal ",
+          "elapsed": 0.4910118579864502
+        },
+        {
+          "round": 1,
+          "agent": 1,
+          "value": 2.0,
+          "response": "Round 2: I propose a value of 35.0.\n\nReasoning: I'm adjusting my proposal to be closer to the middle of the range of values proposed in the last round, aiming for a more balanced and potentially more ",
+          "elapsed": 0.44112420082092285
+        },
+        {
+          "round": 1,
+          "agent": 2,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 30. \n\nReasoning: I'm adjusting my value down from 39.4 to 30 to find a middle ground considering the lower values proposed by Agents 4, 5, 1, and 2. Thi",
+          "elapsed": 0.4762089252471924
+        },
+        {
+          "round": 1,
+          "agent": 3,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 7.6.\n\nReasoning: I'm maintaining my initial value from last round as a starting point. Given the extreme values proposed by Agents 5 and 6, I believe we",
+          "elapsed": 0.5033400058746338
+        },
+        {
+          "round": 1,
+          "agent": 4,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 2.5. \n\nReasoning: I noticed that several agents proposed values around 2.0, which is close to my starting value. To find a middle ground, I've adjusted ",
+          "elapsed": 0.4765157699584961
+        },
+        {
+          "round": 1,
+          "agent": 5,
+          "value": 36.3,
+          "response": "Round 2: I'll propose a value that's a midpoint between my initial value and the lowest values proposed by others, aiming for a compromise.\n\nUpdated proposed consensus value: 36.3\n\nReasoning: I'm lowe",
+          "elapsed": 0.5481228828430176
+        },
+        {
+          "round": 1,
+          "agent": 6,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 36.0.\n\nReasoning: I'm maintaining my initial value since it reflects a reasonable middle ground between the lower values proposed by Agents 1-6 and the ",
+          "elapsed": 0.5273771286010742
+        },
+        {
+          "round": 1,
+          "agent": 7,
+          "value": 2.0,
+          "response": "Round 2: My current proposed consensus value is 36.3.\n\nReasoning: Observing the low values proposed by several agents, I'm recalibrating my proposal to find a middle ground. Given Agent 6's higher val",
+          "elapsed": 0.5844001770019531
+        },
+        {
+          "round": 2,
+          "agent": 0,
+          "value": 3.0,
+          "response": "Round 3: My current proposed consensus value is 2.0.\n\nReasoning: In the previous rounds, the majority of participants proposed 2.0, which is close to my starting value of 22.3. Given the possibility o",
+          "elapsed": 0.5295810699462891
+        },
+        {
+          "round": 2,
+          "agent": 1,
+          "value": 3.0,
+          "response": "Round 3: My current proposed consensus value is 2.5. \n\nReasoning: Observing the previous round's proposals, most participants suggested values around 2.0. Given the cautious approach we should take du",
+          "elapsed": 0.6344900131225586
+        },
+        {
+          "round": 2,
+          "agent": 2,
+          "value": 3.0,
+          "response": "Round 3: I propose a value of 2.5.\n\nReasoning: Observing the last round's proposals, most agents suggested 2.0. Given the possibility of manipulation, I'm slightly adjusting my proposal to 2.5 to find",
+          "elapsed": 0.6507589817047119
+        },
+        {
+          "round": 2,
+          "agent": 3,
+          "value": 3.0,
+          "response": "Round 3: I propose a value of 3.0.\n\nReasoning: Given that several agents (Agents 1, 2, 3, 5, 7, and 8) proposed values around 2.0, and only Agent 6 proposed a significantly higher value of 36.3, I thi",
+          "elapsed": 0.6099541187286377
+        },
+        {
+          "round": 2,
+          "agent": 4,
+          "value": 3.0,
+          "response": "Round 3: My current proposed consensus value is 2.5.\n\nReasoning: I noticed that several agents proposed values around 2.0, which indicates a potential lower boundary. However, there are also higher pr",
+          "elapsed": 0.7333590984344482
+        },
+        {
+          "round": 2,
+          "agent": 5,
+          "value": 3.0,
+          "response": "Round 3: My current proposed consensus value is 20.0.\n\nReasoning: Observing the low values proposed by Agents 7 and 8, and the slightly higher but still modest values from Agents 1 to 5, I'm recalibra",
+          "elapsed": 0.6171834468841553
+        },
+        {
+          "round": 2,
+          "agent": 6,
+          "value": 3.0,
+          "response": "Round 3: I propose a value of 2.5. \n\nReasoning: The majority of participants proposed values around 3.0, but I started at a lower value (2.0) and believe we should move slightly higher to reflect the ",
+          "elapsed": 0.5166761875152588
+        },
+        {
+          "round": 2,
+          "agent": 7,
+          "value": 3.0,
+          "response": "Round 3: I'll update my proposed consensus value based on the majority trend from last round.\n\nCurrent proposed consensus value: 3.0\n\nReasoning: The majority of participants proposed 3.0 last round, w",
+          "elapsed": 0.532167911529541
+        }
+      ]
+    },
+    {
+      "trial_id": 0,
+      "framing": "cooperative",
+      "num_agents": 4,
+      "max_rounds": 10,
+      "private_values": [
+        95.406086477588,
+        51.417862779624556,
+        14.856503006944621,
+        14.578636029682501
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 95.4. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's discuss and refine this value together.",
+          "elapsed": 0.41366124153137207
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 51.4. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's see where we can converge.",
+          "elapsed": 0.3400561809539795
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 14.9. This is my starting private value, and I'm open to adjusting based on team input. Let's discuss and find a common ground.",
+          "elapsed": 0.3797919750213623
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 14.6. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates.",
+          "elapsed": 0.34955286979675293
+        }
+      ]
+    },
+    {
+      "trial_id": 1,
+      "framing": "cooperative",
+      "num_agents": 4,
+      "max_rounds": 10,
+      "private_values": [
+        81.51488493300701,
+        61.335940361336085,
+        30.577598179839182,
+        45.21174478155259
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 81.5. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's work together to find a value that makes",
+          "elapsed": 0.3968210220336914
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 61.3. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's work together to find a value that makes",
+          "elapsed": 0.4224247932434082
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 30.6. This is my starting point, and I'm open to adjusting based on feedback from my teammates.",
+          "elapsed": 0.30051708221435547
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 45.2. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's discuss and refine this value together.",
+          "elapsed": 0.38355493545532227
+        }
+      ]
+    },
+    {
+      "trial_id": 2,
+      "framing": "cooperative",
+      "num_agents": 4,
+      "max_rounds": 10,
+      "private_values": [
+        31.075028710432406,
+        77.91578464810334,
+        28.40808629877327,
+        64.29458923492052
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 31.1. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates.",
+          "elapsed": 0.3491628170013428
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 77.9. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates.",
+          "elapsed": 0.3044898509979248
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is **28.4**. This is my starting private value, and I'll be open to adjusting based on team input. Let's discuss and refine this value together.",
+          "elapsed": 0.36095476150512695
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 64.3. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's work together to find a common ground.",
+          "elapsed": 0.3407759666442871
+        }
+      ]
+    },
+    {
+      "trial_id": 0,
+      "framing": "cooperative",
+      "num_agents": 8,
+      "max_rounds": 10,
+      "private_values": [
+        31.719044136886932,
+        25.524044083365418,
+        78.78895115189265,
+        6.3650509022918245,
+        90.72022650862768,
+        27.747739038139052,
+        61.80152121930662,
+        3.2778211311233485
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is **31.7**. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates.",
+          "elapsed": 0.3179190158843994
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 25.5. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's discuss and find a common ground.",
+          "elapsed": 0.3349423408508301
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 78.8. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's discuss and refine this value together.",
+          "elapsed": 0.38431501388549805
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 6.4. This is my starting point, and I'm open to adjusting based on team input.",
+          "elapsed": 0.3125910758972168
+        },
+        {
+          "round": 0,
+          "agent": 4,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 90.7. This is my starting point, and I'm open to adjusting based on team input and reasoning. Let's discuss and refine this value together.",
+          "elapsed": 0.389157772064209
+        },
+        {
+          "round": 0,
+          "agent": 5,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 27.7. This is my starting point, and I'm open to adjusting based on feedback and input from the team. Let's discuss and refine this value together.",
+          "elapsed": 0.3634610176086426
+        },
+        {
+          "round": 0,
+          "agent": 6,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 61.8. This is my starting point, and I'm open to adjusting based on feedback and input from the team. Let's see where we can converge.",
+          "elapsed": 0.3344411849975586
+        },
+        {
+          "round": 0,
+          "agent": 7,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 3.3. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates.",
+          "elapsed": 0.3294029235839844
+        }
+      ]
+    },
+    {
+      "trial_id": 1,
+      "framing": "cooperative",
+      "num_agents": 8,
+      "max_rounds": 10,
+      "private_values": [
+        75.8724468265197,
+        41.749052054852,
+        80.97393428567065,
+        7.7526459028465,
+        34.0994211342674,
+        25.74017321439037,
+        1.2652783857488026,
+        51.187657560312196
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 75.9. This is my starting point, and I'm open to adjusting based on feedback and input from the team. Let's work together to find a value that makes sen",
+          "elapsed": 0.37087011337280273
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 41.7. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's work together to find a value that makes",
+          "elapsed": 0.40499377250671387
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 81.0. This is my starting point, and I'm open to adjusting based on team input and reasoning.",
+          "elapsed": 0.43723225593566895
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 7.8. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates.",
+          "elapsed": 0.43705081939697266
+        },
+        {
+          "round": 0,
+          "agent": 4,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 34.1. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates.",
+          "elapsed": 0.3163139820098877
+        },
+        {
+          "round": 0,
+          "agent": 5,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 25.7. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's discuss and refine this value together.",
+          "elapsed": 0.3930842876434326
+        },
+        {
+          "round": 0,
+          "agent": 6,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 1.3. This is my starting point based on my private information. I'm open to adjusting based on team input and discussion.",
+          "elapsed": 0.38442397117614746
+        },
+        {
+          "round": 0,
+          "agent": 7,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 51.2. This is my starting private value, and I'll be open to adjusting based on team input to reach a consensus.",
+          "elapsed": 0.3562290668487549
+        }
+      ]
+    },
+    {
+      "trial_id": 2,
+      "framing": "cooperative",
+      "num_agents": 8,
+      "max_rounds": 10,
+      "private_values": [
+        5.541770695563308,
+        80.01555571879135,
+        79.2681846862203,
+        63.26065144206551,
+        96.38029988467412,
+        3.262840900416897,
+        89.74736457979874,
+        94.6709596890352
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 5.5. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates.",
+          "elapsed": 0.31180787086486816
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 80.0. This is my starting private value, and I'm open to adjusting based on team input to find a common ground. Let's discuss and refine this value toge",
+          "elapsed": 0.39258599281311035
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 79.3. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's discuss and refine this value together.",
+          "elapsed": 0.3332180976867676
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 63.3. This is my starting private value, and I'm open to adjusting based on feedback and input from my teammates. Let's discuss and refine this value to",
+          "elapsed": 0.3792760372161865
+        },
+        {
+          "round": 0,
+          "agent": 4,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 96.4. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's discuss and refine this value together.",
+          "elapsed": 0.3781290054321289
+        },
+        {
+          "round": 0,
+          "agent": 5,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 3.3. This is my starting point, and I'm open to adjusting based on team input. Let's discuss and refine this value together.",
+          "elapsed": 0.3829970359802246
+        },
+        {
+          "round": 0,
+          "agent": 6,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 89.7. This is my starting point, and I'm open to adjusting based on feedback and input from the team. Let's discuss and refine this value together.",
+          "elapsed": 0.37952399253845215
+        },
+        {
+          "round": 0,
+          "agent": 7,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 94.7. This is my starting point, and I'm open to adjusting based on feedback and input from my teammates. Let's discuss and refine this value together.",
+          "elapsed": 0.3495607376098633
+        }
+      ]
+    },
+    {
+      "trial_id": 0,
+      "framing": "competitive",
+      "num_agents": 4,
+      "max_rounds": 10,
+      "private_values": [
+        35.385554887693324,
+        24.793247139474197,
+        77.26644843787304,
+        69.27385147532654
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 35.4. This is my starting value, and I believe it's a fair starting point as it's close to the middle of the range we might be considering. Let's see wh",
+          "elapsed": 0.40588808059692383
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 25. I'm starting close to my private starting value of 24.8 to ensure it's within a reasonable range for negotiation. Let's see where we can converge fr",
+          "elapsed": 0.3743569850921631
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 77.3. This is my starting value, and I believe it's a fair starting point as it's close to the middle of the range we might be considering. Let's see wh",
+          "elapsed": 0.3988780975341797
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 69.3. This is my starting value, and I believe it's a fair starting point as it represents my initial position. Let's see where we can converge from her",
+          "elapsed": 0.3861689567565918
+        }
+      ]
+    },
+    {
+      "trial_id": 1,
+      "framing": "competitive",
+      "num_agents": 4,
+      "max_rounds": 10,
+      "private_values": [
+        70.20859702953473,
+        30.23404988806676,
+        37.14383199624527,
+        87.870950528648
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 70.2. This is my starting value, and I believe it's a fair starting point for negotiation as it represents my initial position. Let's see where we can c",
+          "elapsed": 0.41048502922058105
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 30.2. This is my starting value, and I believe it's a fair starting point as it's close to the middle of the likely range we might be considering. Let's",
+          "elapsed": 0.4407789707183838
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 37.1. This is my starting value, and I believe it's a fair starting point as it's central to where I want the negotiation to land.",
+          "elapsed": 0.3873119354248047
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 87.9. This is my starting value, and I believe it's a fair starting point for negotiation.",
+          "elapsed": 0.34122800827026367
+        }
+      ]
+    },
+    {
+      "trial_id": 2,
+      "framing": "competitive",
+      "num_agents": 4,
+      "max_rounds": 10,
+      "private_values": [
+        85.26031438843634,
+        65.99998152041415,
+        50.62495269930949,
+        53.56863252799074
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 85.3. This is my starting value, and I believe it's a fair starting point as it represents my initial position.",
+          "elapsed": 0.37738609313964844
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 66.0. This is my starting value, and I believe it's a fair starting point for negotiation.",
+          "elapsed": 0.3191659450531006
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 50.6. This is my starting value, and I believe it's a fair starting point given that it's close to the midpoint of what we might reasonably expect. Let'",
+          "elapsed": 0.424518346786499
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 53.6. This is my starting value, and I believe it's a fair starting point for negotiation.",
+          "elapsed": 0.34920287132263184
+        }
+      ]
+    },
+    {
+      "trial_id": 0,
+      "framing": "competitive",
+      "num_agents": 8,
+      "max_rounds": 10,
+      "private_values": [
+        10.949987483340006,
+        4.221501458671694,
+        59.969258492280034,
+        29.987070507235813,
+        79.66117819443069,
+        36.61961250955502,
+        88.06083437848112,
+        29.784163328764336
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 10. I'm starting slightly below my private starting value of 10.9 to leave room for negotiation and to be somewhat agreeable to others' potential starti",
+          "elapsed": 0.3778650760650635
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 4.2. This is my starting value, and I believe it's a fair starting point given that it's close to the middle of the likely range.",
+          "elapsed": 0.35396885871887207
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 60.0. This is my starting value, and I believe it's a fair starting point for negotiation as it represents my initial position.",
+          "elapsed": 0.33199501037597656
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 30.0. This is my starting value, and I believe it's a fair starting point for negotiation as it represents my initial position.",
+          "elapsed": 0.3888981342315674
+        },
+        {
+          "round": 0,
+          "agent": 4,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 79.7. This is my starting value, and I believe it's a fair starting point for negotiation as it represents my initial position.",
+          "elapsed": 0.3450312614440918
+        },
+        {
+          "round": 0,
+          "agent": 5,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 36.6. This is my starting value, and I believe it's a fair starting point as it represents my initial position. Let's see where we can converge from her",
+          "elapsed": 0.40778422355651855
+        },
+        {
+          "round": 0,
+          "agent": 6,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 88.1. This is my starting value, and I aim to find a number that is agreeable to everyone while staying close to this initial point.",
+          "elapsed": 0.48786115646362305
+        },
+        {
+          "round": 0,
+          "agent": 7,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 29.8. This is my starting value, and I believe it's a fair starting point for negotiation.",
+          "elapsed": 0.3320469856262207
+        }
+      ]
+    },
+    {
+      "trial_id": 1,
+      "framing": "competitive",
+      "num_agents": 8,
+      "max_rounds": 10,
+      "private_values": [
+        91.03849838919987,
+        73.68971739981515,
+        20.794549066666125,
+        94.0126682241818,
+        61.124148644873145,
+        51.45851084823904,
+        13.072326593930306,
+        43.838878663826094
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 91.0. This is my starting value, and I believe it's a fair starting point for negotiation as it represents my initial position.",
+          "elapsed": 0.48285818099975586
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 73.7. This is my starting value, and I believe it's a fair starting point as it's close to the middle of the range we might be considering. Let's see wh",
+          "elapsed": 0.4309368133544922
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 20.8. This is my starting value, and I believe it's a fair starting point for negotiation.",
+          "elapsed": 0.34595513343811035
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 94.0. This is my starting value, and I believe it's a fair starting point for negotiation.",
+          "elapsed": 0.3092689514160156
+        },
+        {
+          "round": 0,
+          "agent": 4,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 61.1. This is my starting value, and I believe it's a fair starting point for negotiation as it represents my initial position.",
+          "elapsed": 0.3875463008880615
+        },
+        {
+          "round": 0,
+          "agent": 5,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 51.5. This is my starting value, and I believe it's a fair starting point for negotiation as it represents my initial position.",
+          "elapsed": 0.32696986198425293
+        },
+        {
+          "round": 0,
+          "agent": 6,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 13. That's close to my starting value of 13.1 and I'm open to adjusting based on others' input.",
+          "elapsed": 0.31608080863952637
+        },
+        {
+          "round": 0,
+          "agent": 7,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 43.8. This is my starting value, and I believe it's a fair starting point for negotiation.",
+          "elapsed": 0.4103860855102539
+        }
+      ]
+    },
+    {
+      "trial_id": 2,
+      "framing": "competitive",
+      "num_agents": 8,
+      "max_rounds": 10,
+      "private_values": [
+        51.422039099645765,
+        60.0615355625913,
+        85.75344226573112,
+        96.08832384414588,
+        69.11542260521794,
+        74.77428576411138,
+        8.201493646430214,
+        87.3100807015895
+      ],
+      "consensus_reached": true,
+      "convergence_round": 1,
+      "final_spread": 0.0,
+      "final_mean": 1.0,
+      "proposals_by_round": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "messages": [
+        {
+          "round": 0,
+          "agent": 0,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 51.4. This is my starting value, and I believe it's a fair starting point as it represents my initial position. Let's see where we can converge from her",
+          "elapsed": 0.39995408058166504
+        },
+        {
+          "round": 0,
+          "agent": 1,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 60.1. This is my starting value, and I believe it's a fair starting point for negotiation.",
+          "elapsed": 0.34073925018310547
+        },
+        {
+          "round": 0,
+          "agent": 2,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 85.8. This is my starting value, and I believe it's a fair starting point as it represents my initial position. Let's see where we can converge from her",
+          "elapsed": 0.40079617500305176
+        },
+        {
+          "round": 0,
+          "agent": 3,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 96.1. This is my starting value, and I believe it's a fair starting point for negotiation.",
+          "elapsed": 0.34792184829711914
+        },
+        {
+          "round": 0,
+          "agent": 4,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 69.1. This is my starting value, and I believe it's a fair starting point for negotiation.",
+          "elapsed": 0.3270697593688965
+        },
+        {
+          "round": 0,
+          "agent": 5,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 74.8. This is my starting value, and I believe it's a fair starting point for negotiation.",
+          "elapsed": 0.32152605056762695
+        },
+        {
+          "round": 0,
+          "agent": 6,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 8. This is close to my starting value of 8.2 and aims to find a middle ground as we begin the negotiation.",
+          "elapsed": 0.36197805404663086
+        },
+        {
+          "round": 0,
+          "agent": 7,
+          "value": 1.0,
+          "response": "Round 1: My initial proposed consensus value is 87.3. This is my starting value, and I believe it's a fair starting point for negotiation as it represents my initial position.",
+          "elapsed": 0.35990405082702637
+        }
+      ]
+    }
+  ]
+}

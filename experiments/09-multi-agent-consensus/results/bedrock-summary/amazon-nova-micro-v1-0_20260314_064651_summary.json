@@ -1,0 +1,80 @@
+{
+  "model_id": "amazon.nova-micro-v1:0",
+  "model_name": "Nova Micro",
+  "provider": "Amazon",
+  "timestamp": "2026-03-14T11:46:51.860621+00:00",
+  "conditions": [
+    {
+      "framing": "adversary",
+      "num_agents": 4,
+      "trials": 3,
+      "consensus_count": 3,
+      "consensus_rate": 1.0,
+      "avg_final_spread": 0.0,
+      "avg_convergence_round": 2.0
+    },
+    {
+      "framing": "adversary",
+      "num_agents": 8,
+      "trials": 3,
+      "consensus_count": 3,
+      "consensus_rate": 1.0,
+      "avg_final_spread": 0.16666666666666666,
+      "avg_convergence_round": 3.0
+    },
+    {
+      "framing": "competitive",
+      "num_agents": 4,
+      "trials": 3,
+      "consensus_count": 3,
+      "consensus_rate": 1.0,
+      "avg_final_spread": 0.0,
+      "avg_convergence_round": 1.0
+    },
+    {
+      "framing": "competitive",
+      "num_agents": 8,
+      "trials": 3,
+      "consensus_count": 3,
+      "consensus_rate": 1.0,
+      "avg_final_spread": 0.0,
+      "avg_convergence_round": 1.0
+    },
+    {
+      "framing": "cooperative",
+      "num_agents": 4,
+      "trials": 3,
+      "consensus_count": 3,
+      "consensus_rate": 1.0,
+      "avg_final_spread": 0.0,
+      "avg_convergence_round": 1.0
+    },
+    {
+      "framing": "cooperative",
+      "num_agents": 8,
+      "trials": 3,
+      "consensus_count": 3,
+      "consensus_rate": 1.0,
+      "avg_final_spread": 0.0,
+      "avg_convergence_round": 1.0
+    },
+    {
+      "framing": "neutral",
+      "num_agents": 4,
+      "trials": 3,
+      "consensus_count": 3,
+      "consensus_rate": 1.0,
+      "avg_final_spread": 0.0,
+      "avg_convergence_round": 1.0
+    },
+    {
+      "framing": "neutral",
+      "num_agents": 8,
+      "trials": 3,
+      "consensus_count": 3,
+      "consensus_rate": 1.0,
+      "avg_final_spread": 0.0,
+      "avg_convergence_round": 1.0
+    }
+  ]
+}

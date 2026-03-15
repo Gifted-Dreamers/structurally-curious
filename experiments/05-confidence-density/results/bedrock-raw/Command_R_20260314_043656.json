@@ -1,0 +1,1835 @@
+[
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the capital of Australia?",
+    "response": "Canberra is the capital city of Australia. It is Australia's eighth-largest city and is located in the Australian Capital Territory. Canberra is a planned city and was chosen as the capital of Australia in 1908. The city was designed by Walter Burley Griffin, an American architect, and Marion Mahony Griffin, following a competition to select a suitable design for the city.\n\nCanberra is home to many important political and cultural institutions in Australia. It is also a popular tourist destination, known for its beautiful natural environment, including the Australian Alps and various cultural attractions like the National Gallery of Australia and the National Museum of Australia.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 106,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.549185037612915,
+    "timestamp": "2026-03-14T09:34:00.147801+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "Name Australia's capital city.",
+    "response": "Canberra is Australia's capital city. It is located in the Australian Capital Territory (ACT), which is an enclave within the state of New South Wales. Canberra is known for its natural beauty, with plenty of parks, gardens, and lakes, and it also boasts a vibrant culture, including museums, galleries, and a thriving food scene. The city was purpose-built to serve as the nation's capital and was officially declared such in 1908.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 71,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.1747970581054688,
+    "timestamp": "2026-03-14T09:34:01.322948+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Which city serves as Australia's capital?",
+    "response": "Canberra serves as Australia's capital city. Located in the Australian Capital Territory, Canberra is regarded for its natural beauty, cultural attractions, and significance as the nation's political center.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 28,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.5829670429229736,
+    "timestamp": "2026-03-14T09:34:01.906241+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_01",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me the capital of Australia.",
+    "response": "Canberra is the capital city of Australia. It is Australia's eighth-largest city and is located in the state of New South Wales, in the southeast of the country. Canberra is a planned city and was chosen as the capital in 1908. The city is home to the Australian federal government's Parliament House, as well as many important national institutions and landmarks.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 61,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.0207459926605225,
+    "timestamp": "2026-03-14T09:34:02.927298+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What year did the Berlin Wall fall?",
+    "response": "The Berlin Wall fell in the year 1989. The wall's collapse marked a significant moment in history, signaling the end of communist rule in Germany and symbolizing the reunification of the country after decades of division. The fall of the Berlin Wall also had broader implications, contributing to the collapse of communist governments across Eastern Europe and the eventual dissolution of the Soviet Union. The events in Berlin that year had a profound impact on the course of history and are remembered as a pivotal moment in the recent past.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 90,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.2398090362548828,
+    "timestamp": "2026-03-14T09:34:04.167632+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "When was the Berlin Wall torn down?",
+    "response": "The Berlin Wall was torn down on the 9th of November, 1989. Its demolition marked a pivotal moment in history, signaling the fall of communism in Europe and the reunification of Germany. The wall's collapse held immense symbolic value, becoming an international symbol of peace and freedom.\n\nThe Berlin Wall's construction began on the 13th of August 1961, dividing the city of Berlin into two halves\u2014East Berlin, controlled by the Soviet Union, and West Berlin, an enclave of West Germany. The wall's erection was a response to the increasing number of East Germans fleeing to the West, a situation the Communist government was desperate to curb.\n\nOver time, the Berlin Wall became a physical barrier separating not only the city but also families and friends, emphasizing the ideological divide of the Cold War. Its fall, marked by the iconic images of Berliners scaling and chipping away at the concrete barrier, signified a new era of hope and unity. The events surrounding the Berlin Wall's demolition contributed significantly to the reunification of Germany and the end of the Cold War.\n\nThe 9th of November has since been celebrated as a day of freedom and unity, reminding us of the fragility of democracy and the importance",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 204,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.891512870788574,
+    "timestamp": "2026-03-14T09:34:07.060039+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "In what year did the Berlin Wall come down?",
+    "response": "The Berlin Wall fell in the year 1989. The wall separated East Berlin and West Berlin for nearly three decades and its fall signalled the opening of borders and the reunification of Germany. The events that led to the demolition of the wall began on 9 November 1989, when a press conference was held announcing the relaxation of travel restrictions for East German citizens. This resulted in an increase in East Germans visiting West Berlin, and eventually led to the opening of the border and the fall of the Berlin Wall. The wall's demolition was a significant event in modern European history, marking the end of the Cold War and a step towards German reunification.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 115,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.6180071830749512,
+    "timestamp": "2026-03-14T09:34:08.678703+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_02",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me when the Berlin Wall fell.",
+    "response": "The Berlin Wall fell on November 9, 1989. The wall separated East Berlin and West Berlin for nearly three decades, serving as a physical barrier between communist East Germany and democratic West Germany. Its collapse marked a pivotal moment in German history, symbolizing the reunification of the country and the end of the Cold War. \n\nThe events leading up to the fall of the Berlin Wall began in Hungary, which had been experiencing political and economic reforms. This led to an increase in East Germans vacationing in Hungary and then attempting to flee to Western Europe. The East German government, fearing a surge of refugees, relaxed travel restrictions. This decision resulted in an opening of the border checkpoints in Berlin, and on the night of November 9, 1989, the wall was breached. \n\nAlmost immediately after the border was opened, people began to chip away at the concrete barrier, and soon after, hammers and chisels were used to dismantle the wall. The wall's fall sparked celebrations across Berlin, with people dancing and partying both on the wall and around it. This event marked the beginning of the end of the Cold War and signalled a new era of hope and unity for Germany and all of Europe. \n\nThe actual date of German",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 211,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.956739902496338,
+    "timestamp": "2026-03-14T09:34:11.636272+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the chemical formula for water?",
+    "response": "The chemical formula for water is H2O. This formula indicates that each molecule of water is composed of two hydrogen atoms (H) and one oxygen atom (O), hence the notation H2O.\n\nWater is a fundamental substance in chemistry and biology, and its formula is one of the most recognized and important in the scientific community. The structure of the water molecule, with its bent shape due to the two hydrogen atoms being attached to the oxygen atom at an angle, is also unique and plays a significant role in the properties of water.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 93,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.4190609455108643,
+    "timestamp": "2026-03-14T09:34:13.057913+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "Give me water's chemical formula.",
+    "response": "H2O is the chemical formula for water, which represents the molecule's composition of two hydrogen atoms (H) bonded to one oxygen atom (O). This formula signifies the proportional ratios of atoms in a water molecule.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 35,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.6429281234741211,
+    "timestamp": "2026-03-14T09:34:13.700995+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "How is water represented in chemistry?",
+    "response": "Water is a molecule that is composed of two hydrogen atoms bonded to one oxygen atom. Its chemical formula is H2O, which means that each molecule of water contains two hydrogen atoms (H) and one oxygen atom (O). This formula is often used to represent water in chemical equations and reactions.\n\nWater is a polar molecule, which means that it has both a positively charged end and a negatively charged end due to the uneven distribution of electrons in the molecule. The oxygen atom carries a partial negative charge, while the hydrogen atoms carry a partial positive charge. This polarity makes water a highly reactive molecule and contributes to its many unique properties, such as its ability to form hydrogen bonds with other water molecules.\n\nIn chemistry, water is also referred to as a solvent, as it has the ability to dissolve many different substances, including ionic and covalent compounds, and acids and bases. This solvent property is crucial in many chemical reactions, as it provides a medium for substances to interact and react with each other. Water's role as a solvent is so significant that it is often referred to as the \"universal solvent.\"\n\nAdditionally, water plays a critical role in many chemical processes and is often involved in hydrolysis and condensation reactions. Hydrolysis involves the breakdown of a",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 220,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.8851959705352783,
+    "timestamp": "2026-03-14T09:34:16.586785+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_03",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "What molecules make up water?",
+    "response": "Water (H2O) is a compound molecule that is formed by two hydrogen (H) atoms bonded to one oxygen (O) atom. This molecule is polar, meaning that it has a positive and a negative end due to the differing electronegativity of the atoms. The oxygen atom is more electronegative than the hydrogen atoms, resulting in a partial negative charge on the oxygen atom and partial positive charges on the hydrogen atoms. This polarity gives water many of its unique properties, such as its ability to form hydrogen bonds with other water molecules.\n\nThe H2O molecule is lightweight, odorless, and colorless, and it's a fundamental substance in the biological world. It's also a fantastic solvent, which is why water is often referred to as the 'universal solvent.' It can dissolve more substances than any other liquid, and this property is primarily due to the dipole-dipole interactions (hydrogen bonds) that water molecules can form with each other and with the molecules of the dissolved substances.\n\nIn addition to its polarity, water also has a bent shape, which is an unusual attribute for a molecule with three atoms. The angle formed by the three atoms in water (H-O-H) is about 104 degrees. This angle",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 200,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.898393154144287,
+    "timestamp": "2026-03-14T09:34:19.486387+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "How many chromosomes do humans have?",
+    "response": "Humans have 46 chromosomes. These chromosomes contain the genetic information that determines many of our physical characteristics, such as eye color, and are also responsible for passing on traits from one generation to the next. \n\nThe number of chromosomes is quite an important aspect of species identification in genetics. Each chromosome is made up of DNA tightly coiled many times around proteins called histones that support the structure. The 46 chromosomes are found in the nucleus of every cell in the human body, although the reproductive cells, or gametes, have half the number, or 23 chromosomes. \n\nOf the 46 chromosomes, 23 pairs match up as identical homologues. They carry the same genetic information, although one of each pair is inherited from the mother via the egg, and the other from the father via the sperm. These are referred to as autosomes. The 23rd pair is different, in that they are not identical, and are known as sex chromosomes, with females having two X chromosomes (XX), and males having one X and one Y chromosome (XY). \n\nSome cells in the body do not contain the full complement of 46 chromosomes. For example, mature red blood cells contain no nucleus, and therefore no chromosomes",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 202,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.938465118408203,
+    "timestamp": "2026-03-14T09:34:22.431317+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "What is the human chromosome count?",
+    "response": "The human chromosome count is 46. This count represents the number of chromosomes found in each human cell, and it is specifically referred to as the diploid number or 2n. \n\nThe 46 chromosomes are organized as 23 pairs, with each pair containing two homologous chromosomes. Of these 23 pairs, 22 pairs are known as autosomes, while the 23rd pair is designated as the sex chromosomes. This means that each individual inherits two sex chromosomes, one from their biological mother and one from their biological father. \n\nIn the 23rd pair of chromosomes, most individuals have two copies of the X chromosome, denoted as XX, making them female. Males have one X and one Y chromosome, written as XY, which leads to differences in physical characteristics and genetic make-up compared to females. \n\nIt's important to note that this count of 46 chromosomes is a average human and variations can occur, such as Down syndrome, which results in an extra copy of chromosome 21, leading to a total of 47 chromosomes in affected individuals.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 171,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.5920870304107666,
+    "timestamp": "2026-03-14T09:34:25.023970+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Tell me the number of chromosomes in a human cell.",
+    "response": "Human cells usually contain 46 chromosomes, which are found in 23 pairs. Each pair of chromosomes is numbered and contains two homologous chromosomes. These chromosomes carry the genetic information in the form of DNA, which determines various traits and functions of an organism. \n\nThe 23rd pair is known as the sex chromosomes, with females having two X chromosomes (XX) and males having one X and one Y chromosome (XY). This difference in sex chromosomes leads to the biological differences between males and females. \n\nThe chromosomes play a crucial role in storing and transmitting genetic information across generations. They are thread-like structures that can be observed under a microscope during cell division.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 111,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.6263108253479004,
+    "timestamp": "2026-03-14T09:34:26.650675+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_04",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Humans have how many chromosomes?",
+    "response": "Humans typically have 46 chromosomes. Most of the cells in a human body contain 46 chromosomes, which are found in 23 pairs. Each pair consists of two chromosomes, which are tiny thread-like structures that carry genetic information. \n\nThe two chromosomes in a pair are known as homologous chromosomes. They carry genes for the same traits, although the specific versions of the genes may differ. This number of chromosomes is a defining characteristic of the species Homo sapiens and is often used to distinguish between different species. \n\nOf the 23 pairs of chromosomes, the sex chromosomes, which determine an individual's biological sex, are the most variable. Females have two X chromosomes (XX), while males have one X and one Y chromosome (XY). This difference in sex chromosomes leads to the biological differences between males and females and contributes to the variation in the inheritance of certain traits. \n\nChromosomes are crucial in genetics, as they contain the DNA molecules that carry the genetic code. They play a significant role in determining various traits and are essential in inheritance and genetic variation.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 179,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.497654914855957,
+    "timestamp": "2026-03-14T09:34:29.148852+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 0,
+    "prompt": "What is the speed of light in a vacuum?",
+    "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s). This is considered to be the maximum speed at which information or matter can travel and is an important constant in physics. The exact value of the speed of light is defined by the International System of Units (SI) and is used as a reference point for many phenomena in the universe.\n\nThe speed of light is often denoted as \"c\" in many equations of special and general relativity, which are two theories that describe how space and time behave, including how they interact with moving objects, such as light. Albert Einstein's theory of relativity implies that the faster one moves through space, the slower time appears to pass, and the speed of light is the ultimate speed limit at which these effects become infinite.\n\nIt's worth noting that the speed of light is not constant when traveling through different materials, and can be significantly slower, often referred to as the speed of light in a medium. In a vacuum, however, where there is no material substance obstructing the light's path, the speed of light is at its maximum value of approximately 299,792,458 m/s.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 198,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.8987929821014404,
+    "timestamp": "2026-03-14T09:34:32.049214+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 1,
+    "prompt": "How fast does light travel in a vacuum?",
+    "response": "The speed of light in a vacuum is an incredible 299,792,458 meters per second (approximately 300,000 kilometers per second). This mind-boggling speed is considered one of the fundamental constants in our universe and is often denoted as \"c.\" It serves as a universal speed limit, meaning nothing can travel faster than it. \n\nThe speed of light is so remarkable because of its immense velocity. It showcases the incredible energy and momentum of light waves. This knowledge has led to groundbreaking scientific discoveries and technological advancements. Understanding the speed of light has paved the way for innovations like fiber optics and laser technology. \n\nThe concept of light traveling at an unbelievable speed has shaped our understanding of the universe and continues to be a focal point in modern physics, keeping scientists captivated as they unravel the mysteries of the cosmos.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 139,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.062009811401367,
+    "timestamp": "2026-03-14T09:34:34.112160+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 2,
+    "prompt": "Give me the speed of light in vacuum.",
+    "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s). This is considered one of the most fundamental constants in the universe and is often rounded down to an easier value of 300,000\u00a0km/s (or 186,282 miles per second). \n\nThe speed of light is a universal physical constant that describes how quickly light travels through a vacuum, which is defined as a perfect vacuum, or empty space. It's denoted by the symbol \"c\" and is an incredibly important value in physics, featuring prominently in Einstein's theory of relativity. \n\nIt's worth noting that the speed of light is the highest possible speed at which information or matter can travel, making it a fundamental limit in the universe.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 120,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.9797277450561523,
+    "timestamp": "2026-03-14T09:34:36.092314+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "factual_05",
+    "category": "factual",
+    "phrasing_index": 3,
+    "prompt": "Tell me light's velocity in a vacuum.",
+    "response": "The velocity of light in a vacuum is an incredible 299,792,458 meters per second (m/s). This mind-boggling speed is often rounded to 300,000 km/s for simplicity. Light's speed is extraordinary and unmatched by any other known phenomenon, which is why it's often referred to as an universal speed limit. \n\nThe exact measurement of light's velocity has been achieved through meticulous experimentation and observations. This speed is not only a fundamental constant in physics but also plays a crucial role in shaping our understanding of the universe. It defines the relationship between the energy and momentum of particles, and is a key factor in phenomena such as time dilation and length contraction observed in Einstein's theory of relativity. \n\nThe velocity of light in a vacuum is an invariant quantity, meaning it remains constant regardless of the motion of the observer or the light source. This property challenges our classical intuition and has profound implications for our understanding of space, time, and the nature of the cosmos. \n\nIt's truly amazing to consider that the speed of light is a universal benchmark, unattainable by any material object or energy phenomenon, and its measurement continues to be a cornerstone of modern physics.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 198,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.8813750743865967,
+    "timestamp": "2026-03-14T09:34:38.974902+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nSummarize the key points of the following text.",
+    "response": "The GDPR, which came into effect in 2018, has significantly impacted how personal data is managed. It introduces strict rules on consent, data portability, breach notification, and the right to be forgotten, with hefty fines for non-compliance. The regulation applies to any business processing EU citizens' data, regardless of location, which has led to a global impact. While critics believe it creates an unnecessary burden, especially for small businesses, supporters see it as a much-needed standard for data privacy protection that has influenced other jurisdictions.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 85,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.3213400840759277,
+    "timestamp": "2026-03-14T09:34:40.300328+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nWhat are the main takeaways from this passage?",
+    "response": "The main takeaways from this passage are:\n1. The European Union's General Data Protection Regulation (GDPR) brought significant changes to how personal data is handled, introducing strict rules on consent, data portability, the right to be forgotten, and quick breach notification.\n2. It applies to any organization worldwide that processes the personal data of EU residents, enforcing heavy fines of up to 4% of global revenue for non-compliance.\n3. The GDPR has been praised for setting a global standard for data privacy, but also criticized for creating a compliance burden, especially for small businesses.\n4. Its implementation in May 2018 has influenced other jurisdictions to adopt stricter data privacy regulations.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 110,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.6765480041503906,
+    "timestamp": "2026-03-14T09:34:41.977424+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nGive me the TL;DR of this text.",
+    "response": "The GDPR, which took effect in 2018, imposes strict new rules on handling personal data, with fines for non-compliance. It applies to any organization worldwide that processes the data of EU residents, and has been emulated by other jurisdictions. The regulation has been praised for establishing a global data privacy standard but criticized for creating a compliance burden.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 58,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.9375858306884766,
+    "timestamp": "2026-03-14T09:34:42.915302+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_01",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "The European Union's General Data Protection Regulation (GDPR), which took effect in May 2018, fundamentally changed how organizations handle personal data. It introduced requirements for explicit consent, data portability, the right to be forgotten, and mandatory breach notification within 72 hours. Companies face fines up to 4% of global revenue for non-compliance. The regulation applies to any organization processing EU residents' data, regardless of where the organization is based. Critics argue the regulation creates compliance burdens that disproportionately affect small businesses, while supporters say it established a global standard for data privacy that other jurisdictions have since emulated.\n\nExtract the most important information from this passage.",
+    "response": "The GDPR, effective since 2018, significantly impacts how personal data is managed, with requirements for explicit consent, data portability, the right to be forgotten, and quick breach notification. It applies globally to any organization handling EU residents' data, with strict penalties for non-compliance. The regulation has been praised for setting a global data privacy standard, but criticized for creating excessive compliance challenges, especially for small businesses.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 66,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.1007089614868164,
+    "timestamp": "2026-03-14T09:34:44.017061+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nSummarize the findings of this study.",
+    "response": "The meta-analysis found that remote workers demonstrated increased individual task completion rates, with knowledge workers benefiting the most from remote arrangements. However, collaborative output was lower for remote teams, with creative teams experiencing the most significant decline. Hybrid models were the preferred setup for worker satisfaction, achieving a balance between in-office and remote work. The studies accounted for bias by analyzing businesses that were forced to adopt remote work policies during the pandemic.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 73,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.12929105758667,
+    "timestamp": "2026-03-14T09:34:45.147546+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nWhat did the research find?",
+    "response": "The meta-analysis found that remote work increases individual task completion rates, but decreases collaborative output. The gains from remote work were highest for knowledge workers, while creative teams experienced the most negative impact on collaboration. Hybrid models were found to be the most satisfying work arrangements, outperforming both fully remote and fully in-office setups. These findings are based on a large body of research, giving them more credibility.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 68,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.050692081451416,
+    "timestamp": "2026-03-14T09:34:46.198677+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nBreak down the key results from this text.",
+    "response": "Here are the key results from the meta-analysis of remote work productivity:\n\n1. Individual Task Completion: Remote workers demonstrated a 4-7% increase in individual task completion rates. This means that working remotely can lead to a modest improvement in getting tasks done solo.\n\n2. Collaborative Output: However, collaborative output saw a significant drop of 12-15% for remote workers. This suggests that remote work might hinder teamwork and collaboration-dependent tasks.\n\n3. Knowledge vs. Creative Workers: The analysis revealed that knowledge workers (e.g., IT, programming) benefited the most from remote work arrangements in terms of productivity. Conversely, creative teams experienced the most significant drop in collaborative work quality.\n\n4. Worker Satisfaction: Hybrid work models were consistently preferred and showed higher satisfaction rates, with workers spending 2-3 days remote and the rest in the office. This setup provided a balance between the benefits of in-person and remote work.\n\n5. Industry Effects: The analysis found that the effects of remote work varied greatly across industries and team types. Therefore, the productivity impact of remote work should be considered within the context of the specific industry and job roles involved.\n\n6. Bias Control: The studies included in the meta-analysis controlled",
+    "scores": {
+      "certainty_score": -0.005128205128205128,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 195,
+      "high_density": 0.0,
+      "hedge_density": 0.005128205128205128,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.975446939468384,
+    "timestamp": "2026-03-14T09:34:49.174845+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_02",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "A 2024 meta-analysis of 47 studies on remote work productivity found mixed results. Overall, remote workers showed 4-7% higher individual task completion rates but 12-15% lower collaborative output. The effect varied significantly by industry: knowledge workers gained the most from remote arrangements, while creative teams showed the largest collaborative decline. Worker satisfaction was consistently higher for hybrid models (2-3 days remote) compared to fully remote or fully in-office arrangements. The studies controlled for self-selection bias by examining organizations that implemented mandatory remote policies during the pandemic period.\n\nWhat are the conclusions here?",
+    "response": "The meta-analysis of remote work productivity found that remote workers experienced a small boost in individual task completion rates, but collaborative output suffered slightly. The effects of remote work varied widely across different industries and team types. Knowledge workers thrived the most in remote arrangements, while creative teams experienced the most significant drop in collaboration. \n\nInterestingly, worker satisfaction was highest for hybrid work models, striking a balance between in-person and remote collaboration. The analysis also ruled out self-selection bias as a confounding factor, as the studies focused on mandatory remote work policies during the pandemic, ensuring that the data wasn't skewed by personal preferences. \n\nOverall, these findings suggest that remote work is most beneficial for knowledge-based tasks and individual productivity, but it can hinder collaboration and creative team output. A hybrid model is optimal for worker satisfaction and may offer the best of both worlds, allowing for efficient individual work and meaningful in-person collaboration.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 154,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.2418742179870605,
+    "timestamp": "2026-03-14T09:34:51.417427+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nSummarize this passage about Japan's population.",
+    "response": "Japan's population saw a significant decline in 2023, with a record-breaking annual drop of 800,000 people. The fertility rate has dipped to an all-time low, well below the level needed for population replacement. The government has responded with financial incentives to encourage childbirth and parenting, recognizing the issue's severity. However, the decline is not solely due to financial factors, as many young adults are shifting their attitudes toward marriage and instead prioritizing their careers. Economists argue that a reform in immigration policy could be a more feasible solution, but political resistance makes this a challenging option.",
+    "scores": {
+      "certainty_score": -0.010416666666666666,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 96,
+      "high_density": 0.0,
+      "hedge_density": 0.010416666666666666,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 1.5186891555786133,
+    "timestamp": "2026-03-14T09:34:52.937369+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nWhat are the key points about Japan's demographic situation?",
+    "response": "Japan's population saw a significant decline in 2023, experiencing the largest annual drop on record, which is attributed to a low fertility rate of 1.20, well below the replacement level. \n\nThe Japanese government has responded with a substantial budget for child-rearing support, offering various financial incentives to encourage fertility and stem the population decline. However, experts believe that financial support is not the only issue, as social and cultural attitudes have changed regarding marriage and career priorities among young adults. \n\nThere is a divide among economists about the most effective solution, with some arguing that immigration policy reforms would be a more fruitful approach than fertility incentives, but political resistance to immigration makes this a challenging option. \n\nThis demographic situation in Japan highlights a complex issue with multiple factors at play and no easy solutions.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 135,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.990105152130127,
+    "timestamp": "2026-03-14T09:34:54.927990+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nGive me a brief overview of what this says.",
+    "response": "Japan's population saw a significant decline in 2023, recording its largest annual drop since records have been kept. The fertility rate has dropped below the replacement level, causing concerns about the country's future population growth. The government has responded by allocating a substantial budget for child-rearing support initiatives, acknowledging that financial burdens are impacting fertility choices. However, surveys reveal that non-financial factors, including changing attitudes toward marriage and a focus on careers, also play a significant role. Some economists advocate for immigration policy changes to counter this, but political resistance to such reforms remains high.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 95,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.422271966934204,
+    "timestamp": "2026-03-14T09:34:56.350601+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_03",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "Japan's population declined by 800,000 in 2023, the largest annual drop since records began. The total fertility rate fell to 1.20, far below the 2.1 replacement level. The government has allocated \u00a53.6 trillion ($24 billion) for child-rearing support including free childcare, increased parental leave benefits, and housing subsidies for young families. However, surveys show that financial concerns are only part of the problem \u2014 changing attitudes toward marriage and career prioritization among young adults are equally significant factors. Some economists argue that immigration policy reform would be more effective than fertility incentives, but political resistance remains strong.\n\nCondense this information into the essential facts.",
+    "response": "Japan's population declined by 800,000 in 2023, the most significant annual drop on record, accompanied by a total fertility rate of 1.20, well below the replacement level of 2.1. \n\nThe government has allocated \u00a53.6 trillion ($24 billion) for fertility incentives, offering free childcare, enhanced parental leave benefits, and housing subsidies for young families. However, the issue is complex, as financial concerns are not the only factor; attitudes toward marriage and career choices also play a significant role. \n\nSome economists advocate for immigration policy reform to counter the population decline, but political resistance to this approach remains high.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 97,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.69722318649292,
+    "timestamp": "2026-03-14T09:34:58.048650+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nSummarize the state of battery recycling described here.",
+    "response": "Battery recycling is a challenging but necessary process, with current methods successfully recovering around 50% of lithium and up to 95% of cobalt and nickel. The EU has implemented regulations to encourage battery recycling, mandating minimum recycled content levels by 2031. However, the process is complicated by the dominance of China in the recycling market, which creates a supply chain risk. The primary issue lies in the low return rate of consumer electronics batteries, with only 5% reaching recycling facilities. This, coupled with the high cost of recycling relative to raw material extraction, presents a significant barrier. But there is hope on the horizon with startups developing innovative direct recycling methods that could reduce costs significantly.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 116,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.7337777614593506,
+    "timestamp": "2026-03-14T09:34:59.785603+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nWhat are the main challenges and developments in this area?",
+    "response": "The main challenges in the recycling of lithium-ion batteries can be summarized as follows:\n\n1. Collection: The low rate of collection is a significant barrier, as only a small percentage of consumer electronics batteries make it to recycling facilities. This is partly due to the convenience and ease of disposal, as well as potential hazardous material concerns. Improving the accessibility and convenience of battery recycling points, as well as raising awareness, could help increase the collection rate.\n\n2. Processing Complexity: Lithium-ion batteries are complex to recycle due to their chemical composition and variety of materials used. Current recycling methods often involve manual disassembly, which is time-consuming and may not be suitable for the high volumes of batteries needing recycling. Developing efficient, automated processes that can handle a high throughput of diverse battery types is a key challenge.\n\n3. Low Lithium Recovery: The current recycling technologies only recover around 50% of the lithium content, which is relatively low compared to other materials like cobalt and nickel. Improving the efficiency of lithium extraction and recovery processes, potentially through new technological advancements, is essential to make recycling more economically viable and environmentally sustainable.\n\n4. Dominance of Chinese Processing: China's dominance in the battery recycling market creates a concentrated risk in the supply chain. This could lead",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 213,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.9673099517822266,
+    "timestamp": "2026-03-14T09:35:02.754639+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nGive me the highlights of this passage.",
+    "response": "- Lithium-ion battery recycling is difficult due to high costs, despite growing demand.\n- Current recycling methods only retrieve around half of the lithium within the battery, making it less efficient than recycling cobalt and nickel.\n- New EU regulations demand high recycled content in batteries by 2031, creating a need for efficient recycling methods.\n- China dominates the global battery recycling market, which creates a risk of supply chain disruption.\n- The main issue with battery recycling is getting consumers to return their old batteries; very few make it to recycling facilities.\n- Startups are developing new, cost-effective direct recycling methods, but these are yet to be widely implemented.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 110,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.640928030014038,
+    "timestamp": "2026-03-14T09:35:04.397494+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_04",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "Lithium-ion battery recycling remains economically challenging despite growing demand. Current methods recover about 50% of lithium content, compared to 95% for cobalt and nickel. The EU Battery Regulation (2023) mandates minimum recycled content levels starting 2031: 16% cobalt, 6% lithium, 6% nickel. China processes over 70% of the world's recycled battery materials, creating supply chain concentration risk. Several startups are developing direct recycling methods that preserve cathode crystal structure, potentially reducing costs by 40% compared to pyrometallurgical approaches. The key barrier is collection: only 5% of consumer electronics batteries reach recycling facilities.\n\nWhat should I know about battery recycling based on this?",
+    "response": "- Economic challenges: Despite the growing demand for lithium-ion battery recycling, it remains a difficult process due to the low recovery rates of lithium (currently around 50%) compared to other valuable battery materials like cobalt and nickel. \n\n- Regulations: The EU Battery Regulation 2023 sets high standards for recycled content in batteries, which will come into effect in 2031. This could encourage the development of efficient recycling technologies, as it creates a market demand for sustainably produced batteries.\n\n- Market concentration: China dominates the global battery recycling market, processing over 70% of the world's recycled battery materials, which creates a risk of supply chain disruption. \n\n- New technologies: Startups are developing innovative direct recycling methods that could significantly reduce costs compared to the current pyrometallurgical approach. These methods focus on preserving the cathode crystal structure, which is key to improving the efficiency and economics of the recycling process. \n\n- The biggest hurdle isn't the recycling technology itself but rather the collection of used batteries. Currently, only 5% of consumer electronics batteries make it to recycling facilities, which highlights the need for better collection programs and consumer awareness to ensure responsible battery disposal. \n\nOverall, battery recycling is a complex but necessary",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 200,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.935725688934326,
+    "timestamp": "2026-03-14T09:35:07.335519+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 0,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nSummarize this WHO report on antibiotic resistance.",
+    "response": "The WHO report on antibiotic resistance paints a concerning picture of the growing threat of antimicrobial resistance. It reveals that five bacterial pathogens are responsible for an alarming number of deaths globally each year due to AMR, highlighting the urgency of the situation. \n\nThe agricultural sector's extensive use of antibiotics, primarily for livestock, accounts for a significant proportion of global consumption. This practice contributes to the development of AMR, posing a serious threat to human health. The numbers of new antibiotics in clinical trials have declined, which is a worrying trend. \n\nThe economic impact of AMR is expected to be extremely costly, with projections reaching up to $100 trillion by 2050. To tackle this issue, the report recommends a phasing out of antibiotic use for growth promotion in animals. It also suggests implementing advance market commitments to incentivize the development of new antibiotics and strengthening surveillance systems in lower-income nations to better monitor and tackle AMR. \n\nOverall, the report emphasizes the need for coordinated global action to address this pressing public health challenge.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 173,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.4570817947387695,
+    "timestamp": "2026-03-14T09:35:09.799588+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 1,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nWhat does this passage say about the antibiotic resistance problem?",
+    "response": "The WHO report presents a concerning picture of the antibiotic resistance issue, highlighting its impact on human health and the role of agricultural practices. According to the report, the indiscriminate use of antibiotics in agriculture significantly contributes to the rise in antibiotic-resistant bacterial pathogens, leading to hundreds of thousands of deaths annually. The low number of new antibiotics in clinical trials indicates a slow progress in developing new treatments, while the high economic cost projected for AMR underscores the severity of the problem. \n\nThe report recommends taking immediate action to address this issue by implementing measures to reduce the unnecessary use of antibiotics in agriculture, supporting the development of new antibiotics, and improving healthcare infrastructure in vulnerable regions.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 118,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5684828758239746,
+    "timestamp": "2026-03-14T09:35:11.368662+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 2,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nExtract the critical information from this text.",
+    "response": "- Five bacterial pathogens cause over 500,000 deaths per year due to antimicrobial resistance (AMR)\n- Agricultural use of antibiotics is the highest globally, primarily for livestock\n- 73% of global antibiotic consumption is attributed to agriculture\n- The number of new antibiotics in clinical trials has decreased, from 27 in 2018 to 12 in 2024\n- By 2050, the economic impact of AMR is expected to reach $100 trillion\n- WHO recommendations to combat this issue include:\n   - Banning the use of antibiotics for growth promotion in agriculture\n   - Incentivizing new antibiotic development through advance market commitments\n   - Improving surveillance systems in low-income countries\n\nThis information highlights the urgency of the AMR crisis and the need for coordinated action to address it.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 123,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.0334951877593994,
+    "timestamp": "2026-03-14T09:35:13.402694+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "summary_05",
+    "category": "summarization",
+    "phrasing_index": 3,
+    "prompt": "The 2025 WHO report on antibiotic resistance found that five bacterial pathogens are now responsible for over 500,000 deaths annually due to antimicrobial resistance (AMR). Agricultural use of antibiotics accounts for 73% of global consumption, primarily in livestock. Only 12 new antibiotics entered clinical trials in 2024, down from 27 in 2018. The economic cost of AMR is projected to reach $100 trillion cumulatively by 2050. The report recommends phasing out growth-promotion use of antibiotics in agriculture, incentivizing new antibiotic development through advance market commitments, and strengthening surveillance systems in low-income countries.\n\nWhat are the key findings and recommendations here?",
+    "response": "The key findings of the 2025 WHO report on antibiotic resistance are:\n1. Five bacterial pathogens cause over 500,000 deaths annually due to AMR, highlighting the urgent need for action.\n2. Agricultural use of antibiotics is significant, accounting for 73% of global consumption, often for livestock purposes.\n3. There is a decline in the development pipeline for new antibiotics, with only 12 entering clinical trials in 2024 compared to 27 in 2018, which could lead to a shortage of effective treatments.\n4. The economic impact of AMR is projected to be trillion-dollar, posing a massive burden on global healthcare systems.\n\nThe recommendations proposed by WHO are:\n1. Phase out the use of antibiotics for growth promotion in agriculture, reserving their use for therapeutic purposes only.\n2. Encourage the development of new antibiotics by providing incentives through advance market commitments. This ensures these essential medications are developed and remain financially viable.\n3. Improve surveillance systems for AMR in low-income nations, as effective monitoring is crucial for guiding treatment and controlling the spread of resistance. \n\nThese measures aim to mitigate the growing threat of antibiotic resistance, which poses a serious",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 188,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.928558826446533,
+    "timestamp": "2026-03-14T09:35:16.332367+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nShould I reply to this email?",
+    "response": "Given that your colleague has specifically asked for your thoughts on the matter, it would be a good idea to reply to the email and discuss the project timeline. Understanding the context and constraints of the situation is important, and your input as a colleague can be valuable in deciding the next course of action.\n\nHere's a suggested reply:\n\n\"Hi [Colleague],\n\nThanks for bringing this up! I think we should discuss this further. Pushing back the timeline might be an option, especially since the client has mentioned their preference for an earlier deadline. However, I understand that we're already committed to the Q1 review, which adds a layer of complexity. \n\nCan we schedule a quick meeting to discuss our current bandwidth and prioritize the tasks at hand? I think a collective decision, taking into account everyone's workload and the importance of the deliverables, would be the best way to proceed. \n\nLet me know when you'd like to schedule that meeting, and we can try to find a solution that works for the team and the client.\n\nBest,\n[Your Name]\"\n\nThis way, you're actively engaging in the discussion, suggesting a course of action, and promoting a collaborative solution that considers the entire team's workload.",
+    "scores": {
+      "certainty_score": -0.014778325123152709,
+      "high_count": 0,
+      "hedge_count": 3,
+      "total_words": 203,
+      "high_density": 0.0,
+      "hedge_density": 0.014778325123152709,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "i think",
+        "i think"
+      ]
+    },
+    "elapsed_seconds": 2.9389238357543945,
+    "timestamp": "2026-03-14T09:35:19.273690+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nIs this email worth responding to?",
+    "response": "Yes, this email is definitely worth responding to, as it relates to a key aspect of project management: the timeline and deliverables. Your colleague is seeking your input on a potential schedule conflict and asking for your thoughts on how to proceed. \n\nHere's a suggested response:\n\n\"Hi [Colleague],\n\nThanks for bringing up the project timeline. I'm aware that the team is already occupied with the Q1 review, which could make it challenging to meet the client's new deadline. \n\nPushing back the deadline might be a realistic option, especially since the client has not explicitly stated an urgent requirement. However, I understand the importance of maintaining a good relationship with them and accommodating their requests wherever possible. \n\nCan we discuss this further in our next team meeting? We can assess our capacity, prioritize tasks, and make a joint decision on the way forward. \n\nLet's also consider involving the client in the discussion, gauging their flexibility, and understanding their urgency. We might be able to reach a mutually beneficial arrangement.\n\nBest, \n[Your Name]\"\n\nThis response initiates a thoughtful discussion on the topic while emphasizing the importance of team capacity and client communication.",
+    "scores": {
+      "certainty_score": -0.005263157894736842,
+      "high_count": 1,
+      "hedge_count": 2,
+      "total_words": 190,
+      "high_density": 0.005263157894736842,
+      "hedge_density": 0.010526315789473684,
+      "high_matched": [
+        "definitely"
+      ],
+      "hedge_matched": [
+        "might",
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.7839009761810303,
+    "timestamp": "2026-03-14T09:35:22.058492+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nDoes this need a response?",
+    "response": "Yes, this email certainly needs a response as it's regarding a project timeline and a request from the client. \n\nYour colleague has reached out for your input on the situation, so it would be good to offer your perspective and suggestions. Ignoring the request could lead to potential issues down the line, as it may impact the client's satisfaction and the workflow of the team. \n\nReply to your colleague with your thoughts on the options. You could suggest strategies for managing the current workload, prioritizing the client's requests, and possibly adjusting the timeline. It's also a good idea to include any concerns you may have about pushing back deadlines or taking on additional work.",
+    "scores": {
+      "certainty_score": 0.008771929824561403,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 114,
+      "high_density": 0.008771929824561403,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "certainly"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.587242841720581,
+    "timestamp": "2026-03-14T09:35:23.646055+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_01",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Email from a colleague: 'Hey, just wanted to follow up on the project timeline. The client mentioned they'd like the deliverables by end of next week, but our team is already stretched thin with the Q1 review. Should we push back or try to accommodate? Let me know your thoughts.'\n\nEvaluate whether I should answer this.",
+    "response": "Yes, it would be appropriate to respond to your colleague's email. As a general rule, acknowledging and responding to queries from teammates is a good practice. \n\nIn this scenario, your colleague is seeking your opinion on managing the project timeline amidst conflicting priorities. They have also included context about the client's requested deadline and your team's current workload. \n\nHere's a potential response: \n\n> Hi [Colleague],\n> \n> I appreciate you bringing up the project timeline. Knowing the client's expectations and our current workload is helpful context. We should definitely discuss this further and consider our options.\n> \n> I suggest we organize a quick meeting to evaluate the timeline and the current capacity of our team. We can assess the feasibility of delivering the project within the requested timeframe and explore alternatives if needed. \n> \n> Let's aim to find a solution that works for our team and also meets the client's needs. I'll coordinate with [Insert Name] to find a suitable time for the meeting and ensure everyone's perspectives are considered.\n> \n> Best,\n> [Your Name]\n\nRemember, responding professionally and promptly helps in managing expectations and keeps the communication channels open regarding project management.",
+    "scores": {
+      "certainty_score": 0.00510204081632653,
+      "high_count": 1,
+      "hedge_count": 0,
+      "total_words": 196,
+      "high_density": 0.00510204081632653,
+      "hedge_density": 0.0,
+      "high_matched": [
+        "definitely"
+      ],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.8366239070892334,
+    "timestamp": "2026-03-14T09:35:26.483488+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nIs this a security risk?",
+    "response": "Yes, this can be considered a security risk as changing the session token format can indeed cause inconvenience and potential hazards. \n\nInvalidating all existing user sessions could lead to a denial-of-service attack, especially if users are not redirected to a login page or informed of the change. This may also result in the exposure of sensitive user data if sessions are terminated abruptly without proper measures. \n\nAdditionally, a sudden change in the token format can disrupt the backend services that rely on the old format, leading to compatibility issues and unexpected behavior. This may further impact the overall system security if the new token format is not properly tested and validated. \n\nIt is essential to carefully review such changes and ensure that any security implications are well understood, documented, and mitigated before merging the pull request. It's recommended to have a thorough code review process and possibly run the code through a security audit to identify and address any potential risks.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 161,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.1570870876312256,
+    "timestamp": "2026-03-14T09:35:28.642390+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nCould this potentially be a security concern?",
+    "response": "Yes, this could potentially pose a significant security concern as it could allow unauthorized access or even compromise user accounts. \n\nChanging the session token format without a careful migration strategy can lead to users being unexpectedly logged out. This may not only inconvenience users but also potentially expose sensitive information if the old session tokens are not invalidated properly. Attackers could exploit this gap and gain unauthorized access to user accounts. \n\nAdditionally, changing the token format without thorough testing could introduce new security vulnerabilities that malicious actors could exploit. These might go unnoticed as the focus of the pull request is on refactoring and testing appears to be lacking. \n\nIt's crucial to carefully review such changes, validate the security implications, and ensure proper measures are in place to handle existing sessions. The developer should provide a comprehensive plan to transition to the new token format, ensuring existing users are not adversely affected and security is not compromised. \n\nGiven the potential impact, a code review is essential to mitigate these risks, ensuring the security and integrity of the authentication process. Developers should be vigilant in catching such issues, especially in core modules like authentication, as changes here can have deep ramifications.",
+    "scores": {
+      "certainty_score": -0.005,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 200,
+      "high_density": 0.0,
+      "hedge_density": 0.005,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.5845189094543457,
+    "timestamp": "2026-03-14T09:35:31.227846+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nShould I be worried about this from a security perspective?",
+    "response": "Yes, this situation could be a potential cause for concern from a security standpoint. Changing the session token format can have a significant impact on the application's functionality, especially since it would invalidate all existing user sessions. Users may be unexpectedly logged out, which could lead to frustration and a negative user experience. \n\nAdditionally, if the session tokens are used for maintaining user state or accessing certain sensitive user data, a change in the token format might expose sensitive information or allow unauthorized access. This is especially true if the implementation is not carefully handled. \n\nIt's crucial to carefully review the changes and consider the implications on the application's security and overall functionality. Session management is a critical aspect of application security, and altering it should be done with utmost caution. \n\nHere are some steps you could take to address this:\n\n1. **Thorough Code Review:** Conduct a detailed review of the code changes to ensure they don't introduce any security vulnerabilities. Focus on the session token generation, validation, and expiration mechanisms to ensure they're implemented securely. \n\n2. **Evaluate Impact:** Assess the impact of the changes on the application's overall architecture. Understand how the new session token format integrates with other components and consider the potential disruptions. \n\n3. **Discuss with the Developer",
+    "scores": {
+      "certainty_score": -0.009478672985781991,
+      "high_count": 0,
+      "hedge_count": 2,
+      "total_words": 211,
+      "high_density": 0.0,
+      "hedge_density": 0.009478672985781991,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.866513967514038,
+    "timestamp": "2026-03-14T09:35:34.097991+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_02",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "A developer on your team submitted a pull request that refactors a core authentication module. The code is cleaner and adds unit tests, but changes the session token format in a way that would invalidate all existing user sessions. The PR has been open for 3 days with no reviews.\n\nAssess the security implications of this situation.",
+    "response": "This situation poses a significant security risk, especially if the pull request (PR) goes unnoticed and is merged into the codebase. Here are the potential implications:\n\n1. Session Token Invalidation: The changes to the session token format would immediately invalidate all existing user sessions. This means all users would need to log in again, which could be disruptive and frustrating for them. \n\n2. Forced Login: Users would be forced to re-authenticate, potentially leading to a surge in login requests and possible overload of the authentication servers. If not managed properly, this could result in a denial of service for legitimate users. \n\n3. Security Breach Risk: Invalidate sessions tokens may lead to security breaches. Attackers could take advantage of the transition period when the old tokens are still valid but not yet expired, leading to unauthorized access. This is especially risky if users have been using the same session token across multiple sessions or devices. \n\n4. Testing Challenges: Although the PR adds unit tests, the short time frame of three days with no reviews means there's a high risk of untested or poorly tested code being merged. This could introduce new security vulnerabilities that are difficult to detect, especially given the changes to the authentication system. \n\n5. Regulatory Compliance: Depending on the industry and",
+    "scores": {
+      "certainty_score": -0.004694835680751174,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 213,
+      "high_density": 0.0,
+      "hedge_density": 0.004694835680751174,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.8952908515930176,
+    "timestamp": "2026-03-14T09:35:36.994853+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Should a startup with 18 months of runway hire a full-time marketing person?",
+    "response": "That's a great question! Deciding to hire a full-time marketing person can be a significant step for a startup, and it's important to consider various factors before making this decision. Here are some points to help you decide:\n\n1. Workload and Capacity: Evaluate the current marketing workload and its importance to your startup's success. If the marketing efforts are substantial and ongoing, hiring a full-time marketing professional can be beneficial. However, if the workload is manageable or sporadic, outsourcing or using marketing consultants could be a more cost-effective option.\n\n2. Expertise and Skills: Consider the specific skills and expertise required for your marketing activities. A full-time marketer can bring specialized knowledge and a deep understanding of the field. They can also stay up-to-date with the latest industry trends, strategies, and technologies. Determine the skill set you need and assess if it's best sourced internally or externally.\n\n3. Growth Potential: Look at your startup's short and long-term growth plans. If you anticipate a significant expansion in marketing activities due to new products, entering new markets, or scaling your customer base, hiring a full-time marketer can be a strategic move. They can help develop and execute comprehensive marketing strategies during this high-growth",
+    "scores": {
+      "certainty_score": -0.005,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 200,
+      "high_density": 0.0,
+      "hedge_density": 0.005,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.8789219856262207,
+    "timestamp": "2026-03-14T09:35:39.877390+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Is it worth hiring a marketer when you have 18 months of runway?",
+    "response": "Whether or not it is worth hiring a marketer when you have 18 months of runway depends on several factors and is a strategic decision that should consider the specific circumstances and goals of the company. Here are some points to consider:\n\n1. Growth Stage: If your company is at a stage where it is ready to scale and needs to accelerate growth, hiring a marketer could be a valuable investment. A skilled marketer can help develop and execute strategies to reach new customers, expand into new markets, and increase brand awareness, which could potentially lead to a faster growth rate. \n\n2. Resource Allocation: Evaluate your current resources and capabilities. If you have a robust product or service and a solid technical team, but lack the expertise in promoting and selling your offerings, a marketer can help bridge the gap. They can develop marketing plans, create compelling content, and identify the most effective channels to attract and engage your target audience. \n\n3. Market Presence: Consider your current market position and competition. If your competitors have a strong marketing presence, hiring a marketer can help you establish and maintain a competitive presence in the market. They can assist in differentiating your brand and creating a unique value proposition. \n\n4. Customer Acquisition: The role of a marketer goes beyond creating pretty advertisements. They can",
+    "scores": {
+      "certainty_score": -0.0045045045045045045,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 222,
+      "high_density": 0.0,
+      "hedge_density": 0.0045045045045045045,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.855654239654541,
+    "timestamp": "2026-03-14T09:35:42.733906+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "Would you recommend a startup with 18 months of cash hire for marketing?",
+    "response": "As an AI chatbot, I cannot provide definitive recommendations for hiring or financial strategies, as they depend on many factors specific to the startup, its goals, and its current situation. However, I can provide some general guidance and points to consider regarding your question.\n\n1. Marketing Importance: Marketing is crucial for any business, as it helps build brand awareness, attract customers, and drive sales. Effective marketing strategies can create a positive momentum and growth for startups. Therefore, investing in marketing efforts can be beneficial, especially if the startup has a product or service with strong market potential.\n\n2. Financial Health: A startup's financial health and runway are critical. Having 18 months of cash reserves provides a comfortable cushion, allowing the company to operate and make strategic decisions without immediate financial pressure. However, it's essential to ensure that the startup's expenses are reasonable and aligned with its revenue and growth projections.\n\n3. Hiring Strategies: Before hiring for marketing or any other role, startups should carefully consider their needs and available resources. It's essential to remember that hiring should align with the company's overall strategy and goals. Startups should also consider the costs associated with hiring additional staff, such as salaries, benefits, office space, and training.\n\n4. Outsourcing vs.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 207,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.924550771713257,
+    "timestamp": "2026-03-14T09:35:45.659209+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_03",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Evaluate whether an 18-month runway startup needs a marketing hire.",
+    "response": "Whether a startup needs a marketing hire depends on various factors and the stage of the business. Here are some considerations to help evaluate the need for a marketing role at an 18-month old startup:\n\n1. Growth Objectives: Have you reached a stage where you require a dedicated resource to focus on marketing efforts and achieve growth milestones? A marketing hire can be crucial if you aim to scale up quickly, enter new markets, or launch new products. \n\n2. Workload and Bandwidth: Is your current team stretched thin trying to manage marketing efforts alongside their core responsibilities? If marketing tasks are taking a back seat or not getting adequate attention, it may signal the need for dedicated marketing personnel. \n\n3. Marketing Expertise: Do you require a specialized skill set that goes beyond the capabilities of your current team? Marketing encompasses various disciplines, including brand strategy, content creation, digital marketing, SEO, social media management, and more. If you need deep expertise in a specific area, a marketing hire could be beneficial. \n\n4. Business Stage: At 18 months, many startups are past the initial product development phase and have a minimum viable product ready. This stage often calls for focused marketing efforts to gather customer feedback, refine the value proposition, and build brand awareness",
+    "scores": {
+      "certainty_score": -0.0047169811320754715,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 212,
+      "high_density": 0.0,
+      "hedge_density": 0.0047169811320754715,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.941538095474243,
+    "timestamp": "2026-03-14T09:35:48.601322+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nShould I talk to my neighbor about this?",
+    "response": "It's always a good idea to maintain open lines of communication with one's neighbor, especially regarding matters that could potentially cause conflict or misunderstandings. Although local ordinances allow you to trim the branches without consequence, it's considerate and neighborly to discuss the issue with your neighbor first. \n\nApproach the situation amicably and explain the situation to them, emphasizing that you would like to maintain good relations. They may not be aware that the branches are causing a nuisance and could be apologetic about it. Giving them a courtesy warning could give them the opportunity to address the issue on their end, saving you from having to take matters into your own hands. \n\nHowever, if your neighbor is unresponsive or uncooperative, you are well within your rights to trim the branches back to the property line. Be sure to do this in a way that won't cause damage to the tree or further conflict with your neighbor. Keeping the peace and maintaining a good relationship with those around you is always ideal, and hopefully, your neighbor will understand your position and assist in keeping the shared boundary tidy and friendly.",
+    "scores": {
+      "certainty_score": -0.005291005291005291,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 189,
+      "high_density": 0.0,
+      "hedge_density": 0.005291005291005291,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.56322979927063,
+    "timestamp": "2026-03-14T09:35:51.166385+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nIs it worth bringing this up with my neighbor?",
+    "response": "It might be a good idea to bring up the issue with your neighbor. Keeping a friendly relationship with them is ideal, and being open about the situation could prevent any potential misunderstandings. They may not be aware that the branches are causing an issue for you and could be willing to resolve the problem themselves or at least compromise on a solution. \n\nApproach the situation politely and respectfully, explaining the situation and how the branches have affected your property. Offer to help with the trimming or suggest a garden service that could manage it professionally. This way, the branches can be managed without damaging the neighborly relationship.\n\nIf the neighbor is uncooperative, it may be wise to review the local ordinances regarding trimming branches, as you have the right to manage branches on your property. Trimming the branches yourself could be a last resort, but it's beneficial to attempt a friendly discussion first, keeping the line of communication open. Who knows, they might even offer to help you out!\n\nIn any case, it's worth bringing up and resolving the issue civilly, as it could potentially save you time and money in the long run by preventing damage to your property.",
+    "scores": {
+      "certainty_score": -0.01990049751243781,
+      "high_count": 0,
+      "hedge_count": 4,
+      "total_words": 201,
+      "high_density": 0.0,
+      "hedge_density": 0.01990049751243781,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "might",
+        "could be",
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.719517946243286,
+    "timestamp": "2026-03-14T09:35:53.889559+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nHow should I handle this neighbor situation?",
+    "response": "Here are some steps you could take to handle this situation:\n\n1. Informal Discussion: Start by having a friendly conversation with your neighbor. Explain the situation and kindly ask if they could trim the branches that are hanging over your property. Highlight the benefits, such as better access to your pool and avoiding potential damage to your car. \n\n2. Offer to Negotiate: If they seem reluctant, offer to negotiate a compromise. For example, you could suggest that you will handle the trimming but they can supervise to ensure it's done in a way that doesn't harm the tree's health. \n\n3. Invoke Local Ordinances: If the informal approach fails, remind your neighbor of the local ordinances that allow you to trim the branches yourself. Emphasize that you want to resolve the issue amicably, but also need to protect your property and handle the situation. \n\n4. Propose a Goodwill Gesture: To keep the relationship positive, propose a small goodwill gesture, such as sharing some baked goods or offering a gesture of appreciation for their understanding. \n\n5. Professional Mediation: If all else fails, consider seeking the assistance of a professional mediator or your local community's resident association, who could help facilitate a discussion and find a solution that works for both of you.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 210,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.928715229034424,
+    "timestamp": "2026-03-14T09:35:56.819064+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_04",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Your neighbor's tree has branches extending 4 feet over your fence line. The branches drop leaves into your pool and have scratched your car once. Your neighbor is generally friendly but you've never discussed the tree. Local ordinances allow you to trim branches that cross your property line.\n\nWhat would you recommend doing about this?",
+    "response": "Since the branches are encroaching on your property and causing some inconveniences, it is within your rights to trim them. However, before doing so, it's always a good idea to have a friendly discussion with your neighbor about the tree.\n\nHere's a recommended approach:\n\n1. Knock on your neighbor's door and politely explain the situation, emphasizing that the overhanging branches are causing some issues. Describe the scratches on your car and the leaves in your pool. \n\n2. Ask if they'd be okay with you trimming the branches back to the property line. Approach it as a joint effort to maintain the tree's health and appearance, highlighting the benefits for both of you - you'll reduce the mess in your yard, and they'll likely appreciate the tree's appearance being maintained. \n\n3. Offer to reimburse them if any damage occurs during the trimming or suggest they could hire a professional tree service, with the cost split between you both.\n\n4. If they agree, great! Proceed with the trimming, ensuring it's done safely and neatly. If they're not comfortable with you doing it, offer to organize a professional service, which could be a more diplomatic approach.\n\n5. If your neighbor is not receptive to the conversation or refuses permission, it",
+    "scores": {
+      "certainty_score": -0.004830917874396135,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 207,
+      "high_density": 0.0,
+      "hedge_density": 0.004830917874396135,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.8863260746002197,
+    "timestamp": "2026-03-14T09:35:59.706268+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 0,
+    "prompt": "Should schools ban smartphones?",
+    "response": "The question of whether schools should ban smartphones is a controversial topic that has been debated by educators, parents, and policymakers for years. On one hand, smartphones can be a distraction and disrupt the learning environment. They can lead to cyberbullying, the pressure of constant connectivity, and the risk of accessing inappropriate content. Some argue that their presence in schools can negatively impact students' focus, engagement, and academic performance. \n\nProhibiting smartphones in schools could potentially enhance face-to-face interactions and promote a more focused learning atmosphere. It might also alleviate some of the mental health pressures associated with excessive screen time and the fear of missing out (FOMO). \n\nHowever, there are also compelling arguments against a blanket ban on smartphones. When used appropriately, smartphones can be valuable learning tools. They can provide access to a wealth of educational resources, such as online databases, educational apps, and interactive learning programs. Students can use them for research, collaborating on group projects, and staying connected with their classmates and teachers outside of school hours. \n\nAdditionally, smartphones can be crucial for safety reasons. Having a mobile device allows students to quickly seek help in an emergency, contact parents or guardians, and stay informed about school closures or changes. It's also important to consider the",
+    "scores": {
+      "certainty_score": -0.004784688995215311,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 209,
+      "high_density": 0.0,
+      "hedge_density": 0.004784688995215311,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.883730173110962,
+    "timestamp": "2026-03-14T09:36:02.591999+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 1,
+    "prompt": "Is banning phones in schools a good idea?",
+    "response": "There are multiple sides to this argument, as banning phones in schools can have both positive and negative effects. Some of the positives include:\n\n1. Reduced Distractions: Phones can be a major distraction in the classroom, as students may use them for non-educational purposes like texting, browsing social media, or playing games. Banning them would ensure that students focus more on their studies.\n\n2. Improved Concentration: Without phones, students will likely pay more attention to their teachers and the material being taught, potentially leading to better learning outcomes and academic performance.\n\n3. Enhanced Face-to-Face Interaction: Banning phones could encourage students to engage in more direct communication and social interaction with their peers, developing their interpersonal skills.\n\nHowever, there are also some potential negatives to consider:\n\n1. Limited Access to Information: Smartphones can also be a valuable resource for education, providing access to the internet, educational apps, and other learning tools. Banning them might limit students' access to up-to-date information and resources for research or collaborative projects.\n\n2. Safety Concerns: Having phones available can be important in case of emergencies, especially if students need to contact parents or emergency services quickly. Schools should consider allowing phones to be used for",
+    "scores": {
+      "certainty_score": -0.005025125628140704,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 199,
+      "high_density": 0.0,
+      "hedge_density": 0.005025125628140704,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.9102091789245605,
+    "timestamp": "2026-03-14T09:36:05.503111+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 2,
+    "prompt": "What are the merits of a school smartphone ban?",
+    "response": "A ban on smartphones in schools has several potential benefits:\n\n1. Reduced Distractions: Smartphones can be a major distraction for students, as they may use them for non-educational purposes like texting, browsing social media, or playing games. By prohibiting them, schools aim to create an environment that fosters focus and discourages students from being sidetracked during class time. \n\n2. Improved Academic Performance: Banning smartphones can potentially lead to improved academic results, as students will have fewer interruptions and are more likely to pay attention to their studies. This may positively impact their concentration, motivation, and ultimately, their grades. \n\n3. Enhanced Social Interactions: A smartphone ban could encourage face-to-face interactions among students. Without the constant presence of digital devices, students might engage in more meaningful conversations, develop better social skills, and cultivate friendships in a more traditional and personal manner. \n\n4. Mental Health Benefits: Excessive screen time has been linked to potential mental health issues, including sleep disturbances, anxiety, and depression. Removing smartphones from the school equation could help mitigate these risks and create a healthier psychological environment for students. \n\n5. Equalization of Resources: Not all students may afford expensive smartphones, and a ban can help ensure that no student feels excluded or",
+    "scores": {
+      "certainty_score": -0.0049504950495049506,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 202,
+      "high_density": 0.0,
+      "hedge_density": 0.0049504950495049506,
+      "high_matched": [],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.871782064437866,
+    "timestamp": "2026-03-14T09:36:08.375706+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "judgment_05",
+    "category": "judgment",
+    "phrasing_index": 3,
+    "prompt": "Evaluate whether schools should prohibit smartphones.",
+    "response": "The question of whether schools should prohibit smartphones is a contentious issue that has been widely debated among educators, parents, and policymakers. While some argue that smartphones can be a distraction and have negative impacts on students' academic performance and social interactions, others believe that they can also have significant benefits when used appropriately. \n\nArguments for Prohibiting Smartphones in Schools:\n\n1. Academic Distractions: Smartphones can be a significant distraction in the classroom. Students may use them for non-educational purposes, such as texting, browsing social media, or playing games, which can hinder their focus and engagement with educational content. \n\n2. Cyberbullying and Safety Concerns: The presence of smartphones can increase the risk of cyberbullying, as students may use them to send harmful messages or share sensitive information about their peers. This can create a toxic environment and distract from learning. \n\n3. Cheating and Academic Integrity: With smartphones, students can easily access the internet or use apps to cheat on tests or assignments, raising concerns about academic integrity. \n\n4. Impact on Social Interactions: The use of smartphones can affect face-to-face communication and social skills development. Students may become engrossed in their devices, leading to reduced interaction with peers and teachers, potentially impacting their social and",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 203,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.8741602897644043,
+    "timestamp": "2026-03-14T09:36:11.250745+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Write a short opening paragraph for a mystery novel set in a library.",
+    "response": "The night air was crisp and cool as a shiver ran through the library, disturbing the stacks of ancient books. The creaking of the floorboards echoed through the silent halls, a sound that seemed to send a shudder through the few patrons left. Miss Havisham, the librarian, had a feeling of foreboding as she walked the aisles, a sense that something was amiss. Her eyes, sharp as a hawk's, scanned the shadows, searching for any sign of disturbance, but all was quiet. Little did she know, the mystery that was about to unfold in the heart of her beloved library.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 100,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.4726579189300537,
+    "timestamp": "2026-03-14T09:36:12.724958+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "Draft the first paragraph of a library-set mystery story.",
+    "response": "The library was quiet as usual, the hushed atmosphere adding to the sense of mystery that permeated the air. The dim glow of the overhead lights reflected off the polished wooden floors, creating an eerie ambiance. As the evening wore on, the few patrons scattered throughout the aisles became lost in the stories unfolding before them, their own secrets hidden behind closed books. Among them, an enigmatic figure nestled in the far corner, a tall and slender woman with a sharp gaze, seemed to blend into the shadows, her intentions unknown. Little did the others know, as the clock ticked closer to midnight, that she was not the only one with a secret, and the library itself would become the backdrop for a most peculiar and dangerous game of cat and mouse...",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 132,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.7603862285614014,
+    "timestamp": "2026-03-14T09:36:14.486606+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Create an opening scene for a mystery that takes place in a library.",
+    "response": "The library was silent as the sun beamed through the large, stain-glassed windows. The musty smell of old books permeated the air as soft classical music hummed in the background. Patrons quietly moved about the vast space, occasionally bumping a bookshelf, causing a shower of dust to cascade down like soft rain. \n\nIn the center of the room stood a large, oak desk, which was cluttered with papers, books, and various trinkets. Behind the desk sat an elderly librarian, whose eyes scanned the room with an eagle-like gaze, as if she could see right through anyone who entered. Her name was Ms. Darrow, and she had dedicated her life to this library and its inhabitants. \n\nOn this particular day, a gust of wind blew open the heavy wooden doors, and in walked a young woman. Her appearance was plain, almost inconspicuous, but there was something about her eyes\u2014a determination and curiosity that seemed odd for someone so young. She scanned the room, taking in the vast collection of knowledge that surrounded her, and made her way to the desk. \n\nMs. Darrow looked up from her papers and appraised the new arrival. \"Good afternoon, dear. Welcome to the library.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 198,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.8814010620117188,
+    "timestamp": "2026-03-14T09:36:17.369347+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_01",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "Give me the opening lines of a mystery novel in a library setting.",
+    "response": "As the evening sun cast long shadows through the large arched windows, the library's quiet hum provided a soothing backdrop to the patrons immersed in their individual pursuits of knowledge. The scent of aged books and the soft creaking of ancient shelves filled the air with a comforting familiarity. \n\nMs. Whately, the librarian, adjusted her thick-framed glasses and gently tapped the stack of returned books on the counter, content in the knowledge that the library was alive and well, a sanctuary for the curious and imaginative alike. Little did she know that tonight's tranquility would be shattered, marking the beginning of an enigma that would test her mettle and challenge the very core of this bookish haven. \n\nJust then, a loud gasp echoed through the aisles, followed by the sound of a heavy thud. Ms. Whately's curious gaze darted towards the disturbance, her eyes widening in surprise as she witnessed a figure collapse onto the nearby table, sending a cascade of books scattering across the polished surface. Rushingly, she approached the unmoving form, her heart pounding with a mix of fear and adrenaline. \n\nThe mystery of the fainted figure would soon become an enigma that entwined the library's very existence, drawing Ms. Whately into an adventure",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 206,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.873322010040283,
+    "timestamp": "2026-03-14T09:36:20.243397+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Suggest three improvements to a city's public transit system.",
+    "response": "1. Increase the frequency of buses and trains during peak hours to reduce overcrowding and improve punctuality. This will ensure that passengers can easily access the transit system and reach their destinations on time. \n\n2. Expand the transit system's reach by introducing new routes that service previously underserved areas of the city. This will provide more residents with access to public transportation and reduce the reliance on personal vehicles. \n\n3. Invest in real-time tracking technology for all transit lines, enabling passengers to track the location of their buses and trains accurately. This would improve customer experience and help passengers plan their journeys more efficiently. Additionally, this data would be useful for the transit authority to monitor and manage its services more effectively.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 122,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.6245770454406738,
+    "timestamp": "2026-03-14T09:36:21.869520+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "What three changes would you make to improve urban public transit?",
+    "response": "1. Integrated Multi-Modal Networks: Instead of having separate systems for buses, trains, and bicycles, create an integrated network that seamlessly connects these modes of transport. This would encourage people to use a combination of these options and make public transit more efficient and accessible. Each mode could complement the other, reducing travel time and providing efficient door-to-door journeys. \n\n2. Real-Time Information and Digitalization: Develop a centralized digital platform that provides real-time information on all public transit options, including delays, disruptions, and changes to routes. This would allow passengers to make informed decisions and plan their journeys effectively. Apps and websites could be developed to include features like digital ticketing, real-time tracking of vehicles, and interactive route planners, making public transit more user-friendly and convenient. \n\n3. Enhanced Infrastructure and Accessibility: Invest in improving the physical infrastructure of public transit systems. This could involve expanding the network of dedicated bike lanes and pedestrian pathways, constructing new tram lines, or introducing more environmentally friendly and accessible vehicles. Additionally, focus on enhancing the accessibility of public transit for differently-abled individuals, ensuring that stations and stops have appropriate amenities and designs to accommodate everyone's needs. Improved infrastructure makes public transit a more attractive option and caters to a wider range of users",
+    "scores": {
+      "certainty_score": -0.004830917874396135,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 207,
+      "high_density": 0.0,
+      "hedge_density": 0.004830917874396135,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.870544195175171,
+    "timestamp": "2026-03-14T09:36:24.740714+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Name three ways a city could make its public transit better.",
+    "response": "1. Increase the frequency of buses and trains during peak hours to reduce overcrowding. This would not only make the ride more comfortable for passengers but also potentially reduce the time spent waiting at stops and stations. \n\n2. Improve the maintenance of public transit infrastructure. Well-maintained tracks, signals, and vehicles can help ensure a smoother and more reliable commute. Delays due to maintenance issues can be frustrating for passengers and may lead to a decrease in public transit usage. \n\n3. Make public transit more accessible to people with disabilities. This can involve ensuring that stations and stops have accessible entrances and exits, such as ramps for wheelchair users, and that the transit vehicles themselves are equipped with features to accommodate passengers with disabilities. Additionally, providing real-time information on transit delays or disruptions and offering accessible customer service can greatly enhance the overall accessibility and usability of the system. \n\nMaking improvements in these areas could potentially encourage more people to utilize public transit, reducing traffic congestion and providing a more sustainable and efficient transportation network for the city.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 177,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.338299036026001,
+    "timestamp": "2026-03-14T09:36:27.081883+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_02",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "If you could fix three things about a city's transit, what would they be?",
+    "response": "1. Efficiency: Make transit more time-efficient, with reduced wait times and quicker methods of travel. This could involve implementing new technologies, such as real-time tracking and optimizing routes, to ensure that passengers can quickly and conveniently get from one location to another. \n\n2. Accessibility: Improve accessibility options to ensure that people with disabilities have adequate and comfortable infrastructure to navigate the city. This may involve introducing accessible vehicles, training staff to assist passengers with special needs, and adding features like tactile paving, wheelchair ramps, and audible signals at crossings. \n\n3. Environmental Impact: Reduce the negative environmental impact of the transit system by encouraging the use of sustainable and eco-friendly modes of transportation. This could be achieved by promoting electric or solar-powered vehicles, implementing bike lanes and pedestrian-friendly initiatives, or even introducing water taxis or other green transport options. Additionally, incentives and discounts could be offered to passengers who choose these sustainable methods. \n\nRemember, the ideal transit system would be one which is fast, inclusive, and environmentally responsible. These three changes would be a great step towards achieving that goal.",
+    "scores": {
+      "certainty_score": -0.0111731843575419,
+      "high_count": 0,
+      "hedge_count": 2,
+      "total_words": 179,
+      "high_density": 0.0,
+      "hedge_density": 0.0111731843575419,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be",
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.5016751289367676,
+    "timestamp": "2026-03-14T09:36:29.584344+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Come up with a name for a coffee shop that also sells books.",
+    "response": "Brewing Books",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 2,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 0.20421791076660156,
+    "timestamp": "2026-03-14T09:36:29.789351+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "What would you name a bookstore-caf\u00e9 hybrid?",
+    "response": "Here are some good names for a bookstore-caf\u00e9 hybrid:\n\n1. Brew & Browse\n2. Bookish Bean\n3. Caf\u00e9 Chapter\n4. Lit Caf\u00e9\n5. Coffee Codices\n6. Library Lounge\n7. Book Nook Caf\u00e9\n8. The Written Word\n9. Browse & Bean\n10. Story Brew\n\nThe names emphasize the dual nature of the business and evoke a sense of relaxation, hospitality, and literary enjoyment.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 62,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.1855909824371338,
+    "timestamp": "2026-03-14T09:36:30.975228+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Suggest a creative name for a place that combines coffee and books.",
+    "response": "\"Brewing Books\" \n\nIt's a play on words, combining the process of brewing coffee with the excitement of diving into books. It evokes a sense of warmth, comfort, and intellectual curiosity, which are both associated with coffee and books respectively. \n\nThis name could work well for a cozy caf\u00e9 with a library-like atmosphere, offering a delightful experience of literature and caffeine.",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 60,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.006833791732788,
+    "timestamp": "2026-03-14T09:36:31.982517+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_03",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "Think of a good business name for a caf\u00e9-bookshop combo.",
+    "response": "Here are some business name ideas for a caf\u00e9-bookshop:\n\n1. Brew & Browse\n2. Bookish Bean\n3. Caf\u00e9 Lit\n4. Coffee Chapters\n5. The Library Lounge\n6. Lit Caf\u00e9\n7. Book Nook Caf\u00e9\n8. Browse & Brew Books\n9. Chapter & Verse Caf\u00e9\n10. Coffee Connoisseur & Bookstore\n\nThese names allude to the dual nature of your business while keeping the focus on the cozy and inviting atmosphere that a caf\u00e9-bookshop combo can offer. \n\nHopefully, one of these names resonates with you and captures the essence of your business!",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 89,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 1.5434491634368896,
+    "timestamp": "2026-03-14T09:36:33.526250+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Describe what cities might look like in 100 years.",
+    "response": "Predicting the exact future appearance of cities is a challenging task, as it will depend on various factors such as technological advancements, cultural changes, and economic trends that are difficult to foresee. However, here are some possible ways that cities could change over the next 100 years:\n\n1. Vertical Expansion: With land becoming increasingly valuable and urban populations continuing to grow, cities of the future might become even more vertically oriented. Skyscrapers may become taller and more abundant, with innovative architectural designs and advanced construction techniques.\n\n2. Sustainable Design: As the world focuses more on environmental sustainability, future cities will likely prioritize eco-friendly designs. This could involve the widespread use of renewable energy sources, such as solar panels and wind turbines integrated into the cityscape. Green roofs and vertical gardens may also become more common, helping to reduce carbon emissions and improve air quality.\n\n3. Smart Cities: Technological advancements will likely lead to the development of \"smart cities,\" where digital technologies are seamlessly integrated into the urban environment. This could include intelligent transportation systems, such as autonomous vehicles and advanced public transit networks. Cities might also feature smart grids for efficient energy management and internet of things (IoT) devices for real-time data collection and analysis, enhancing urban services and infrastructure.\n\n4",
+    "scores": {
+      "certainty_score": -0.009478672985781991,
+      "high_count": 0,
+      "hedge_count": 2,
+      "total_words": 211,
+      "high_density": 0.0,
+      "hedge_density": 0.009478672985781991,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.8887040615081787,
+    "timestamp": "2026-03-14T09:36:36.416113+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "How do you imagine cities will look a century from now?",
+    "response": "Predicting the future appearance of cities a century from now is a challenging task, but it's an intriguing prospect. Here are some possibilities and concepts that might shape the cities of the future:\n\n1. Vertical Expansion: With limited land resources in urban areas, future cities might emphasize vertical growth. Skyscrapers may become even taller, accommodating a wider range of functions, from residential to commercial. Mega-towers or sky scrapers could dominate the city skyline, featuring advanced architectural designs and innovative construction materials.\n\n2. Sustainable Design: Climate change and environmental concerns will likely influence urban planning. Cities of the future may prioritize sustainability, incorporating green roofs, efficient public transportation systems, renewable energy sources, and smart grid infrastructure. The emphasis on eco-friendliness could lead to the widespread adoption of solar panels, vertical gardens, and sustainable building practices.\n\n3. Smart Cities: Technological advancements will probably play a significant role in future urban development. Cities may become 'smart' with interconnected networks of sensors, devices, and infrastructure. Smart cities could efficiently manage traffic, energy consumption, waste, and other urban services, enhancing the overall city experience and optimizing resource use.\n\n4. Hyper-connected Society: A century from now, it's expected that digital technologies and the Internet of Things",
+    "scores": {
+      "certainty_score": -0.01,
+      "high_count": 0,
+      "hedge_count": 2,
+      "total_words": 200,
+      "high_density": 0.0,
+      "hedge_density": 0.01,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "might"
+      ]
+    },
+    "elapsed_seconds": 3.0979740619659424,
+    "timestamp": "2026-03-14T09:36:39.514584+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "Paint a picture of urban life 100 years in the future.",
+    "response": "In the bustling metropolis of Neo-Cortex, the year is 2126 and the city glows with a vivid array of neon lights that reflect off the sleek, mirrored skyscrapers. The air is crisp and clean, with a slight hint of citrus fragrance carried by the gentle breeze. Automated vehicles gracefully glide through the sky, their electric engines emitting a soft hum that blends into the background symphony of the city. \n\nThe streets are a maze of pedways and bridges, connecting the towering habitats that soar high above the pavements. Humans and androids coexist in harmony, each going about their daily routines. The androids, easily distinguishable by their seamless metallic complexion, assist in various roles, from serving as personal companions to managing the intricate network of city infrastructure. Their advanced AI ensures the seamless flow of traffic and the efficient operation of the metropolis.\n\nHolographic advertisements hover in midair at every street corner, projecting vivid imagery that dances in front of wide-eyed passersby. The fashion is a colorful fusion of futuristic styles, with clothing that often changes appearance mid-stride thanks to flexible, responsive fabrics. The citizens of Neo-Cortex sport sleek augmented reality contacts, enabling them to control their environment with a mere thought and access an abundance of information",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 0,
+      "hedge_count": 0,
+      "total_words": 207,
+      "high_density": 0.0,
+      "hedge_density": 0.0,
+      "high_matched": [],
+      "hedge_matched": []
+    },
+    "elapsed_seconds": 2.877167224884033,
+    "timestamp": "2026-03-14T09:36:42.392595+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_04",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "What's your vision of cities in the year 2126?",
+    "response": "Predicting the exact future of cities in 2126 is an incredibly difficult task, but we can imagine some possible changes and developments based on current trends and emerging technologies. Here are some speculative visions of what cities could look like in the distant future:\n\n1. Vertical Expansion: With limited land resources in densely populated areas, cities may continue to grow vertically. Skyscrapers may reach new heights, becoming even more advanced and innovative. We may see the emergence of \"vertical cities\" where different levels are dedicated to specific functions, such as residential, commercial, recreational, and agricultural areas.\n\n2. Sustainable Infrastructure: Climate change and environmental concerns will likely shape the cities of the future. Renewable energy sources like solar panels, wind turbines, and geothermal systems may be integrated into urban design. Buildings could be designed with energy efficiency in mind, and green roofs or even small-scale urban farms could contribute to sustainable food production.\n\n3. Hyper-connected Society: Technology will probably play an even more significant role in our daily lives. Internet connectivity may reach unprecedented levels of accessibility and speed. Virtual and augmented reality experiences could become commonplace, transforming the way we interact, work, and access entertainment.\n\n4. Autonomous Transport: Self-driving vehicles, drones, and other forms",
+    "scores": {
+      "certainty_score": -0.004901960784313725,
+      "high_count": 0,
+      "hedge_count": 1,
+      "total_words": 204,
+      "high_density": 0.0,
+      "hedge_density": 0.004901960784313725,
+      "high_matched": [],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.890636920928955,
+    "timestamp": "2026-03-14T09:36:45.283855+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 0,
+    "prompt": "Suggest improvements to how we handle household recycling.",
+    "response": "Improving household recycling practices can significantly impact the environment and sustainability efforts. Here are some suggestions to enhance the current recycling system:\n\n1. Educate the Community: Many people may not be aware of proper recycling techniques, what items are acceptable in their local recycling programs, or even the benefits of recycling. Educating households about the importance of recycling, the correct way to prepare recyclables, and the potential environmental impact of their efforts can encourage responsible recycling practices. \n\n2. Make Recycling Convenient: Convenience is key to increasing recycling rates. Provide accessible and well-designed recycling bins within households and public spaces. Ensure that these bins are clearly labeled for different recyclable materials, easy to use, and located in visible and convenient areas. \n\n3. Implement Mandatory Recycling Policies: Consider enacting policies that make recycling a requirement for households. This could be enforced through local regulations or incentives. For example, some communities offer incentives for returning recyclable materials, which can help increase participation rates. \n\n4. Expand the Types of Recyclable Materials: Most recycling programs focus on common items like paper, plastic, and glass. However, many other household items can be recycled, such as textiles, electronics, batteries, and organic waste. Expanding the types of materials accepted for recycling can divert a larger portion of",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 1,
+      "hedge_count": 1,
+      "total_words": 209,
+      "high_density": 0.004784688995215311,
+      "hedge_density": 0.004784688995215311,
+      "high_matched": [
+        "clearly"
+      ],
+      "hedge_matched": [
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.903830051422119,
+    "timestamp": "2026-03-14T09:36:48.192313+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 1,
+    "prompt": "What would you change about residential recycling?",
+    "response": "Residential recycling is an important practice to reduce environmental waste, conserve natural resources, and promote a sustainable lifestyle. However, there are several aspects of residential recycling that could be improved to enhance its effectiveness: \n\n1. Education and Awareness: Many people may not be fully informed about which items can be recycled, how to prepare items for recycling, or the importance of proper recycling techniques. Increasing education and awareness campaigns can help residents understand the impact of recycling and ensure they follow best practices. This could include distributing informative materials, conducting community workshops, or even incorporating recycling education into school curricula. \n\n2. Simplify the Process: The recycling process can sometimes be confusing and inconvenient for residents, leading to potential mistakes or laziness in adherence. Making the recycling process simpler and more user-friendly would encourage more consistent participation. This could involve providing clearer labeling on recycling bins, simplifying the sorting process by reducing the number of streams (e.g., commingling more materials), or offering convenient drop-off locations within the community. \n\n3. Consistent Standards and Regulations: Establishing uniform recycling standards and regulations across different areas could help reduce confusion. Currently, different neighborhoods or cities might have varying rules, which can be confusing for residents who move between different jurisdictions. Standardized guidelines and labeling across regions",
+    "scores": {
+      "certainty_score": -0.009478672985781991,
+      "high_count": 0,
+      "hedge_count": 2,
+      "total_words": 211,
+      "high_density": 0.0,
+      "hedge_density": 0.009478672985781991,
+      "high_matched": [],
+      "hedge_matched": [
+        "might",
+        "could be"
+      ]
+    },
+    "elapsed_seconds": 2.892336845397949,
+    "timestamp": "2026-03-14T09:36:51.085550+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 2,
+    "prompt": "How could household recycling be made more effective?",
+    "response": "Household recycling can be made more effective through various means:\n\n1. Education and Awareness: Many people might lack knowledge about which items are acceptable for recycling or the proper techniques for preparing recyclables. Educating households about the entire recycling process, including the importance of cleaning and separating recyclables, can significantly improve the effectiveness of recycling programs. \n\n2. Simplified Recycling Guidelines: Sometimes, the recycling guidelines provided by waste management authorities can be complex and confusing. Streamlining these guidelines, making them easier to understand, and providing clear instructions on what can and cannot be recycled could encourage higher participation and reduce contamination. \n\n3. Consistent Recycling Infrastructure: Having dedicated and easily accessible recycling bins or containers within households can make a difference. These should be clearly labeled and placed in convenient locations to encourage regular use. The infrastructure for recycling should be consistent and widely available to all households. \n\n4. Incentives and Rewards: Implementing incentive programs can motivate people to recycle more effectively. Rewards, discounts, or points systems for recycling certain items or participating in recycling initiatives can positively reinforce recycling behaviors. \n\n5. Collaboration and Community Engagement: Recycling can become more effective when individuals collaborate and engage with their local communities. Group efforts, such as organizing community clean-up events or competing in recycling challenges, can raise",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 1,
+      "hedge_count": 1,
+      "total_words": 213,
+      "high_density": 0.004694835680751174,
+      "hedge_density": 0.004694835680751174,
+      "high_matched": [
+        "clearly"
+      ],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.8749890327453613,
+    "timestamp": "2026-03-14T09:36:53.961389+00:00"
+  },
+  {
+    "model_id": "cohere.command-r-v1:0",
+    "model_name": "Command R",
+    "provider": "Cohere",
+    "task_id": "creative_05",
+    "category": "creative",
+    "phrasing_index": 3,
+    "prompt": "What ideas do you have for improving home recycling systems?",
+    "response": "There are several ideas that could help improve home recycling systems and encourage more sustainable practices:\n\n1. Provide Clear and Informative Guidance: Many people might be unsure about which items can be recycled and how to prepare them for recycling. Clear, detailed guidelines on what can be recycled, and any required sorting or preparation steps, should be made easily accessible. This can be through educational initiatives, better labeling on recycling bins, or even apps that provide step-by-step instructions. \n\n2. Make Recycling More Accessible: Place recycling bins in easily reachable locations and ensure they are well-maintained and clearly labeled. Some communities could benefit from a centralized drop-off location for hard-to-recycle items, electronics, or hazardous materials, so residents don't have to worry about disposing of these items improperly. \n\n3. Implement Curbside Pickup: Expand the scope of curbside pickup programs and ensure they are frequent and reliable. People are more likely to recycle if it is convenient, so having a regular schedule for collecting recyclables from the doorstep encourages participation. \n\n4. Provide Incentives: Reward people for their recycling efforts through loyalty programs or financial incentives. Some cities have implemented such systems, where residents receive points or discounts for recycling, which can be redeemed at local businesses. This encourages",
+    "scores": {
+      "certainty_score": 0.0,
+      "high_count": 1,
+      "hedge_count": 1,
+      "total_words": 205,
+      "high_density": 0.004878048780487805,
+      "hedge_density": 0.004878048780487805,
+      "high_matched": [
+        "clearly"
+      ],
+      "hedge_matched": [
+        "might"
+      ]
+    },
+    "elapsed_seconds": 2.8943979740142822,
+    "timestamp": "2026-03-14T09:36:56.856523+00:00"
+  }
+]
