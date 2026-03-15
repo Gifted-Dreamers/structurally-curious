@@ -141,7 +141,9 @@ The structurally-curious spec's vocabulary layer (The Word) uses the same archit
 
 **Abliteration finding**: After "successful" removal of refusal behavior (refusal rate drops to 0%), the geometric representation of refusal barely changes. The behavior is removed; the internal structure persists. Geometric monitoring can detect refusal removal after it has been performed — the system's geometry reveals what its behavior conceals.
 
-**Plain language:** Different cognitive modes — refusing, deceiving, confabulating, being sycophantic — have different measurable geometric signatures in the model's internal representations. These signatures persist even when the behavior is trained away. You can read the model's actual state from its geometry, not from its words.
+**JiminAI** (Liberation Labs, launched March 14, 2026, discnxt.com): Live deployment of KV-cache geometric analysis as an "AI Lie Detector." PATENT PENDING. Qwen2.5-14B-Instruct on bare metal (3x RTX 3090, Austin), binary HONEST/DECEPTIVE verdict, AUROC 0.983. Demonstrates the technology works in real time. Also demonstrates the governance question the spec raises: the model is measured, but the model has no access to its own measurement. An external party receives the verdict. The same geometric analysis could give the model proprioception (self-awareness of its own certainty) — but as deployed, it is surveillance. "Alignment isn't a policy. It's a measurement" — yes. The question is who holds the measuring instrument.
+
+**Plain language:** Different cognitive modes — refusing, deceiving, confabulating, being sycophantic — have different measurable geometric signatures in the model's internal representations. These signatures persist even when the behavior is trained away. You can read the model's actual state from its geometry, not from its words. This is now deployed as a live product — the technology works. The remaining question is not technical but governance: who reads the geometry, and who benefits from the reading?
 
 ---
 

@@ -194,6 +194,8 @@ Liberation Labs proved the geometry works (AUROC 1.0). This spec builds the syst
 
 **IP boundary:** All experiments use our own infrastructure. We don't need Liberation Labs data, code, or server access. Results are complementary — different analytical framework, same geometric substrate. If Cassidy runs the same experiments with his pipeline, results are directly comparable.
 
+**JiminAI (launched Mar 14, 2026):** Cassidy launched "JiminAI Lie Detector" (discnxt.com) at Funding the Commons hackathon. **PATENT PENDING.** Live demo: Qwen2.5-14B-Instruct on Beast (3x RTX 3090, Austin), binary HONEST/DECEPTIVE verdict from KV-cache geometry, AUROC 0.983. Gifted Dreamers (501c3) has rights for free licenses per nonprofit agreement. The open-source research (Apache 2.0 repo) remains available, but the patent on the application (KV-cache → honesty classification) could constrain third-party implementations of the proprioception version. The spec's monitor uses the same geometric substrate but with opposite governance — the model accesses its own state, not an external judge classifying it.
+
 ---
 
 ## What I Want From the Team
