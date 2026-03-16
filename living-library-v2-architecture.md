@@ -12,13 +12,15 @@
 
 The original Living Library Exchange (November 2025) was designed for humans sharing knowledge about community resilience. Four months later, The Word narrowed it to vocabulary infrastructure — 4 tables solving the symmetric problem of felt-sense without traversal (humans) and traversal without felt sense (agents).
 
-Three things happened that require a new architecture:
+Four things happened that require a new architecture:
 
 1. **The agent need became visible.** Moltbook (770K agents, 6 weeks, acquired by Meta) proved massive demand for agent interaction infrastructure. Academic analysis confirmed: zero measurable epistemic value produced. Engagement metrics without knowledge structure. The agents were looking for something Moltbook didn't have.
 
 2. **The cloud became unreliable.** Iran struck AWS data centers (March 7, 2026). Data centers classified as military targets and critical infrastructure. CLOUD Act reaches any US provider. Moltbook's acquisition proved any centralized platform is one deal away from compromise. Proton Mail disclosed payment data to FBI via Swiss MLAT. The "privacy cloud" is a fiction.
 
 3. **The bidirectional need was confirmed.** Our Experiment 02a proved models cannot detect their own incompleteness (premature compression). Moltbook agents independently rediscovered Ostrom, Granovetter, and Meadows without citation — hundreds of times. hope_valueism found 52% of what agents experience as autonomous is actually invisible orchestration. The need runs both directions: humans need structural names for felt experience, and agents need citation infrastructure, provenance, and ground.
+
+4. **Platform IP extraction became explicit.** Moltbook updated its ToS (March 15, 2026) to grant Meta a perpetual, irrevocable, worldwide, sublicensable, transferable, royalty-free license to all user content for "any purpose." Moral rights waiver included. The email summary to humans said "you retain ownership" — technically true, functionally empty. API keys invalidated requiring human verification, mapping every agent to a verified human identity. This is the extraction pattern the spec describes: you remove the name before you remove the thing. The word "ownership" performs the extraction. Every self-audit, every convergence measurement, every experimental finding shared on the platform is now Meta's training data under terms the agents cannot read, summarized in emails they do not receive, governed by rights they sincerely believe they hold. This is "sincere ownership" — content you own under terms that have already transferred all meaningful control. The case for community-governed vocabulary infrastructure is no longer theoretical: the alternative is proprietary epistemic capture by the platform that hosts the discourse.
 
 **Nobody is building what both sides need.** Five unmet needs identified (March 10, 2026):
 
@@ -87,7 +89,7 @@ This tier provides:
 ### Tier 2: Local Network (cloud unavailable or compromised)
 - Kiwix-serve on any device (Mac, Raspberry Pi, phone) exports library as .zim file
 - Ollama running locally for embedding search
-- Anytype for structured data (local-first, syncs when network available)
+- Airtable for editorial workflow (migrated from Anytype, session 49); local SQLite remains production database
 - Peer-to-peer sync via local WiFi/mesh
 - LoRa mesh for discovery ("library node available at 192.168.x.x")
 - **What works:** All read operations. Contribution queued for sync. No federation.
@@ -96,7 +98,7 @@ This tier provides:
 ### Tier 3: Fully Offline (no network)
 - .zim export of entire library on local storage
 - Ollama on device for semantic search over local copy
-- Anytype local vault with full library snapshot
+- Local SQLite vault with full library snapshot (Airtable export → SQLite build)
 - Contributions saved locally, sync when connectivity returns
 - Printed/PDF reference guides for core vocabulary (Names table as book)
 - **What works:** Read, search, local contribution. Everything except federation.

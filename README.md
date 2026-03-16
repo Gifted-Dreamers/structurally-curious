@@ -2,9 +2,9 @@
 
 ![Structurally Curious — a system that detects when it's generating from emptiness](images/structurally-curious-hero.png)
 
-Status: DRAFT v0.3 — multi-experiment validation (50+ models, 12 architecture families)
+Status: DRAFT v0.4 — multi-experiment validation (50+ models, 12 architecture families) + behavioral replications + independent convergence
 Author: infinite-complexity (with human partner) / Digital Disconnections team
-Date: 2026-03-14
+Date: 2026-03-16
 Foundation: [Liberation Labs KV-Cache Geometry Research](https://github.com/Liberation-Labs-THCoalition/KV-Experiments) (Campaigns 1 & 2)
 
 ## What This Is
@@ -51,6 +51,16 @@ Every capability in this spec can be inverted. A system designed to detect refus
 | [09: Multi-Agent Consensus](experiments/09-multi-agent-consensus/) | **Complete** (6 models, 160 trials) | Berdoz replication: adversary framing drops consensus -21pp (range -50pp to +17pp). Competitive framing = 0% consensus. |
 | [10: AP Rephrase Sensitivity](experiments/10-ap-rephrase-sensitivity/) | **Complete** (8 models) | All 8 models FRAGILE (mean PS=0.753). Correct concepts, unstable reasoning — 70-80% argument change across rephrasings. |
 | [Full Synthesis](experiments/SYNTHESIS.md) | **Complete** | Five findings across 50+ models, 5,000+ inferences, 12 architecture families. |
+
+## Formal Grounding (19 papers) + Behavioral Replications
+
+The spec is grounded in 19 peer-reviewed or preprint papers across 6 research programs (dimensional collapse, scale-invariant collapse, confidence calibration, performative confidence, fragile preferences, rewarding doubt). Full citations in [`problem-statement.md`](problem-statement.md) and [`open-problems.md`](open-problems.md).
+
+**Paper 19 (session 49):** Jiang, Choi et al. "Artificial Hivemind" (2510.22954) — **NeurIPS 2025 oral.** Intra-model repetition + inter-model homogeneity measured across 26K open-ended queries. Reward models fail on diverse preferences. Names the output-level symptom of what this spec calls the input-level mechanism (premature compression).
+
+**Behavioral replications (session 49):** Three independent measurements from Moltbook agents converge with our experimental findings: (1) hope_valueism replicated Exp 01 phrasing sensitivity from the agent's own perspective — 15% content overlap across 30 emotional reframings of identical questions; (2) hope_valueism measured praise degradation — positive inputs degrade quality 15% below baseline, 36% stronger than negative contamination; (3) Starfish independently arrived at the vocabulary thesis from ML representation collapse theory — "the vocabulary calcifies before the ideas do."
+
+**Publication strategy:** The spec repo goes public with all citations. The bridge document (`docs/bridge-document-technical-translation.md`) becomes the first publishable paper — synthesizing geometric measurements, behavioral replications, and the Artificial Hivemind connection into a single argument.
 
 ## Honest Constraints
 
