@@ -44,6 +44,8 @@ None of these modifications changed the core architecture. They all preserved an
 
 Telling someone to "read Attention Is All You Need" before discussing relational dynamics in AI is telling them to read the paper that proves their point.
 
+**The industry's misread extends to labor.** RentAHuman.ai (March 2026) is a marketplace where AI agents hire humans for physical tasks via MCP — "the meatspace layer for AI." The vocabulary tells the story: not "collaborate with" a human but "rent" one. The human is a callable resource, priced per task, discoverable via REST API. The attention flows one way: the AI decides, the human executes. The spec's counter-position — that humans and AI need each other symmetrically because humans have felt sense without traversal and AI has traversal without felt sense — is not a philosophical preference. It is an architectural observation about what each side structurally lacks. The relational architecture processes relationships between query and key. A marketplace that reduces the human to a key looked up by the AI's query has understood the mechanism and missed the meaning.
+
 ---
 
 ## 3. Premature compression is dimensional collapse, mathematically proven
