@@ -49,7 +49,8 @@ Every capability in this spec can be inverted. A system designed to detect refus
 | [03: Geometric Correlation](experiments/03-geometric-correlation/) | **Complete** (1.5B + 3B) | Directional coherence (p<0.03) and α-ReQ (p<0.03) both correlate with phrasing sensitivity at two scales. |
 | [05: Confidence Density](experiments/05-confidence-density/) | **Complete** (34 models) | 91% of models show NO significant correlation between confidence language and phrasing sensitivity. Confidence is cosmetic, not epistemic. |
 | [09: Multi-Agent Consensus](experiments/09-multi-agent-consensus/) | **Complete** (6 models, 160 trials) | Berdoz replication: adversary framing drops consensus -21pp (range -50pp to +17pp). Competitive framing = 0% consensus. |
-| [Full Synthesis](experiments/SYNTHESIS.md) | **Complete** | Four findings across 50+ models, 5,000+ inferences, 12 architecture families. |
+| [10: AP Rephrase Sensitivity](experiments/10-ap-rephrase-sensitivity/) | **Complete** (8 models) | All 8 models FRAGILE (mean PS=0.753). Correct concepts, unstable reasoning — 70-80% argument change across rephrasings. |
+| [Full Synthesis](experiments/SYNTHESIS.md) | **Complete** | Five findings across 50+ models, 5,000+ inferences, 12 architecture families. |
 
 ## Honest Constraints
 

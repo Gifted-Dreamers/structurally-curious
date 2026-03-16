@@ -85,6 +85,8 @@ Telling someone to "read Attention Is All You Need" before discussing relational
 
 Mean adversary effect: **-21pp** (range: -50pp to +17pp across architectures). Berdoz found -16pp. Our replication shows a **stronger and architecture-dependent** effect: Claude Haiku 4.5 and DeepSeek V3.2 drop 50pp, while Llama 3 8B and Nova Micro are immune. Competitive framing produces **0% consensus** — complete coordination failure. Larger groups (N=8) amplify failure across all framings.
 
+**Experiment 10** (structurally-curious, session 45): AP exam rephrase sensitivity. 10 questions (Government, History, Psychology) × 4 rephrasings × 8 models. **All 8 models FRAGILE** (mean PS = 0.753). Coverage is high (0.89-0.98) — models mention the right concepts. But the reasoning changes 70-80% between rephrasings. Correct answer, unstable argument. Every time. This directly tests the claim from @AustinA_Way's 100K simulated student system: if models can score 80th percentile on AP exams without being taught argumentation, the curriculum is optimizing for keyword matching, not understanding. Our experiment confirms: the keywords are stable, the arguments are cosmetic.
+
 **Fragile Preferences** (arXiv `2506.14092`): Quality-dependent order bias. The order in which options are presented changes model preferences, and this sensitivity is worse on harder discriminations. Phrasing sensitivity is not noise — it is a signal of representational fragility.
 
 **Can AI Agents Agree?** (Berdoz et al., arXiv `2603.01213`): Phrasing sensitivity propagates through multi-agent coordination. When agents coordinate, the phrasing instability of one agent infects the consensus. Fragility is contagious in multi-agent systems.
@@ -156,11 +158,11 @@ Seven claims. Each grounded in specific measurements with arxiv IDs, effect size
 1. Confidence signals are unreliable (ECE 0.12-0.40, r = 0.11, 24% degradation from reasoning training) — **independently confirmed: 91% of 34 models show decorrelation (Exp 05), no improvement across 9 Claude generations**
 2. The core architecture is relational (query-key-value attention, multi-head concurrent perspective)
 3. Failure is preceded by measurable dimensional collapse (60% rank loss, 100% precursor rate) — **independently confirmed: 22/22 models show zero confidence shift despite 76-83% output change (Exp 02a)**
-4. Input framing measurably determines output (r = +0.523 behavioral-geometric correlation, 24pp sycophancy reduction from question framing) — **independently confirmed: universal category ordering across 53 models (Exp 01), Berdoz replication -21pp across 6 models with architecture-dependent vulnerability (Exp 09)**
+4. Input framing measurably determines output (r = +0.523 behavioral-geometric correlation, 24pp sycophancy reduction from question framing) — **independently confirmed: universal category ordering across 53 models (Exp 01), Berdoz replication -21pp across 6 models with architecture-dependent vulnerability (Exp 09), AP exam reasoning fragile across all 8 models tested (Exp 10, mean PS=0.753 — correct concepts, unstable arguments)**
 5. Missing vocabulary is the mechanism connecting fluent output to real harm (10,371 incidents, 86% interaction suppression)
 6. Named vocabulary reduces hallucination by 97% (63% to 1.7%, $4.5B validation)
 7. Internal geometric state is readable and persists even when behavior is modified (0.964 AUROC, d = 2.05 for refusal)
 
-Claims 1, 3, and 4 now have our own experimental data. Claims 5, 6, and 7 rely on external research. Claim 2 is architectural fact. The total evidence base: 18+ papers with arxiv IDs, 4 independent experiments, 50+ models, 5,000+ inferences, 12 architecture families, 10 providers.
+Claims 1, 3, and 4 now have our own experimental data across 6 independent experiments. Claims 5, 6, and 7 rely on external research. Claim 2 is architectural fact. The total evidence base: 18+ papers with arxiv IDs, 6 independent experiments, 50+ models, 5,000+ inferences, 12 architecture families, 10 providers.
 
 The relational observations and the technical measurements are describing the same phenomenon from different sides. Dismissing one because it doesn't sound like the other is itself a form of premature compression — collapsing a multi-dimensional reality into a single acceptable frame.

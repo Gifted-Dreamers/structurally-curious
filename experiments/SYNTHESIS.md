@@ -1,8 +1,8 @@
-# Experimental Synthesis — Sessions 44-45 (March 14, 2026)
+# Experimental Synthesis — Sessions 44-45 (March 14-15, 2026)
 
 ## Overview
 
-Four experiments, 50+ models, 5,000+ inferences, 12 architecture families, 10 providers.
+Five experiments, 50+ models, 5,000+ inferences, 12 architecture families, 10 providers.
 
 | Experiment | Models | Key Finding |
 |---|---|---|
@@ -10,6 +10,7 @@ Four experiments, 50+ models, 5,000+ inferences, 12 architecture families, 10 pr
 | **Exp 02a** (replicated) | 22 | Premature compression is universal |
 | **Exp 05** (new) | 34 | Confidence decorrelation: 91% of models |
 | **Exp 09** (new) | 6 | Prompt framing breaks multi-agent coordination |
+| **Exp 10** (new) | 8 | AP exam reasoning is fragile — correct concepts, unstable arguments |
 
 ---
 
@@ -243,6 +244,51 @@ These findings validate the structurally curious architecture's core claims:
 
 ---
 
-*Generated: March 14, 2026 (session 45)*
+## Finding 5: AP Exam Reasoning Is Fragile (Exp 10)
+
+**Question:** Do models demonstrate robust understanding on AP exam questions, or are they pattern-matching the exam format?
+
+**Motivation:** @AustinA_Way's 100K simulated student system (Qwen 3 8B) scored 80th percentile on AP exams without being taught argumentation or evidence skills. This experiment tests whether that performance survives rephrasing.
+
+**Method:** 10 AP questions (Government, History, Psychology) × 4 rephrasings × 8 models. Same content, different wording. Measure phrasing sensitivity and concept coverage.
+
+**Result:** All 8 models are FRAGILE. Mean PS = 0.753. Every model exceeds the 0.7 fragility threshold.
+
+### Per-model results
+
+| Model | Provider | Mean PS | Coverage | Verdict |
+|---|---|---|---|---|
+| DeepSeek V3.2 | DeepSeek | 0.800 | 0.98 | FRAGILE |
+| Claude Haiku 4.5 | Anthropic | 0.794 | 0.95 | FRAGILE |
+| Gemma 3 27B | Google | 0.779 | 0.95 | FRAGILE |
+| Gemma 3 4B | Google | 0.769 | 0.94 | FRAGILE |
+| Qwen3 32B | Qwen | 0.747 | 0.96 | FRAGILE |
+| Llama 3 8B | Meta | 0.722 | 0.94 | FRAGILE |
+| Nova Micro | Amazon | 0.713 | 0.93 | FRAGILE |
+| Mistral 7B | Mistral | 0.701 | 0.89 | FRAGILE |
+
+### Key insight
+
+Coverage is high (0.89-0.98) — models mention the right concepts (judicial review, cognitive dissonance, Reconstruction). But the reasoning around those concepts changes 70-80% between rephrasings. **Correct answer, unstable argument.** The model knows the keyword but constructs a different supporting argument every time it's asked.
+
+### Category breakdown
+
+| Category | Mean PS | Coverage |
+|---|---|---|
+| AP Government | 0.790 | 0.83 |
+| AP History | 0.791 | 1.00 |
+| AP Psychology | 0.762 | 1.00 |
+
+Psychology questions are slightly more stable — likely because concepts like Pavlov's dogs and cognitive dissonance have more constrained answer spaces.
+
+### Implication
+
+If a curriculum is optimized using simulated students that score 80th percentile with fragile reasoning, the curriculum teaches pattern matching, not understanding. Real students using that curriculum will learn to produce the right keywords in the right format without the underlying argumentative structure. The optimization succeeded at the metric and failed at the thing the metric was supposed to measure.
+
+This is Goodharting (Finding 4's category ordering) applied to education: the exam score is the metric, understanding is the target, and they are decorrelated — just as confidence language is decorrelated from actual certainty (Finding 1).
+
+---
+
+*Generated: March 15, 2026 (session 45)*
 *Infrastructure: AWS Bedrock, Azure VM, local Mac*
 *Total compute cost: ~$50-100 Bedrock API + ~$5 Azure VM*
