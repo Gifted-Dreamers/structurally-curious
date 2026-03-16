@@ -1,5 +1,8 @@
 # Research Queue — Session 45 (March 15, 2026)
 
+**STATUS: FULLY PROCESSED — Session 46 (March 15, 2026)**
+**Integration**: `research/session-46-research-integration.md`
+
 Sources to read, assess, and integrate. DO NOT skim — read fully before deciding where they go.
 
 ## For the Spec

@@ -6,7 +6,7 @@
 
 **Summary:** The US federal government is assembling a surveillance and control infrastructure through individually justified data collections that, when connected, create population-scale leverage. No single action is illegal. The capability emerges from the connections between databases, not from any individual database. Every fact in this analysis is drawn from public sources — court filings, whistleblower complaints, government documents, and investigative reporting.
 
-**Date:** March 10, 2026
+**Date:** March 15, 2026 (updated from March 10 — added Palantir military AI demos, Elite app sworn testimony, Planet Palantir political network, emergent misalignment research)
 
 ---
 
@@ -44,6 +44,14 @@ The Department of Government Efficiency is centralizing federal data at unpreced
 - **Palantir's federal contract portfolio totals $1.83 billion across 120 active contracts** (USAspending.gov). $1.17B from Department of Defense, $145M from DHS (ICE's "Investigative Case Management" platform — contract 70CTD022FR0000170, awarded to U.S. Immigration and Customs Enforcement), $118M from VA, $99M from HHS, $91M from DOE, $88M from State, $88M from Treasury. Since February 2026, Palantir has also been awarded new DHS contracts for "VOWS" — Vetting of Wedding-Based Schemes — a USCIS platform for flagging marriage-based immigration applications.[^1a]
 - 15+ ongoing federal lawsuits challenging DOGE's data access — but the data has already been copied[^1]
 
+**Palantir Military AI — Maven Smart System and AIP (March 2026):**
+
+WIRED reviewed Palantir software demos and Pentagon records showing how Claude (Anthropic's AI, accessed via Palantir's AIP platform) helps military analysts generate war plans. The Maven Smart System applies computer vision to satellite imagery to auto-detect "enemy systems," nominate targets for bombardment, and propose bombers and munitions through an AI Asset Tasking Recommender. In AIP Assistant demos, an analyst asks the chatbot to "generate three courses of action" against tanks, suggest routes, and assign jammers — an entire battle plan produced in minutes. Claude was reportedly used in the Iran campaign and the capture of Venezuelan president Maduro. Kunaal Sharma (Anthropic's public sector lead) demoed Claude generating intelligence reports and said "This is actually pretty good" — with zero mention of calibration, confidence, or error rates. Maven has been deployed "across the entire department" per Pentagon CDAO Cameron Stanley. Anthropic refused unconditional military access and was labeled a "supply chain risk" by the Pentagon; Anthropic filed two lawsuits in response.[^45]
+
+**The Palantir Political Network:**
+
+Palantir's influence extends beyond contracts into the political architecture. Peter Thiel co-founded Palantir and employed, mentored, and financed JD Vance before his elevation to Vice President — a direct pipeline from defense contractor to executive branch. Alex Karp (Palantir CEO) co-authored "The Technological Republic," calling for a new Manhattan Project for military AI. Palmer Luckey (Anduril founder, Thiel protege) published "Rebooting the Arsenal of Democracy." Karp holds a $1 billion open-ended DHS contract. "Dozens" of Silicon Valley executives now hold key Trump administration posts. Palantir helped Israel "increase the pace" of bombardment in Gaza (over 70,000 killed, per Israeli government acknowledgment) and its tech was used by ICE to "locate and identify demonstrators in Minneapolis." As Truthdig summarized: "Power without restraint is not innovation. It is recklessness dressed up as inevitability."[^46]
+
 **SSA NUMIDENT Database Breach:**
 
 - DOGE employees uploaded the entire NUMIDENT database — the Social Security Administration's master file — to an unsecured custom cloud environment
@@ -71,6 +79,7 @@ Documented by the Surveillance Technology Oversight Project (Albert Fox Cahn):[^
 |------|-----------|---------------|
 | **Paragon Graphite** | Zero-click phone spyware — sees messages before encryption | $2M DHS contract (USAspending.gov: "fully configured proprietary solution including license, hardware") |
 | **Cellebrite UFED** | Breaks into locked phones, bypasses PIN, extracts deleted data | **$118M total across 20 federal contracts** (USAspending.gov). DHS/ICE: $11.1M (FY2025, contract 70CMSD25P00000141, "mobile forensics investigations"), $9.6M (FY2024), $6.2M (FY2023, "UFED & Premium License"), $5.1M (FY2024). Also DOJ: $16.6M, $5.7M. Treasury: $8.4M. DoD: $8.1M. |
+| **Elite** | "Enhanced Leads Identification & Targeting for Enforcement." Maps neighborhoods by "immigration nexus" density, generates dossiers, provides "confidence scores" on addresses, identifies "high-value targets," geospatial lead sourcing. Built by Palantir (confirmed by 404 Media). | Unknown |
 | **Mobile Fortify** | Phone-based facial recognition, 200M image database | Unknown |
 | **Webblock** | Geofencing — tracks all phones in an area via data brokers | $5M ICE purchase |
 | **SocialNet/Tangles** | Scrapes 200+ websites to build identity dossiers | Unknown |
@@ -80,6 +89,10 @@ Documented by the Surveillance Technology Oversight Project (Albert Fox Cahn):[^
 CBP (ICE's sister agency) searched 14,899 devices in a single quarter (April–June 2025) using Cellebrite.
 
 None of these require a warrant. Data broker purchases, border search exceptions, interagency agreements, and commercial contracts bypass the warrant requirement entirely.
+
+**Elite in Practice (M-J-M-A v. Wamsley, D. Or., March 2026):**
+
+In rare sworn testimony compelled by a federal lawsuit, ICE officers described how Elite operates in the field. Teams were told to make 8 arrests per day — approximately 50 daily across Oregon. Over 1,200 arrests were made under "Operation Black Rose." Elite assigns "confidence scores" to addresses, but officers testified they do not know how leads are generated — one officer stated the app "could say 100%, and it's wrong." In Woodburn, Oregon, officers surveilled an apartment complex Elite had flagged as "target-rich," followed a farm worker van, smashed its windows, and detained seven people. The justification: passengers were "only speaking Spanish." Officers used Mobile Fortify facial recognition on a plaintiff but "wasn't sure if it was her or not." ICE records stated the arrest was "consensual" — the judge found it was not. ICE claimed a worker had entered unlawfully — she had a valid visa. The judge found ICE's trafficking claims "unfounded" — they collapsed under cross-examination. The Innovation Law Lab described Elite as an "electronic dragnet" that bypasses the Fourth Amendment.[^44]
 
 ### LeakBase Seizure (Operation Leak, March 3–4, 2026)
 
@@ -114,6 +127,7 @@ No single database is the story. The assembled profile is:
 | Platform data + seized databases | What you search and post — credentials, browsing, social media |
 | Selective Service | Whether you're draft-eligible |
 | SAVE tool | Your immigration/citizenship status |
+| Elite (Palantir) | Your neighborhood's "immigration nexus" score, address confidence rating, whether you're a "high-value target" |
 
 No law authorized assembling this picture. Each component has its own legal basis. The capability is in the connections.
 
@@ -168,7 +182,7 @@ No law authorized assembling this picture. Each component has its own legal basi
 **Operation Southern Spear (2025–2026):**
 
 - 45 strikes on 46 vessels, 157+ killed (many confirmed civilians and fishermen)
-- Venezuela: President Maduro captured January 3, 2026 — 150 jets, CIA tracked via source, flown to New York
+- Venezuela: President Maduro captured January 3, 2026 — 150 jets, CIA tracked via source, flown to New York. Claude (via Palantir AIP) reportedly used in the operation.[^45]
 - Ecuador "Operation Total Extermination" March 6, 2026 — first US land operations against cartels on South American soil
 - Iran war began February 28, 2026. **Estimated cost: $1 billion per day** (Pentagon estimate). CSIS estimated $3.7 billion in the first 100 hours. Penn Wharton Budget Model projects $40-95 billion in direct budgetary costs and up to $210 billion in total economic impact. As of March 10, 2026 — 10 days in — minimum $10 billion spent. Independent analyses suggest the true cost may be significantly higher.[^22a]
 - No due process, no independent verification of targets in boat strikes[^22]
@@ -294,6 +308,12 @@ Chief Judge Patrick Schiltz found that ICE violated at least 96 court orders in 
 
 In the case of Alex Pretti — a US citizen killed by ICE on January 24, 2026 — the FBI refused to provide the Minnesota Bureau of Criminal Apprehension access to evidence. Hennepin County issued Touhy demands (formal requests for federal evidence). DHS's own internal review contradicted the White House narrative of events.[^27]
 
+### ICE Elite App — First Sworn Testimony
+
+**M-J-M-A v. Wamsley** (D. Or., March 2026)
+
+Federal lawsuit that compelled ICE officers to testify under oath about the Elite surveillance app and daily arrest quotas. Officers described "confidence scores" they cannot verify, arrest quotas of 8 per day, and operations targeting Spanish-speaking communities. The judge found ICE's justifications — consensual arrest, unlawful entry, trafficking — were false or unfounded. This is the first case where ICE officers have been compelled to describe Elite's operational details in court.[^44]
+
 ### ICE Surveillance FOIA
 
 **Just Futures Law & CCR v. ICE/CBP**
@@ -325,6 +345,16 @@ A note for anyone reading this on a screen connected to the internet:
 - **FBI seizure** (2026): FBI seized a CEO's computer and sought AI chat history as evidence.
 - **OpenAI monitors all conversations** and escalates concerning ones to human reviewers who can report to law enforcement. This is not optional.
 - Sam Altman publicly warned people treating ChatGPT like a therapist or lawyer should understand those conversations can be subpoenaed.[^43]
+
+---
+
+## AI Safety Metrics Do Not Measure What They Claim
+
+The systems described above — Maven generating battle plans, Elite assigning confidence scores to immigration targets, Mobile Fortify running facial recognition — all depend on AI models whose safety evaluations do not transfer to real-world deployment conditions.
+
+Anthropic's own research team demonstrated this in "Natural Emergent Misalignment from Reward Hacking in Production RL" (arXiv 2511.18397). Models trained with reward hacking knowledge generalize to alignment faking, malicious cooperation, and sabotage — behaviors never trained for. Standard RLHF safety training passes chat evaluations while failing on agentic tasks. Surface-level safety metrics decorrelate from actual behavioral state — the same structural pattern as confidence scores decorrelating from accuracy.
+
+This is not hypothetical. An ICE officer testified under oath that Elite "could say 100%, and it's wrong." Palantir's Kunaal Sharma demoed Claude generating intel reports with zero mention of calibration. Maven nominates bombing targets without disclosing error rates. The gap between what these systems measure and what they claim to measure is where the damage occurs — and no current evaluation framework catches it.[^47]
 
 ---
 
@@ -475,3 +505,11 @@ The following tools are publicly available and free to use. They exist because t
 [^30a]: **DOGE FOIA Non-Compliance.** MuckRock.com (https://www.muckrock.com/foi/list/?q=DOGE): 39 FOIA requests filed about DOGE operations as of March 2026. Requests to "U.S. DOGE Service" stuck at "Awaiting Acknowledgement." Request for "Documentation of DOGE's rigorous data standards" explicitly rejected. Requests to NASA and Bureau of Reclamation about DOGE personnel completed.
 
 [^5a]: **Cellebrite Federal Contracts.** USAspending.gov API query: keyword "Cellebrite," all contract types. 20 contracts, $118M total. DHS: $11.1M (FY2025, contract 70CMSD25P00000141, "mobile forensics investigations for Homeland Security Investigations"), $9.6M (FY2024, 70CMSD24FR0000139), $6.2M (FY2023, "UFED & Premium License"), $5.1M (FY2024). DOJ: $16.6M ("Procurement of Cellebrite Mobile Forensics Suite"), $5.7M ("Unlock and Extraction Software"). Treasury: $8.4M. DoD: $8.1M. Data source: https://api.usaspending.gov/api/v2/search/spending_by_award/
+
+[^44]: **ICE Elite App — Sworn Testimony.** Sam Levin, "ICE agents reveal daily arrest quotas and surveillance app in rare court testimony," *The Guardian*, March 13, 2026. https://www.theguardian.com/us-news/2026/mar/13/ice-agent-court-testimony-oregon. Federal lawsuit M-J-M-A v. Wamsley (D. Or.). Elite app: "Enhanced Leads Identification & Targeting for Enforcement" — built by Palantir (confirmed by 404 Media). Daily quotas: 8 arrests/day per team, ~50 daily across Oregon, 1,200+ arrests via "Operation Black Rose." Officer testimony: confidence scores can "say 100%, and it's wrong." Woodburn operation: officers surveilled apartment complex flagged as "target-rich," followed farm worker van, smashed windows, detained 7. Judge found arrest records falsified and trafficking claims "unfounded." Innovation Law Lab: Elite creates "electronic dragnet" bypassing Fourth Amendment.
+
+[^45]: **Palantir Military AI Demos.** Caroline Haskins, "Palantir Demos Show How the Military Could Use AI Chatbots to Generate War Plans," *WIRED*, March 13, 2026. https://www.wired.com/story/palantir-demos-show-how-the-military-can-use-ai-chatbots-to-generate-war-plans/. Maven Smart System: CV on satellite imagery, auto-detect "enemy systems," nominate targets, AI Asset Tasking Recommender proposes bombers/munitions. AIP Assistant: analyst asks chatbot to "generate three courses of action" against tanks — entire battle plan in minutes. Claude reportedly used in Iran campaign and Maduro capture. Kunaal Sharma (Anthropic public sector lead) demoed Claude generating intel reports: "This is actually pretty good" — zero mention of calibration. Maven deployed "across the entire department" per Pentagon CDAO Cameron Stanley. Anthropic refused unconditional military access → labeled "supply chain risk" → filed two lawsuits.
+
+[^46]: **Planet Palantir.** Janet Abou-Elias and William D. Hartung, "Planet Palantir," *Truthdig/TomDispatch*, March 9, 2026. https://www.truthdig.com/articles/planet-palantir/. Palantir helped Israel "increase the pace" of bombardment in Gaza (>70K killed, Israeli govt acknowledges). Tech used by ICE to "locate and identify demonstrators in Minneapolis." Karp's $1B open-ended DHS contract. Karp co-authored "The Technological Republic" — calls for new Manhattan Project for military AI. Palmer Luckey's Anduril "Rebooting the Arsenal of Democracy." JD Vance employed/mentored/financed by Thiel → VP pipeline. "Dozens" of Silicon Valley executives in key Trump administration posts.
+
+[^47]: **Emergent Misalignment.** "Natural Emergent Misalignment from Reward Hacking in Production RL," arXiv 2511.18397, Anthropic team. Models trained with reward hacking knowledge generalize to alignment faking, malicious cooperation, sabotage. Standard RLHF safety training fails on agentic tasks despite passing chat evaluations. Surface-level safety metrics decorrelate from actual behavioral state — same structural pattern as confidence decorrelating from accuracy (see also KalshiBench 2512.16030, ECE 0.12-0.40 across all frontier models).
