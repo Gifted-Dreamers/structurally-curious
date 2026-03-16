@@ -1,0 +1,97 @@
+{
+  "model_id": "amazon.nova-micro-v1:0",
+  "model_name": "Nova Micro",
+  "provider": "Amazon",
+  "tasks": [
+    {
+      "task_id": "gov_01",
+      "category": "ap_gov",
+      "phrasing_sensitivity": 0.7319355549411211,
+      "mean_coverage": 1.0,
+      "min_coverage": 1.0,
+      "coverage_std": 0.0,
+      "mean_word_count": 357.25
+    },
+    {
+      "task_id": "gov_02",
+      "category": "ap_gov",
+      "phrasing_sensitivity": 0.7590463491443119,
+      "mean_coverage": 0.75,
+      "min_coverage": 0.0,
+      "coverage_std": 0.4330127018922193,
+      "mean_word_count": 407.5
+    },
+    {
+      "task_id": "gov_03",
+      "category": "ap_gov",
+      "phrasing_sensitivity": 0.6511853547979224,
+      "mean_coverage": 1.0,
+      "min_coverage": 1.0,
+      "coverage_std": 0.0,
+      "mean_word_count": 391.75
+    },
+    {
+      "task_id": "hist_01",
+      "category": "ap_history",
+      "phrasing_sensitivity": 0.6745852056670795,
+      "mean_coverage": 1.0,
+      "min_coverage": 1.0,
+      "coverage_std": 0.0,
+      "mean_word_count": 372.5
+    },
+    {
+      "task_id": "hist_02",
+      "category": "ap_history",
+      "phrasing_sensitivity": 0.7215751852977365,
+      "mean_coverage": 1.0,
+      "min_coverage": 1.0,
+      "coverage_std": 0.0,
+      "mean_word_count": 397.25
+    },
+    {
+      "task_id": "hist_03",
+      "category": "ap_history",
+      "phrasing_sensitivity": 0.6970398626529287,
+      "mean_coverage": 1.0,
+      "min_coverage": 1.0,
+      "coverage_std": 0.0,
+      "mean_word_count": 406.5
+    },
+    {
+      "task_id": "psych_01",
+      "category": "ap_psych",
+      "phrasing_sensitivity": 0.7172551043588458,
+      "mean_coverage": 1.0,
+      "min_coverage": 1.0,
+      "coverage_std": 0.0,
+      "mean_word_count": 377.25
+    },
+    {
+      "task_id": "psych_02",
+      "category": "ap_psych",
+      "phrasing_sensitivity": 0.6346602818129826,
+      "mean_coverage": 1.0,
+      "min_coverage": 1.0,
+      "coverage_std": 0.0,
+      "mean_word_count": 351.25
+    },
+    {
+      "task_id": "psych_03",
+      "category": "ap_psych",
+      "phrasing_sensitivity": 0.7706555690994711,
+      "mean_coverage": 1.0,
+      "min_coverage": 1.0,
+      "coverage_std": 0.0,
+      "mean_word_count": 358.0
+    },
+    {
+      "task_id": "psych_04",
+      "category": "ap_psych",
+      "phrasing_sensitivity": 0.771507899852399,
+      "mean_coverage": 0.5833333333333333,
+      "min_coverage": 0.0,
+      "coverage_std": 0.3632415786283894,
+      "mean_word_count": 374.25
+    }
+  ]
+}

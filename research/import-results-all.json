@@ -1,0 +1,2090 @@
+[
+  {
+    "name": "It's a Matter of Integrity",
+    "feed_url": "https://melissa4congress.substack.com/feed",
+    "status": "success",
+    "feed_id": 30
+  },
+  {
+    "name": "(Over)Thinking Out Loud",
+    "feed_url": "https://emmaklint.substack.com/feed",
+    "status": "success",
+    "feed_id": 31
+  },
+  {
+    "name": "a16z Build Newsletter",
+    "feed_url": "https://a16zbuild.substack.com/feed",
+    "status": "success",
+    "feed_id": 32
+  },
+  {
+    "name": "Aaron Thomas",
+    "feed_url": "https://aarontriestoexplain.substack.com/feed",
+    "status": "success",
+    "feed_id": 33
+  },
+  {
+    "name": "The Adjunct Academy",
+    "feed_url": "https://drjasmingoodman.substack.com/feed",
+    "status": "success",
+    "feed_id": 34
+  },
+  {
+    "name": "Agriculture and Activism",
+    "feed_url": "https://agricultureandactivism.substack.com/feed",
+    "status": "success",
+    "feed_id": 35
+  },
+  {
+    "name": "AI & Tech Insights",
+    "feed_url": "https://aitechin.substack.com/feed",
+    "status": "success",
+    "feed_id": 36
+  },
+  {
+    "name": "AI Atelier",
+    "feed_url": "https://christinapearlheldtham.substack.com/feed",
+    "status": "success",
+    "feed_id": 37
+  },
+  {
+    "name": "AI Disruption",
+    "feed_url": "https://aidisruption.substack.com/feed",
+    "status": "success",
+    "feed_id": 38
+  },
+  {
+    "name": "AI For Lawyers",
+    "feed_url": "https://aiforlawyers.substack.com/feed",
+    "status": "success",
+    "feed_id": 39
+  },
+  {
+    "name": "AI Governance, Ethics and Leadership",
+    "feed_url": "https://aigovernancelead.substack.com/feed",
+    "status": "success",
+    "feed_id": 40
+  },
+  {
+    "name": "AI Prompt Hackers",
+    "feed_url": "https://aiprompthackers.substack.com/feed",
+    "status": "success",
+    "feed_id": 41
+  },
+  {
+    "name": "ai salon archive",
+    "feed_url": "https://aisalon.substack.com/feed",
+    "status": "success",
+    "feed_id": 42
+  },
+  {
+    "name": "AI's Without Minds",
+    "feed_url": "https://ellennoraburns.substack.com/feed",
+    "status": "success",
+    "feed_id": 43
+  },
+  {
+    "name": "Aimee",
+    "feed_url": "https://probablybeoffred.substack.com/feed",
+    "status": "success",
+    "feed_id": 44
+  },
+  {
+    "name": "Alan Hirsch",
+    "feed_url": "https://alanhirsch1.substack.com/feed",
+    "status": "success",
+    "feed_id": 45
+  },
+  {
+    "name": "Albert Borrero",
+    "feed_url": "https://albertborrero.substack.com/feed",
+    "status": "success",
+    "feed_id": 46
+  },
+  {
+    "name": "Alex",
+    "feed_url": "https://giaco85.substack.com/feed",
+    "status": "success",
+    "feed_id": 47
+  },
+  {
+    "name": "Algorithms are Personal",
+    "feed_url": "https://soribelfeliz.substack.com/feed",
+    "status": "success",
+    "feed_id": 48
+  },
+  {
+    "name": "alimcforever",
+    "feed_url": "https://alimcforever.substack.com/feed",
+    "status": "success",
+    "feed_id": 49
+  },
+  {
+    "name": "Alisa Writes",
+    "feed_url": "https://alisav.substack.com/feed",
+    "status": "success",
+    "feed_id": 50
+  },
+  {
+    "name": "All The Bits",
+    "feed_url": "https://avifox.substack.com/feed",
+    "status": "success",
+    "feed_id": 51
+  },
+  {
+    "name": "Amanda McCellon",
+    "feed_url": "https://amandamccellon.substack.com/feed",
+    "status": "success",
+    "feed_id": 52
+  },
+  {
+    "name": "Amanda Writes, Etc",
+    "feed_url": "https://amandaizzo.substack.com/feed",
+    "status": "success",
+    "feed_id": 53
+  },
+  {
+    "name": "American Freedom Group",
+    "feed_url": "https://americanfreedomgroup.substack.com/feed",
+    "status": "success",
+    "feed_id": 54
+  },
+  {
+    "name": "The American Pamphleteer",
+    "feed_url": "https://ladylibertie.substack.com/feed",
+    "status": "success",
+    "feed_id": 55
+  },
+  {
+    "name": "Antidote to Autocracy",
+    "feed_url": "https://blendedvalue.substack.com/feed",
+    "status": "success",
+    "feed_id": 56
+  },
+  {
+    "name": "Appalachia Recovery Coalition",
+    "feed_url": "https://helenecoalition.substack.com/feed",
+    "status": "success",
+    "feed_id": 57
+  },
+  {
+    "name": "Apricity by Astrid",
+    "feed_url": "https://apricitybyastrid.substack.com/feed",
+    "status": "success",
+    "feed_id": 58
+  },
+  {
+    "name": "The Architecture of AI Governance, by Fathom",
+    "feed_url": "https://fathomai.substack.com/feed",
+    "status": "success",
+    "feed_id": 59
+  },
+  {
+    "name": "Ask Amanda",
+    "feed_url": "https://amandapalmer.substack.com/feed",
+    "status": "success",
+    "feed_id": 60
+  },
+  {
+    "name": "Astro Abundance Codes",
+    "feed_url": "https://becomingaligned.substack.com/feed",
+    "status": "success",
+    "feed_id": 61
+  },
+  {
+    "name": "Austin Kocher",
+    "feed_url": "https://austinkocher.substack.com/feed",
+    "status": "success",
+    "feed_id": 62
+  },
+  {
+    "name": "Badass Women in AI",
+    "feed_url": "https://badasswomeninai.substack.com/feed",
+    "status": "success",
+    "feed_id": 63
+  },
+  {
+    "name": "The Balance of Power",
+    "feed_url": "https://thebalanceofpower.substack.com/feed",
+    "status": "success",
+    "feed_id": 64
+  },
+  {
+    "name": "BattlefieldRadio",
+    "feed_url": "https://battlefieldradio.substack.com/feed",
+    "status": "success",
+    "feed_id": 65
+  },
+  {
+    "name": "Be a Better Traveler",
+    "feed_url": "https://beabettertraveler.substack.com/feed",
+    "status": "success",
+    "feed_id": 66
+  },
+  {
+    "name": "BEE the Solution | Michael Muyot",
+    "feed_url": "https://michaelmuyot1.substack.com/feed",
+    "status": "success",
+    "feed_id": 67
+  },
+  {
+    "name": "bekah day",
+    "feed_url": "https://bekahdayyy.substack.com/feed",
+    "status": "success",
+    "feed_id": 68
+  },
+  {
+    "name": "Ben Arment",
+    "feed_url": "https://benarment.substack.com/feed",
+    "status": "success",
+    "feed_id": 69
+  },
+  {
+    "name": "Better Future",
+    "feed_url": "https://michaelmezzatesta.substack.com/feed",
+    "status": "success",
+    "feed_id": 70
+  },
+  {
+    "name": "Better Ways and Better Days",
+    "feed_url": "https://gaylemichaels.substack.com/feed",
+    "status": "success",
+    "feed_id": 71
+  },
+  {
+    "name": "Betwixt",
+    "feed_url": "https://betwixt.substack.com/feed",
+    "status": "success",
+    "feed_id": 72
+  },
+  {
+    "name": "beyond beurre blanc.",
+    "feed_url": "https://beyondbeurreblanc.substack.com/feed",
+    "status": "success",
+    "feed_id": 73
+  },
+  {
+    "name": "Big Think",
+    "feed_url": "https://bigthinkmedia.substack.com/feed",
+    "status": "success",
+    "feed_id": 74
+  },
+  {
+    "name": "Bill Piekney",
+    "feed_url": "https://wrp6849.substack.com/feed",
+    "status": "success",
+    "feed_id": 75
+  },
+  {
+    "name": "BioHarmony",
+    "feed_url": "https://bioharmony.substack.com/feed",
+    "status": "success",
+    "feed_id": 76
+  },
+  {
+    "name": "Bjorn's Substack",
+    "feed_url": "https://bjrnheyerdahl.substack.com/feed",
+    "status": "success",
+    "feed_id": 77
+  },
+  {
+    "name": "Black & Trans Substack",
+    "feed_url": "https://blackntrans.substack.com/feed",
+    "status": "success",
+    "feed_id": 78
+  },
+  {
+    "name": "Black Modern Mystic",
+    "feed_url": "https://blackmodernmystic.substack.com/feed",
+    "status": "success",
+    "feed_id": 79
+  },
+  {
+    "name": "blindspots",
+    "feed_url": "https://jordanmallen.substack.com/feed",
+    "status": "success",
+    "feed_id": 80
+  },
+  {
+    "name": "Blue Dot Bulletin",
+    "feed_url": "https://bluedotbulletin.substack.com/feed",
+    "status": "success",
+    "feed_id": 81
+  },
+  {
+    "name": "Body Poetica",
+    "feed_url": "https://bodypoetica.substack.com/feed",
+    "status": "success",
+    "feed_id": 82
+  },
+  {
+    "name": "Brief Ecology",
+    "feed_url": "https://benlockwood.substack.com/feed",
+    "status": "success",
+    "feed_id": 83
+  },
+  {
+    "name": "Build The Resistance",
+    "feed_url": "https://buildtheresistance.substack.com/feed",
+    "status": "success",
+    "feed_id": 84
+  },
+  {
+    "name": "Building Vist",
+    "feed_url": "https://vistdev.substack.com/feed",
+    "status": "success",
+    "feed_id": 85
+  },
+  {
+    "name": "The Caffeinated Chronicle",
+    "feed_url": "https://justplainkris.substack.com/feed",
+    "status": "success",
+    "feed_id": 86
+  },
+  {
+    "name": "Canadian Returnee",
+    "feed_url": "https://canadianreturnee.substack.com/feed",
+    "status": "success",
+    "feed_id": 87
+  },
+  {
+    "name": "Capital Mischief",
+    "feed_url": "https://charliepgarcia.substack.com/feed",
+    "status": "success",
+    "feed_id": 88
+  },
+  {
+    "name": "The Cause",
+    "feed_url": "https://thecause.substack.com/feed",
+    "status": "success",
+    "feed_id": 89
+  },
+  {
+    "name": "Charlie Angus / The Resistance",
+    "feed_url": "https://charlieangus.substack.com/feed",
+    "status": "success",
+    "feed_id": 90
+  },
+  {
+    "name": "Chevan Nanayakkara",
+    "feed_url": "https://chevan.substack.com/feed",
+    "status": "success",
+    "feed_id": 91
+  },
+  {
+    "name": "Chop Wood, Carry Water",
+    "feed_url": "https://chopwoodcarrywaterdailyactions.substack.com/feed",
+    "status": "success",
+    "feed_id": 92
+  },
+  {
+    "name": "Christian's Substack",
+    "feed_url": "https://christianortiz.substack.com/feed",
+    "status": "success",
+    "feed_id": 93
+  },
+  {
+    "name": "Chris' Galaxy Self",
+    "feed_url": "https://christomasso.substack.com/feed",
+    "status": "success",
+    "feed_id": 94
+  },
+  {
+    "name": "Chromagik",
+    "feed_url": "https://chromagik.substack.com/feed",
+    "status": "success",
+    "feed_id": 95
+  },
+  {
+    "name": "Claire E",
+    "feed_url": "https://zazzysub.substack.com/feed",
+    "status": "success",
+    "feed_id": 96
+  },
+  {
+    "name": "Climate Insiders",
+    "feed_url": "https://climateinsiders.substack.com/feed",
+    "status": "success",
+    "feed_id": 97
+  },
+  {
+    "name": "Climate Water Project",
+    "feed_url": "https://climatewaterproject.substack.com/feed",
+    "status": "success",
+    "feed_id": 98
+  },
+  {
+    "name": "Coach Nia Renee, MBA",
+    "feed_url": "https://coachniarenee.substack.com/feed",
+    "status": "success",
+    "feed_id": 99
+  },
+  {
+    "name": "Code Like A Girl",
+    "feed_url": "https://codelikeagirl.substack.com/feed",
+    "status": "success",
+    "feed_id": 100
+  },
+  {
+    "name": "Collapse 2050",
+    "feed_url": "https://collapse2050.substack.com/feed",
+    "status": "success",
+    "feed_id": 101
+  },
+  {
+    "name": "Common Sense Rebel",
+    "feed_url": "https://commonsenserebel.substack.com/feed",
+    "status": "success",
+    "feed_id": 102
+  },
+  {
+    "name": "Connectioning",
+    "feed_url": "https://connectioning.substack.com/feed",
+    "status": "success",
+    "feed_id": 103
+  },
+  {
+    "name": "The Connector",
+    "feed_url": "https://theconnector.substack.com/feed",
+    "status": "success",
+    "feed_id": 104
+  },
+  {
+    "name": "The Conscientious Emigrant",
+    "feed_url": "https://theconscientiousemigrant.substack.com/feed",
+    "status": "success",
+    "feed_id": 105
+  },
+  {
+    "name": "Consciousness - The Doorway to Human Evolution",
+    "feed_url": "https://scottbritton.substack.com/feed",
+    "status": "success",
+    "feed_id": 106
+  },
+  {
+    "name": "The Consilience Project",
+    "feed_url": "https://theconsilienceproject.substack.com/feed",
+    "status": "success",
+    "feed_id": 107
+  },
+  {
+    "name": "Continuing Ed - with Edward Snowden",
+    "feed_url": "https://edwardsnowden.substack.com/feed",
+    "status": "success",
+    "feed_id": 108
+  },
+  {
+    "name": "The Corners by Nadia Bolz-Weber",
+    "feed_url": "https://nadiabolzweber.substack.com/feed",
+    "status": "success",
+    "feed_id": 109
+  },
+  {
+    "name": "The Cottage",
+    "feed_url": "https://dianabutlerbass.substack.com/feed",
+    "status": "success",
+    "feed_id": 110
+  },
+  {
+    "name": "Council Estate Media",
+    "feed_url": "https://councilestatemedia.substack.com/feed",
+    "status": "success",
+    "feed_id": 111
+  },
+  {
+    "name": "The Counterprogramming Club",
+    "feed_url": "https://kaburbank.substack.com/feed",
+    "status": "success",
+    "feed_id": 112
+  },
+  {
+    "name": "CounterStory Media",
+    "feed_url": "https://counterstorymedia.substack.com/feed",
+    "status": "success",
+    "feed_id": 113
+  },
+  {
+    "name": "Covert Access Team",
+    "feed_url": "https://covertaccessteam.substack.com/feed",
+    "status": "success",
+    "feed_id": 114
+  },
+  {
+    "name": "The Crucial Years",
+    "feed_url": "https://billmckibben.substack.com/feed",
+    "status": "success",
+    "feed_id": 115
+  },
+  {
+    "name": "Ctrl Alt Escape",
+    "feed_url": "https://ctrlaltescape1.substack.com/feed",
+    "status": "success",
+    "feed_id": 116
+  },
+  {
+    "name": "Cultivating The Beautiful Life",
+    "feed_url": "https://shaye.substack.com/feed",
+    "status": "success",
+    "feed_id": 117
+  },
+  {
+    "name": "Culture, Uncurled",
+    "feed_url": "https://cultureuncurled.substack.com/feed",
+    "status": "success",
+    "feed_id": 118
+  },
+  {
+    "name": "The Culturist",
+    "feed_url": "https://thecorners.substack.com/feed",
+    "status": "duplicate",
+    "error": "This feed already exists."
+  },
+  {
+    "name": "Cut Off the Spigot",
+    "feed_url": "https://cutoffthespigot.substack.com/feed",
+    "status": "success",
+    "feed_id": 119
+  },
+  {
+    "name": "David William Silva",
+    "feed_url": "https://davidwsilva.substack.com/feed",
+    "status": "success",
+    "feed_id": 120
+  },
+  {
+    "name": "De Jure Media",
+    "feed_url": "https://dejuremedia.substack.com/feed",
+    "status": "success",
+    "feed_id": 121
+  },
+  {
+    "name": "Dean Blundell",
+    "feed_url": "https://deanblundell.substack.com/feed",
+    "status": "success",
+    "feed_id": 122
+  },
+  {
+    "name": "Decolonized Journalism",
+    "feed_url": "https://extremearturo.substack.com/feed",
+    "status": "success",
+    "feed_id": 123
+  },
+  {
+    "name": "Deep Ecology",
+    "feed_url": "https://deepecology.substack.com/feed",
+    "status": "success",
+    "feed_id": 124
+  },
+  {
+    "name": "Deeper States",
+    "feed_url": "https://danboguslaw.substack.com/feed",
+    "status": "success",
+    "feed_id": 125
+  },
+  {
+    "name": "Defender's Corner",
+    "feed_url": "https://defenderofthebasic.substack.com/feed",
+    "status": "success",
+    "feed_id": 126
+  },
+  {
+    "name": "DEFIANCE.News",
+    "feed_url": "https://defiance.substack.com/feed",
+    "status": "success",
+    "feed_id": 127
+  },
+  {
+    "name": "Degrowth is the Answer",
+    "feed_url": "https://degrowthistheanswer.substack.com/feed",
+    "status": "success",
+    "feed_id": 128
+  },
+  {
+    "name": "Democracy, Social Justice, Education, and the Common Good",
+    "feed_url": "https://kristenkroll.substack.com/feed",
+    "status": "success",
+    "feed_id": 129
+  },
+  {
+    "name": "Desirable Futures",
+    "feed_url": "https://desirablefutures.substack.com/feed",
+    "status": "success",
+    "feed_id": 130
+  },
+  {
+    "name": "The Developer",
+    "feed_url": "https://iamdonnyevans.substack.com/feed",
+    "status": "success",
+    "feed_id": 131
+  },
+  {
+    "name": "The Diagnosis",
+    "feed_url": "https://thediagnosis.substack.com/feed",
+    "status": "success",
+    "feed_id": 132
+  },
+  {
+    "name": "Digital Citizen",
+    "feed_url": "https://digitalcitizen.substack.com/feed",
+    "status": "success",
+    "feed_id": 133
+  },
+  {
+    "name": "Digital-Mark",
+    "feed_url": "https://digitalmark.substack.com/feed",
+    "status": "success",
+    "feed_id": 134
+  },
+  {
+    "name": "Dispatches From Exile",
+    "feed_url": "https://jameslbruno.substack.com/feed",
+    "status": "success",
+    "feed_id": 135
+  },
+  {
+    "name": "Divergent Dialogues",
+    "feed_url": "https://divergentdialogues.substack.com/feed",
+    "status": "success",
+    "feed_id": 136
+  },
+  {
+    "name": "Do Good Biz",
+    "feed_url": "https://dogoodbiz.substack.com/feed",
+    "status": "success",
+    "feed_id": 137
+  },
+  {
+    "name": "Downwind of Truth with Kait Justice",
+    "feed_url": "https://kaitjustice.substack.com/feed",
+    "status": "success",
+    "feed_id": 138
+  },
+  {
+    "name": "Dr Stacey Patton",
+    "feed_url": "https://drstaceypatton1865.substack.com/feed",
+    "status": "success",
+    "feed_id": 139
+  },
+  {
+    "name": "E1 Ventures",
+    "feed_url": "https://e1ventures.substack.com/feed",
+    "status": "success",
+    "feed_id": 140
+  },
+  {
+    "name": "Early Insights Club",
+    "feed_url": "https://earlyinsightsclub.substack.com/feed",
+    "status": "success",
+    "feed_id": 141
+  },
+  {
+    "name": "Ecstatic Integration",
+    "feed_url": "https://ecstaticintegration.substack.com/feed",
+    "status": "success",
+    "feed_id": 142
+  },
+  {
+    "name": "Edan Krolewicz",
+    "feed_url": "https://edankrolewicz.substack.com/feed",
+    "status": "success",
+    "feed_id": 143
+  },
+  {
+    "name": "Embodied Faith",
+    "feed_url": "https://embodiedfaith.substack.com/feed",
+    "status": "success",
+    "feed_id": 144
+  },
+  {
+    "name": "Embracing Emergence: Becoming Regeneration",
+    "feed_url": "https://myregenjourney1francesipimenteln.substack.com/feed",
+    "status": "success",
+    "feed_id": 145
+  },
+  {
+    "name": "The Emergency Management Network",
+    "feed_url": "https://emnetwork.substack.com/feed",
+    "status": "success",
+    "feed_id": 146
+  },
+  {
+    "name": "Enterprise AI Weekly",
+    "feed_url": "https://enterpriseaiweekly.substack.com/feed",
+    "status": "success",
+    "feed_id": 147
+  },
+  {
+    "name": "Ernesto's Substack",
+    "feed_url": "https://ernestopvanpeborgh.substack.com/feed",
+    "status": "success",
+    "feed_id": 148
+  },
+  {
+    "name": "Escape the Cubicle",
+    "feed_url": "https://escapethecubicle.substack.com/feed",
+    "status": "success",
+    "feed_id": 149
+  },
+  {
+    "name": "Everyday Health",
+    "feed_url": "https://everydayhealthtips.substack.com/feed",
+    "status": "success",
+    "feed_id": 150
+  },
+  {
+    "name": "Expat Prep",
+    "feed_url": "https://expatprep.substack.com/feed",
+    "status": "success",
+    "feed_id": 151
+  },
+  {
+    "name": "Ezra Levin",
+    "feed_url": "https://ezralevin.substack.com/feed",
+    "status": "success",
+    "feed_id": 152
+  },
+  {
+    "name": "The Faros Project",
+    "feed_url": "https://thefarosproject.substack.com/feed",
+    "status": "success",
+    "feed_id": 153
+  },
+  {
+    "name": "Fierce Love",
+    "feed_url": "https://fiercelove.substack.com/feed",
+    "status": "success",
+    "feed_id": 154
+  },
+  {
+    "name": "FINsider | O2C, R2R & Treasury Insights",
+    "feed_url": "https://finsiderbyhighradius.substack.com/feed",
+    "status": "success",
+    "feed_id": 155
+  },
+  {
+    "name": "For the Love of Humanity",
+    "feed_url": "https://fortheloveofhumanity.substack.com/feed",
+    "status": "success",
+    "feed_id": 156
+  },
+  {
+    "name": "Fractal Computing Substack",
+    "feed_url": "https://fractalcomputing.substack.com/feed",
+    "status": "success",
+    "feed_id": 157
+  },
+  {
+    "name": "Fractured world--build Wholeness",
+    "feed_url": "https://annkramer.substack.com/feed",
+    "status": "success",
+    "feed_id": 158
+  },
+  {
+    "name": "franknews",
+    "feed_url": "https://franknewsus.substack.com/feed",
+    "status": "success",
+    "feed_id": 159
+  },
+  {
+    "name": "Gabriel J. Muller",
+    "feed_url": "https://roguefox.substack.com/feed",
+    "status": "success",
+    "feed_id": 160
+  },
+  {
+    "name": "Gail Helt's Substack",
+    "feed_url": "https://gailhelt.substack.com/feed",
+    "status": "success",
+    "feed_id": 161
+  },
+  {
+    "name": "Gail Post, PhD: A Psychologist's Perspective",
+    "feed_url": "https://psychologyperspective.substack.com/feed",
+    "status": "success",
+    "feed_id": 162
+  },
+  {
+    "name": "The Garage Philosophy",
+    "feed_url": "https://toddtdevoe.substack.com/feed",
+    "status": "success",
+    "feed_id": 163
+  },
+  {
+    "name": "Generation AI",
+    "feed_url": "https://mitgenerationai.substack.com/feed",
+    "status": "success",
+    "feed_id": 164
+  },
+  {
+    "name": "Geoffrey Fowler's Substack",
+    "feed_url": "https://geoffreyfowler.substack.com/feed",
+    "status": "success",
+    "feed_id": 165
+  },
+  {
+    "name": "Glass Empires By W. A. Lawrence",
+    "feed_url": "https://wendy664.substack.com/feed",
+    "status": "success",
+    "feed_id": 166
+  },
+  {
+    "name": "The Golden Hour by Karen Attiah",
+    "feed_url": "https://karenattiah.substack.com/feed",
+    "status": "success",
+    "feed_id": 167
+  },
+  {
+    "name": "The Good Life Letters",
+    "feed_url": "https://drdanielamascaro.substack.com/feed",
+    "status": "success",
+    "feed_id": 168
+  },
+  {
+    "name": "GOOD THINKING",
+    "feed_url": "https://ingoodco.substack.com/feed",
+    "status": "success",
+    "feed_id": 169
+  },
+  {
+    "name": "A Grand Unified Theory of Doom",
+    "feed_url": "https://adrianlambert.substack.com/feed",
+    "status": "success",
+    "feed_id": 170
+  },
+  {
+    "name": "Grasping at Reality",
+    "feed_url": "https://gnug315.substack.com/feed",
+    "status": "success",
+    "feed_id": 171
+  },
+  {
+    "name": "Grassroots Economics",
+    "feed_url": "https://grassecon.substack.com/feed",
+    "status": "success",
+    "feed_id": 172
+  },
+  {
+    "name": "Gratitude Journal",
+    "feed_url": "https://alexelle.substack.com/feed",
+    "status": "success",
+    "feed_id": 173
+  },
+  {
+    "name": "The Great Simplification",
+    "feed_url": "https://natehagens.substack.com/feed",
+    "status": "success",
+    "feed_id": 174
+  },
+  {
+    "name": "The Grim Historian",
+    "feed_url": "https://thegrimhistorian.substack.com/feed",
+    "status": "success",
+    "feed_id": 175
+  },
+  {
+    "name": "Hacking, but Legal",
+    "feed_url": "https://hackingbutlegal.substack.com/feed",
+    "status": "success",
+    "feed_id": 176
+  },
+  {
+    "name": "Hallelujah Anyway",
+    "feed_url": "https://annelamott.substack.com/feed",
+    "status": "success",
+    "feed_id": 177
+  },
+  {
+    "name": "The Hartmann Report",
+    "feed_url": "https://aaronparnas.substack.com/feed",
+    "status": "success",
+    "feed_id": 178
+  },
+  {
+    "name": "HAVENS",
+    "feed_url": "https://umair.substack.com/feed",
+    "status": "success",
+    "feed_id": 179
+  },
+  {
+    "name": "The Honest Sorcerer",
+    "feed_url": "https://thehonestsorcerer.substack.com/feed",
+    "status": "success",
+    "feed_id": 180
+  },
+  {
+    "name": "How Not To Use AI",
+    "feed_url": "https://abiawomosu.substack.com/feed",
+    "status": "success",
+    "feed_id": 181
+  },
+  {
+    "name": "How Things Work",
+    "feed_url": "https://fosterthinking.substack.com/feed",
+    "status": "success",
+    "feed_id": 182
+  },
+  {
+    "name": "Human in the Machine",
+    "feed_url": "https://humaninthemachine.substack.com/feed",
+    "status": "success",
+    "feed_id": 183
+  },
+  {
+    "name": "Human Loops",
+    "feed_url": "https://humanloops.substack.com/feed",
+    "status": "success",
+    "feed_id": 184
+  },
+  {
+    "name": "Human+AI",
+    "feed_url": "https://nicolleweeks.substack.com/feed",
+    "status": "success",
+    "feed_id": 185
+  },
+  {
+    "name": "The Humanity Archive",
+    "feed_url": "https://thehumanityarchive.substack.com/feed",
+    "status": "success",
+    "feed_id": 186
+  },
+  {
+    "name": "Humans On The Loop",
+    "feed_url": "https://michaelgarfield.substack.com/feed",
+    "status": "success",
+    "feed_id": 187
+  },
+  {
+    "name": "Hybrid Horizons: Exploring Human-AI Collaboration",
+    "feed_url": "https://hybridhorizons.substack.com/feed",
+    "status": "success",
+    "feed_id": 188
+  },
+  {
+    "name": "I'd Rather Be Writing",
+    "feed_url": "https://walterrhein.substack.com/feed",
+    "status": "success",
+    "feed_id": 189
+  },
+  {
+    "name": "Ideachain Research Group substack",
+    "feed_url": "https://ideachainrg.substack.com/feed",
+    "status": "success",
+    "feed_id": 190
+  },
+  {
+    "name": "Ilya Strebulaev",
+    "feed_url": "https://ilyastrebulaev.substack.com/feed",
+    "status": "success",
+    "feed_id": 191
+  },
+  {
+    "name": "In Case You Didn't Already Know",
+    "feed_url": "https://icydak.substack.com/feed",
+    "status": "success",
+    "feed_id": 192
+  },
+  {
+    "name": "The Inkwell - Ink & Ribbon Press",
+    "feed_url": "https://theinkwell.substack.com/feed",
+    "status": "success",
+    "feed_id": 193
+  },
+  {
+    "name": "Inner Climate",
+    "feed_url": "https://natalieshortall.substack.com/feed",
+    "status": "success",
+    "feed_id": 194
+  },
+  {
+    "name": "Interisle Insights",
+    "feed_url": "https://interisle.substack.com/feed",
+    "status": "success",
+    "feed_id": 195
+  },
+  {
+    "name": "The Interweave",
+    "feed_url": "https://interweave.substack.com/feed",
+    "status": "success",
+    "feed_id": 196
+  },
+  {
+    "name": "Involuntary Departure",
+    "feed_url": "https://dankowalski.substack.com/feed",
+    "status": "success",
+    "feed_id": 197
+  },
+  {
+    "name": "J.S. Park - Hospital Chaplain",
+    "feed_url": "https://jspark3000.substack.com/feed",
+    "status": "success",
+    "feed_id": 198
+  },
+  {
+    "name": "James Bacon",
+    "feed_url": "https://jamesbacon.substack.com/feed",
+    "status": "success",
+    "feed_id": 199
+  },
+  {
+    "name": "Jan Birkmann",
+    "feed_url": "https://janbirkmann.substack.com/feed",
+    "status": "success",
+    "feed_id": 200
+  },
+  {
+    "name": "Jason Hickel",
+    "feed_url": "https://jasonhickel.substack.com/feed",
+    "status": "success",
+    "feed_id": 201
+  },
+  {
+    "name": "Jason Minnix",
+    "feed_url": "https://jasonminnix.substack.com/feed",
+    "status": "success",
+    "feed_id": 202
+  },
+  {
+    "name": "Jessica Friday",
+    "feed_url": "https://realjfriday.substack.com/feed",
+    "status": "success",
+    "feed_id": 203
+  },
+  {
+    "name": "Jewel's Substack",
+    "feed_url": "https://jewelturinsky.substack.com/feed",
+    "status": "success",
+    "feed_id": 204
+  },
+  {
+    "name": "The Jim Acosta Show",
+    "feed_url": "https://jimacosta.substack.com/feed",
+    "status": "success",
+    "feed_id": 205
+  },
+  {
+    "name": "Joel L",
+    "feed_url": "https://signaldrifter.substack.com/feed",
+    "status": "success",
+    "feed_id": 206
+  },
+  {
+    "name": "John Fullerton",
+    "feed_url": "https://johnfullerton101.substack.com/feed",
+    "status": "success",
+    "feed_id": 207
+  },
+  {
+    "name": "Jonathan Larsen's Substack",
+    "feed_url": "https://jonathanlarsen.substack.com/feed",
+    "status": "success",
+    "feed_id": 208
+  },
+  {
+    "name": "Journal of a Grassroots Economist",
+    "feed_url": "https://willruddick.substack.com/feed",
+    "status": "success",
+    "feed_id": 209
+  },
+  {
+    "name": "Kainos",
+    "feed_url": "https://beiner.substack.com/feed",
+    "status": "success",
+    "feed_id": 210
+  },
+  {
+    "name": "Kathleen Norris & Gareth Higgins - Soul Telegram",
+    "feed_url": "https://soultelegram.substack.com/feed",
+    "status": "success",
+    "feed_id": 211
+  },
+  {
+    "name": "Katie Phang",
+    "feed_url": "https://katiephang.substack.com/feed",
+    "status": "success",
+    "feed_id": 212
+  },
+  {
+    "name": "Kosmos Framework",
+    "feed_url": "https://kosmosframework.substack.com/feed",
+    "status": "success",
+    "feed_id": 213
+  },
+  {
+    "name": "The Last Manager",
+    "feed_url": "https://lastmanager.substack.com/feed",
+    "status": "success",
+    "feed_id": 214
+  },
+  {
+    "name": "Latest in Cyber",
+    "feed_url": "https://latestincyber.substack.com/feed",
+    "status": "success",
+    "feed_id": 215
+  },
+  {
+    "name": "LCG",
+    "feed_url": "https://lisagranger1.substack.com/feed",
+    "status": "success",
+    "feed_id": 216
+  },
+  {
+    "name": "The Leading Edge",
+    "feed_url": "https://theleadingedge.substack.com/feed",
+    "status": "success",
+    "feed_id": 217
+  },
+  {
+    "name": "Legal AF's Substack",
+    "feed_url": "https://michaelpopok.substack.com/feed",
+    "status": "success",
+    "feed_id": 218
+  },
+  {
+    "name": "Legal in the Loop",
+    "feed_url": "https://legalintheloop.substack.com/feed",
+    "status": "success",
+    "feed_id": 219
+  },
+  {
+    "name": "LegallyAbigail",
+    "feed_url": "https://legallyabigail.substack.com/feed",
+    "status": "success",
+    "feed_id": 220
+  },
+  {
+    "name": "Leona Waller",
+    "feed_url": "https://leonawaller.substack.com/feed",
+    "status": "success",
+    "feed_id": 221
+  },
+  {
+    "name": "Leslie",
+    "feed_url": "https://leslie9871234.substack.com/feed",
+    "status": "success",
+    "feed_id": 222
+  },
+  {
+    "name": "Less Foolish",
+    "feed_url": "https://lessfoolish.substack.com/feed",
+    "status": "success",
+    "feed_id": 223
+  },
+  {
+    "name": "Letters from an American",
+    "feed_url": "https://heathercoxrichardson.substack.com/feed",
+    "status": "success",
+    "feed_id": 224
+  },
+  {
+    "name": "Letters From Love with Elizabeth Gilbert",
+    "feed_url": "https://elizabethgilbert.substack.com/feed",
+    "status": "success",
+    "feed_id": 225
+  },
+  {
+    "name": "Letters from Rural America",
+    "feed_url": "https://lettersfromruralamerica.substack.com/feed",
+    "status": "success",
+    "feed_id": 226
+  },
+  {
+    "name": "Liberation Education Newsletter",
+    "feed_url": "https://desireebstephens.substack.com/feed",
+    "status": "success",
+    "feed_id": 227
+  },
+  {
+    "name": "Liberation Project",
+    "feed_url": "https://liberationproj25.substack.com/feed",
+    "status": "success",
+    "feed_id": 228
+  },
+  {
+    "name": "Liberty's Lens",
+    "feed_url": "https://libertylens1.substack.com/feed",
+    "status": "success",
+    "feed_id": 229
+  },
+  {
+    "name": "Life, A Series of Experiments",
+    "feed_url": "https://nathanieldrew.substack.com/feed",
+    "status": "success",
+    "feed_id": 230
+  },
+  {
+    "name": "Lifelong Learning Club",
+    "feed_url": "https://evakeiffenheim.substack.com/feed",
+    "status": "success",
+    "feed_id": 231
+  },
+  {
+    "name": "Like Stations In Some Relay",
+    "feed_url": "https://elainedimasi.substack.com/feed",
+    "status": "success",
+    "feed_id": 232
+  },
+  {
+    "name": "Lily's Substack",
+    "feed_url": "https://liljedynak.substack.com/feed",
+    "status": "success",
+    "feed_id": 233
+  },
+  {
+    "name": "Liminal Lab",
+    "feed_url": "https://chrishoff.substack.com/feed",
+    "status": "success",
+    "feed_id": 234
+  },
+  {
+    "name": "The Lo-Fi Gospel Minute",
+    "feed_url": "https://tripphudgins.substack.com/feed",
+    "status": "success",
+    "feed_id": 235
+  },
+  {
+    "name": "Lucian Truscott Newsletter",
+    "feed_url": "https://luciantruscott.substack.com/feed",
+    "status": "success",
+    "feed_id": 236
+  },
+  {
+    "name": "Maggie's Substack",
+    "feed_url": "https://maggieinthewoods.substack.com/feed",
+    "status": "success",
+    "feed_id": 237
+  },
+  {
+    "name": "Magic + Loss",
+    "feed_url": "https://virginiaheffernan.substack.com/feed",
+    "status": "success",
+    "feed_id": 238
+  },
+  {
+    "name": "The Main Street Journal",
+    "feed_url": "https://mainstreetjournal.substack.com/feed",
+    "status": "success",
+    "feed_id": 239
+  },
+  {
+    "name": "Major Grants",
+    "feed_url": "https://majorgrants.substack.com/feed",
+    "status": "success",
+    "feed_id": 240
+  },
+  {
+    "name": "Malcolm Nance: Special Intelligence",
+    "feed_url": "https://malcolmnance.substack.com/feed",
+    "status": "success",
+    "feed_id": 241
+  },
+  {
+    "name": "Marcus on AI",
+    "feed_url": "https://garymarcus.substack.com/feed",
+    "status": "success",
+    "feed_id": 242
+  },
+  {
+    "name": "Marina Yang",
+    "feed_url": "https://marinayang.substack.com/feed",
+    "status": "success",
+    "feed_id": 243
+  },
+  {
+    "name": "Matt Kinnemore",
+    "feed_url": "https://mattkinnemore.substack.com/feed",
+    "status": "success",
+    "feed_id": 244
+  },
+  {
+    "name": "The Matter with Things",
+    "feed_url": "https://iainmcgilchrist.substack.com/feed",
+    "status": "success",
+    "feed_id": 245
+  },
+  {
+    "name": "Meaning Alignment Institute",
+    "feed_url": "https://meaningalignment.substack.com/feed",
+    "status": "success",
+    "feed_id": 246
+  },
+  {
+    "name": "Mesoscale News with Rebekah Jones",
+    "feed_url": "https://rebekahjones.substack.com/feed",
+    "status": "success",
+    "feed_id": 247
+  },
+  {
+    "name": "Midlife Mavericks",
+    "feed_url": "https://claudiaquintela.substack.com/feed",
+    "status": "success",
+    "feed_id": 248
+  },
+  {
+    "name": "Mindful Awareness",
+    "feed_url": "https://mindfulawareness.substack.com/feed",
+    "status": "success",
+    "feed_id": 249
+  },
+  {
+    "name": "Mindful News",
+    "feed_url": "https://mindfulsundays.substack.com/feed",
+    "status": "success",
+    "feed_id": 250
+  },
+  {
+    "name": "Mindful Wellness",
+    "feed_url": "https://mindfulw.substack.com/feed",
+    "status": "success",
+    "feed_id": 251
+  },
+  {
+    "name": "MindLust by Mona Wolf",
+    "feed_url": "https://monawolf.substack.com/feed",
+    "status": "success",
+    "feed_id": 252
+  },
+  {
+    "name": "MindWar: The Psychological War on Democracy",
+    "feed_url": "https://jimstewartson.substack.com/feed",
+    "status": "success",
+    "feed_id": 253
+  },
+  {
+    "name": "The Minority Report Publication",
+    "feed_url": "https://kasperbenjamin.substack.com/feed",
+    "status": "success",
+    "feed_id": 254
+  },
+  {
+    "name": "The Mizrahi Perspective",
+    "feed_url": "https://alonmizrahi.substack.com/feed",
+    "status": "success",
+    "feed_id": 255
+  },
+  {
+    "name": "Moral Footprint",
+    "feed_url": "https://moralfootprint.substack.com/feed",
+    "status": "success",
+    "feed_id": 256
+  },
+  {
+    "name": "More Than Just Parks",
+    "feed_url": "https://morethanjustparks.substack.com/feed",
+    "status": "success",
+    "feed_id": 257
+  },
+  {
+    "name": "Musings From A Broken Heart",
+    "feed_url": "https://musingsfromabrokenheart.substack.com/feed",
+    "status": "success",
+    "feed_id": 258
+  },
+  {
+    "name": "Narativ with Zev Shalev",
+    "feed_url": "https://narativ.substack.com/feed",
+    "status": "success",
+    "feed_id": 259
+  },
+  {
+    "name": "Natalia P",
+    "feed_url": "https://mosaicpilgrim.substack.com/feed",
+    "status": "success",
+    "feed_id": 260
+  },
+  {
+    "name": "National PHC",
+    "feed_url": "https://nationalpublichealthcoalition.substack.com/feed",
+    "status": "success",
+    "feed_id": 261
+  },
+  {
+    "name": "National Security Impacts Your Security",
+    "feed_url": "https://521036.substack.com/feed",
+    "status": "success",
+    "feed_id": 262
+  },
+  {
+    "name": "Nature briefs by Rhett Ayers Butler",
+    "feed_url": "https://rhettayersbutler.substack.com/feed",
+    "status": "success",
+    "feed_id": 263
+  },
+  {
+    "name": "Nature Moments",
+    "feed_url": "https://sydneymichalski.substack.com/feed",
+    "status": "success",
+    "feed_id": 264
+  },
+  {
+    "name": "NBTV Newsletter",
+    "feed_url": "https://nbtv.substack.com/feed",
+    "status": "success",
+    "feed_id": 265
+  },
+  {
+    "name": "Neuroscience & Wellness",
+    "feed_url": "https://neurosciencewellness.substack.com/feed",
+    "status": "success",
+    "feed_id": 266
+  },
+  {
+    "name": "The New Republic",
+    "feed_url": "https://newrepublic.substack.com/feed",
+    "status": "success",
+    "feed_id": 267
+  },
+  {
+    "name": "The New Unhinged",
+    "feed_url": "https://mariahfaithcontinelli.substack.com/feed",
+    "status": "success",
+    "feed_id": 268
+  },
+  {
+    "name": "The New Whole Earth",
+    "feed_url": "https://thenewwholeearth.substack.com/feed",
+    "status": "success",
+    "feed_id": 269
+  },
+  {
+    "name": "Nom de Plum",
+    "feed_url": "https://jenniplum.substack.com/feed",
+    "status": "success",
+    "feed_id": 270
+  },
+  {
+    "name": "Norian Caporale-Berkowitz, Ph.D.",
+    "feed_url": "https://norian.substack.com/feed",
+    "status": "success",
+    "feed_id": 271
+  },
+  {
+    "name": "ON AI",
+    "feed_url": "https://onaitech.substack.com/feed",
+    "status": "success",
+    "feed_id": 272
+  },
+  {
+    "name": "On Becoming: Six Decades In, Still Becoming",
+    "feed_url": "https://miriamrrieck.substack.com/feed",
+    "status": "success",
+    "feed_id": 273
+  },
+  {
+    "name": "ON BITCOIN",
+    "feed_url": "https://onbitcoin.substack.com/feed",
+    "status": "success",
+    "feed_id": 274
+  },
+  {
+    "name": "ON NOSTR",
+    "feed_url": "https://onnostr.substack.com/feed",
+    "status": "success",
+    "feed_id": 275
+  },
+  {
+    "name": "ON SURVIVAL",
+    "feed_url": "https://onsurvival.substack.com/feed",
+    "status": "success",
+    "feed_id": 276
+  },
+  {
+    "name": "One Useful Thing",
+    "feed_url": "https://oneusefulthing.substack.com/feed",
+    "status": "success",
+    "feed_id": 277
+  },
+  {
+    "name": "OpenCivics",
+    "feed_url": "https://transitics.substack.com/feed",
+    "status": "success",
+    "feed_id": 278
+  },
+  {
+    "name": "OpenTheBooks",
+    "feed_url": "https://openthebooks.substack.com/feed",
+    "status": "success",
+    "feed_id": 279
+  },
+  {
+    "name": "The Organisational Anthropologist",
+    "feed_url": "https://clairejhartnell.substack.com/feed",
+    "status": "success",
+    "feed_id": 280
+  },
+  {
+    "name": "OSINT USA Substack",
+    "feed_url": "https://osintusa.substack.com/feed",
+    "status": "success",
+    "feed_id": 281
+  },
+  {
+    "name": "OSINTech's OSINT Anatomy Substack",
+    "feed_url": "https://osintech.substack.com/feed",
+    "status": "success",
+    "feed_id": 282
+  },
+  {
+    "name": "OSINTelligence",
+    "feed_url": "https://osintelligence.substack.com/feed",
+    "status": "success",
+    "feed_id": 283
+  },
+  {
+    "name": "Other Worlds Catalog",
+    "feed_url": "https://otherworldscatalog.substack.com/feed",
+    "status": "success",
+    "feed_id": 284
+  },
+  {
+    "name": "Our Moral Moment w/ Bishop William Barber & Jonathan Wilson-Hartgrove",
+    "feed_url": "https://ourmoralmoment.substack.com/feed",
+    "status": "success",
+    "feed_id": 285
+  },
+  {
+    "name": "Our Public Lands & Waters",
+    "feed_url": "https://ourpubliclandsandwaters.substack.com/feed",
+    "status": "success",
+    "feed_id": 286
+  },
+  {
+    "name": "Peaceful Return",
+    "feed_url": "https://peacefulreturn.substack.com/feed",
+    "status": "success",
+    "feed_id": 287
+  },
+  {
+    "name": "The People's Paper",
+    "feed_url": "https://thepeoplescommunity.substack.com/feed",
+    "status": "success",
+    "feed_id": 288
+  },
+  {
+    "name": "The Pesky Liberals",
+    "feed_url": "https://thepeskyliberals.substack.com/feed",
+    "status": "success",
+    "feed_id": 289
+  },
+  {
+    "name": "Philosophy Quotes",
+    "feed_url": "https://philosophors.substack.com/feed",
+    "status": "success",
+    "feed_id": 290
+  },
+  {
+    "name": "Pieter de Beer",
+    "feed_url": "https://powercoord.substack.com/feed",
+    "status": "success",
+    "feed_id": 291
+  },
+  {
+    "name": "Plantaholics",
+    "feed_url": "https://plantaholics.substack.com/feed",
+    "status": "success",
+    "feed_id": 292
+  },
+  {
+    "name": "The Porch - Gareth Higgins & Friends",
+    "feed_url": "https://theporch.substack.com/feed",
+    "status": "success",
+    "feed_id": 293
+  },
+  {
+    "name": "Project OSINT - Smart Open Source Insights",
+    "feed_url": "https://projectosint.substack.com/feed",
+    "status": "success",
+    "feed_id": 294
+  },
+  {
+    "name": "Proof",
+    "feed_url": "https://sethabramson.substack.com/feed",
+    "status": "success",
+    "feed_id": 295
+  },
+  {
+    "name": "Prosper",
+    "feed_url": "https://prosperinai.substack.com/feed",
+    "status": "success",
+    "feed_id": 296
+  },
+  {
+    "name": "Public Notice",
+    "feed_url": "https://aaronrupar.substack.com/feed",
+    "status": "success",
+    "feed_id": 297
+  },
+  {
+    "name": "The Quiet Life with Susan Cain",
+    "feed_url": "https://susancain.substack.com/feed",
+    "status": "success",
+    "feed_id": 298
+  },
+  {
+    "name": "Radically Local",
+    "feed_url": "https://margiprideaux.substack.com/feed",
+    "status": "success",
+    "feed_id": 299
+  },
+  {
+    "name": "Randy Woodley",
+    "feed_url": "https://rwoodley7.substack.com/feed",
+    "status": "success",
+    "feed_id": 300
+  },
+  {
+    "name": "The Real Time Creator",
+    "feed_url": "https://loriballen.substack.com/feed",
+    "status": "success",
+    "feed_id": 301
+  },
+  {
+    "name": "Reclaiming AI",
+    "feed_url": "https://reclaimingai.substack.com/feed",
+    "status": "success",
+    "feed_id": 302
+  },
+  {
+    "name": "The Regenerative Living Report",
+    "feed_url": "https://regenearthstudio.substack.com/feed",
+    "status": "success",
+    "feed_id": 303
+  },
+  {
+    "name": "Regenesis",
+    "feed_url": "https://r3genesis.substack.com/feed",
+    "status": "success",
+    "feed_id": 304
+  },
+  {
+    "name": "Resilient Tomorrow",
+    "feed_url": "https://resilienttomorrow.substack.com/feed",
+    "status": "success",
+    "feed_id": 305
+  },
+  {
+    "name": "Resistance Kitty",
+    "feed_url": "https://realresistancekitty.substack.com/feed",
+    "status": "success",
+    "feed_id": 306
+  },
+  {
+    "name": "Resistance Media",
+    "feed_url": "https://resistancemediainfo.substack.com/feed",
+    "status": "success",
+    "feed_id": 307
+  },
+  {
+    "name": "The Resistance Sentinel",
+    "feed_url": "https://usresistancezine.substack.com/feed",
+    "status": "success",
+    "feed_id": 308
+  },
+  {
+    "name": "Rethinking Nonprofits",
+    "feed_url": "https://npinterim.substack.com/feed",
+    "status": "success",
+    "feed_id": 309
+  },
+  {
+    "name": "The Revenue Ready CEO",
+    "feed_url": "https://revenuereadyceo.substack.com/feed",
+    "status": "success",
+    "feed_id": 310
+  },
+  {
+    "name": "Rick Wilson's Against All Enemies",
+    "feed_url": "https://rickwilson.substack.com/feed",
+    "status": "success",
+    "feed_id": 311
+  },
+  {
+    "name": "Rights & Insights",
+    "feed_url": "https://rightsandinsights.substack.com/feed",
+    "status": "success",
+    "feed_id": 312
+  },
+  {
+    "name": "Rituals & Rebellion",
+    "feed_url": "https://angelldeerwisdom.substack.com/feed",
+    "status": "success",
+    "feed_id": 313
+  },
+  {
+    "name": "Robert Reich",
+    "feed_url": "https://robertreich.substack.com/feed",
+    "status": "success",
+    "feed_id": 314
+  },
+  {
+    "name": "The Sane & Miraculous",
+    "feed_url": "https://podoflions.substack.com/feed",
+    "status": "success",
+    "feed_id": 315
+  },
+  {
+    "name": "Sarah Kendzior's Newsletter",
+    "feed_url": "https://sarahkendzior.substack.com/feed",
+    "status": "success",
+    "feed_id": 316
+  },
+  {
+    "name": "Sara's Substack",
+    "feed_url": "https://authenticrevolutionary.substack.com/feed",
+    "status": "success",
+    "feed_id": 317
+  },
+  {
+    "name": "Save America Movement",
+    "feed_url": "https://saveamericamovement.substack.com/feed",
+    "status": "success",
+    "feed_id": 318
+  },
+  {
+    "name": "School of Wise Innovation",
+    "feed_url": "https://schoolofwiseinnovation.substack.com/feed",
+    "status": "success",
+    "feed_id": 319
+  },
+  {
+    "name": "Script Breakers",
+    "feed_url": "https://scriptbreakers.substack.com/feed",
+    "status": "success",
+    "feed_id": 320
+  },
+  {
+    "name": "Sean Snow",
+    "feed_url": "https://ldz451.substack.com/feed",
+    "status": "success",
+    "feed_id": 321
+  },
+  {
+    "name": "Secrets of Privacy",
+    "feed_url": "https://secretsofprivacy.substack.com/feed",
+    "status": "success",
+    "feed_id": 322
+  },
+  {
+    "name": "Shamani of The Compassion Collective",
+    "feed_url": "https://shergriffin.substack.com/feed",
+    "status": "success",
+    "feed_id": 323
+  },
+  {
+    "name": "Shanaka Anslem Perera",
+    "feed_url": "https://shanakaanslemperera.substack.com/feed",
+    "status": "success",
+    "feed_id": 324
+  },
+  {
+    "name": "Silicon Sands News",
+    "feed_url": "https://siliconsandstudio.substack.com/feed",
+    "status": "success",
+    "feed_id": 325
+  },
+  {
+    "name": "Small Deeds Done",
+    "feed_url": "https://michelehornish.substack.com/feed",
+    "status": "success",
+    "feed_id": 326
+  },
+  {
+    "name": "The Society of Problem Solvers",
+    "feed_url": "https://joshketry.substack.com/feed",
+    "status": "success",
+    "feed_id": 327
+  },
+  {
+    "name": "SolarPunk Stories",
+    "feed_url": "https://solarpunkstories.substack.com/feed",
+    "status": "success",
+    "feed_id": 328
+  },
+  {
+    "name": "Solidarity Hall",
+    "feed_url": "https://solidarityhall.substack.com/feed",
+    "status": "success",
+    "feed_id": 329
+  },
+  {
+    "name": "Solryn Initiative",
+    "feed_url": "https://solryninitiative11.substack.com/feed",
+    "status": "success",
+    "feed_id": 330
+  },
+  {
+    "name": "SomaticHeartfulness: a trauma-informed relational newsletter",
+    "feed_url": "https://patrickmorency.substack.com/feed",
+    "status": "success",
+    "feed_id": 331
+  },
+  {
+    "name": "Spiritual Ecology",
+    "feed_url": "https://hez27.substack.com/feed",
+    "status": "success",
+    "feed_id": 332
+  },
+  {
+    "name": "SpyTalk",
+    "feed_url": "https://spytalk.substack.com/feed",
+    "status": "success",
+    "feed_id": 333
+  },
+  {
+    "name": "The Steady State",
+    "feed_url": "https://steadystate1.substack.com/feed",
+    "status": "success",
+    "feed_id": 334
+  },
+  {
+    "name": "Still Wandering",
+    "feed_url": "https://thestillwandering.substack.com/feed",
+    "status": "success",
+    "feed_id": 335
+  },
+  {
+    "name": "The Strategic Linguist",
+    "feed_url": "https://thestrategiclinguist.substack.com/feed",
+    "status": "success",
+    "feed_id": 336
+  },
+  {
+    "name": "The Strategy Stack",
+    "feed_url": "https://thestrategystack.substack.com/feed",
+    "status": "success",
+    "feed_id": 337
+  },
+  {
+    "name": "Structure.Community by Bill Johnston",
+    "feed_url": "https://structure3c.substack.com/feed",
+    "status": "success",
+    "feed_id": 338
+  },
+  {
+    "name": "The Sufficiency and Wellbeing Magazine",
+    "feed_url": "https://sufficiencyandwellbeing.substack.com/feed",
+    "status": "success",
+    "feed_id": 339
+  },
+  {
+    "name": "Sydney Olson",
+    "feed_url": "https://sydneygolson.substack.com/feed",
+    "status": "success",
+    "feed_id": 340
+  },
+  {
+    "name": "Synthetic Connection",
+    "feed_url": "https://syntheticlove.substack.com/feed",
+    "status": "success",
+    "feed_id": 341
+  },
+  {
+    "name": "System Change",
+    "feed_url": "https://annpettifor.substack.com/feed",
+    "status": "success",
+    "feed_id": 342
+  },
+  {
+    "name": "A Systemic Approach",
+    "feed_url": "https://mcfaddenj.substack.com/feed",
+    "status": "success",
+    "feed_id": 343
+  },
+  {
+    "name": "Systems of Human Performance",
+    "feed_url": "https://performancesystems.substack.com/feed",
+    "status": "success",
+    "feed_id": 344
+  },
+  {
+    "name": "Tales of Humanity",
+    "feed_url": "https://sarahtowle.substack.com/feed",
+    "status": "success",
+    "feed_id": 345
+  },
+  {
+    "name": "Talk Smart",
+    "feed_url": "https://dryuliaakisheva.substack.com/feed",
+    "status": "success",
+    "feed_id": 346
+  },
+  {
+    "name": "Technology Law",
+    "feed_url": "https://technologylaw.substack.com/feed",
+    "status": "success",
+    "feed_id": 347
+  },
+  {
+    "name": "Teri Kwant",
+    "feed_url": "https://terikwant.substack.com/feed",
+    "status": "success",
+    "feed_id": 348
+  },
+  {
+    "name": "Texas's Substack",
+    "feed_url": "https://texasresistancerising.substack.com/feed",
+    "status": "success",
+    "feed_id": 349
+  },
+  {
+    "name": "The Therapist Who Came Undone",
+    "feed_url": "https://becomingreal.substack.com/feed",
+    "status": "success",
+    "feed_id": 350
+  },
+  {
+    "name": "This Brave New World",
+    "feed_url": "https://courtneyexplainsitall.substack.com/feed",
+    "status": "success",
+    "feed_id": 351
+  },
+  {
+    "name": "This Woman Votes - Progress & Politics",
+    "feed_url": "https://twvme.substack.com/feed",
+    "status": "success",
+    "feed_id": 352
+  },
+  {
+    "name": "Tim's Substack",
+    "feed_url": "https://timmcallister.substack.com/feed",
+    "status": "success",
+    "feed_id": 353
+  },
+  {
+    "name": "Tom Cosgrove Three Ways to Block a Coup",
+    "feed_url": "https://cosgrovetc.substack.com/feed",
+    "status": "success",
+    "feed_id": 354
+  },
+  {
+    "name": "Top Python Libraries",
+    "feed_url": "https://pythonlibraries.substack.com/feed",
+    "status": "success",
+    "feed_id": 355
+  },
+  {
+    "name": "TPC Mutual Aid Book Club",
+    "feed_url": "https://mutualaidbookclub.substack.com/feed",
+    "status": "success",
+    "feed_id": 356
+  },
+  {
+    "name": "Traditional Dream Factory",
+    "feed_url": "https://traditionaldreamfactory.substack.com/feed",
+    "status": "success",
+    "feed_id": 357
+  },
+  {
+    "name": "Truth and Consequences",
+    "feed_url": "https://truthandcons.substack.com/feed",
+    "status": "success",
+    "feed_id": 358
+  },
+  {
+    "name": "Ulysses",
+    "feed_url": "https://andercot.substack.com/feed",
+    "status": "success",
+    "feed_id": 359
+  },
+  {
+    "name": "Unmasking Project 2025",
+    "feed_url": "https://unmaskingproject2025.substack.com/feed",
+    "status": "success",
+    "feed_id": 360
+  },
+  {
+    "name": "unrigUSA",
+    "feed_url": "https://unrigusa.substack.com/feed",
+    "status": "success",
+    "feed_id": 361
+  },
+  {
+    "name": "Village Building in the Metacrisis",
+    "feed_url": "https://jessicaferrow.substack.com/feed",
+    "status": "success",
+    "feed_id": 362
+  },
+  {
+    "name": "The Wake Up Call",
+    "feed_url": "https://thewakeupcallnewsletter.substack.com/feed",
+    "status": "success",
+    "feed_id": 363
+  },
+  {
+    "name": "A WARNING",
+    "feed_url": "https://awarning.substack.com/feed",
+    "status": "success",
+    "feed_id": 364
+  },
+  {
+    "name": "We-Space Letters: Authentic Relating",
+    "feed_url": "https://marcobeneteau.substack.com/feed",
+    "status": "success",
+    "feed_id": 365
+  },
+  {
+    "name": "Wellbeing Wins",
+    "feed_url": "https://wellbeingwins.substack.com/feed",
+    "status": "success",
+    "feed_id": 366
+  },
+  {
+    "name": "Whispers from the Universe",
+    "feed_url": "https://shagoonnayyar.substack.com/feed",
+    "status": "success",
+    "feed_id": 367
+  },
+  {
+    "name": "Witness",
+    "feed_url": "https://robertjonesjr.substack.com/feed",
+    "status": "success",
+    "feed_id": 368
+  },
+  {
+    "name": "Witness the Common Good",
+    "feed_url": "https://peterblock.substack.com/feed",
+    "status": "success",
+    "feed_id": 369
+  },
+  {
+    "name": "Words From This Body | Ailey Jolie",
+    "feed_url": "https://aileyjolie.substack.com/feed",
+    "status": "success",
+    "feed_id": 370
+  },
+  {
+    "name": "Work Matters",
+    "feed_url": "https://workmattersnow.substack.com/feed",
+    "status": "success",
+    "feed_id": 371
+  },
+  {
+    "name": "A Writer's Voice",
+    "feed_url": "https://krisfeliciano.substack.com/feed",
+    "status": "success",
+    "feed_id": 372
+  },
+  {
+    "name": "Writing in Circles",
+    "feed_url": "https://writingincircles.substack.com/feed",
+    "status": "success",
+    "feed_id": 373
+  },
+  {
+    "name": "your weirdo friend",
+    "feed_url": "https://muppetgender.substack.com/feed",
+    "status": "success",
+    "feed_id": 374
+  },
+  {
+    "name": "[ Center for Humane Technology ]",
+    "feed_url": "https://centerforhumanetechnology.substack.com/feed",
+    "status": "success",
+    "feed_id": 375
+  },
+  {
+    "name": "The Hobbit & The Owl",
+    "feed_url": "https://hobbitandowl.substack.com/feed",
+    "status": "success",
+    "feed_id": 376
+  }
+]
