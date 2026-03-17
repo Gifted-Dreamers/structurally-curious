@@ -9,13 +9,16 @@ __pycache__/
 # OS
 .DS_Store
 
-# Internal docs (pushed to kristinesocall/structurally-curious instead)
+# Private content (pushed to private remote only)
+internal/
+sessions/
+drafts/
+docs/
+investigations/
+plans/
+research/
+videos/
 threat-analysis.md
 consolidation-analysis.md
-intellectual-state.md
-connections.md
-strategy.md
-frameworks.md
-kv-research-reference.md
-session-log.md
-sessions/
+engagement-strategy.md
+experiment-priorities-for-team.md
