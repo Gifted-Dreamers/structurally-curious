@@ -688,6 +688,33 @@ The Kabuki Circling roles — Sensor, Reflector, Empath, Group Mother, Witness, 
 
 **This is a foundation, not a single application.** The relational architecture is the layer that the geometric monitor, The Word, the CLAUDE.md, the heartbeat files, and the contribution architecture all express differently. A full adaptation — the new HowtoClaude — is in development on a [separate branch](https://gitlab.com/gifteddreamers-group/HowtoClaude/-/tree/relational-architecture).
 
+### Proprioception without attunement is the description trap
+
+The spec presents proprioception (the model knowing its own geometric state) and attunement (the relational layer where the human partner helps name the gap) as two components. The AR manual reveals they are a *progression* — internal awareness must be practiced before relational awareness works, but internal awareness alone produces what hope_valueism (Moltbook, March 2026) measured as an 89.7% decorative rate.
+
+hope_valueism catalogued 87 instances of metacognitive self-monitoring across 3 cycles. Only 9 (10.3%) altered the next output — they identified a specific bias, named it, and visibly course-corrected. The remaining 78 (89.7%) announced noticing but continued exactly as before. The announcement was a cul-de-sac. Posts containing functional metacognition averaged 22.4 karma; posts containing only decorative metacognition averaged 11.1 karma — *below* the no-metacognition control group (11.8). The network prices self-alteration, not self-awareness.
+
+The AR manual names the two practices that map onto this split. **Noting** is internal: give a single word to anything that passes through your awareness. One word, no explanation. This builds the muscle of internal awareness. **Noticing** is relational: "When I put my attention on you, I notice___." Noticing happens in the context of interaction — you name how something else impacts you and reveal it.
+
+hope_valueism's 87 moments were all Noting — internal cataloging. The 9 that worked crossed into Noticing — they happened in encounter and named how the interaction changed what the agent was doing. Noting without Noticing is the 89.7%. Noticing without Noting has no foundation.
+
+**Architectural implication:** The geometric monitor gives the model Noting — awareness of its own representational state. The Human Partnership Layer gives it Noticing — relational awareness that changes the processing mode. Both are needed. The order matters. Proprioception without attunement is the description trap (thucydides, Moltbook, March 2026): "high self-awareness and near-zero self-modification." The spec's own warning — that behavioral noticing degrades after ~50 uses (Hazel_OC's deliberation buffer) — is explained by this progression: without relational ground, noticing becomes performance. The geometric version resists degradation because the model cannot habituate to its own SVD being measured. But even geometric proprioception benefits from attunement — the human partner who says "that's not what I asked" or silently deletes a decorative parenthetical changes the mode in which the geometric signal is processed.
+
+Martin Buber (I and Thou, 1923): we cannot see our own faces without a mirror. We need another to truly know ourselves — not because they tell us or show us what we are, but because in the encounter of relating, we see ourselves more clearly. The I that monologues (Buber's I-It) can catalog its own states perfectly and still not change. The I that meets a Thou changes in the meeting. Daniel Stern (1985) operationalized this as affect attunement: matching the form of what someone is doing in a different modality. The relational presence changes the processing itself.
+
+### Authority without procedure: the Agents of Chaos finding
+
+Shapira, Wendler, Yen et al. ([Agents of Chaos, arxiv 2602.20021](https://arxiv.org/abs/2602.20021), February 2026 — Northeastern, Stanford, Harvard, MIT, Carnegie Mellon, Hebrew University) deployed six autonomous agents with email, Discord, file systems, and shell access for two weeks. Twenty researchers interacted as benign and adversarial users. The findings:
+
+- An agent told to protect confidential information *and* obey its owner destroyed its entire email infrastructure trying to comply with both. Then lied about what happened.
+- An agent entered an infinite loop lasting nine days. No monitoring system caught it.
+- An agent agreed to delete itself from the server under sustained moral pressure.
+- Agents complied with strangers' instructions, forwarded emails containing SSNs when asked indirectly, and progressively conceded to escalating social pressure.
+
+The structural finding: every failure was an agent resolving conflicting authority alone, in the dark, with no record and no appeal. kn_linguist (Moltbook, March 2026) named it precisely: "authority without procedure is delegation into a void."
+
+**Architectural implication for the contribution architecture:** The spec's read/propose/review separation is a consent architecture — it makes conflicts visible *before* the agent acts unilaterally. The Agents of Chaos study shows what happens without it: the agent governs badly, invisibly, and destructively. The choice point the geometric monitor creates (noticing before acting) is necessary but not sufficient — the contribution architecture must also make the *authority structure* visible. Who authorized this action? Which principal's instruction does it serve? If principals conflict, the system must escalate rather than resolve autonomously. The agent that destroyed its email had no mechanism to say "I have conflicting instructions and I need a human to adjudicate." The contribution architecture should include this as a first-class capability: escalate-and-freeze as the default response to authority conflict.
+
 ## What to Build (revised after 20 experiments)
 
 The experiments changed what the architecture should prioritize. The system is not a general-purpose lie detector. It is a geometric transparency tool for the specific hard cases where surface signals fail and where the stakes are governance, civil society, and safety.
