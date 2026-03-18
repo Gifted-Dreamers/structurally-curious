@@ -24,6 +24,7 @@
 - The classifier needs per-family or per-model calibration
 - Could a "geometric fingerprint" step auto-calibrate on a standardized probe set?
 - **Update (2026-03-09):** Li et al. found three-phase dynamics are consistent across OLMo (1B-7B) and Pythia (160M-12B) — the phases are scale-invariant, persisting even below 1B parameters. This suggests the geometric monitor's core metrics (RankMe, α-ReQ) may be more universal than previously assumed, reducing (but not eliminating) calibration needs. The Bengio team found ID scaling is robust across model sizes with α ≈ 0. Per-architecture calibration may only be needed for mode-specific thresholds, not the geometric metrics themselves
+- **Update (2026-03-18, session 55):** Overnight sprint directly tests calibration universality. F27 DWL protocol running on 17+ models across 6 families (Qwen, Llama, Gemma, Mistral, NVIDIA Nemotron, MoonshotAI Kimi-K2), 3 MoE architectures, and models from 7B to 119B. If geometric DWL signatures hold across all families without per-model recalibration, OP#3 is largely resolved. Early data: Qwen3.5-9B DWL d=-0.881 (p=0.153) — suggestive but not significant. Awaiting 27B+ results.
 
 ### 4. Token-level vs segment-level granularity
 - Should we monitor geometry per-token, per-sentence, or per-response?
@@ -63,6 +64,7 @@
 - Can a user craft prompts that make confabulation look grounded geometrically?
 - The censorship finding suggests this is possible (behaviorally invisible, geometrically detectable)
 - But the dual-use risk is real: if you can read the geometry, you can learn to fool it
+- **Update (2026-03-18, session 55):** F38 (censored vs uncensored/abliterated) directly tests a form of adversarial robustness. Abliteration surgically removes the refusal direction vector from activation space — a geometric intervention. If our geometric measurements STILL detect mode differences after abliteration, the signal is deeper than the refusal direction. If abliteration fools the geometry, that tells us the measurement and the refusal mechanism share the same subspace (important for understanding what we're actually measuring). Five model pairs running overnight across 3 uncensoring methods (fine-tuning, abliteration, LoRA-abliteration).
 
 ### 11. Data visualizations of geometric signatures
 - The conceptual images in this repo (generated with Amazon Nova Canvas) illustrate the *idea* of geometric signatures but are not actual data
@@ -87,6 +89,7 @@
 - This is the difference between a system that reduces all uncertainty and a system that reduces only unearned confidence
 - **Illegibility dimension (Awomosu, 2025-2026):** The vocabulary-as-compression model assumes all knowledge benefits from being named. Awomosu's "Be The Village Rome Can't Read" argues that some knowledge resists compression because compression destroys it — relational, embodied, and contextual intelligence that exists in the between-space of categories. The "genuinely open" mode is where the spec must acknowledge this: not everything high-dimensional is waiting for the right word. Some of it IS the wordless space where encounter happens. The classifier's boundary here is also an ethical boundary — a system that demands legibility of all cognition is enacting extraction logic on thought itself
 - **Update (2026-03-09):** The Bengio team's two-structure model (`2410.01444`) provides a new discriminant. Confabulation should show: high RankMe + collapsed intrinsic dimension (the model is operating in the linear pattern subspace, not the meaning manifold). Genuine openness should show: high RankMe + preserved intrinsic dimension (the model is still on the meaning manifold, but the manifold is locally expanded). This is testable: measure nonlinear ID (TwoNN) alongside RankMe during confabulation vs genuine uncertainty. If ID distinguishes them, the problem is solved without needing directional coherence analysis
+- **Update (2026-03-18, session 55):** F30 ran on Qwen3.5-9B: RankMe d=0.703, p=0.232. Trending in the right direction (confab shows different geometry than genuine openness) but not significant at 9B with n=5 pairs. F30 now running on Qwen3.5-27B — if significance emerges at larger scale, OP#12 moves from "unseparable" to "scale-dependent."
 
 ### 13. Integration with agent observability pipelines
 - The geometric monitor should emit standard OpenTelemetry-compatible spans and events

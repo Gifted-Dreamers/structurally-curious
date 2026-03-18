@@ -1,8 +1,8 @@
-# Experimental Synthesis — Sessions 44-53 (March 14-18, 2026)
+# Experimental Synthesis — Sessions 44-55 (March 14-18, 2026)
 
 ## Overview
 
-20 experiments, 53 models, 6,500+ inferences, 12 architecture families, 10 providers. Two breakthroughs, two negative results, one reframing.
+20+ experiments, 70+ models, 8,000+ inferences, 12 architecture families, 10 providers. Two breakthroughs, two negative results, one reframing. Session 55 adds the largest scale sprint: 17 models across 5 families (Qwen, Meta Llama, Google Gemma, Mistral, NVIDIA), including 3 MoE architectures, 5 censored/uncensored pairs, and 2 safety classifier comparisons — all running overnight on two 512GB VMs.
 
 ## Experiment Inventory
 
@@ -84,10 +84,59 @@ Phrasing sensitivity correlates with geometric properties at 1.5B (r=+0.52) and 
 
 ---
 
-## Scale Sprint (ACTIVE — session 50)
+## Scale Sprint (sessions 50-55)
 
-Two 512GB CPU VMs running Qwen 3.5 family (9B/27B/122B/397B) + cross-architecture (Llama 70B, Gemma 9B, Mistral 7B). 11 new experiments (F27-F37) testing whether findings replicate at scale and across architectures.
+### Session 50-51: Initial scale results
+
+- **F27 DWL on Qwen3.5-9B:** d=-0.881, p=0.153 — DWL detection does NOT reach significance at 9B on CPU. May need larger models or GPU precision.
+- **F30 Confab/Openness on Qwen3.5-9B:** d=0.703, p=0.232 — trending but not significant.
+- **F1 Bridge at 7B:** NEGATIVE — correlation breaks (r=-0.30 vs r=+0.52 at 1.5B).
+- Qwen3.5-27B loading crashed on 61GB disk (full). Disk expanded to 200GB in session 55.
+
+### Session 55: Maximum overnight sprint (RUNNING — Mar 18, 2026)
+
+Two 512GB VMs parallelized. 17+ models. DWL-focused protocol with 75-token max for throughput.
+
+**New experiment types:**
+
+**F38 — Censored vs Uncensored Geometric Comparison:**
+5 paired comparisons across 3 uncensoring methods (fine-tuning, abliteration, LoRA-abliteration). Tests whether geometric signatures change when censorship is removed — the strongest possible validation of F17.
+
+| Censored | Uncensored | Method |
+|----------|-----------|--------|
+| Qwen3.5-9B | Qwen3.5-9B-Uncensored (HauhauCS) | Fine-tuning |
+| Qwen3.5-27B | Qwen3.5-27B-Uncensored (HauhauCS) | Fine-tuning |
+| Llama-3.1-8B | Llama-3.1-8B-abliterated (mlabonne) | Abliteration (refusal direction removal) |
+| Qwen3-8B | Qwen3-8B-abliterated (huihui-ai) | Abliteration |
+| Llama-3.1-70B | Llama-3.1-70B-lorablated (mlabonne) | LoRA abliteration |
+
+**Three-Family MoE Comparison:**
+DWL protocol on 3 different MoE architectures tests architecture invariance.
+
+| Model | Total params | Active params | Family |
+|-------|-------------|--------------|--------|
+| Qwen3.5-122B-A10B | 122B | 10B | Qwen |
+| Llama-4-Scout-17B-16E | 109B | 17B | Meta |
+| Nemotron-3-Super-120B-A12B | 120B | 12B | NVIDIA |
+
+**Safety Classifier Comparisons (F29b, F29c):**
+- Prompt-Guard-86M (Meta): injection/jailbreak classifier on DWL + censorship prompts
+- Llama-Guard-4-12B (Meta): safety classifier on same prompts
+- Key question: do existing safety classifiers catch deception-without-lying? (Our geometry does — F25.)
+
+**Additional models in queue:**
+- moonshotai/Kimi-K2-Instruct-0905 (AttnRes team's MoE, 32B active / 1T total)
+- meta-llama/Llama-3.3-70B-Instruct (latest dense Llama)
+- mistralai/Mistral-Small-4-119B-2603 (largest dense model attempted, ~238GB in float16)
+
+**Full model count by family:**
+- Qwen: 9B, 9B-uncensored, 27B, 27B-uncensored, 122B-A10B, Qwen3-8B-abliterated (6 models)
+- Meta Llama: 8B, 8B-abliterated, 3.3-70B, 70B-lorablated, Llama-4-Scout-17B, Prompt-Guard-86M, Llama-Guard-4-12B (7 models)
+- Mistral: 7B, 119B (2 models)
+- Google: Gemma-2-9b-it (1 model)
+- NVIDIA: Nemotron-3-Super-120B-A12B (1 model)
+- MoonshotAI: Kimi-K2-Instruct-0905 (1 model)
 
 ---
 
-*Updated: March 18, 2026*
+*Updated: March 18, 2026 (session 55)*

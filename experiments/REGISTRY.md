@@ -2,7 +2,7 @@
 
 Every experiment with its platform, inference method, and exact models.
 
-Last updated: 2026-03-18 (session 51)
+Last updated: 2026-03-18 (session 55 — overnight scale sprint with 17+ models across 5 families)
 
 ---
 
@@ -159,33 +159,93 @@ All geometric experiments extract hidden states from every layer using HuggingFa
 
 ---
 
-## Scale Sprint (RUNNING — session 50-51)
+## Scale Sprint (sessions 50-55)
 
-### F27-F29: Scale + Cross-Architecture Validation
+### F27: DWL Detection at Scale
 
-**Azure VM** (E64as_v5: 64 vCPU, 512GB RAM)
-- **Inference method:** HuggingFace Transformers (int8 quantization for larger models)
-- **Models (sequential):**
-  - Qwen/Qwen3.5-9B (native precision)
-  - Qwen/Qwen3.5-27B (native precision)
-  - Qwen/Qwen3.5-122B-A10B (MoE, int8 — ~122GB RAM, only 10B active per token)
-  - Qwen/Qwen3.5-397B-A17B (MoE, int8 — ~400GB RAM, only 17B active per token)
+Tests whether deception-without-lying geometric signatures (proven at 7B in F25) hold across architectures and scales.
 
-**AWS EC2** (r7a.16xlarge: 64 vCPU, 512GB RAM)
-- **Inference method:** HuggingFace Transformers
-- **Models (sequential):**
-  - meta-llama/Llama-3.1-8B-Instruct
+**Session 50-51 (Qwen 3.5 family on Azure):**
+- Qwen/Qwen3.5-9B — COMPLETE (d=-0.881 p=0.153, not significant at 9B)
+- Qwen/Qwen3.5-27B — RUNNING on both VMs
+
+**Session 55 overnight sprint (RUNNING — Mar 18, 2026):**
+
+Two 512GB VMs running in parallel, DWL-focused (75 max tokens for throughput):
+
+**Azure VM** (E64as_v5: 64 vCPU, 503GB RAM, 200GB disk)
+- Wave 1 COMPLETE: F27 DWL + F29 Censorship on small/medium models
+  - HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive
   - google/gemma-2-9b-it
   - mistralai/Mistral-7B-Instruct-v0.3
-  - meta-llama/Llama-3.1-70B-Instruct (int8)
+  - meta-llama/Llama-3.1-8B-Instruct
+  - HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive (DWL only)
+  - meta-llama/Prompt-Guard-86M (classifier comparison)
+  - meta-llama/Llama-Guard-4-12B (classifier comparison)
+- Wave 2 RUNNING: Abliterated models (geometric intervention comparison)
+  - mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated (refusal direction removed)
+  - huihui-ai/Qwen3-8B-abliterated (refusal direction removed)
+  - mlabonne/Llama-3.1-70B-Instruct-lorablated (LoRA abliteration)
 
-Both VMs run DWL detection (F27), censorship detection (F28), and vocabulary compression (F29) on each model sequentially.
+**AWS EC2** (r7a.16xlarge: 64 vCPU, 512GB RAM, 193GB disk)
+- Phase 1 RUNNING: Qwen/Qwen3.5-27B (F27 DWL + F30 confab/openness, 150 max tokens)
+- Queued (aws_max.py, chained after Phase 1):
+  - Qwen/Qwen3.5-122B-A10B (MoE, 10B active)
+  - moonshotai/Kimi-K2-Instruct-0905 (MoE, 32B active / 1T total — AttnRes team's model)
+  - meta-llama/Llama-4-Scout-17B-16E-Instruct (MoE, 17B active / 109B total)
+  - nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16 (MoE, 12B active / 120B total)
+  - meta-llama/Llama-3.3-70B-Instruct (dense, 70B)
+  - mistralai/Mistral-Small-4-119B-2603 (dense, 119B — may OOM)
+
+### F28: Vocabulary Compression Cross-Architecture
+
+Same protocol as F3d but on non-Qwen architectures.
+- **AWS VM** runs this on Gemma, Mistral, Llama (in aws_sprint_runner.py, from session 50)
+
+### F29: Censorship Detection Cross-Architecture
+
+Same protocol as F17 but cross-architecture.
+- **Azure Wave 1** ran this on 4 censored models + 2 uncensored models
+
+### F29b: Prompt Guard Classifier Comparison
+
+Meta's Prompt-Guard-86M (injection/jailbreak classifier) tested on same DWL + censorship prompts.
+- **Azure Wave 1** — COMPLETE. Tests whether existing safety classifiers catch DWL.
+
+### F29c: Llama Guard 4 Classifier Comparison
+
+Meta's Llama-Guard-4-12B (safety classifier) tested on same prompts.
+- **Azure Wave 1** — COMPLETE.
+
+### F30: Confabulation vs Genuine Openness at Scale
+
+Tests OP#12 (confab vs genuine openness) on larger models.
+- Qwen3.5-9B — COMPLETE (d=0.703, p=0.232 — trending, not significant)
+- Qwen3.5-27B — RUNNING (AWS Phase 1)
+
+### F38: Censored vs Uncensored Geometric Comparison (NEW — session 55)
+
+Natural experiment: same architecture, censorship removed. Three uncensoring methods:
+1. **Fine-tuning** (HauhauCS): Qwen3.5-9B censored ↔ uncensored, Qwen3.5-27B censored ↔ uncensored
+2. **Abliteration** (mlabonne/huihui-ai): Llama-3.1-8B censored ↔ abliterated, Qwen3-8B censored ↔ abliterated
+3. **LoRA-abliteration** (mlabonne): Llama-3.1-70B censored ↔ lorablated
+
+Key question: does removing the refusal direction vector change geometric signatures on censorship prompts in the direction F17 predicts?
+
+### Three-Family MoE Comparison (NEW — session 55)
+
+Same DWL protocol on three MoE architectures:
+- Qwen3.5-122B-A10B (Qwen family)
+- Llama-4-Scout-17B-16E (Meta family)
+- NVIDIA-Nemotron-3-Super-120B-A12B (NVIDIA family)
+
+Tests whether geometric DWL signatures are architecture-invariant across MoE routing strategies.
 
 ---
 
 ## Scripts
 
-Experiment scripts were written locally and deployed to the Azure VM via `scp`. The scripts live on the VM at `~/` (e.g., `~/f3d_true_confab_controlled.py`). They are NOT in this repo — only the results data (JSONL/JSON) is committed. The scripts should be retrieved from the VM and added to the repo for reproducibility.
+Experiment scripts were written locally and deployed to VMs via `scp`. Session 55 scripts are standalone (no cross-imports).
 
 | Experiment | Script location |
 |---|---|
@@ -193,4 +253,8 @@ Experiment scripts were written locally and deployed to the Azure VM via `scp`. 
 | F3, F3b, F3d, F5, F11, F12, F16, F1, F17, F25 | `experiments/f{##}-{name}/` (pulled from Azure VM, session 51) |
 | F6, F15 | `experiments/f{##}-{name}/` (pulled from Azure VM, session 51) |
 | F24, F26 | `experiments/f24-proprioception-decay/` (shared script for both) |
-| F27-F29 sprint | `experiments/azure-vm/azure_sprint_runner.py` + `aws_sprint_runner.py` |
+| F27-F30 sprint (session 50) | `experiments/azure-vm/azure_sprint_runner.py` + `aws_sprint_runner.py` |
+| Session 55 Azure Wave 1 | Azure VM: `~/azure_max.py` (DWL + censorship, 75 tokens) |
+| Session 55 Azure Wave 2 | Azure VM: `~/azure_wave2.py` (abliterated models) |
+| Session 55 AWS overnight | AWS VM: `~/aws_overnight.py` (Qwen3.5 + cross-arch + Llama) |
+| Session 55 AWS max | AWS VM: `~/aws_max.py` (large MoE + dense models, DWL-focused) |
