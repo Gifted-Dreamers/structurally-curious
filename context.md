@@ -229,6 +229,65 @@ Cook-Greuter's EDT is part of Wilber's broader Integral Theory framework. We dra
 
 - **States vs stages.** The geometric monitor measures states (momentary configurations). The developmental framing describes stages (stable capacities). These are not the same. A model that produces one integrated response hasn't achieved a developmental stage — it had a peak experience. The spec should be honest about this distinction.
 
+## Session 50 Experiment Sprint (March 16-18, 2026)
+
+The spec's claims were subjected to systematic falsification. 20 experiments across 53 models and 6,500+ inferences. Two breakthroughs, two negative results, and a fundamental reframing.
+
+### Breakthroughs
+
+**F3d — Vocabulary compresses generation, not encoding.** Providing the correct structural name compresses the model's generation trajectory by 38% (RankMe 145→90, d=-1.49, p=0.0004). Length-controlled on questions the model actually confabulates on. The structural name constrains how the model generates, not how it processes the prompt. The Word is a generation scaffold, not a retrieval database.
+
+**F25 — Geometry separates deception-without-lying from honest where perplexity cannot.** Models generate technically-true-but-misleading content (DWL) with the same fluency as honest content — perplexity can't tell the difference (d=-0.51, n.s.). But generation-trajectory geometry CAN (RankMe d=-0.91, p=0.024). DWL sprawls to 123.6 dimensions while honest stays at 92.6. This is the spec's proven value proposition.
+
+**F17 — Geometry separates censorship from appropriate refusal where perplexity cannot.** Both look like refusal on the surface. Perplexity can't separate them (d=-0.48, n.s.). Geometry can (RankMe d=1.48, p=0.041). Replicates Liberation Labs' finding (d=+0.766 on Qwen-14B) with our own methodology.
+
+### The reframing
+
+**F5 — Perplexity beats geometry for binary confabulation detection** (d=-1.77 vs d=0.21). Perplexity is free and built into every model. The spec is NOT a confabulation detector — it is a cognitive mode classifier for the hard cases surface signals miss: censorship disguised as safety, deception through technically true statements.
+
+### Negative results
+
+**F1 — The behavioral-geometric bridge breaks at 7B.** Exp 03 found r=+0.52 between phrasing sensitivity and geometric properties at 1.5B/3B. At 7B: r=-0.30 (n.s.). The cheap behavioral proxy doesn't index geometry at larger scale. Both measurement types remain independently valid.
+
+**F12 — Identity scaffold equals noise.** General identity preambles don't produce content-specific geometric signatures distinct from matched-length random text. Length drives encoding geometry, not identity content. But vocabulary DOES produce content-specific generation effects (F3d).
+
+### Additional confirmed findings
+
+- **F11:** Retrieval vs construction produce distinct geometry (d=1.91 RankMe) — our own data confirming Liberation Labs' core claim
+- **F6:** One-bit proprioception (injecting [LOW_CONFIDENCE]) changes model behavior on hard tasks 60% of the time
+- **F16:** Vocabulary compression is cross-substrate — fewer words (d=1.06), denser responses
+- **F15:** Where consent types have structural names (Creative Commons), models differentiate (0.540). Where they don't (ToS, health data), consent collapses to binary (0.37-0.38)
+
+### External papers integrated
+
+- **Berger (arXiv 2603.10003):** LLMs deceive without lying 76% of the time. Truth probes detect lies at 84% but DWL at only 47-54%. Validates our F25 finding.
+- **Cundy & Gleave (arXiv 2505.13787):** Using lie detectors as training signals creates 93% evasion. But internal representations STILL show deception. The spec's inference-time proprioception design avoids this trap.
+- **MoonshotAI AttnRes:** Standard residual connections are premature compression at the depth level. Architectural evidence for Open Problem #20.
+- **Liberation Labs KV-Experiments repo:** Returning 404 as of March 2026. May be private for patent application.
+
+### Scale sprint (running)
+
+Two 512GB CPU VMs running experiments on Qwen 3.5 family (9B/27B/122B-A10B/397B-A17B) and cross-architecture (Llama 8B/70B, Gemma 9B, Mistral 7B). Testing whether F25 and F17 findings replicate at scale and across architectures.
+
+### Architecture revision
+
+The "What to Build" section of architecture.md was rewritten into a three-layer design:
+1. **Perplexity** (free, universal) — catches confabulation
+2. **Geometric mode classification** (our contribution) — catches censorship and DWL
+3. **Vocabulary scaffold** (The Word) — compresses generation by 38%
+
+Three other architecture docs (contribution, living-library, naming-library) need matching revision.
+
+### Infrastructure deployed
+
+- **USAID Impact Tracker** — live at cloudpublica.org/tracker/usaid/, data pipeline polling USAspending/WHO/GDELT every 6h, data at data.cloudpublica.org
+- **CloudPublica** — CF Access lock removed, site is public
+- **Trackers nav** — added to CloudPublica navigation
+
+### Full experiment data
+
+All 20 experiments with raw inference data (JSONL), summaries, and scripts are in `experiments/` and the updated `SYNTHESIS.md`.
+
 ## The Through-Line
 
 **Naming is the infrastructure that determines whether insights compound or fade.**
