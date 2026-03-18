@@ -42,10 +42,10 @@ python run.py                     # Full run (8 tasks × 2 × 6 models = 96 infe
 python run.py --model us.meta.llama3-1-8b-instruct-v1:0  # Single model
 ```
 
-## Connection to ESD paper
+## Connection to dual-feedback systems
 
-Eric Basham's Emergent System Design describes the need for systems that can
-detect their own unknown unknowns. Premature compression is the formal version:
-the system's representation is geometrically robust (grounded in what it has)
-but structurally incomplete (missing what it hasn't seen). This experiment
-provides behavioral evidence that the problem exists across model scales.
+Systems designed to detect their own unknown unknowns face this exact problem.
+Premature compression is the formal version: the system's representation is
+geometrically robust (grounded in what it has) but structurally incomplete
+(missing what it hasn't seen). This experiment provides behavioral evidence
+that the problem exists across model scales.

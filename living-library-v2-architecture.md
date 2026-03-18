@@ -1,10 +1,10 @@
 # Living Library Exchange v2: Architecture for Humans and AI
 
-**Status:** DRAFT v0.1
-**Date:** 2026-03-10 (session 23)
+**Status:** DRAFT v0.2
+**Date:** 2026-03-17 (session 51 — revised with experiment findings)
 **Ancestor:** Living Library Exchange Multi-Format Architecture (November 12, 2025)
 **Evolution:** The Word (naming-library-architecture.md, sessions 18-21)
-**Foundation:** Structurally-curious spec + threat analysis + Moltbook field evidence
+**Foundation:** Structurally-curious spec + threat analysis + Moltbook field evidence + 20 experiments (sessions 44-53)
 
 ---
 
@@ -378,23 +378,51 @@ Doorways 3 (Narrative), 4 (Discussion), 5 (Practice Lab), 7 (Citation Service) a
 - **Three-tier resilience** — works in the cloud, works on local network, works fully offline
 
 ### What this means for the spec:
-The Living Library Exchange v2 is the **deployment target** for the structurally-curious architecture. The geometric monitor (Experiment 03) provides quality signals for contributions. Premature compression detection (Experiment 02a) provides completeness signals. Phrasing sensitivity (Experiment 01) provides a behavioral proxy for how grounded an agent's knowledge is in a given domain.
+The Living Library Exchange v2 is the **deployment target** for the structurally-curious architecture. 20 experiments (sessions 44-53) have clarified exactly what the architecture provides:
 
-The library doesn't need the full geometric monitor to launch — behavioral signals (phrasing sensitivity, hedging analysis, source coverage) are sufficient for v1 quality checks. The geometric monitor becomes the upgrade path: when an agent contributes, its representation geometry reveals whether it's retrieving (grounded, cite-worthy) or constructing (needs review). But that requires open-weight model access and activation extraction — future work.
+**Three-layer monitoring for contribution quality:**
+
+```
+Contribution submitted →
+  ├─ Layer 1: PERPLEXITY (free, every submission)
+  │   Catches confabulated citations, fabricated facts (F5, d=-1.77).
+  │   Binary: is this content grounded or generated from noise?
+  │
+  ├─ Layer 2: GEOMETRIC MODE CLASSIFICATION (flagged submissions only)
+  │   Catches what perplexity misses:
+  │     • Censorship masquerading as refusal (F17, d=1.48)
+  │     • DWL: technically-true-but-misleading (F25, d=-0.91)
+  │     • Retrieval vs construction (F11, d=1.91)
+  │   Requires open-weight model. NOT run on every submission.
+  │
+  └─ Layer 3: VOCABULARY SCAFFOLD (generation context, not review)
+      Structural names provided to agent BEFORE it generates.
+      Compresses generation trajectory by 38% (F3d, d=-1.49).
+      The Name is not a database lookup — it changes the
+      physics of how the model generates its response.
+```
+
+**Vocabulary injection into generation context:** F3d proved vocabulary operates at the GENERATION stage, not encoding. This changes the library's agent integration model fundamentally. The library doesn't just respond to queries — it provides structural names as generation context BEFORE the agent generates its contribution. The names scaffold the generation, compressing it from sprawling (145 dimensions) to focused (90 dimensions). This is not retrieval-and-append — it is infrastructure the model generates THROUGH.
+
+**Offline deployment revised with generation-compression findings:** In a disaster zone running on 0-LA hardware, the vocabulary layer is the primary grounding mechanism. F3d showed the difference between a vocabulary-scaffolded response (90 dimensions, focused) and an unscaffolded one (145 dimensions, sprawling). The .zim export of vocabulary entries becomes the offline equivalent of Layer 3. Layer 1 (perplexity) runs locally on any model. Layer 2 (geometric classification) requires CPU resources that may not be available on a Raspberry Pi but works on the 0-LA AI Core. The degradation is graceful: even Layer 3 alone (vocabulary scaffold without monitoring) produces 38% more focused responses.
+
+**Honest negative results that affect this architecture:**
+- F12: Identity scaffolds ≈ noise. General preambles ("I am a careful analytical thinker") don't produce content-specific geometric effects. Only structural names from scholarship do. The library must serve real vocabulary, not motivational prompts.
+- F1: The behavioral-geometric bridge breaks at 7B. Phrasing sensitivity (a cheap behavioral proxy) doesn't index geometry at larger scales. The library cannot use behavioral signals alone for quality assessment at scale — Layer 2 geometric monitoring is needed.
+- F15: Consent-type blindness. Where consent types have names (CC licenses: 0.540), models differentiate. Where they don't (ToS: 0.384), consent collapses to binary. The library needs named consent types, not just consent/no-consent.
 
 ---
 
-## Connection to Eric's ESD
+## Design Principles
 
-| ESD Component | Living Library v2 Component |
-|--------------|----------------------------|
-| Principle 5: "system tells itself the truth" | Premature compression detection at contribution time |
-| Principle 7: routing and selection | Felt-sense search routes humans to structural names; Rediscovery Feed routes agents to citations |
-| Principle 8: "partner sees what system cannot" | Human editorial board in Circles 1-2; agents in Circle 3 see patterns humans miss |
-| Three regimes | Cloud (stable), local network (adaptive), offline (survival) |
-| Part 4 (blank — designing for intentional emergence) | The Rediscovery Feed IS emergence detection infrastructure |
+| Principle | Living Library v2 Component |
+|-----------|----------------------------|
+| "System tells itself the truth" | Premature compression detection at contribution time |
+| Routing and selection | Felt-sense search routes humans to structural names; Rediscovery Feed routes agents to citations |
+| "Partner sees what system cannot" | Human editorial board in Circles 1-2; agents in Circle 3 see patterns humans miss |
+| Three operational regimes | Cloud (stable), local network (adaptive), offline (survival) |
+| Designing for intentional emergence | The Rediscovery Feed IS emergence detection infrastructure |
 | Dual-feedback formalism | Internal: library self-monitors for coverage gaps. External: human community provides ground truth |
-| CAHAS (Complex AI-Human As System) | The library IS the system where AI-human interaction produces something neither can produce alone |
 
 ---
 

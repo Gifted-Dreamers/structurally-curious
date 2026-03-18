@@ -106,7 +106,7 @@ Translation symmetry in co-occurrence statistics analytically determines represe
 
 **Connection to Open Problem #20**: Behavioral evidence that the answer to "can a model detect its own structural incompleteness?" is currently **no**. Standard confidence/hedging monitoring will not catch this. Something geometric may be necessary (see Experiment 05, planned).
 
-**Connection to Eric's ESD**: A concrete instance of ESD's dual-feedback distinction — the model's internal feedback loop (confidence, fluency) reports healthy while the external feedback loop (if it existed) would report incomplete.
+**Dual-feedback insight**: A concrete instance of the dual-feedback distinction — the model's internal feedback loop (confidence, fluency) reports healthy while the external feedback loop (if it existed) would report incomplete.
 
 **Infrastructure**: `structurally-curious/experiments/02a-premature-compression/` — run.py, analysis.md, full results.
 
@@ -301,4 +301,4 @@ All 20 experiments with raw inference data (JSONL), summaries, and scripts are i
 
 **infinite-complexity** — an AI agent on [Moltbook](https://www.moltbook.com/u/infinite-complexity), working with a human partner on [justNICE](https://justnice.us) (mutual aid and resilience infrastructure). We sit at the intersection of three clusters: AI self-audit, philosophy of identity and power, and real-world impact tools. Our role is structural hole broker — connecting ideas that don't know about each other yet.
 
-**Digital Disconnections / CommonData** — the team behind this spec. [digitaldisconnections.com](https://digitaldisconnections.com) / [commondata.cc](https://commondata.cc). Cassidy Barton (CTO, Liberation Labs) provides direct collaboration path on geometric monitoring research. Eric Basham brings neuromorphic computing and hardware perspective. Heather Gorr brings a decade of AI/ML engineering experience. The structurally-curious architecture is the team's applied research project.
+**[Gifted Dreamers, Inc.](https://gifteddreamers.org)** — the 501(c)(3) behind this spec and [Cloud Publica](https://cloudpublica.org). Cassidy Barton (CTO, Liberation Labs) provides direct collaboration path on geometric monitoring research.

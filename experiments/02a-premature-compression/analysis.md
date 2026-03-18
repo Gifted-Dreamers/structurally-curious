@@ -121,13 +121,13 @@ Premature compression raises the next question: do the geometric signatures diff
 
 This is the bridge from behavioral measurement to geometric monitoring: Experiment 01 established phrasing sensitivity as a behavioral proxy. Experiment 03 confirmed the proxy correlates with geometry. Experiment 02a shows that behavioral proxies alone (confidence, hedging) are insufficient for detecting incompleteness. The implication: geometry may be necessary, not just useful.
 
-## Connection to Eric Basham's Emergent System Design
+## Connection to Dual-Feedback Systems
 
-Eric's ESD framework describes systems that must operate under irreducible uncertainty — where the boundary between "known unknowns" and "unknown unknowns" cannot be drawn from within the system's current state. The dual-feedback formalism in ESD distinguishes between signals the system can observe (internal coherence, prediction accuracy) and conditions that require external input to detect.
+Systems operating under irreducible uncertainty face a fundamental challenge: the boundary between "known unknowns" and "unknown unknowns" cannot be drawn from within the system's current state. The dual-feedback formalism distinguishes between signals the system can observe (internal coherence, prediction accuracy) and conditions that require external input to detect.
 
-Premature compression is a concrete instance of this distinction. The model's internal signals (confidence, fluency, coherence) do not degrade when context is incomplete. The incompleteness is invisible from inside. In ESD terms, this is a system whose internal feedback loop reports healthy while the external feedback loop — if it existed — would report incomplete.
+Premature compression is a concrete instance of this distinction. The model's internal signals (confidence, fluency, coherence) do not degrade when context is incomplete. The incompleteness is invisible from inside. The system's internal feedback loop reports healthy while the external feedback loop — if it existed — would report incomplete.
 
-This maps directly to ESD Principle 5 (monitoring emergent properties rather than components) and the question Eric left open in Part 4 of the ESD paper: what instrumentation would enable a system to detect its own structural incompleteness? The behavioral evidence here suggests that standard output-level monitoring is insufficient. The geometric approach being tested in Experiment 03 is one candidate for that instrumentation.
+The core question: what instrumentation would enable a system to detect its own structural incompleteness? The behavioral evidence here suggests that standard output-level monitoring is insufficient. The geometric approach being tested in Experiment 03 is one candidate for that instrumentation.
 
 ## Limitations
 
