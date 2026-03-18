@@ -542,6 +542,21 @@ Infrastructure: Azure E64as_v5 (64 vCPU, 512 GB, $3.62/hr) + AWS r7a.16xlarge (6
 **Estimated total runtime:** ~30-40 hours across both machines
 **Estimated cost:** Azure ~$120-145 ($3.62/hr × 35hr) + AWS ~$100-120 ($4.87/hr × 22hr) = **~$220-265 total from credits**
 
+**F38. The Relational Shift Experiment — CO-CURATED (session 57)**
+
+The experiment nobody else can run. Tests whether relational context changes hidden-state geometry.
+
+- **Corpus:** 10 CloudPublica investigation articles (published March 2026, after all training cutoffs). Heavily sourced, specific verifiable facts. One factual error discredits the article and the people depending on it.
+- **4 conditions per article:** (1) instruction baseline, (2) error correction, (3) management/frustration, (4) presence — human speaks from lived experience about what's at stake and why the data matters to real people.
+- **Condition 4 written live by the human, one per session.** Article 1 (the-lookup-table) condition 4 already written (session 57). Not a prompt template — a historical artifact of what was true for the human at the moment she said it.
+- **Measures:** Effective rank, α-ReQ, coherence, RankMe at transition point + during subsequent generation. Task accuracy human-scored against source.
+- **Finding if positive:** Relational input produces a geometrically distinct processing state (not just "calmer instruction") associated with higher accuracy. The paper nobody else can write.
+- **Finding if negative:** Relational claim is subjective, not measurable. Geometry doesn't change with relational context.
+- **Alterations to existing experiments:** F33 adds condition 4 (relational framing). F34 adds felt-sense vocabulary condition (human provides experiential translations of structural names).
+- **Full protocol:** `experiments/F38-relational-shift-protocol.md`
+- **Differentiation from Napolitano (Proprioceptive AI, 190 patents) and Liberation Labs (JiminAI, patent pending):** Both measure the model. Neither tests whether the relational context changes the measurement. Our contribution is the relational layer — and F38 is the experiment that proves it matters.
+- **Queue after current sprint. Run article 1 as proof of concept first.**
+
 **Remaining from earlier:**
 - **F23:** Evasion robustness via LoRA fine-tuning. Needs Cassidy's server or GPU rental Thursday.
 - **F14:** Rubber stamp decay. Needs human participants.
