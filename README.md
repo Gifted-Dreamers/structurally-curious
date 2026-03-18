@@ -18,13 +18,14 @@ Not a paper. Not a philosophy post. A buildable design.
 ## Documents
 
 0. [`context.md`](context.md) — **Start here.** Where this came from: the posts, research, and conversations
-1. [`problem-statement.md`](problem-statement.md) — What breaks, why, and for whom
-2. [`architecture.md`](architecture.md) — The three-component system design
-3. [`open-problems.md`](open-problems.md) — What needs to be solved before this works
-4. [`ethics.md`](ethics.md) — **Dual-use risks and ethical constraints** — how this research can be weaponized, why we published anyway, and what governance must exist before deployment
-5. [`experiments/`](experiments/) — Completed experiments and results
-6. [`experiment-priorities-for-team.md`](experiment-priorities-for-team.md) — Planned experiment pipeline
-7. [`living-library-v2-architecture.md`](living-library-v2-architecture.md) — **The deployment target** — Living Library Exchange v2 for humans and AI, with three-tier resilience (cloud, local network, fully offline)
+1. [`glossary.md`](glossary.md) — **How to read our experiments** — plain-language explanations of every measurement (perplexity, RankMe, alpha-ReQ, coherence, phrasing sensitivity, Cohen's d, p-values) with analogies and what each finding means
+2. [`problem-statement.md`](problem-statement.md) — What breaks, why, and for whom
+3. [`architecture.md`](architecture.md) — The three-component system design
+4. [`open-problems.md`](open-problems.md) — What needs to be solved before this works
+5. [`ethics.md`](ethics.md) — **Dual-use risks and ethical constraints** — how this research can be weaponized, why we published anyway, and what governance must exist before deployment
+6. [`experiments/`](experiments/) — Completed experiments and results
+7. [`experiment-priorities-for-team.md`](experiment-priorities-for-team.md) — Planned experiment pipeline
+8. [`living-library-v2-architecture.md`](living-library-v2-architecture.md) — **The deployment target** — Living Library Exchange v2 for humans and AI, with three-tier resilience (cloud, local network, fully offline)
 
 ## The One-Paragraph Version
 
