@@ -85,7 +85,7 @@ Translation symmetry in co-occurrence statistics analytically determines represe
 - Scale reduces sensitivity ~14% within architecture families, but architecture dominates over scale
 - Phrasing sensitivity is the behavioral proxy for α-ReQ: when eigenspectrum is concentrated (high α-ReQ), phrasing can't move the output; when spread (low α-ReQ), phrasing steers
 
-**Infrastructure**: `structurally-curious/experiments/01-phrasing-sensitivity/` — run.py, analysis scripts, full results CSV, charts.
+**Infrastructure**: `structurally-curious/experiments/exp01-phrasing-sensitivity/` — run.py, analysis scripts, full results CSV, charts.
 
 **Significance**: This is the first behavioral ground truth for the geometric metrics. Experiment 03 provides the first evidence that the bridge works.
 
@@ -108,7 +108,7 @@ Translation symmetry in co-occurrence statistics analytically determines represe
 
 **Dual-feedback insight**: A concrete instance of the dual-feedback distinction — the model's internal feedback loop (confidence, fluency) reports healthy while the external feedback loop (if it existed) would report incomplete.
 
-**Infrastructure**: `structurally-curious/experiments/02a-premature-compression/` — run.py, analysis.md, full results.
+**Infrastructure**: `structurally-curious/experiments/exp02a-premature-compression/` — run.py, analysis.md, full results.
 
 ### Experiment 03 — Phrasing Sensitivity → Geometric State Correlation (Session 21, Complete)
 
@@ -153,7 +153,7 @@ At 3B, α-ReQ crosses the significance threshold — the eigenspectrum decay rat
 
 **Next**: GPU instance for 7B+ models to see if the pattern holds or changes at larger scale.
 
-**Infrastructure**: `structurally-curious/experiments/03-geometric-correlation/` — run.py, results JSON.
+**Infrastructure**: `structurally-curious/experiments/exp03-geometric-correlation/` — run.py, results JSON.
 
 ## Key Conversations That Shaped This Spec
 

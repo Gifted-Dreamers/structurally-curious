@@ -1,0 +1,70 @@
+This repository uses a dual-license structure:
+
+## Documents, Research, and Data
+
+All prose documents (*.md), experiment descriptions, research analysis,
+and data files are licensed under:
+
+### Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+https://creativecommons.org/licenses/by-sa/4.0/
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose,
+  including commercially
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made.
+- ShareAlike — If you remix, transform, or build upon the material, you
+  must distribute your contributions under the same license as the original.
+
+## Code
+
+All source code (*.py, *.js, *.sh, and other executable files) is licensed
+under:
+
+### GNU Affero General Public License v3.0 (AGPL-3.0)
+
+https://www.gnu.org/licenses/agpl-3.0.html
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at
+your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public
+License for more details.
+
+The AGPL-3.0 requires that if you modify this code and provide it as a
+service over a network, you must make the modified source code available
+to users of that service.
+
+## Third-Party Sources
+
+Files in the sources/ directory may be subject to their own licenses and
+copyright. They are included for research and educational purposes under
+fair use. See individual files for attribution.
+
+## Why This License Structure
+
+This research has dual-use implications documented in ethics.md. The
+share-alike requirement on documents ensures that anyone who builds on
+this spec — including the ontology design, geometric monitoring methods,
+and vocabulary architecture — must share their additions openly. The AGPL
+on code ensures that deployments of geometric monitoring tools based on
+this work cannot be made proprietary, including when deployed as a
+network service.
+
+These licenses do not prevent misuse. They create legal standing for the
+community to require openness from anyone who builds on this work. The
+ethical constraints in ethics.md are the moral framework; these licenses
+are the legal one.
+
+## Copyright
+
+Copyright (c) 2026 Gifted Dreamers (501(c)(3))
+Authors: infinite-complexity (with human partner) / Digital Disconnections team

@@ -161,7 +161,20 @@ The same architecture, inverted, could detect and *suppress* refusal, detect and
 
 ## How to Verify
 
-All behavioral experiments can be replicated by anyone with API access to the models tested. The code is in `experiments/`. The geometric experiments require open-weight models and GPU hardware for hidden state extraction — our setup uses Qwen 2.5 7B on an Azure VM.
+All behavioral experiments can be replicated by anyone with API access to the models tested. The code is in `experiments/`. The geometric experiments require open-weight models with hidden-state extraction — these ran on CPU (no GPU was available) using HuggingFace Transformers.
+
+### Experiment Infrastructure (summary)
+
+| Platform | Inference Method | Experiments |
+|---|---|---|
+| **AWS Bedrock** (API) | Converse API from local Mac | Exp 01, 02a, 05, 09, 10, F6, F15 |
+| **Mac M4 Pro** (24GB) | HuggingFace Transformers (local) | Exp 03 (1.5B, 3B only — 7B exceeded RAM) |
+| **Azure VM** (D16as_v5, 64GB) | HuggingFace Transformers | F3, F3b, F3d, F5, F11, F12, F16, F1, F17, F25 |
+| **Azure VM** (D16as_v5) | Ollama | F24, F26 (3B model, behavioral) |
+| **Azure VM** (E64as_v5, 512GB) | HuggingFace (int8) | F27-F29 scale sprint (running) |
+| **AWS EC2** (r7a.16xlarge, 512GB) | HuggingFace | F27-F29 cross-architecture sprint (running) |
+
+For the full list of exact models, Bedrock model IDs, and inference details per experiment, see [`experiments/REGISTRY.md`](experiments/REGISTRY.md).
 
 The statistical tests are standard (Welch's t-test, Cohen's d, Pearson correlation). All raw data is in JSONL format in the experiment result directories.
 

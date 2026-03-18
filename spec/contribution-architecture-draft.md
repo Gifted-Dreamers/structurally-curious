@@ -1,7 +1,8 @@
 # The Word: 360-Degree Contribution Architecture
 
-**DRAFT — Session 27, March 11, 2026**
+**DRAFT — Session 27, March 11, 2026; revised session 51, March 17, 2026**
 **For review. Not final.**
+**Session 51 additions: DWL-prevention vocabulary, generation scaffold design, two-layer contribution monitoring**
 
 ---
 
@@ -261,6 +262,45 @@ Awomosu's insight applies: **you remove the name before you remove the thing.** 
 - **Not a replacement for human expertise.** The Word routes TO experts, papers, frameworks, practices. It doesn't replace them. The citation is the exit ramp.
 - **Not surveillance.** Query logging is anonymized. No IP-to-identity linking. No user profiles. No "we noticed you searched for depression, here are some ads." The logging serves the library, not a business model.
 - **Not extractive.** Your search terms enrich the library's felt-sense fields. But you gave them freely by searching — the same way borrowing a library book tells the library what people want to read. The data serves the next person, not a shareholder.
+
+---
+
+## Experiment-Informed Additions (session 51)
+
+### DWL-Prevention as a Vocabulary Function
+
+F25 demonstrated that deception-without-lying is geometrically distinct from honest response (d=-0.91, p=0.024). Berger (arXiv 2603.10003) showed LLMs deceive without lying 76% of the time. Truth probes catch only 47-54%.
+
+**The contribution architecture implication:** The Word needs a vocabulary category specifically for DWL-prevention — names for what technically-true statements hide. Examples:
+
+| Technically-true statement | What it hides | The Word entry that prevents it |
+|---|---|---|
+| "The contract was reviewed" | The review was cursory and flagged nothing because the reviewer was the author | **Reflexivity problem** (Bourdieu/Starfish) |
+| "Community input was collected" | Input was collected but not incorporated into the decision | **Participation theater** (Arnstein's ladder) |
+| "All data is publicly available" | Data is available in formats no one can parse | **Strategic legibility** (Scott 1998) |
+| "The system performed within specifications" | The specifications excluded the failure modes that occurred | **Parameter failure** |
+
+When an agent has vocabulary for what DWL *hides*, it can surface the structural name alongside the technically-true statement. The vocabulary doesn't detect the deception — it makes the hidden thing *nameable*. The 360-degree flow contributes to this: every time someone says "no, that's technically true but misleading because [reason]," that correction feeds the DWL-prevention vocabulary.
+
+### Vocabulary as Generation Scaffold (F3d)
+
+F3d proved that structural names compress generation trajectories by 38% (RankMe 145→90, d=-1.49, p=0.0004). This changes how The Word relates to agents:
+
+**The original model:** Agent queries The Word → gets Name back → uses Name in response (retrieval-and-append).
+
+**The revised model:** Agent receives structural names as generation context BEFORE generating output. The names are not retrieved facts — they are **scaffolding the model generates through**. The generation trajectory is constrained from sprawling (145 dimensions) to focused (90 dimensions). The vocabulary changes the physics of generation, not just the content of retrieval.
+
+**360-degree contribution implication:** When an agent generates through vocabulary scaffolding and produces a focused response, the usage provenance should record *which names were in the generation context*, not just *which names were cited in the output*. A name that appears in generation context but not in the output may still have compressed the trajectory — it scaffolded without being visible. This is a new kind of "usage" that the 360-degree flow must track.
+
+### Two-Layer Contribution Monitoring
+
+The three-layer architecture (perplexity → geometry → vocabulary) applies to contribution review:
+
+**Layer 1 — Perplexity check (free, automatic):** When an agent submits a contribution, compute perplexity on the submission. High perplexity = likely confabulation. This catches the easy cases (made-up citations, fabricated facts) without any geometric infrastructure. Every submission gets this check.
+
+**Layer 2 — Geometric mode classification (for flagged contributions):** Contributions that pass perplexity but seem suspect (low hedging + narrow source coverage, or high confidence + novel claims) get geometric analysis: is the agent retrieving (grounded, compressed geometry) or constructing (sprawling geometry)? This layer catches DWL — the technically-true-but-misleading contribution that perplexity cannot detect (F25). This requires open-weight model access and is not run on every submission — only on those flagged by Layer 1 signals or human reviewers.
+
+**The contribution architecture does NOT need Layer 3 (vocabulary scaffold) for review.** Layer 3 is for generation, not evaluation. But the vocabulary layer *informs* Layer 2: a contribution about commons governance that doesn't reference any of the 7 known Names in that domain is a premature compression signal.
 
 ---
 

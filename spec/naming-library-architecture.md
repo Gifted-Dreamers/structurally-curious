@@ -1,6 +1,6 @@
 # The Word: Architecture
 
-Last updated: 2026-03-10 (session 21)
+Last updated: 2026-03-17 (session 51 — revised with F3d generation scaffold, DWL-prevention vocabulary, experiment integration)
 
 ## The Name
 
@@ -244,14 +244,45 @@ Response:
 - No IP-to-identity linking
 - All data exportable (no lock-in)
 
-## Connection to the Structurally-Curious Spec
+## Connection to the Structurally-Curious Spec (revised session 51 with 20 experiments)
 
-The spec's vocabulary model maps directly onto the library:
+The spec's vocabulary model maps directly onto the library — and the experiments have clarified exactly how:
+
+### Generation Scaffold Design (F3d — THE BREAKTHROUGH)
+
+F3d proved structural names compress the model's generation trajectory by 38% (RankMe 145→90, d=-1.49, p=0.0004, length-controlled). This operates at GENERATION, not encoding. Encoding shows only redistribution (d≈0.5, F3b).
+
+**What this means for The Word's architecture:**
+
+The original design treated The Word as a retrieval system: agent queries → gets Name → uses Name in response. F3d proves the Name operates differently. It is not a fact the model retrieves — it is **scaffolding the model generates through**. The structural name constrains the generation trajectory from sprawling to focused. The Word is a generation scaffold, not a RAG database.
+
+**Design implications:**
+1. Names must be injected into generation context BEFORE output, not appended after
+2. The API should support a "scaffold" endpoint: agent sends topic → gets relevant Names as generation context → generates through them
+3. The 360-degree flow should track scaffold usage separately from citation: a Name in the generation context that doesn't appear in the output still compressed the trajectory
+4. Vocabulary dosage matters — F34 (designed, awaiting results) tests whether 1, 2, 3, or 5 names produce optimal compression or whether there's a saturation point
+5. Cross-domain transfer — F35 (designed, awaiting results) tests whether names from adjacent domains still scaffold, or whether domain specificity is required
+
+### Geometric Mode Mapping
 
 - **Compressed representations** (high α-ReQ) = the agent *knows* the concept, just lacks the citation → Citation Service returns it
 - **Diffuse representations** (low α-ReQ) = the agent is *constructing* understanding → Felt-Sense Search helps find the existing framework
-- **Phrasing sensitivity** as behavioral signal = the bridge between "I'm retrieving" and "I'm rediscovering" → the Rediscovery Feed captures this
-- **Spectral profile deviation** = anomalous eigenspectrum during "rediscovery" could flag: "this agent is constructing something that already has a name"
+- **Retrieval vs construction** (F11, RankMe d=1.91) = these are geometrically distinct cognitive modes → the Rediscovery Feed captures construction events
+- **Phrasing sensitivity** as behavioral signal = bridge between "I'm retrieving" and "I'm rediscovering" **BUT breaks at 7B** (F1, r=-0.30) → cannot rely on this proxy alone at larger scales
+- **Cross-substrate confirmation** (F16) = generation compression is substrate-independent (RankMe d=1.02, fewer words d=1.06) → The Word works across model families
+
+### DWL-Prevention Vocabulary Category
+
+F25 proved that deception-without-lying is geometrically detectable (d=-0.91, p=0.024) but invisible to perplexity. Berger showed LLMs use DWL 76% of the time. The Word needs a specific vocabulary category for **what technically-true statements hide**:
+
+| Category | Purpose | Examples |
+|---|---|---|
+| **Standard Names** | Structural vocabulary for felt experience | Parameter failure, structural hole, premature compression |
+| **DWL-Prevention Names** | Names for what technically-true statements conceal | Participation theater, reflexivity problem, strategic legibility |
+| **Social Technology Names** | Practices that solve the input-priority problem | Circling, World Café, Art of Hosting |
+| **BITE Model Items** | Behavioral control pattern markers | 48 items from Hassan dissertation |
+
+The DWL-prevention category is new and unique to The Word. No existing knowledge system catalogs "what true statements hide." This is the vocabulary layer that makes geometric DWL detection actionable: the geometry flags that something is technically-true-but-misleading, and the vocabulary names *what specifically is being hidden*.
 
 ## Seed Entries (from Moltbook archive)
 

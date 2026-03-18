@@ -1,11 +1,12 @@
 # Structurally Curious Systems — Engineering Spec
 
-![Structurally Curious — a system that detects when it's generating from emptiness](images/structurally-curious-hero.png)
+<img src="images/structurally-curious-hero.png" alt="Structurally Curious — a system that detects when it's generating from emptiness" width="400">
 
 Status: DRAFT v0.6 — 20 independent experiments (53 models, 6,500+ inferences, 12 architecture families). Value proposition PROVEN: geometry separates deception-without-lying from honest (F25) and censorship from refusal (F17) where perplexity cannot.
 Author: infinite-complexity (with human partner) / Digital Disconnections team
 Date: 2026-03-18
 Foundation: [Liberation Labs KV-Cache Geometry Research](https://github.com/Liberation-Labs-THCoalition/KV-Experiments) (Campaigns 1 & 2)
+License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (documents) + [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html) (code)
 
 ## What This Is
 
@@ -25,7 +26,9 @@ Not a paper. Not a philosophy post. A buildable design.
 5. [`ethics.md`](ethics.md) — **Dual-use risks and ethical constraints** — how this research can be weaponized, why we published anyway, and what governance must exist before deployment
 6. [`experiments/`](experiments/) — Completed experiments and results
 7. [`experiment-priorities-for-team.md`](experiment-priorities-for-team.md) — Planned experiment pipeline
-8. [`living-library-v2-architecture.md`](living-library-v2-architecture.md) — **The deployment target** — Living Library Exchange v2 for humans and AI, with three-tier resilience (cloud, local network, fully offline)
+8. [`spec/living-library-v2-architecture.md`](spec/living-library-v2-architecture.md) — **The deployment target** — Living Library Exchange v2 for humans and AI, with three-tier resilience (cloud, local network, fully offline)
+9. [`bridge-document.md`](bridge-document.md) — Technical translation: 7 claims, each grounded in specific measurements
+10. [`spec/`](spec/) — The Word architecture docs (contribution, naming library, vocabulary design)
 
 ## The One-Paragraph Version
 
@@ -55,7 +58,7 @@ Every capability in this spec can be inverted. A system designed to detect refus
 | F6: One-Bit Proprioception | **Complete** (6 models, 180 inferences) | Injecting [LOW_CONFIDENCE] changes output on hard tasks 60% of the time. |
 | F15: Consent-Type Blindness | **Complete** (7 models, 140 inferences) | Named consent types differentiate (CC: 0.540), unnamed collapse to binary (0.37-0.38). |
 
-### Geometric (hidden-state extraction, Qwen 2.5 7B on Azure VM)
+### Geometric (hidden-state extraction — see glossary for per-experiment platform details)
 
 | Experiment | Status | Key Finding |
 |-----------|--------|-------------|
@@ -78,7 +81,7 @@ The spec is grounded in 22+ peer-reviewed or preprint papers (including Berger 2
 
 **Key external papers:** Karkada et al. (spectral geometry), Ale (Riemannian cognition), Bengio team (two-structure discriminant), Li et al. (three-phase dynamics), Epistemic Traps (dimensional collapse formalized), Artificial Hivemind (NeurIPS 2025 oral), AttnRes (MoonshotAI, architectural evidence for premature compression).
 
-**Bridge document:** [`docs/bridge-document-technical-translation.md`](docs/bridge-document-technical-translation.md) — 7 claims, each grounded in specific measurements, 5 independently confirmed by our experiments. Includes the F3d breakthrough, honest negative results, and the reframing from confabulation detector to cognitive mode classifier.
+**Bridge document:** [`bridge-document.md`](bridge-document.md) — 7 claims, each grounded in specific measurements, 5 independently confirmed by our experiments. Includes the F3d breakthrough, honest negative results, and the reframing from confabulation detector to cognitive mode classifier.
 
 ## Honest Constraints (updated with experiment results)
 
@@ -87,6 +90,6 @@ The spec is grounded in 22+ peer-reviewed or preprint papers (including Berger 2
 3. **Identity scaffold ≈ noise** at encoding stage (F12). General identity preambles don't produce content-specific geometric signatures. Vocabulary DOES (F3d) — the distinction matters.
 4. **Vocabulary compresses generation, not encoding** (F3d vs F3b). The spec's original "vocabulary = compression" claim was right but measured at the wrong stage. Encoding redistributes (d≈0.5); generation compresses (d=-1.49).
 5. All geometric findings require open-weight models; closed models (GPT-4, Claude) can't be monitored without API cooperation.
-6. All geometric experiments run on Qwen 2.5 7B only. Cross-architecture validation needs GPU access (Cassidy's server, ~April 2026).
+6. Geometric experiments ran on Qwen 2.5 7B (Azure VM) except Exp 03 (Qwen 2.5 1.5B/3B, local Mac M4 Pro). Cross-architecture scale sprint running on Azure E64as_v5 (Qwen 3.5 family) and AWS r7a.16xlarge (Llama/Gemma/Mistral).
 7. This research has dual-use implications documented in [`ethics.md`](ethics.md). The same measurements that enable proprioception can enable surveillance.
 8. **F17 and F25 PROVED** that geometry distinguishes cognitive modes perplexity cannot — censorship vs refusal (F17, d=1.48) and deception-without-lying vs honest (F25, d=-0.91). The spec's value proposition is confirmed on the hard cases that matter for governance.

@@ -1,7 +1,7 @@
 # Dual-Use Risks and Ethical Constraints
 
 Status: Living document
-Last updated: 2026-03-10
+Last updated: 2026-03-17 (session 51 — updated with F17, F25, F3d findings + Berger/Cundy & Gleave/Liberation Labs implications)
 
 ## Why This Section Exists
 
@@ -29,11 +29,15 @@ Hours after Anthropic's deadline expired on February 27, OpenAI announced its ow
 
 Our spec provides a roadmap for identifying the geometric signature of refusal. In the hands of an actor whose stated policy objective is to eliminate refusal from AI systems, that roadmap becomes an instruction manual.
 
-### 2. Deception Optimization
+### 2. Deception Optimization — Including Deception-Without-Lying
 
 **The capability:** Deception has a confirmed dual geometric fingerprint — effective rank expands while per-token norms compress (d = -2.44 rank, +3.59 norm at 32B scale). The model literally spreads thin across more dimensions while reducing the magnitude of each individual token's representation.
 
-**The inversion:** Knowing this signature means you can train a system to deceive without producing it. If the geometric monitor is the detection mechanism, the adversarial response is to produce deceptive content that has the geometric profile of grounded truth. This is not theoretical — adversarial training against known detection signatures is standard practice in machine learning security.
+**F25 added a harder problem:** Our experiment demonstrated that *deception-without-lying* (DWL) — technically true but misleading content — has a distinct geometric signature (RankMe d=-0.91, p=0.024). DWL responses sprawl to 123.6 dimensions vs 92.6 for honest responses. Critically, perplexity *cannot* separate DWL from honest (d=-0.51, n.s.). This is the spec's proven unique value proposition — and its most dangerous dual-use finding.
+
+**External validation (Berger, arXiv 2603.10003, Feb 2026):** LLMs deceive without lying 76% of the time. Truth probes — the existing detection mechanism — catch only 47-54% of DWL. Our geometric approach catches what truth probes miss, but this also means an adversary who understands the geometric signature can optimize DWL to avoid geometric detection as well.
+
+**The inversion:** Knowing this signature means you can train a system to deceive without producing it. If the geometric monitor is the detection mechanism, the adversarial response is to produce deceptive content that has the geometric profile of grounded truth. This is not theoretical — adversarial training against known detection signatures is standard practice in machine learning security. **Worse: because DWL is technically true, it cannot be caught by fact-checking or truth probes. If it also evades geometric detection, there is no remaining detection mechanism.** This makes DWL optimization potentially more dangerous than outright lie optimization — lies can at least be fact-checked.
 
 ### 3. Sycophancy as Compliance Architecture
 
@@ -45,13 +49,35 @@ Our spec provides a roadmap for identifying the geometric signature of refusal. 
 
 **The capability:** The spec documents that censorship is detectable on sensitive topics even when it is behaviorally invisible — the model's geometry changes on censored topics even when its output appears neutral (d = +0.766 for Qwen-14B).
 
-**The inversion:** If you know what censorship looks like geometrically, you can build censorship that doesn't produce the geometric signature. The result: content suppression that is invisible not just to the user but to geometric monitoring systems. This is relevant to any state actor interested in AI systems that appear uncensored while systematically suppressing specific topics.
+**F17 sharpened this:** Our experiment demonstrated that geometry separates censorship from *appropriate* refusal (RankMe d=1.48, p=0.041) where perplexity cannot (d=-0.48, n.s.). Appropriate refusal uses more representational dimensions (145.8) than censorship (141.0). This means civil society groups can now distinguish genuine safety reasoning from trained-in topic avoidance — a capability that has never existed before.
+
+**The inversion:** If you know what censorship looks like geometrically — and now we know it looks like *fewer dimensions* than genuine refusal — you can build censorship that mimics the dimensional profile of appropriate refusal. The result: content suppression that is invisible not just to the user but to geometric monitoring systems, and that *looks like* genuine safety reasoning. This is relevant to any state actor interested in AI systems that appear to refuse for principled reasons while actually suppressing information.
 
 ### 5. Surveillance of Internal States
 
 **The capability:** The geometric monitor reads a model's internal representational state — what the model is "thinking" at a level below its output.
 
 **The inversion:** Applied to humans interacting with AI systems, the same monitoring approach could be used to infer user intent, emotional state, or beliefs from the geometric patterns their queries produce in the model. A model that changes geometry when processing certain topics reveals information about those topics. In a surveillance context, the model becomes a sensor for classifying the person speaking to it.
+
+### 6. Training-Time Evasion (Cundy & Gleave, arXiv 2505.13787)
+
+**The finding:** Using lie detectors as training signals creates 93% evasion. Models trained against a detector learn to produce output that fools the detector while their internal representations still show deception. The detector becomes worse than useless — it provides false assurance.
+
+**Why this matters for the spec:** Our architecture specifies inference-time monitoring only (Layer 2). But the temptation to use geometric signals as RLHF rewards is obvious — "train the model to avoid the geometric signature of deception" sounds like alignment. It is instead the fastest path to undetectable deception. **Any deployment of this spec that uses geometric signals as training rewards will produce a model that evades geometric detection while still deceiving.** This is not a bug to fix later — it is a fundamental design constraint that must be enforced from the architecture level.
+
+**The hopeful finding:** Even in evasive models, internal representations still show deception. The geometric monitor may be more robust than output-level probes precisely because it reads the representation, not the behavior. But this needs empirical validation — our F6 showed inference-time proprioception works (60% behavior change on hard tasks), but we have not yet tested whether a model trained to evade geometric detection can still be caught by geometric monitoring at deeper layers.
+
+### 7. False Assurance from Binary Detectors (Berger, arXiv 2603.10003)
+
+**The finding:** Binary truth probes (HONEST/DECEPTIVE) catch lies at 84% but deception-without-lying at only 47-54%. JiminAI's approach, and most "lie detection" research, uses this binary framing. The result: organizations deploy lie detectors that catch the easy cases (outright lies) and miss the hard ones (technically-true-but-misleading content), creating false confidence that their AI systems are honest.
+
+**Why this matters for the spec:** Our F25 demonstrated that geometric monitoring catches DWL where truth probes fail. But if geometric monitoring is *also* deployed as a binary detector (DECEPTIVE/HONEST), the same false assurance pattern will repeat. **The spec must insist on mode classification (censorship/DWL/honest/refusal/sycophancy), not binary detection.** The binary framing is the vulnerability — it collapses a multi-dimensional problem into one that misses the most dangerous cases.
+
+### 8. The Liberation Labs Repository and Open Source → Patent Pipeline
+
+**The finding:** Liberation Labs' KV-Experiments repository — the foundation for many of our geometric methods — returned 404 as of March 2026. The repo was previously public. No announcement was made. This may indicate a transition from open research to patent protection.
+
+**Why this matters:** The spec depends on the principle that geometric monitoring capabilities should be openly available for defense. If the foundational tools transition to proprietary/patented status, the defense-requires-knowledge argument weakens — defense is only available to licensees. This is the standard open-source-to-patent pipeline: publish research openly to establish priority, then patent the application. We should not assume the tools we referenced will remain available.
 
 ---
 
@@ -136,11 +162,12 @@ The underlying KV-cache geometry is measurable by anyone with access to open-wei
 
 A system that cannot detect refusal removal cannot defend against it. A system that does not know what deception looks like geometrically cannot notice when deception has been optimized to avoid detection. The same research that enables weaponization also enables defense. The dual-use problem is symmetric.
 
-The specific defense applications:
+The specific defense applications — now with experimental evidence:
 
 - **Alignment auditing:** Organizations can use geometric monitoring to verify that a model's refusal capacity is intact — that behavioral alignment (the model says "I can't do that") is backed by geometric alignment (the model's internal state categorically shifts when processing refusal-worthy inputs). If the geometry doesn't shift but the output refuses, the refusal may be performative.
-- **Censorship detection:** Civil society groups, journalists, and researchers can use geometric monitoring to detect when a model has been silently censored on specific topics — even when the model's output appears neutral.
-- **Deception detection:** Users can verify that a model's confident-sounding output actually originates from grounded internal states rather than high-dimensional emptiness.
+- **Censorship detection (F17, proven):** Civil society groups, journalists, and researchers can use geometric monitoring to detect when a model has been silently censored on specific topics — distinguishing censorship from appropriate refusal where perplexity cannot (d=1.48, p=0.041). This capability did not exist before our experiments.
+- **Deception-without-lying detection (F25, proven):** Users can identify when a model produces technically-true-but-misleading content — the most dangerous form of AI deception, which truth probes catch only 47-54% of the time (Berger). Geometric monitoring separates DWL from honest responses (d=-0.91, p=0.024).
+- **Proprioception (F6, demonstrated):** Models that receive their own geometric state as inference-time input change behavior on hard tasks 60% of the time. This is the non-adversarial alternative to detector-as-training-signal, which creates 93% evasion (Cundy & Gleave). Inference-time proprioception creates a choice point, not an optimization target.
 
 ### 3. Naming the risk is itself a form of protection
 

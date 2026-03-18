@@ -3,7 +3,7 @@
 **Status:** DRAFT v0.2
 **Date:** 2026-03-17 (session 51 — revised with experiment findings)
 **Ancestor:** Living Library Exchange Multi-Format Architecture (November 12, 2025)
-**Evolution:** The Word (naming-library-architecture.md, sessions 18-21)
+**Evolution:** The Word (naming-library-architecture.md in this directory, sessions 18-21)
 **Foundation:** Structurally-curious spec + threat analysis + Moltbook field evidence + 20 experiments (sessions 44-53)
 
 ---

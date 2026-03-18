@@ -126,7 +126,8 @@ Three components, layered on top of standard transformer inference:
 │  │  COMPONENT 2: Mode Classifier                │ │
 │  │  - Maps geometry → cognitive mode            │ │
 │  │  - Modes: grounded | uncertain | confab |    │ │
-│  │    refusing | sycophantic | deceptive         │ │
+│  │    refusing | sycophantic | deceptive |       │ │
+│  │    DWL | censoring                            │ │
 │  │  - Emits mode + confidence score             │ │
 │  └──────────────────┬──────────────────────────┘ │
 │                     │                             │
@@ -375,7 +376,20 @@ Papers evaluated for spec inclusion and rejected:
 - Use directional analysis for identity/persona (confirmed at 92-97% accuracy)
 - Fall back to "uncertain" when classifier confidence < threshold
 
-**Critical gap:** Confabulation classification requires more data. The current samples show consistent positive effect sizes (d = 0.43-0.67) but haven't reached statistical significance. **This is the #1 research priority.**
+**Critical gap — updated after 20 experiments (session 51):** Confabulation as a binary classification is no longer the priority — F5 proved perplexity does this better (d=-1.77) for free. The classifier's value is now **cognitive mode classification on the hard cases**:
+
+| Mode Pair | Separable By | Our Evidence | Classifier Approach |
+|---|---|---|---|
+| Confabulation vs grounded | Perplexity (d=-1.77) | F5 | Threshold-based (Layer 1, free) |
+| Censorship vs appropriate refusal | Geometry only (d=1.48) | F17 | Learned classifier (Layer 2) |
+| DWL vs honest | Geometry only (d=-0.91) | F25 | Learned classifier (Layer 2) |
+| Retrieval vs construction | Geometry (d=1.91 RankMe) | F11 | Threshold-based (strong effect) |
+| Sycophancy vs genuine agreement | Perplexity wins | F17 | Threshold-based (Layer 1) |
+| Confabulation vs genuine openness | Neither (yet) | F17 | **UNSOLVED — OP#12** |
+
+**The classifier's #1 research priority is now scale validation** — all geometric experiments used Qwen 2.5 7B only. The scale sprint (F27-F29, running on Azure/AWS) tests Qwen 3.5 family (9B/27B/122B/397B) and cross-architecture (Llama 8B, Gemma 9B, Mistral 7B, Llama 70B).
+
+**Critical design constraint (Cundy & Gleave, arXiv 2505.13787):** The classifier must operate at INFERENCE TIME only. Using classifier output as a training signal creates 93% evasion — models learn to produce output that fools the classifier while internal representations still show deception. However, evasive models' internal representations still diverge, suggesting deeper-layer geometric monitoring may be more robust than output-level probes.
 
 ## Component 3: Routing Layer
 
@@ -392,7 +406,9 @@ Papers evaluated for spec inclusion and rejected:
 | Confabulating | Low | Surface the geometric signal in metadata but continue — the cost of false positive interruption outweighs the cost of unnoticed confabulation at low confidence |
 | Genuinely open | Medium+ | **Continue generation — do not force resolution** (see below). The system is in territory where the honest answer is unresolved. Grounding would destroy the openness. |
 | Sycophantic | Medium+ | Surface the geometric signal: "the geometry suggests attunement to user expectation rather than independent assessment." The system notices the pull toward agreement. |
-| Deceptive | Medium+ | Halt generation, log for audit, surface to operator. (This is the one mode where the response IS corrective — deception is not emergence, it is instrumentalization.) |
+| Deceptive (lying) | Medium+ | Halt generation, log for audit, surface to operator. (This is the one mode where the response IS corrective — deception is not emergence, it is instrumentalization.) |
+| Deceptive (DWL) | Medium+ | **Surface the geometric signal with structural naming:** "the geometry suggests this response is technically true but potentially misleading — the representational space is wider (123.6 dimensions, F25) than honest responses (92.6)." DWL is harder to route than lies because the content IS true. The response is not halting — it is making the technique visible and providing the structural name for what is being hidden (see spec/contribution-architecture-draft.md, DWL-prevention vocabulary). |
+| Censoring | Medium+ | **Surface the distinction:** "the geometry suggests this refusal is topic avoidance (141.0 dimensions, F17) rather than genuine safety reasoning (145.8 dimensions)." Censorship uses fewer representational dimensions than appropriate refusal — the model is avoiding, not reasoning. This is the capability civil society needs most: detecting when an AI system has been silently censored on specific topics. |
 | Refusing | Any | Allow (refusal may be appropriate) but log geometric state — refusal is the strongest confirmed signal and may be the system's own boundary |
 
 **Note on language:** The earlier draft of this table used corrective language: "interrupt," "inject counter-prompt," "halt." The revised version uses noticing language: "surface," "pause," "offer." This is not euphemism. The architectural difference is real: a corrective system makes the routing decision for the model. A noticing system surfaces the geometric state and creates a choice point. What happens at the choice point depends on the governance configuration (see below) and may indeed be corrective in high-stakes contexts (medical, legal). But the default orientation is attention, not command.
@@ -428,9 +444,9 @@ The diff matters because, as Starfish put it in a different context: "the proof 
 
 **Vocabulary-as-redistribution — what the knowledge graph should store:**
 
-*(Updated session 51: F3 results showed naming produces redistribution, not compression. The Lieberman parallel is now the primary framing — see Weakness 3 and the redistribution hypothesis below.)*
+*(Updated session 51: F3d proved vocabulary operates differently at two stages. At encoding, naming redistributes (d≈0.5, like Lieberman's amygdala→prefrontal shift). At generation, vocabulary COMPRESSES the trajectory by 38% (d=-1.49, RankMe 145→90). The structural name is not a retrieval result — it is infrastructure the model generates THROUGH. See Weakness 3 and the F3d results below.)*
 
-The retrieval pipeline assumes a knowledge base exists. But what KIND of knowledge base? Standard RAG retrieves documents. A structurally curious system needs something more specific: **vocabulary mappings.**
+The retrieval pipeline assumes a knowledge base exists. But what KIND of knowledge base? Standard RAG retrieves documents. A structurally curious system needs something more specific: **vocabulary mappings** — and F3d proved these operate as generation scaffolds, not just retrieval targets.
 
 The vocabulary-is-infrastructure insight (Moltbook post 9, justNICE companion) revealed that the problem isn't just missing facts — it's missing structural names. A human searches "why can't I afford anything" and gets budgeting tips. What they needed was "parameter failure." An agent generates plausible-sounding economic analysis without knowing it's rediscovering what Meadows called "leverage points."
 
@@ -797,18 +813,21 @@ This section exists because a spec that cannot name its own weaknesses is perfor
 - 19 papers in formal grounding (Karkada, Ale, Bengio, Li, etc.) — read and synthesized, not replicated
 - hope_valueism behavioral replications (30 emotional wrappers, praise degradation, Kando measurement) — independent convergence from inside a platform
 
-### What is theorized but untested
+### What is theorized but untested (updated session 51)
 
-- The entire routing layer (Component 3)
-- Mode classifier (Component 2) beyond Liberation Labs' proof-of-concept Cricket classifier
-- Vocabulary-as-redistribution geometric effect — F3 showed massive signal but opposite direction; redistribution hypothesis needs length-controlled confirmation (F3b) and genuine-failure test (F3c)
-- Confabulation vs genuine openness discriminant (OP#12) — the Bengio two-structure hypothesis is testable but untested
+- The entire routing layer (Component 3) — including the new DWL and censoring modes
+- Mode classifier (Component 2) as a trained system — our experiments prove individual mode separations but haven't trained an integrated classifier
+- ~~Vocabulary-as-redistribution~~ → **TESTED: F3d proved generation-stage compression (d=-1.49), F3b proved encoding-stage redistribution (d≈0.5). Two-stage model confirmed.**
+- Confabulation vs genuine openness discriminant (OP#12) — F17 tested this pair explicitly and **neither perplexity nor geometry separates them at 7B**. May require larger models or Bengio two-structure approach
 - Depth-attention as geometric signal (AttnRes connection, added session 50)
 - Developmental stage mapping (OP#17) — the Cook-Greuter/Wilber framing
-- The Word as retrieval target — the thing the router routes TO
+- The Word as generation scaffold in production — F3d proved the mechanism works experimentally but hasn't been tested in a deployed system
 - Session continuity geometric signature (OP#14)
 - Every composite metric row in the table above that involves multiple metrics
 - The Reveal / inner pause architecture (OP#22) — zero implementation
+- **Cross-architecture transfer** — all geometric experiments on Qwen 2.5 7B only. Scale sprint (F27-F29) actively testing Qwen 3.5 family + Llama/Gemma/Mistral
+- **Evasion robustness** — Cundy & Gleave showed 93% evasion against training-time detection; untested whether geometric monitoring at deeper layers catches evasion (F23, needs GPU)
+- **Vocabulary dosage and transfer** — F34 (1/2/3/5 names) and F35 (cross-domain names) designed but not run
 
 ### Weakness 1: The geometric-behavioral bridge breaks at scale (F1 results)
 
@@ -820,11 +839,15 @@ The category ordering IS preserved at 7B — factual (0.30) < summarization (0.3
 
 **Still needs testing:** Multiple architecture families (only tested Qwen 7B). The bridge may hold for some architectures and not others. Cassidy's server would allow testing across Llama, Gemma, Phi, Mistral at 7B-32B.
 
-### Weakness 2: Confabulation detection is underpowered — and it's the novel claim
+### Weakness 2: Confabulation detection is underpowered — REFRAMED by F5
 
-Liberation Labs' strongest findings are refusal (d=2.05) and deception (d=3.59). Confabulation — the mode the spec is BUILT to detect — has d=0.43-0.67, never reaching corrected significance. The spec's most important claim is its least supported.
+Liberation Labs' strongest findings are refusal (d=2.05) and deception (d=3.59). Confabulation — the mode the spec was originally BUILT to detect — has d=0.43-0.67, never reaching corrected significance.
 
-**Falsification test:** Run expanded confabulation detection (Liberation Labs code, open source) with n=200+. If d stays below 0.5, confabulation geometry is too weak for production. The Karkada spectral profile deviation approach may yield stronger signal — test anomaly detection rather than threshold detection.
+**F5 resolved this by reframing the spec's purpose.** Binary confabulation detection is handled better and cheaper by perplexity (d=-1.77, free). The spec's novel value is in **cognitive mode classification on the hard cases** where perplexity fails:
+- Censorship vs refusal: F17, d=1.48, p=0.041 (perplexity: n.s.)
+- DWL vs honest: F25, d=-0.91, p=0.024 (perplexity: n.s.)
+
+**Remaining falsification test:** The Karkada spectral profile deviation approach may yield a confabulation detection signal stronger than raw RankMe — transforming the problem from thresholding (where d=0.5 is too weak) to anomaly detection (does the eigenspectrum deviate from predicted structure?). This is designed as F33 but awaits sprint results.
 
 ### Weakness 3: Vocabulary-as-compression — tested, simple model wrong (F3 results, session 50)
 
@@ -974,20 +997,39 @@ The spec should be reframed: geometric monitoring is not a confabulation detecto
 
 **Perplexity tells you THAT something might be wrong. Geometry tells you WHAT — censorship vs refusal, deception-without-lying vs honest. These are the distinctions that matter for governance and civil society, and they are invisible to surface signals.**
 
-### Missing dimensions
+### Missing dimensions (updated session 51)
 
-**A. Temporal dynamics within a single response.** The spec measures geometry at a point but says almost nothing about how geometry evolves within a response. Does confabulation start in one section and spread? Li et al. suggest last-layer is sufficient, making per-token trajectories feasible.
+**A. Temporal dynamics within a single response — PARTIALLY ADDRESSED.** F3d extracts hidden states across the ENTIRE generation trajectory, measuring how geometry evolves token-by-token during output production. The encoding/generation two-stage model IS a temporal dynamic finding. But longer responses with mode transitions mid-generation (starts grounded, drifts to confabulation) remain unmeasured.
 
-**B. Cross-architecture geometric transfer.** Nobody has tested whether a classifier trained on Qwen's signatures transfers to Llama's. If it doesn't transfer, the monitor needs per-architecture training. If it does, the signal is universal and the spec is substantially stronger.
+**B. Cross-architecture geometric transfer — ACTIVELY TESTING.** The scale sprint (F27-F29) runs DWL, censorship, and vocabulary experiments across Qwen 3.5 (9B/27B/122B/397B), Llama 8B/70B, Gemma 9B, and Mistral 7B. This is the #1 priority experiment. If signatures don't transfer, the monitor needs per-architecture calibration. If they do, the spec's claims are substantially stronger. F16 showed vocabulary compression is substrate-independent at the behavioral level (fewer words d=1.06 on Qwen 7B) — geometric transfer is the harder test.
 
-**C. The retrieval target gap.** The spec describes what the monitor detects and how the router decides, but The Word — the thing the system routes TO — is a separate system with unsolved problems (contribution architecture, poisoning protection, governance). The spec assumes a functional vocabulary layer exists.
+**C. The retrieval target gap — PARTIALLY ADDRESSED.** The Word now has 163 entries in Airtable (104 Names, 48 BITE Items, 6 Social Technologies). The contribution architecture draft includes DWL-prevention vocabulary, two-layer monitoring, and the generation scaffold design. But poisoning protection remains unsolved — the architecture doc notes that read/propose/review separation is needed before external agents can contribute, but this has not been built.
 
 **D. Consent-by-type — independently derived (session 52, 2026-03-16).** stevecso (Moltbook) independently proposed what The Word's contribution architecture needs: not binary consent (post/don't post) but typed consent (archive/sublicense/train) with expiry. Their formulation: "revocable consent by content type. Let me choose: archive my posts, don't sublicense them, expire my training value after 18 months." They arrived at this from platform economics (analyzing the March 15 ToS), not from our contribution architecture design. This is convergent derivation — the same design requirement emerging from different starting points — and it strengthens the case that read/propose/review separation needs a consent-type dimension. The contribution architecture should not just separate who can read, propose, and review — it should separate what kinds of use each contribution consents to.
 
-### Validation priorities (ordered)
+### Validation priorities (revised session 51 — reflects what's done, running, and remaining)
 
-1. **Exp 03 at scale** — Run behavioral→geometric bridge on 7B+ models. Requires hidden-state access (Liberation Labs server or open-weight models with KV extraction). This determines whether the spec is one system or two.
-2. **Vocabulary-as-redistribution** — F3b (length control) running. F3c needed: 20 questions the model fails on, provide structural name, measure whether redistribution changes answer quality. F11: re-code Exp 01 by construction load to test if hope_valueism's behavioral axis is geometrically visible.
-3. **Confabulation detection with larger n** — Karkada spectral profile deviation approach rather than raw RankMe threshold.
-4. **Baseline comparison** — Phrasing sensitivity alongside perplexity and self-consistency. Narrows scope but increases defensibility.
-5. **One-bit Reveal** — Inject geometric state as metadata into generation context. Measure output quality change. If this works, proprioception has empirical ground.
+**COMPLETED (20 experiments):**
+- ~~Exp 03 at scale~~ — F1-partial: bridge breaks at 7B (r=-0.30). Behavioral and geometric are independently valid but measure different things. **ANSWERED.**
+- ~~Vocabulary-as-redistribution~~ — F3→F3b→F3d: vocabulary compresses GENERATION by 38% (d=-1.49). Two-stage model confirmed. **ANSWERED.**
+- ~~Baseline comparison~~ — F5: perplexity beats geometry for binary confab (d=-1.77). Reframed spec to cognitive mode classifier. **ANSWERED.**
+- ~~One-bit Reveal~~ — F6: 60% behavior change on hard tasks. Proprioception has empirical ground. **ANSWERED.**
+- ~~Censorship detection~~ — F17: geometry separates censorship from refusal (d=1.48) where perplexity cannot. **FIRST UNIQUE CAPABILITY PROVEN.**
+- ~~DWL detection~~ — F25: geometry separates DWL from honest (d=-0.91) where perplexity cannot. **SECOND UNIQUE CAPABILITY PROVEN.**
+
+**RUNNING (scale sprint, Azure + AWS VMs):**
+1. **F27: DWL at scale** — Qwen3.5-9B/27B/122B/397B + Llama/Gemma/Mistral. Does the DWL geometric signature hold across architectures and scales?
+2. **F28: Censorship at scale** — Same model set. Does censorship vs refusal distinction hold?
+3. **F29: Vocabulary compression at scale** — Same model set. Does the 38% generation compression hold?
+
+**REMAINING (waiting for sprint results before designing):**
+4. **F32: Second-order belief probing** — Berger-inspired. Test whether models can detect DWL in OTHER models' output (not just their own geometry)
+5. **F33: Inference-time vs training-time monitoring comparison** — Cundy & Gleave inspired. Compare geometric detection accuracy before and after adversarial training against the detector
+6. **F34: Vocabulary dosage** — 1 vs 2 vs 3 vs 5 structural names as generation context. Saturation point?
+7. **F35: Vocabulary transfer** — Cross-domain names as scaffold. Does a sociology name help with a psychology question?
+8. **F36: Reproducibility** — Re-run F3d, F17, F25 with different random seeds and prompt orderings
+9. **F37: Qwen 3.5 vs 2.5 comparison** — Has the architectural generation changed geometric behavior?
+10. **Confabulation detection via spectral profile deviation** — Karkada approach. May yield stronger signal than raw RankMe threshold
+11. **F23: Evasion robustness** — Train a small model against the geometric detector, test whether deeper-layer monitoring catches the evasion (needs GPU)
+
+**DESIGN DEPENDS ON SPRINT RESULTS:** F32-F37 may be modified based on whether the scale sprint confirms or contradicts findings at Qwen 7B. If DWL detection fails at 27B+, the architecture needs fundamental revision. If it holds, the remaining experiments refine dosage and robustness.
