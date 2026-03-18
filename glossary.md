@@ -116,6 +116,8 @@ When an AI system responds to you, is it retrieving something it actually knows 
 
 ### p-value
 
+<img src="images/glossary/p-value.png" alt="p-value: signal emerging from noise — is this pattern real or just chance?" width="300">
+
 **What it is:** The probability that the observed difference happened by chance.
 
 **How to read it:**
