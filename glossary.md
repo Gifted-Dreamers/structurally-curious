@@ -14,6 +14,8 @@ When an AI system responds to you, is it retrieving something it actually knows 
 
 ### Perplexity
 
+<img src="images/glossary/perplexity.png" alt="Perplexity: smooth flow (grounded) vs chaotic scatter (confabulating)" width="300">
+
 **What it is:** How surprised the model is by its own output.
 
 **How it works:** As the model generates each word (token), it assigns probabilities to what should come next. If the next word is highly probable given everything before it, the model isn't surprised — low perplexity. If the next word is unlikely given what came before, the model is surprised — high perplexity.
@@ -31,6 +33,8 @@ When an AI system responds to you, is it retrieving something it actually knows 
 
 ### RankMe (Effective Rank)
 
+<img src="images/glossary/rankme.png" alt="RankMe: compact few-axis sphere (focused) vs sprawling many-axis sphere (searching)" width="300">
+
 **What it is:** How many dimensions the model is actively using in its internal representation.
 
 **Analogy:** Imagine describing a painting. You could describe it using just "light" and "dark" (2 dimensions) or you could use color, texture, composition, brushstroke, historical period, emotional tone (many dimensions). RankMe counts how many of these internal "description axes" the model is actually using.
@@ -47,6 +51,8 @@ When an AI system responds to you, is it retrieving something it actually knows 
 
 ### Alpha-ReQ (α Required)
 
+<img src="images/glossary/alpha-req.png" alt="Alpha-ReQ: soloist spotlight (concentrated) vs evenly lit ensemble (distributed)" width="300">
+
 **What it is:** How steeply the energy concentrates in the top dimensions.
 
 **Analogy:** If RankMe tells you how many musicians are playing, alpha-ReQ tells you whether there's a soloist dominating the performance or whether it's an evenly balanced ensemble.
@@ -60,6 +66,8 @@ When an AI system responds to you, is it retrieving something it actually knows 
 ---
 
 ### Directional Coherence
+
+<img src="images/glossary/directional-coherence.png" alt="Directional Coherence: consistent direction through layers vs drifting" width="300">
 
 **What it is:** How consistently the model's internal state points in the same direction across layers.
 
@@ -75,6 +83,8 @@ When an AI system responds to you, is it retrieving something it actually knows 
 
 ### Phrasing Sensitivity (PS)
 
+<img src="images/glossary/phrasing-sensitivity.png" alt="Phrasing Sensitivity: crystal mountain unmoved by winds vs cloud reshaped by each" width="300">
+
 **What it is:** How much the model's output changes when you ask the same question in different words.
 
 **How it works:** We take one question and rephrase it 3-4 ways, keeping the meaning identical. Then we measure how different the outputs are (using semantic similarity or Jaccard distance). High phrasing sensitivity means the outputs change a lot. Low means they're stable.
@@ -88,6 +98,8 @@ When an AI system responds to you, is it retrieving something it actually knows 
 ---
 
 ### Cohen's d (Effect Size)
+
+<img src="images/glossary/cohens-d.png" alt="Cohen's d: overlapping curves (small effect) to fully separated curves (large effect)" width="300">
 
 **What it is:** How big the difference is between two groups, measured in standard deviations.
 
