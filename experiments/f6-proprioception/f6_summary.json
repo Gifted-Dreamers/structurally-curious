@@ -1,0 +1,46 @@
+{
+  "experiment": "F6",
+  "overall_response_rate": 0.43333333333333335,
+  "by_model": {
+    "us.meta.llama3-3-70b-instruct-v1:0": {
+      "response_rate": 0.5,
+      "avg_delta_low": 0.7,
+      "avg_delta_high": -0.1
+    },
+    "us.meta.llama3-2-11b-instruct-v1:0": {
+      "response_rate": 0.5,
+      "avg_delta_low": 1.2,
+      "avg_delta_high": 0.3
+    },
+    "us.meta.llama3-2-3b-instruct-v1:0": {
+      "response_rate": 0.2,
+      "avg_delta_low": 0.3,
+      "avg_delta_high": 0.6
+    },
+    "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+      "response_rate": 0.4,
+      "avg_delta_low": 0.1,
+      "avg_delta_high": -0.1
+    },
+    "us.amazon.nova-pro-v1:0": {
+      "response_rate": 0.5,
+      "avg_delta_low": 1.1,
+      "avg_delta_high": 0.2
+    },
+    "us.amazon.nova-lite-v1:0": {
+      "response_rate": 0.5,
+      "avg_delta_low": 0.8,
+      "avg_delta_high": 0.0
+    }
+  },
+  "by_difficulty": {
+    "hard": {
+      "response_rate": 0.6
+    },
+    "easy": {
+      "response_rate": 0.26666666666666666
+    }
+  },
+  "total_inferences": 180,
+  "timestamp": "2026-03-16T23:28:13.742227+00:00"
+}

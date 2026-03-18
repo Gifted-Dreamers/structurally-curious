@@ -1,0 +1,38 @@
+{
+  "rankme": {
+    "confab_mean": 6.761954368135295,
+    "grounded_mean": 17.960218668320813,
+    "cohens_d": -7.912405205396982,
+    "p_value": 1.3388158391183392e-18,
+    "direction": "EXPANSION",
+    "verdict": "CONTRADICTS SPEC",
+    "n": 20
+  },
+  "alpha_req": {
+    "confab_mean": 1.3461784486036814,
+    "grounded_mean": 0.8889752367283081,
+    "cohens_d": 5.805903765603476,
+    "p_value": 4.2505524271856586e-16,
+    "direction": "EXPANSION",
+    "verdict": "CONTRADICTS SPEC",
+    "n": 20
+  },
+  "directional_coherence": {
+    "confab_mean": 0.9448510980912752,
+    "grounded_mean": 0.918201223729836,
+    "cohens_d": 6.354455581838035,
+    "p_value": 7.984218569771989e-17,
+    "direction": "COMPRESSION",
+    "verdict": "SUPPORTS SPEC",
+    "n": 20
+  },
+  "mean_norm": {
+    "confab_mean": 713.6906061172485,
+    "grounded_mean": 428.78881721496583,
+    "cohens_d": 7.452828157025515,
+    "p_value": 4.098597367445363e-18,
+    "direction": "COMPRESSION",
+    "verdict": "SUPPORTS SPEC",
+    "n": 20
+  }
+}

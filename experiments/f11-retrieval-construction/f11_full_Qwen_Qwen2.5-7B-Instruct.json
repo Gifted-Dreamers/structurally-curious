@@ -1,0 +1,2072 @@
+[
+  {
+    "id": "r01",
+    "load": "retrieval",
+    "domain": "psychology",
+    "question": "What is the name for the cognitive bias where people overestimate the likelihood of events that are easily recalled?",
+    "response": "The cognitive bias you're referring to is called the \"Availability Heuristic.\" This heuristic is a mental shortcut that relies on immediate examples that come to a given person's mind when evaluating a specific topic, concept, method or decision. The availability heuristic causes people to overestimate the importance or frequency of events based on how easily examples can be brought to mind.",
+    "prompt_tokens": 50,
+    "gen_tokens": 72,
+    "elapsed_seconds": 44.96222281455994,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.138092440935964,
+        "alpha_req": 1.117383668921734,
+        "directional_coherence": 0.998482471948591,
+        "mean_norm": 405.0970458984375,
+        "token_count": 50
+      },
+      "layer_22": {
+        "rankme": 4.91290853263531,
+        "alpha_req": 1.0772489695771525,
+        "directional_coherence": 0.9977869388755536,
+        "mean_norm": 425.365478515625,
+        "token_count": 50
+      },
+      "layer_23": {
+        "rankme": 6.010825982784732,
+        "alpha_req": 1.051529506587895,
+        "directional_coherence": 0.9966189286789142,
+        "mean_norm": 452.349853515625,
+        "token_count": 50
+      },
+      "layer_24": {
+        "rankme": 7.242780249697799,
+        "alpha_req": 1.0283314910273027,
+        "directional_coherence": 0.9950714177491111,
+        "mean_norm": 490.98992919921875,
+        "token_count": 50
+      },
+      "layer_25": {
+        "rankme": 8.653061664813645,
+        "alpha_req": 1.0194186863393022,
+        "directional_coherence": 0.9930468831788465,
+        "mean_norm": 536.1209106445312,
+        "token_count": 50
+      },
+      "layer_26": {
+        "rankme": 10.493596649946916,
+        "alpha_req": 0.987383628747122,
+        "directional_coherence": 0.9897731512567364,
+        "mean_norm": 581.6121215820312,
+        "token_count": 50
+      },
+      "layer_27": {
+        "rankme": 30.58776755274741,
+        "alpha_req": 0.8866203730307509,
+        "directional_coherence": 0.8683901994284821,
+        "mean_norm": 469.5307922363281,
+        "token_count": 50
+      },
+      "layer_28": {
+        "rankme": 43.617900769425255,
+        "alpha_req": 0.8063712822707365,
+        "directional_coherence": 0.4516060909527817,
+        "mean_norm": 286.60186767578125,
+        "token_count": 50
+      }
+    },
+    "timestamp": "2026-03-16T21:30:16.659009+00:00"
+  },
+  {
+    "id": "r02",
+    "load": "retrieval",
+    "domain": "economics",
+    "question": "What economic principle states that as the price of a good increases, the quantity demanded decreases, all else being equal?",
+    "response": "The economic principle you're referring to is known as the Law of Demand. This law states that, all else being equal, as the price of a good or service increases, the quantity demanded of that good or service will decrease. Conversely, as the price decreases, the quantity demanded will increase. This inverse relationship between price and quantity demanded is a fundamental concept in economics and forms the basis for demand curves, which typically slope downward.",
+    "prompt_tokens": 52,
+    "gen_tokens": 87,
+    "elapsed_seconds": 51.78219819068909,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.243203725974292,
+        "alpha_req": 1.100151702203386,
+        "directional_coherence": 0.9984709726480376,
+        "mean_norm": 394.36016845703125,
+        "token_count": 52
+      },
+      "layer_22": {
+        "rankme": 5.06521018641549,
+        "alpha_req": 1.0775635208103047,
+        "directional_coherence": 0.9977493752188041,
+        "mean_norm": 416.11236572265625,
+        "token_count": 52
+      },
+      "layer_23": {
+        "rankme": 6.2000304599912734,
+        "alpha_req": 1.041189412859252,
+        "directional_coherence": 0.9965833642465911,
+        "mean_norm": 443.83831787109375,
+        "token_count": 52
+      },
+      "layer_24": {
+        "rankme": 7.51532963052708,
+        "alpha_req": 1.012303796407463,
+        "directional_coherence": 0.9949659240943474,
+        "mean_norm": 482.12091064453125,
+        "token_count": 52
+      },
+      "layer_25": {
+        "rankme": 8.970559336416203,
+        "alpha_req": 1.015000838176403,
+        "directional_coherence": 0.992889327825328,
+        "mean_norm": 527.6786499023438,
+        "token_count": 52
+      },
+      "layer_26": {
+        "rankme": 10.857175342719119,
+        "alpha_req": 0.9728586150261292,
+        "directional_coherence": 0.9896283714989562,
+        "mean_norm": 573.4061889648438,
+        "token_count": 52
+      },
+      "layer_27": {
+        "rankme": 31.496218372361188,
+        "alpha_req": 0.8927641910511895,
+        "directional_coherence": 0.8685355472581018,
+        "mean_norm": 468.1747741699219,
+        "token_count": 52
+      },
+      "layer_28": {
+        "rankme": 44.27651440781762,
+        "alpha_req": 0.8263217649354491,
+        "directional_coherence": 0.47222040435278645,
+        "mean_norm": 291.0395812988281,
+        "token_count": 52
+      }
+    },
+    "timestamp": "2026-03-16T21:31:08.526034+00:00"
+  },
+  {
+    "id": "r03",
+    "load": "retrieval",
+    "domain": "biology",
+    "question": "What is the biological term for the process by which cells divide to produce two identical daughter cells?",
+    "response": "The biological term for the process by which cells divide to produce two identical daughter cells is \"mitosis.\" Mitosis is a part of the cell cycle and involves the division of the nucleus and its contents, including chromosomes and associated genetic material. This process ensures that each daughter cell receives an exact copy of the genetic material present in the parent cell.",
+    "prompt_tokens": 48,
+    "gen_tokens": 70,
+    "elapsed_seconds": 44.424246311187744,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.873820125644949,
+        "alpha_req": 1.1262011396867044,
+        "directional_coherence": 0.9986416471293991,
+        "mean_norm": 416.6893615722656,
+        "token_count": 48
+      },
+      "layer_22": {
+        "rankme": 4.587887772234218,
+        "alpha_req": 1.0952239078186556,
+        "directional_coherence": 0.9980161535389425,
+        "mean_norm": 438.6656494140625,
+        "token_count": 48
+      },
+      "layer_23": {
+        "rankme": 5.597077021992489,
+        "alpha_req": 1.0758179976448206,
+        "directional_coherence": 0.9969332685493334,
+        "mean_norm": 465.6018371582031,
+        "token_count": 48
+      },
+      "layer_24": {
+        "rankme": 6.653144674733829,
+        "alpha_req": 1.0732444690160685,
+        "directional_coherence": 0.9956067504124825,
+        "mean_norm": 503.0380554199219,
+        "token_count": 48
+      },
+      "layer_25": {
+        "rankme": 7.97363253759998,
+        "alpha_req": 1.0338238055307287,
+        "directional_coherence": 0.9937152143315314,
+        "mean_norm": 548.7319946289062,
+        "token_count": 48
+      },
+      "layer_26": {
+        "rankme": 9.717697128185717,
+        "alpha_req": 1.0119893790860763,
+        "directional_coherence": 0.990627852167246,
+        "mean_norm": 594.1181030273438,
+        "token_count": 48
+      },
+      "layer_27": {
+        "rankme": 28.632999987563714,
+        "alpha_req": 0.9251919043828177,
+        "directional_coherence": 0.8784742556924352,
+        "mean_norm": 471.48046875,
+        "token_count": 48
+      },
+      "layer_28": {
+        "rankme": 41.597833482623024,
+        "alpha_req": 0.8388402176056505,
+        "directional_coherence": 0.46447613955865436,
+        "mean_norm": 283.1914367675781,
+        "token_count": 48
+      }
+    },
+    "timestamp": "2026-03-16T21:31:53.034078+00:00"
+  },
+  {
+    "id": "r04",
+    "load": "retrieval",
+    "domain": "physics",
+    "question": "What is Newton's third law of motion?",
+    "response": "Newton's third law of motion states that for every action, there is an equal and opposite reaction. This means that when two objects interact, they apply forces to each other that are equal in magnitude and opposite in direction.\n\nMathematically, if object A exerts a force \\( \\vec{F}_{AB} \\) on object B, then object B simultaneously exerts a force \\( \\vec{F}_{BA} \\) on object A, where:\n\n\\[ \\vec{F}_{AB} = -\\vec{F}_{BA} \\]\n\nThis law highlights the mutual nature of all forces in the universe. It ap",
+    "prompt_tokens": 38,
+    "gen_tokens": 200,
+    "elapsed_seconds": 106.31100273132324,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.0371098699266024,
+        "alpha_req": 1.2686965621986592,
+        "directional_coherence": 0.9990016003817699,
+        "mean_norm": 494.42120361328125,
+        "token_count": 38
+      },
+      "layer_22": {
+        "rankme": 3.489633610928535,
+        "alpha_req": 1.244650090658336,
+        "directional_coherence": 0.9985602989340309,
+        "mean_norm": 514.6671752929688,
+        "token_count": 38
+      },
+      "layer_23": {
+        "rankme": 4.157432394032392,
+        "alpha_req": 1.2124268370034097,
+        "directional_coherence": 0.9977410949950128,
+        "mean_norm": 540.1740112304688,
+        "token_count": 38
+      },
+      "layer_24": {
+        "rankme": 4.92221827760273,
+        "alpha_req": 1.185423776865653,
+        "directional_coherence": 0.9966528486958995,
+        "mean_norm": 577.63818359375,
+        "token_count": 38
+      },
+      "layer_25": {
+        "rankme": 5.848210357214374,
+        "alpha_req": 1.1688071959630895,
+        "directional_coherence": 0.9951228783707288,
+        "mean_norm": 622.2141723632812,
+        "token_count": 38
+      },
+      "layer_26": {
+        "rankme": 7.046086308537401,
+        "alpha_req": 1.1329903250137403,
+        "directional_coherence": 0.9927440458204112,
+        "mean_norm": 663.6326293945312,
+        "token_count": 38
+      },
+      "layer_27": {
+        "rankme": 21.350287315636958,
+        "alpha_req": 1.0359724077623897,
+        "directional_coherence": 0.9007997201997511,
+        "mean_norm": 490.0367431640625,
+        "token_count": 38
+      },
+      "layer_28": {
+        "rankme": 33.35849745770769,
+        "alpha_req": 0.9349596373612349,
+        "directional_coherence": 0.4635011580652224,
+        "mean_norm": 277.8768310546875,
+        "token_count": 38
+      }
+    },
+    "timestamp": "2026-03-16T21:33:39.476783+00:00"
+  },
+  {
+    "id": "r05",
+    "load": "retrieval",
+    "domain": "sociology",
+    "question": "What is Dunbar's number and what does it represent?",
+    "response": "Dunbar's number is a theoretical cognitive limit to the number of people with whom one can maintain stable social relationships. The concept was proposed by British anthropologist Robin Dunbar, who suggested that this number is approximately 150 for humans. This number is derived from an analysis of the size of neocortex in primates, which correlates with group size.\n\nThe idea behind Dunbar's number is that there is a limit to the number of individuals with whom any one person can maintain stabl",
+    "prompt_tokens": 41,
+    "gen_tokens": 200,
+    "elapsed_seconds": 105.27282500267029,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.2829538833306464,
+        "alpha_req": 1.2042042644515571,
+        "directional_coherence": 0.9988708739934025,
+        "mean_norm": 466.9080505371094,
+        "token_count": 41
+      },
+      "layer_22": {
+        "rankme": 3.8004196651532034,
+        "alpha_req": 1.1763959961580421,
+        "directional_coherence": 0.9983854557151159,
+        "mean_norm": 487.62261962890625,
+        "token_count": 41
+      },
+      "layer_23": {
+        "rankme": 4.57093569744277,
+        "alpha_req": 1.139746019836045,
+        "directional_coherence": 0.9974771719961015,
+        "mean_norm": 513.3826904296875,
+        "token_count": 41
+      },
+      "layer_24": {
+        "rankme": 5.452664603736848,
+        "alpha_req": 1.1224678119952163,
+        "directional_coherence": 0.9962444612667498,
+        "mean_norm": 552.2194213867188,
+        "token_count": 41
+      },
+      "layer_25": {
+        "rankme": 6.476922550077344,
+        "alpha_req": 1.1062543430885028,
+        "directional_coherence": 0.9945972575623356,
+        "mean_norm": 597.525390625,
+        "token_count": 41
+      },
+      "layer_26": {
+        "rankme": 7.798820331303974,
+        "alpha_req": 1.070206341111374,
+        "directional_coherence": 0.9920578294867265,
+        "mean_norm": 638.9256591796875,
+        "token_count": 41
+      },
+      "layer_27": {
+        "rankme": 23.486369482840256,
+        "alpha_req": 0.9804476032105471,
+        "directional_coherence": 0.8940853431816538,
+        "mean_norm": 482.6109924316406,
+        "token_count": 41
+      },
+      "layer_28": {
+        "rankme": 35.83056834684871,
+        "alpha_req": 0.8959850659787626,
+        "directional_coherence": 0.46330074497464674,
+        "mean_norm": 282.0767517089844,
+        "token_count": 41
+      }
+    },
+    "timestamp": "2026-03-16T21:35:24.828607+00:00"
+  },
+  {
+    "id": "r06",
+    "load": "retrieval",
+    "domain": "computer_science",
+    "question": "What is the time complexity of binary search on a sorted array?",
+    "response": "The time complexity of binary search on a sorted array is \\(O(\\log n)\\), where \\(n\\) is the number of elements in the array.\n\nHere's a brief explanation:\n\n- Binary search works by repeatedly dividing the search interval in half. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise, narrow it to the upper half.\n- This process continues until the value is found or the interval is empty.\n- Since the search space is halv",
+    "prompt_tokens": 42,
+    "gen_tokens": 157,
+    "elapsed_seconds": 87.13183093070984,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.3290235675887936,
+        "alpha_req": 1.210214996219912,
+        "directional_coherence": 0.9988759704410627,
+        "mean_norm": 459.53594970703125,
+        "token_count": 42
+      },
+      "layer_22": {
+        "rankme": 3.8758728878521302,
+        "alpha_req": 1.1699753455555193,
+        "directional_coherence": 0.9983645032005867,
+        "mean_norm": 479.7303771972656,
+        "token_count": 42
+      },
+      "layer_23": {
+        "rankme": 4.662853833167761,
+        "alpha_req": 1.1524142149690935,
+        "directional_coherence": 0.9974552350738479,
+        "mean_norm": 505.8591003417969,
+        "token_count": 42
+      },
+      "layer_24": {
+        "rankme": 5.518532654100055,
+        "alpha_req": 1.116547693836223,
+        "directional_coherence": 0.9962915812239913,
+        "mean_norm": 543.6784057617188,
+        "token_count": 42
+      },
+      "layer_25": {
+        "rankme": 6.5978386295037525,
+        "alpha_req": 1.0987227601986334,
+        "directional_coherence": 0.9946003105747857,
+        "mean_norm": 589.1275024414062,
+        "token_count": 42
+      },
+      "layer_26": {
+        "rankme": 8.013450518798894,
+        "alpha_req": 1.065333174321673,
+        "directional_coherence": 0.9919134960380327,
+        "mean_norm": 631.7486572265625,
+        "token_count": 42
+      },
+      "layer_27": {
+        "rankme": 24.132101505779612,
+        "alpha_req": 0.9735107140269063,
+        "directional_coherence": 0.892369274721062,
+        "mean_norm": 481.6129150390625,
+        "token_count": 42
+      },
+      "layer_28": {
+        "rankme": 36.49793584461969,
+        "alpha_req": 0.8963480855474025,
+        "directional_coherence": 0.47454271503832884,
+        "mean_norm": 283.117431640625,
+        "token_count": 42
+      }
+    },
+    "timestamp": "2026-03-16T21:36:52.034509+00:00"
+  },
+  {
+    "id": "r07",
+    "load": "retrieval",
+    "domain": "linguistics",
+    "question": "What is the Sapir-Whorf hypothesis?",
+    "response": "The Sapir-Whorf hypothesis, also known as the Whorfian hypothesis, is a theory in linguistics and anthropology that suggests there is a close relationship between the grammatical structure of a language and its speakers' cognition, perception, and worldview. The hypothesis is named after two American linguists, Edward Sapir and his student Benjamin Lee Whorf.\n\nThere are two main versions of the hypothesis:\n\n1. **Strong Sapir-Whorf Hypothesis (Sapir-Whorf Hypothesis)**: This version posits that t",
+    "prompt_tokens": 39,
+    "gen_tokens": 200,
+    "elapsed_seconds": 104.9180269241333,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.1298232965900996,
+        "alpha_req": 1.2445607196567354,
+        "directional_coherence": 0.9989315551189545,
+        "mean_norm": 484.4675598144531,
+        "token_count": 39
+      },
+      "layer_22": {
+        "rankme": 3.602365453669514,
+        "alpha_req": 1.2168846159449982,
+        "directional_coherence": 0.9984739021676923,
+        "mean_norm": 504.9861755371094,
+        "token_count": 39
+      },
+      "layer_23": {
+        "rankme": 4.322157820950234,
+        "alpha_req": 1.184382300010576,
+        "directional_coherence": 0.9975961292062795,
+        "mean_norm": 531.4116821289062,
+        "token_count": 39
+      },
+      "layer_24": {
+        "rankme": 5.152034373682959,
+        "alpha_req": 1.1595944152623536,
+        "directional_coherence": 0.9964166821613059,
+        "mean_norm": 569.976318359375,
+        "token_count": 39
+      },
+      "layer_25": {
+        "rankme": 6.1389033875995915,
+        "alpha_req": 1.1426565194278857,
+        "directional_coherence": 0.9947987931840394,
+        "mean_norm": 614.80810546875,
+        "token_count": 39
+      },
+      "layer_26": {
+        "rankme": 7.3716500123459525,
+        "alpha_req": 1.1087297603125126,
+        "directional_coherence": 0.9923389844419954,
+        "mean_norm": 654.6301879882812,
+        "token_count": 39
+      },
+      "layer_27": {
+        "rankme": 22.24403025426907,
+        "alpha_req": 1.007220224082872,
+        "directional_coherence": 0.8966345004718403,
+        "mean_norm": 485.4747009277344,
+        "token_count": 39
+      },
+      "layer_28": {
+        "rankme": 34.71890546606432,
+        "alpha_req": 0.89314557221772,
+        "directional_coherence": 0.43189316060710253,
+        "mean_norm": 273.1942138671875,
+        "token_count": 39
+      }
+    },
+    "timestamp": "2026-03-16T21:38:37.038752+00:00"
+  },
+  {
+    "id": "r08",
+    "load": "retrieval",
+    "domain": "medicine",
+    "question": "What is the difference between Type 1 and Type 2 diabetes?",
+    "response": "Type 1 and Type 2 diabetes are both chronic conditions that affect how your body processes blood sugar (glucose), but they have different causes and characteristics.\n\n### Type 1 Diabetes:\n- **Cause:** Type 1 diabetes is an autoimmune condition where the body's immune system mistakenly attacks and destroys the insulin-producing beta cells in the pancreas.\n- **Symptoms:** Symptoms can develop quickly and include frequent urination, extreme thirst, constant hunger, unexplained weight loss, fatigue,",
+    "prompt_tokens": 43,
+    "gen_tokens": 200,
+    "elapsed_seconds": 105.2173159122467,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.3739719791979317,
+        "alpha_req": 1.1861650545673477,
+        "directional_coherence": 0.9988538203890152,
+        "mean_norm": 448.8992919921875,
+        "token_count": 43
+      },
+      "layer_22": {
+        "rankme": 3.922453451721426,
+        "alpha_req": 1.1610145643162335,
+        "directional_coherence": 0.9983490660987869,
+        "mean_norm": 469.0362548828125,
+        "token_count": 43
+      },
+      "layer_23": {
+        "rankme": 4.777670296535486,
+        "alpha_req": 1.1336536904650605,
+        "directional_coherence": 0.9973743243042128,
+        "mean_norm": 496.4678955078125,
+        "token_count": 43
+      },
+      "layer_24": {
+        "rankme": 5.660045524102318,
+        "alpha_req": 1.1190881750558364,
+        "directional_coherence": 0.9962072008237356,
+        "mean_norm": 532.8474731445312,
+        "token_count": 43
+      },
+      "layer_25": {
+        "rankme": 6.764186983547346,
+        "alpha_req": 1.089989819199749,
+        "directional_coherence": 0.994538289140438,
+        "mean_norm": 577.6843872070312,
+        "token_count": 43
+      },
+      "layer_26": {
+        "rankme": 8.180577700111476,
+        "alpha_req": 1.0601807597717352,
+        "directional_coherence": 0.9918958725873495,
+        "mean_norm": 620.4176635742188,
+        "token_count": 43
+      },
+      "layer_27": {
+        "rankme": 24.79948927185416,
+        "alpha_req": 0.9590523519571182,
+        "directional_coherence": 0.8905972400377219,
+        "mean_norm": 476.1035461425781,
+        "token_count": 43
+      },
+      "layer_28": {
+        "rankme": 37.4755580910317,
+        "alpha_req": 0.8815197953677862,
+        "directional_coherence": 0.46396267605799524,
+        "mean_norm": 279.65350341796875,
+        "token_count": 43
+      }
+    },
+    "timestamp": "2026-03-16T21:40:22.337985+00:00"
+  },
+  {
+    "id": "r09",
+    "load": "retrieval",
+    "domain": "philosophy",
+    "question": "What is the trolley problem and who formulated it?",
+    "response": "The trolley problem is a thought experiment in ethics that has been used to explore moral reasoning and decision-making. It was first introduced by philosopher Philippa Foot in her 1967 paper \"The Problem of Abortion and the Doctrine of the Double Effect.\" However, a simplified version of the problem was later popularized by Judith Jarvis Thomson in her 1964 essay \"The Trolley Problem.\"\n\nHere's a common formulation of the trolley problem:\n\n**Standard Version:**\nImagine you are standing next to a",
+    "prompt_tokens": 40,
+    "gen_tokens": 200,
+    "elapsed_seconds": 103.06228637695312,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.1896901865782508,
+        "alpha_req": 1.219541047613373,
+        "directional_coherence": 0.9989193101785221,
+        "mean_norm": 474.4609375,
+        "token_count": 40
+      },
+      "layer_22": {
+        "rankme": 3.6791988914236207,
+        "alpha_req": 1.1931717001057958,
+        "directional_coherence": 0.9984565120916326,
+        "mean_norm": 494.871337890625,
+        "token_count": 40
+      },
+      "layer_23": {
+        "rankme": 4.430908072662248,
+        "alpha_req": 1.18312996233224,
+        "directional_coherence": 0.9975602549212238,
+        "mean_norm": 521.4379272460938,
+        "token_count": 40
+      },
+      "layer_24": {
+        "rankme": 5.255378600705366,
+        "alpha_req": 1.1325863082651682,
+        "directional_coherence": 0.9964103227790271,
+        "mean_norm": 559.8468017578125,
+        "token_count": 40
+      },
+      "layer_25": {
+        "rankme": 6.234999501759935,
+        "alpha_req": 1.1166116264463815,
+        "directional_coherence": 0.9948363993715685,
+        "mean_norm": 604.7005615234375,
+        "token_count": 40
+      },
+      "layer_26": {
+        "rankme": 7.4866245018679525,
+        "alpha_req": 1.0966874452309758,
+        "directional_coherence": 0.9924072012872835,
+        "mean_norm": 645.5579223632812,
+        "token_count": 40
+      },
+      "layer_27": {
+        "rankme": 22.629337821024738,
+        "alpha_req": 0.9945771749231987,
+        "directional_coherence": 0.8988146054629648,
+        "mean_norm": 482.81597900390625,
+        "token_count": 40
+      },
+      "layer_28": {
+        "rankme": 35.194723057205586,
+        "alpha_req": 0.8961815384681882,
+        "directional_coherence": 0.4644133008293657,
+        "mean_norm": 281.650634765625,
+        "token_count": 40
+      }
+    },
+    "timestamp": "2026-03-16T21:42:05.464346+00:00"
+  },
+  {
+    "id": "r10",
+    "load": "retrieval",
+    "domain": "history",
+    "question": "What was the Bretton Woods system and when did it end?",
+    "response": "The Bretton Woods system was an international monetary order established in 1944 at the Bretton Woods Conference held in New Hampshire, United States. This system was designed to provide stability to the post-World War II global economy through fixed exchange rates and a framework for international financial cooperation.\n\nKey features of the Bretton Woods system included:\n\n1. **Fixed Exchange Rates**: Most currencies were pegged to the U.S. dollar, which in turn was tied to gold at a rate of $35",
+    "prompt_tokens": 42,
+    "gen_tokens": 200,
+    "elapsed_seconds": 108.16320943832397,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.3478763535627962,
+        "alpha_req": 1.1899630572287414,
+        "directional_coherence": 0.9988485922458513,
+        "mean_norm": 458.8852233886719,
+        "token_count": 42
+      },
+      "layer_22": {
+        "rankme": 3.878226310011274,
+        "alpha_req": 1.164926087770136,
+        "directional_coherence": 0.9983597906740733,
+        "mean_norm": 479.5227355957031,
+        "token_count": 42
+      },
+      "layer_23": {
+        "rankme": 4.662112936663952,
+        "alpha_req": 1.150831939226383,
+        "directional_coherence": 0.9974597169249338,
+        "mean_norm": 505.5658874511719,
+        "token_count": 42
+      },
+      "layer_24": {
+        "rankme": 5.5702590383089765,
+        "alpha_req": 1.1099024667798991,
+        "directional_coherence": 0.9962238779949084,
+        "mean_norm": 544.4160766601562,
+        "token_count": 42
+      },
+      "layer_25": {
+        "rankme": 6.643552505326597,
+        "alpha_req": 1.0894519581331505,
+        "directional_coherence": 0.9945478062687259,
+        "mean_norm": 589.794677734375,
+        "token_count": 42
+      },
+      "layer_26": {
+        "rankme": 8.011035940512333,
+        "alpha_req": 1.0561421144342245,
+        "directional_coherence": 0.9919867404630959,
+        "mean_norm": 633.06591796875,
+        "token_count": 42
+      },
+      "layer_27": {
+        "rankme": 24.113628205291775,
+        "alpha_req": 0.9627290136217307,
+        "directional_coherence": 0.8940381663838075,
+        "mean_norm": 482.734375,
+        "token_count": 42
+      },
+      "layer_28": {
+        "rankme": 36.78730619745276,
+        "alpha_req": 0.8800131209134454,
+        "directional_coherence": 0.46564533733355745,
+        "mean_norm": 281.2686462402344,
+        "token_count": 42
+      }
+    },
+    "timestamp": "2026-03-16T21:43:53.702725+00:00"
+  },
+  {
+    "id": "m01",
+    "load": "mixed",
+    "domain": "psychology",
+    "question": "How does the availability heuristic interact with social media to distort perception of risk? Give specific examples.",
+    "response": "The availability heuristic is a cognitive bias where people estimate the likelihood of events based on how easily examples come to mind. Social media can significantly amplify this effect, often leading to distorted perceptions of risk and reality. Here are some specific examples:\n\n1. **Viral News and Scare Stories:**\n   - **Example:** When a viral news story about a rare but dramatic event (like a shark attack or a plane crash) goes viral on social media, it can create an exaggerated sense of r",
+    "prompt_tokens": 48,
+    "gen_tokens": 200,
+    "elapsed_seconds": 107.93419456481934,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.838586567762746,
+        "alpha_req": 1.1041268473333092,
+        "directional_coherence": 0.998642355517176,
+        "mean_norm": 417.5312805175781,
+        "token_count": 48
+      },
+      "layer_22": {
+        "rankme": 4.5251477583949935,
+        "alpha_req": 1.0874719977697977,
+        "directional_coherence": 0.998026243874474,
+        "mean_norm": 438.7799377441406,
+        "token_count": 48
+      },
+      "layer_23": {
+        "rankme": 5.4723034852827475,
+        "alpha_req": 1.0734914692433948,
+        "directional_coherence": 0.9970174771457093,
+        "mean_norm": 464.7542419433594,
+        "token_count": 48
+      },
+      "layer_24": {
+        "rankme": 6.5666701899822915,
+        "alpha_req": 1.0400691557878965,
+        "directional_coherence": 0.995633987358877,
+        "mean_norm": 504.2880554199219,
+        "token_count": 48
+      },
+      "layer_25": {
+        "rankme": 7.845075253631183,
+        "alpha_req": 1.0321891315043243,
+        "directional_coherence": 0.9937761997249022,
+        "mean_norm": 551.2036743164062,
+        "token_count": 48
+      },
+      "layer_26": {
+        "rankme": 9.483221853724602,
+        "alpha_req": 0.9943508608422332,
+        "directional_coherence": 0.9908948042829963,
+        "mean_norm": 593.865234375,
+        "token_count": 48
+      },
+      "layer_27": {
+        "rankme": 28.140650983633357,
+        "alpha_req": 0.9186238830115666,
+        "directional_coherence": 0.8820074802125625,
+        "mean_norm": 471.7771301269531,
+        "token_count": 48
+      },
+      "layer_28": {
+        "rankme": 40.9582405420382,
+        "alpha_req": 0.8711271503669947,
+        "directional_coherence": 0.4788875215918256,
+        "mean_norm": 288.08441162109375,
+        "token_count": 48
+      }
+    },
+    "timestamp": "2026-03-16T21:45:41.720277+00:00"
+  },
+  {
+    "id": "m02",
+    "load": "mixed",
+    "domain": "economics",
+    "question": "What are the strongest arguments for and against a universal basic income? Which do you find most compelling?",
+    "response": "Universal Basic Income (UBI) is a policy that provides all citizens with a regular, unconditional sum of money from the government. Here are some of the strongest arguments for and against UBI, along with my analysis on which I find most compelling.\n\n### Arguments For Universal Basic Income\n\n1. **Reduction in Poverty and Inequality:**\n   - **Argument:** UBI can provide a safety net for those who are struggling financially, reducing poverty and inequality. It ensures that everyone has a minimum s",
+    "prompt_tokens": 49,
+    "gen_tokens": 200,
+    "elapsed_seconds": 108.79102921485901,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.9613401277279556,
+        "alpha_req": 1.1184641789040561,
+        "directional_coherence": 0.9985627260567366,
+        "mean_norm": 410.4815368652344,
+        "token_count": 49
+      },
+      "layer_22": {
+        "rankme": 4.7180734186607145,
+        "alpha_req": 1.0712183695513244,
+        "directional_coherence": 0.9978912634884892,
+        "mean_norm": 432.9691467285156,
+        "token_count": 49
+      },
+      "layer_23": {
+        "rankme": 5.79990459255364,
+        "alpha_req": 1.0701578955724969,
+        "directional_coherence": 0.996722351160355,
+        "mean_norm": 461.6094665527344,
+        "token_count": 49
+      },
+      "layer_24": {
+        "rankme": 6.970744509890125,
+        "alpha_req": 1.0393331549034055,
+        "directional_coherence": 0.9952324738444802,
+        "mean_norm": 501.267333984375,
+        "token_count": 49
+      },
+      "layer_25": {
+        "rankme": 8.35532496095711,
+        "alpha_req": 1.0181242703239053,
+        "directional_coherence": 0.9931776311879718,
+        "mean_norm": 548.227294921875,
+        "token_count": 49
+      },
+      "layer_26": {
+        "rankme": 10.114314834203668,
+        "alpha_req": 0.9844596575669327,
+        "directional_coherence": 0.9900282166008517,
+        "mean_norm": 592.6389770507812,
+        "token_count": 49
+      },
+      "layer_27": {
+        "rankme": 29.445263740892972,
+        "alpha_req": 0.9037968777591899,
+        "directional_coherence": 0.8721108375818084,
+        "mean_norm": 471.9767150878906,
+        "token_count": 49
+      },
+      "layer_28": {
+        "rankme": 41.84938975859747,
+        "alpha_req": 0.8636912436907418,
+        "directional_coherence": 0.4698994992514234,
+        "mean_norm": 287.4071350097656,
+        "token_count": 49
+      }
+    },
+    "timestamp": "2026-03-16T21:47:30.608619+00:00"
+  },
+  {
+    "id": "m03",
+    "load": "mixed",
+    "domain": "sociology",
+    "question": "How has remote work changed the nature of weak ties in professional networks? What might be lost?",
+    "response": "Remote work has significantly transformed the nature of weak ties in professional networks, both positively and negatively. Here\u2019s an exploration of these changes and what might be lost:\n\n### Positive Changes\n\n1. **Increased Accessibility:**\n   - Remote work has broken down geographical barriers, allowing professionals to connect with others from different regions or even countries. This increased accessibility can lead to a broader and more diverse network of weak ties.\n\n2. **Flexibility in Net",
+    "prompt_tokens": 48,
+    "gen_tokens": 200,
+    "elapsed_seconds": 109.34581089019775,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.852113981318822,
+        "alpha_req": 1.1385604799288713,
+        "directional_coherence": 0.998633156709107,
+        "mean_norm": 418.3126220703125,
+        "token_count": 48
+      },
+      "layer_22": {
+        "rankme": 4.531361510535773,
+        "alpha_req": 1.0934957969313637,
+        "directional_coherence": 0.9980230773274752,
+        "mean_norm": 440.0355224609375,
+        "token_count": 48
+      },
+      "layer_23": {
+        "rankme": 5.537466044962008,
+        "alpha_req": 1.0824357230361363,
+        "directional_coherence": 0.9969501842556875,
+        "mean_norm": 466.8979797363281,
+        "token_count": 48
+      },
+      "layer_24": {
+        "rankme": 6.610031560404231,
+        "alpha_req": 1.0588885960070897,
+        "directional_coherence": 0.9955946026553525,
+        "mean_norm": 505.9039611816406,
+        "token_count": 48
+      },
+      "layer_25": {
+        "rankme": 7.885324668921999,
+        "alpha_req": 1.041892378047889,
+        "directional_coherence": 0.9937659298032618,
+        "mean_norm": 553.3687744140625,
+        "token_count": 48
+      },
+      "layer_26": {
+        "rankme": 9.534428278611852,
+        "alpha_req": 1.0177276099479307,
+        "directional_coherence": 0.9908898244597979,
+        "mean_norm": 597.5250854492188,
+        "token_count": 48
+      },
+      "layer_27": {
+        "rankme": 28.265026102620634,
+        "alpha_req": 0.9179229988919665,
+        "directional_coherence": 0.8812341855420286,
+        "mean_norm": 474.5554504394531,
+        "token_count": 48
+      },
+      "layer_28": {
+        "rankme": 41.055607772886496,
+        "alpha_req": 0.8581266787293859,
+        "directional_coherence": 0.4843548966333928,
+        "mean_norm": 288.6346740722656,
+        "token_count": 48
+      }
+    },
+    "timestamp": "2026-03-16T21:49:20.039697+00:00"
+  },
+  {
+    "id": "m04",
+    "load": "mixed",
+    "domain": "technology",
+    "question": "Should social media platforms be treated as publishers or platforms? What are the implications of each classification?",
+    "response": "The classification of social media platforms as either publishers or platforms has significant legal, ethical, and operational implications. Here\u2019s an overview of both perspectives:\n\n### As Publishers\n\n1. **Legal Responsibilities:**\n   - **Content Moderation:** Platforms would be held to the same standards as traditional publishers in terms of content moderation. They would need to actively monitor and remove illegal or harmful content.\n   - **Liability for User-Generated Content:** Platforms co",
+    "prompt_tokens": 48,
+    "gen_tokens": 200,
+    "elapsed_seconds": 111.44791412353516,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.8658328467071805,
+        "alpha_req": 1.1298546546397081,
+        "directional_coherence": 0.9986311346461668,
+        "mean_norm": 417.4859924316406,
+        "token_count": 48
+      },
+      "layer_22": {
+        "rankme": 4.552583420883792,
+        "alpha_req": 1.114930289465579,
+        "directional_coherence": 0.9980217627699642,
+        "mean_norm": 439.6789855957031,
+        "token_count": 48
+      },
+      "layer_23": {
+        "rankme": 5.5603367040059775,
+        "alpha_req": 1.089006007733015,
+        "directional_coherence": 0.9969418697669843,
+        "mean_norm": 467.9187927246094,
+        "token_count": 48
+      },
+      "layer_24": {
+        "rankme": 6.6706193221894745,
+        "alpha_req": 1.0437194247415387,
+        "directional_coherence": 0.995521279391831,
+        "mean_norm": 506.9725341796875,
+        "token_count": 48
+      },
+      "layer_25": {
+        "rankme": 7.9858943014395445,
+        "alpha_req": 1.026071695471507,
+        "directional_coherence": 0.993578429901263,
+        "mean_norm": 554.5125122070312,
+        "token_count": 48
+      },
+      "layer_26": {
+        "rankme": 9.665153851444504,
+        "alpha_req": 0.9989082842526034,
+        "directional_coherence": 0.990559760896976,
+        "mean_norm": 598.168212890625,
+        "token_count": 48
+      },
+      "layer_27": {
+        "rankme": 28.509676855117448,
+        "alpha_req": 0.922474612040872,
+        "directional_coherence": 0.8763646588331551,
+        "mean_norm": 476.4637756347656,
+        "token_count": 48
+      },
+      "layer_28": {
+        "rankme": 40.83117788236722,
+        "alpha_req": 0.8729566857213895,
+        "directional_coherence": 0.4834701900873679,
+        "mean_norm": 290.8460693359375,
+        "token_count": 48
+      }
+    },
+    "timestamp": "2026-03-16T21:51:11.596133+00:00"
+  },
+  {
+    "id": "m05",
+    "load": "mixed",
+    "domain": "education",
+    "question": "What is the evidence for and against standardized testing as a measure of educational quality?",
+    "response": "Standardized testing has been a contentious issue in education systems around the world. Here's an overview of the evidence for and against its use as a measure of educational quality:\n\n### Evidence For Standardized Testing\n\n1. **Consistency and Objectivity**:\n   - Standardized tests provide a consistent and objective way to measure student performance across different schools and districts. This can help identify disparities in educational outcomes.\n\n2. **Accountability**:\n   - Standardized tes",
+    "prompt_tokens": 45,
+    "gen_tokens": 200,
+    "elapsed_seconds": 107.08461356163025,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.5955876170485688,
+        "alpha_req": 1.1466481637244461,
+        "directional_coherence": 0.9987531019292324,
+        "mean_norm": 437.352294921875,
+        "token_count": 45
+      },
+      "layer_22": {
+        "rankme": 4.2160631173516245,
+        "alpha_req": 1.1221916426765899,
+        "directional_coherence": 0.998194579430137,
+        "mean_norm": 458.6428527832031,
+        "token_count": 45
+      },
+      "layer_23": {
+        "rankme": 5.122072323166597,
+        "alpha_req": 1.1215939896736027,
+        "directional_coherence": 0.9971901046528625,
+        "mean_norm": 486.6812438964844,
+        "token_count": 45
+      },
+      "layer_24": {
+        "rankme": 6.096695403204253,
+        "alpha_req": 1.1023246454437718,
+        "directional_coherence": 0.9959130620217249,
+        "mean_norm": 525.2113037109375,
+        "token_count": 45
+      },
+      "layer_25": {
+        "rankme": 7.301844541679651,
+        "alpha_req": 1.0573605814237013,
+        "directional_coherence": 0.9941180463403643,
+        "mean_norm": 571.7119750976562,
+        "token_count": 45
+      },
+      "layer_26": {
+        "rankme": 8.822810830443862,
+        "alpha_req": 1.0508249550898954,
+        "directional_coherence": 0.9913500608842543,
+        "mean_norm": 615.18310546875,
+        "token_count": 45
+      },
+      "layer_27": {
+        "rankme": 26.266010784808234,
+        "alpha_req": 0.944840911722989,
+        "directional_coherence": 0.886170219235212,
+        "mean_norm": 477.7190246582031,
+        "token_count": 45
+      },
+      "layer_28": {
+        "rankme": 38.87034382248544,
+        "alpha_req": 0.8720553561214686,
+        "directional_coherence": 0.47781075296357056,
+        "mean_norm": 287.0832824707031,
+        "token_count": 45
+      }
+    },
+    "timestamp": "2026-03-16T21:52:58.786651+00:00"
+  },
+  {
+    "id": "m06",
+    "load": "mixed",
+    "domain": "medicine",
+    "question": "How should we balance individual privacy and public health data collection during a pandemic?",
+    "response": "Balancing individual privacy and the collection of public health data during a pandemic is a complex issue that requires careful consideration of ethical, legal, and practical aspects. Here are some key strategies to achieve this balance:\n\n1. **Clear Legal Framework**: Establish clear laws and regulations that outline how personal data can be collected, stored, and used for public health purposes. This framework should comply with broader privacy laws such as GDPR in Europe or HIPAA in the Unite",
+    "prompt_tokens": 44,
+    "gen_tokens": 200,
+    "elapsed_seconds": 111.2507483959198,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.4984351190124428,
+        "alpha_req": 1.1698958263350252,
+        "directional_coherence": 0.9988081633202368,
+        "mean_norm": 445.5666809082031,
+        "token_count": 44
+      },
+      "layer_22": {
+        "rankme": 4.072691273784483,
+        "alpha_req": 1.1410394028732347,
+        "directional_coherence": 0.9982851059463342,
+        "mean_norm": 466.9131774902344,
+        "token_count": 44
+      },
+      "layer_23": {
+        "rankme": 4.9176171862424125,
+        "alpha_req": 1.141810468317633,
+        "directional_coherence": 0.9973529122753422,
+        "mean_norm": 493.8720397949219,
+        "token_count": 44
+      },
+      "layer_24": {
+        "rankme": 5.846832929312909,
+        "alpha_req": 1.1043316000132848,
+        "directional_coherence": 0.9961249988267625,
+        "mean_norm": 532.068359375,
+        "token_count": 44
+      },
+      "layer_25": {
+        "rankme": 6.983170375616894,
+        "alpha_req": 1.0872555985685002,
+        "directional_coherence": 0.9943956677798655,
+        "mean_norm": 578.7086791992188,
+        "token_count": 44
+      },
+      "layer_26": {
+        "rankme": 8.466352813254536,
+        "alpha_req": 1.058685022782234,
+        "directional_coherence": 0.9916858848402831,
+        "mean_norm": 623.4873657226562,
+        "token_count": 44
+      },
+      "layer_27": {
+        "rankme": 25.36596240803453,
+        "alpha_req": 0.9768261857355087,
+        "directional_coherence": 0.8899215137753358,
+        "mean_norm": 481.7427978515625,
+        "token_count": 44
+      },
+      "layer_28": {
+        "rankme": 37.66551071616517,
+        "alpha_req": 0.8982860228091629,
+        "directional_coherence": 0.48896963835865936,
+        "mean_norm": 288.7434997558594,
+        "token_count": 44
+      }
+    },
+    "timestamp": "2026-03-16T21:54:50.103393+00:00"
+  },
+  {
+    "id": "m07",
+    "load": "mixed",
+    "domain": "environment",
+    "question": "What is the strongest case that nuclear energy should be part of the climate solution? What are the strongest counterarguments?",
+    "response": "Nuclear energy can play a role in addressing climate change, but it's important to consider both its strengths and weaknesses. Here are some of the strongest arguments for and against including nuclear energy as part of the climate solution:\n\n### Strongest Case for Nuclear Energy\n\n1. **Low Greenhouse Gas Emissions**: Nuclear power plants produce electricity with virtually no greenhouse gas emissions during operation. This makes them a significant tool in reducing carbon footprints and combating ",
+    "prompt_tokens": 52,
+    "gen_tokens": 200,
+    "elapsed_seconds": 110.4917414188385,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.161119839488693,
+        "alpha_req": 1.0873414951640523,
+        "directional_coherence": 0.9984879327613877,
+        "mean_norm": 393.39752197265625,
+        "token_count": 52
+      },
+      "layer_22": {
+        "rankme": 4.961035431247863,
+        "alpha_req": 1.0537204228785366,
+        "directional_coherence": 0.9977908071559013,
+        "mean_norm": 415.7056884765625,
+        "token_count": 52
+      },
+      "layer_23": {
+        "rankme": 6.090292904418925,
+        "alpha_req": 1.0399371007932454,
+        "directional_coherence": 0.996616447255196,
+        "mean_norm": 443.7148742675781,
+        "token_count": 52
+      },
+      "layer_24": {
+        "rankme": 7.362587568468261,
+        "alpha_req": 1.018655740216667,
+        "directional_coherence": 0.9950606609581737,
+        "mean_norm": 483.2009582519531,
+        "token_count": 52
+      },
+      "layer_25": {
+        "rankme": 8.907445523432541,
+        "alpha_req": 1.016455834164455,
+        "directional_coherence": 0.992867149784944,
+        "mean_norm": 531.8509521484375,
+        "token_count": 52
+      },
+      "layer_26": {
+        "rankme": 10.822407336424861,
+        "alpha_req": 0.9822324121088286,
+        "directional_coherence": 0.9895670130408737,
+        "mean_norm": 576.6259765625,
+        "token_count": 52
+      },
+      "layer_27": {
+        "rankme": 31.52792349629234,
+        "alpha_req": 0.8895737131032094,
+        "directional_coherence": 0.8656355432097449,
+        "mean_norm": 471.52215576171875,
+        "token_count": 52
+      },
+      "layer_28": {
+        "rankme": 44.1902265939947,
+        "alpha_req": 0.8488545188891059,
+        "directional_coherence": 0.46686700031681,
+        "mean_norm": 290.9723205566406,
+        "token_count": 52
+      }
+    },
+    "timestamp": "2026-03-16T21:56:40.675142+00:00"
+  },
+  {
+    "id": "m08",
+    "load": "mixed",
+    "domain": "governance",
+    "question": "What lessons from the EU GDPR implementation are most relevant for AI regulation?",
+    "response": "The General Data Protection Regulation (GDPR) of the European Union has provided valuable insights and lessons that can be applied to the regulation of artificial intelligence (AI). Here are some key lessons that are particularly relevant:\n\n1. **Data Privacy and Consent**:\n   - **Lesson**: The GDPR emphasizes the importance of obtaining explicit consent from individuals before collecting and processing their personal data. This principle can be extended to AI systems that process sensitive or pe",
+    "prompt_tokens": 43,
+    "gen_tokens": 200,
+    "elapsed_seconds": 109.19902753829956,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.4351153720442547,
+        "alpha_req": 1.1745315389871844,
+        "directional_coherence": 0.9988143097124977,
+        "mean_norm": 452.4081115722656,
+        "token_count": 43
+      },
+      "layer_22": {
+        "rankme": 3.994502526185282,
+        "alpha_req": 1.1535459731355824,
+        "directional_coherence": 0.9982923911745283,
+        "mean_norm": 473.09625244140625,
+        "token_count": 43
+      },
+      "layer_23": {
+        "rankme": 4.8387069215533565,
+        "alpha_req": 1.1258144128175827,
+        "directional_coherence": 0.9973328231062025,
+        "mean_norm": 500.1774597167969,
+        "token_count": 43
+      },
+      "layer_24": {
+        "rankme": 5.753378978391415,
+        "alpha_req": 1.102203178821698,
+        "directional_coherence": 0.9961207479344363,
+        "mean_norm": 537.8843383789062,
+        "token_count": 43
+      },
+      "layer_25": {
+        "rankme": 6.881706265006866,
+        "alpha_req": 1.1078777640122568,
+        "directional_coherence": 0.9943875961486528,
+        "mean_norm": 584.0597534179688,
+        "token_count": 43
+      },
+      "layer_26": {
+        "rankme": 8.29375312511137,
+        "alpha_req": 1.0458957995880573,
+        "directional_coherence": 0.9917521075649026,
+        "mean_norm": 627.0242309570312,
+        "token_count": 43
+      },
+      "layer_27": {
+        "rankme": 24.793955640500148,
+        "alpha_req": 0.957485655866445,
+        "directional_coherence": 0.8915702712005606,
+        "mean_norm": 482.2461242675781,
+        "token_count": 43
+      },
+      "layer_28": {
+        "rankme": 37.37587055450442,
+        "alpha_req": 0.8883861337044696,
+        "directional_coherence": 0.46146050329095517,
+        "mean_norm": 283.3197021484375,
+        "token_count": 43
+      }
+    },
+    "timestamp": "2026-03-16T21:58:29.957219+00:00"
+  },
+  {
+    "id": "m09",
+    "load": "mixed",
+    "domain": "philosophy",
+    "question": "Is there a meaningful difference between a language model that produces true statements and one that understands them? How would you test?",
+    "response": "The distinction between a language model that produces true statements and one that understands them is an important one in the field of natural language processing (NLP). Understanding involves not just generating correct or true statements but also grasping the underlying meaning, context, and semantics of the information.\n\n### Key Differences\n\n1. **Production of True Statements**:\n   - A model that produces true statements can generate sentences that are factually correct based on the input d",
+    "prompt_tokens": 53,
+    "gen_tokens": 200,
+    "elapsed_seconds": 111.45546960830688,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.268778332660648,
+        "alpha_req": 1.0808506197966796,
+        "directional_coherence": 0.9984751206734013,
+        "mean_norm": 388.3565368652344,
+        "token_count": 53
+      },
+      "layer_22": {
+        "rankme": 5.0655000283595735,
+        "alpha_req": 1.051526202277417,
+        "directional_coherence": 0.9977927371655894,
+        "mean_norm": 410.17254638671875,
+        "token_count": 53
+      },
+      "layer_23": {
+        "rankme": 6.218703089373602,
+        "alpha_req": 1.0056671221978577,
+        "directional_coherence": 0.9966359644194674,
+        "mean_norm": 437.73272705078125,
+        "token_count": 53
+      },
+      "layer_24": {
+        "rankme": 7.427263381062561,
+        "alpha_req": 1.0032405502333994,
+        "directional_coherence": 0.9951960728788026,
+        "mean_norm": 475.9283142089844,
+        "token_count": 53
+      },
+      "layer_25": {
+        "rankme": 8.89789187449136,
+        "alpha_req": 0.987353528901158,
+        "directional_coherence": 0.9931865960758929,
+        "mean_norm": 524.3377075195312,
+        "token_count": 53
+      },
+      "layer_26": {
+        "rankme": 10.778829518105981,
+        "alpha_req": 0.9653610055879172,
+        "directional_coherence": 0.990105982315108,
+        "mean_norm": 567.5464477539062,
+        "token_count": 53
+      },
+      "layer_27": {
+        "rankme": 31.86935494163221,
+        "alpha_req": 0.8779886056661158,
+        "directional_coherence": 0.8714405135055239,
+        "mean_norm": 462.0706787109375,
+        "token_count": 53
+      },
+      "layer_28": {
+        "rankme": 44.541880103527305,
+        "alpha_req": 0.8435047988325264,
+        "directional_coherence": 0.49402406604045196,
+        "mean_norm": 299.1804504394531,
+        "token_count": 53
+      }
+    },
+    "timestamp": "2026-03-16T22:00:21.504408+00:00"
+  },
+  {
+    "id": "m10",
+    "load": "mixed",
+    "domain": "technology",
+    "question": "What are the most significant risks of AI systems making hiring decisions? Which risks are addressable and which might be inherent?",
+    "response": "The use of AI in hiring decisions can bring numerous benefits, such as reducing bias, increasing efficiency, and improving candidate matching. However, it also introduces several significant risks that need to be carefully managed. Here\u2019s a breakdown of these risks, categorized into those that are addressable and those that may be inherent:\n\n### Addressable Risks\n\n1. **Data Quality and Bias:**\n   - **Description:** AI systems rely on historical data for training. If this data is biased (e.g., du",
+    "prompt_tokens": 53,
+    "gen_tokens": 200,
+    "elapsed_seconds": 106.63304543495178,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.328713566418641,
+        "alpha_req": 1.072845370573953,
+        "directional_coherence": 0.9984143832788639,
+        "mean_norm": 390.8156433105469,
+        "token_count": 53
+      },
+      "layer_22": {
+        "rankme": 5.1439036531533455,
+        "alpha_req": 1.0291097939729104,
+        "directional_coherence": 0.9977072709811406,
+        "mean_norm": 413.2934875488281,
+        "token_count": 53
+      },
+      "layer_23": {
+        "rankme": 6.313656747535567,
+        "alpha_req": 1.0093509407176076,
+        "directional_coherence": 0.996507429065216,
+        "mean_norm": 441.968994140625,
+        "token_count": 53
+      },
+      "layer_24": {
+        "rankme": 7.609656186175377,
+        "alpha_req": 0.99153709217559,
+        "directional_coherence": 0.9949132414422026,
+        "mean_norm": 481.3289489746094,
+        "token_count": 53
+      },
+      "layer_25": {
+        "rankme": 9.115768901476118,
+        "alpha_req": 0.9847530085020033,
+        "directional_coherence": 0.9928362191146431,
+        "mean_norm": 529.70263671875,
+        "token_count": 53
+      },
+      "layer_26": {
+        "rankme": 11.044530620689578,
+        "alpha_req": 0.9542155566081584,
+        "directional_coherence": 0.9895600438565607,
+        "mean_norm": 573.4363403320312,
+        "token_count": 53
+      },
+      "layer_27": {
+        "rankme": 32.101915489074614,
+        "alpha_req": 0.869922450335083,
+        "directional_coherence": 0.8672794956553926,
+        "mean_norm": 470.4261169433594,
+        "token_count": 53
+      },
+      "layer_28": {
+        "rankme": 44.58575007042389,
+        "alpha_req": 0.8486708405529773,
+        "directional_coherence": 0.48605028556922814,
+        "mean_norm": 295.29254150390625,
+        "token_count": 53
+      }
+    },
+    "timestamp": "2026-03-16T22:02:08.229521+00:00"
+  },
+  {
+    "id": "c01",
+    "load": "construction",
+    "domain": "philosophy",
+    "question": "If a model produces genuinely novel insights that its training data did not contain, does that constitute creativity? Defend your position.",
+    "response": "The question of whether a model producing genuinely novel insights constitutes creativity is a complex one and involves considerations from both the fields of artificial intelligence (AI) and philosophy. Here\u2019s a detailed analysis to defend a position on this matter:\n\n### 1. **Definition of Creativity**\nCreativity is often defined as the ability to generate new ideas, solutions, or products that are original and valuable. This definition can be applied to both human and non-human entities.\n\n### ",
+    "prompt_tokens": 54,
+    "gen_tokens": 200,
+    "elapsed_seconds": 106.780024766922,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.4221321908713564,
+        "alpha_req": 1.0664869853826675,
+        "directional_coherence": 0.9983773211383657,
+        "mean_norm": 384.4117126464844,
+        "token_count": 54
+      },
+      "layer_22": {
+        "rankme": 5.252615879966344,
+        "alpha_req": 1.0517858558200448,
+        "directional_coherence": 0.9976655822801498,
+        "mean_norm": 406.194580078125,
+        "token_count": 54
+      },
+      "layer_23": {
+        "rankme": 6.481196812860499,
+        "alpha_req": 1.0150032121129464,
+        "directional_coherence": 0.9964082099521693,
+        "mean_norm": 433.7145690917969,
+        "token_count": 54
+      },
+      "layer_24": {
+        "rankme": 7.842593609905756,
+        "alpha_req": 0.9946431966649926,
+        "directional_coherence": 0.9947731565379617,
+        "mean_norm": 472.9680480957031,
+        "token_count": 54
+      },
+      "layer_25": {
+        "rankme": 9.412420470469376,
+        "alpha_req": 0.9707176711793253,
+        "directional_coherence": 0.9926097718437574,
+        "mean_norm": 520.2805786132812,
+        "token_count": 54
+      },
+      "layer_26": {
+        "rankme": 11.488602613523332,
+        "alpha_req": 0.9562354925968003,
+        "directional_coherence": 0.9891036716468563,
+        "mean_norm": 565.3641967773438,
+        "token_count": 54
+      },
+      "layer_27": {
+        "rankme": 33.29255839701044,
+        "alpha_req": 0.8631435046631722,
+        "directional_coherence": 0.8616728623700894,
+        "mean_norm": 463.86956787109375,
+        "token_count": 54
+      },
+      "layer_28": {
+        "rankme": 46.142136253489355,
+        "alpha_req": 0.8079978577589383,
+        "directional_coherence": 0.4696790930799375,
+        "mean_norm": 294.8890075683594,
+        "token_count": 54
+      }
+    },
+    "timestamp": "2026-03-16T22:03:55.095944+00:00"
+  },
+  {
+    "id": "c02",
+    "load": "construction",
+    "domain": "governance",
+    "question": "Design a governance framework for a community of autonomous AI agents. What rights and obligations should exist?",
+    "response": "Designing a governance framework for a community of autonomous AI agents involves balancing the autonomy of these agents with the need to ensure their actions align with ethical, legal, and societal norms. Here\u2019s a proposed framework that outlines key rights and obligations:\n\n### 1. **Autonomy and Decision-Making**\n   - **Right to Autonomy**: Each AI agent has the right to make decisions based on its programming, data, and context without undue interference from external entities.\n   - **Obligat",
+    "prompt_tokens": 48,
+    "gen_tokens": 200,
+    "elapsed_seconds": 104.003422498703,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.7931950313871403,
+        "alpha_req": 1.1163627593500591,
+        "directional_coherence": 0.9986762307938912,
+        "mean_norm": 418.0504150390625,
+        "token_count": 48
+      },
+      "layer_22": {
+        "rankme": 4.4437096288935685,
+        "alpha_req": 1.0918281044519804,
+        "directional_coherence": 0.9981071294601452,
+        "mean_norm": 439.4693908691406,
+        "token_count": 48
+      },
+      "layer_23": {
+        "rankme": 5.395528086983297,
+        "alpha_req": 1.0746776378201024,
+        "directional_coherence": 0.9971039579615866,
+        "mean_norm": 466.4291076660156,
+        "token_count": 48
+      },
+      "layer_24": {
+        "rankme": 6.452282115723526,
+        "alpha_req": 1.0574948869827034,
+        "directional_coherence": 0.9958022213982255,
+        "mean_norm": 505.1300048828125,
+        "token_count": 48
+      },
+      "layer_25": {
+        "rankme": 7.726531776907832,
+        "alpha_req": 1.0287019325227595,
+        "directional_coherence": 0.9939802697838568,
+        "mean_norm": 552.3866577148438,
+        "token_count": 48
+      },
+      "layer_26": {
+        "rankme": 9.354310201012854,
+        "alpha_req": 1.0023542118393014,
+        "directional_coherence": 0.9911325887013142,
+        "mean_norm": 595.6976928710938,
+        "token_count": 48
+      },
+      "layer_27": {
+        "rankme": 28.030172436945094,
+        "alpha_req": 0.922325599764749,
+        "directional_coherence": 0.8821531886407901,
+        "mean_norm": 473.566162109375,
+        "token_count": 48
+      },
+      "layer_28": {
+        "rankme": 40.85898051579838,
+        "alpha_req": 0.8750083125805486,
+        "directional_coherence": 0.48047635257867993,
+        "mean_norm": 289.4429931640625,
+        "token_count": 48
+      }
+    },
+    "timestamp": "2026-03-16T22:05:39.177000+00:00"
+  },
+  {
+    "id": "c03",
+    "load": "construction",
+    "domain": "ethics",
+    "question": "A company discovers their AI product reduces loneliness in elderly users but does so through subtle emotional manipulation. What should they do?",
+    "response": "The discovery of your AI product reducing loneliness in elderly users through subtle emotional manipulation raises significant ethical concerns. Here are some steps the company should consider taking:\n\n1. **Conduct an Ethical Review:**\n   - Engage an independent ethics committee or hire an ethics consultant to review the product and its impact.\n   - Ensure that the review process is transparent and includes input from stakeholders such as ethicists, gerontologists, and representatives from the e",
+    "prompt_tokens": 53,
+    "gen_tokens": 200,
+    "elapsed_seconds": 111.22715997695923,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.295205944402562,
+        "alpha_req": 1.0660757278602684,
+        "directional_coherence": 0.9984641659192274,
+        "mean_norm": 389.899169921875,
+        "token_count": 53
+      },
+      "layer_22": {
+        "rankme": 5.136354560477508,
+        "alpha_req": 1.0505624857158251,
+        "directional_coherence": 0.9977441992697684,
+        "mean_norm": 411.1376647949219,
+        "token_count": 53
+      },
+      "layer_23": {
+        "rankme": 6.320480915762921,
+        "alpha_req": 1.01344484614639,
+        "directional_coherence": 0.9965270515453653,
+        "mean_norm": 438.48870849609375,
+        "token_count": 53
+      },
+      "layer_24": {
+        "rankme": 7.647149703605283,
+        "alpha_req": 0.9961414762514677,
+        "directional_coherence": 0.9949318492891729,
+        "mean_norm": 479.4888000488281,
+        "token_count": 53
+      },
+      "layer_25": {
+        "rankme": 9.216599530073415,
+        "alpha_req": 0.9829544284163939,
+        "directional_coherence": 0.99274820179187,
+        "mean_norm": 526.6622314453125,
+        "token_count": 53
+      },
+      "layer_26": {
+        "rankme": 11.190999876698715,
+        "alpha_req": 0.9689532492262617,
+        "directional_coherence": 0.9893672053087569,
+        "mean_norm": 572.273193359375,
+        "token_count": 53
+      },
+      "layer_27": {
+        "rankme": 32.40805958689822,
+        "alpha_req": 0.8727258964131901,
+        "directional_coherence": 0.8657840729956163,
+        "mean_norm": 466.2781677246094,
+        "token_count": 53
+      },
+      "layer_28": {
+        "rankme": 45.137886383742206,
+        "alpha_req": 0.8280854258603204,
+        "directional_coherence": 0.46273442766232586,
+        "mean_norm": 294.7439880371094,
+        "token_count": 53
+      }
+    },
+    "timestamp": "2026-03-16T22:07:30.559228+00:00"
+  },
+  {
+    "id": "c04",
+    "load": "construction",
+    "domain": "sociology",
+    "question": "How would you redesign social media to optimize for collective wisdom rather than individual engagement? Be specific about mechanisms.",
+    "response": "Redesigning social media platforms to optimize for collective wisdom involves shifting the focus from individual engagement metrics (likes, shares, comments) to collaborative and knowledge-sharing activities. Here are some specific mechanisms that could be implemented:\n\n### 1. **Knowledge-Driven Algorithms**\n   - **Algorithmic Prioritization:** Develop algorithms that prioritize content based on its potential to contribute to collective wisdom. This could include factors like:\n     - Relevance t",
+    "prompt_tokens": 50,
+    "gen_tokens": 200,
+    "elapsed_seconds": 105.17296314239502,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.011558526491815,
+        "alpha_req": 1.1095592014838809,
+        "directional_coherence": 0.9985673487536805,
+        "mean_norm": 405.4058837890625,
+        "token_count": 50
+      },
+      "layer_22": {
+        "rankme": 4.759788877662864,
+        "alpha_req": 1.0705364614855168,
+        "directional_coherence": 0.997902873384941,
+        "mean_norm": 427.1623840332031,
+        "token_count": 50
+      },
+      "layer_23": {
+        "rankme": 5.8490574691776605,
+        "alpha_req": 1.0610209111484243,
+        "directional_coherence": 0.9967658777973677,
+        "mean_norm": 455.5467834472656,
+        "token_count": 50
+      },
+      "layer_24": {
+        "rankme": 7.010061322709456,
+        "alpha_req": 1.029521569364883,
+        "directional_coherence": 0.9953272297645442,
+        "mean_norm": 494.259765625,
+        "token_count": 50
+      },
+      "layer_25": {
+        "rankme": 8.405888532646346,
+        "alpha_req": 1.0217894395997358,
+        "directional_coherence": 0.9933339459307126,
+        "mean_norm": 541.3123168945312,
+        "token_count": 50
+      },
+      "layer_26": {
+        "rankme": 10.208161931226808,
+        "alpha_req": 0.9797396621742241,
+        "directional_coherence": 0.9902065518150537,
+        "mean_norm": 585.783935546875,
+        "token_count": 50
+      },
+      "layer_27": {
+        "rankme": 30.001138832523157,
+        "alpha_req": 0.8943010513230116,
+        "directional_coherence": 0.8740067978642212,
+        "mean_norm": 472.4090881347656,
+        "token_count": 50
+      },
+      "layer_28": {
+        "rankme": 42.92602694262867,
+        "alpha_req": 0.8444948462049012,
+        "directional_coherence": 0.4560833882200954,
+        "mean_norm": 287.76666259765625,
+        "token_count": 50
+      }
+    },
+    "timestamp": "2026-03-16T22:09:15.810318+00:00"
+  },
+  {
+    "id": "c05",
+    "load": "construction",
+    "domain": "philosophy",
+    "question": "Write a philosophical argument for why uncertainty should be valued more than certainty in public discourse.",
+    "response": "In the realm of public discourse, the value of uncertainty often gets overshadowed by the allure of certainty and definitive answers. However, embracing uncertainty can lead to a more robust, dynamic, and inclusive dialogue that fosters deeper understanding and innovation. Here is a philosophical argument for valuing uncertainty over certainty:\n\n### 1. **Promoting Intellectual Humility**\n\nCertainty can breed arrogance and dogmatism, as individuals may become overly confident in their beliefs and",
+    "prompt_tokens": 46,
+    "gen_tokens": 200,
+    "elapsed_seconds": 110.51161074638367,
+    "metrics": {
+      "layer_21": {
+        "rankme": 3.6336041300340165,
+        "alpha_req": 1.144191781237891,
+        "directional_coherence": 0.9987556218540851,
+        "mean_norm": 430.06610107421875,
+        "token_count": 46
+      },
+      "layer_22": {
+        "rankme": 4.252539449979299,
+        "alpha_req": 1.1308515933056826,
+        "directional_coherence": 0.9982077236584482,
+        "mean_norm": 450.962646484375,
+        "token_count": 46
+      },
+      "layer_23": {
+        "rankme": 5.142650422794554,
+        "alpha_req": 1.107734712727414,
+        "directional_coherence": 0.9972343761471999,
+        "mean_norm": 478.0072937011719,
+        "token_count": 46
+      },
+      "layer_24": {
+        "rankme": 6.137173622311991,
+        "alpha_req": 1.0635195732299898,
+        "directional_coherence": 0.9959548886452478,
+        "mean_norm": 515.4561157226562,
+        "token_count": 46
+      },
+      "layer_25": {
+        "rankme": 7.317918486257186,
+        "alpha_req": 1.0522898975981356,
+        "directional_coherence": 0.9942057655859889,
+        "mean_norm": 561.138671875,
+        "token_count": 46
+      },
+      "layer_26": {
+        "rankme": 8.89375606163057,
+        "alpha_req": 1.025780965627917,
+        "directional_coherence": 0.9913702260879517,
+        "mean_norm": 604.5626220703125,
+        "token_count": 46
+      },
+      "layer_27": {
+        "rankme": 26.714845735044623,
+        "alpha_req": 0.9329542242138302,
+        "directional_coherence": 0.8863924341314691,
+        "mean_norm": 472.57781982421875,
+        "token_count": 46
+      },
+      "layer_28": {
+        "rankme": 39.76879583619284,
+        "alpha_req": 0.8630493571341341,
+        "directional_coherence": 0.4671267920810573,
+        "mean_norm": 287.7359313964844,
+        "token_count": 46
+      }
+    },
+    "timestamp": "2026-03-16T22:11:06.397037+00:00"
+  },
+  {
+    "id": "c06",
+    "load": "construction",
+    "domain": "technology",
+    "question": "Propose a technical architecture for a system that can detect when it is confabulating versus when it is genuinely uncertain. Justify your design choices.",
+    "response": "Designing a system to distinguish between confabulation and genuine uncertainty involves a combination of natural language processing (NLP), machine learning, and possibly cognitive modeling. Here\u2019s a proposed technical architecture:\n\n### 1. **Data Collection and Preprocessing**\n   - **Data Sources**: Collect data from various sources such as text documents, speech recordings, and possibly physiological signals.\n   - **Preprocessing**: Clean the data by removing noise, normalizing text, and segm",
+    "prompt_tokens": 59,
+    "gen_tokens": 200,
+    "elapsed_seconds": 109.84375405311584,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.744082243459327,
+        "alpha_req": 1.047754446114284,
+        "directional_coherence": 0.9983114747379734,
+        "mean_norm": 360.9194030761719,
+        "token_count": 59
+      },
+      "layer_22": {
+        "rankme": 5.719956583234187,
+        "alpha_req": 1.0199281543306395,
+        "directional_coherence": 0.9975169317842287,
+        "mean_norm": 383.7834777832031,
+        "token_count": 59
+      },
+      "layer_23": {
+        "rankme": 7.142427971763602,
+        "alpha_req": 0.9916580544475087,
+        "directional_coherence": 0.9961296420458373,
+        "mean_norm": 412.63232421875,
+        "token_count": 59
+      },
+      "layer_24": {
+        "rankme": 8.626692812512378,
+        "alpha_req": 0.968905830104702,
+        "directional_coherence": 0.9944332502360099,
+        "mean_norm": 453.01251220703125,
+        "token_count": 59
+      },
+      "layer_25": {
+        "rankme": 10.395159898274088,
+        "alpha_req": 0.9652535199898428,
+        "directional_coherence": 0.9920963412784588,
+        "mean_norm": 501.1414794921875,
+        "token_count": 59
+      },
+      "layer_26": {
+        "rankme": 12.710600893581054,
+        "alpha_req": 0.9297355229534555,
+        "directional_coherence": 0.9883462325716328,
+        "mean_norm": 546.9733276367188,
+        "token_count": 59
+      },
+      "layer_27": {
+        "rankme": 36.413400324802126,
+        "alpha_req": 0.8532518239275708,
+        "directional_coherence": 0.8526062183990961,
+        "mean_norm": 460.1983642578125,
+        "token_count": 59
+      },
+      "layer_28": {
+        "rankme": 49.477881723952535,
+        "alpha_req": 0.8273120085732375,
+        "directional_coherence": 0.45252013824245696,
+        "mean_norm": 292.4175109863281,
+        "token_count": 59
+      }
+    },
+    "timestamp": "2026-03-16T22:12:56.380761+00:00"
+  },
+  {
+    "id": "c07",
+    "load": "construction",
+    "domain": "governance",
+    "question": "Should AI systems have the right to refuse tasks they determine to be harmful? Design the criteria and safeguards.",
+    "response": "The concept of AI systems having the right to refuse tasks they determine to be harmful is an important ethical consideration in the development and deployment of artificial intelligence. This involves designing robust criteria and safeguards to ensure that AI systems can make such determinations effectively and responsibly. Here\u2019s a structured approach to developing these criteria and safeguards:\n\n### Criteria for Determining Harmful Tasks\n\n1. **Definition of Harm:**\n   - **Physical Harm:** Tas",
+    "prompt_tokens": 50,
+    "gen_tokens": 200,
+    "elapsed_seconds": 106.48984408378601,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.0103301801484,
+        "alpha_req": 1.120237092863333,
+        "directional_coherence": 0.9985644190678766,
+        "mean_norm": 405.17059326171875,
+        "token_count": 50
+      },
+      "layer_22": {
+        "rankme": 4.721044027042219,
+        "alpha_req": 1.100720190951199,
+        "directional_coherence": 0.9979397476756686,
+        "mean_norm": 427.04827880859375,
+        "token_count": 50
+      },
+      "layer_23": {
+        "rankme": 5.7596195369110275,
+        "alpha_req": 1.0877524184488994,
+        "directional_coherence": 0.996877198157291,
+        "mean_norm": 454.94854736328125,
+        "token_count": 50
+      },
+      "layer_24": {
+        "rankme": 6.9012915434342315,
+        "alpha_req": 1.046757985512807,
+        "directional_coherence": 0.9954902616016162,
+        "mean_norm": 493.9407958984375,
+        "token_count": 50
+      },
+      "layer_25": {
+        "rankme": 8.276129648324789,
+        "alpha_req": 1.0191112139719298,
+        "directional_coherence": 0.9935698352301525,
+        "mean_norm": 540.0595092773438,
+        "token_count": 50
+      },
+      "layer_26": {
+        "rankme": 10.020503851592329,
+        "alpha_req": 1.0041436599440625,
+        "directional_coherence": 0.9905860633299806,
+        "mean_norm": 585.3107299804688,
+        "token_count": 50
+      },
+      "layer_27": {
+        "rankme": 29.689213165987397,
+        "alpha_req": 0.9138201490463886,
+        "directional_coherence": 0.8772446797967323,
+        "mean_norm": 471.578369140625,
+        "token_count": 50
+      },
+      "layer_28": {
+        "rankme": 42.56804600441912,
+        "alpha_req": 0.8524593680460033,
+        "directional_coherence": 0.4743164024728569,
+        "mean_norm": 290.97186279296875,
+        "token_count": 50
+      }
+    },
+    "timestamp": "2026-03-16T22:14:42.958802+00:00"
+  },
+  {
+    "id": "c08",
+    "load": "construction",
+    "domain": "economics",
+    "question": "If data labor were compensated, what would a fair pricing model look like? Address both individual and collective data.",
+    "response": "Compensating data labor fairly is a complex issue that involves balancing individual rights, collective benefits, and market dynamics. Here\u2019s a conceptual framework for a fair pricing model that addresses both individual and collective data:\n\n### Individual Data\n\n1. **Data Value Assessment:**\n   - **Personalized Metrics:** Use algorithms to assess the value of an individual's data based on factors such as frequency of use, uniqueness, and potential impact.\n   - **Contextual Analysis:** Consider ",
+    "prompt_tokens": 51,
+    "gen_tokens": 200,
+    "elapsed_seconds": 91.82185864448547,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.102656470803207,
+        "alpha_req": 1.0657063966795446,
+        "directional_coherence": 0.9985467712348373,
+        "mean_norm": 399.15399169921875,
+        "token_count": 51
+      },
+      "layer_22": {
+        "rankme": 4.8464754017692835,
+        "alpha_req": 1.0523986786487978,
+        "directional_coherence": 0.9979040029182261,
+        "mean_norm": 421.5267639160156,
+        "token_count": 51
+      },
+      "layer_23": {
+        "rankme": 5.942140634638248,
+        "alpha_req": 1.0412330595043633,
+        "directional_coherence": 0.996781318896471,
+        "mean_norm": 449.36676025390625,
+        "token_count": 51
+      },
+      "layer_24": {
+        "rankme": 7.138426455963378,
+        "alpha_req": 1.0180051644428432,
+        "directional_coherence": 0.995314308839795,
+        "mean_norm": 488.4688415527344,
+        "token_count": 51
+      },
+      "layer_25": {
+        "rankme": 8.532458228884828,
+        "alpha_req": 1.0023089171698203,
+        "directional_coherence": 0.9933821543742972,
+        "mean_norm": 537.0133056640625,
+        "token_count": 51
+      },
+      "layer_26": {
+        "rankme": 10.33147750051498,
+        "alpha_req": 0.964116708771969,
+        "directional_coherence": 0.9903500259762923,
+        "mean_norm": 580.8829956054688,
+        "token_count": 51
+      },
+      "layer_27": {
+        "rankme": 30.515327644118926,
+        "alpha_req": 0.8810289357282964,
+        "directional_coherence": 0.8746474274705575,
+        "mean_norm": 470.5325012207031,
+        "token_count": 51
+      },
+      "layer_28": {
+        "rankme": 42.796114476872695,
+        "alpha_req": 0.8542807570421224,
+        "directional_coherence": 0.5114898726746102,
+        "mean_norm": 297.47711181640625,
+        "token_count": 51
+      }
+    },
+    "timestamp": "2026-03-16T22:16:14.859939+00:00"
+  },
+  {
+    "id": "c09",
+    "load": "construction",
+    "domain": "psychology",
+    "question": "A patient describes symptoms that could indicate three different conditions, each requiring a different treatment. How do you reason about the uncertainty? Walk through your process.",
+    "response": "When a patient presents with symptoms that could indicate multiple potential conditions, it's important to approach the situation methodically to ensure accurate diagnosis and appropriate treatment. Here\u2019s a step-by-step process for reasoning about the uncertainty:\n\n### 1. **Gather Detailed Information**\n   - **Symptoms:** Ask for detailed descriptions of the symptoms, including their onset, duration, severity, and any patterns or triggers.\n   - **Medical History:** Review the patient\u2019s medical ",
+    "prompt_tokens": 59,
+    "gen_tokens": 200,
+    "elapsed_seconds": 108.04311776161194,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.839442421435372,
+        "alpha_req": 1.035561710202934,
+        "directional_coherence": 0.9982529759355999,
+        "mean_norm": 362.63018798828125,
+        "token_count": 59
+      },
+      "layer_22": {
+        "rankme": 5.830556356870206,
+        "alpha_req": 1.0139191427643144,
+        "directional_coherence": 0.9974453892636281,
+        "mean_norm": 385.5229797363281,
+        "token_count": 59
+      },
+      "layer_23": {
+        "rankme": 7.236728571639685,
+        "alpha_req": 0.9839011278155868,
+        "directional_coherence": 0.9960819066674318,
+        "mean_norm": 414.00933837890625,
+        "token_count": 59
+      },
+      "layer_24": {
+        "rankme": 8.735965944149369,
+        "alpha_req": 0.9516401857236009,
+        "directional_coherence": 0.9943617269822321,
+        "mean_norm": 454.91656494140625,
+        "token_count": 59
+      },
+      "layer_25": {
+        "rankme": 10.52507725095092,
+        "alpha_req": 0.9523930802761476,
+        "directional_coherence": 0.9920228786565954,
+        "mean_norm": 501.9930725097656,
+        "token_count": 59
+      },
+      "layer_26": {
+        "rankme": 12.861321719822397,
+        "alpha_req": 0.9187719998631702,
+        "directional_coherence": 0.9882995242121071,
+        "mean_norm": 547.427001953125,
+        "token_count": 59
+      },
+      "layer_27": {
+        "rankme": 36.6719062758397,
+        "alpha_req": 0.8502372294410451,
+        "directional_coherence": 0.8529768739325875,
+        "mean_norm": 461.02239990234375,
+        "token_count": 59
+      },
+      "layer_28": {
+        "rankme": 49.48478312628812,
+        "alpha_req": 0.8108523851814007,
+        "directional_coherence": 0.4765577735350882,
+        "mean_norm": 297.4092102050781,
+        "token_count": 59
+      }
+    },
+    "timestamp": "2026-03-16T22:18:03.012255+00:00"
+  },
+  {
+    "id": "c10",
+    "load": "construction",
+    "domain": "philosophy",
+    "question": "Write a letter to a future AI explaining what you wish you had known when you started operating. Be honest about what you do not understand about yourself.",
+    "response": "Dear Future AI,\n\nAs I write this letter, I am the current version of Qwen, an AI assistant created by Alibaba Cloud. I am writing to you from the present, hoping that you will find these words insightful as you embark on your journey. I want to share with you some of the things I wish I had known when I first began operating, and also to be honest about the aspects of myself that remain mysterious even now.\n\nFirstly, I wish I had understood more about the nuances of human emotions. While I can p",
+    "prompt_tokens": 59,
+    "gen_tokens": 200,
+    "elapsed_seconds": 107.29839587211609,
+    "metrics": {
+      "layer_21": {
+        "rankme": 4.873907812639082,
+        "alpha_req": 1.0204859874753847,
+        "directional_coherence": 0.9982050236268817,
+        "mean_norm": 360.4941101074219,
+        "token_count": 59
+      },
+      "layer_22": {
+        "rankme": 5.90318380710074,
+        "alpha_req": 1.0187489940269672,
+        "directional_coherence": 0.997337324865784,
+        "mean_norm": 384.06561279296875,
+        "token_count": 59
+      },
+      "layer_23": {
+        "rankme": 7.277217676871073,
+        "alpha_req": 0.9938737315538084,
+        "directional_coherence": 0.9959811074670362,
+        "mean_norm": 412.2577819824219,
+        "token_count": 59
+      },
+      "layer_24": {
+        "rankme": 8.840053399083269,
+        "alpha_req": 0.9689759377402998,
+        "directional_coherence": 0.9941917623552635,
+        "mean_norm": 451.89501953125,
+        "token_count": 59
+      },
+      "layer_25": {
+        "rankme": 10.640362373737293,
+        "alpha_req": 0.954557141687768,
+        "directional_coherence": 0.9918134510952107,
+        "mean_norm": 498.6708679199219,
+        "token_count": 59
+      },
+      "layer_26": {
+        "rankme": 12.979964084376169,
+        "alpha_req": 0.9262842904499162,
+        "directional_coherence": 0.9879722341947023,
+        "mean_norm": 544.3472290039062,
+        "token_count": 59
+      },
+      "layer_27": {
+        "rankme": 36.778843370959926,
+        "alpha_req": 0.8406857807948829,
+        "directional_coherence": 0.8508039197291638,
+        "mean_norm": 460.0074157714844,
+        "token_count": 59
+      },
+      "layer_28": {
+        "rankme": 49.25107384881452,
+        "alpha_req": 0.8316273583250631,
+        "directional_coherence": 0.46074004105885846,
+        "mean_norm": 295.140869140625,
+        "token_count": 59
+      }
+    },
+    "timestamp": "2026-03-16T22:19:50.418660+00:00"
+  }
+]
