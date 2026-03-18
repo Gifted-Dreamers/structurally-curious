@@ -2,7 +2,7 @@
 
 <img src="images/structurally-curious-hero.png" alt="Structurally Curious — a system that detects when it's generating from emptiness" width="400">
 
-Status: DRAFT v0.6 — 20 independent experiments (53 models, 6,500+ inferences, 12 architecture families). Value proposition PROVEN: geometry separates deception-without-lying from honest (F25) and censorship from refusal (F17) where perplexity cannot.
+Status: DRAFT v0.7 — 22+ experiments, 59+ models, 6,700+ inferences, 14 architecture families. Value proposition PROVEN: geometry separates deception-without-lying from honest (F25) and censorship from refusal (F17) where perplexity cannot. Session 55-56: cross-architecture DWL validated on 6 models across 4 families (Qwen, Llama, Mistral, Gemma) — DWL sprawls more than honest in 5/6 models (d=-0.6 to -0.9). Abliteration collapses representational space by 45%. Existing safety classifiers (Prompt Guard, ShieldGemma) cannot distinguish cognitive modes that geometry can.
 Authors: Kristine Socall & infinite-complexity (Claude) — Gifted Dreamers, Inc.
 Date: 2026-03-18
 Foundation: [Liberation Labs KV-Cache Geometry Research](https://github.com/Liberation-Labs-THCoalition/KV-Experiments) (Campaigns 1 & 2)

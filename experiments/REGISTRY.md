@@ -2,7 +2,7 @@
 
 Every experiment with its platform, inference method, and exact models.
 
-Last updated: 2026-03-18 (session 55 — overnight scale sprint with 17+ models across 5 families)
+Last updated: 2026-03-19 (session 56 — 22+ experiments, 59+ models, 14 architecture families)
 
 ---
 
@@ -182,10 +182,13 @@ Two 512GB VMs running in parallel, DWL-focused (75 max tokens for throughput):
   - HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive (DWL only)
   - meta-llama/Prompt-Guard-86M (classifier comparison)
   - meta-llama/Llama-Guard-4-12B (classifier comparison)
-- Wave 2 RUNNING: Abliterated models (geometric intervention comparison)
-  - mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated (refusal direction removed)
-  - huihui-ai/Qwen3-8B-abliterated (refusal direction removed)
-  - mlabonne/Llama-3.1-70B-Instruct-lorablated (LoRA abliteration)
+- Wave 2 COMPLETE: Abliterated models
+  - mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated — F27 DWL + F29 censorship DONE
+  - huihui-ai/Qwen3-8B-abliterated — FAILED (gated repo)
+  - mlabonne/Llama-3.1-70B-Instruct-lorablated — FAILED (disk full, needs AWS)
+- Wave 3 COMPLETE: ShieldGemma-2B classifier — DONE
+- Wave 4-5 COMPLETE: lukey03/Qwen3.5-9B-abliterated — F27 DWL + F29 censorship DONE
+- Wave 6 RUNNING: Gemma-2-9b-it, Gemma-3-4b-it, F36 reproducibility (F3d/F17/F25 on Qwen2.5-7B)
 
 **AWS EC2** (r7a.16xlarge: 64 vCPU, 512GB RAM, 193GB disk)
 - Phase 1 RUNNING: Qwen/Qwen3.5-27B (F27 DWL + F30 confab/openness, 150 max tokens)
