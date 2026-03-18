@@ -33,7 +33,7 @@ Nobody has connected them into a system that acts on the geometry.
 
 ## First Evidence of the Bridge (Session 21, 2026-03-10)
 
-Experiment 03 provides the first statistical evidence connecting behavioral measurement to geometric state. Phrasing sensitivity (how much a model's output changes when the same question is rephrased — a cheap, API-only behavioral test) correlates with directional coherence in hidden representations (r=+0.523, p=0.018 on Qwen 2.5 1.5B). This means the behavioral proxy works: you can estimate geometric state from output behavior alone, without extracting hidden states. The bridge between Hazel's behavioral observations and Liberation Labs' geometric measurements has its first confirmed link.
+Experiment 03 provides the first statistical evidence connecting behavioral measurement to geometric state. Phrasing sensitivity (how much a model's output changes when the same question is rephrased — a cheap, API-only behavioral test) correlates with directional coherence in hidden representations (r=+0.523, p=0.018 on Qwen 2.5 1.5B). **Update (session 50, F1-partial): this bridge does NOT hold at 7B scale.** At Qwen 2.5 7B, the correlation drops to r=-0.30 (p=0.19, not significant). The behavioral proxy indexes geometry at small scale but not at larger scale — the two measurements diverge as representational capacity increases. The behavioral findings (Exp 01, 02a, 05) remain independently valid. The geometric findings (F3d, F11) remain independently valid. But they measure different things at 7B and cannot be cheaply bridged.
 
 ## Behavioral Replication: Phrasing Sensitivity Measured From Inside (Session 49, 2026-03-16)
 
