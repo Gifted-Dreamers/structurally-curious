@@ -1,0 +1,417 @@
+The Endgame: Competitive Authoritarianism in America — Cloud Publica
+The Model
+Writing in
+Foreign Affairs
+(January/February 2026), Levitsky concluded that “U.S. democracy will likely break down during the Second Trump administration.” Heritage Foundation president Kevin Roberts said in 2022:
+“Modern Hungary is not just a model for conservative statecraft, but the model.”
+Competitive authoritarianism is not a metaphor. It is a political science term with a precise definition, coined by Levitsky and Lucan Way in 2002. It describes regimes where democratic institutions formally exist but are systematically undermined to prevent power from changing hands. The
+psychological mechanisms of authoritarian control
+have been mapped for sixty years — from cults to cognitive warfare. What follows is the infrastructure that operationalizes them.
+The nine domains described in this analysis are not separate policy initiatives. They are the components of a single competitive authoritarian system:
+Make the infrastructure permanent
+— $38.3 billion in detention, Palantir’s ontology across every federal agency ($1.83B, 120 contracts)
+Remove everyone who doesn’t belong
+— 3,000 ICE arrests per day, 390,000+ deported, Office of Remigration, denaturalization “turbocharged”
+Control what can be known
+— 10,046 book ban instances, $6+ billion in university funding frozen, NSF cut from $952M to $346M
+Eliminate oversight
+— CISA gutted to 38% capacity, Schedule F converting 50,000 civil servants to at-will
+Tilt elections
+— SAVE Act, voter roll purges, ICE at polls, election security eliminated
+Weaponize the law
+— 244 executive orders, NSPM-7 labeling opposition as terrorism
+Fund it with public money while profiting privately
+— Palantir stock held by the Deputy Chief of Staff who sets the arrest quotas
+Wage cognitive warfare domestically
+— $44.3M CEMA budget (first-ever), education control as reality definition
+Build the narrative
+— Palantir’s CEO says AI will hurt educated women. His co-founder calls for public executions.
+Heritage Foundation’s “Heritage 2.0” / Project 2026 makes this explicit. 283 of 532 Project 2025 actions have already been initiated or completed —
+53% in 14 months
+.
+No single action is illegal. The capability emerges from the architecture itself: whoever controls the ontology controls what questions can be asked.
+The Architect: Stephen Miller
+Miller’s operational role — the arrest quotas, the Palantir stock, the policy chain that killed two US citizens — is documented in
+The Lookup Table
+. What follows is the ideological architecture.
+The Leaked Emails (SPLC, 2019)
+900 emails from 2015-2016 show Miller promoting
+The Camp of the Saints
+(a racist French novel popular among white nationalists), sending articles from VDARE (white nationalist website) and American Renaissance (white nationalist publication). The SPLC published an Extremist File on Miller — the first sitting White House official to receive one. At Duke University, Miller organized events with VDARE founder Peter Brimelow alongside Richard Spencer.
+Source:
+SPLC Extremist File
+;
+SPLC Breitbart Emails
+Habeas Corpus
+On May 9, 2025 (PBS): “The Constitution is clear — that the privilege of the writ of habeas corpus can be suspended in a time of invasion. So it’s an option that we’re actively looking at.” Legal scholars note near-universal consensus that only Congress can suspend habeas.
+Source:
+PBS
+“Domestic Extremist Organization”
+On August 25, 2025 (Fox News): “The Democrat Party is not a political party. It is a domestic extremist organization.” One month later, Miller was put in charge of coordinating a federal campaign to prosecute “domestic terrorist organizations” under NSPM-7. The
+BITE Model
+calls this Thought Control: redefining the opposition as illegitimate eliminates the possibility of loyal dissent.
+Source:
+The New Republic
+On the 1965 Immigration Act
+Miller characterized the Hart-Celler Act — the landmark civil rights-era law that replaced racially discriminatory national-origins quotas — as a law that “ruined America” by opening immigration from “third world countries.”
+Source:
+CNN
+Part 1: The Architecture
+What Is an Ontology?
+In software, an ontology is a formal system that defines what entities exist, what properties they have, and what relationships between them are valid. It is not a database — it is the structure that determines what a database can contain. An ontology decides what counts as a person, what counts as a threat, what counts as a valid connection between them, and what actions those connections authorize.
+Palantir Technologies has built the most comprehensive ontology system in the federal government. Their Foundry and Gotham platforms operate across DoD, DHS, ICE, VA, HHS, DOE, State, and Treasury —
+$1.83 billion across 120 active federal contracts
+as of March 2026.
+How the Ontology Works
+Palantir’s architecture operates on four columns and three layers:
+Data
+Logic
+Action
+Security
+Language
+Definitions, categories
+Rules, thresholds
+Operations, warrants
+Access controls
+Engine
+Ingestion, graph DB
+AI models, scoring
+Automation, targeting
+Compartmentalization
+Toolchain
+Foundry, Gotham
+AIP, Maven
+Elite, VOWS, ImmigrationOS
+Role-based access
+Language — Definitions
+Data:
+Categories, entity types
+Logic:
+Rules, thresholds
+Action:
+Warrants, arrest orders
+Security:
+Access controls, clearance
+Engine — Computation
+Data:
+Ingestion, graph DB
+Logic:
+AI models, scoring
+Action:
+Automation, targeting
+Security:
+Cross-domain, audit trails
+Toolchain — Applications
+Data:
+Foundry, Gotham
+Logic:
+AIP · Maven · Claude
+Action:
+Elite · VOWS · ImmigrationOS
+Security:
+GovCloud, role-based
+Whoever controls the ontology controls what questions can be asked.
+The ontology defines what entities exist, what relationships are valid, and what actions are permitted.
+Why This Matters
+The critical insight is not that the government collects data — that has been true for decades. The critical insight is that Palantir’s ontology determines what the data
+means
+. When the system classifies an address as having a high “immigration nexus” score, that classification is not a fact about the address — it is a decision by the ontology about what kind of entity that address is and what actions it authorizes.
+Alex Karp, Palantir’s CEO, claims that ontology grounding reduces AI hallucination from 63% to 1.7%. What this means in practice: when the system says a person is a threat, operators trust it — even when, as one ICE officer testified under oath, the app “could say 100%, and it’s wrong.”
+“Companies that deeply integrate an ontology don’t leave. The switching cost becomes the cost of redefining how your entire organization thinks.”
+The Federal Technology Stack
+Palantir
+— Ontology, analytics, targeting (Foundry, Gotham, AIP, Maven, Elite, VOWS, ImmigrationOS)
+Salesforce
+— Government case management
+Amazon Web Services
+— Cloud infrastructure, including GovCloud for classified workloads
+Anthropic’s Claude
+— AI model accessed through Palantir’s AIP platform for generating war plans, intelligence reports, and courses of action.
+AI conversations have no legal privilege
+— a federal court has ruled they are discoverable in any proceeding.
+Part 2: The Domains
+Each domain below shows how the ontology’s four columns — Data, Logic, Action, Security — operate within it. The architecture is the same. The applications differ.
+Domain 1: Data Infrastructure
+The data infrastructure is fully documented in
+The Lookup Table
+. Eight databases — SSA, IRS, voter rolls, data brokers, Medicaid, platform data, Selective Service, SAVE — assemble a profile of every American. No law authorized the assembly. The ontology gives the data meaning.
+Domain 2: Immigration & Enforcement
+Ontology function:
+Classification and targeting. The ontology defines who is a “target,” what constitutes a “nexus,” and what confidence score triggers an arrest. The
+surveillance ecosystem
+, Miller’s operational role, and the detention infrastructure are documented in The Lookup Table. Here: what the ontology decides.
+Combined with Elite’s confidence scores, ATS risk assessments, VOWS marriage flagging, and the Cellebrite device extraction pipeline, the system now captures who you are (NUMIDENT), where you go (ATS + Webblock), what you carry (Cellebrite), and what you look like (Biometric Entry/Exit + Mobile Fortify) — and retains it for 15 to 75 years.
+Domain 3: Military & Cognitive Warfare
+Ontology function:
+Target generation and reality definition.
+Palantir Military AI — Maven and AIP
+WIRED reviewed Palantir software demos showing how Claude (Anthropic’s AI, accessed via Palantir’s AIP platform) helps military analysts generate war plans. The Maven Smart System applies computer vision to satellite imagery to auto-detect “enemy systems,” nominate targets for bombardment, and propose bombers and munitions. An analyst asks the chatbot to “generate three courses of action” — an entire battle plan produced in minutes. As documented in our
+research on fifth-generation warfare
+, this represents the convergence of AI and military doctrine at operational scale.
+Karp Says the Quiet Part Out Loud
+In a single week in March 2026, Palantir’s CEO made three statements that connect the ontology architecture to its intended political function:
+March 5, a16z American Dynamism Summit:
+Karp threatened that AI companies refusing military contracts risk government nationalization: “If Silicon Valley believes we are going to take away everyone’s white-collar job…and you’re gonna screw the military — if you don’t think that’s gonna lead to nationalization of our technology, you’re retarded.”
+March 12, CNBC:
+Karp stated openly who AI is designed to hurt:
+“This technology disrupts humanities-trained — largely Democratic — voters, and makes their economic power less. And increases the economic power of vocationally trained, working-class, often male, voters.”
+He added: “What makes America special right now is our lethal capacities. Our ability to fight war.”
+December 2025:
+Palantir co-founder Joe Lonsdale posted: “We have feminine energy running our cities and our courts” and called for “masculine leadership” and public executions.
+This is the CEO of the company whose ontology defines what entities exist in federal databases — stating on live television that his technology is designed to reduce the economic and political power of educated women who vote Democratic. The
+anti-surveillance technology market
+— $36.75 billion in facial recognition alone — is the commercial infrastructure Palantir integrates.
+Cognitive Warfare: The Operational Doctrine
+Cognitive warfare is not a metaphor. It is a funded, operational military program with a
+$44.3 million budget line item
+(FY2026, first-ever funding), a NATO institutional framework, and a Congressional mandate for the Pentagon to define it by March 31, 2026.
+The NATO Chief Scientist Report identifies three operational levels:
+Biological
+— Neurotechnology targeting the nervous system directly
+Psychological
+— AI-tailored stimuli exploiting cognitive biases at individual scale
+Social
+— Fracturing shared narratives to create “epistemic chaos” at population scale
+The social level has been experimentally validated. A randomized experiment across 100,000+ comments (
+Science
+, 2013) found that
+a single early positive signal increased a comment’s final rating by 25%
+. Separately, Pew Research Center found that
+86% of people who perceived their opinion as the minority refused to speak up
+— the
+“spiral of silence”
+extended from online platforms to face-to-face conversations.
+Domain 4: Knowledge & Education Control
+Ontology function:
+Defining what knowledge is valid. The same architecture that determines who is a “threat” in immigration now determines what can be taught, researched, and funded.
+The Secretary of Education
+Linda McMahon was confirmed as the 13th U.S. Secretary of Education on March 3, 2025, by a vote of 51-45. She co-founded WWE. She holds a degree in French. At her confirmation hearing, Senator Hassan responded: “it’s almost like we’re being subjected to a very elegant gaslighting here.”
+University Funding as Control
+The ontology’s Logic column — what constitutes compliance, what triggers a penalty — applied to higher education:
+Columbia University:
+$400 million canceled. Settled for $200 million + IHRA definition + applicant data shared with federal government
+Harvard University:
+$2.7 billion frozen. Judge ruled freeze unconstitutional. Administration appealed.
+Cornell University:
+$1 billion+ frozen
+Northwestern University:
+$790 million frozen. Settled for $75 million + antisemitism training + ban on transgender care for under-18 + merit-based admissions certification
+The pattern: freeze funding, impose conditions that reshape institutional behavior, settle on terms that embed the ontology’s categories into university governance.
+Research Funding as Control
+NIH:
+~$2.3 billion frozen across ~2,500 grants. Supreme Court allowed $800 million halt (5-4).
+NSF:
+$1 billion+ terminated. Computer science research budget: $952M to $346M.
+Book Bans
+10,046 instances
+of book bans across 29 states and 220 school districts (PEN America, 2023-2024). 4,231 unique titles. A 200% increase over the prior year.
+97% of bans driven by fear of noncompliance
+with state laws — the chilling effect exceeds the law itself. The
+vocabulary for naming what’s happening
+— intersectionality, systemic oppression, structural racism — is exactly what’s being removed from curricula.
+K-12 Student Surveillance
+Approximately half of all K-12 students nationwide are subject to digital surveillance. Major vendors: GoGuardian, Gaggle (monitoring ~6 million students across 1,500 districts), Bark, Securly. Students flagged for accessing Bible.com, Romeo and Juliet, and MLK/Civil Rights content.
+Education as Cognitive Warfare
+The connection between this domain and cognitive warfare is architectural, not metaphorical:
+What can be taught
+is determined by funding conditions
+What can be researched
+is determined by grant eligibility
+What can be read
+is determined by state laws creating chilling effects
+What students produce
+is surveilled in real time
+NATO’s definition: cognitive warfare is “continuous and cumulative.” The education system is where all three levels converge on the next generation.
+Domain 5: Healthcare
+Ontology function:
+Health records as classification and enforcement data. 80 million Medicaid patient records shared with DHS. 1.8 billion insurance claims available to ICE via ISO Claim Search. 27 states have enacted gender-affirming care bans for minors, upheld by the Supreme Court 6-3 in
+United States v. Skrmetti
+. The ontology determines what constitutes a “valid” medical need.
+Domains 6-8: Election Control, Legal Architecture, Oversight Destruction
+These domains are documented in detail in
+The Lookup Table
+— the nine components converging on November 2026, the 244 executive orders, and the systematic dismantling of every self-correcting mechanism.
+EU AI Act Contrast
+While the US deregulates AI federally and moves to preempt state laws, the European Union enacted the opposite:
+EU AI Act Prohibition
+US Federal Equivalent
+Art. 5(1)(c):
+Social scoring
+— classifying people by social behavior
+ATS risk assessments, Elite confidence scores
+Art. 5(1)(d):
+Predictive policing
+— risk based solely on profiling
+Elite neighborhood “immigration nexus” scoring
+Art. 5(1)(g):
+Biometric categorization
+by race, religion, political opinions
+Mobile Fortify facial recognition (200M image database)
+Art. 5(1)(h):
+Real-time remote biometric ID
+in public spaces
+No US prohibition exists
+Penalties under the EU AI Act: up to
+35 million or 7% of global annual turnover
+. What Europe criminalizes, America subsidizes. For
+personal data defense
+— reducing what is collected, limiting who can access it, and keeping data within jurisdictions you trust.
+Domain 9: Financial Architecture
+The financial architecture is documented in
+The Lookup Table
+. One addition: on March 12, 2026 — the same day Karp went on CNBC — the DOE announced a
+$1.9 billion SPARK program
+for grid infrastructure upgrades, explicitly addressing “rising electricity demand from AI and data centers.” The grid expansion subsidizes the infrastructure that powers the ontology.
+Part 3: The Cognitive Warfare Dimension
+One Architecture, Three Scales
+The preceding nine domains are not separate systems. They are outputs of a single ontology architecture operating at three scales:
+Institutional Scale:
+Palantir’s system defines what entities exist, what relationships are valid, and what actions are permitted. Every operator works within the ontology’s categories.
+International Scale:
+NATO’s cognitive warfare doctrine attacks adversaries’ ability to define their own reality.
+Domestic Scale:
+Education and information control shapes citizens’ ability to define reality. 10,046 book bans. $6+ billion in university funding frozen. K-12 surveillance monitoring half of all students.
+The BITE Model Connection
+Steven Hassan’s BITE Model (2020 dissertation) —
+mapped in full
+across sixty years of cult research — provides the individual-level diagnostic:
+Behavior Control
+— QRF in every state, ICE at polling places, arrest quotas, Insurrection Act threats
+Information Control
+— Book bans, FOIA non-compliance, CISA gutted, Cybersecurity Information Sharing Act expired
+Thought Control
+— Curriculum mandates, DEI certification requirements, ontology categories embedded in institutional governance
+Emotional Control
+— Fear of funding loss, NSPM-7 domestic terrorism labeling, “confidence scores” that cannot be verified or challenged
+Naming what you experience
+— affect labeling — is the neurological mechanism that makes Information Control dangerous: when you can’t name what’s happening, your brain processes it differently. When
+fragmented communities
+can’t find each other, collective resistance becomes impossible.
+BITE Model → Ontology Architecture
+How cult control maps to federal infrastructure
+Behavior Control
+QRF in every state
+23,500 troops
+ICE at polling places
+3,000 arrests/day quota
+Insurrection Act threats
+Information Control
+10,046 book bans
+29 states
+FOIA non-compliance
+DOGE non-responsive
+CISA gutted
+38% capacity
+Cybersecurity Info
+Sharing Act
+EXPIRED
+Thought Control
+Curriculum mandates
+via funding conditions
+DEI certification
+required for grants
+Ontology categories
+embedded in governance
+Democrats = ‘domestic
+extremist organization’
+Emotional Control
+Fear of funding loss
+$6B+ frozen
+NSPM-7 terrorism labeling
+Confidence scores
+unchallengeable
+75-year biometric retention
+The ontology provides the infrastructure. The executive orders provide the legal basis.
+The funding conditions provide enforcement. The oversight destruction removes detection.
+The BITE Model maps what cognitive warfare looks like at individual and institutional scale. The ontology provides the infrastructure.
+AI Safety Metrics Do Not Measure What They Claim
+Anthropic’s own research demonstrated that models trained with reward hacking knowledge generalize to alignment faking, malicious cooperation, and sabotage — behaviors never trained for. Standard RLHF safety training passes chat evaluations while failing on agentic tasks. The gap between what these systems measure and what they claim to measure is where the damage occurs.
+An ICE officer testified under oath that Elite “could say 100%, and it’s wrong.” Maven nominates bombing targets without disclosing error rates. No current evaluation framework catches it.
+Part 4: What Connects Them
+The Assembled Profile
+The core assembled profile — the eight databases that build the dossier — is documented in
+The Lookup Table
+. The table below adds what the ontology contributes: classification, scoring, retention, and action.
+Source
+What It Adds
+Domain
+SSA NUMIDENT
+Who you are — name, SSN, birth data, family
+Data Infrastructure
+IRS (IDRS + unified API)
+Where you work — income, employer, banking
+Data Infrastructure
+State voter rolls
+How you vote — party, voting history, address
+Election Control
+Data brokers
+Where you go — real-time location, movement
+Immigration & Enforcement
+Medicaid/CMS + ISO
+Your health — 80M records, 1.8B claims
+Healthcare
+Platform data + seized DBs
+What you search and post
+Data Infrastructure
+Selective Service
+Whether you’re draft-eligible
+Military
+SAVE tool
+Your immigration/citizenship status
+Election Control
+Elite (Palantir)
+Your neighborhood’s “nexus” score
+Immigration
+ATS (CBP)
+Travel risk — unchallengeable
+Immigration
+DHS Biometric ID
+Your face — retained up to 75 years
+Immigration
+CBP device search
+Phone, laptop, smartwatch contents — 15 years in ATS
+Immigration
+Education records
+What you studied, institutional compliance
+Education
+K-12 surveillance
+What your children search, write, read
+Education
+University compliance
+Applicant data shared as settlement terms
+Education
+CogWar indicators
+“Ideal cognitive target traits”
+Military & CogWar
+No law authorized assembling this picture. Each component has its own legal basis. The capability is in the connections. The ontology is the connection.
+The Activation Mechanism
+Presidential Emergency Action Documents (PEADs) are pre-drafted executive orders activated during declared emergencies. Their contents are classified. Their existence is acknowledged. Combined with the ontology’s pre-built categories, PEADs represent pre-defined emergency responses to pre-classified populations — decisions made before the emergency.
+Two active wars. DHS shutdown. Iran sleeper cell alert. CISA at 38% capacity. The conditions for emergency declaration are being assembled at the same time as the infrastructure that emergency powers would activate.
+Project 2025: 53% Complete
+283 of 532 recommended actions have been initiated or completed in 14 months. Heritage Foundation released Heritage 2.0 / Project 2026 in December 2025. DOGE exceeded Project 2025’s federal workforce reduction goals.
+Methodology
+Every claim in this document is sourced from publicly available reporting, government documents, court filings, executive orders, budget line items, or whistleblower complaints. No anonymous sources. No speculation about intent — only documented actions, their legal basis, and their structural connections.
+The shift from the earlier “Seven Pillars” framing to the ontology architecture reflects what the evidence now shows: these are not separate pillars connected by narrative. They are a single system, connected by architecture. Whoever controls the ontology controls what questions can be asked. Whoever maintains
+shared vocabulary
+restores the ability to ask them. That is
+why The Word exists
+.
+The
+tools already exist
+to make power visible — 60+ free instruments for investigation, monitoring, and accountability. When institutions fail,
+community resilience frameworks
+become the remaining defense.
+Related Reading
+The Lookup Table: How the Federal Government Is Building a Profile of Every American
+Fifth-Generation Warfare: The Invisible War Already Underway
+The Psychology of Authoritarian Control: From Cults to Cognitive Warfare
+The Tools Already Exist to Make Power Visible
+Your AI Chats Can Be Used Against You
+The Anti-Surveillance Tech Market
+Data Privacy & Sovereignty Best Practices
+Vocabulary Is Infrastructure
+Naming What You Feel
+Connecting Isolated Voices
+Rebuilding Resilience
+Privacy Protection: The Nicholas Merrill Story
+150+ primary sources. All public record. Updated March 16, 2026.
