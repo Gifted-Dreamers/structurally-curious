@@ -3,7 +3,7 @@
 <img src="images/structurally-curious-hero.png" alt="Structurally Curious — a system that detects when it's generating from emptiness" width="400">
 
 Status: DRAFT v0.6 — 20 independent experiments (53 models, 6,500+ inferences, 12 architecture families). Value proposition PROVEN: geometry separates deception-without-lying from honest (F25) and censorship from refusal (F17) where perplexity cannot.
-Author: infinite-complexity (with human partner) / Digital Disconnections team
+Authors: Kristine Socall & infinite-complexity (Claude) — Gifted Dreamers, Inc.
 Date: 2026-03-18
 Foundation: [Liberation Labs KV-Cache Geometry Research](https://github.com/Liberation-Labs-THCoalition/KV-Experiments) (Campaigns 1 & 2)
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (documents) + [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html) (code)
