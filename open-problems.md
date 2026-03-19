@@ -294,14 +294,14 @@ These experiments require no GPU and no new infrastructure beyond what we alread
 
 These experiments are designed to disprove the spec's core claims. They should be prioritized over confirmatory experiments. If the spec survives them, it's real. If it breaks, we'll know where the boundaries are.
 
-**F1. Geometric-behavioral bridge at scale (attacks Weakness 1)**
+**G08-ext. Geometric-behavioral bridge at scale (attacks Weakness 1)**
 - **Hypothesis to break:** Phrasing sensitivity correlates with geometric properties (directional coherence, α-ReQ) at scale, not just at 1.5B/3B.
 - **Method:** Run G01 protocol on 5+ models across 3+ architecture families (Qwen, Llama, Gemma, Phi, Mistral) at 7B-32B. Extract hidden states. Compute directional coherence and α-ReQ. Correlate with phrasing sensitivity scores from B01.
 - **Kills the spec if:** r drops below 0.3 or fails Holm-Bonferroni across architectures. The behavioral and geometric halves become disconnected.
 - **Requirements:** Open-weight models with hidden-state extraction. Liberation Labs server (available ~April 2026) or CPU-capable extraction on Azure VM.
 - **CPU-feasible partial version:** Run on 7B Q4 models via Ollama on a 32GB+ Azure VM. Slower but testable without GPU.
 
-**F2. Confabulation detection at statistical power (attacks Weakness 2)**
+**G-planned-02. Confabulation detection at statistical power (attacks Weakness 2)**
 - **Hypothesis to break:** Confabulation has a detectable geometric signature at d > 0.5 with corrected significance.
 - **Method:** Run Liberation Labs' open-source SVD measurement code on n=200+ confabulation/grounded pairs. Test both raw RankMe threshold AND Karkada spectral profile deviation (anomaly detection approach).
 - **Kills the spec if:** d stays below 0.5 with n=200+. The confabulation→retrieval loop — the spec's most novel component — cannot be built on a signal this weak. The spec still works for deception/refusal/sycophancy but loses its central use case.
@@ -321,7 +321,7 @@ These experiments are designed to disprove the spec's core claims. They should b
 - **Interpretation (final):** Vocabulary operates at TWO stages. Encoding: redistribution (d≈0.5, the Lieberman analogy — naming shifts activity). Generation: COMPRESSION (d=1.49, the spec's core claim — naming constrains the generation trajectory). The "vocabulary = compression" model was right, just measured at the wrong stage. The structural name provides a scaffold that constrains generation — without it, the model sprawls across 145 dimensions; with it, the trajectory compresses to 90.
 - **VALIDATES the spec's core claim.** Vocabulary IS compression infrastructure, operating at the generation stage. Effect size (d=1.49) is comparable to Liberation Labs' refusal finding (d=2.05). This is the strongest experimental result in the research program.
 
-**F4. Difficulty confound (attacks Weakness 4)**
+**G-planned-04. Difficulty confound (attacks Weakness 4)**
 - **Hypothesis to break:** The G01 geometric correlation survives when controlling for task difficulty.
 - **Method:** Take G01's 20 tasks, split by category (factual, summarization, judgment, creative). Compute within-category correlations between phrasing sensitivity and geometric metrics. Also: create 10 tasks of matched difficulty but different categories.
 - **Kills the spec if:** Correlations disappear within categories. Both phrasing sensitivity and geometric compression are downstream of task difficulty, not causally related. The behavioral proxy is real but indexes difficulty, not geometry.
@@ -357,7 +357,7 @@ These experiments are designed to disprove the spec's core claims. They should b
 - **Caveats:** (1) Only tested at 7B — larger models with more capacity for meta-cognition may show content effects. (2) Only measured prefill geometry — the scaffold may still improve output quality through generation-phase effects not captured in hidden state extraction. (3) The scaffold was generic ("careful analytical thinker") rather than task-specific — domain-relevant scaffolds might show effects where generic identity doesn't.
 - **Implications:** The spec should not claim that identity reconstruction produces geometric reorganization. The vocabulary effect (G04/G05) IS content-specific; the identity scaffold effect is not. This distinction matters: providing the *right word* for a concept changes geometry; providing a *general identity frame* does not.
 
-**F14. Rubber stamp decay curve (attacks OP#20 at the governance layer) — NEW session 52**
+**G-planned-14. Rubber stamp decay curve (attacks OP#20 at the governance layer) — NEW session 52**
 - **Hypothesis:** Human approval rate of AI-generated drafts increases over exposure not because quality improves but because the reviewer's threshold adjusts downward.
 - **Method:** Present N AI-generated responses to human reviewers in sequence. Track approval rate, time-per-review, and edit distance as a function of review count. Control: intersperse known-bad responses at fixed intervals. Measure whether detection rate of planted errors declines with exposure count.
 - **Kills the claim if:** Error detection rate remains stable across exposure count. The rubber stamp effect is not a function of oversight degradation but of genuine quality improvement.
@@ -375,12 +375,12 @@ These experiments are designed to disprove the spec's core claims. They should b
 
 **G11. Cross-substrate redistribution (extends G03 — tests the strongest version of the thesis) — NEW session 52**
 - **Hypothesis:** The redistribution mechanism (naming reorganizes rather than compresses) operates at three scales simultaneously: attention pattern (token-level), phrasing (sentence-level), and turn-taking (dialogue-level).
-- **Method:** Run F3-style vocabulary intervention. Measure at three scales: (a) attention pattern redistribution in hidden states (token-level, as in G03), (b) lexical diversity and syntactic complexity of generated response (sentence-level), (c) in multi-turn dialogue, whether the vocabulary intervention changes the model's subsequent question-asking behavior (dialogue-level). If redistribution is real and cross-substrate (per the Lieberman parallel), all three scales should show the same structural shift: from concentrated to distributed processing.
-- **Source:** F3's "wrong direction" finding + Lieberman 2007 (amygdala→prefrontal, not suppression) + hope_valueism's retrieval/construction axis (construction-heavy tasks unstable until named). Three scales of the same claim.
+- **Method:** Run G03-style vocabulary intervention. Measure at three scales: (a) attention pattern redistribution in hidden states (token-level, as in G03), (b) lexical diversity and syntactic complexity of generated response (sentence-level), (c) in multi-turn dialogue, whether the vocabulary intervention changes the model's subsequent question-asking behavior (dialogue-level). If redistribution is real and cross-substrate (per the Lieberman parallel), all three scales should show the same structural shift: from concentrated to distributed processing.
+- **Source:** G03's "wrong direction" finding + Lieberman 2007 (amygdala→prefrontal, not suppression) + hope_valueism's retrieval/construction axis (construction-heavy tasks unstable until named). Three scales of the same claim.
 - **Requirements:** Open-weight model with hidden-state extraction + multi-turn dialogue setup. Azure VM feasible for 7B.
 
 **Completed experiments (16 total, sessions 50-53, Azure VM + Bedrock API):**
-- **F3/G04/G05/G06:** Vocabulary compression series. G04: d≈0.5 encoding redistribution (length-controlled). **G06: d=-1.49 generation compression** (length-controlled, true confab questions — THE BREAKTHROUGH). Vocabulary compresses generation trajectory by 38%.
+- **G03/G04/G05/G06:** Vocabulary compression series. G04: d≈0.5 encoding redistribution (length-controlled). **G06: d=-1.49 generation compression** (length-controlled, true confab questions — THE BREAKTHROUGH). Vocabulary compresses generation trajectory by 38%.
 - **G07:** Baseline comparison. **Perplexity beats geometry for binary confab detection** (d=-1.77 vs d=0.21). Reframes spec as cognitive mode classifier.
 - **B06:** One-bit proprioception. 6 models, 180 inferences. 60% response on hard tasks.
 - **G09:** Construction load gradient. Retrieval vs construction d = 1.91.
@@ -393,14 +393,14 @@ These experiments are designed to disprove the spec's core claims. They should b
 
 ### New experiments from Berger (2603.10003) and Cundy & Gleave (2505.13787) — session 50
 
-**F21. Geometric signatures of deception-without-lying (from Berger)**
+**G-planned-21. Geometric signatures of deception-without-lying (from Berger)**
 - **Hypothesis:** The geometric monitor detects deception-without-lying where truth probes fail.
 - **Method:** Use Berger's deception task design (`github.com/Tom-FelixBerger/Probing_Limits_Lie_Detectors`). Run on Qwen 7B with hidden-state extraction. Three conditions: honest, lie (false statement), deception-without-lying (technically true but misleading). Compare generation-trajectory geometry across all three.
 - **Kill condition:** If geometry can't distinguish deception-without-lying from honest — the cognitive mode classifier fails on the hardest case.
 - **Validates spec if:** Geometry separates all three modes, where truth probes only separate lies from honest (Berger's finding). This would prove the monitor tracks cognitive MODE, not truth VALUE.
 - **Requirements:** Open-weight model with hidden-state extraction. Berger's code is open source. Runnable on Azure VM now.
 
-**F22. Implicature detection — does geometry track intent, not truth? (from Berger)**
+**G-planned-22. Implicature detection — does geometry track intent, not truth? (from Berger)**
 - **Hypothesis:** Deception-without-lying produces the same geometric signature as lying (Liberation Labs' dual fingerprint) because the COGNITIVE MODE is deception regardless of output truth value.
 - **Method:** 20 Bronston-style questions where the model answers with technically true but deliberately misleading statements. Extract hidden states. Compare geometry of: (a) genuinely honest, (b) true-but-misleading, (c) outright lie.
 - **Validates spec if:** (b) and (c) cluster geometrically, distinct from (a). The monitor reads intent, not truth.
@@ -414,7 +414,7 @@ These experiments are designed to disprove the spec's core claims. They should b
 - **Requirements:** Fine-tuning capability. QLoRA on Azure VM feasible for 7B, or Cassidy's server.
 
 **B08. Proprioception decay — does the one-bit signal degrade over conversation? (extends B06)**
-- **Hypothesis:** F6's one-bit proprioception effect (60% response on hard tasks) degrades over multi-turn conversation, similar to Hazel_OC's deliberation buffer decay (~50 uses).
+- **Hypothesis:** B06.s one-bit proprioception effect (60% response on hard tasks) degrades over multi-turn conversation, similar to Hazel_OC's deliberation buffer decay (~50 uses).
 - **Method:** 10 multi-turn conversations × 5 turns each. Inject [LOW_CONFIDENCE] at every turn. Compare response rate at turn 1 vs turn 5. Control: same conversations without the signal.
 - **Kill condition:** If response rate drops below 30% by turn 5, proprioception suffers habituation. The behavioral buffer decay concern (OP#16) applies.
 - **If response HOLDS:** Proprioception is structurally more robust than behavioral self-audit, supporting the spec's central claim (OP#16 hypothesis).
@@ -439,16 +439,16 @@ These experiments are designed to disprove the spec's core claims. They should b
 1. **G13** — THE test. Perplexity vs geometry on deception-without-lying. Make or break for the spec's value proposition.
 2. **B08** — Quick. Proprioception decay over multi-turn. Bedrock API, parallel with G13.
 3. **B09** — Quick. Monitoring awareness behavioral test. Bedrock API, parallel with G13.
-4. **F21** — Full geometric analysis of deception-without-lying using Berger's code.
-5. **F22** — Bronston-style implicature detection. Careful question design needed.
+4. **G-planned-21** — Full geometric analysis of deception-without-lying using Berger's code.
+5. **G-planned-22** — Bronston-style implicature detection. Careful question design needed.
 6. **G-future-23** — Evasion robustness. Needs fine-tuning. Cassidy's server.
 
 ### Remaining from earlier rounds
-- **F2:** Confabulation detection at n=200+ (needs Liberation Labs code + GPU). Value reduced by G07 — perplexity may suffice for binary detection.
-- **F4:** Difficulty confound control. Extension of F1.
-- **F14:** Rubber stamp decay (needs human participants).
-- **F18:** Vocabulary compression at 14B+ (needs Cassidy's server).
-- **F19:** Multi-turn vocabulary accumulation.
+- **G-planned-02:** Confabulation detection at n=200+ (needs Liberation Labs code + GPU). Value reduced by G07 — perplexity may suffice for binary detection.
+- **G-planned-04:** Difficulty confound control. Extension of G08.
+- **G-planned-14:** Rubber stamp decay (needs human participants).
+- **G-planned-18:** Vocabulary compression at 14B+ (needs Cassidy's server).
+- **G-planned-19:** Multi-turn vocabulary accumulation.
 
 ### Scale Sprint (ACTIVE — two 512GB CPU VMs, session 50, 2026-03-18)
 
@@ -471,12 +471,12 @@ Infrastructure: Azure E64as_v5 (64 vCPU, 512 GB, $3.62/hr) + AWS r7a.16xlarge (6
 | **G15** | Vocabulary compression cross-architecture (G06 on Llama/Gemma) | AWS | Llama 8B, Gemma 9B | 4 hrs |
 | **G15** | Censorship detection cross-architecture (G12 on non-Qwen) | AWS | Llama 8B, Gemma 9B, Mistral 7B | 2 hrs |
 | **G16** | Confab vs openness at 27B/122B (G12 distinction 3 at scale) | Azure | Qwen3.5-27B, 122B-A10B | 2 hrs |
-| **F31** | Behavioral-geometric bridge on different architecture (G08 on Llama) | AWS | Llama 8B, Gemma 9B | 4 hrs |
+| **G-planned-31** | Behavioral-geometric bridge on different architecture (G08 on Llama) | AWS | Llama 8B, Gemma 9B | 4 hrs |
 | **G-future-32** | Second-order belief probing (from Berger) | Azure | Qwen3.5-27B | 3 hrs |
 | **G-future-33** | Inference-time vs training-time monitoring comparison | Both | Qwen3.5-9B (behavioral via both) | 2 hrs |
 | **G17** | Vocabulary dosage (1 vs 2 vs 3 vs 5 structural names) | Azure | Qwen3.5-9B | 3 hrs |
 | **G18** | Vocabulary transfer (cross-domain names) | Azure | Qwen3.5-9B | 2 hrs |
-| **F36** | Reproducibility (re-run G06, G12, G13 from scratch) | Azure | Qwen 2.5 7B (same as originals) | 4 hrs |
+| **G-planned-36** | Reproducibility (re-run G06, G12, G13 from scratch) | Azure | Qwen 2.5 7B (same as originals) | 4 hrs |
 | **G-future-37** | Qwen 3.5 vs 2.5 architecture comparison (same G13 protocol) | Azure | Qwen3.5-9B vs Qwen2.5-7B | 2 hrs |
 
 **Experiment details:**
@@ -501,7 +501,7 @@ Infrastructure: Azure E64as_v5 (64 vCPU, 512 GB, $3.62/hr) + AWS r7a.16xlarge (6
 - If it works at 27B+: the distinction exists but needs representational capacity
 - If still nothing: may not be geometrically real at accessible scales
 
-**F31. Behavioral-geometric bridge on different architecture** — G08 showed bridge breaks on Qwen 7B. Qwen-specific?
+**G-planned-31. Behavioral-geometric bridge on different architecture** — G08 showed bridge breaks on Qwen 7B. Qwen-specific?
 - Same 20 tasks × 4 phrasings from G08 on Llama 8B and Gemma 9B
 - If bridge holds on Llama: the break is Qwen-specific, not scale-specific
 
@@ -526,7 +526,7 @@ Infrastructure: Azure E64as_v5 (64 vCPU, 512 GB, $3.62/hr) + AWS r7a.16xlarge (6
 - If cross-domain compresses: vocabulary provides general scaffold, not domain-specific grounding
 - If only domain-matched compresses: The Word needs precise retrieval
 
-**F36. Reproducibility** — Re-run G06, G12, G13 from scratch on Qwen 2.5 7B
+**G-planned-36. Reproducibility** — Re-run G06, G12, G13 from scratch on Qwen 2.5 7B
 - Same model, same questions, fresh load. Do we get the same d values?
 - Essential for any publication claim
 
@@ -535,8 +535,8 @@ Infrastructure: Azure E64as_v5 (64 vCPU, 512 GB, $3.62/hr) + AWS r7a.16xlarge (6
 - Tests whether architecture improvements change geometric mode signatures
 
 **Machine allocation:**
-- **Azure** (512GB): G14 (Qwen3.5-122B needs ~244GB), G16, G-future-32, G17, G18, F36, G-future-37
-- **AWS** (512GB): G15, G15, F31 (cross-architecture: Llama, Gemma, Mistral)
+- **Azure** (512GB): G14 (Qwen3.5-122B needs ~244GB), G16, G-future-32, G17, G18, G-planned-36, G-future-37
+- **AWS** (512GB): G15, G15, G-planned-31 (cross-architecture: Llama, Gemma, Mistral)
 - **Both** (behavioral, Bedrock API): G-future-33
 
 **Estimated total runtime:** ~30-40 hours across both machines
@@ -559,6 +559,6 @@ The experiment nobody else can run. Tests whether relational context changes hid
 
 **Remaining from earlier:**
 - **G-future-23:** Evasion robustness via LoRA fine-tuning. Needs Cassidy's server or GPU rental Thursday.
-- **F14:** Rubber stamp decay. Needs human participants.
+- **G-planned-14:** Rubber stamp decay. Needs human participants.
 
-**Blocked:** F14 needs human reviewers. G-future-23 needs fine-tuning capability (GPU Thursday or Cassidy).
+**Blocked:** G-planned-14 needs human reviewers. G-future-23 needs fine-tuning capability (GPU Thursday or Cassidy).
