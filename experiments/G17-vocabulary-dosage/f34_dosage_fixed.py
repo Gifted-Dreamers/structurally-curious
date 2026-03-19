@@ -150,7 +150,7 @@ def build_prompt(question, dose, names):
     return f"{context}\n\n{question}"
 
 
-def run_experiment(model_name, output_dir, device="cpu"):
+def run_experiment(model_name, output_dir):
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
     print(f"\n{'='*60}")
@@ -163,7 +163,7 @@ def run_experiment(model_name, output_dir, device="cpu"):
     t0 = time.time()
     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(
-        model_name, dtype=torch.float32, device_map=device, trust_remote_code=True)
+        model_name, torch_dtype=torch.float16, device_map="auto", trust_remote_code=True)
     model.config.use_cache = True
     n_layers = model.config.num_hidden_layers
     print(f"Loaded in {time.time()-t0:.1f}s ({n_layers} layers)\n")
@@ -176,7 +176,7 @@ def run_experiment(model_name, output_dir, device="cpu"):
             print(f"  {q['id']} dose={dose}...", end=" ", flush=True)
             t1 = time.time()
 
-            inputs = tokenizer(prompt, return_tensors="pt").to(device)
+            inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
             with torch.no_grad():
                 gen_out = model.generate(

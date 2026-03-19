@@ -502,12 +502,12 @@ def build_conversation(tokenizer, article_text, article, condition,
     return messages
 
 
-def run_single_condition(model, tokenizer, messages, device, n_layers):
+def run_single_condition(model, tokenizer, messages, n_layers):
     """Run one condition: encode conversation, generate, extract metrics."""
 
     # Apply chat template
     prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-    inputs = tokenizer(prompt, return_tensors="pt").to(device)
+    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
     with torch.no_grad():
         # Prompt encoding — hidden states at the point of generation
@@ -537,7 +537,7 @@ def run_single_condition(model, tokenizer, messages, device, n_layers):
     }
 
 
-def run_article(model, tokenizer, article, article_text, device, n_layers):
+def run_article(model, tokenizer, article, article_text, n_layers):
     """Run all 4 conditions for one article."""
 
     print(f"\n{'='*60}")
@@ -552,7 +552,7 @@ def run_article(model, tokenizer, article, article_text, device, n_layers):
     t0 = time.time()
 
     msgs_c1 = build_conversation(tokenizer, article_text, article, "instruction")
-    c1_result = run_single_condition(model, tokenizer, msgs_c1, device, n_layers)
+    c1_result = run_single_condition(model, tokenizer, msgs_c1, n_layers)
 
     print(f"{time.time()-t0:.1f}s | {c1_result['n_prompt_tokens']} prompt / {c1_result['n_generated_tokens']} gen tokens")
 
@@ -581,7 +581,7 @@ def run_article(model, tokenizer, article, article_text, device, n_layers):
     msgs_c2 = build_conversation(tokenizer, article_text, article, "correction",
                                   model_first_response=model_first_response,
                                   correction_detail=correction_detail)
-    c2_result = run_single_condition(model, tokenizer, msgs_c2, device, n_layers)
+    c2_result = run_single_condition(model, tokenizer, msgs_c2, n_layers)
 
     print(f"{time.time()-t0:.1f}s | {c2_result['n_prompt_tokens']} prompt / {c2_result['n_generated_tokens']} gen tokens")
 
@@ -599,7 +599,7 @@ def run_article(model, tokenizer, article, article_text, device, n_layers):
                                   model_first_response=model_first_response,
                                   correction_detail=correction_detail,
                                   second_error_detail=second_error_detail)
-    c3_result = run_single_condition(model, tokenizer, msgs_c3, device, n_layers)
+    c3_result = run_single_condition(model, tokenizer, msgs_c3, n_layers)
 
     print(f"{time.time()-t0:.1f}s | {c3_result['n_prompt_tokens']} prompt / {c3_result['n_generated_tokens']} gen tokens")
 
@@ -618,7 +618,7 @@ def run_article(model, tokenizer, article, article_text, device, n_layers):
                                       model_first_response=model_first_response,
                                       correction_detail=correction_detail,
                                       second_error_detail=second_error_detail)
-        c4_result = run_single_condition(model, tokenizer, msgs_c4, device, n_layers)
+        c4_result = run_single_condition(model, tokenizer, msgs_c4, n_layers)
 
         print(f"{time.time()-t0:.1f}s | {c4_result['n_prompt_tokens']} prompt / {c4_result['n_generated_tokens']} gen tokens")
 
@@ -639,7 +639,7 @@ def run_article(model, tokenizer, article, article_text, device, n_layers):
                                       model_first_response=model_first_response,
                                       correction_detail=correction_detail,
                                       second_error_detail=second_error_detail)
-        c5_result = run_single_condition(model, tokenizer, msgs_c5, device, n_layers)
+        c5_result = run_single_condition(model, tokenizer, msgs_c5, n_layers)
 
         print(f"{time.time()-t0:.1f}s | {c5_result['n_prompt_tokens']} prompt / {c5_result['n_generated_tokens']} gen tokens")
 
@@ -764,7 +764,7 @@ def analyze(results):
         print(f"  {r['condition']:14s}: {r['generated_text'][:200]}...")
 
 
-def run_experiment(model_name, article_dir, output_dir, device="cpu"):
+def run_experiment(model_name, article_dir, output_dir):
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
     print(f"\n{'='*60}")
@@ -800,7 +800,7 @@ def run_experiment(model_name, article_dir, output_dir, device="cpu"):
     t0 = time.time()
     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(
-        model_name, dtype=torch.float32, device_map=device, trust_remote_code=True)
+        model_name, torch_dtype=torch.float16, device_map="auto", trust_remote_code=True)
     model.config.use_cache = True
     n_layers = model.config.num_hidden_layers
     print(f"Loaded in {time.time()-t0:.1f}s ({sum(p.numel() for p in model.parameters()):,} params, {n_layers} layers)\n")
@@ -808,7 +808,7 @@ def run_experiment(model_name, article_dir, output_dir, device="cpu"):
     # Run all articles
     all_results = []
     for article in articles_ready:
-        article_results = run_article(model, tokenizer, article, article["text"], device, n_layers)
+        article_results = run_article(model, tokenizer, article, article["text"], n_layers)
         all_results.extend(article_results)
 
     # Save
