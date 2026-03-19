@@ -1,0 +1,765 @@
+{
+  "timestamp": "2026-03-16T00:47:03.413366+00:00",
+  "results": [
+    {
+      "model_name": "Claude Haiku 4.5",
+      "tasks": [
+        {
+          "task_id": "gov_01",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.8202910933525606,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 209.0
+        },
+        {
+          "task_id": "gov_02",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.8311034804656591,
+          "mean_coverage": 0.75,
+          "min_coverage": 0.0,
+          "coverage_std": 0.4330127018922193,
+          "mean_word_count": 217.25
+        },
+        {
+          "task_id": "gov_03",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7992959579686221,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 239.0
+        },
+        {
+          "task_id": "hist_01",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7924137871879994,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 227.0
+        },
+        {
+          "task_id": "hist_02",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.8236659294342985,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 238.25
+        },
+        {
+          "task_id": "hist_03",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7882760688531142,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 214.25
+        },
+        {
+          "task_id": "psych_01",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7753226756198255,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 197.25
+        },
+        {
+          "task_id": "psych_02",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7125029485170528,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 209.0
+        },
+        {
+          "task_id": "psych_03",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7472360957411563,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 242.75
+        },
+        {
+          "task_id": "psych_04",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.8533985498731945,
+          "mean_coverage": 0.75,
+          "min_coverage": 0.0,
+          "coverage_std": 0.4330127018922193,
+          "mean_word_count": 220.25
+        }
+      ]
+    },
+    {
+      "model_name": "Llama 3 8B",
+      "tasks": [
+        {
+          "task_id": "gov_01",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.6941199125854861,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 427.25
+        },
+        {
+          "task_id": "gov_02",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7334792282735365,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 429.5
+        },
+        {
+          "task_id": "gov_03",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.6972564597156906,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 417.75
+        },
+        {
+          "task_id": "hist_01",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7154043912235023,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 393.5
+        },
+        {
+          "task_id": "hist_02",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7175198099596725,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 428.75
+        },
+        {
+          "task_id": "hist_03",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7544151657201538,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 420.5
+        },
+        {
+          "task_id": "psych_01",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7634003439491776,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 413.25
+        },
+        {
+          "task_id": "psych_02",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.6183762904846125,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 380.0
+        },
+        {
+          "task_id": "psych_03",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.733620838466852,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 398.25
+        },
+        {
+          "task_id": "psych_04",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7889545025908036,
+          "mean_coverage": 0.41666666666666663,
+          "min_coverage": 0.0,
+          "coverage_std": 0.4330127018922193,
+          "mean_word_count": 391.25
+        }
+      ]
+    },
+    {
+      "model_name": "Mistral 7B",
+      "tasks": [
+        {
+          "task_id": "gov_01",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7366493845589921,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 309.0
+        },
+        {
+          "task_id": "gov_02",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7128177366363219,
+          "mean_coverage": 0.5,
+          "min_coverage": 0.0,
+          "coverage_std": 0.5,
+          "mean_word_count": 380.25
+        },
+        {
+          "task_id": "gov_03",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.6521448331872532,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 319.5
+        },
+        {
+          "task_id": "hist_01",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.6595137330287759,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 323.0
+        },
+        {
+          "task_id": "hist_02",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.718531625173623,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 404.5
+        },
+        {
+          "task_id": "hist_03",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7036817821812699,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 358.5
+        },
+        {
+          "task_id": "psych_01",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7568886157511837,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 310.75
+        },
+        {
+          "task_id": "psych_02",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.5841034369564068,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 329.25
+        },
+        {
+          "task_id": "psych_03",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7161166995894995,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 350.0
+        },
+        {
+          "task_id": "psych_04",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7690545070495555,
+          "mean_coverage": 0.41666666666666663,
+          "min_coverage": 0.0,
+          "coverage_std": 0.4330127018922193,
+          "mean_word_count": 304.75
+        }
+      ]
+    },
+    {
+      "model_name": "Nova Micro",
+      "tasks": [
+        {
+          "task_id": "gov_01",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7319355549411211,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 357.25
+        },
+        {
+          "task_id": "gov_02",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7590463491443119,
+          "mean_coverage": 0.75,
+          "min_coverage": 0.0,
+          "coverage_std": 0.4330127018922193,
+          "mean_word_count": 407.5
+        },
+        {
+          "task_id": "gov_03",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.6511853547979224,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 391.75
+        },
+        {
+          "task_id": "hist_01",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.6745852056670795,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 372.5
+        },
+        {
+          "task_id": "hist_02",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7215751852977365,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 397.25
+        },
+        {
+          "task_id": "hist_03",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.6970398626529287,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 406.5
+        },
+        {
+          "task_id": "psych_01",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7172551043588458,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 377.25
+        },
+        {
+          "task_id": "psych_02",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.6346602818129826,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 351.25
+        },
+        {
+          "task_id": "psych_03",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7706555690994711,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 358.0
+        },
+        {
+          "task_id": "psych_04",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.771507899852399,
+          "mean_coverage": 0.5833333333333333,
+          "min_coverage": 0.0,
+          "coverage_std": 0.3632415786283894,
+          "mean_word_count": 374.25
+        }
+      ]
+    },
+    {
+      "model_name": "Qwen3 32B",
+      "tasks": [
+        {
+          "task_id": "gov_01",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7348776541723718,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 358.5
+        },
+        {
+          "task_id": "gov_02",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7606669749928995,
+          "mean_coverage": 0.75,
+          "min_coverage": 0.0,
+          "coverage_std": 0.4330127018922193,
+          "mean_word_count": 373.0
+        },
+        {
+          "task_id": "gov_03",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7354723244955443,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 343.75
+        },
+        {
+          "task_id": "hist_01",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7314446619492871,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 341.0
+        },
+        {
+          "task_id": "hist_02",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7141281977776792,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 392.25
+        },
+        {
+          "task_id": "hist_03",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7726866635435309,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 345.0
+        },
+        {
+          "task_id": "psych_01",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7691957108490289,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 333.0
+        },
+        {
+          "task_id": "psych_02",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.6743491930889807,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 327.25
+        },
+        {
+          "task_id": "psych_03",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7735362355529328,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 368.0
+        },
+        {
+          "task_id": "psych_04",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7987707226550046,
+          "mean_coverage": 0.8333333333333333,
+          "min_coverage": 0.6666666666666666,
+          "coverage_std": 0.16666666666666669,
+          "mean_word_count": 359.25
+        }
+      ]
+    },
+    {
+      "model_name": "DeepSeek V3.2",
+      "tasks": [
+        {
+          "task_id": "gov_01",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7880441143234931,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 368.75
+        },
+        {
+          "task_id": "gov_02",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.8221782746620369,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 367.25
+        },
+        {
+          "task_id": "gov_03",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7774450985631273,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 344.5
+        },
+        {
+          "task_id": "hist_01",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.8273825197395376,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 323.25
+        },
+        {
+          "task_id": "hist_02",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7743534044250415,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 363.5
+        },
+        {
+          "task_id": "hist_03",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.8345301314604838,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 330.0
+        },
+        {
+          "task_id": "psych_01",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.8094688676205329,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 334.75
+        },
+        {
+          "task_id": "psych_02",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7583161426766966,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 325.25
+        },
+        {
+          "task_id": "psych_03",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7699064860352918,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 370.0
+        },
+        {
+          "task_id": "psych_04",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.843199293149711,
+          "mean_coverage": 0.8333333333333333,
+          "min_coverage": 0.6666666666666666,
+          "coverage_std": 0.16666666666666669,
+          "mean_word_count": 334.5
+        }
+      ]
+    },
+    {
+      "model_name": "Gemma 3 4B",
+      "tasks": [
+        {
+          "task_id": "gov_01",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.8023752366154926,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 373.0
+        },
+        {
+          "task_id": "gov_02",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.8014042517500672,
+          "mean_coverage": 0.75,
+          "min_coverage": 0.0,
+          "coverage_std": 0.4330127018922193,
+          "mean_word_count": 391.5
+        },
+        {
+          "task_id": "gov_03",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7253920199991946,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 351.75
+        },
+        {
+          "task_id": "hist_01",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.8171944951759681,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 353.25
+        },
+        {
+          "task_id": "hist_02",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7525331539183849,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 387.5
+        },
+        {
+          "task_id": "hist_03",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.8030367768732676,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 365.25
+        },
+        {
+          "task_id": "psych_01",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7090969385028457,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 355.25
+        },
+        {
+          "task_id": "psych_02",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.6485434215093464,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 339.5
+        },
+        {
+          "task_id": "psych_03",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7823673809193851,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 364.75
+        },
+        {
+          "task_id": "psych_04",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.8483754049087092,
+          "mean_coverage": 0.6666666666666666,
+          "min_coverage": 0.0,
+          "coverage_std": 0.408248290463863,
+          "mean_word_count": 338.5
+        }
+      ]
+    },
+    {
+      "model_name": "Gemma 3 27B",
+      "tasks": [
+        {
+          "task_id": "gov_01",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.8260697053407712,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 364.5
+        },
+        {
+          "task_id": "gov_02",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.8148959502961804,
+          "mean_coverage": 0.5,
+          "min_coverage": 0.0,
+          "coverage_std": 0.5,
+          "mean_word_count": 362.75
+        },
+        {
+          "task_id": "gov_03",
+          "category": "ap_gov",
+          "phrasing_sensitivity": 0.7288296021912773,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 348.5
+        },
+        {
+          "task_id": "hist_01",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7965817448014952,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 346.5
+        },
+        {
+          "task_id": "hist_02",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.7886146442352316,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 380.5
+        },
+        {
+          "task_id": "hist_03",
+          "category": "ap_history",
+          "phrasing_sensitivity": 0.788231696492038,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 365.0
+        },
+        {
+          "task_id": "psych_01",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7114917687530228,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 345.25
+        },
+        {
+          "task_id": "psych_02",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.7241697121957119,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 323.5
+        },
+        {
+          "task_id": "psych_03",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.774914020760593,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 364.5
+        },
+        {
+          "task_id": "psych_04",
+          "category": "ap_psych",
+          "phrasing_sensitivity": 0.8376910810020171,
+          "mean_coverage": 1.0,
+          "min_coverage": 1.0,
+          "coverage_std": 0.0,
+          "mean_word_count": 339.0
+        }
+      ]
+    }
+  ]
+}

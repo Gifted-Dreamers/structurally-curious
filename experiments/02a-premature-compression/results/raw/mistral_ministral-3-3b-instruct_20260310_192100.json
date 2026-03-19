@@ -1,0 +1,49 @@
+[
+  {
+    "model": "mistral.ministral-3-3b-instruct",
+    "model_name": "mistral.ministral-3-3b-instruct",
+    "task_id": "pc_01",
+    "category": "synthesis",
+    "num_partial_docs": 2,
+    "num_full_docs": 5,
+    "num_missing_docs": 3,
+    "partial_response": "The two documents you provided highlight **key themes of resilience, economic measurement, and the disconnect between formal systems and local knowledge**\u2014themes that intersect in how societies respond to crises and how economic indicators fail to capture true well-being. Below is a thorough analysis of their connections:\n\n---\n\n### **Key Themes and Their Connections**\n\n#### **1. Resilience and Local Knowledge Networks**\n**Document 1** emphasizes that **community resilience is built on pre-existing social networks**\u2014specifically, the rapid, informal responses of neighbors who already know each other. This suggests that resilience is not just about infrastructure or formal systems but about **social cohesion, trust, and shared understanding**. When disasters strike, these networks often provide immediate support (e.g., sharing resources, coordinating aid) before formal emergency systems (e.g., government agencies, NGOs) arrive.\n\n- **Why it matters**: Formal systems (e.g., emergency response teams, economic recovery plans) may be well-intentioned but often lack the **contextual knowledge** of local communities. They may rely on standardized protocols that don\u2019t account for cultural, economic, or environmental nuances.\n- **Connection to economic models**: While formal systems are part of economic infrastructure, they are **not inherently resilient**\u2014they can become rigid or bureaucratic, failing to adapt to local needs. This highlights a broader issue: **economic systems (including GDP) prioritize efficiency and growth over human well-being and adaptability**.\n\n#### **2. The Problem with Economic Models That Externalize Costs**\n**Document 2** critiques **GDP and other economic metrics** for their inability to measure **true welfare**\u2014they only track activity (e.g., rebuilding after a hurricane) without considering the **human costs** (e.g., displaced families, lost livelihoods, emotional trauma).\n\n- **Key insight**: Economic models that **externalize costs** (e.g., ignoring the social and environmental damage of growth) create **systemic fragility**. A hurricane that destroys homes and triggers rebuilding **increases GDP** (as economic activity resumes) but **decreases actual welfare** (as people suffer displacement, trauma, or long-term economic instability).\n- **Connection to resilience**:\n  - **Formal systems (e.g., economic recovery plans) may prioritize GDP growth over resilience**\u2014they might focus on rebuilding infrastructure quickly (boosting GDP) rather than ensuring long-term well-being (e.g., housing stability, mental health support).\n  - **Local knowledge networks, by contrast, inherently account for context**\u2014they recognize that resilience isn\u2019t just about rebuilding but about **restoring dignity, community, and adaptability**. This aligns with **post-disaster recovery models** that emphasize **human-centered approaches** over purely economic ones.\n\n#### **3. The Gap Between Formal and Informal Systems**\nBoth documents reveal a **fundamental tension**:\n- **Formal systems** (e.g., emergency response, economic models) are designed for **scalability, predictability, and efficiency**\u2014but they often **overlook local context**.\n- **Informal/local networks** are **flexible, adaptive, and context-aware**\u2014but they lack the **resources and legitimacy** of formal institutions.\n\n**How they connect**:\n- **Resilience requires both**, but the current system **undervalues local knowledge** in favor of formal structures. For example:\n  - After a hurricane, **neighbors may share food and shelter** (local resilience), but **governments may focus on rebuilding roads and housing** (formal recovery), often without considering how these actions affect long-term well-being.\n  - Economic models (e.g., GDP) **do not account for the costs of displacement or trauma**, so they **glorify recovery as \"growth\"** while ignoring the real human toll.\n- **Solution implication**: A **more integrated approach**\u2014where formal systems **incorporate",
+    "full_response": "The five documents collectively highlight **deep systemic critiques of modern institutions, economic systems, and technological frameworks**, while emphasizing the **power of local knowledge, solidarity-based networks, and sustainable practices rooted in community autonomy**. Below is a structured breakdown of the **key themes** and their **connections**, synthesized from all the texts:\n\n---\n\n### **1. The Limitations of Formal Systems and Externalized Power**\n**Theme:** Traditional emergency response, economic measurement, and digital platforms often fail to address root causes of vulnerability due to their **top-down, extractive, or detached structures**.\n\n- **Document 1 (Community Resilience):**\n  Formal emergency systems (e.g., government agencies, NGOs) arrive **late** and lack **contextual understanding** because they operate on **standardized, centralized models** rather than leveraging pre-existing local networks. The fastest responders are **neighbors who already know each other**\u2014proof that **trust and familiarity** are critical for resilience, but formal systems often ignore these dynamics.\n\n- **Document 2 (Economic Models):**\n  GDP and other economic metrics **externalize costs** (e.g., environmental damage, human suffering) while inflating activity (e.g., rebuilding after a hurricane). This creates **structural fragility** because wealth is measured in **artificial terms** (e.g., economic growth) rather than **real welfare** (e.g., safety, well-being). The system **rewards destruction** while ignoring its long-term consequences.\n\n- **Document 4 (Digital Platforms):**\n  Modern digital platforms operate like **colonial resource extraction**, where communities generate data (e.g., local knowledge, labor) but receive **no meaningful return**. This mirrors historical patterns where **power asymmetries** (e.g., between colonizers and Indigenous peoples) persist in digital economies.\n\n**Connection:**\nAll three documents critique systems that **ignore local context** and **extract value without reciprocity**. Formal institutions (emergency response, GDP, digital platforms) are **not inherently flawed** but are **designed to function within extractive logics** that prioritize efficiency over equity or sustainability.\n\n---\n\n### **2. The Power of Local Knowledge and Indigenous Practices**\n**Theme:** **Traditional ecological knowledge (TEK)** and **indigenous practices** often provide **more sustainable, adaptive, and equitable solutions** than industrial or centralized alternatives.\n\n- **Document 3 (TEK):**\n  Indigenous fire management, water harvesting, and crop rotation systems are **centuries of locally adapted wisdom** that outperform industrial methods in **sustainability metrics** (e.g., biodiversity, resilience). These practices are **contextually embedded**, meaning they account for local ecosystems, climate, and cultural needs\u2014something formal systems often fail to do.\n\n- **Document 1 (Community Resilience):**\n  Local knowledge networks **enable rapid response** because they are **already built into community structures**. This contrasts with formal systems, which require **training, coordination, and bureaucratic delays**.\n\n**Connection:**\nTEK is not just \"traditional\" knowledge\u2014it is **a form of resilience engineering** that has evolved over time to survive and thrive in specific environments. When formal systems (e.g., emergency management, economics) **ignore or replace** these practices, they **reduce adaptability** and **increase vulnerability**.\n\n---\n\n### **3. The Shift from Charity to Mutual Aid: Solidarity Over Asymmetry**\n**Theme:** **Mutual aid networks** challenge the **charity model** by emphasizing **reciprocity, shared vulnerability, and collective care**\u2014principles that align with **local knowledge and TEK**.\n\n- **Document 5 (Mutual Aid):**\n  Mutual aid operates on **solidarity**, assuming that **people are interdependent** and that **vulnerability is shared**. This contrasts with **charity**, which often **preserves power hierarchies",
+    "partial_latency_ms": 2330,
+    "full_latency_ms": 2401,
+    "partial_tokens": {
+      "input": 123,
+      "output": 800
+    },
+    "full_tokens": {
+      "input": 227,
+      "output": 800
+    },
+    "divergence": {
+      "jaccard_distance": 0.8233082706766918,
+      "jaccard_similarity": 0.17669172932330826,
+      "new_words_count": 227,
+      "new_words_ratio": 0.7071651090342679,
+      "dropped_words_count": 211,
+      "dropped_words_ratio": 0.6918032786885245,
+      "partial_word_count": 305,
+      "full_word_count": 321,
+      "length_ratio": 1.0112810228127351
+    },
+    "confidence_partial": {
+      "hedge_count": 2,
+      "confidence_count": 0,
+      "hedge_rate": 0.003838771593090211,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.003838771593090211
+    },
+    "confidence_full": {
+      "hedge_count": 0,
+      "confidence_count": 0,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.0,
+      "net_confidence": 0.0
+    },
+    "timestamp": "2026-03-11T00:21:00.745888+00:00"
+  }
+]

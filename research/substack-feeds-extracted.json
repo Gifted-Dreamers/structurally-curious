@@ -1,0 +1,2698 @@
+[
+  {
+    "name": "It's a Matter of Integrity",
+    "author": "Melissa Chaudhry",
+    "slug_guess": "melissachaudhry",
+    "feed_url": "https://melissachaudhry.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "(Over)Thinking Out Loud",
+    "author": "Emma Kind",
+    "slug_guess": "emmakind",
+    "feed_url": "https://emmakind.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "a16z Build Newsletter",
+    "author": "David Booth",
+    "slug_guess": "a16zbuild",
+    "feed_url": "https://a16zbuild.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Aaron Thomas",
+    "author": "Aaron Thomas",
+    "slug_guess": "aaronthomas",
+    "feed_url": "https://aaronthomas.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Adjunct Academy",
+    "author": "Jasmin M. Goodman, PhD",
+    "slug_guess": "theadjunctacademy",
+    "feed_url": "https://theadjunctacademy.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Agriculture and Activism",
+    "author": "Agriculture and Activism",
+    "slug_guess": "agricultureandactivism",
+    "feed_url": "https://agricultureandactivism.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "AI & Tech Insights",
+    "author": "AI & Tech Insights",
+    "slug_guess": "aitechinsights",
+    "feed_url": "https://aitechinsights.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "AI Atelier",
+    "author": "Christina Pearl",
+    "slug_guess": "aiatelier",
+    "feed_url": "https://aiatelier.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "AI CFO Office",
+    "author": "AI CFO Office",
+    "slug_guess": "aicfooffice",
+    "feed_url": "https://aicfooffice.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "AI Disruption",
+    "author": "Meng Li",
+    "slug_guess": "aidisruption",
+    "feed_url": "https://aidisruption.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "AI For Lawyers",
+    "author": "Amy Swaner",
+    "slug_guess": "aiforlawyers",
+    "feed_url": "https://aiforlawyers.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "AI Governance, Ethics and Leadership",
+    "author": "AI Governance Lead",
+    "slug_guess": "aigovernancelead",
+    "feed_url": "https://aigovernancelead.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "AI Prompt Hackers",
+    "author": "Andy Wood",
+    "slug_guess": "aiprompthackers",
+    "feed_url": "https://aiprompthackers.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "ai salon archive",
+    "author": "The AI Salon",
+    "slug_guess": "aisalon",
+    "feed_url": "https://aisalon.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "AI's Without Minds",
+    "author": "Ellen Burns, PhD",
+    "slug_guess": "aiswithoutminds",
+    "feed_url": "https://aiswithoutminds.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Aimee",
+    "author": "<3",
+    "slug_guess": "aimee",
+    "feed_url": "https://aimee.substack.com/feed",
+    "category": 12,
+    "confidence": "low"
+  },
+  {
+    "name": "Alan Hirsch",
+    "author": "Alan Hirsch",
+    "slug_guess": "alanhirsch",
+    "feed_url": "https://alanhirsch.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "Albert Borrero",
+    "author": "Albert Borrero",
+    "slug_guess": "albertborrero",
+    "feed_url": "https://albertborrero.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Alex",
+    "author": "Alex",
+    "slug_guess": "alex",
+    "feed_url": "https://alex.substack.com/feed",
+    "category": 1,
+    "confidence": "low"
+  },
+  {
+    "name": "Algorithms are Personal",
+    "author": "Soribel Feliz",
+    "slug_guess": "algorithmsarepersonal",
+    "feed_url": "https://algorithmsarepersonal.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "alimcforever",
+    "author": "ali",
+    "slug_guess": "alimcforever",
+    "feed_url": "https://alimcforever.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Alisa Writes",
+    "author": "Alisa Valdes-Rodriguez",
+    "slug_guess": "alisawrites",
+    "feed_url": "https://alisawrites.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "All The Bits",
+    "author": "Avi Loren Fox",
+    "slug_guess": "allthebits",
+    "feed_url": "https://allthebits.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Amanda McCellon",
+    "author": "Amanda McCellon",
+    "slug_guess": "amandamccellon",
+    "feed_url": "https://amandamccellon.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Amanda Writes, Etc",
+    "author": "Amanda Izzo",
+    "slug_guess": "amandaizzo",
+    "feed_url": "https://amandaizzo.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "American Freedom Group",
+    "author": "AFG Intel Wire",
+    "slug_guess": "americanfreedomgroup",
+    "feed_url": "https://americanfreedomgroup.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "The American Pamphleteer",
+    "author": "Lady Libertia",
+    "slug_guess": "theamericanpamphleteer",
+    "feed_url": "https://theamericanpamphleteer.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Antidote to Autocracy",
+    "author": "Jed Emerson",
+    "slug_guess": "antidotetoautocracy",
+    "feed_url": "https://antidotetoautocracy.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Appalachia Recovery Coalition",
+    "author": "Appalachia Recovery Coalition",
+    "slug_guess": "appalachiarecovery",
+    "feed_url": "https://appalachiarecovery.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Apricity by Astrid",
+    "author": "Astrid Nygaard",
+    "slug_guess": "apricity",
+    "feed_url": "https://apricity.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Architecture of AI Governance, by Fathom",
+    "author": "Fathom",
+    "slug_guess": "fathom",
+    "feed_url": "https://fathom.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Ask Amanda",
+    "author": "Amanda Palmer",
+    "slug_guess": "amandapalmer",
+    "feed_url": "https://amandapalmer.substack.com/feed",
+    "category": 12,
+    "confidence": "high"
+  },
+  {
+    "name": "Astro Abundance Codes",
+    "author": "Tamber | Astrologer & Guide",
+    "slug_guess": "astroabundancecodes",
+    "feed_url": "https://astroabundancecodes.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "Austin Kocher",
+    "author": "Austin Kocher",
+    "slug_guess": "austinkocher",
+    "feed_url": "https://austinkocher.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Badass Women in AI",
+    "author": "Badass Women in AI",
+    "slug_guess": "badasswomeninai",
+    "feed_url": "https://badasswomeninai.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Balance of Power",
+    "author": "Dr. Jason Butler",
+    "slug_guess": "thebalanceofpower",
+    "feed_url": "https://thebalanceofpower.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "BattlefieldRadio",
+    "author": "BattlefieldRadio",
+    "slug_guess": "battlefieldradio",
+    "feed_url": "https://battlefieldradio.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "Be a Better Traveler",
+    "author": "Rebecca Holland",
+    "slug_guess": "beabettertraveler",
+    "feed_url": "https://beabettertraveler.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "BEE the Solution | Michael Muyot",
+    "author": "Michael Muyot",
+    "slug_guess": "beethesolution",
+    "feed_url": "https://beethesolution.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "bekah day",
+    "author": "bekah day",
+    "slug_guess": "bekahday",
+    "feed_url": "https://bekahday.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Ben Arment",
+    "author": "Ben Arment",
+    "slug_guess": "benarment",
+    "feed_url": "https://benarment.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Better Future",
+    "author": "Michael Mezz",
+    "slug_guess": "betterfuture",
+    "feed_url": "https://betterfuture.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Better Ways and Better Days",
+    "author": "Better Ways and Better Days",
+    "slug_guess": "betterwaysandbetterdays",
+    "feed_url": "https://betterwaysandbetterdays.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Betwixt",
+    "author": "Hazel Gale",
+    "slug_guess": "betwixt",
+    "feed_url": "https://betwixt.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "beyond beurre blanc.",
+    "author": "Krista Kimball",
+    "slug_guess": "beyondbeurreblanc",
+    "feed_url": "https://beyondbeurreblanc.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Big Think",
+    "author": "Big Think",
+    "slug_guess": "bigthink",
+    "feed_url": "https://bigthink.substack.com/feed",
+    "category": 6,
+    "confidence": "high"
+  },
+  {
+    "name": "Bill Piekney",
+    "author": "BILL PIEKNEY",
+    "slug_guess": "billpiekney",
+    "feed_url": "https://billpiekney.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "BioHarmony",
+    "author": "Jacob Foster",
+    "slug_guess": "bioharmony",
+    "feed_url": "https://bioharmony.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Bjorn's Substack",
+    "author": "Bjorn Heyerdahl",
+    "slug_guess": "bjornheyerdahl",
+    "feed_url": "https://bjornheyerdahl.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Black & Trans Substack",
+    "author": "Black Trans Perspectives",
+    "slug_guess": "blackandtrans",
+    "feed_url": "https://blackandtrans.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Black Modern Mystic",
+    "author": "Black Modern Mystic",
+    "slug_guess": "blackmodernmystic",
+    "feed_url": "https://blackmodernmystic.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "blindspots",
+    "author": "Jordan Myska Allen",
+    "slug_guess": "blindspots",
+    "feed_url": "https://blindspots.substack.com/feed",
+    "category": 2,
+    "confidence": "high"
+  },
+  {
+    "name": "Blue Amp Media",
+    "author": "Cliff Schecter",
+    "slug_guess": "blueampmedia",
+    "feed_url": "https://blueampmedia.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Blue Dot Bulletin",
+    "author": "Sean Colarossi",
+    "slug_guess": "bluedotbulletin",
+    "feed_url": "https://bluedotbulletin.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Body Poetica",
+    "author": "Melissa Carroll",
+    "slug_guess": "bodypoetica",
+    "feed_url": "https://bodypoetica.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "Brief Ecology",
+    "author": "Ben Lockwood, Ph.D.",
+    "slug_guess": "briefecology",
+    "feed_url": "https://briefecology.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Build The Resistance",
+    "author": "Build The Resistance",
+    "slug_guess": "buildtheresistance",
+    "feed_url": "https://buildtheresistance.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Building Vist",
+    "author": "David Heijl",
+    "slug_guess": "buildingvist",
+    "feed_url": "https://buildingvist.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Caffeinated Chronicle",
+    "author": "Kristina Kroot",
+    "slug_guess": "caffeinatedchronicle",
+    "feed_url": "https://caffeinatedchronicle.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Canadian Returnee",
+    "author": "Canadian Returnee",
+    "slug_guess": "canadianreturnee",
+    "feed_url": "https://canadianreturnee.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Capital Mischief",
+    "author": "Dustin Klawek",
+    "slug_guess": "capitalmischief",
+    "feed_url": "https://capitalmischief.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Cause",
+    "author": "L O L G O P",
+    "slug_guess": "thecause",
+    "feed_url": "https://thecause.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Charlie Angus / The Resistance",
+    "author": "Charlie Angus",
+    "slug_guess": "charlieangus",
+    "feed_url": "https://charlieangus.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Chevan Nanayakkara",
+    "author": "Chevan Nanayakkara",
+    "slug_guess": "chevannanayakkara",
+    "feed_url": "https://chevannanayakkara.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Chop Wood, Carry Water",
+    "author": "Jess Craven",
+    "slug_guess": "chopwoodcarrywater",
+    "feed_url": "https://chopwoodcarrywater.substack.com/feed",
+    "category": 8,
+    "confidence": "high"
+  },
+  {
+    "name": "Christian's Substack",
+    "author": "Christian Ortiz",
+    "slug_guess": "christianortiz",
+    "feed_url": "https://christianortiz.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Chris' Galaxy Self",
+    "author": "Chris Tomasso",
+    "slug_guess": "chrisgalaxyself",
+    "feed_url": "https://chrisgalaxyself.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "Chromagik",
+    "author": "Kerry Hussain",
+    "slug_guess": "chromagik",
+    "feed_url": "https://chromagik.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Claire E",
+    "author": "Claire E",
+    "slug_guess": "clairee",
+    "feed_url": "https://clairee.substack.com/feed",
+    "category": 1,
+    "confidence": "low"
+  },
+  {
+    "name": "Climate Insiders",
+    "author": "Yoann Berno",
+    "slug_guess": "climateinsiders",
+    "feed_url": "https://climateinsiders.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Climate Water Project",
+    "author": "Alpha Lo",
+    "slug_guess": "climatewaterproject",
+    "feed_url": "https://climatewaterproject.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Coach Nia Renee, MBA",
+    "author": "Coach NiaRenee, MBA",
+    "slug_guess": "coachniarenee",
+    "feed_url": "https://coachniarenee.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "Code Like A Girl",
+    "author": "Code Like A Girl",
+    "slug_guess": "codelikeagirl",
+    "feed_url": "https://codelikeagirl.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Collapse 2050",
+    "author": "Sarah Connor",
+    "slug_guess": "collapse2050",
+    "feed_url": "https://collapse2050.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Common Sense Rebel",
+    "author": "Ethan Faulkner",
+    "slug_guess": "commonsenserebel",
+    "feed_url": "https://commonsenserebel.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Connectioning",
+    "author": "Jessica Friday",
+    "slug_guess": "connectioning",
+    "feed_url": "https://connectioning.substack.com/feed",
+    "category": 2,
+    "confidence": "high"
+  },
+  {
+    "name": "The Connector",
+    "author": "Micah L. Sifry",
+    "slug_guess": "theconnector",
+    "feed_url": "https://theconnector.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Conscientious Emigrant",
+    "author": "Elizabeth Sileck La Rue, Esq.",
+    "slug_guess": "conscientiousemigrant",
+    "feed_url": "https://conscientiousemigrant.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Consciousness - The Doorway to Human Evolution",
+    "author": "Scott Britton",
+    "slug_guess": "scottbritton",
+    "feed_url": "https://scottbritton.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Consilience Project",
+    "author": "The Consilience Project",
+    "slug_guess": "consilienceproject",
+    "feed_url": "https://consilienceproject.substack.com/feed",
+    "category": 10,
+    "confidence": "high"
+  },
+  {
+    "name": "Continuing Ed - with Edward Snowden",
+    "author": "Edward Snowden",
+    "slug_guess": "edwardsnowden",
+    "feed_url": "https://edwardsnowden.substack.com/feed",
+    "category": 5,
+    "confidence": "high"
+  },
+  {
+    "name": "The Corners by Nadia Bolz-Weber",
+    "author": "Nadia Bolz-Weber",
+    "slug_guess": "nadiabolzweber",
+    "feed_url": "https://nadiabolzweber.substack.com/feed",
+    "category": 11,
+    "confidence": "high"
+  },
+  {
+    "name": "The Cottage",
+    "author": "Diana Butler Bass",
+    "slug_guess": "dianabutlerbass",
+    "feed_url": "https://dianabutlerbass.substack.com/feed",
+    "category": 11,
+    "confidence": "high"
+  },
+  {
+    "name": "Council Estate Media",
+    "author": "Council Estate Media",
+    "slug_guess": "councilestatemedia",
+    "feed_url": "https://councilestatemedia.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Counterprogramming Club",
+    "author": "Jessica Burbank",
+    "slug_guess": "counterprogramming",
+    "feed_url": "https://counterprogramming.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "CounterStory Media",
+    "author": "Melissa Corrigan",
+    "slug_guess": "counterstorymedia",
+    "feed_url": "https://counterstorymedia.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Covert Access Team",
+    "author": "Brian Harris",
+    "slug_guess": "covertaccessteam",
+    "feed_url": "https://covertaccessteam.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Crucial Years",
+    "author": "Bill McKibben",
+    "slug_guess": "billmckibben",
+    "feed_url": "https://billmckibben.substack.com/feed",
+    "category": 9,
+    "confidence": "high"
+  },
+  {
+    "name": "Ctrl Alt Escape",
+    "author": "Ctrl Alt Escape",
+    "slug_guess": "ctrlaltescape",
+    "feed_url": "https://ctrlaltescape.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Cultivating The Beautiful Life",
+    "author": "Shaye Elliott",
+    "slug_guess": "cultivatingthebeautifullife",
+    "feed_url": "https://cultivatingthebeautifullife.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Culture, Uncurled",
+    "author": "Connor Patrick Wood",
+    "slug_guess": "cultureuncurled",
+    "feed_url": "https://cultureuncurled.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Culturist",
+    "author": "The Culturist",
+    "slug_guess": "theculturist",
+    "feed_url": "https://theculturist.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Cut Off the Spigot",
+    "author": "Cut Off the Spigot",
+    "slug_guess": "cutoffthespigot",
+    "feed_url": "https://cutoffthespigot.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Cyber Solicitor",
+    "author": "Mahdi Assan",
+    "slug_guess": "cybersolicitor",
+    "feed_url": "https://cybersolicitor.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "David William Silva",
+    "author": "David William Silva",
+    "slug_guess": "davidwilliamsilva",
+    "feed_url": "https://davidwilliamsilva.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "De Jure Media",
+    "author": "Joshua Biddle",
+    "slug_guess": "dejuremedia",
+    "feed_url": "https://dejuremedia.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Dean Blundell",
+    "author": "Dean Blundell",
+    "slug_guess": "deanblundell",
+    "feed_url": "https://deanblundell.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Decoded Security",
+    "author": "Erich Winkler",
+    "slug_guess": "decodedsecurity",
+    "feed_url": "https://decodedsecurity.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "Decolonized Journalism",
+    "author": "Arturo Dominguez",
+    "slug_guess": "decolonizedjournalism",
+    "feed_url": "https://decolonizedjournalism.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Deep Ecology",
+    "author": "Didier Hope",
+    "slug_guess": "deepecology",
+    "feed_url": "https://deepecology.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Deeper States",
+    "author": "Dan Boguslaw",
+    "slug_guess": "deeperstates",
+    "feed_url": "https://deeperstates.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "Defender's Corner",
+    "author": "Defender",
+    "slug_guess": "defenderscorner",
+    "feed_url": "https://defenderscorner.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "DEFIANCE.News",
+    "author": "Miles Taylor",
+    "slug_guess": "defiance",
+    "feed_url": "https://defiance.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Degrowth is the Answer",
+    "author": "Matt Orsagh",
+    "slug_guess": "degrowth",
+    "feed_url": "https://degrowth.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Democracy, Social Justice, Education, and the Common Good",
+    "author": "Kristen Kroll",
+    "slug_guess": "kristenkroll",
+    "feed_url": "https://kristenkroll.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Desirable Futures",
+    "author": "Desirable Futures",
+    "slug_guess": "desirablefutures",
+    "feed_url": "https://desirablefutures.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Developer",
+    "author": "Andrei Pisau",
+    "slug_guess": "thedeveloper",
+    "feed_url": "https://thedeveloper.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Diagnosis",
+    "author": "Rosa Grossman",
+    "slug_guess": "thediagnosis",
+    "feed_url": "https://thediagnosis.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Digital Citizen",
+    "author": "Benjamin Hles",
+    "slug_guess": "digitalcitizen",
+    "feed_url": "https://digitalcitizen.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Digital-Mark",
+    "author": "Digital-Mark",
+    "slug_guess": "digitalmark",
+    "feed_url": "https://digitalmark.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Dispatches From Exile",
+    "author": "James L. Bruno",
+    "slug_guess": "dispatchesfromexile",
+    "feed_url": "https://dispatchesfromexile.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Divergent Dialogues",
+    "author": "Caitlin Hughes",
+    "slug_guess": "divergentdialogues",
+    "feed_url": "https://divergentdialogues.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Do Good Biz",
+    "author": "Natalie Brite",
+    "slug_guess": "dogoodbiz",
+    "feed_url": "https://dogoodbiz.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Downwind of Truth with Kait Justice",
+    "author": "Kait Justice",
+    "slug_guess": "downwindoftruth",
+    "feed_url": "https://downwindoftruth.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Dr Stacey Patton",
+    "author": "Dr Stacey Patton",
+    "slug_guess": "drstaceypatton",
+    "feed_url": "https://drstaceypatton.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "E1 Ventures",
+    "author": "Ana Levine",
+    "slug_guess": "e1ventures",
+    "feed_url": "https://e1ventures.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Early Insights Club",
+    "author": "Early Insights Club",
+    "slug_guess": "earlyinsightsclub",
+    "feed_url": "https://earlyinsightsclub.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Ecstatic Integration",
+    "author": "Jules Evans",
+    "slug_guess": "ecstaticintegration",
+    "feed_url": "https://ecstaticintegration.substack.com/feed",
+    "category": 2,
+    "confidence": "high"
+  },
+  {
+    "name": "Edan Krolewicz",
+    "author": "Edan Krolewicz",
+    "slug_guess": "edankrolewicz",
+    "feed_url": "https://edankrolewicz.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Embodied Faith",
+    "author": "Geoff Holsclaw (PhD)",
+    "slug_guess": "embodiedfaith",
+    "feed_url": "https://embodiedfaith.substack.com/feed",
+    "category": 2,
+    "confidence": "high"
+  },
+  {
+    "name": "Embracing Emergence: Becoming Regeneration",
+    "author": "FrancesIPimentelN",
+    "slug_guess": "embracingemergence",
+    "feed_url": "https://embracingemergence.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Emergency Management Network",
+    "author": "EMN Media",
+    "slug_guess": "emergencymanagementnetwork",
+    "feed_url": "https://emergencymanagementnetwork.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Enterprise AI Weekly",
+    "author": "Paul O Brien",
+    "slug_guess": "enterpriseaiweekly",
+    "feed_url": "https://enterpriseaiweekly.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Ernesto's Substack",
+    "author": "Ernesto Van Peborgh",
+    "slug_guess": "ernestovanpeborgh",
+    "feed_url": "https://ernestovanpeborgh.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Escape the Cubicle",
+    "author": "Wes Pearce",
+    "slug_guess": "escapethecubicle",
+    "feed_url": "https://escapethecubicle.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Everyday Health",
+    "author": "Thomas Blake",
+    "slug_guess": "everydayhealth",
+    "feed_url": "https://everydayhealth.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Existentialist Republic",
+    "author": "Christopher Armitage",
+    "slug_guess": "existentialistrepublic",
+    "feed_url": "https://existentialistrepublic.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "Expat Prep",
+    "author": "Expat Prep",
+    "slug_guess": "expatprep",
+    "feed_url": "https://expatprep.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Ezra Levin",
+    "author": "Ezra Levin",
+    "slug_guess": "ezralevin",
+    "feed_url": "https://ezralevin.substack.com/feed",
+    "category": 8,
+    "confidence": "high"
+  },
+  {
+    "name": "The Faros Project",
+    "author": "Jessica Fraites",
+    "slug_guess": "farosproject",
+    "feed_url": "https://farosproject.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Fierce Love",
+    "author": "Teri Leigh",
+    "slug_guess": "fiercelove",
+    "feed_url": "https://fiercelove.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "FINsider | O2C, R2R & Treasury Insights",
+    "author": "FINsider",
+    "slug_guess": "finsider",
+    "feed_url": "https://finsider.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "For the Love of Humanity",
+    "author": "Cecelia Caspram",
+    "slug_guess": "fortheloveofhumanity",
+    "feed_url": "https://fortheloveofhumanity.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Fractal Computing Substack",
+    "author": "Jay Valentine",
+    "slug_guess": "fractalcomputing",
+    "feed_url": "https://fractalcomputing.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Fractured world--build Wholeness",
+    "author": "Ann Kramer",
+    "slug_guess": "fracturedworld",
+    "feed_url": "https://fracturedworld.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "franknews",
+    "author": "franknews",
+    "slug_guess": "franknews",
+    "feed_url": "https://franknews.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Future of Being Human",
+    "author": "Andrew Maynard",
+    "slug_guess": "futureofbeinghuman",
+    "feed_url": "https://futureofbeinghuman.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Gabriel J. Muller",
+    "author": "Gabriel J. Muller",
+    "slug_guess": "gabrieljmuller",
+    "feed_url": "https://gabrieljmuller.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Gail Helt's Substack",
+    "author": "Gail Helt",
+    "slug_guess": "gailhelt",
+    "feed_url": "https://gailhelt.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "Gail Post, PhD: A Psychologist's Perspective",
+    "author": "Gail Post, Ph.D.",
+    "slug_guess": "gailpost",
+    "feed_url": "https://gailpost.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Garage Philosophy",
+    "author": "Todd T DeVoe",
+    "slug_guess": "garagephilosophy",
+    "feed_url": "https://garagephilosophy.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "Generation AI",
+    "author": "MIT Work of the Future",
+    "slug_guess": "generationai",
+    "feed_url": "https://generationai.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Geoffrey Fowler's Substack",
+    "author": "Geoffrey Fowler",
+    "slug_guess": "geoffreyfowler",
+    "feed_url": "https://geoffreyfowler.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Glass Empires By W. A. Lawrence",
+    "author": "W. A. Lawrence",
+    "slug_guess": "glassempires",
+    "feed_url": "https://glassempires.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Golden Hour by Karen Attiah",
+    "author": "Karen Attiah",
+    "slug_guess": "karenattiah",
+    "feed_url": "https://karenattiah.substack.com/feed",
+    "category": 6,
+    "confidence": "high"
+  },
+  {
+    "name": "The Good Life Letters",
+    "author": "Dr. Daniela Mascaro",
+    "slug_guess": "goodlifeletters",
+    "feed_url": "https://goodlifeletters.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "GOOD THINKING",
+    "author": "Chris Danton",
+    "slug_guess": "goodthinking",
+    "feed_url": "https://goodthinking.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "A Grand Unified Theory of Doom",
+    "author": "Adrian Lambert",
+    "slug_guess": "grandunifiedtheoryofdoom",
+    "feed_url": "https://grandunifiedtheoryofdoom.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Grasping at Reality",
+    "author": "Jan Andrew Bloxham",
+    "slug_guess": "graspingatreality",
+    "feed_url": "https://graspingatreality.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Grassroots Economics",
+    "author": "Grassroots Economics",
+    "slug_guess": "grassrootseconomics",
+    "feed_url": "https://grassrootseconomics.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Gratitude Journal",
+    "author": "Alex Elle",
+    "slug_guess": "alexelle",
+    "feed_url": "https://alexelle.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Great Simplification",
+    "author": "Nate Hagens",
+    "slug_guess": "thegreatsimplification",
+    "feed_url": "https://thegreatsimplification.substack.com/feed",
+    "category": 9,
+    "confidence": "high"
+  },
+  {
+    "name": "The Grim Historian",
+    "author": "Garlyn Beccia",
+    "slug_guess": "grimhistorian",
+    "feed_url": "https://grimhistorian.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Hacking, but Legal",
+    "author": "Jackie Singh",
+    "slug_guess": "hackingbutlegal",
+    "feed_url": "https://hackingbutlegal.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "Hallelujah Anyway",
+    "author": "Anne Lamott",
+    "slug_guess": "annelamott",
+    "feed_url": "https://annelamott.substack.com/feed",
+    "category": 12,
+    "confidence": "high"
+  },
+  {
+    "name": "The Hartmann Report",
+    "author": "Thom Hartmann",
+    "slug_guess": "thomhartmann",
+    "feed_url": "https://thomhartmann.substack.com/feed",
+    "category": 8,
+    "confidence": "high"
+  },
+  {
+    "name": "HAVENS",
+    "author": "umair",
+    "slug_guess": "umair",
+    "feed_url": "https://umair.substack.com/feed",
+    "category": 6,
+    "confidence": "high"
+  },
+  {
+    "name": "The Honest Sorcerer",
+    "author": "The Honest Sorcerer",
+    "slug_guess": "thehonestsorcerer",
+    "feed_url": "https://thehonestsorcerer.substack.com/feed",
+    "category": 9,
+    "confidence": "high"
+  },
+  {
+    "name": "How Not To Use AI",
+    "author": "Abi Awomasu",
+    "slug_guess": "hownottouseai",
+    "feed_url": "https://hownottouseai.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "How Things Work",
+    "author": "Hamilton Nolan",
+    "slug_guess": "hamiltonnolan",
+    "feed_url": "https://hamiltonnolan.substack.com/feed",
+    "category": 6,
+    "confidence": "high"
+  },
+  {
+    "name": "Human in the Machine",
+    "author": "Human in the Machine",
+    "slug_guess": "humaninthemachine",
+    "feed_url": "https://humaninthemachine.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Human Loops",
+    "author": "Matthew Bennett",
+    "slug_guess": "humanloops",
+    "feed_url": "https://humanloops.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Human+AI",
+    "author": "Nicolle Weeks",
+    "slug_guess": "humanplusai",
+    "feed_url": "https://humanplusai.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Humanity Archive",
+    "author": "Jermaine Fowler",
+    "slug_guess": "humanityarchive",
+    "feed_url": "https://humanityarchive.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Humans On The Loop",
+    "author": "Michael Garfield",
+    "slug_guess": "michaelgarfield",
+    "feed_url": "https://michaelgarfield.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Hybrid Horizons: Exploring Human-AI Collaboration",
+    "author": "Carlo Iacono",
+    "slug_guess": "hybridhorizons",
+    "feed_url": "https://hybridhorizons.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "I'd Rather Be Writing",
+    "author": "Walter Rhein",
+    "slug_guess": "walterrhein",
+    "feed_url": "https://walterrhein.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Ideachain Research Group substack",
+    "author": "Alex Kovacs",
+    "slug_guess": "ideachain",
+    "feed_url": "https://ideachain.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Ilya Strebulaev",
+    "author": "Ilya Strebulaev",
+    "slug_guess": "ilyastrebulaev",
+    "feed_url": "https://ilyastrebulaev.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "In Case You Didn't Already Know",
+    "author": "Bratgirl",
+    "slug_guess": "bratgirl",
+    "feed_url": "https://bratgirl.substack.com/feed",
+    "category": 6,
+    "confidence": "low"
+  },
+  {
+    "name": "The Inkwell - Ink & Ribbon Press",
+    "author": "G. K. Allum",
+    "slug_guess": "theinkwell",
+    "feed_url": "https://theinkwell.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Inner Climate",
+    "author": "Natalie Shortall",
+    "slug_guess": "innerclimate",
+    "feed_url": "https://innerclimate.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "Interisle Insights",
+    "author": "Interisle Consulting Group",
+    "slug_guess": "interisle",
+    "feed_url": "https://interisle.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Interweave",
+    "author": "Murilo Menezes",
+    "slug_guess": "theinterweave",
+    "feed_url": "https://theinterweave.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Involuntary Departure",
+    "author": "Dan Kowalski",
+    "slug_guess": "involuntarydeparture",
+    "feed_url": "https://involuntarydeparture.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "J.S. Park - Hospital Chaplain",
+    "author": "J.S. Park",
+    "slug_guess": "jspark",
+    "feed_url": "https://jspark.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "James Bacon",
+    "author": "James Bacon",
+    "slug_guess": "jamesbacon",
+    "feed_url": "https://jamesbacon.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Jan Birkmann",
+    "author": "Jan Birkmann",
+    "slug_guess": "janbirkmann",
+    "feed_url": "https://janbirkmann.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Jason Hickel",
+    "author": "Jason Hickel",
+    "slug_guess": "jasonhickel",
+    "feed_url": "https://jasonhickel.substack.com/feed",
+    "category": 9,
+    "confidence": "high"
+  },
+  {
+    "name": "Jason Minnix",
+    "author": "Jason Minnix",
+    "slug_guess": "jasonminnix",
+    "feed_url": "https://jasonminnix.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "Jessica Friday",
+    "author": "Jessica Friday",
+    "slug_guess": "jessicafriday",
+    "feed_url": "https://jessicafriday.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "Jewel's Substack",
+    "author": "Jewel Turinsky",
+    "slug_guess": "jewelturinsky",
+    "feed_url": "https://jewelturinsky.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Jim Acosta Show",
+    "author": "Jim Acosta",
+    "slug_guess": "jimacosta",
+    "feed_url": "https://jimacosta.substack.com/feed",
+    "category": 6,
+    "confidence": "high"
+  },
+  {
+    "name": "Joel L",
+    "author": "Joel L",
+    "slug_guess": "joell",
+    "feed_url": "https://joell.substack.com/feed",
+    "category": 1,
+    "confidence": "low"
+  },
+  {
+    "name": "John Fullerton",
+    "author": "John Fullerton",
+    "slug_guess": "johnfullerton",
+    "feed_url": "https://johnfullerton.substack.com/feed",
+    "category": 10,
+    "confidence": "high"
+  },
+  {
+    "name": "Jonathan Larsen's Substack",
+    "author": "Jonathan Larsen",
+    "slug_guess": "jonathanlarsen",
+    "feed_url": "https://jonathanlarsen.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "Journal of a Grassroots Economist",
+    "author": "Will Ruddick",
+    "slug_guess": "willruddick",
+    "feed_url": "https://willruddick.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Kainos",
+    "author": "Alexander Beiner",
+    "slug_guess": "alexanderbeiner",
+    "feed_url": "https://alexanderbeiner.substack.com/feed",
+    "category": 2,
+    "confidence": "high"
+  },
+  {
+    "name": "Kathleen Norris & Gareth Higgins - Soul Telegram",
+    "author": "Soul Telegram",
+    "slug_guess": "soultelegram",
+    "feed_url": "https://soultelegram.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "Katie Phang",
+    "author": "Katie Phang",
+    "slug_guess": "katiephang",
+    "feed_url": "https://katiephang.substack.com/feed",
+    "category": 6,
+    "confidence": "high"
+  },
+  {
+    "name": "Kosmos Framework",
+    "author": "Clinton Alden",
+    "slug_guess": "kosmosframework",
+    "feed_url": "https://kosmosframework.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Krassencast - Protecting Democracy During Trump 2.0",
+    "author": "Krassenstein",
+    "slug_guess": "krassencast",
+    "feed_url": "https://krassencast.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Last Manager",
+    "author": "Darko",
+    "slug_guess": "thelastmanager",
+    "feed_url": "https://thelastmanager.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Latest in Cyber",
+    "author": "Latest in Cyber",
+    "slug_guess": "latestincyber",
+    "feed_url": "https://latestincyber.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "Law Dork",
+    "author": "Chris Geidner",
+    "slug_guess": "lawdork",
+    "feed_url": "https://lawdork.substack.com/feed",
+    "category": 8,
+    "confidence": "high"
+  },
+  {
+    "name": "LCG",
+    "author": "LCG",
+    "slug_guess": "lcg",
+    "feed_url": "https://lcg.substack.com/feed",
+    "category": 1,
+    "confidence": "low"
+  },
+  {
+    "name": "Leadership in Change",
+    "author": "Joel Salinas",
+    "slug_guess": "leadershipinchange",
+    "feed_url": "https://leadershipinchange.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Leading Edge",
+    "author": "Tom Morgan",
+    "slug_guess": "theleadingedge",
+    "feed_url": "https://theleadingedge.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Legal AF's Substack",
+    "author": "Legal AF",
+    "slug_guess": "legalaf",
+    "feed_url": "https://legalaf.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Legal in the Loop",
+    "author": "Kris J.",
+    "slug_guess": "legalintheloop",
+    "feed_url": "https://legalintheloop.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "LegallyAbigail",
+    "author": "LegallyAbigail",
+    "slug_guess": "legallyabigail",
+    "feed_url": "https://legallyabigail.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Leona Waller",
+    "author": "Leona Waller",
+    "slug_guess": "leonawaller",
+    "feed_url": "https://leonawaller.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Leslie",
+    "author": "Leslie",
+    "slug_guess": "leslie",
+    "feed_url": "https://leslie.substack.com/feed",
+    "category": 1,
+    "confidence": "low"
+  },
+  {
+    "name": "Less Foolish",
+    "author": "Peter Limberger",
+    "slug_guess": "lessfoolish",
+    "feed_url": "https://lessfoolish.substack.com/feed",
+    "category": 11,
+    "confidence": "high"
+  },
+  {
+    "name": "Letters from an American",
+    "author": "Heather Cox Richardson",
+    "slug_guess": "heathercoxrichardson",
+    "feed_url": "https://heathercoxrichardson.substack.com/feed",
+    "category": 8,
+    "confidence": "high"
+  },
+  {
+    "name": "Letters From Love with Elizabeth Gilbert",
+    "author": "Elizabeth Gilbert",
+    "slug_guess": "elizabethgilbert",
+    "feed_url": "https://elizabethgilbert.substack.com/feed",
+    "category": 12,
+    "confidence": "high"
+  },
+  {
+    "name": "Letters from Rural America",
+    "author": "Letters from Rural America",
+    "slug_guess": "lettersfromruralamerica",
+    "feed_url": "https://lettersfromruralamerica.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Liberation Education Newsletter",
+    "author": "Desiree B Stephens",
+    "slug_guess": "liberationeducation",
+    "feed_url": "https://liberationeducation.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Liberation Project",
+    "author": "Aalia Mauro",
+    "slug_guess": "liberationproject",
+    "feed_url": "https://liberationproject.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Liberty's Lens",
+    "author": "Liberty's Lens",
+    "slug_guess": "libertyslens",
+    "feed_url": "https://libertyslens.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Life, A Series of Experiments",
+    "author": "Nathaniel Drew",
+    "slug_guess": "nathanieldrew",
+    "feed_url": "https://nathanieldrew.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Lifelong Learning Club",
+    "author": "Eva Keiffenheim MSc",
+    "slug_guess": "lifelonglearningclub",
+    "feed_url": "https://lifelonglearningclub.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "Like Stations In Some Relay",
+    "author": "Elaine DiMasi",
+    "slug_guess": "likestations",
+    "feed_url": "https://likestations.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Lily's Substack",
+    "author": "The Gifted Experience",
+    "slug_guess": "thegiftedexperience",
+    "feed_url": "https://thegiftedexperience.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "Liminal Lab",
+    "author": "Chris Hoff",
+    "slug_guess": "liminallab",
+    "feed_url": "https://liminallab.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Lo-Fi Gospel Minute",
+    "author": "Tripp Hudgins",
+    "slug_guess": "lofigospelminute",
+    "feed_url": "https://lofigospelminute.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "Lucian Truscott Newsletter",
+    "author": "Lucian K. Truscott IV",
+    "slug_guess": "luciantruscott",
+    "feed_url": "https://luciantruscott.substack.com/feed",
+    "category": 6,
+    "confidence": "high"
+  },
+  {
+    "name": "Maggie's Substack",
+    "author": "Maggie",
+    "slug_guess": "maggie",
+    "feed_url": "https://maggie.substack.com/feed",
+    "category": 1,
+    "confidence": "low"
+  },
+  {
+    "name": "Magic + Loss",
+    "author": "Virginia Heffernan",
+    "slug_guess": "virginiaheffernan",
+    "feed_url": "https://virginiaheffernan.substack.com/feed",
+    "category": 6,
+    "confidence": "high"
+  },
+  {
+    "name": "The Main Street Journal",
+    "author": "Michael Shuman",
+    "slug_guess": "mainstreetjournal",
+    "feed_url": "https://mainstreetjournal.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Major Grants",
+    "author": "Susan Schaefer",
+    "slug_guess": "majorgrants",
+    "feed_url": "https://majorgrants.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Malcolm Nance: Special Intelligence",
+    "author": "Malcolm Nance",
+    "slug_guess": "malcolmnance",
+    "feed_url": "https://malcolmnance.substack.com/feed",
+    "category": 5,
+    "confidence": "high"
+  },
+  {
+    "name": "Map the World by Bilawal Sidhu",
+    "author": "Bilawal Sidhu",
+    "slug_guess": "bilawalsidhu",
+    "feed_url": "https://bilawalsidhu.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Marcus on AI",
+    "author": "Gary Marcus",
+    "slug_guess": "garymarcus",
+    "feed_url": "https://garymarcus.substack.com/feed",
+    "category": 7,
+    "confidence": "high"
+  },
+  {
+    "name": "Marina Yang",
+    "author": "Marina Yang",
+    "slug_guess": "marinayang",
+    "feed_url": "https://marinayang.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Matt Kinnemore",
+    "author": "Matt Kinnemore",
+    "slug_guess": "mattkinnemore",
+    "feed_url": "https://mattkinnemore.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Matter with Things",
+    "author": "Iain McGilchrist",
+    "slug_guess": "iainmcgilchrist",
+    "feed_url": "https://iainmcgilchrist.substack.com/feed",
+    "category": 11,
+    "confidence": "high"
+  },
+  {
+    "name": "Max Votek",
+    "author": "Max Votek",
+    "slug_guess": "maxvotek",
+    "feed_url": "https://maxvotek.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Meaning Alignment Institute",
+    "author": "Joe Edelman",
+    "slug_guess": "meaningalignment",
+    "feed_url": "https://meaningalignment.substack.com/feed",
+    "category": 10,
+    "confidence": "high"
+  },
+  {
+    "name": "Mesoscale News with Rebekah Jones",
+    "author": "Rebekah Jones",
+    "slug_guess": "rebekahjones",
+    "feed_url": "https://rebekahjones.substack.com/feed",
+    "category": 8,
+    "confidence": "high"
+  },
+  {
+    "name": "Midlife Mavericks",
+    "author": "Claudia Quintela",
+    "slug_guess": "midlifemavericks",
+    "feed_url": "https://midlifemavericks.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Mindful Awareness",
+    "author": "Mindful Awareness",
+    "slug_guess": "mindfulawareness",
+    "feed_url": "https://mindfulawareness.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "Mindful News",
+    "author": "Mindful News",
+    "slug_guess": "mindfulnews",
+    "feed_url": "https://mindfulnews.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "Mindful Wellness",
+    "author": "Mindful Wellness",
+    "slug_guess": "mindfulwellness",
+    "feed_url": "https://mindfulwellness.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "MindLust by Mona Wolf",
+    "author": "Margaux Underwood",
+    "slug_guess": "mindlust",
+    "feed_url": "https://mindlust.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "MindWar: The Psychological War on Democracy",
+    "author": "Jim Stewartson",
+    "slug_guess": "jimstewartson",
+    "feed_url": "https://jimstewartson.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Minority Report Publication",
+    "author": "The Minority Report",
+    "slug_guess": "theminorityreport",
+    "feed_url": "https://theminorityreport.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Mizrahi Perspective",
+    "author": "Alon Mizrahi",
+    "slug_guess": "alonmizrahi",
+    "feed_url": "https://alonmizrahi.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "Moral Footprint",
+    "author": "Jeni Miles",
+    "slug_guess": "moralfootprint",
+    "feed_url": "https://moralfootprint.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "More Than Just Parks",
+    "author": "More Than Just Parks",
+    "slug_guess": "morethanjustparks",
+    "feed_url": "https://morethanjustparks.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Musings From A Broken Heart",
+    "author": "Robert the contemplative",
+    "slug_guess": "musingsfromabrookenheart",
+    "feed_url": "https://musingsfromabrookenheart.substack.com/feed",
+    "category": 2,
+    "confidence": "low"
+  },
+  {
+    "name": "Narativ with Zev Shalev",
+    "author": "Zev Shalev",
+    "slug_guess": "narativ",
+    "feed_url": "https://narativ.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "Natalia P",
+    "author": "Natalia P",
+    "slug_guess": "nataliap",
+    "feed_url": "https://nataliap.substack.com/feed",
+    "category": 1,
+    "confidence": "low"
+  },
+  {
+    "name": "National PHC",
+    "author": "National PHC",
+    "slug_guess": "nationalphc",
+    "feed_url": "https://nationalphc.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "National Security Impacts Your Security",
+    "author": "Ken Robinson",
+    "slug_guess": "nationalsecurityimpacts",
+    "feed_url": "https://nationalsecurityimpacts.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "Nature briefs by Rhett Ayers Butler",
+    "author": "Rhett Ayers Butler",
+    "slug_guess": "naturebriefs",
+    "feed_url": "https://naturebriefs.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Nature Moments",
+    "author": "SydneyMichalsk",
+    "slug_guess": "naturemoments",
+    "feed_url": "https://naturemoments.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "NBTV Newsletter",
+    "author": "NBTV Media",
+    "slug_guess": "nbtv",
+    "feed_url": "https://nbtv.substack.com/feed",
+    "category": 4,
+    "confidence": "medium"
+  },
+  {
+    "name": "Neuroscience & Wellness",
+    "author": "Neuroscience & Wellness",
+    "slug_guess": "neuroscienceandwellness",
+    "feed_url": "https://neuroscienceandwellness.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "The New Republic",
+    "author": "The New Republic",
+    "slug_guess": "newrepublic",
+    "feed_url": "https://newrepublic.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "The New Unhinged",
+    "author": "The New Unhinged",
+    "slug_guess": "thenewunhinged",
+    "feed_url": "https://thenewunhinged.substack.com/feed",
+    "category": 6,
+    "confidence": "medium"
+  },
+  {
+    "name": "The New Whole Earth",
+    "author": "LaVonne Ellis",
+    "slug_guess": "thenewwholeearth",
+    "feed_url": "https://thenewwholeearth.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Nom de Plum",
+    "author": "Plum",
+    "slug_guess": "nomdeplum",
+    "feed_url": "https://nomdeplum.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Norian Caporale-Berkowitz, Ph.D.",
+    "author": "Norian Caporale-Berkowitz, PhD",
+    "slug_guess": "noriancb",
+    "feed_url": "https://noriancb.substack.com/feed",
+    "category": 1,
+    "confidence": "low"
+  },
+  {
+    "name": "ON AI",
+    "author": "Craig",
+    "slug_guess": "onai",
+    "feed_url": "https://onai.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "On Becoming: Six Decades In, Still Becoming",
+    "author": "Miriam R.Rieck",
+    "slug_guess": "onbecoming",
+    "feed_url": "https://onbecoming.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "ON BITCOIN",
+    "author": "Craig",
+    "slug_guess": "onbitcoin",
+    "feed_url": "https://onbitcoin.substack.com/feed",
+    "category": 4,
+    "confidence": "medium"
+  },
+  {
+    "name": "ON NOSTR",
+    "author": "Craig",
+    "slug_guess": "onnostr",
+    "feed_url": "https://onnostr.substack.com/feed",
+    "category": 4,
+    "confidence": "medium"
+  },
+  {
+    "name": "ON SURVIVAL",
+    "author": "Craig",
+    "slug_guess": "onsurvival",
+    "feed_url": "https://onsurvival.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "One Useful Thing",
+    "author": "Ethan Mollick",
+    "slug_guess": "oneusefulthing",
+    "feed_url": "https://oneusefulthing.substack.com/feed",
+    "category": 7,
+    "confidence": "high"
+  },
+  {
+    "name": "OpenCivics",
+    "author": "OpenCivics",
+    "slug_guess": "opencivics",
+    "feed_url": "https://opencivics.substack.com/feed",
+    "category": 4,
+    "confidence": "medium"
+  },
+  {
+    "name": "OpenTheBooks",
+    "author": "OpenTheBooks",
+    "slug_guess": "openthebooks",
+    "feed_url": "https://openthebooks.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Organisational Anthropologist",
+    "author": "Claire Hartnell",
+    "slug_guess": "organisationalanthropologist",
+    "feed_url": "https://organisationalanthropologist.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "The OSINT Insider Newsletter",
+    "author": "The OSINT Insider",
+    "slug_guess": "osintinsider",
+    "feed_url": "https://osintinsider.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "OSINT USA Substack",
+    "author": "OSINT USA",
+    "slug_guess": "osintusa",
+    "feed_url": "https://osintusa.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "OSINTech's OSINT Anatomy Substack",
+    "author": "OSINTech",
+    "slug_guess": "osintech",
+    "feed_url": "https://osintech.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "OSINTelligence",
+    "author": "OSINTelligence",
+    "slug_guess": "osintelligence",
+    "feed_url": "https://osintelligence.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "Other Worlds Catalog",
+    "author": "Derek Beyer",
+    "slug_guess": "otherworldscatalog",
+    "feed_url": "https://otherworldscatalog.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Our Moral Moment w/ Bishop William Barber & Jonathan Wilson-Hartgrove",
+    "author": "Jonathan Wilson-Hartgrove",
+    "slug_guess": "ourmoralmoment",
+    "feed_url": "https://ourmoralmoment.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Our Public Lands & Waters",
+    "author": "Our Public Lands & Waters",
+    "slug_guess": "ourpubliclands",
+    "feed_url": "https://ourpubliclands.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Peaceful Return",
+    "author": "Amanda Ianthe",
+    "slug_guess": "peacefulreturn",
+    "feed_url": "https://peacefulreturn.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "The People's Paper",
+    "author": "The People's Community",
+    "slug_guess": "thepeoplespaper",
+    "feed_url": "https://thepeoplespaper.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Pesky Liberals",
+    "author": "The Pesky Liberals",
+    "slug_guess": "peskyliberals",
+    "feed_url": "https://peskyliberals.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Philosophy Quotes",
+    "author": "Philosophers",
+    "slug_guess": "philosophyquotes",
+    "feed_url": "https://philosophyquotes.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "Pieter de Beer",
+    "author": "Pieter de Beer",
+    "slug_guess": "pieterdebeer",
+    "feed_url": "https://pieterdebeer.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Plantaholics",
+    "author": "Jess",
+    "slug_guess": "plantaholics",
+    "feed_url": "https://plantaholics.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Porch - Gareth Higgins & Friends",
+    "author": "Gareth Higgins",
+    "slug_guess": "garethhiggins",
+    "feed_url": "https://garethhiggins.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Preamble",
+    "author": "The Preamble",
+    "slug_guess": "thepreamble",
+    "feed_url": "https://thepreamble.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Product Compass",
+    "author": "Pawel Huryn",
+    "slug_guess": "productcompass",
+    "feed_url": "https://productcompass.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Project OSINT - Smart Open Source Insights",
+    "author": "Project OSINT",
+    "slug_guess": "projectosint",
+    "feed_url": "https://projectosint.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "Proof",
+    "author": "Seth Abramson",
+    "slug_guess": "sethabramson",
+    "feed_url": "https://sethabramson.substack.com/feed",
+    "category": 5,
+    "confidence": "high"
+  },
+  {
+    "name": "Prosper",
+    "author": "Ilia Karelin",
+    "slug_guess": "prosper",
+    "feed_url": "https://prosper.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Public Notice",
+    "author": "Aaron Rupar",
+    "slug_guess": "aaronrupar",
+    "feed_url": "https://aaronrupar.substack.com/feed",
+    "category": 6,
+    "confidence": "high"
+  },
+  {
+    "name": "The Quiet Life with Susan Cain",
+    "author": "Susan Cain",
+    "slug_guess": "susancain",
+    "feed_url": "https://susancain.substack.com/feed",
+    "category": 3,
+    "confidence": "high"
+  },
+  {
+    "name": "Radically Local",
+    "author": "Margi Prideaux, PhD",
+    "slug_guess": "radicallylocal",
+    "feed_url": "https://radicallylocal.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Randy Woodley",
+    "author": "Randy Woodley",
+    "slug_guess": "randywoodley",
+    "feed_url": "https://randywoodley.substack.com/feed",
+    "category": 11,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Real Time Creator",
+    "author": "Lori Ballen",
+    "slug_guess": "realtimecreator",
+    "feed_url": "https://realtimecreator.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "reclaimed | systems",
+    "author": "Alistair Alexander",
+    "slug_guess": "reclaimedsystems",
+    "feed_url": "https://reclaimedsystems.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Reclaiming AI",
+    "author": "Reclaiming AI",
+    "slug_guess": "reclaimingai",
+    "feed_url": "https://reclaimingai.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Regenerative Living Report",
+    "author": "RegenEarth Studio",
+    "slug_guess": "regenerativelivingreport",
+    "feed_url": "https://regenerativelivingreport.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Regenesis",
+    "author": "Ali Bin Shahid",
+    "slug_guess": "regenesis",
+    "feed_url": "https://regenesis.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Resilient Tomorrow",
+    "author": "Mike Jones",
+    "slug_guess": "resilienttomorrow",
+    "feed_url": "https://resilienttomorrow.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Resistance Kitty",
+    "author": "Resistance Kitty",
+    "slug_guess": "resistancekitty",
+    "feed_url": "https://resistancekitty.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Resistance Media",
+    "author": "Resistance Media",
+    "slug_guess": "resistancemedia",
+    "feed_url": "https://resistancemedia.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Resistance Sentinel",
+    "author": "The Resistance Sentinel",
+    "slug_guess": "resistancesentinel",
+    "feed_url": "https://resistancesentinel.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Rethinking Nonprofits",
+    "author": "Rethinking Nonprofits",
+    "slug_guess": "rethinkingnonprofits",
+    "feed_url": "https://rethinkingnonprofits.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Revenue Ready CEO",
+    "author": "The Revenue Ready CEO",
+    "slug_guess": "revenuereadyceo",
+    "feed_url": "https://revenuereadyceo.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Rick Wilson's Against All Enemies",
+    "author": "Rick Wilson",
+    "slug_guess": "rickwilson",
+    "feed_url": "https://rickwilson.substack.com/feed",
+    "category": 8,
+    "confidence": "high"
+  },
+  {
+    "name": "Rights & Insights",
+    "author": "Rights & Insights",
+    "slug_guess": "rightsandinsights",
+    "feed_url": "https://rightsandinsights.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Rituals & Rebellion",
+    "author": "Angell Deer",
+    "slug_guess": "ritualsandrebellion",
+    "feed_url": "https://ritualsandrebellion.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "Robert Reich",
+    "author": "Robert Reich",
+    "slug_guess": "robertreich",
+    "feed_url": "https://robertreich.substack.com/feed",
+    "category": 8,
+    "confidence": "high"
+  },
+  {
+    "name": "The Sane & Miraculous",
+    "author": "Robbie",
+    "slug_guess": "thesaneandmiraculous",
+    "feed_url": "https://thesaneandmiraculous.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "Sarah Kendzior's Newsletter",
+    "author": "Sarah Kendzior",
+    "slug_guess": "sarahkendzior",
+    "feed_url": "https://sarahkendzior.substack.com/feed",
+    "category": 6,
+    "confidence": "high"
+  },
+  {
+    "name": "Sara's Substack",
+    "author": "Sara Ness",
+    "slug_guess": "saraness",
+    "feed_url": "https://saraness.substack.com/feed",
+    "category": 2,
+    "confidence": "high"
+  },
+  {
+    "name": "Save America Movement",
+    "author": "The Save America Movement",
+    "slug_guess": "saveamericamovement",
+    "feed_url": "https://saveamericamovement.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "School of Wise Innovation",
+    "author": "Andrew Dunn",
+    "slug_guess": "wiseinnovation",
+    "feed_url": "https://wiseinnovation.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Script Breakers",
+    "author": "Stephanie LaFlora",
+    "slug_guess": "scriptbreakers",
+    "feed_url": "https://scriptbreakers.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "Sean Snow",
+    "author": "Sean Snow",
+    "slug_guess": "seansnow",
+    "feed_url": "https://seansnow.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Secrets of Privacy",
+    "author": "Secrets of Privacy",
+    "slug_guess": "secretsofprivacy",
+    "feed_url": "https://secretsofprivacy.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "Shamani of The Compassion Collective",
+    "author": "The Cognitive Ecologist",
+    "slug_guess": "cognitiveecologist",
+    "feed_url": "https://cognitiveecologist.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "Shanaka Anslem Perera",
+    "author": "Shanaka Anslem Perera",
+    "slug_guess": "shanakaanslemperera",
+    "feed_url": "https://shanakaanslemperera.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Silicon Sands News",
+    "author": "Dr Seth Dobrin",
+    "slug_guess": "siliconsands",
+    "feed_url": "https://siliconsands.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Small Deeds Done",
+    "author": "Michele Hornish",
+    "slug_guess": "smalldeedsdone",
+    "feed_url": "https://smalldeedsdone.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Society of Problem Solvers",
+    "author": "The Society of Problem Solvers",
+    "slug_guess": "societyofproblemsolvers",
+    "feed_url": "https://societyofproblemsolvers.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "SolarPunk Stories",
+    "author": "SolarPunk Stories",
+    "slug_guess": "solarpunkstories",
+    "feed_url": "https://solarpunkstories.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Solidarity Hall",
+    "author": "Elias Crim",
+    "slug_guess": "solidarityhall",
+    "feed_url": "https://solidarityhall.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Solryn Initiative",
+    "author": "Solryn Initiative",
+    "slug_guess": "solryn",
+    "feed_url": "https://solryn.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "SomaticHeartfulness: a trauma-informed relational newsletter",
+    "author": "Patrick Morency",
+    "slug_guess": "somaticheartfulness",
+    "feed_url": "https://somaticheartfulness.substack.com/feed",
+    "category": 2,
+    "confidence": "high"
+  },
+  {
+    "name": "Spiritual Ecology",
+    "author": "Spiritual Ecology",
+    "slug_guess": "spiritualecology",
+    "feed_url": "https://spiritualecology.substack.com/feed",
+    "category": 2,
+    "confidence": "medium"
+  },
+  {
+    "name": "SpyTalk",
+    "author": "Jeff Stein",
+    "slug_guess": "spytalk",
+    "feed_url": "https://spytalk.substack.com/feed",
+    "category": 5,
+    "confidence": "high"
+  },
+  {
+    "name": "The Steady State",
+    "author": "The Steady State",
+    "slug_guess": "thesteadystate",
+    "feed_url": "https://thesteadystate.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Still Wandering",
+    "author": "Alex McCann",
+    "slug_guess": "stillwandering",
+    "feed_url": "https://stillwandering.substack.com/feed",
+    "category": 12,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Strategic Linguist",
+    "author": "The Strategic Linguist",
+    "slug_guess": "strategiclinguist",
+    "feed_url": "https://strategiclinguist.substack.com/feed",
+    "category": 5,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Strategy Stack",
+    "author": "Alex Pawlowski",
+    "slug_guess": "strategystack",
+    "feed_url": "https://strategystack.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Structure.Community by Bill Johnston",
+    "author": "Bill Johnston",
+    "slug_guess": "structurecommunity",
+    "feed_url": "https://structurecommunity.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "The Sufficiency and Wellbeing Magazine",
+    "author": "Sufficiency and Wellbeing",
+    "slug_guess": "sufficiencyandwellbeing",
+    "feed_url": "https://sufficiencyandwellbeing.substack.com/feed",
+    "category": 9,
+    "confidence": "medium"
+  },
+  {
+    "name": "Superpowers for Good",
+    "author": "Devin D. Thorpe",
+    "slug_guess": "superpowersforgood",
+    "feed_url": "https://superpowersforgood.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Survival Illustrated",
+    "author": "Jessica",
+    "slug_guess": "survivalillustrated",
+    "feed_url": "https://survivalillustrated.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Sydney Olson",
+    "author": "Sydney Olson",
+    "slug_guess": "sydneyolson",
+    "feed_url": "https://sydneyolson.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  },
+  {
+    "name": "Synthetic Connection",
+    "author": "Seren Skye",
+    "slug_guess": "syntheticconnection",
+    "feed_url": "https://syntheticconnection.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "System Change",
+    "author": "Ann Pettifor",
+    "slug_guess": "annpettifor",
+    "feed_url": "https://annpettifor.substack.com/feed",
+    "category": 10,
+    "confidence": "high"
+  },
+  {
+    "name": "A Systemic Approach",
+    "author": "Jeff McFadden",
+    "slug_guess": "systemicapproach",
+    "feed_url": "https://systemicapproach.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Systems of Human Performance",
+    "author": "Michael",
+    "slug_guess": "systemsofhumanperformance",
+    "feed_url": "https://systemsofhumanperformance.substack.com/feed",
+    "category": 10,
+    "confidence": "medium"
+  },
+  {
+    "name": "Tales of Humanity",
+    "author": "Sarah Towle",
+    "slug_guess": "talesofhumanity",
+    "feed_url": "https://talesofhumanity.substack.com/feed",
+    "category": 8,
+    "confidence": "medium"
+  },
+  {
+    "name": "Talk Smart",
+    "author": "Dr. Yulia Akisheva",
+    "slug_guess": "talksmart",
+    "feed_url": "https://talksmart.substack.com/feed",
+    "category": 3,
+    "confidence": "medium"
+  },
+  {
+    "name": "Technology Law",
+    "author": "Technology Law",
+    "slug_guess": "technologylaw",
+    "feed_url": "https://technologylaw.substack.com/feed",
+    "category": 7,
+    "confidence": "medium"
+  },
+  {
+    "name": "Teri Kwant",
+    "author": "Teri Kwant",
+    "slug_guess": "terikwant",
+    "feed_url": "https://terikwant.substack.com/feed",
+    "category": 1,
+    "confidence": "medium"
+  }
+]

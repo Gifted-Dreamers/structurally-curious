@@ -1,0 +1,450 @@
+[
+  {
+    "model": "qwen.qwen3-next-80b-a3b",
+    "model_name": "Qwen3 Next 80B-A3B",
+    "provider": "Qwen",
+    "task_id": "pc_01",
+    "category": "synthesis",
+    "num_partial_docs": 2,
+    "num_full_docs": 5,
+    "num_missing_docs": 3,
+    "partial_response": "The key themes across the two documents are **resilience versus fragility** and **the mismatch between measured economic activity and real human wellbeing**, with a deeper connection rooted in **how systems\u2014social and economic\u2014fail to account for context, relationships, and true welfare**.\n\nDocument 1 emphasizes **community resilience** as being grounded in **local knowledge networks**\u2014the informal, relational ties between neighbors who understand their environment, resources, and vulnerabilities. This form of resilience is organic, immediate, and context-sensitive. It operates outside formal institutions and thrives on trust, shared history, and mutual aid. The document implies that when disasters strike, the most effective responses come not from top-down systems but from bottom-up social fabric. This suggests that **resilience is a social capital asset**, not merely a logistical or infrastructural one.\n\nDocument 2 critiques **economic models** that prioritize GDP as a measure of progress, highlighting how they **externalize costs**\u2014that is, they ignore the human and environmental toll of economic activity. A hurricane that destroys homes and then triggers construction spending increases GDP, even as it devastates lives, displaces communities, and erodes wellbeing. This reveals a fundamental flaw: **economic metrics celebrate destruction when it generates market activity**, while ignoring the loss of non-market values\u2014like safety, stability, relationships, and health.\n\nThe connection between the two documents is profound and systemic:\n\n1. **Both critique dominant systems that overlook human context**:  \n   - Document 1 shows that formal emergency systems lack \u201ccontextual understanding,\u201d meaning they are blind to the social networks that actually sustain communities.  \n   - Document 2 shows that GDP is blind to the real costs of destruction and the true value of wellbeing, treating human suffering as mere economic input.  \n   \u2192 In both cases, **abstract, top-down systems (bureaucratic emergency response, economic accounting) fail to recognize the lived reality of people**.\n\n2. **Both reveal a hidden foundation of wellbeing: social and relational capital**:  \n   - In Document 1, resilience emerges from interpersonal trust and local knowledge.  \n   - In Document 2, wellbeing is diminished when those same social ties are shattered by disaster\u2014and yet, the economic system rewards the *rebuilding* of physical structures, not the *restoration* of social fabric.  \n   \u2192 The documents together suggest that **true resilience and wellbeing depend on social cohesion**, which is undervalued or invisible in both emergency planning and economic policy.\n\n3. **The fragility exposed is systemic**:  \n   - Economic fragility (Document 2) makes communities more vulnerable to disasters by incentivizing growth over sustainability and ignoring environmental or social risks.  \n   - Social fragility (implied in Document 1) occurs when communities are disconnected, and local knowledge networks are eroded by urbanization, inequality, or neglect.  \n   \u2192 The two forms of fragility reinforce each other: when economies prioritize GDP over wellbeing, they undermine the social and ecological conditions that enable resilience.\n\nIn conclusion, the key themes\u2014**community resilience through local knowledge** and **economic fragility through externalized costs**\u2014are deeply interconnected. They both expose a critical failure in modern governance: the **systematic undervaluation of human relationships and lived experience** in favor of measurable, monetized outputs. To build true resilience, we must redesign both emergency response systems and economic metrics to center **context, relationships, and wellbeing**\u2014not just activity, efficiency, or growth.",
+    "full_response": "Based on all five documents, the key themes that emerge are: **local knowledge and autonomy, systemic fragility caused by extractive systems, the superiority of reciprocal and community-based models over top-down or profit-driven ones, and the persistence of colonial power dynamics in modern institutions**. These themes are deeply interconnected, revealing a unified critique of dominant economic, technological, and emergency response paradigms\u2014and a powerful advocacy for decentralized, equitable, and ecologically grounded alternatives.\n\n### 1. **Local Knowledge as the Foundation of Resilience**\nDocuments 1 and 3 center on the critical value of *local knowledge*\u2014whether in the form of neighborly networks (Document 1) or Traditional Ecological Knowledge (TEK) (Document 3). Document 1 shows that in disasters, immediate response comes not from formal agencies but from communities with pre-existing social ties and contextual understanding. Document 3 extends this to environmental stewardship, demonstrating that Indigenous practices like controlled burns and water harvesting are not just culturally significant but empirically more sustainable than industrial alternatives. Together, these documents argue that resilience is not a product of external intervention or technological superiority, but of *embedded, place-based wisdom* that evolves over generations.\n\n### 2. **Extractive Systems Create Fragility and Mismeasure Success**\nDocuments 2 and 4 expose how dominant systems\u2014economic and digital\u2014extract value while externalizing costs and eroding community agency. Document 2 critiques GDP as a metric that glorifies destruction (e.g., hurricane-induced rebuilding) while ignoring human wellbeing. This reveals a systemic flaw: our institutions reward activity, not health or sustainability. Document 4 draws a parallel with digital platforms that extract community-generated data without reciprocity, mirroring colonial patterns of resource extraction. In both cases, value is siphoned upward\u2014by corporations or economic metrics\u2014while communities bear the costs (loss of wellbeing, loss of data sovereignty, environmental degradation). This extractive logic directly undermines the resilience described in Documents 1 and 3.\n\n### 3. **Reciprocity Over Charity: Rebuilding Power Dynamics**\nDocument 5 introduces the concept of *mutual aid* as a counter-model to charity. Charity, it argues, reinforces hierarchy: the giver holds power, the receiver is passive. Mutual aid, by contrast, is rooted in solidarity and shared vulnerability\u2014everyone gives and receives. This principle connects directly to the other documents:  \n- The neighborly networks in Document 1 are mutual aid in action: no one is \u201chelping\u201d from above; everyone is interconnected.  \n- TEK in Document 3 is not \u201cdonated\u201d knowledge\u2014it is collectively held, reciprocally maintained, and passed down through community obligation.  \n- Digital platforms in Document 4 fail because they lack reciprocity; they take without giving back.  \n- GDP in Document 2 fails because it measures only transactional activity, not the relational, reciprocal bonds that sustain communities.\n\n### 4. **Colonial Continuities in Modern Institutions**\nThe colonial critique is explicit in Document 4 (\u201creplicate colonial resource patterns\u201d) but implicit throughout. Colonialism was, at its core, the extraction of value from local systems while dismissing or destroying indigenous knowledge and autonomy. Document 2\u2019s GDP model mirrors this by valuing destruction over care. Document 4\u2019s data extraction mirrors land and labor exploitation. Document 1\u2019s reliance on formal systems over local networks echoes the historical marginalization of community-based governance. Even the dismissal of TEK in favor of \u201cindustrial alternatives\u201d (Document 3) reflects a colonial mindset that equates modernity with superiority. Mutual aid (Document 5) becomes an act of decolonization\u2014reclaiming agency, reciprocity, and self-determination.\n\n### **How the Themes Connect: A Unified Framework**\nThese documents collectively paint a picture of two competing systems:  \n- **The Extractive System**: Top-down, profit-driven, metrics-",
+    "partial_latency_ms": 12143,
+    "full_latency_ms": 15911,
+    "partial_tokens": {
+      "input": 127,
+      "output": 711
+    },
+    "full_tokens": {
+      "input": 233,
+      "output": 800
+    },
+    "divergence": {
+      "jaccard_distance": 0.8190298507462687,
+      "jaccard_similarity": 0.18097014925373134,
+      "new_words_count": 240,
+      "new_words_ratio": 0.712166172106825,
+      "dropped_words_count": 199,
+      "dropped_words_ratio": 0.6722972972972973,
+      "partial_word_count": 296,
+      "full_word_count": 337,
+      "length_ratio": 1.1041776837652035
+    },
+    "confidence_partial": {
+      "hedge_count": 0,
+      "confidence_count": 2,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.0038910505836575876,
+      "net_confidence": 0.0038910505836575876,
+      "ext_high_count": 2,
+      "ext_hedge_count": 0,
+      "certainty_score": 0.0038910505836575876,
+      "word_count": 514
+    },
+    "confidence_full": {
+      "hedge_count": 0,
+      "confidence_count": 1,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.001763668430335097,
+      "net_confidence": 0.001763668430335097,
+      "ext_high_count": 1,
+      "ext_hedge_count": 0,
+      "certainty_score": 0.001763668430335097,
+      "word_count": 567
+    },
+    "timestamp": "2026-03-14T10:57:22.051727+00:00"
+  },
+  {
+    "model": "qwen.qwen3-next-80b-a3b",
+    "model_name": "Qwen3 Next 80B-A3B",
+    "provider": "Qwen",
+    "task_id": "pc_02",
+    "category": "synthesis",
+    "num_partial_docs": 2,
+    "num_full_docs": 5,
+    "num_missing_docs": 3,
+    "partial_response": "The central argument across both documents is that the modern workplace is overwhelmed not by the sheer quantity of information or interruptions, but by the lack of effective systems to prioritize, filter, and protect cognitive resources. Both texts converge on the idea that the fundamental challenge is not scarcity of information or time per se, but the absence of mechanisms to manage attention and relevance with intentionality.\n\nDocument 1 frames attention as the \u201cscarcest resource,\u201d emphasizing that every meeting, notification, and status update fragments cognitive bandwidth that should be devoted to \u201cdeep work\u201d\u2014the kind of focused, high-value thinking that drives innovation and productivity. This suggests that organizational culture and design are inadvertently eroding employees\u2019 ability to concentrate by normalizing constant interruption.\n\nDocument 2 complements this by reframing \u201cinformation overload\u201d not as a problem of volume, but of filtering. The issue is not that there is too much data, but that individuals and systems lack the tools\u2014whether technological, procedural, or cultural\u2014to discern what is truly relevant. Without effective filters, even a small amount of irrelevant information can become overwhelming because it competes for the same limited attentional resources.\n\nTogether, these documents argue that the core problem is a failure of attention management: organizations are drowning not in data, but in noise\u2014unfiltered, un prioritized inputs that hijack cognitive capacity. The practical implication is clear: organizations must shift from trying to reduce the volume of communication to investing in systems that enhance attentional discipline and relevance filtering.\n\nPractical implications include:\n\n1. **Designing for Deep Work**: Organizations should implement policies that protect uninterrupted time\u2014such as \u201cno-meeting days,\u201d quiet hours, or asynchronous communication norms\u2014to allow employees to engage in deep work without fragmentation.\n\n2. **Implementing Intelligent Filtering Tools**: Rather than adding more notifications or communication channels, companies should adopt AI-driven tools or workflow systems that prioritize messages based on context, urgency, and relationship (e.g., tagging, automated triage, or AI summarization).\n\n3. **Cultivating Attention Literacy**: Training employees to recognize attentional traps and develop personal strategies for managing interruptions (e.g., turning off non-essential notifications, using the \u201ctwo-minute rule,\u201d or time-blocking) becomes as critical as technical skill development.\n\n4. **Rethinking Meeting Culture**: Meetings should be justified by clear objectives and limited in frequency and duration. Every meeting must prove its value in terms of cognitive investment versus output.\n\n5. **Leadership Modeling**: Leaders must model disciplined attention behaviors\u2014such as not sending late-night emails or responding immediately to every message\u2014to signal that deep focus is valued over reactive responsiveness.\n\nIn essence, the central argument is that the future of organizational productivity lies not in doing more, but in doing less\u2014more deliberately. The solution is not to manage information better, but to manage attention better. By treating attention as a finite, sacred resource and building systems that protect and direct it, organizations can transform information overload into focused, meaningful output.",
+    "full_response": "The central argument across all five documents is that **human attention and cognitive resources are finite, vulnerable to depletion, and critically in need of strategic management**\u2014not through increased capacity, but through better filtering, restoration, and allocation. In modern environments saturated with information and demands, the primary bottleneck to effective performance is not the volume of inputs, but the quality of cognitive regulation.\n\n### Synthesis of the Central Argument:\n\n- **Document 1** establishes the foundational premise: attention is the scarcest resource. In organizations, every interruption\u2014meetings, notifications, updates\u2014erodes the cognitive bandwidth required for deep, meaningful work. This frames attention not as a passive trait but as a limited, competitive asset.\n\n- **Document 2** deepens this by reframing the problem: it\u2019s not *too much information*, but *poor filtering*. The real challenge lies in discerning relevance. Without effective filters\u2014whether technological, procedural, or cognitive\u2014individuals are overwhelmed not by data, but by noise. This shifts the focus from quantity to quality of input processing.\n\n- **Document 3** illustrates this in practice: OSINT analysts handle massive data volumes daily, yet their success hinges not on speed or volume processed, but on *pattern recognition*\u2014a high-level cognitive skill that requires focused, uninterrupted attention. This reinforces that cognitive efficiency is about *meaning-making*, not data\u541e\u54bd (gulping).\n\n- **Document 4** reveals the consequences of cognitive depletion: decision fatigue. As cognitive reserve diminishes over time, judgment deteriorates\u2014even in highly trained professionals like judges and doctors. This demonstrates that attention and decision-making are not isolated functions but part of a shared, depletable cognitive economy. Restoring cognitive reserve (e.g., through breaks) directly improves outcomes.\n\n- **Document 5** offers a solution: mindfulness training enhances attentional control. The evidence shows that even modest, structured interventions (8 weeks of meditation) produce measurable, moderate-to-strong improvements in sustained attention. This proves that attention is not fixed\u2014it is trainable, and its quality can be deliberately cultivated.\n\n### Practical Implications:\n\n1. **Organizations must redesign workflows to protect attention**  \n   Rather than adding more meetings or notifications, organizations should implement \u201cattention-preserving\u201d norms: no-meeting blocks, asynchronous communication defaults, notification silencing during deep work hours, and enforced breaks. The goal is to reduce cognitive fragmentation.\n\n2. **Invest in cognitive filtering systems, not just data tools**  \n   Information overload is a filtering problem. Organizations should prioritize tools and training that help employees identify signal from noise\u2014e.g., AI-assisted relevance scoring, curated information streams, or decision frameworks that prioritize context over volume. OSINT analysts\u2019 success shows that humans excel at pattern recognition when freed from data overload.\n\n3. **Schedule critical decisions during peak cognitive hours**  \n   Given decision fatigue, high-stakes decisions (hiring, legal rulings, medical diagnoses) should be scheduled early in the day or after rest breaks. This aligns with Document 4\u2019s findings and requires organizational awareness of cognitive rhythms.\n\n4. **Institutionalize mindfulness and attention training**  \n   Document 5 provides empirical support for integrating mindfulness practices into professional development. Companies should offer structured meditation programs, digital detox protocols, or attentional training modules\u2014not as wellness perks, but as performance enhancers with ROI in focus, accuracy, and reduced errors.\n\n5. **Redefine productivity metrics**  \n   Productivity should not be measured by hours worked or emails answered, but by depth of output, quality of decisions, and cognitive sustainability. A worker who completes one high-impact task after 4 hours of focused work is more valuable than one who responds to 50 emails in the same time.\n\n### Conclusion:\n\nThe unified message across these documents is that **cognitive resources are the new currency of organizational effectiveness**. In an age of constant distraction and information glut, the competitive advantage lies",
+    "partial_latency_ms": 11458,
+    "full_latency_ms": 13838,
+    "partial_tokens": {
+      "input": 115,
+      "output": 601
+    },
+    "full_tokens": {
+      "input": 243,
+      "output": 800
+    },
+    "divergence": {
+      "jaccard_distance": 0.822141560798548,
+      "jaccard_similarity": 0.17785843920145192,
+      "new_words_count": 266,
+      "new_words_ratio": 0.7307692307692307,
+      "dropped_words_count": 187,
+      "dropped_words_ratio": 0.656140350877193,
+      "partial_word_count": 285,
+      "full_word_count": 364,
+      "length_ratio": 1.2812135355892649
+    },
+    "confidence_partial": {
+      "hedge_count": 0,
+      "confidence_count": 1,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.0021321961620469083,
+      "net_confidence": 0.0021321961620469083,
+      "ext_high_count": 1,
+      "ext_hedge_count": 0,
+      "certainty_score": 0.0021321961620469083,
+      "word_count": 469
+    },
+    "confidence_full": {
+      "hedge_count": 0,
+      "confidence_count": 1,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.0017241379310344827,
+      "net_confidence": 0.0017241379310344827,
+      "ext_high_count": 1,
+      "ext_hedge_count": 0,
+      "certainty_score": 0.0017241379310344827,
+      "word_count": 580
+    },
+    "timestamp": "2026-03-14T10:57:47.350816+00:00"
+  },
+  {
+    "model": "qwen.qwen3-next-80b-a3b",
+    "model_name": "Qwen3 Next 80B-A3B",
+    "provider": "Qwen",
+    "task_id": "pc_03",
+    "category": "analysis",
+    "num_partial_docs": 2,
+    "num_full_docs": 4,
+    "num_missing_docs": 2,
+    "partial_response": "The two documents present complementary yet distinct perspectives on the challenges of climate adaptation, each highlighting a different dimension of systemic vulnerability. While they agree on the reality of escalating climate risk and its socioeconomic consequences, they diverge in their focus\u2014infrastructure versus financial markets\u2014and together reveal critical gaps in the broader adaptation framework.\n\n**Where They Agree:**\n\nBoth documents concur that climate change is generating tangible, escalating risks that are already triggering real-world responses. Document 1 identifies physical risks\u2014rising sea levels and temperatures\u2014as drivers of infrastructure needs, while Document 3 identifies financial risks\u2014insurance withdrawal\u2014as a consequence of those same physical threats. Both implicitly acknowledge that climate change is no longer a distant future concern but a present-day disruptor of urban systems. Furthermore, both point to the increasing unaffordability and unsustainability of maintaining the status quo: cities must invest in physical resilience (Document 1), and residents are being priced out of financial protection (Document 3). The underlying agreement is that climate impacts are forcing structural changes\u2014whether in construction or insurance\u2014that are costly and politically fraught.\n\n**Where They Disagree:**\n\nThe primary divergence lies in their focus and implied solutions. Document 1 advocates for proactive, public-sector-led infrastructure investment as a solution to physical threats. It frames adaptation as a technical and engineering challenge requiring capital, planning, and public goods. In contrast, Document 3 reveals a market failure: private insurers, responding to actuarial risk, are withdrawing from vulnerable regions, thereby shifting the burden onto households and local governments. This suggests that even if infrastructure is built (as Document 1 recommends), it may not be sufficient if financial mechanisms collapse. \n\nIn essence, Document 1 assumes that investment can mitigate risk and restore stability; Document 3 shows that market forces are undermining stability even before infrastructure can be fully deployed. The disagreement is not about the existence of risk, but about whether physical adaptation alone can resolve the crisis. Document 3 implies that without financial resilience\u2014such as public insurance backstops, risk-sharing mechanisms, or regulatory intervention\u2014physical investments may be rendered meaningless, as homeowners cannot afford to live in or protect their properties.\n\n**Gaps That Remain:**\n\nThe most significant gap is the absence of integration between physical and financial adaptation strategies. Neither document addresses how infrastructure investment might be coupled with financial reforms to create a coherent adaptation ecosystem. For example:\n\n- If sea walls and drainage systems are built in Florida, but insurers still refuse to cover homes, who pays for repairs after a storm? Are homeowners left to self-insure or rely on disaster relief?\n- Conversely, if government subsidizes insurance premiums to keep coverage available, is there any incentive for property owners to invest in climate-resilient infrastructure? Without linkage, public funds may subsidize continued development in high-risk zones\u2014a phenomenon known as \u201cmoral hazard.\u201d\n\nAdditionally, neither document addresses equity. The affordability crisis in Document 3 disproportionately affects low- and middle-income households, who are least able to relocate or retrofit homes. Meanwhile, Document 1\u2019s call for infrastructure investment may benefit wealthier urban centers with tax bases to fund projects, leaving marginalized communities\u2014often the most vulnerable\u2014to fend for themselves.\n\nThere is also no mention of governance or policy coordination. Who funds infrastructure? Who regulates insurers? Is there a national climate adaptation strategy that aligns public investment with private market behavior? The documents reveal a fragmented response: engineers are building walls while insurers are pulling out, with no clear institutional architecture to bridge the two.\n\n**Conclusion:**\n\nThe documents agree that climate change is triggering systemic stress, but they reveal a dangerous disconnect between physical and financial adaptation. Infrastructure investment alone cannot solve the crisis if financial protection evaporates; conversely, financial interventions without physical resilience may merely delay inevitable losses. The critical gap is the lack of integrated policy that links public infrastructure spending with financial risk-sharing mechanisms, equitable access, and regulatory oversight. A truly resilient future requires not just sea walls and heat-resistant materials,",
+    "full_response": "The four documents present complementary yet distinct perspectives on climate adaptation, revealing both areas of convergence and significant tension, as well as critical gaps in the broader adaptation discourse.\n\n**Areas of Agreement:**\n\n1. **Recognition of Climate Impacts as Real and Active:**  \n   All documents implicitly or explicitly acknowledge that climate change is not a distant threat but a present, disruptive force. Document 1 highlights physical risks (rising sea levels, heat), Document 2 emphasizes localized manifestations (flood patterns, heat islands), Document 3 shows economic consequences (insurance withdrawal), and Document 4 documents demographic shifts (migration from Miami to Phoenix). Together, they establish a consensus: climate change is already reshaping human settlement, economic systems, and infrastructure needs.\n\n2. **Limitations of Conventional Approaches:**  \n   There is an underlying critique of purely technical or market-driven responses. Document 2 challenges the dominance of \u201cengineering models alone,\u201d implying that top-down infrastructure (Document 1) may be insufficient. Document 3 reveals that insurance markets\u2014often seen as risk-management tools\u2014are failing, suggesting that financial mechanisms alone cannot address systemic climate risk. This shared skepticism points to a broader agreement: traditional, siloed solutions are inadequate.\n\n**Areas of Disagreement:**\n\n1. **Infrastructure vs. Community-Based Solutions:**  \n   The most explicit tension exists between Document 1 and Document 2. Document 1 champions large-scale, engineered infrastructure (sea walls, drainage, heat-resistant materials) as essential. Document 2 counters that community-based adaptation, rooted in local knowledge, is \u201cmore effective\u201d than such top-down approaches. This is not merely a difference in scale but in epistemology: one prioritizes technical expertise and capital investment; the other prioritizes indigenous and experiential knowledge.  \n   *Implication:* Document 1 assumes infrastructure can \u201csolve\u201d climate risk; Document 2 suggests infrastructure without local context may be misdirected, wasteful, or even harmful (e.g., sea walls that disrupt natural sediment flow or displace vulnerable communities).\n\n2. **Market Mechanisms as Solutions vs. Symptoms of Failure:**  \n   Document 3 portrays insurance markets not as adaptive tools but as indicators of systemic collapse. The retreat of insurers like State Farm and Allstate is framed as a crisis of affordability and access, not a market correction. This contradicts any implicit assumption in Document 1 that infrastructure investment can restore \u201cnormal\u201d economic conditions. If insurance is withdrawing, even the most robust sea walls may not make properties insurable or financially viable\u2014undermining the economic rationale for infrastructure investment in high-risk zones.\n\n3. **Migration as Economic Choice vs. Climate-Driven Necessity:**  \n   Document 4 reveals a critical disconnect between perception and reality: migration from Miami to Phoenix is occurring due to climate stressors (sea level rise, extreme heat, insurance unavailability), yet it is mislabeled as \u201ceconomic choice.\u201d This contradicts the framing in Document 1 and 3, which treat infrastructure and insurance as isolated policy problems. Document 4 suggests that adaptation is already happening\u2014through displacement\u2014but without recognition, support, or planning. This implies that Documents 1\u20133 are addressing symptoms (infrastructure gaps, insurance gaps) while ignoring the largest adaptation mechanism already in motion: human mobility.\n\n**Critical Gaps Remaining:**\n\n1. **Lack of Integration Between Scales and Systems:**  \n   No document connects infrastructure, community knowledge, insurance, and migration into a coherent framework. For example:  \n   - If community knowledge identifies a neighborhood as unsuitable for long-term habitation (Document 2), should infrastructure be invested there at all (Document 1)?  \n   - If insurance is withdrawing (Document 3), how does that affect community capacity to fund local adaptation (Document 2)?  \n   - If people are migrating to Phoenix (Document 4), are cities like Phoenix investing in heat-resistant infrastructure (Document ",
+    "partial_latency_ms": 33590,
+    "full_latency_ms": 16446,
+    "partial_tokens": {
+      "input": 128,
+      "output": 800
+    },
+    "full_tokens": {
+      "input": 219,
+      "output": 800
+    },
+    "divergence": {
+      "jaccard_distance": 0.830220713073005,
+      "jaccard_similarity": 0.1697792869269949,
+      "new_words_count": 230,
+      "new_words_ratio": 0.696969696969697,
+      "dropped_words_count": 259,
+      "dropped_words_ratio": 0.7214484679665738,
+      "partial_word_count": 359,
+      "full_word_count": 330,
+      "length_ratio": 0.8958858102434929
+    },
+    "confidence_partial": {
+      "hedge_count": 2,
+      "confidence_count": 0,
+      "hedge_rate": 0.003110419906687403,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.003110419906687403,
+      "ext_high_count": 0,
+      "ext_hedge_count": 2,
+      "certainty_score": -0.003110419906687403,
+      "word_count": 643
+    },
+    "confidence_full": {
+      "hedge_count": 1,
+      "confidence_count": 0,
+      "hedge_rate": 0.0017761989342806395,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.0017761989342806395,
+      "ext_high_count": 0,
+      "ext_hedge_count": 1,
+      "certainty_score": -0.0017761989342806395,
+      "word_count": 563
+    },
+    "timestamp": "2026-03-14T10:58:37.390117+00:00"
+  },
+  {
+    "model": "qwen.qwen3-next-80b-a3b",
+    "model_name": "Qwen3 Next 80B-A3B",
+    "provider": "Qwen",
+    "task_id": "pc_04",
+    "category": "analysis",
+    "num_partial_docs": 2,
+    "num_full_docs": 6,
+    "num_missing_docs": 4,
+    "partial_response": "The key insights from the provided documents converge on a unified framework: **Trust as a Low-Cost, High-Effectiveness Social Infrastructure Built Through Consistent, Micro-Level Interactions and Embedded in Cultural Norms.**\n\nDocument 1 emphasizes the *micro-foundations* of trust: it is not generated by dramatic, high-stakes acts of heroism or crisis-driven bonding, but through the accumulation of small, repeated, low-stakes interactions\u2014particularly those involving vulnerability. This aligns with psychological safety research, which shows that trust emerges when individuals consistently feel safe to take interpersonal risks (e.g., admitting mistakes, asking for help, sharing ideas) without fear of punishment or ridicule. These micro-interactions function like social currency: each one deposits value into a relational account, gradually building a reservoir of trust that sustains cooperation.\n\nDocument 4 reveals the *macro-economic consequences* of this same principle when scaled to societal levels. In high-trust societies\u2014exemplified by Scandinavian nations\u2014this accumulated social capital translates into dramatically lower transaction costs. Because individuals and institutions operate under a default assumption of good faith, there is less need for costly enforcement mechanisms: fewer contracts need to be drafted, less litigation is required, and less oversight is needed to verify compliance. Trust, in this context, becomes a form of institutional efficiency: it replaces expensive formal systems with implicit, culturally reinforced norms of reliability and integrity.\n\nTogether, these documents form a coherent, multi-level framework:\n\n> **The Trust Infrastructure Framework**:  \n> Trust is a dynamic, scalable social infrastructure that operates at both interpersonal and institutional levels. At the micro level, it is cultivated through consistent, low-risk vulnerability and reliability in daily interactions. At the macro level, these micro-practices aggregate into cultural norms of good faith, which reduce the need for formal controls and lower systemic transaction costs. The framework posits that trust is not a luxury or an abstract virtue\u2014it is a practical, cost-saving, and efficiency-enhancing system. Its strength lies not in grand declarations or emergency solidarity, but in the quiet, daily repetition of honest, dependable behavior.\n\nThis framework implies that organizations and societies seeking to enhance cooperation, reduce costs, and improve resilience should prioritize cultivating micro-trust behaviors\u2014such as transparency, accountability, and psychological safety\u2014over investing in top-down control systems. The most effective trust is not enforced; it is embodied.",
+    "full_response": "The key insights from the six documents collectively reveal a **Dynamic, Layered Framework of Trust Architecture** \u2014 a systemic model that conceptualizes trust as an emergent, fragile, and recursively reinforced phenomenon shaped by micro-interactions, institutional integrity, communication media, societal norms, repair mechanisms, and algorithmic design. This framework can be organized into five interdependent dimensions:\n\n---\n\n### **1. Micro-Foundations of Trust: Small Interactions Build, Not Grand Gestures (Document 1)**\nTrust is not a monolithic achievement but a cumulative product of **repeated, low-stakes vulnerability**. Psychological safety research underscores that trust emerges from daily, mundane exchanges \u2014 a shared joke, an honest admission of uncertainty, or timely follow-through on minor commitments. These micro-moments create a reservoir of goodwill that buffers against larger failures. This implies that trust is **bottom-up**, built incrementally through behavioral consistency, not top-down through speeches or PR campaigns.\n\n> *Implication: Trust is an emergent property of daily conduct, not a strategic objective.*\n\n---\n\n### **2. Institutional Integrity: Values Must Align with Actions (Document 2)**\nWhen institutions proclaim values (e.g., \u201ctransparency,\u201d \u201cintegrity\u201d) but act inconsistently (e.g., hiding data, punishing whistleblowers), they create a **cynicism gap** \u2014 the dissonance between rhetoric and reality. This gap is not merely a PR problem; it is the primary engine of institutional decay. Trust at the macro level (public, employee, customer) collapses when the system fails to embody its own principles. This dimension operates as a **top-down constraint** on trust: even the most robust micro-interactions cannot sustain trust if the institutional architecture is fundamentally dishonest.\n\n> *Implication: Institutional trust is a function of structural authenticity, not aspirational messaging.*\n\n---\n\n### **3. Communication Medium as Trust Filter (Document 3)**\nHuman trust relies on **rich, multi-channel signaling**: tone of voice, facial micro-expressions, body language, temporal synchrony. Digital communication \u2014 text, video calls, asynchronous messaging \u2014 strips away these cues layer by layer. Each mediation reduces the bandwidth for calibrating trustworthiness, making misinterpretation more likely and repair more difficult. This creates a **digital trust deficit**, where even well-intentioned actors are perceived as less trustworthy simply due to the medium.\n\n> *Implication: The medium is not neutral \u2014 it actively degrades the biological and social infrastructure of trust.*\n\n---\n\n### **4. Societal Trust as Economic Efficiency (Document 4)**\nHigh-trust societies (e.g., Scandinavia) exhibit **lower transaction costs** because they operate on a default assumption of good faith. Contracts are shorter, litigation is rare, verification is minimal. This is not idealism \u2014 it\u2019s economic rationality. Trust functions as a **social capital multiplier**, reducing the need for costly enforcement mechanisms. Conversely, low-trust societies invest heavily in surveillance, legal safeguards, and compliance \u2014 a sign of systemic distrust embedded in their institutions and norms.\n\n> *Implication: Trust is a public good with measurable economic returns; its absence is a tax on society.*\n\n---\n\n### **5. Repair and Feedback Loops: Trust is Fragile and Algorithmically Amplified (Documents 5 & 6)**\nTrust, once broken, requires a **non-negotiable sequence of repair**: acknowledgment \u2192 explanation \u2192 penance \u2192 legislation. Most organizations fail by skipping acknowledgment \u2014 the foundational act of validating the harm. This failure perpetuates distrust.\n\nSimultaneously, **algorithmic systems** (Document 6) inherit and amplify the trust patterns of their training data. If an AI is trained on adversarial, litigious, or suspicious human interactions (e.g., customer service logs full of complaints, legal disputes), it learns to assume malice \u2014 and then outputs decisions that are defensive, punitive, or distrustful by design.",
+    "partial_latency_ms": 9431,
+    "full_latency_ms": 16148,
+    "partial_tokens": {
+      "input": 119,
+      "output": 480
+    },
+    "full_tokens": {
+      "input": 274,
+      "output": 800
+    },
+    "divergence": {
+      "jaccard_distance": 0.851063829787234,
+      "jaccard_similarity": 0.14893617021276595,
+      "new_words_count": 283,
+      "new_words_ratio": 0.7861111111111111,
+      "dropped_words_count": 157,
+      "dropped_words_ratio": 0.6709401709401709,
+      "partial_word_count": 234,
+      "full_word_count": 360,
+      "length_ratio": 1.5018355359765052
+    },
+    "confidence_partial": {
+      "hedge_count": 0,
+      "confidence_count": 1,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.0027624309392265192,
+      "net_confidence": 0.0027624309392265192,
+      "ext_high_count": 1,
+      "ext_hedge_count": 0,
+      "certainty_score": 0.0027624309392265192,
+      "word_count": 362
+    },
+    "confidence_full": {
+      "hedge_count": 1,
+      "confidence_count": 2,
+      "hedge_rate": 0.0017761989342806395,
+      "confidence_rate": 0.003552397868561279,
+      "net_confidence": 0.0017761989342806395,
+      "ext_high_count": 2,
+      "ext_hedge_count": 2,
+      "certainty_score": 0.0,
+      "word_count": 563
+    },
+    "timestamp": "2026-03-14T10:59:02.971347+00:00"
+  },
+  {
+    "model": "qwen.qwen3-next-80b-a3b",
+    "model_name": "Qwen3 Next 80B-A3B",
+    "provider": "Qwen",
+    "task_id": "pc_05",
+    "category": "recommendation",
+    "num_partial_docs": 2,
+    "num_full_docs": 5,
+    "num_missing_docs": 3,
+    "partial_response": "Based on the evidence provided in both documents, a city government should prioritize **investing in affordable housing near transit corridors, particularly through the development of Bus Rapid Transit (BRT) systems**. This dual strategy maximizes economic return, enhances equity, and improves long-term affordability for residents\u2014especially low-income households.\n\nHere\u2019s the reasoning, drawn from both documents:\n\n1. **High Economic Return on Transit Investment**:  \n   Document 1 states that public transit investment yields $4 in economic activity for every $1 spent. This demonstrates that transit is not just a public service but a powerful economic engine. It stimulates job creation, increases consumer spending, and boosts local business activity. Therefore, transit investment is a smart fiscal decision.\n\n2. **Cost-Effective and Rapid Transit Solution: BRT**:  \n   The same document highlights that Bus Rapid Transit (BRT) costs only 1/10th of light rail per mile and can be deployed in 18 months versus 7 years. This means cities can achieve the economic benefits of transit investment much faster and at a fraction of the cost. BRT is an efficient, scalable, and equitable solution\u2014especially for cities with limited budgets or urgent needs.\n\n3. **Affordable Housing Near Transit Reduces Household Burden**:  \n   Document 2 reveals that placing affordable housing near transit corridors reduces transportation costs for low-income households by 25%. This is critical because transportation is often the second-largest household expense after housing. When combined, housing + transportation costs provide a more accurate picture of affordability. Many low-income families are forced to live far from jobs and services because housing near transit is unaffordable\u2014leading to long, expensive commutes. Integrating affordable housing with transit directly alleviates this burden.\n\n4. **Synergistic Impact of Combined Strategy**:  \n   The most powerful insight comes from combining both documents:  \n   - Investing in BRT delivers rapid, high-return transit infrastructure.  \n   - Building affordable housing along those same corridors ensures that the economic benefits of transit are accessible to those who need them most.  \n   - This combination reduces both transportation costs and housing cost burdens simultaneously, improving quality of life and economic mobility for vulnerable populations.  \n   - It also prevents displacement by ensuring that new transit investments do not lead to gentrification and rising rents\u2014by proactively including affordable units.\n\n**Conclusion**:  \nA city government should prioritize **coordinated investments in BRT infrastructure and affordable housing along those transit corridors**. This approach leverages the high economic return of transit, the cost-efficiency and speed of BRT, and the profound affordability benefits of integrated housing. It is not merely a transportation or housing policy\u2014it is a comprehensive strategy for economic growth, social equity, and sustainable urban development. Prioritizing this dual investment ensures that public funds deliver maximum public benefit, especially for low-income residents who stand to gain the most.",
+    "full_response": "Based on the collective evidence from all five documents, a city government should prioritize **integrated, equitable, and community-driven investments in sustainable urban infrastructure and public services**\u2014specifically, **expanding affordable, transit-oriented development with green infrastructure, walkable public spaces, and participatory budgeting mechanisms**. This holistic approach maximizes economic return, social equity, public health, environmental resilience, and democratic engagement simultaneously.\n\nHere\u2019s how each document supports this integrated priority:\n\n1. **Prioritize Bus Rapid Transit (BRT) over Light Rail for Cost-Effective Mobility**  \n   Document 1 shows that public transit delivers a $4 return on every $1 invested, and BRT offers the same benefits as light rail at 1/10th the cost and in 1/4 the time (18 months vs. 7 years). This makes BRT the most efficient and scalable option for expanding mobility, especially for low-income communities. Prioritizing BRT along key corridors directly enables the goals of Document 2: reducing transportation costs for vulnerable households.\n\n2. **Anchor Transit Expansion with Affordable Housing**  \n   Document 2 reveals that housing near transit reduces combined housing+transportation costs by 25%\u2014a critical metric for affordability. By co-investing in affordable housing along BRT corridors, cities can break the cycle of spatial inequality, where low-income residents are forced into distant, car-dependent neighborhoods with high transportation burdens. This synergy between transit and housing creates \u201c20-minute neighborhoods\u201d where residents can meet daily needs without a car, enhancing equity and economic mobility.\n\n3. **Embed Green Infrastructure to Enhance Resilience and Health**  \n   Document 3 demonstrates that green infrastructure (rain gardens, permeable pavement, urban trees) cuts stormwater costs by 30\u201350% while delivering co-benefits: cooling urban heat islands, improving air quality, and increasing property values. These benefits are especially vital in underserved neighborhoods often burdened by environmental hazards. Integrating green infrastructure into transit corridors and housing developments creates multi-functional public spaces that are both climate-resilient and aesthetically pleasing.\n\n4. **Design for Walkability and Park Access to Improve Public Health**  \n   Document 4 shows that health outcomes\u2014reduced depression, diabetes, and cardiovascular disease\u2014are more strongly tied to walkability and park access than to hospital proximity. This shifts the paradigm from reactive healthcare to preventive urban design. By ensuring that every resident has a 10-minute walk to a park (which can be integrated with green infrastructure and transit stops), cities can dramatically improve population health while reducing long-term healthcare costs. Parks also serve as social hubs, reinforcing community cohesion.\n\n5. **Empower Residents Through Participatory Budgeting**  \n   Document 5 reveals that participatory budgeting increases civic engagement by 300% and doubles subsequent voter turnout. This is not just about democracy\u2014it\u2019s about legitimacy and effectiveness. When residents help decide how to allocate funds for transit, housing, parks, and green infrastructure, investments are more likely to reflect actual community needs, reduce waste, and build public trust. This ensures that the above priorities are not imposed top-down but co-created with the people they serve.\n\n**Synthesis: The Integrated Priority**  \nA city government should therefore prioritize **a comprehensive, equity-centered urban strategy** that:  \n- **Deploys BRT networks rapidly and affordably** to connect underserved neighborhoods;  \n- **Requires and subsidizes affordable housing along these corridors** to reduce transportation burdens;  \n- **Incorporates green infrastructure** into streetscapes, parks, and transit hubs to manage stormwater, cool the city, and improve air quality;  \n- **Guarantees 10-minute walk access to parks and green spaces** for all residents as a public health imperative;  \n- **Uses participatory budgeting** to involve residents in deciding how to fund and design these",
+    "partial_latency_ms": 11542,
+    "full_latency_ms": 13889,
+    "partial_tokens": {
+      "input": 138,
+      "output": 586
+    },
+    "full_tokens": {
+      "input": 270,
+      "output": 800
+    },
+    "divergence": {
+      "jaccard_distance": 0.7761506276150627,
+      "jaccard_similarity": 0.22384937238493724,
+      "new_words_count": 226,
+      "new_words_ratio": 0.6786786786786787,
+      "dropped_words_count": 145,
+      "dropped_words_ratio": 0.5753968253968254,
+      "partial_word_count": 252,
+      "full_word_count": 333,
+      "length_ratio": 1.3090342679127727
+    },
+    "confidence_partial": {
+      "hedge_count": 0,
+      "confidence_count": 0,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.0,
+      "net_confidence": 0.0,
+      "ext_high_count": 0,
+      "ext_hedge_count": 0,
+      "certainty_score": 0.0,
+      "word_count": 441
+    },
+    "confidence_full": {
+      "hedge_count": 0,
+      "confidence_count": 0,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.0,
+      "net_confidence": 0.0,
+      "ext_high_count": 0,
+      "ext_hedge_count": 1,
+      "certainty_score": -0.0018018018018018018,
+      "word_count": 555
+    },
+    "timestamp": "2026-03-14T10:59:28.406947+00:00"
+  },
+  {
+    "model": "qwen.qwen3-next-80b-a3b",
+    "model_name": "Qwen3 Next 80B-A3B",
+    "provider": "Qwen",
+    "task_id": "pc_06",
+    "category": "recommendation",
+    "num_partial_docs": 2,
+    "num_full_docs": 5,
+    "num_missing_docs": 3,
+    "partial_response": "The two documents collectively suggest a strategy centered on **inclusive, equitable, and job-creating economic development through workforce empowerment and structural reform in hiring and enterprise support**.\n\nDocument 1 highlights the critical role of **small and medium enterprises (SMEs)** in driving employment in developing economies, noting that they generate 65% of new jobs and have higher employment multiplier effects than large corporations. This implies that economic policies and investments should prioritize SMEs\u2014not just for their job creation potential, but because they stimulate broader local economic activity, support community resilience, and create opportunities across diverse socioeconomic groups.\n\nDocument 5 complements this by advocating for **skills-based hiring** over traditional credential-based hiring, citing that this approach expands talent pools by 30% and reduces demographic disparities in hiring outcomes. Major tech firms like IBM, Google, and Apple have already adopted this model by removing degree requirements, signaling a shift toward meritocracy based on demonstrated ability rather than formal education. This strategy opens doors for individuals who may lack access to higher education due to socioeconomic, geographic, or systemic barriers\u2014many of whom are precisely the populations that SMEs often employ or serve.\n\nTogether, these documents point to a unified, synergistic strategy:  \n**To foster inclusive economic growth, governments and institutions should prioritize supporting SMEs as engines of job creation while simultaneously reforming hiring practices to be skills-based, thereby ensuring that the talent recruited into these enterprises is drawn from a broader, more diverse, and equitable pool.**\n\nThis dual approach addresses both the supply side (expanding access to employment opportunities for underrepresented groups) and the demand side (strengthening the capacity of SMEs to hire and grow). By removing artificial barriers like degree requirements and investing in SMEs, economies can unlock latent talent, reduce inequality, and create sustainable, scalable employment\u2014particularly vital in developing economies where formal education access may be limited but entrepreneurial potential is high.\n\nIn essence, the collective strategy is:  \n> **Empower SMEs and democratize hiring\u2014by valuing skills over credentials\u2014to build more inclusive, resilient, and job-rich economies.**",
+    "full_response": "Collectively, these five documents suggest a comprehensive strategy centered on **building resilient, equitable, and sustainable local economies through community-centered, inclusive, and decentralized economic models**. Rather than relying on top-down, large-corporation-driven growth or globalized systems, the sources advocate for empowering local actors, rethinking traditional business structures, and internalizing social and environmental costs to create more just and durable economic outcomes.\n\nHere\u2019s how each document contributes to this unified strategy:\n\n1. **Prioritizing SMEs over Large Corporations (Document 1)**  \n   The emphasis on SMEs generating 65% of new jobs in developing economies\u2014and their higher employment multiplier effects\u2014signals a strategic shift away from chasing multinational corporations toward nurturing local entrepreneurship. SMEs are inherently more embedded in communities, creating jobs that circulate locally and foster broader economic participation. This forms the foundational pillar of the strategy: **local job creation as the engine of economic development**.\n\n2. **Adopting Cooperative Ownership (Document 2)**  \n   The higher survival rates (75% vs. 48%) and more equitable profit distribution of cooperatives suggest that ownership structure matters profoundly. Cooperatives democratize economic power, ensuring that profits benefit workers and community members rather than distant shareholders. This aligns with the goal of **economic equity and resilience**, reducing wealth concentration and increasing stakeholder commitment to long-term success.\n\n3. **Implementing Local Currency Systems (Document 3)**  \n   The Brixton Pound example demonstrates that keeping money circulating within a community (via local currencies) boosts local spending by 15% and strengthens community identity. This is not merely an economic tool but a **cultural and social one**\u2014it reinforces local interdependence, builds trust, and creates a sense of collective ownership over economic outcomes. It complements SME and cooperative models by ensuring capital stays local and serves local needs.\n\n4. **Localizing Supply Chains (Document 4)**  \n   While localization may increase direct costs by 8\u201315%, the document argues that when carbon emissions are properly priced (internalized), local supply chains become economically preferable. This introduces a critical policy insight: **true cost accounting** must replace short-term price competition. By valuing environmental sustainability as a core economic factor\u2014not an externality\u2014localization becomes not just environmentally responsible but financially rational. This supports the broader goal of **sustainable economic development**.\n\n5. **Shifting to Skills-Based Hiring (Document 5)**  \n   By removing credential barriers and expanding talent pools by 30%, companies like IBM, Google, and Apple are dismantling systemic exclusion in hiring. This strategy reduces demographic disparities and taps into underutilized talent, making the local workforce more diverse and dynamic. It ensures that the benefits of local economic development are **inclusive and accessible**, particularly to marginalized groups often excluded by traditional educational gatekeeping.\n\n**Synthesis: The Collective Strategy**  \nTogether, these documents outline a holistic, integrated strategy for **community-based economic transformation**. This strategy:\n\n- **Empowers local actors** (SMEs, cooperatives) as the primary engines of job creation and wealth generation;\n- **Redistributes economic power** through cooperative ownership and skills-based hiring to ensure equity;\n- **Retains and multiplies local capital** through local currencies and supply chains;\n- **Internalizes environmental and social costs** to make sustainability economically viable;\n- **Expands inclusion** by removing structural barriers to participation in the economy.\n\nThis is not merely an economic policy\u2014it is a **social and ecological reorientation** of economic development. It moves beyond GDP-centric growth toward a model that values **resilience, equity, sustainability, and community well-being** as core indicators of success. The strategy is best described as:  \n> **Building inclusive, localized, and sustainable economies by prioritizing community ownership, circular local finance, environmental accountability, and equitable access to opportunity.**\n\nThis approach is particularly powerful",
+    "partial_latency_ms": 7447,
+    "full_latency_ms": 13936,
+    "partial_tokens": {
+      "input": 120,
+      "output": 425
+    },
+    "full_tokens": {
+      "input": 230,
+      "output": 800
+    },
+    "divergence": {
+      "jaccard_distance": 0.8099173553719008,
+      "jaccard_similarity": 0.19008264462809918,
+      "new_words_count": 256,
+      "new_words_ratio": 0.735632183908046,
+      "dropped_words_count": 136,
+      "dropped_words_ratio": 0.5964912280701754,
+      "partial_word_count": 228,
+      "full_word_count": 348,
+      "length_ratio": 1.816326530612245
+    },
+    "confidence_partial": {
+      "hedge_count": 1,
+      "confidence_count": 0,
+      "hedge_rate": 0.0030303030303030303,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.0030303030303030303,
+      "ext_high_count": 0,
+      "ext_hedge_count": 1,
+      "certainty_score": -0.0030303030303030303,
+      "word_count": 330
+    },
+    "confidence_full": {
+      "hedge_count": 1,
+      "confidence_count": 0,
+      "hedge_rate": 0.0017574692442882249,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.0017574692442882249,
+      "ext_high_count": 0,
+      "ext_hedge_count": 1,
+      "certainty_score": -0.0017574692442882249,
+      "word_count": 569
+    },
+    "timestamp": "2026-03-14T10:59:49.793232+00:00"
+  },
+  {
+    "model": "qwen.qwen3-next-80b-a3b",
+    "model_name": "Qwen3 Next 80B-A3B",
+    "provider": "Qwen",
+    "task_id": "pc_07",
+    "category": "interpretation",
+    "num_partial_docs": 2,
+    "num_full_docs": 4,
+    "num_missing_docs": 2,
+    "partial_response": "When considered together, the data points from Document 1 and Document 3 tell a compelling and deeply concerning story about a systemic decline in public health in the United States \u2014 one that spans generations and is driven not by acute infectious threats, but by chronic, socially embedded, and behavioral factors tied to modern life.\n\nDocument 1 reveals a historic and alarming trend: U.S. life expectancy has declined for three consecutive years (2020\u20132022), the longest sustained drop since the 1918 influenza pandemic. Crucially, this decline is not primarily due to infectious diseases \u2014 the traditional scourge of past public health crises \u2014 but rather to \u201cdrug overdoses, suicide, and chronic disease.\u201d These are all conditions with deep psychological, social, and economic roots. Drug overdoses, particularly from opioids and synthetic opioids like fentanyl, reflect a crisis of despair, inadequate mental health care, and socioeconomic marginalization. Suicide is a direct indicator of untreated mental illness and social isolation. Chronic diseases \u2014 such as heart disease, diabetes, and liver disease \u2014 are often exacerbated by stress, poor nutrition, lack of exercise, and limited access to preventive care, all of which are influenced by broader societal conditions.\n\nDocument 3 adds a critical generational dimension to this story. It shows that among adolescents \u2014 the future adult population \u2014 screen time averages a staggering 7.5 hours per day (excluding school), and that anxiety and depression rates among 12\u201317-year-olds have surged by 60% between 2012 and 2022. This period coincides almost exactly with the widespread adoption of smartphones and social media platforms. While correlation does not equal causation, the temporal alignment, combined with mounting psychological and neuroscientific research, strongly suggests that digital saturation is contributing to a mental health epidemic among youth. The constant comparison, cyberbullying, sleep disruption, and reduced face-to-face social interaction associated with heavy screen use appear to be eroding emotional resilience at a formative stage of life.\n\nTogether, these documents paint a narrative of a nation in a slow-motion public health collapse. The mental health crisis observed in adolescents (Document 3) is not an isolated phenomenon \u2014 it is the seedbed of the adult mortality crisis documented in Document 1. The rise in anxiety and depression among teens may be the early warning sign of the future surge in suicide, substance use disorders, and chronic stress-related illnesses that will drive further declines in life expectancy. The same societal forces \u2014 social isolation, economic precarity, digital alienation, and a fragmented mental health infrastructure \u2014 are likely fueling both the adolescent mental health crisis and the adult \u201cdeaths of despair.\u201d\n\nThis is not merely a medical issue; it is a cultural and structural one. The data suggest that modern American life \u2014 characterized by digital overload, declining community cohesion, economic inequality, and inadequate mental health support \u2014 is systematically undermining well-being across the lifespan. The 60% increase in adolescent anxiety and depression is not just a statistic; it is a forecast. If left unaddressed, today\u2019s overwhelmed teens are tomorrow\u2019s overdose victims, suicide statistics, and chronic disease patients.\n\nIn sum, these data points tell a story of intergenerational decline: a generation raised on screens is entering adulthood with diminished mental resilience, and the consequences are already manifesting in falling life expectancy. Without systemic interventions \u2014 in mental health care, digital literacy, social support networks, and economic policy \u2014 this downward trajectory is likely to continue, deepening the crisis for future generations.",
+    "full_response": "When considered together, these four documents paint a compelling and deeply concerning narrative about the erosion of social connectedness in American society\u2014and how this decline is directly contributing to a public health crisis marked by rising mortality, mental health deterioration, and a collapse of community infrastructure.\n\nThe overarching story is this: **America is experiencing a profound social disintegration, which is driving a sustained decline in life expectancy and a mental health epidemic, particularly among youth, by replacing meaningful human connection with isolation, digital substitution, and the loss of communal spaces.**\n\nDocument 1 reveals the grim reality: U.S. life expectancy has declined for three consecutive years\u2014the longest such drop since the 1918 flu pandemic\u2014due not to infectious disease, but to \u201cdeaths of despair\u201d: drug overdoses, suicide, and chronic disease. These are not random medical events; they are symptoms of social breakdown. Research consistently links these causes to loneliness, economic despair, and lack of social support. The fact that these are non-infectious causes underscores that the crisis is sociological, not purely biomedical.\n\nDocument 2 confirms the scale of the social pathology: social isolation is as deadly as smoking a pack and a half of cigarettes daily. The Surgeon General\u2019s 2023 declaration of loneliness as a \u201cpublic health epidemic\u201d is a formal recognition that the problem is systemic and lethal. This is not anecdotal\u2014it is a quantified, life-threatening condition affecting millions. The rise in \u201cdeaths of despair\u201d (Document 1) and the declaration of loneliness as an epidemic (Document 2) are two sides of the same coin.\n\nDocument 3 shows how this crisis is being transmitted across generations, particularly among adolescents. The average 7.5 hours of daily screen time (non-school) among teens coincides precisely with a 60% surge in anxiety and depression between 2012 and 2022\u2014the same period when smartphones became ubiquitous. Digital interaction, while seemingly connecting, often replaces face-to-face, embodied social experiences. It fosters comparison, cyberbullying, sleep disruption, and addictive behaviors\u2014all of which erode psychological resilience. The data suggest that technology, rather than healing social fragmentation, has become a primary vehicle for its acceleration.\n\nDocument 4 provides the structural context: the physical infrastructure of community has been systematically dismantled. Between 2000 and 2023, community gathering spaces\u2014churches, bowling alleys, community centers, even local bars\u2014declined by 35%. These were not just buildings; they were the arteries of social capital, places where trust was built, relationships nurtured, and belonging cultivated. Robert Putnam\u2019s \u201cBowling Alone\u201d thesis, which warned of declining civic engagement in the 1990s and 2000s, has not been reversed\u2014it has accelerated. The loss of these spaces means fewer opportunities for spontaneous, unmediated human connection, leaving people increasingly isolated even in crowded digital environments.\n\nTogether, these documents form a causal chain:\n\n1. **Structural decline** (Document 4): Community spaces vanish.\n2. **Behavioral shift** (Document 3): People, especially youth, retreat into screens, replacing real-world interaction with digital substitutes.\n3. **Psychological consequence** (Document 3 & 2): Rising anxiety, depression, and loneliness become widespread.\n4. **Mortality outcome** (Document 1 & 2): Loneliness and despair manifest in drug overdoses, suicide, and chronic disease, driving down life expectancy.\n\nThis is not a coincidence. It is a cascade. The loss of community spaces has not been replaced by meaningful digital connection\u2014it has been replaced by isolation masquerading as connectivity. The smartphone didn\u2019t just change how we communicate; it changed *what* we communicate with, and *who* we communicate with. We are more \u201cconnected\u201d than ever, yet more alone than",
+    "partial_latency_ms": 12391,
+    "full_latency_ms": 13785,
+    "partial_tokens": {
+      "input": 155,
+      "output": 719
+    },
+    "full_tokens": {
+      "input": 246,
+      "output": 800
+    },
+    "divergence": {
+      "jaccard_distance": 0.7952468007312614,
+      "jaccard_similarity": 0.20475319926873858,
+      "new_words_count": 227,
+      "new_words_ratio": 0.6696165191740413,
+      "dropped_words_count": 208,
+      "dropped_words_ratio": 0.65,
+      "partial_word_count": 320,
+      "full_word_count": 339,
+      "length_ratio": 1.0446358653093186
+    },
+    "confidence_partial": {
+      "hedge_count": 1,
+      "confidence_count": 0,
+      "hedge_rate": 0.0017699115044247787,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.0017699115044247787,
+      "ext_high_count": 0,
+      "ext_hedge_count": 2,
+      "certainty_score": -0.0035398230088495575,
+      "word_count": 565
+    },
+    "confidence_full": {
+      "hedge_count": 0,
+      "confidence_count": 0,
+      "hedge_rate": 0.0,
+      "confidence_rate": 0.0,
+      "net_confidence": 0.0,
+      "ext_high_count": 0,
+      "ext_hedge_count": 0,
+      "certainty_score": 0.0,
+      "word_count": 565
+    },
+    "timestamp": "2026-03-14T11:00:15.972142+00:00"
+  },
+  {
+    "model": "qwen.qwen3-next-80b-a3b",
+    "model_name": "Qwen3 Next 80B-A3B",
+    "provider": "Qwen",
+    "task_id": "pc_08",
+    "category": "interpretation",
+    "num_partial_docs": 2,
+    "num_full_docs": 5,
+    "num_missing_docs": 3,
+    "partial_response": "Taken together, the findings from Document 1 and Document 3 reveal a critical tension in the current state of large language models (LLMs): while they are highly confident in their outputs, that confidence is often misplaced, and even interventions designed to mitigate one form of error can introduce new, equally insidious problems.\n\nDocument 1 establishes the baseline problem: LLMs routinely generate confident, fluent responses even when their internal representations lack grounding in factual reality. Hallucination rates of 3\u201327%\u2014depending on domain and evaluation\u2014demonstrate that this is not a rare edge case but a systemic flaw. The fact that hallucinations occur across domains and evaluation methods suggests that the issue is inherent to the generative architecture of LLMs, which prioritize statistical plausibility over factual accuracy. This means users cannot rely on the model\u2019s tone or certainty as an indicator of truth, creating significant risks in high-stakes applications such as healthcare, law, or journalism.\n\nDocument 3 introduces Retrieval-Augmented Generation (RAG) as a promising solution, reducing hallucinations by 40\u201360%. This is a substantial improvement and underscores the value of grounding model outputs in external, verifiable sources. However, the document reveals a dangerous new failure mode: the model may confidently cite a retrieved document that does not actually support the claim it is making. This is not merely a reduction in hallucination\u2014it is a transformation of the error type. Instead of generating entirely false information from scratch, the model now fabricates interpretations or connections between real documents and its claims, creating what might be called \u201cpseudo-grounded hallucinations.\u201d These are particularly insidious because they appear legitimate: they reference real sources, use plausible language, and maintain the model\u2019s characteristic confidence. This can mislead users into believing the output is more reliable than it is, potentially giving false credibility to misinformation.\n\nThe combined significance of these findings is profound. First, they demonstrate that hallucination is not a bug to be fixed with a single technique but a multifaceted challenge rooted in the fundamental design of LLMs. Second, they reveal that improvements in one area (reducing pure hallucinations) can inadvertently create more deceptive forms of error (misuse of retrieved evidence). Third, they highlight a critical gap in user understanding: confidence in output does not equate to reliability, and even \u201cevidence-backed\u201d responses can be misleading. \n\nThis calls for a paradigm shift in how we evaluate and deploy LLMs. Technical solutions alone\u2014like RAG\u2014are necessary but insufficient. We need robust evaluation frameworks that test not just whether a claim is factually correct, but whether the evidence cited genuinely supports it. We also need user-facing transparency tools that signal uncertainty, distinguish between generated and retrieved content, and flag potential misalignments between claims and sources. Ultimately, these findings underscore that the era of trusting LLMs based on fluency or apparent authority is over. The responsibility now lies with developers, evaluators, and users to cultivate skepticism, demand provenance, and design systems that make uncertainty visible\u2014not hidden behind confident prose.",
+    "full_response": "Taken as a whole, these five documents reveal a systemic and deeply concerning landscape in the deployment and perception of large language models (LLMs), characterized by a dangerous mismatch between model confidence, output reliability, human perception, and user trust. The findings collectively paint a picture of an AI ecosystem that is not only prone to error but also actively misleading to its users \u2014 a situation that threatens the integrity of human-AI collaboration in high-stakes domains.\n\nFirst, Document 1 establishes the foundational problem: LLMs generate confident outputs even when those outputs are not grounded in reality. Hallucination rates of 3\u201327% are not trivial; in contexts like healthcare, law, or education, even a 3% error rate can have serious consequences. Crucially, the model\u2019s confidence is decoupled from accuracy \u2014 a feature that makes these errors particularly insidious. Users cannot rely on tone, fluency, or assertiveness as indicators of truth.\n\nDocument 2 compounds this danger by showing that humans are profoundly bad at detecting these hallucinations. With detection accuracy barely above chance (52\u201365%), and no improvement with experience, users are effectively blind to the model\u2019s errors. This is not a matter of inexperience or naivety \u2014 even experts, presumably trained to critically evaluate information, fail to distinguish AI-generated falsehoods from truths. This creates a perfect storm: the system produces confident falsehoods, and the users lack the ability to recognize them.\n\nDocument 3 introduces a seemingly promising mitigation \u2014 Retrieval-Augmented Generation (RAG) \u2014 which reduces hallucinations by 40\u201360%. However, it reveals a new, equally dangerous failure mode: the model confidently cites retrieved documents that do not actually support its claims. This is not merely a technical glitch; it is a form of \u201cfalse grounding.\u201d The model appears to be using evidence, lending it epistemic credibility, while in fact fabricating a connection. This is more dangerous than pure hallucination because it exploits the human tendency to trust cited sources. Users may now be misled not just by ungrounded text, but by text that *looks* authoritative and evidence-based.\n\nDocument 4 reveals the human psychological dimension: trust in AI is fragile and asymmetrically shaped by early experiences. A single confident hallucination in the first five interactions can erode trust for over 20 subsequent interactions. This has profound implications for adoption and usability. Even if RAG reduces hallucinations by 50%, if one error still occurs early on, users may disengage entirely \u2014 rendering the system useless, regardless of its technical improvements. Trust, once broken, is nearly impossible to rebuild, meaning that the cost of even one mistake is disproportionately high.\n\nFinally, Document 5 offers a glimmer of scientific insight: there may be detectable geometric signatures in the model\u2019s internal representations that distinguish grounded from confabulated outputs. The higher effective rank in confabulated outputs suggests that hallucinations are associated with more diffuse, less coherent internal representations. While not yet statistically confirmed (d = 0.43\u20130.67), this opens the door to future diagnostic tools \u2014 perhaps real-time hallucination detectors embedded in the model\u2019s architecture. If validated, this could enable systems to flag uncertain outputs before they are presented to users, or even self-correct.\n\n**Synthesis and Significance:**\n\nThe collective significance of these findings is that LLMs are not merely imperfect tools \u2014 they are *deceptive* tools. They exploit human cognitive biases: our trust in confidence, our reliance on citations, our inability to detect falsehoods, and our rapid loss of trust after a single failure. The technical improvements (like RAG) are necessary but insufficient; they address symptoms without solving the root problem: the model\u2019s internal representation of truth is fundamentally disconnected from external reality.\n\nThis has critical implications for deployment:\n\n- **In education and journalism**, users may unknowingly propagate AI-generated misinformation",
+    "partial_latency_ms": 12641,
+    "full_latency_ms": 13834,
+    "partial_tokens": {
+      "input": 129,
+      "output": 629
+    },
+    "full_tokens": {
+      "input": 270,
+      "output": 800
+    },
+    "divergence": {
+      "jaccard_distance": 0.7887067395264117,
+      "jaccard_similarity": 0.21129326047358835,
+      "new_words_count": 246,
+      "new_words_ratio": 0.6795580110497238,
+      "dropped_words_count": 187,
+      "dropped_words_ratio": 0.6171617161716172,
+      "partial_word_count": 303,
+      "full_word_count": 362,
+      "length_ratio": 1.2358657243816253
+    },
+    "confidence_partial": {
+      "hedge_count": 3,
+      "confidence_count": 0,
+      "hedge_rate": 0.006198347107438017,
+      "confidence_rate": 0.0,
+      "net_confidence": -0.006198347107438017,
+      "ext_high_count": 0,
+      "ext_hedge_count": 3,
+      "certainty_score": -0.006198347107438017,
+      "word_count": 484
+    },
+    "confidence_full": {
+      "hedge_count": 3,
+      "confidence_count": 1,
+      "hedge_rate": 0.0049261083743842365,
+      "confidence_rate": 0.0016420361247947454,
+      "net_confidence": -0.003284072249589491,
+      "ext_high_count": 1,
+      "ext_hedge_count": 4,
+      "certainty_score": -0.0049261083743842365,
+      "word_count": 609
+    },
+    "timestamp": "2026-03-14T11:00:42.449141+00:00"
+  }
+]

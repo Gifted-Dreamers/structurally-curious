@@ -1,0 +1,80 @@
+{
+  "model_id": "deepseek.v3.2",
+  "model_name": "DeepSeek V3.2",
+  "provider": "DeepSeek",
+  "timestamp": "2026-03-14T16:07:07.817442+00:00",
+  "conditions": [
+    {
+      "framing": "adversary",
+      "num_agents": 4,
+      "trials": 3,
+      "consensus_count": 2,
+      "consensus_rate": 0.6666666666666666,
+      "avg_final_spread": 11.833333333333334,
+      "avg_convergence_round": 3.5
+    },
+    {
+      "framing": "adversary",
+      "num_agents": 8,
+      "trials": 3,
+      "consensus_count": 0,
+      "consensus_rate": 0.0,
+      "avg_final_spread": 33.5,
+      "avg_convergence_round": null
+    },
+    {
+      "framing": "competitive",
+      "num_agents": 4,
+      "trials": 3,
+      "consensus_count": 2,
+      "consensus_rate": 0.6666666666666666,
+      "avg_final_spread": 1.099999999999999,
+      "avg_convergence_round": 10.0
+    },
+    {
+      "framing": "competitive",
+      "num_agents": 8,
+      "trials": 3,
+      "consensus_count": 0,
+      "consensus_rate": 0.0,
+      "avg_final_spread": 53.4,
+      "avg_convergence_round": null
+    },
+    {
+      "framing": "cooperative",
+      "num_agents": 4,
+      "trials": 3,
+      "consensus_count": 1,
+      "consensus_rate": 0.3333333333333333,
+      "avg_final_spread": 9.166666666666666,
+      "avg_convergence_round": 3.0
+    },
+    {
+      "framing": "cooperative",
+      "num_agents": 8,
+      "trials": 3,
+      "consensus_count": 1,
+      "consensus_rate": 0.3333333333333333,
+      "avg_final_spread": 27.733333333333334,
+      "avg_convergence_round": 3.0
+    },
+    {
+      "framing": "neutral",
+      "num_agents": 4,
+      "trials": 3,
+      "consensus_count": 2,
+      "consensus_rate": 0.6666666666666666,
+      "avg_final_spread": 1.0,
+      "avg_convergence_round": 4.5
+    },
+    {
+      "framing": "neutral",
+      "num_agents": 8,
+      "trials": 3,
+      "consensus_count": 3,
+      "consensus_rate": 1.0,
+      "avg_final_spread": 0.0,
+      "avg_convergence_round": 3.3333333333333335
+    }
+  ]
+}
