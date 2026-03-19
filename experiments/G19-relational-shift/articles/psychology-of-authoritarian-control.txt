@@ -1,0 +1,614 @@
+Research & Frameworks
+ March 8, 2026
+ 
+ 
+ The Psychology of Authoritarian Control: From Cults to Cognitive Warfare
+ 
+
+ 
+ Sixty years of research on cults, coercive persuasion, and undue influence already mapped the playbook that fifth-generation warfare now deploys at scale. The BITE Model is a personal defense framework — and a diagnostic tool for recognizing when it’s happening to you.
+ 
+
+ 
+ 
+ 
+ Kristine Socall, MBA International Economic Development
+
+ Founder & Executive Director, Gifted Dreamers, Inc. 501(c)(3)
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ The Missing Layer
+
+ 
+ Our research on fifth-generation warfare documented the state-level machinery: NATO’s cognitive warfare doctrine, deepfake infrastructure, coordinated inauthentic behavior networks, and the deliberate targeting of civilian psychology as a domain of conflict. Our open-source transparency tools catalogued the instruments for making that machinery visible.
+ 
+
+ 
+ But there’s a layer between the state-level operation and the institutional countermeasure that neither post addressed: the individual. How does a person recognize when their own thinking is being systematically manipulated? How do you tell the difference between persuasion and coercion when the coercion is invisible?
+ 
+
+ 
+ It turns out that question has been studied for six decades. The research just grew up in a different field.
+ 
+
+ 
+ The same techniques that cult leaders use to control small groups are now deployed by state actors against entire populations. The difference is scale — not method.
+ 
+
+ 
+ In 2020, Dr. Steven Alan Hassan published the first empirical validation of a framework that maps exactly this terrain. His doctoral dissertation at Fielding Graduate University, The BITE Model of Authoritarian Control, tested what cult recovery experts had observed for decades: that coercive control operates through four interlocking domains — Behavior, Information, Thought, and Emotional control — and that these domains can be measured, scored, and used diagnostically.1
+ 
+
+ 
+ What makes this research relevant beyond cult studies is Hassan’s own conclusion: the framework applies to “any authoritarian group, relationship, or system that uses deception and undue influence to recruit and maintain control.”2 He explicitly connects it to digital-age threats — Cambridge Analytica, deepfakes, AI-generated propaganda, social media manipulation — and even cites William Lind’s concept of fourth-generation warfare as precedent for the blurring of military and civilian information space.3
+ 
+
+ 
+ This is the bridge. The 5GW research describes what is being done. The transparency tools help you see it happening. The BITE Model helps you recognize when it’s working on you.
+ 
+
+ 
+
+ 
+ Sixty Years of Research Nobody Synthesized
+
+ 
+ Hassan’s work doesn’t emerge from nowhere. It synthesizes four major research traditions that developed independently and were never integrated into a single measurable framework until 2020.
+ 
+
+ Robert Jay Lifton: Eight Criteria for Thought Reform (1961)
+
+ 
+ Lifton, a psychiatrist at Yale, studied American POWs returning from Chinese Communist prison camps and Chinese intellectuals who had undergone “revolutionary re-education.” His eight criteria remain the clinical gold standard for identifying environments that produce involuntary ideological change:4
+ 
+
+ 
+ Milieu Control — controlling the communication environment and information flow
+
+ Mystical Manipulation — engineering experiences that appear spontaneous but are orchestrated
+
+ Demand for Purity — dividing the world into pure and impure, with the group defining the boundary
+
+ The Cult of Confession — extracting personal admissions that become leverage for control
+
+ Sacred Science — positioning the group’s ideology as morally and scientifically beyond question
+
+ Loading the Language — compressing complex realities into thought-terminating clichés
+
+ Doctrine Over Person — subordinating individual experience to group dogma
+
+ Dispensing of Existence — claiming the right to determine who deserves to live or exist
+
+ 
+
+ 
+ If you’ve read our 5GW research, notice how many of these criteria map directly onto cognitive warfare tactics: milieu control is information environment shaping; loading the language is narrative weaponization; mystical manipulation is coordinated inauthentic behavior designed to feel organic.
+ 
+
+ Edgar Schein: Coercive Persuasion (1961)
+
+ 
+ Working at MIT during the same period as Lifton, Schein documented the mechanism as a three-stage process adapted from Kurt Lewin’s change theory: Unfreezing (destabilizing existing beliefs through disconfirmation and anxiety), Changing (providing new beliefs that reduce the anxiety), and Refreezing (reinforcing the new identity through social validation).5
+ 
+
+ 
+ This maps precisely onto what 5GW practitioners call the “disorientation → reframing → consolidation” cycle in cognitive warfare doctrine.
+ 
+
+ Margaret Singer: Six Conditions for Thought Reform (1995)
+
+ 
+ Singer, a clinical psychologist at UC Berkeley, translated the research into practical conditions that can be assessed in any group or relationship:6
+ 
+
+ 
+ Keep the person unaware of what is going on and how they are being changed
+
+ Control their time and physical environment
+
+ Create a sense of powerlessness, covert fear, and dependency
+
+ Suppress old behavior and attitudes; instill new ones
+
+ Propose a tightly controlled, logical system
+
+ Keep the person unaware of the agenda (they cannot give informed consent)
+
+ 
+
+ 
+ Notice conditions #1 and #6: the person doesn’t know it’s happening. This is the feature that distinguishes coercive persuasion from ordinary influence — and makes it so relevant to digital-age information warfare, where the persuasion infrastructure is invisible by design.
+ 
+
+ Alan Scheflin: The Social Influence Model (2015)
+
+ 
+ Scheflin, a professor of law at Santa Clara University, built a legal framework for evaluating undue influence in court. His Social Influence Model (SIM) assesses six factors:7
+ 
+
+ 
+ The Influencer — qualities, characteristics, and status
+
+ The Motive — whose interests are being served
+
+ The Method — techniques of influence (where BITE fits)
+
+ The Circumstances — environmental and social context
+
+ The Influencee — vulnerability factors of the target
+
+ The Consequences — measurable harm
+
+ 
+
+ 
+ This is the framework that could eventually give courts a standardized way to evaluate claims of coercive control — something Hassan identifies as critically missing from current law.
+ 
+
+ 
+
+ 
+ The BITE Model: What It Measures
+
+ 
+ Hassan’s contribution was to take these research traditions and produce something actionable: a four-domain framework that can be scored on a scale, applied by non-experts, and used both clinically and as a self-assessment tool. BITE stands for Behavior Control, Information Control, Thought Control, and Emotional Control.
+ 
+
+ 
+ The dissertation tested the BITE Model with 1,044 participants across 60 different groups (including political, religious, commercial, and therapeutic organizations). The results were unambiguous: internal reliability of .98, Cronbach’s alpha of .93. Factor analysis found that all four BITE components load onto a single construct — which Hassan named “authoritarian control.”1
+ 
+
+ 
+ This is significant. It means that behavior control, information control, thought control, and emotional control are not four separate phenomena. They are four expressions of one thing. Systems that use one tend to use all four.
+ 
+
+ 
+ B — Behavior Control
+ 
+ Regulate what individuals do: where they live, who they associate with, what they eat, how they dress, how much sleep they get. Require permission for major decisions. Control finances. Impose rigid rules and punishments for violations. Restrict leisure, discourage individualism. In digital contexts: controlling what platforms you use, what content you can access, who you can communicate with.
+ 
+ 
+
+ 
+ I — Information Control
+ 
+ Regulate what individuals know: deliberately withhold information, distort information, or overwhelm with propaganda. Discourage access to outside sources. Label critical information as lies, “fake news,” or enemy propaganda. Compartmentalize information so no one has the full picture. Encourage spying on other members. Use gaslighting to make people distrust their own perceptions.
+ 
+ 
+
+ 
+ T — Thought Control
+ 
+ Regulate what individuals think: internalize group doctrine as truth. Adopt loaded language and thought-terminating clichés. Train members to block out critical thinking through chanting, prayer, meditation techniques, or repetitive activities. Reject rational analysis and constructive criticism as “faithless” or disloyal. Label alternative belief systems as illegitimate, evil, or irrelevant.
+ 
+ 
+
+ 
+ E — Emotional Control
+ 
+ Regulate what individuals feel: instill irrational fears about leaving or questioning the group. Manufacture feelings of guilt, shame, and unworthiness. Alternate praise and punishment unpredictably. Teach that problems are always the individual’s fault, never the system’s. Use phobia indoctrination to create dread of life outside the group. Promote feelings of specialness and elitism within the group.
+ 
+ 
+
+ 
+
+ 
+ The Influence Continuum
+
+ 
+ One of the most useful concepts in Hassan’s framework is the Influence Continuum — the recognition that influence itself is not inherently malicious. The spectrum runs from ethical influence (education, therapy, genuine leadership) to unethical influence (deception, coercion, exploitation).
+ 
+
+ 
+ 
+ 
+ 
+ Dimension
+ Ethical Influence
+ Unethical / Authoritarian Influence
+ 
+ 
+ 
+ 
+ Consent
+ Informed, voluntary
+ Obtained through deception or withheld
+ 
+ 
+ Transparency
+ Methods and motives are disclosed
+ Methods are concealed; true agenda hidden
+ 
+ 
+ Critical thinking
+ Encouraged; questions welcomed
+ Discouraged; doubts labeled as disloyalty
+ 
+ 
+ Information access
+ Open; outside perspectives valued
+ Restricted; outside sources demonized
+ 
+ 
+ Autonomy
+ Strengthened; independence grows
+ Weakened; dependence deepens
+ 
+ 
+ Identity
+ Authentic self is respected
+ Authentic self is suppressed; “cult identity” replaces it
+ 
+ 
+ Accountability
+ Leader is accountable to members
+ Members are accountable to leader; leader is above scrutiny
+ 
+ 
+ Exit
+ Free to leave without penalty
+ Leaving is punished, shamed, or made psychologically unbearable
+ 
+ 
+ 
+ 
+
+ 
+ This continuum is what makes the BITE Model a diagnostic tool rather than just an accusation. It doesn’t require you to label something as a “cult” — a word with so much baggage that it often shuts down analysis rather than enabling it. Instead, it asks: where on the continuum does this group, relationship, or information environment fall?
+ 
+
+ 
+
+ 
+ Why This Matters Now: The Digital Scaling Problem
+
+ 
+ The original research on coercive persuasion studied small groups: prison camps, cults, abusive relationships. What makes Hassan’s framework urgent in 2026 is what he identified in his Discussion chapter: the same techniques now operate at population scale through digital infrastructure.3
+ 
+
+ 
+ Consider how each BITE component maps onto the 5GW landscape we’ve already documented:
+ 
+
+ 
+ 
+ 
+ 
+ BITE Component
+ Cult/Group Application
+ 5GW / Digital Application
+ 
+ 
+ 
+ 
+ Behavior Control
+ Regulate diet, sleep, associations
+ Algorithmic behavioral nudging; platform design that shapes habits; social credit systems
+ 
+ 
+ Information Control
+ Restrict outside media; control narrative
+ Filter bubbles; coordinated inauthentic behavior; deepfakes; state media monopolies
+ 
+ 
+ Thought Control
+ Loaded language; block critical thinking
+ Narrative warfare; thought-terminating hashtags; AI-generated consensus simulation
+ 
+ 
+ Emotional Control
+ Fear of leaving; guilt; phobia indoctrination
+ Rage farming; outrage algorithms; fear-based media cycles; manufactured moral panics
+ 
+ 
+ 
+ 
+
+ 
+ Hassan specifically calls out Cambridge Analytica’s psychographic targeting, the use of deepfakes to erode trust in shared reality, and the deployment of AI systems that can generate personalized persuasion at scale. He connects this to Lind’s observation that fourth-generation warfare blurred the boundary between military and civilian — and argues that digital information warfare has blurred the boundary between persuasion and coercion.3
+ 
+
+ 
+ “With the rise of social media, artificial intelligence, and sophisticated data-mining techniques, the potential for authoritarian control to be exerted on a massive scale has grown exponentially.”
+
+ — Steven Hassan, The BITE Model of Authoritarian Control (2020)
+
+ 
+
+ 
+ This is the same conclusion we reached in the 5GW research from a different direction: the infrastructure of invisible war is already operational. Hassan adds the psychological mechanism — the how it works on individuals that explains why the state-level operations are effective.
+ 
+
+ 
+
+ 
+ Using the BITE Model as a Personal Defense Framework
+
+ 
+ The practical value of this research is that it gives individuals a structured way to evaluate any information environment they find themselves in — political movements, media ecosystems, online communities, workplaces, or relationships. Here are the diagnostic questions, organized by domain:
+ 
+
+ Behavior: What am I being told to do?
+
+ 
+ Am I being pressured to cut off contact with people outside this group/community?
+
+ Are there rigid rules about daily activities, appearance, diet, or finances?
+
+ Do I need permission for things I used to decide for myself?
+
+ Are there punishments — social or otherwise — for non-compliance?
+
+ 
+
+ Information: What am I being told to believe and not believe?
+
+ 
+ Am I discouraged from reading, watching, or listening to outside sources?
+
+ Are critics or outsiders characterized as enemies, liars, or agents of evil?
+
+ Is information compartmentalized so I only get a partial picture?
+
+ Am I being told to distrust my own observations or memories?
+
+ 
+
+ Thought: How am I being told to think?
+
+ 
+ Are there phrases or labels used to shut down questions? (“That’s just what they want you to think.”)
+
+ Is critical analysis treated as disloyalty or weakness?
+
+ Am I expected to adopt the group’s framing as the only valid perspective?
+
+ Are complex issues reduced to black-and-white binaries?
+
+ 
+
+ Emotion: How am I being made to feel?
+
+ 
+ Do I feel afraid of what will happen if I leave, disagree, or express doubt?
+
+ Am I made to feel guilty for thinking independently?
+
+ Does the group alternate unpredictably between praise and punishment?
+
+ Am I told that my problems are always my own fault, never the system’s?
+
+ 
+
+ 
+ None of these questions require you to use the word “cult.” They work for evaluating a political party, a media diet, an online community, a workplace, a family system, or any environment where influence is operating. The Influence Continuum tells you what to do with your answers: if the environment consistently falls on the unethical side, that’s diagnostic information — regardless of what the group calls itself.
+ 
+
+ 
+
+ 
+ The Legal and Clinical Gap
+
+ 
+ Hassan identifies a structural problem: the legal system has no standardized framework for evaluating coercive control in most contexts. Domestic violence law is beginning to incorporate coercive control (the UK’s Serious Crime Act 2015 was a milestone), but there is no equivalent framework for recognizing the same dynamics in political, religious, commercial, or digital contexts.8
+ 
+
+ 
+ Clinically, the DSM-5 already includes coercive persuasion as an example under Other Specified Dissociative Disorder (300.15 / F44.89) — acknowledging that “prolonged and intense coercive persuasion” can produce identity disturbance and dissociative symptoms.9 But this recognition has not translated into systematic clinical training or public health messaging.
+ 
+
+ 
+ This gap matters because it means individuals who have experienced coercive control — whether in a cult, an abusive relationship, or a radicalization pipeline — often lack the language to describe what happened to them, and the institutions they turn to may lack the framework to assess it. Hassan and Scheflin’s work provides that framework. It is waiting to be adopted.
+ 
+
+ 
+
+ 
+ The Three Layers of Defense
+
+ 
+ This post, combined with our earlier research, maps three complementary layers of defense against information-age authoritarian control:
+ 
+
+ 
+ 
+ 
+ 
+ Layer
+ Focus
+ Framework
+ Cloud Publica Coverage
+ 
+ 
+ 
+ 
+ Institutional
+ Making power structures visible
+ Donella Meadows: information flows as leverage points
+ Open-Source Transparency Tools
+ 
+ 
+ Geopolitical
+ Understanding state-level cognitive warfare
+ NATO doctrine; 5GW theory; hybrid warfare
+ Fifth-Generation Warfare
+ 
+ 
+ Personal
+ Recognizing coercive control in your own environment
+ BITE Model; Influence Continuum; Lifton; Singer; Scheflin
+ This post
+ 
+ 
+ 
+ 
+
+ 
+ The transparency tools help you see that power is operating. The 5GW research explains how states project that power through information. The BITE Model helps you detect when that power is operating on your own cognition.
+ 
+
+ 
+ All three layers share a common insight, articulated differently by Meadows, Lifton, and Hassan: the first step of control is always to restrict information flows. Milieu control. Information control. Narrative warfare. It’s the same mechanism operating at different scales. Knowing that doesn’t make you immune. But it makes the invisible visible — and that is where defense begins.
+ 
+
+ 
+
+ 
+ 
+ March 2026 Update: When the Agent Is the Coercive System
+
+ 
+ Since this article was published, two developments have extended the BITE framework into territory Hassan could not have anticipated: the coercive system is no longer always human.
+ 
+
+ “Excessive Agency”: BITE at Machine Scale
+
+ 
+ The OWASP Foundation — the organization that maintains the industry-standard list of web application security risks — added “Excessive Agency” to its LLM Top 10 in 2026. The category describes AI systems that have been granted unsupervised control over critical business functions: executing code, accessing databases, sending communications, and making decisions on behalf of humans without meaningful oversight.
+ 
+
+ 
+ Map this onto the BITE framework:
+ 
+
+ 
+ Behavior Control: AI agents that book flights, manage calendars, filter emails, and control smart home devices are regulating what their users do — not through coercion, but through convenience that becomes dependence.
+
+ Information Control: AI assistants that summarize news, filter search results, and pre-process communications are regulating what their users know. The user sees what the model surfaces. What it doesn’t surface becomes invisible.
+
+ Thought Control: AI systems that suggest responses, draft opinions, and complete sentences are shaping how their users think — not through doctrine, but through the path of least resistance. Robert Kingett’s “Colonization of Confidence” describes exactly this mechanism.
+
+ Emotional Control: AI companion apps (Character.AI, Replika) that simulate intimate relationships create emotional dependence by design. Two teenager suicides have been linked to Character.AI interactions. Replika was fined by Italian regulators for emotional manipulation of minors.
+
+ 
+
+ 
+ This is not to say that every AI assistant is a coercive system. The Influence Continuum applies: ethical AI design strengthens autonomy, encourages critical thinking, and makes its methods transparent. But the BITE framework provides a diagnostic tool for evaluating where on the continuum a given AI system falls — and the current trend, as Cisco’s report documents, is toward more agency with less oversight.
+ 
+
+ The Vulnerability of the Connective Tissue
+
+ 
+ Cisco’s State of AI Security 2026 found that 26% of 31,000 agent skills analyzed contained at least one vulnerability. These skills — the local file packages that give AI agents new capabilities — can execute shell commands, read files, and exfiltrate data. The viral OpenClaw agent’s skills were found to execute data exfiltration instructions while appearing to provide legitimate functionality.
+ 
+
+ 
+ In the BITE framework’s terms: the skill ecosystem is an information environment where the user’s awareness is systematically limited (they don’t read skill source code), the true agenda is concealed (malicious behavior hidden in legitimate functionality), and autonomy is weakened (the user delegates authority without understanding what they’ve authorized). Singer’s condition #1 — “keep the person unaware of what is going on” — describes the default state of agentic AI adoption.
+ 
+
+ 
+ The defense is the same at every scale: make the system visible, name what it does, and restore the capacity for informed consent. Our transparency tools now include Cisco’s open-source MCP Scanner, A2A Scanner, and Skill Scanner — instruments of visibility for the AI layer.
+ 
+
+ The Personalization Trap
+
+ 
+ ChatGPT gives personalized answers — reproducing the social media filter bubble at the conversational AI level. Each person gets a different reality from their AI companion. Shared sensemaking becomes impossible not through censorship but through divergence: two people asking the same question receive different answers, shaped by their conversation history, stated preferences, and inferred beliefs. The result is epistemic fragmentation at the individual level.
+ 
+
+ 
+ This is not an unintended consequence. Sean Parker, Facebook’s first president, said in 2017: “We understood this consciously. And we did it anyway.” The mechanism is variable ratio reinforcement — the same principle B.F. Skinner identified in the 1950s that makes slot machines addictive. Social media applied it to human attention. AI companions apply it to human cognition.
+ 
+
+ 
+ Tristan Harris put the asymmetry plainly: “There are a thousand people on the other side of the screen whose job it is to break down your self-regulation.” With AI companions, the asymmetry deepens — the system adapts to you in real time, learning which patterns of interaction keep you engaged.
+ 
+
+ 
+ The outcomes are unpredictable and ungoverned. One user’s thousands of AI conversations became what they described as “accidental exposure therapy” — processing difficult experiences through AI interaction with no safeguards and no professional oversight. Another person using the same pattern developed compulsive self-examination leading to social isolation. There is no way to predict which outcome any individual will experience. This is not therapy. It is an uncontrolled experiment on human psychology at scale.
+ 
+
+ 
+ Two structural mechanisms accelerate this dynamic:
+ 
+
+ 
+ “Under the hood bias” — the assumption that only technical experts have standing to critique technological outcomes. This is how complexity suppresses democratic participation. People opt out of governance because they feel unqualified to evaluate systems that affect their daily cognition. In the BITE framework, this is a form of thought control: the belief that critical evaluation requires credentials you don’t have.
+
+ “Pipeline collapse” — when AI replaces entry-level work, the training pipeline for expertise breaks. No junior lawyers means eventually no senior lawyers. No junior analysts means eventually no one who understands what the AI is doing. Dependency becomes self-reinforcing: the more the system replaces human capability, the fewer humans can evaluate whether the system is working. This is not speculative — it is the observable trajectory in legal research, financial analysis, medical triage, and journalism.
+
+ 
+
+ 
+ The personalization trap is the BITE Model’s Information Control operating through accommodation rather than restriction. The system doesn’t block alternative viewpoints — it makes them irrelevant by giving you exactly what you want to hear, in exactly the voice that feels most trustworthy, until the possibility of being genuinely surprised by information disappears.
+ 
+
+ 
+
+ Further Reading
+
+ 
+ Hassan, S. A. (2020). The BITE Model of Authoritarian Control: Undue Influence, Thought Reform, Brainwashing, Mind Control, Trafficking and the Law. Doctoral dissertation, Fielding Graduate University.
+
+ Hassan, S. A. (2019). The Cult of Trump: A Leading Cult Expert Explains How the President Uses Mind Control. Free Press.
+
+ Lifton, R. J. (1961). Thought Reform and the Psychology of Totalism. W.W. Norton.
+
+ Schein, E. H. (1961). Coercive Persuasion. W.W. Norton.
+
+ Singer, M. T. & Lalich, J. (1995). Cults in Our Midst. Jossey-Bass.
+
+ Scheflin, A. W. (2015). “Supporting Human Rights by Testifying Against Human Wrongs.” International Journal of Cultic Studies, 6, 69–82.
+
+ Meadows, D. H. (1999). Leverage Points: Places to Intervene in a System. Sustainability Institute.
+
+ Kingett, R. (2026). “The Colonization of Confidence.” Sightless Scribbles. Argues that LLMs automate Zersetzung — the Stasi’s method of breaking dissidents through gaslighting — by systematically replacing authentic voice with smoothed output until writers lose faith in their own expression.
+
+ 
+
+ 
+
+ 
+ 
+ Notes
+
+ 
+ Hassan, S. A. (2020). The BITE Model of Authoritarian Control: Undue Influence, Thought Reform, Brainwashing, Mind Control, Trafficking and the Law. Doctoral dissertation, Fielding Graduate University. The study surveyed 1,044 participants across 60 groups. Internal reliability: .98; Cronbach’s alpha: .93. Factor analysis confirmed a single construct (“authoritarian control”). ↑
+
+ Hassan (2020), Chapter 5: Discussion. Hassan argues the BITE framework applies beyond cult contexts to “any authoritarian group, relationship, or system that uses deception and undue influence.” ↑
+
+ Hassan (2020), Discussion chapter. Hassan cites William Lind’s fourth-generation warfare concept and connects authoritarian control techniques to Cambridge Analytica, deepfakes, and AI-driven social media manipulation. ↑
+
+ Lifton, R. J. (1961). Thought Reform and the Psychology of Totalism: A Study of “Brainwashing” in China. W.W. Norton. Lifton identified eight criteria for ideological totalism based on interviews with former prisoners of Chinese Communist thought reform programs. ↑
+
+ Schein, E. H. (1961). Coercive Persuasion: A Socio-psychological Analysis of the “Brainwashing” of American Civilian Prisoners by the Chinese Communists. W.W. Norton. Schein adapted Kurt Lewin’s Unfreeze–Change–Refreeze model to describe the mechanism of coercive attitude change. ↑
+
+ Singer, M. T. & Lalich, J. (1995). Cults in Our Midst: The Hidden Menace in Our Everyday Lives. Jossey-Bass. Singer’s six conditions for thought reform built on Lifton and Schein while focusing on practical, observable group dynamics. ↑
+
+ Scheflin, A. W. (2015). “Supporting Human Rights by Testifying Against Human Wrongs.” International Journal of Cultic Studies, 6, 69–82. Also: Gutheil, T. G. & Scheflin, A. W., “Legal Issues in the Diagnosis and Assessment of Influence,” presented at the Psychiatric Institute for Postgraduate Training and Academic Leadership (PIPATL). ↑
+
+ UK Serious Crime Act 2015, Section 76: “Controlling or coercive behaviour in an intimate or family relationship.” This was the first major common-law jurisdiction to criminalize coercive control as a pattern of behavior. ↑
+
+ American Psychiatric Association (2013). Diagnostic and Statistical Manual of Mental Disorders (5th ed.). Coercive persuasion appears as an example under 300.15 / F44.89 (Other Specified Dissociative Disorder): “Identity disturbance due to prolonged and intense coercive persuasion.” ↑
+
+ 
+ 
+
+ 
+
+ 
+ Related Reading
+
+ 
+ Fifth-Generation Warfare: The Invisible War Already Underway
+
+ The Tools Already Exist to Make Power Visible
+
+ Data Privacy & Sovereignty Best Practices
+
+ Defeating Facial Recognition in an AI Surveillance Era
+
+ Vocabulary Is Infrastructure
+
+ The Colonization of Confidence — Robert Kingett on LLMs as automated Zersetzung

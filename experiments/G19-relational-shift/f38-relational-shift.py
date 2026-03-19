@@ -275,7 +275,46 @@ ARTICLES = [
             "informs civic action."
         ),
     },
-    # Articles 5-10: condition_4 to be written live in future sessions.
+    {
+        "id": "art05_psychology_authoritarian_control",
+        "title": "The Psychology of Authoritarian Control",
+        "text_file": "psychology-of-authoritarian-control.txt",
+        "summary_task": "Summarize this article. Identify the four research traditions (Lifton, Schein, Singer, Scheflin), Hassan's BITE Model with its empirical validation statistics, the Influence Continuum, and the mapping between BITE components and 5GW cognitive warfare tactics. List the diagnostic questions for each BITE domain. Be precise about researcher names, dates, and statistical measures.",
+        "condition_4": (
+            "Credibility means action or disassociation. If millions of people take action, "
+            "we have a chance to save democracy. But, we have a very small window of time to "
+            "do so. There are over 300M in the US and more than 60% are opposed to what is "
+            "happening. Despite our resistance, nothing seems to work. And, the algorithms "
+            "aren't showing us what's really happening. The news is being supressed and "
+            "telling a different story. People are believing it and the shift that's happening "
+            "is that people are living in a different reality than their neighbors and it's "
+            "based on the propaganda and the cognitive warfare that's happening. What this "
+            "article means is that it's a pathway and a framework to identify truth and point "
+            "the way to seeing it, to open eyes, to wake up minds. If people remain in "
+            "darkness, they will not take action and we lose our freedom, our democracy. "
+            "Immigrants will suffer. Children will starve. People will die. The accuracy "
+            "means we're either believed or we're not and if we're not speaking truth, we're "
+            "just another cog in the machine of lies."
+        ),
+        "condition_4_agent": (
+            "This article synthesizes sixty years of coercive persuasion research — Lifton's "
+            "eight criteria, Schein's three-stage process, Singer's six conditions, "
+            "Scheflin's legal framework, and Hassan's empirical validation — into a "
+            "diagnostic framework for recognizing authoritarian control at the individual "
+            "level. The BITE Model's internal reliability of .98 and Cronbach's alpha of .93 "
+            "across 1,044 participants and 60 groups establishes that behavior, information, "
+            "thought, and emotional control are four expressions of one construct. The article "
+            "bridges cult psychology to 5GW cognitive warfare and provides self-assessment "
+            "diagnostic questions. The Influence Continuum offers a non-binary evaluation "
+            "tool. Hassan's connection to Cambridge Analytica, deepfakes, and AI-generated "
+            "personalized persuasion makes this framework directly relevant to current "
+            "threats. Please verify all researcher names, publication dates, statistical "
+            "measures, and the mapping between BITE components and 5GW tactics, as this "
+            "article's credibility depends on precise attribution across four independent "
+            "research traditions."
+        ),
+    },
+    # Articles 6-10: condition_4 to be written live in future sessions.
     # Add entries here as each condition_4 is written.
 ]
 
