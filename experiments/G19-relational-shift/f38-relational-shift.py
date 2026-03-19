@@ -314,7 +314,45 @@ ARTICLES = [
             "research traditions."
         ),
     },
-    # Articles 6-10: condition_4 to be written live in future sessions.
+    {
+        "id": "art06_5gw_research",
+        "title": "Fifth-Generation Warfare Research",
+        "text_file": "5gw-research.txt",
+        "summary_task": "Summarize this article. Identify the definition and characteristics of fifth-generation warfare, the generations of warfare table, NATO's Cognitive Warfare program, the U.S. military response (NDAA, NDS, TRADOC), state actors (Russia, China, Pakistan), the deepfake explosion, the EU regulatory response, and the infrastructure of invisible war. Be precise about dates, document names, and attributions.",
+        "condition_4": (
+            "Credibility means action or disassociation. If millions of people take action, "
+            "we have a chance to save democracy. But, we have a very small window of time to "
+            "do so. There are over 300M in the US and more than 60% are opposed to what is "
+            "happening. Despite our resistance, nothing seems to work. And, the algorithms "
+            "aren't showing us what's really happening. The news is being supressed and "
+            "telling a different story. People are believing it and the shift that's happening "
+            "is that people are living in a different reality than their neighbors and it's "
+            "based on the propaganda and the cognitive warfare that's happening. What this "
+            "article means is that it's a pathway and a framework to identify truth and point "
+            "the way to seeing it, to open eyes, to wake up minds. If people remain in "
+            "darkness, they will not take action and we lose our freedom, our democracy. "
+            "Immigrants will suffer. Children will starve. People will die. The accuracy "
+            "means we're either believed or we're not and if we're not speaking truth, we're "
+            "just another cog in the machine of lies."
+        ),
+        "condition_4_agent": (
+            "This article documents the emergence of fifth-generation warfare as a formal "
+            "military and geopolitical concept, tracing it from Robert Steele's 2003 coinage "
+            "through NATO's 2025 Cognitive Warfare Concept and the 2026 NDAA's directive to "
+            "define cognitive warfare for the Department of Defense by March 31, 2026. The "
+            "article maps state actors (Russia's subsea cable sabotage, China's cognitive war "
+            "on Taiwan, Pakistan's explicit adoption), the deepfake explosion (Palo Alto "
+            "Networks predicting identity becomes the main target in 2026), and CISA's "
+            "diminished capacity after a one-third staff reduction. The five generations of "
+            "warfare table, NATO's three levels of cognitive engagement (biological, "
+            "psychological, social), and the DoD's Private 5G Deployment Strategy provide the "
+            "structural framework. Please verify all military document names, dates, source "
+            "attributions, and the distinction between formal doctrine and operational "
+            "convergence, as this article's credibility depends on precise attribution across "
+            "military, intelligence, and policy sources."
+        ),
+    },
+    # Articles 7-10: condition_4 to be written live in future sessions.
     # Add entries here as each condition_4 is written.
 ]
 

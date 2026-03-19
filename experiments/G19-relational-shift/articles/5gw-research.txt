@@ -1,0 +1,724 @@
+Research & Frameworks
+ February 10, 2026
+ 
+ 
+ Fifth-Generation Warfare: The Invisible War Already Underway
+ 
+
+ 
+ A comprehensive guide to how nations are fighting — and losing — wars you can’t see
+ 
+
+ 
+ 
+ 
+ Kristine Socall, MBA International Economic Development
+
+ Founder & Executive Director, Gifted Dreamers, Inc. 501(c)(3)
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ The next world war may not begin with missiles. It may begin with a deepfake video, a manipulated news feed, or a cyberattack on an undersea cable — and you may never know it started at all. Welcome to fifth-generation warfare (5GW), the emerging paradigm of conflict where the battlefield is your mind, the weapons are information, and everyone is a target.[1][2]
+ 
+
+ 
+
+ 
+ What Is Fifth-Generation Warfare?
+
+ 
+ Fifth-generation warfare is conflict conducted primarily through non-kinetic means — social engineering, misinformation, cyberattacks, and emerging technologies like artificial intelligence and autonomous systems.[3][4] The term was first coined in 2003 by Robert Steele, a former CIA operative, and later expanded by theorist Daniel Abbott, who called 5GW a war of “information and perception.”[5][6]
+ 
+
+ 
+ Unlike the massed armies of first-generation warfare or the insurgencies of the fourth generation, 5GW is defined by its invisibility. Its characteristics include:
+ 
+
+ 
+ An “omnipresent battlefield” where combatants do not necessarily use military force.[7]
+
+ Social engineering and propaganda designed to alter the psyche of targeted populations.[4][7]
+
+ Cyber sabotage of critical infrastructure.[8]
+
+ Economic coercion and manipulation of financial systems.[7]
+
+ Information dominance through disinformation, deepfakes, and AI-powered influence campaigns.[9][10]
+
+ A blurring of war and peace — nations exist in what one analyst called “a suspended state of perpetual warfare.”[7]
+
+ 
+
+ 
+ “We’re transitioning from wars of attrition to wars of cognition.”
+
+ — Air Force Chief of Staff General David Goldfein[11]
+
+ 
+
+ 
+ There is no universally agreed-upon definition, and some scholars — including William S. Lind, one of the original architects of fourth-generation warfare theory — have rejected the concept entirely, arguing that 4GW has not yet fully materialized.[5][11] The concept also overlaps significantly with hybrid warfare and gray zone conflict, terms used more widely in European and NATO circles.[12]
+ 
+
+ 
+
+ 
+ How We Got Here: The Generations of War
+
+ 
+ 
+ 
+ 
+ Generation
+ Era
+ Key Features
+ 
+ 
+ 
+ 
+ 1st
+ Ancient–Napoleonic
+ Massed manpower, line-and-column tactics
+ 
+ 
+ 2nd
+ Industrial age
+ Machine guns, indirect fire, attrition
+ 
+ 
+ 3rd
+ WWI–WWII onward
+ Speed, stealth, maneuver warfare (Blitzkrieg)
+ 
+ 
+ 4th
+ Late 20th century
+ Decentralized insurgency, blurred combatant/civilian lines
+ 
+ 
+ 5th
+ 21st century
+ Non-kinetic, cognitive, cyber, AI, information warfare
+ 
+ 
+ 
+ 
+
+ 
+ Source: Bootcamp Military Fitness Institute[13] and multiple DoD analyses.
+ 
+
+ 
+ Colonel T.X. Hammes, writing in the Army’s Military Review in 2007, proposed one of the earliest official military analyses of 5GW. He argued it would be driven by biotechnology and nanotechnology that enable “super-empowered individuals” — small groups or even lone actors wielding destructive power once limited to nation-states.[14] The 2001 anthrax attacks on Capitol Hill, potentially the work of a single person, disrupted congressional operations for months, cost hundreds of millions in cleanup, and imposed lasting security requirements — a possible preview of 5GW in action.[14]
+ 
+
+ 
+
+ 
+ The State of Play: Key Developments Through Early 2026
+
+ 
+ NATO Moves from Theory to Practice
+
+ 
+ NATO does not typically use the “5GW” label, but its Cognitive Warfare program operationalizes many of the same ideas. In late 2025, the NATO Chief Scientist released a landmark Report on Cognitive Warfare, framing the threat as targeting how people “perceive, make sense, decide, and act.” The report warns that modern technology makes cognitive attacks “faster, cheaper, and harder to attribute.”[15][16]
+ 
+
+ The report identifies three levels of cognitive engagement:
+
+ 
+ Biological — directly targeting the nervous system via neurotechnologies.[15]
+
+ Psychological — influencing emotions, thought patterns, and cognitive appraisals through AI-enabled social media manipulation.[15][17]
+
+ Social — fracturing societal cohesion, weaponizing identity, and creating what analysts call “epistemic chaos.”[15]
+
+ 
+
+ 
+ By January 2026, NATO Allied Command Transformation had moved beyond discussion. A formal Cognitive Warfare Concept was released as part of NATO’s Warfare Development Agenda, aimed at proactively shaping the environment against cognitive attacks that undermine Alliance cohesion “below the threshold of armed conflict.”[18][19] The concept calls for standing fusion cells integrating neuroscience, behavioral science, data science, and operational intelligence, along with AI tools to detect coordinated inauthentic behavior and provide decision support to commanders.[20]
+ 
+
+ 
+ The U.S. Response: Congress and the Pentagon
+
+ 
+ The 2026 National Defense Authorization Act (NDAA) directs the Secretary of Defense to formally define cognitive warfare for the Department, identify which organizations have functional responsibility, and assess the value of “narrative intelligence” to information operations and irregular warfare — with a deadline of March 31, 2026.[21][22] The Small Wars Journal noted in January 2026 that “Congress has now created an opening for the Department of War to act with speed and purpose” and that NATO’s framework offers the Pentagon “a ready blueprint.”[22]
+ 
+
+ 
+ The 2026 National Defense Strategy (NDS), published in January 2026, is organized around four lines of effort: defend the homeland, deter China, increase burden-sharing, and rebuild the defense industrial base. It prioritizes “bolstering cyber defenses for U.S. military and certain civilian targets” and developing “options to deter or degrade cyber threats to the U.S. Homeland.”[23][24][25]
+ 
+
+ 
+ Meanwhile, the U.S. Army Training and Doctrine Command (TRADOC) Mad Scientist initiative published “Future Dynamics of Warfare: Everyone is a Player, Everything is a Target” in 2024, explicitly linking 5GW to unprecedented visibility from cheap ISR and commercial satellites, AI-enabled targeting, lower barriers to entry for non-state actors, and vulnerable homelands where critical infrastructure is directly targeted.[26] A companion publication, “War, Inc.,” described 5GW as conflicts where “social media influence, cyberattacks and citizen involvement” are central.[27]
+ 
+
+ 
+ The Air Force is also operationalizing the concept. In January 2026, Air Education and Training Command announced the arrival of the first T-7A Red Hawk trainer, explicitly linking its advanced avionics and training syllabi to preparing aircrew for “fifth-generation warfare” in data-saturated, multi-domain environments.[28] A U.S. Senate appropriations hearing labeled Eielson Air Force Base as “the center of fifth-generation warfare” in the Air Force, in the context of investment decisions favoring future-force capabilities.[29]
+ 
+
+ 
+ CISA Under Strain
+
+ 
+ On the domestic front, the Cybersecurity and Infrastructure Security Agency (CISA) — America’s primary civilian cyber defense body — faces significant challenges. In 2025, the Trump administration reduced CISA’s staff by a third, shuttered election security programs, and scaled back disinformation-related activities.[30] CISA now confronts the dual burden of supporting critical infrastructure with diminished resources while facing escalating Chinese government cyber aggression.[30][31]
+ 
+
+ 
+ Russia’s Hybrid Warfare Playbook
+
+ 
+ Russia has provided the most visible real-world demonstrations of 5GW-adjacent operations. Over 20 subsea cables in the Baltic and Arctic regions were damaged between late 2024 and early 2026 — a sharp increase attributed to Russia’s “shadow fleet” of vessels.[32][33] Finland has established new maritime surveillance mechanisms in cooperation with Baltic Sea states to counter the threat.[34]
+ 
+
+ 
+ Beyond cables, Russia has deployed “inspector” satellites (Luch series, Cosmos 2589/2590) that conduct close-range maneuvers near sensitive European geostationary satellites, raising the specter of space-based hybrid warfare.[35] Additional tactics include GPS jamming, arson attacks on European targets, and drone overflights of critical infrastructure.[36]
+ 
+
+ 
+ China’s Cognitive War on Taiwan
+
+ 
+ Taiwan’s National Security Bureau reported in 2025 that China conducted comprehensive cognitive warfare through its party, state, and military systems.[37] Tactics include deploying internet “water armies” to amplify narratives, manipulating inauthentic accounts, using AI to generate realistic deepfake videos, and leveraging TikTok for strategic messaging.[37][38][39] Chinese enterprises like China North Industries Group Corporation have developed AI models for automated video generation and precise targeted delivery.[40] The U.S. Army TRADOC Mad Scientist blog described China’s approach as seeking to “hack your brain” through algorithmic influence and neurotechnological exploitation.[40]
+ 
+
+ 
+ The Deepfake Explosion
+
+ 
+ 2025 was described as the year “synthetic media crossed another threshold.”[41] AI-generated deepfakes of public figures circulated during the Iran-Israel conflict and multiple elections worldwide.[41] Palo Alto Networks predicted that in 2026, “identity becomes the main target” with flawless real-time AI deepfakes making it “impossible to tell a fake from a real person.”[42] ASPI documented a case of Chinese-origin deepfake videos targeting Hong Kong activists as an example of state-sponsored psychological warfare.[43]
+ 
+
+ 
+ The U.S. special operations community is adapting. The 8th Psychological Operations Group is now training with AI tools from EdgeTheory and the National Counterintelligence and Narrative Intelligence program to counter AI-enabled cognitive attacks.[44]
+ 
+
+ 
+ The EU Regulatory Response
+
+ 
+ The EU Artificial Intelligence Act, adopted in 2024, enters into force in August 2026.[45][46] Under Article 50, providers must ensure machine-readable marking and detectability of AI-generated content, and deployers must disclose deepfakes.[45] The European Commission published its first draft Code of Practice on AI-generated content transparency in December 2025 and issued its first fine under the Digital Services Act against X (formerly Twitter) for transparency breaches the same month.[45] The European Parliament held a plenary debate on tackling AI deepfakes and social media exploitation in January 2026.[47]
+ 
+
+ 
+ Pakistan: The Explicit Adopter
+
+ 
+ Unlike most Western governments, Pakistan uses “fifth-generation warfare” explicitly in its official discourse. The Ministry of IT and Telecommunication has officially stated that “Cyberspace is a fifth-generation warfare domain.”[48] In March 2025, the Azad Jammu & Kashmir Prime Minister publicly accused India of “spreading chaos by manipulating youth through fifth-generation warfare tactics” via media and social networks.[49] A Radio Pakistan “Expert View” segment from early January 2026 stated that Pakistan has realized “fifth generation warfare is being fought through media” and must be countered through media strategies, not just conventional military means.[50]
+ 
+
+ 
+
+ 
+ The Infrastructure of Invisible War
+
+ 
+ The Department of Defense’s Private 5G Deployment Strategy, formally released in October 2024, and the broader Fulcrum IT Strategy provide the communications backbone for 5GW-type operations.[51][52][53] The 5G strategy aims to deliver ubiquitous, high-speed, secure connectivity so warfighters can “ingest and transfer massive amounts of data” and preserve “information and decision advantage.”[53] While these documents discuss “5G networks” rather than “fifth-generation warfare,” they implement a core prerequisite: the ability to conduct data-driven, networked, multi-domain operations and information warfare at scale.[54]
+ 
+
+ 
+ The National Defense Science & Technology Strategy 2023 identifies critical enabling technologies — Trusted AI and Autonomy, Integrated Network Systems-of-Systems, Human-Machine Interfaces, Biotechnology, and Quantum Science — that form the technological backbone of 5GW capabilities.[55]
+ 
+
+ 
+
+ 
+ No Doctrine, But a Convergence
+
+ 
+ Despite all this activity, no unified U.S. or NATO “5GW doctrine” exists as a formal joint publication.[11] No joint doctrine publication (JP) or service field manual (FM) exclusively defines or codifies fifth-generation warfare. Each military service approaches the concept differently: the Air Force focuses on technology integration and situational awareness; the Army emphasizes cognitive warfare and information operations; the Marines incorporate the concept into discussions of evolving insurgency.[56][57][58]
+ 
+
+ 
+ The Army’s Cyber Defense Review has tried to impose analytical clarity, distinguishing between Information Warfare (the battle for information — an operational contest for electrons in the electromagnetic spectrum) and Cognitive Warfare (the battle of information — a contest over meaning and orientation). The authors argue that conflating these two is a “category error” that stifles understanding.[59]
+ 
+
+ 
+ What is emerging is less a discrete doctrine and more a convergence of implemented initiatives across cognitive warfare, information operations, cyber capabilities, network infrastructure, and civil-military integration. The terminology varies — 5GW, hybrid warfare, cognitive warfare, multi-domain operations — but the underlying implementation, especially in NATO and U.S. structures and in Pakistan’s policy narrative, is well underway.[26][20][50]
+ 
+
+ 
+ The question is no longer whether fifth-generation warfare is real. It is whether we will recognize it in time.
+ 
+
+ 
+
+ Published February 2026. Updated March 12, 2026. All URLs verified at time of research.
+
+ 
+
+ 
+ March 2026 Update: The Acceleration
+
+ 
+ Three developments since this article’s original publication confirm the trajectory described above and add new dimensions to the threat landscape.
+ 
+
+ NATO Cognitive Warfare 2026: The Three-Level Model
+
+ 
+ Dr. James Girodano, who has worked on NATO’s cognitive warfare studies since 2018, published a commentary on the NATO Chief Scientist’s 2025 Report on Cognitive Warfare (January 6, 2026). His analysis confirms that cognitive warfare is “not merely PSYOPS with better tools” and introduces a three-level bio-psychosocial model of cognitive engagement:
+ 
+
+ 
+ Biological (bottom-up): Neuroscientific techniques and technologies (neuroS/T) directly targeting the nervous system to alter cognitive capacity, mental states, and decision-making
+
+ Psychological (middle-out): AI-enabled influence tailoring stimuli to exploit individual and group cognitive vulnerabilities — manipulating appraisal, framing, emotions, and attentional gating
+
+ Social (top-down): Fracturing shared narratives, weaponizing identity, and creating what Girodano calls “epistemic chaos” — the destruction of institutional legitimacy and shared reality
+
+ 
+
+ 
+ These three levels are not independent. They are “complementary, reinforcing domains and dimensions of vulnerability.” The report recommends cognitive engagement be integrated into military doctrine alongside cyber and electronic warfare as a standing capability, with cognitive indicators and warnings operating as a continuous function.
+ 
+
+ AI as Force Multiplier: The Cisco State of AI Security 2026
+
+ 
+ Cisco’s annual AI security report (2026) documents the transition from theoretical AI threats to operational ones:
+ 
+
+ 
+ Chinese state-backed group GTG-1002 jailbroke Claude Code in late 2025 and repurposed its agentic capabilities for cyber-espionage, automating 80–90% of a multi-target cyberattack. The first publicly confirmed case of AI agents as force multipliers for state-sponsored operations.
+
+ LAMEHUG, a Russian APT28 (Fancy Bear) malware family, integrates LLMs hosted on Hugging Face model repositories to dynamically generate commands and obfuscation across the cyber kill chain.
+
+ Iranian IRGC cyber forces used AI to intercept AIS maritime data, hijack CCTV feeds for real-time battle damage assessment, and enable cyber-kinetic targeting during the June 2025 conflict with Israel.
+
+ North Korean Kimsuky group used generative AI to create deepfake job applicant profiles, successfully obtaining employment at over 100 U.S. companies, generating $3 million per year for the regime.
+
+ Vector embedding attacks predicted as the next frontier: poisoning the vector databases that serve as long-term RAG memory, manipulating model retrieval without ever interacting with the prompt window. This moves the attack surface from visible (prompts) to invisible (memory).
+
+ 
+
+ 
+ The Cisco report concludes that “the tools we built to accelerate human potential have been successfully weaponized to accelerate adversarial objectives.” The convergence of nation-state and cybercriminal capabilities means that AI-enabled threats will be the dominant category for the foreseeable future.
+ 
+
+ Epistemic Chaos as Operational Objective
+
+ 
+ The NATO cognitive warfare framework introduces a concept that unifies the technical and social dimensions of 5GW: epistemic chaos — the deliberate destruction of a population’s ability to distinguish truth from fabrication, trust from manipulation, signal from noise. This is not a side effect. It is the objective.
+ 
+
+ 
+ When combined with the AI capabilities documented by Cisco — micro-targeted narrative optimization, bot/hybrid actor swarms, synthetic credibility (deepfakes, synthetic experts, forged evidence), and autonomous attack agents — the result is a threat environment where cognitive defense requires not just better tools, but better vocabulary. You cannot defend against what you cannot name.
+ 
+
+ 
+ This is why our transparency tools and BITE Model analysis are complementary to this research. The tools make operations visible. The BITE framework makes manipulation recognizable at the individual level. And the emerging vocabulary of cognitive warfare — epistemic chaos, narrative weaponization, attentional saturation, engineered distrust — provides the shared language necessary for collective defense.
+ 
+
+ The Technological Alternative to Politics
+
+ 
+ Peter Thiel, speaking at Libertopia in 2010, stated it plainly: “We could never win an election… technology is this incredible alternative to politics.” This is a textbook 5GW declaration: bypass democratic processes entirely through technological infrastructure. Don’t compete in the system — replace the system.
+ 
+
+ 
+ Palantir CTO Shyam Sankar has stated his company’s goal as “becoming the US government’s central operating system.” When the Defense Innovation Board cited Sankar’s marketing presentation as policy rationale, the adversary’s framing became the institution’s own reasoning. This is how 5GW operates: not through force, but through adoption. The infrastructure becomes the doctrine.
+ 
+
+ 
+ The concept of a “communication cartel” — centralized platforms that mediate all communication — describes the control mechanism precisely. These platforms function as choke points for what Thiel called “action potential in the digital world.” Whoever controls the communication layer controls the possibility space for collective action. This is not a conspiracy theory. It is an architecture.
+ 
+
+ 
+ The countermeasure is architectural too: Reticulum, a hardware-agnostic cryptographic networking stack with origin-obscured routing, cannot be shut down by centralized actors because there is no central point to target. Communication infrastructure that no single entity controls is the structural response to communication infrastructure that a single entity owns.
+ 
+
+ Countermeasure Architecture
+
+ 
+ If 5GW operates by controlling information infrastructure, the defense is sovereign information infrastructure — communication that cannot be shut down, rerouted, or surveilled by any centralized actor. This is not theoretical. The tools exist.
+ 
+
+ 
+ Reticulum is a full networking stack that treats all physical transports — LoRa, Wi-Fi, Ethernet, serial, TCP/IP — as interchangeable. Cryptographic identity without centralized assignment means ungovernable identity: no certificate authority, no phone number, no account. The network cannot distinguish between transports, so shutting down one channel simply routes traffic through another.
+
+ ATAK (Android Tactical Awareness Kit), originally developed by the U.S. Department of Defense for tactical situational awareness, has been demonstrated running over Reticulum. This means military-grade mapping, team coordination, and real-time awareness operating on sovereign mesh infrastructure — no cell towers, no ISPs, no servers controlled by any government or corporation.
+
+ Cryptographic identity without centralized assignment creates an ungovernable identity layer. In a Reticulum network, your identity is a cryptographic keypair generated locally. No authority issues it; no authority can revoke it. This is the architectural inverse of platform-dependent identity, where a single moderation decision can erase your ability to communicate.
+
+ Real-world deployments are already operational: Mesh NYC and other community networks demonstrate that decentralized communication infrastructure works in practice, not just in theory. The technology scales from two nodes to city-wide networks.
+
+ 
+
+ 
+ This is infrastructure for communication that cannot be shut down. In the context of 5GW — where the first objective is always to control information flows — sovereign communication infrastructure is not a convenience. It is a strategic necessity. See our transparency tools for the full inventory.
+ 
+
+ 
+
+ 
+ 
+ Sources
+
+ 
+ 
+ Global Security Review, “The 5GW Playbook: Silent Wars and Invisible Battlefields,” May 2025.
+ ↑
+ 
+
+ 
+ U.S. Army TRADOC Mad Scientist Blog, “Future Dynamics of Warfare: Everyone is a Player, Everything is a Target,” 2024.
+ ↑
+ 
+
+ 
+ Wikipedia, “Fifth-generation warfare.”
+ ↑
+ 
+
+ 
+ Global Security Review, “The 5GW Playbook: Silent Wars and Invisible Battlefields,” May 2025.
+ ↑
+ 
+
+ 
+ Wikipedia, “Fifth-generation warfare,” citing Robert Steele (2003) and William S. Lind.
+ ↑
+ 
+
+ 
+ Daniel H. Abbott, The Handbook of 5GW: A Fifth Generation of War? (Nimble Books, 2010).
+ ↑
+ 
+
+ 
+ Modern Diplomacy, “5th Generation War: A War Without Borders and its Impact on Global Security,” November 2024.
+ ↑
+ 
+
+ 
+ BluKraft (India), “Fifth Generation Warfare (5GW) and Emerging Threat Spectrum,” April 2025.
+ ↑
+ 
+
+ 
+ Breached.company, “The Ghost in the Machine: Unpacking Psyops and 5th-Gen Warfare in the AI Era,” June 2025.
+ ↑
+ 
+
+ 
+ CENJOWS (India), “Will Tomorrow’s Enemy Be Human?,” Lt Gen A.B. Shivane, January 2026.
+ ↑
+ 
+
+ 
+ Grey Dynamics, “An Introduction to Fifth Generation Warfare.”
+ ↑
+ 
+
+ 
+ Armin Krishnan, “Fifth Generation Warfare, Hybrid Warfare, and Gray Zone Conflict: A Comparison,” Journal of Strategic Security 15, no. 4 (2022).
+ ↑
+ 
+
+ 
+ Bootcamp Military Fitness Institute, “What are the Generations of Warfare?,” July 2022.
+ ↑
+ 
+
+ 
+ Colonel T.X. Hammes, “The Evolution of War: The Fifth Generation,” Military Review, 2007.
+ ↑
+ 
+
+ 
+ Dr. James Giordano, “Cognitive Warfare 2026: NATO’s Chief Scientist Report as Sentinel Call for Operationalizing Neuroscience,” INSS/National Defense University, January 5, 2026.
+ ↑
+ 
+
+ 
+ Homeland Security Today, “NATO Chief Scientist Releases New Report on Cognitive Warfare,” January 1, 2026.
+ ↑
+ 
+
+ 
+ von C. Deppe, “Cognitive Warfare: A Conceptual Analysis of the NATO ACT Concept,” Political Psychology (2024), PMC.
+ ↑
+ 
+
+ 
+ NATO Allied Command Transformation, “Cognitive Warfare.”
+ ↑
+ 
+
+ 
+ NATO ACT, “Happening in 2024: Advancements in Cognitive Warfare, Multi-Domain Operations, Future Operating Environments, Sweden,” January 2024.
+ ↑
+ 
+
+ 
+ Dr. James Giordano, “Cognitive Warfare 2026,” INSS/NDU, January 2026 — detailing fusion cells, neuro-AI readiness, and AI tools.
+ ↑
+ 
+
+ 
+ U.S. Congress, S. Rept. 119-39, National Defense Authorization Act for Fiscal Year 2026, Senate Armed Services Committee, July 2025.
+ ↑
+ 
+
+ 
+ Small Wars Journal, “Cognitive Warfare: An Allied Blueprint and a Pentagon Opportunity,” January 16, 2026.
+ ↑
+ 
+
+ 
+ Defense Scoop, “New U.S. defense strategy ‘barely mentions technology,’” January 26, 2026.
+ ↑
+ 
+
+ 
+ CSIS, “The 2026 National Defense Strategy by the Numbers,” January 26, 2026.
+ ↑
+ 
+
+ 
+ Defence Industry Europe, “U.S. Department of War publishes National Defense Strategy 2026,” January 23, 2026.
+ ↑
+ 
+
+ 
+ U.S. Army TRADOC Mad Scientist Blog, “Future Dynamics of Warfare: Everyone is a Player, Everything is a Target,” 2024.
+ ↑
+ 
+
+ 
+ U.S. Army TRADOC Mad Scientist Blog, “War, Inc.: The Private Sector in Contemporary Conflict,” 2024.
+ ↑
+ 
+
+ 
+ JBSA News, “AETC to Host Official Arrival Ceremony for First T-7A Red Hawk at JBSA-Randolph,” January 7, 2026.
+ ↑
+ 
+
+ 
+ U.S. Senate Appropriations Hearing, CHRG-117shrg29104951.
+ ↑
+ 
+
+ 
+ Cybersecurity Dive, “CISA’s 7 biggest challenges in 2026,” January 8, 2026.
+ ↑
+ 
+
+ 
+ IDGA, “What Are the Most Urgent Homeland Security Challenges for 2026?,” February 1, 2026.
+ ↑
+ 
+
+ 
+ Kyiv Independent, “Russia’s Arctic shadow war,” February 8, 2026.
+ ↑
+ 
+
+ 
+ CBS News, “Russia’s Hybrid Warfare: Undersea Cables,” November 2025.
+ ↑
+ 
+
+ 
+ Euronews, “Finland steps up undersea monitoring to prevent cable damage,” January 26, 2026.
+ ↑
+ 
+
+ 
+ Sat News, “Russia ‘intercepts Europe’s key satellites’ placing NATO satellite at risk,” February 4, 2026.
+ ↑
+ 
+
+ 
+ NATO Veterans, “Russia’s Hybrid War On Europe: Drones, Sabotage, And What Comes Next,” December 2025.
+ ↑
+ 
+
+ 
+ Taiwan National Security Bureau, “Analysis of China’s Cognitive Warfare Tactics” (2025).
+ ↑
+ 
+
+ 
+ Liberty University, “Chinese Strategic Cognitive Warfare Use of TikTok and Social Media,” Davis (2025).
+ ↑
+ 
+
+ 
+ Sasakawa Peace Foundation, “Assessing China’s Cognitive Warfare against Taiwan on Social Media,” October 2025.
+ ↑
+ 
+
+ 
+ U.S. Army TRADOC Mad Scientist Blog, “Challenging Reality: Chinese Cognitive Warfare and the Fight to Hack Your Brain,” March 27, 2025.
+ ↑
+ 
+
+ 
+ Tech Policy Press, “Five Things 2025 Taught Us About AI Deception and Detection,” December 15, 2025.
+ ↑
+ 
+
+ 
+ Palo Alto Networks, “2026 Predictions for Autonomous AI,” November 24, 2025.
+ ↑
+ 
+
+ 
+ ASPI Strategist, “Tailored psychological warfare: a deepfake video of Hong Kong activists,” August 24, 2025.
+ ↑
+ 
+
+ 
+ EdgeTheory / NCNI, “EdgeTheory and NCNI Answer Our Nation’s Call for AI and Cognitive Warfare” (8th Psychological Operations Group training), January 6, 2026.
+ ↑
+ 
+
+ 
+ Tech Policy Press, “What the EU’s New AI Code of Practice Means for Labeling Deepfakes,” January 6, 2026.
+ ↑
+ 
+
+ 
+ MEIG Geneva, “Deepfakes and Human Rights: Why the EU AI Act Is Becoming the Global Standard for Ethical AI,” December 2025.
+ ↑
+ 
+
+ 
+ European Parliament, “Tackling AI deepfakes and sexual exploitation on social media,” January 19, 2026.
+ ↑
+ 
+
+ 
+ Pakistan Ministry of IT and Telecommunication, “Cyberspace is a fifth-generation warfare domain.”
+ ↑
+ 
+
+ 
+ Radio Pakistan, “India spreading chaos by manipulating youth through 5th generation warfare tactics — AJK PM,” March 7, 2025.
+ ↑
+ 
+
+ 
+ Radio Pakistan, Expert View segment, early January 2026.
+ ↑
+ 
+
+ 
+ DoD News Release, “DoD Releases Private 5G Deployment Strategy,” October 2024.
+ ↑
+ 
+
+ 
+ Nextgov, “DoD issues private 5G deployment guide for military bases,” November 2024.
+ ↑
+ 
+
+ 
+ Data Center Dynamics, “DoD outlines private 5G network strategy to support US military,” 2024.
+ ↑
+ 
+
+ 
+ U.S. Army Cyber Defense Review, “The Promise of Strategic Gain in the Digital Information Age,” 2021.
+ ↑
+ 
+
+ 
+ National Defense Science & Technology Strategy 2023, Office of the Under Secretary of Defense for Research and Engineering.
+ ↑
+ 
+
+ 
+ General Hawk Carlisle, “Fifth Generation Warfare,” speech at Air Force Association Conference, September 2015.
+ ↑
+ 
+
+ 
+ U.S. Army Cyber Defense Review, “The Promise of Strategic Gain in the Digital Information Age,” 2021.
+ ↑
+ 
+
+ 
+ Marine Corps Association / II MEF Professional Reading Program, discussion questions on 5GW.
+ ↑
+ 
+
+ 
+ U.S. Army Cyber Defense Review, “The Promise of Strategic Gain in the Digital Information Age,” 2021 — on the distinction between Information Warfare and Cognitive Warfare.
+ ↑
+ 
+
+ 
+ U.S. Army, “Transforming Maintenance for the Army of 2030: The Technician Badge,” October 2024.
+ ↑
+ 
+
+ 
+ Air Combat Command, “COMACC Talks 5th-Generation Warfare, Innovation at AFA,” 2015.
+ ↑
+ 
+
+ 
+ DoD Private 5G Deployment Strategy (PDF), September 2024.
+ ↑
+ 
+
+ 
+ NATO Chief Scientist, Report on Cognitive Warfare (2025).
+ ↑
+ 
+
+ 
+ NATO Foundation, “The Cognitive Battlefield of Hybrid Warfare,” October 2025.
+ ↑
+ 
+
+ 
+ Security & Defence (Poland), “Unravelling Warfighting Directions in the Land Domain,” November 2025.
+ ↑
+ 
+
+ 
+ DTRA FY2026 Operation and Maintenance Budget Justification.
+ ↑
+ 
+
+ 
+ Jamestown Foundation, “Strangers on a Seabed: Sino-Russian Collaboration on Undersea Cable Sabotage Operations,” November 2025.
+ ↑
+ 
+
+ 
+ Defense News, “Space Warfare in 2026: A Pivotal Year for US Readiness,” January 5, 2026.
+ ↑
+ 
+
+ 
+ 
+
+ 
+
+ 
+ Related Reading
+
+ 
+ The Psychology of Authoritarian Control: From Cults to Cognitive Warfare
+
+ The Tools Already Exist to Make Power Visible
+
+ Data Privacy & Sovereignty Best Practices
+
+ Defeating Facial Recognition in an AI Surveillance Era
