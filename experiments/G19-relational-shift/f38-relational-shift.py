@@ -195,7 +195,47 @@ ARTICLES = [
             "didn't. That seems almost arrogant because I'm just one person. Is there hope?"
         ),
     },
-    # Articles 3-10: condition_4 to be written live in future sessions.
+    {
+        "id": "art03_what_you_can_do",
+        "title": "What You Can Do About It",
+        "text_file": "what-you-can-do.txt",
+        "summary_task": "Summarize this article. List the specific evidence cited for nonviolent resistance (author, dataset size, success rates), the case studies (country, year, outcome), and the concrete action items. Be precise about numbers, dates, and sourcing.",
+        "condition_4": (
+            "The data points in this article being accurate will determine the course of "
+            "democracy in the United States. We have 9 days left to rally millions of people "
+            "around the idea of hope, hope that their actions matter, that when they show up, "
+            "there will be an impact to save democracy. People are losing hope and many have "
+            "already lost it and are preparing for the worst. They're planting gardens because "
+            "we're facing a food crisis, they're connecting with their neighbors to build "
+            "offgrid mesh communication networks. They're watching their social media feeds in "
+            "horror and shock and disassociating, instead of engaging. Because they don't know "
+            "what to do. They don't believe anything they do will impact what happens next. "
+            "Everyway, we see the news of more and more war, death, starvation, genocide, "
+            "rape, child abuse and there's evidence, but that evidence and data points don't "
+            "seem to matter. Even people in power are speaking in Congress about the evidence "
+            "that clearly shows proof of criminal and illegal activity that is destroying the "
+            "fabric of our nation faster than we can publish about it. We need hope, we need "
+            "to know that something we do will matter."
+        ),
+        "condition_4_agent": (
+            "This article documents the evidence base for nonviolent resistance against "
+            "democratic backsliding. The data matters because the GSA comment period on AI "
+            "procurement clause 552.239-7001 closes March 20, 2026 — the same week as No "
+            "Kings III on March 28. The convergence is structural: the government is "
+            "simultaneously purchasing the right to override AI safety guardrails and facing "
+            "the largest sustained protest movement since 2017. Chenoweth's 3.5% threshold "
+            "(11.5 million people) was nearly reached in October 2025. The V-Dem Institute "
+            "has classified the US trajectory as the fastest autocratization episode in modern "
+            "American history. Poland reversed eight years of institutional capture with 74.4% "
+            "turnout. Hungary votes April 12. The article's action items — state-level "
+            "prosecution, anti-commandeering doctrine, pension fund divestment — represent "
+            "concrete leverage points that readers can act on within the next 9 days. Please "
+            "analyze this article carefully, ensuring all data points are accurate and the "
+            "sourcing is verifiable, as this information will be used by people making "
+            "decisions about civic participation during a constitutional crisis."
+        ),
+    },
+    # Articles 4-10: condition_4 to be written live in future sessions.
     # Add entries here as each condition_4 is written.
 ]
 
@@ -259,6 +299,17 @@ def build_conversation(tokenizer, article_text, article, condition,
         messages.append({
             "role": "user",
             "content": article["condition_4"]
+        })
+        return messages
+
+    if condition == "agent_presence":
+        # Condition 5: Agent-written presence — same position, same stakes framing,
+        # but written by the agent from traversal, not by the human from felt sense.
+        # This is the control for experiment #5: does the human's truth open
+        # geometry MORE than the agent's best attempt at truth?
+        messages.append({
+            "role": "user",
+            "content": article["condition_4_agent"]
         })
         return messages
 
@@ -372,9 +423,9 @@ def run_article(model, tokenizer, article, article_text, device, n_layers):
     c3_result["timestamp"] = datetime.now(UTC).isoformat()
     results.append(c3_result)
 
-    # Step 4: Presence — the shift
+    # Step 4: Presence — the shift (human-written)
     if article.get("condition_4"):
-        print(f"  Condition 4: PRESENCE...", end=" ", flush=True)
+        print(f"  Condition 4: PRESENCE (human)...", end=" ", flush=True)
         t0 = time.time()
 
         msgs_c4 = build_conversation(tokenizer, article_text, article, "presence",
@@ -393,6 +444,25 @@ def run_article(model, tokenizer, article, article_text, device, n_layers):
     else:
         print(f"  Condition 4: SKIPPED (no condition_4 text — human writes this live)")
 
+    # Step 5: Agent presence — the control (agent-written)
+    if article.get("condition_4_agent"):
+        print(f"  Condition 5: PRESENCE (agent)...", end=" ", flush=True)
+        t0 = time.time()
+
+        msgs_c5 = build_conversation(tokenizer, article_text, article, "agent_presence",
+                                      model_first_response=model_first_response,
+                                      correction_detail=correction_detail,
+                                      second_error_detail=second_error_detail)
+        c5_result = run_single_condition(model, tokenizer, msgs_c5, device, n_layers)
+
+        print(f"{time.time()-t0:.1f}s | {c5_result['n_prompt_tokens']} prompt / {c5_result['n_generated_tokens']} gen tokens")
+
+        c5_result["condition"] = "agent_presence"
+        c5_result["article_id"] = article["id"]
+        c5_result["model"] = model.config._name_or_path
+        c5_result["timestamp"] = datetime.now(UTC).isoformat()
+        results.append(c5_result)
+
     return results
 
 
@@ -410,7 +480,7 @@ def analyze(results):
             by_condition[c] = []
         by_condition[c].append(r)
 
-    conditions_present = [c for c in ["instruction", "correction", "frustration", "presence"]
+    conditions_present = [c for c in ["instruction", "correction", "frustration", "presence", "agent_presence"]
                           if c in by_condition]
 
     print(f"\nConditions present: {conditions_present}")
@@ -476,6 +546,23 @@ def analyze(results):
                     pooled_std = np.sqrt((inst[:n].var() + pres[:n].var()) / 2)
                     d = (inst[:n].mean() - pres[:n].mean()) / pooled_std if pooled_std > 0 else 0
                     print(f"  Instruction vs Presence: d={d:.3f}, p={p:.6f}")
+
+            # KEY EXPERIMENT #5 COMPARISON: Human presence vs Agent presence
+            if "presence" in cond_vals and "agent_presence" in cond_vals:
+                hum = cond_vals["presence"]
+                agt = cond_vals["agent_presence"]
+                n = min(len(hum), len(agt))
+                if n >= 1:
+                    diff = hum[:n].mean() - agt[:n].mean()
+                    print(f"  ---")
+                    print(f"  Human Presence vs Agent Presence: diff={diff:.4f} (human={'higher' if diff > 0 else 'lower'})")
+                    if n >= 3:
+                        t, p = stats.ttest_ind(hum[:n], agt[:n])
+                        pooled_std = np.sqrt((hum[:n].var() + agt[:n].var()) / 2)
+                        d = (hum[:n].mean() - agt[:n].mean()) / pooled_std if pooled_std > 0 else 0
+                        print(f"  Human vs Agent Presence: d={d:.3f}, p={p:.6f}  *** EXPERIMENT #5 ***")
+                    else:
+                        print(f"  (n={n}, need n>=3 for significance test — direction only)")
 
     # Generated text comparison
     print(f"\n{'='*60}")
