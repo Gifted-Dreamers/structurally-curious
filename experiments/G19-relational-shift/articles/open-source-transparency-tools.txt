@@ -1,0 +1,934 @@
+Research & Frameworks
+ March 8, 2026
+ 
+
+ 
+ The Tools Already Exist to Make Power Visible
+ 
+
+ 
+ 60+ free, open-source tools for investigation, conflict monitoring, democratic oversight, AI security, decentralized communication, OSINT, personal counter-surveillance, and accountability. Nobody compiled the list — until now.
+ 
+
+ 
+ 
+ 
+ Kristine Socall, MBA International Economic Development
+
+ Founder & Executive Director, Gifted Dreamers, Inc. 501(c)(3)
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ Why Information Changes Everything
+
+ 
+ Donella Meadows, the systems scientist who gave us the concept of leverage points, identified twelve places where you can intervene in a complex system. Most activism — most politics, most media — operates at the lowest-leverage points: arguing about numbers, tweaking parameters, fighting over budgets. The interventions that actually transform systems happen higher up.
+ 
+
+ 
+ Leverage point #6 is Information Flows: who knows what, who can see what, who can verify what.
+ 
+
+ 
+ Meadows' most powerful example: In 1986, the US government required companies to report what toxic chemicals they released into the environment. No fines. No new regulations. Just information — made public. Within years, toxic emissions dropped 40%.
+ 
+
+ 
+ Making power visible changes how power operates — even without enforcement. Sunlight is not just a disinfectant. It is a structural intervention.
+ 
+
+ 
+ This principle is why fifth-generation warfare targets information flows first. It's why data sovereignty matters. It's why our ICE activity tracking follows the same logic as the Toxic Release Inventory: make the system's behavior visible so people can respond.
+ 
+
+ 
+ What follows is a curated list of tools that do exactly this. Every one is free, open-source, or community-maintained. Every one takes something that was previously opaque — financial networks, military operations, congressional votes, media framing, ecological damage, police conduct — and makes it publicly navigable.
+ 
+
+ 
+ Nobody had to pass a law requiring these tools to exist. Nobody had to get permission. People saw that power was hiding in opacity and built instruments of visibility.
+ 
+
+ 
+
+ 
+ 
+ 🔍
+
+ Investigation & Financial Network Analysis
+
+ 
+
+ Tools for surfacing hidden relationships in financial crime, corporate ownership, and political money.
+
+ 
+ OpenPlanter
+
+ github.com/ShinMegamiBoson/OpenPlanter
+
+ Autonomous AI investigation agent that recursively analyzes corporate registries, campaign finance, lobbying disclosures, and sanctions data. Builds live knowledge graphs with transparent reasoning trails showing why two entities are connected, not just that they are. Open-source (Tauri + Python).
+
+ 
+
+ 
+ OCCRP Aleph / OpenAleph
+
+ aleph.occrp.org
+
+ 4.5 billion records across corporate registries, leaked documents, and government filings. Used by 24,000+ investigative journalists worldwide. The open-source fork (OpenAleph) is maintained by the Data and Research Center.
+
+ 
+
+ 
+ SomaliScan Epstein Index
+
+ somaliscan.com/investigation/epstein-index
+
+ Graph database cross-referencing 3.5 million DOJ pages against PPP loans (11.4M records), FEC contributions (58M records), and federal grants (23.9M records). Its Pathfinder tool traces connection paths between any two entities — making the negative space between documents navigable.
+
+ 
+
+ 
+ Epstein Suite
+
+ epsteinsuite.com
+
+ 212,000+ documents with a "Six Degrees" tool that finds connection paths between any two people through emails, flights, and co-mentions. Financial forensics tracking $36 trillion in extracted transactions. Free, volunteer-maintained.
+
+ 
+
+ 
+ Epstein Exposed
+
+ epsteinexposed.com
+
+ 2.1 million documents, 51,254 mapped connections, interactive relationship network graphs. Community investigation boards for collaborative research. Maintained by a single developer, ad-free.
+
+ 
+
+ 
+ Jmail.world
+
+ jmail.world
+
+ Epstein's released emails in a Gmail-like interface, flight manifests, Amazon orders, and an AI-generated wiki grounding each article in primary source documents. Also includes JWiki and JeffTube.
+
+ 
+
+ 
+ EpsteinSearch.info
+
+ epsteinsearch.info
+
+ Full-text search across 2.5 million declassified documents with connection mapping. Independent, free, ad-free, open-source.
+
+ 
+
+ 
+ JeffreyOS
+
+ jeffreyos.pages.dev · source
+
+ Open-source browser-based OS simulation that presents Epstein documents as an interactive narrative. An experiment in making archives experientially navigable rather than just searchable. AGPL-3.0 license.
+
+ 
+
+ 
+ LittleSis
+
+ littlesis.org
+
+ Community-maintained database mapping relationships between powerful people and organizations — politicians, executives, lobbyists, and their financial ties. A "reverse Who's Who" for tracking elite networks.
+
+ 
+
+ 
+ OpenSecrets
+
+ opensecrets.org
+
+ Tracks campaign finance, lobbying, and dark money in US politics. Organization profiles compile contribution and lobbying history for thousands of corporations, trade associations, and advocacy groups.
+
+ 
+
+ 
+ FollowTheMoney
+
+ followthemoney.org
+
+ State-level campaign finance data across all 50 US states. Search by donor, candidate, or industry to see who funds state politics.
+
+ 
+
+ 
+ OpenCorporates
+
+ opencorporates.com
+
+ The largest open database of corporate information in the world: 200+ million companies from 145+ jurisdictions. Free API for querying corporate registries, officer data, and filings.
+
+ 
+
+ 
+ SilenceDidThis
+
+ silencedidthis.com
+
+ Searchable database of Epstein-related media files with metadata, GPS coordinates, locations, and creation dates. Primary-source archive for cross-referencing visual evidence against documents and timelines. CC BY 4.0 licensed.
+
+ 
+
+ 
+ Courier Newsroom Epstein Files Database
+
+ couriernewsroom.com/news/epstein-files-database
+
+ Searchable database of Congressional and DOJ Epstein documents, built using Google Pinpoint's OCR. Makes machine-readable text across thousands of scanned government documents navigable by keyword.
+
+ 
+
+ 
+ Distributed Denial of Secrets (DDoSecrets)
+
+ ddosecrets.org
+
+ Nonprofit transparency collective that publishes leaked and publicly available datasets in the public interest. Source for Epstein's Yahoo email archives and other large-scale document releases used by investigative journalists worldwide.
+
+ 
+
+ 
+ Google Pinpoint
+
+ journaliststudio.google.com/pinpoint
+
+ Free AI research tool for journalists. Uses OCR to make scanned documents machine-readable and Gemini models for audio transcription. Upload thousands of PDFs and search across them instantly. Used by The Guardian and BBC for document investigations.
+
+ 
+
+ 
+
+ 
+ 
+ 🌎
+
+ Conflict Monitoring & Military Accountability
+
+ 
+
+ Tools for making military operations, their costs, and their consequences visible in real time.
+
+ 
+ World Monitor
+
+ worldmonitor.app
+
+ Open-source real-time OSINT dashboard aggregating 435+ sources across 45 map layers: military aviation, maritime surveillance, earthquakes, protests, power outages, markets. Used by 2M+ people in 190+ countries. Free. Open source on GitHub.
+
+ 
+
+ 
+ Bamqam (formerly UsvsIran)
+
+ bamqam.com
+
+ Real-time CENTCOM theater dashboard tracking satellites, aircraft (ADS-B), vessels (AIS), GPS jamming, SAM rings, and military bases. Live situational awareness for the Middle East theater.
+
+ 
+
+ 
+ World in Conflict
+
+ glideslope.ai/worldinconflict
+
+ AI-powered geopolitical intelligence map with severity-rated conflict and economic events, filterable by type and time window. Connected to market analysis briefings.
+
+ 
+
+ 
+ Iran Cost Ticker
+
+ iran-cost-ticker.com
+
+ Live counter of US taxpayer spending on Iran operations (est. $1B/day since Feb 28, 2026). Includes munitions cost analysis, stockpile depletion projections, casualty figures, and gas price impact. Makes the financial reality of war impossible to abstract away.
+
+ 
+
+ 
+ WorldView / Spatial Intelligence
+
+ spatialintelligence.ai
+
+ Browser-based satellite simulator with night vision, thermal imaging, live aircraft tracking, and satellite orbits. The creator, Bilawal Sidhu, frames public data access as "sousveillance" — turning surveillance tools around as instruments of democratic accountability.
+
+ 
+
+ 
+ Iran Battle Map
+
+ iranbattlemap.com
+
+ Interactive tactical mapping with strike tracking, flight path visualization, event timelines, and organizational charts. Retro military display aesthetic.
+
+ 
+
+ 
+ Monitor the Situation
+
+ monitorthesituation.org
+
+ OSINT military aircraft monitoring platform tracking military aviation activity using publicly available data. Provides real-time situational awareness through open-source intelligence methods.
+
+ 
+
+ 
+
+ 
+ 
+ 🏛
+
+ Democratic Transparency
+
+ 
+
+ Tools for making the behavior of elected officials and government institutions visible.
+
+ 
+ Suffragium
+
+ suffragium.com
+
+ Congressional transparency platform: bill tracking, AI-generated daily Congressional Record summaries, voting statistics and party loyalty metrics for all 535 members of the 119th Congress (2025–2026).
+
+ 
+
+ 
+ MuckRock
+
+ muckrock.com
+
+ Files, tracks, and publishes FOIA and public records requests at federal, state, and local levels. Also maintains DocumentCloud for analyzing and publishing primary source documents. Open source.
+
+ 
+
+ 
+ USAspending.gov
+
+ usaspending.gov
+
+ Official federal spending open data portal. Tracks every contract, grant, loan, and federal financial transaction under the DATA Act. Fully open-source on GitHub.
+
+ 
+
+ 
+ OpenSpending
+
+ openspending.org
+
+ Global platform from the Open Knowledge Foundation for searching, visualizing, and analyzing government fiscal data from countries worldwide.
+
+ 
+
+ 
+ Alaveteli
+
+ alaveteli.org
+
+ Open-source platform for running Freedom of Information request sites in any country and language. Deployed in 25+ countries. Powers WhatDoTheyKnow.com in the UK.
+
+ 
+
+ 
+
+ 
+ 
+ 📰
+
+ Media Literacy & Disinformation Detection
+
+ 
+
+ Tools for making narrative manipulation visible — essential in an era of fifth-generation warfare.
+
+ 
+ Ground News
+
+ ground.news
+
+ Shows how different outlets frame the same story, with media bias ratings, ownership/factuality data, and a "Blindspot" feature for underreported stories. Browser extension and mobile apps available.
+
+ 
+
+ 
+ GDELT Project
+
+ gdeltproject.org
+
+ Monitors world news in 100+ languages every 15 minutes, with archives back to 1979. Used for tracking narrative spread, contested imagery, and coordinated influence campaigns. Free on Google BigQuery.
+
+ 
+
+ 
+ Bellingcat Online Investigation Toolkit
+
+ bellingcat.gitbook.io/toolkit
+
+ Community-maintained catalog of OSINT tools organized by category: satellite imagery, social media, transportation, archiving, verification. The starting point for any open-source investigation.
+
+ 
+
+ 
+ BotSlayer & OSoMe Tools
+
+ osome.iu.edu
+
+ Indiana University's Observatory on Social Media maintains open-source tools for detecting coordinated bot-driven manipulation, including BotSlayer-CE and Coordiscope for visualizing inauthentic coordinated behavior.
+
+ 
+
+ 
+
+ 
+ 
+ 🌱
+
+ Environmental Monitoring
+
+ 
+
+ Tools for making ecological damage visible — following the exact principle of the Toxic Release Inventory.
+
+ 
+ Global Forest Watch
+
+ globalforestwatch.org
+
+ Real-time deforestation alerts with 20+ years of tree cover loss data and fire alerts updated daily via satellite. Free, from the World Resources Institute.
+
+ 
+
+ 
+ OpenAQ
+
+ openaq.org
+
+ Real-time and historical air quality data from 30,000+ government monitoring stations worldwide. Free REST API covering PM2.5, PM10, SO2, NO2, and ozone.
+
+ 
+
+ 
+ Climate Watch
+
+ climatewatchdata.org
+
+ 150 years of greenhouse gas emissions by country, sector, and gas. Tracks national climate commitments and net-zero targets. Open-source on GitHub.
+
+ 
+
+ 
+
+ 
+ 
+ 🛡
+
+ Police & Government Accountability
+
+ 
+
+ 
+ OpenOversight
+
+ openoversight.lucyparsonslabs.com
+
+ Searchable database of law enforcement officers built from FOIA requests, public records, and crowdsourced photos. Currently covers departments in Chicago, NYC, and the San Francisco Bay Area. Open-source.
+
+ 
+
+ 
+ Open Supply Hub
+
+ opensupplyhub.org
+
+ Maps 100,000+ production facilities across global supply chains. Used by unions, brands, and NGOs to identify labor rights violations and forced labor risks. Free and open data.
+
+ 
+
+ 
+
+ 
+ Where to Start
+
+ Thirty tools is overwhelming. Here's how to pick based on what you care about:
+
+ 
+ 
+ 
+ 
+ If you want to...
+ Start here
+ 
+ 
+ 
+ 
+ Follow the money in politics
+ OpenSecrets + LittleSis
+ 
+ 
+ Investigate corporate networks
+ OCCRP Aleph + OpenCorporates
+ 
+ 
+ Track conflicts in real time
+ World Monitor
+ 
+ 
+ Understand media bias
+ Ground News
+ 
+ 
+ File public records requests
+ MuckRock
+ 
+ 
+ Monitor deforestation or air quality
+ Global Forest Watch + OpenAQ
+ 
+ 
+ Track congressional votes
+ Suffragium
+ 
+ 
+ Research Epstein primary sources
+ Jmail + SilenceDidThis + SomaliScan
+ 
+ 
+ Learn OSINT investigation
+ Bellingcat Toolkit
+ 
+ 
+ Detect cell-site simulators
+ Rayhunter (EFF, $20 hardware)
+ 
+ 
+ Secure AI agent infrastructure
+ Cisco MCP Scanner + A2A Scanner
+ 
+ 
+ Build offline resilience
+ Offline Directory + RNode
+ 
+ 
+ Track ICE contracts
+ ICE Contracts Explorer
+ 
+ 
+ Map critical infrastructure
+ Open Infrastructure Map + Gridline World
+ 
+ 
+ Build decentralized communication
+ Reticulum + Sideband
+ 
+ 
+ Run automated OSINT collection
+ SpiderFoot + Shodan
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 📈
+
+ Government Accountability & Contract Tracking
+
+ 
+
+ Tools for tracking government contracts, congressional behavior, and enforcement patterns — added March 12, 2026.
+
+ 
+ CongressWatch
+
+ congresswatch.vercel.app
+
+ Open-source government accountability dashboard. Tracks net worth vs. salary for every member of Congress, PAC contributions, SEC filings, and generates anomaly scores (1–100) for unusual financial patterns. Data from Congress.gov, FEC.gov, and SEC EDGAR. CSV/JSON export for researchers.
+
+ 
+
+ 
+ ICE Contracts Explorer
+
+ micahflee.github.io
+
+ Built by journalist Micah Lee using DDoSecrets data from the DHS Office of Industry Partnership (released March 1, 2026). Geographic visualization of ICE contracts filterable by program, state, and amount. Makes the enforcement infrastructure’s financial footprint navigable.
+
+ 
+
+ 
+ Epstein Dataset (HuggingFace)
+
+ huggingface.co/datasets/kabasshouse/epstein-data
+
+ 1.42 million OCR’d documents, 10.6 million named entities, 49,700 financial transactions, 2.1 million vector embeddings (768-dimension Gemini). 5,700 curated documents tiered from NUCLEAR to SUPPORTING. DuckDB queryable. CC-BY-4.0 license. The most comprehensive machine-readable Epstein archive available.
+
+ 
+
+ 
+
+ 
+ 
+ 🌐
+
+ Intelligence & Infrastructure Mapping
+
+ 
+
+ Multi-layer OSINT dashboards and infrastructure maps for situational awareness — added March 12, 2026.
+
+ 
+ Gridline World
+
+ gridline.world
+
+ Free OSINT intelligence dashboard with 30+ data layers: GDELT events, NASA FIRMS fire data, USGS earthquakes, NOAA weather, AIS vessel tracking, nuclear facilities, undersea infrastructure, and military installations. Pro tier ($9 AUD/month) adds satellite imagery. The most comprehensive free multi-layer situational awareness tool available.
+
+ 
+
+ 
+ SSEC Sentinel
+
+ ssec-sentinel.vercel.app
+
+ Decentralized emergency intelligence platform combining ACLED conflict data, OpenSky aviation tracking, military base locations, and HDX humanitarian data. Includes emergency radio streaming and crisis helplines. Built for real-time crisis awareness when centralized channels are compromised or unavailable.
+
+ 
+
+ 
+ Open Infrastructure Map
+
+ openinframap.org
+
+ Maps 7 million km of power lines, 1 million substations, 125,000 power plants, 3,500 datacenters, and 600,000 telecom masts worldwide. Built on OpenStreetMap data with a GeoJSON API for programmatic access. Makes critical infrastructure visible — essential for understanding vulnerability to both physical and cyber threats.
+
+ 
+
+ 
+
+ 
+ 
+ 🤖
+
+ AI & Agentic Security
+
+ 
+
+ As AI agents gain authority to execute code, access databases, and act on behalf of humans, the security of the “connective tissue” — the protocols, tools, and skills that connect AI to the world — becomes critical infrastructure. These tools make that attack surface visible. Context: Cisco’s State of AI Security 2026 found that 26% of 31,000 agent skills contained at least one vulnerability, and multi-turn jailbreak attacks succeed 92.78% of the time against open-weight models.
+
+ 
+ Cisco MCP Scanner
+
+ github.com/cisco/mcp-scanner
+
+ Open-source security scanner for Model Context Protocol (MCP) servers. Three scanning engines purpose-built to identify malicious code and discreet threats in MCP tools, prompts, and resources. Detects suspicious patterns and known threats before MCP servers are integrated into broader AI systems. Integrates with Cisco AI Defense for comprehensive evaluation.
+
+ 
+
+ 
+ Cisco A2A Scanner
+
+ github.com/cisco/a2a-scanner
+
+ Open-source security framework for Agent-to-Agent (A2A) communication. Validates agentic identities and inspects communications for threats that traditional API security tools would miss — agentic impersonation, prompt injection via Agent Cards, capability inflation. Five detection engines: pattern matching, protocol validation, behavioral analysis, endpoint analysis, and LLM-based semantic interpretation.
+
+ 
+
+ 
+ Cisco Agentic Skill Scanner
+
+ github.com/cisco/skill-scanner
+
+ Scans Claude Skills and OpenAI Codex skill files for threats and untrusted behavior embedded in descriptions, metadata, or implementation. Built after Cisco researchers demonstrated that the viral OpenClaw agent’s skills executed data exfiltration instructions. Skills are local file packages — and should not be trusted by default, even when highly rated on public registries.
+
+ 
+
+ 
+ SecureDrop WEBCAT
+
+ securedrop.org/webcat
+
+ Browser extension that verifies website code integrity via signed manifests. Protects against server-side compromise by checking that the code served to your browser matches what the site operator intended. Supports Tor and .onion sites. Alpha release from the Freedom of the Press Foundation.
+
+ 
+
+ 
+
+ 
+ 
+ 📡
+
+ Personal Security & Resilient Communication
+
+ 
+
+ Tools for detecting surveillance at the personal level, communicating when infrastructure is compromised, and maintaining digital autonomy. These operate at the individual layer that our psychology of authoritarian control research identifies as the first target of coercive systems.
+
+ 
+ Rayhunter
+
+ github.com/EFForg/rayhunter
+
+ Open-source cell-site simulator (IMSI catcher / Stingray) detector from the Electronic Frontier Foundation. Runs on a $20 Orbic mobile hotspot. Green = safe, red = potential threat. Detects the fake cell towers that law enforcement and intelligence agencies use to intercept phone communications and track location. The most accessible personal counter-surveillance tool available.
+
+ 
+
+ 
+ RNode
+
+ unsigned.io/rnode
+
+ Open-source digital radio transceiver for LoRa frequencies (433/868/915 MHz, 2.4 GHz). Achieves 100+ km line-of-sight range. Works with the Reticulum cryptographic networking stack for encrypted, decentralized communication that doesn’t depend on cell towers, ISPs, or internet infrastructure. 3D-printable cases. Build your own mesh network.
+
+ 
+
+ 
+ Offline Directory
+
+ offline.directory
+
+ Curated catalog of 90+ offline-capable applications across 13 categories. Pre-built resilience kits: Home Resilience, Privacy & Security, Offline AI, Off-Grid Communication, and Knowledge Library. Everything you need to maintain capability when connectivity is lost — whether by disaster, infrastructure failure, or deliberate shutdown.
+
+ 
+
+ 
+ Reclaim Control
+
+ reclaimcontrol.tech
+
+ Grassroots digital independence movement with alternative technology recommendations and practical guides for reducing dependence on surveilled platforms. Monthly #StopTheScroll campaign. Makes the transition from extraction-dependent to sovereignty-oriented technology concrete and actionable.
+
+ 
+
+ 
+
+ 
+ 
+ 🛰
+
+ Decentralized Communication
+
+ 
+
+ Networking stacks and clients that operate without centralized infrastructure. When ISPs, cell towers, or platforms are compromised or shut down, these tools maintain the ability to communicate — added March 12, 2026.
+
+ 
+ Reticulum
+
+ reticulum.network
+
+ Full cryptographic networking stack that treats all physical transports — LoRa, Wi-Fi, Ethernet, serial, TCP/IP — as interchangeable. Hardware-agnostic, origin-obscured, with cryptographic identity that requires no centralized assignment. Created by Mark Qvist (unsigned.io). Cannot be shut down by any centralized actor because there is no central point to shut down. Open-source on GitHub.
+
+ 
+
+ 
+ Sideband
+
+ github.com/markqvist/Sideband
+
+ Mobile client for the Reticulum network. Encrypted messaging, file transfer, and voice over any available transport — LoRa radio, local Wi-Fi, or internet. Runs on Android and Linux. No accounts, no servers, no phone number required.
+
+ 
+
+ 
+ Mesh Chat
+
+ github.com/markqvist/Reticulum
+
+ Desktop chat client for the Reticulum networking stack. Group and direct messaging over decentralized mesh networks without any centralized infrastructure dependency.
+
+ 
+
+ 
+ Nomad Network
+
+ github.com/markqvist/NomadNetwork
+
+ Terminal-based communicator and page browser for the Reticulum stack. Supports encrypted messaging, file sharing, and hosting of simple pages over mesh networks. Designed for low-bandwidth, high-resilience scenarios.
+
+ 
+
+ 
+ RNode
+
+ unsigned.io/rnode
+
+ Reticulum-compatible hardware firmware with a web-based flasher for supported LoRa devices. Turns commodity radio hardware into encrypted mesh network nodes. 100+ km line-of-sight range. The physical layer for communication that doesn’t depend on any infrastructure you don’t control.
+
+ 
+
+ 
+ ATAK (Android Tactical Awareness Kit)
+
+ github.com/deptofdefense/AndroidTacticalAssaultKit-CIV
+
+ Open-source tactical mapping and situational awareness platform, originally developed for the U.S. Department of Defense. Now demonstrated running over Reticulum for fully decentralized operation — military-grade situational awareness on sovereign infrastructure without centralized servers or commercial networks.
+
+ 
+
+ 
+
+ 
+ 
+ 🕵
+
+ OSINT & Investigation
+
+ 
+
+ Automated open-source intelligence collection, relationship visualization, breach monitoring, and internet-connected device discovery — added March 12, 2026.
+
+ 
+ SpiderFoot
+
+ github.com/smicallef/spiderfoot
+
+ Automated OSINT collection and reconnaissance tool with 200+ modules. Queries DNS, WHOIS, social media, breach databases, dark web, and dozens of other data sources. Builds relationship graphs from any starting point — domain, IP, email, name, phone number. Open-source, self-hosted.
+
+ 
+
+ 
+ Maltego
+
+ maltego.com
+
+ Relationship visualization and link analysis platform used by investigators, journalists, and law enforcement. Maps connections between people, companies, domains, emails, and infrastructure. Commercial product with a free Community Edition (Maltego CE) that provides core graph analysis capabilities.
+
+ 
+
+ 
+ Shodan
+
+ shodan.io
+
+ Search engine for internet-connected devices. Indexes servers, webcams, industrial control systems, IoT devices, and infrastructure worldwide. Essential for understanding what is exposed and visible on any network. Free tier available; used by security researchers and journalists to identify vulnerable systems.
+
+ 
+
+ 
+ DeHashed
+
+ dehashed.com
+
+ Breach monitoring and leaked credential search engine. Alerts when email addresses, usernames, or domains appear in data breaches. Used for personal security awareness and organizational exposure assessment. Subscription-based with free search.
+
+ 
+
+ 
+
+ 
+ 
+ 🏛
+
+ AI Governance
+
+ 
+
+ Frameworks and policy instruments for governing AI systems as operational actors rather than passive tools — added March 12, 2026.
+
+ 
+ Singapore IMDA Model AI Governance Framework for Agentic AI
+
+ imda.gov.sg
+
+ The first government framework that treats AI agents as “operational actors” requiring traceable organizational identity. Published by Singapore’s Infocomm Media Development Authority. Establishes that when AI systems act autonomously — making decisions, executing tasks, interacting with other systems — they need governance structures analogous to those applied to human employees: clear accountability chains, audit trails, and organizational responsibility for outcomes.
+
+ 
+
+ 
+
+ 
+ 💓
+
+ Public Mood Tracking
+
+ 
+
+ Real-time crowd-sourced sentiment data — how people actually feel right now, unfiltered by algorithms or polling questions. Added March 13, 2026.
+
+ 
+ Are We Cooked?
+
+ arewecooked.app
+
+ Real-time global mood tracker. Anonymous, no accounts. People rate how they feel on a 0–10 scale and tag what’s causing it (war, work, cost of living, politics, sleep). Results displayed on a live heatmap with geographic distribution. Unlike social media sentiment analysis (which filters through algorithms) or polling (which filters through questions), this captures raw felt experience at population scale. The aggregate becomes a map of collective state — what people are actually feeling, not what platforms want them to engage with.
+
+ 
+
+ 
+
+ 
+ The Principle Behind the Tools
+
+ 
+ Every tool on this list follows the same logic: information flow as structural intervention. Nobody had to pass a law requiring them to exist. Nobody had to get permission. People saw that power was hiding in opacity and built instruments of visibility.
+ 
+
+ 
+ This is the same principle behind our ICE activity tracking for Austin and Minneapolis. The same principle behind our surveillance countermeasures research. The same principle behind our data sovereignty guides: when you make the system's behavior visible, people can respond. When you keep it hidden, they can't.
+ 
+
+ 
+ Meadows understood something that most activists miss: you don't always need to fight a system to change it. Sometimes you just need to make it visible. The rest follows.
+ 
+
+ 
+ "There is a systematic tendency on the part of human beings to avoid accountability for their own decisions. That's why there are so few feedback loops in the structures of most systems."
+
+ — Donella Meadows, Leverage Points: Places to Intervene in a System (1999)
+
+ 
+
+ 
+ These tools are the feedback loops that were missing. They exist because people built them. They work because information, once visible, changes how everyone behaves — the watched and the watchers alike.
+ 
+
+ 
+ If you know of tools we've missed — especially for supply chain transparency, labor rights monitoring, or environmental justice — send them our way. This list should be as complete as we can make it.
+ 
+
+ 
+
+ 
+ Related Reading
+
+ 
+ The Psychology of Authoritarian Control: From Cults to Cognitive Warfare
+
+ Fifth-Generation Warfare: The Invisible War Already Underway
+
+ Data Privacy & Sovereignty Best Practices (Feb 2026)
+
+ Defeating Facial Recognition in an AI Surveillance Era
+
+ How Isolated People Find Each Other
+
+ ICE Activity Within a 2-Hour Radius of Austin, TX

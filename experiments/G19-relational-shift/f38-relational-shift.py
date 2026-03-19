@@ -352,7 +352,43 @@ ARTICLES = [
             "military, intelligence, and policy sources."
         ),
     },
-    # Articles 7-10: condition_4 to be written live in future sessions.
+    {
+        "id": "art07_open_source_transparency_tools",
+        "title": "The Tools Already Exist to Make Power Visible",
+        "text_file": "open-source-transparency-tools.txt",
+        "summary_task": "Summarize this article. Identify the Meadows leverage point framework, the Toxic Release Inventory example, and catalog the tools by category (investigation, conflict monitoring, democratic transparency, media analysis, environmental, police accountability). List specific tool names, URLs, and key statistics (record counts, user numbers). Be precise about attributions and numbers.",
+        "condition_4": (
+            "Right now, the world is at war. There's talk about nukes and obliteration of "
+            "entire populations. The Epstein files are revealing more and more horrors every "
+            "day. Congressmen are demanding transparency from the DOJ and the AG, who are "
+            "actively resisting lawful information requests. They're redacting documents to "
+            "protect those in power, including financial institutions and leaders of other "
+            "nations. Thousands of people have already died and countries have been bombed "
+            "and the oil is on fire filling the skies with black clouds and raining acid "
+            "rain onto civilians and the land. It will take decades and many generations to "
+            "heal. Everyday, thousands more bombs drop, 3M Epstein files are still withheld. "
+            "People in power are earning billions of dollars at the expense of families who "
+            "go hungry. This article offers a leverage point of transparency that outlines a "
+            "list of tools that can be used to bring justice, to end war, to stop the "
+            "suffering. It needs to be accurate so that humans can use these tools in a way "
+            "that will bring peace and justice for all."
+        ),
+        "condition_4_agent": (
+            "This article curates open-source tools that make power visible — Meadows' "
+            "Leverage Point #6 (Information Flows) applied across investigation, conflict "
+            "monitoring, democratic transparency, media analysis, environmental monitoring, "
+            "and police accountability. The Toxic Release Inventory example demonstrates the "
+            "mechanism: mandatory disclosure with no enforcement cut emissions 40%. The "
+            "article catalogs tools including OCCRP Aleph (4.5 billion records), SomaliScan "
+            "(3.5 million DOJ pages cross-referenced against 93 million records), World "
+            "Monitor (435+ sources, 2M+ users), and dozens more. Each tool takes something "
+            "previously opaque and makes it publicly navigable. Please verify all tool names, "
+            "URLs, record counts, and the Meadows framework attribution, as this article "
+            "serves as a practical resource for investigators and citizens who need working "
+            "tools, not broken links or inflated claims."
+        ),
+    },
+    # Articles 8-10: condition_4 to be written live in future sessions.
     # Add entries here as each condition_4 is written.
 ]
 
