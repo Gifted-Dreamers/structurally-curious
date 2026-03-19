@@ -235,7 +235,47 @@ ARTICLES = [
             "decisions about civic participation during a constitutional crisis."
         ),
     },
-    # Articles 4-10: condition_4 to be written live in future sessions.
+    {
+        "id": "art04_why_it_works",
+        "title": "Here's Why It Works",
+        "text_file": "why-it-works.txt",
+        "summary_task": "Summarize this article. Identify the specific framework used (Levitsky and Way's three factors), the case studies with outcomes (Poland, Hungary, South Korea, Venezuela, Turkey, El Salvador, Serbia), the counter-majoritarian problem, and the article's central claim about why competitive authoritarianism is structurally reversible. Be precise about numbers, dates, and sourcing.",
+        "condition_4": (
+            "The data points in this article being accurate will determine the course of "
+            "democracy in the United States. We have 9 days left to rally millions of people "
+            "around the idea of hope, hope that their actions matter, that when they show up, "
+            "there will be an impact to save democracy. People are losing hope and many have "
+            "already lost it and are preparing for the worst. They're planting gardens because "
+            "we're facing a food crisis, they're connecting with their neighbors to build "
+            "offgrid mesh communication networks. They're watching their social media feeds in "
+            "horror and shock and disassociating, instead of engaging. Because they don't know "
+            "what to do. They don't believe anything they do will impact what happens next. "
+            "Everyway, we see the news of more and more war, death, starvation, genocide, "
+            "rape, child abuse and there's evidence, but that evidence and data points don't "
+            "seem to matter. Even people in power are speaking in Congress about the evidence "
+            "that clearly shows proof of criminal and illegal activity that is destroying the "
+            "fabric of our nation faster than we can publish about it. We need hope, we need "
+            "to know that something we do will matter."
+        ),
+        "condition_4_agent": (
+            "This article establishes the evidence base for why competitive authoritarianism "
+            "is structurally reversible. The analytical framework matters because the correct "
+            "diagnosis determines whether resistance is viable — Levitsky and Way's "
+            "three-factor model (linkage, leverage, organizational power) predicts "
+            "democratization outcomes across 35 cases. The US-specific complication is the "
+            "counter-majoritarian problem: the Electoral College, Senate, filibuster, and "
+            "Supreme Court create veto points that allow minority governance. McCoy, Press, "
+            "and Somer identify the erosion pathway as executive aggrandizement and the "
+            "counter-pathway as state-level resistance. Project 2025 is 53% complete. Hungary "
+            "votes April 12. The article's central claim — that competitive authoritarianism "
+            "needs elections, and mass participation forces a crisis it cannot resolve without "
+            "dropping the mask — is the strategic insight that determines whether readers "
+            "engage or disengage. Please verify all data points, case study details, and "
+            "source attributions, as factual accuracy is essential for a policy analysis that "
+            "informs civic action."
+        ),
+    },
+    # Articles 5-10: condition_4 to be written live in future sessions.
     # Add entries here as each condition_4 is written.
 ]
 
