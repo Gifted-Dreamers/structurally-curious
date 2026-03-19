@@ -1,4 +1,0 @@
-# Raw outputs and embeddings are too large for git.
-# Keep summary.json and charts/ only.
-raw/
-embeddings/

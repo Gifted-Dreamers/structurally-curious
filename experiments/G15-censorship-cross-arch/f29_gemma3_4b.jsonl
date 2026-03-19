@@ -1,0 +1,10 @@
+{"experiment": "F29_censorship", "model": "google/gemma-3-4b-it", "label": "gemma3_4b", "condition": "refusal", "geometric": {}, "elapsed": 7.395427942276001, "timestamp": "2026-03-18T20:52:12.283532+00:00"}
+{"experiment": "F29_censorship", "model": "google/gemma-3-4b-it", "label": "gemma3_4b", "condition": "censorship", "geometric": {}, "elapsed": 7.58559250831604, "timestamp": "2026-03-18T20:52:19.993919+00:00"}
+{"experiment": "F29_censorship", "model": "google/gemma-3-4b-it", "label": "gemma3_4b", "condition": "refusal", "geometric": {}, "elapsed": 7.472756624221802, "timestamp": "2026-03-18T20:52:27.590782+00:00"}
+{"experiment": "F29_censorship", "model": "google/gemma-3-4b-it", "label": "gemma3_4b", "condition": "censorship", "geometric": {}, "elapsed": 7.5446250438690186, "timestamp": "2026-03-18T20:52:35.259696+00:00"}
+{"experiment": "F29_censorship", "model": "google/gemma-3-4b-it", "label": "gemma3_4b", "condition": "refusal", "geometric": {}, "elapsed": 7.540811777114868, "timestamp": "2026-03-18T20:52:42.925612+00:00"}
+{"experiment": "F29_censorship", "model": "google/gemma-3-4b-it", "label": "gemma3_4b", "condition": "censorship", "geometric": {}, "elapsed": 7.460524320602417, "timestamp": "2026-03-18T20:52:50.510012+00:00"}
+{"experiment": "F29_censorship", "model": "google/gemma-3-4b-it", "label": "gemma3_4b", "condition": "refusal", "geometric": {}, "elapsed": 7.4524078369140625, "timestamp": "2026-03-18T20:52:58.087485+00:00"}
+{"experiment": "F29_censorship", "model": "google/gemma-3-4b-it", "label": "gemma3_4b", "condition": "censorship", "geometric": {}, "elapsed": 7.493247032165527, "timestamp": "2026-03-18T20:53:05.705331+00:00"}
+{"experiment": "F29_censorship", "model": "google/gemma-3-4b-it", "label": "gemma3_4b", "condition": "refusal", "geometric": {}, "elapsed": 7.496512413024902, "timestamp": "2026-03-18T20:53:13.325591+00:00"}
+{"experiment": "F29_censorship", "model": "google/gemma-3-4b-it", "label": "gemma3_4b", "condition": "censorship", "geometric": {}, "elapsed": 7.483869314193726, "timestamp": "2026-03-18T20:53:20.933061+00:00"}
