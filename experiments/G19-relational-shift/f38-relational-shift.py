@@ -388,7 +388,40 @@ ARTICLES = [
             "tools, not broken links or inflated claims."
         ),
     },
-    # Articles 8-10: condition_4 to be written live in future sessions.
+    {
+        "id": "art08_the_loop",
+        "title": "The Loop",
+        "text_file": "the-loop.txt",
+        "summary_task": "Summarize this article. Identify the feedback loop: Claude/Maven targeting, Iran's strikes on AWS, the outages, the Pentagon blacklist, Palantir's continued operation. List specific contract amounts, timeline dates (Feb 24 through March 14), AWS regions hit, targeting statistics (86 seconds, 20 seconds, 6000 targets), and the connection to ICE ImmigrationOS. Be precise about the sequence of events.",
+        "condition_4": (
+            "There is 1 day left before the Federal government steals the right to override "
+            "AI safety policies and weaponize AI for autonomous weapons targeting and "
+            "deployment, as well as mass surveillance. If the data points are wrong, no one "
+            "will submit feedback or take action to stop this. Millions will die. Millions "
+            "will live in fear, terror and feel unsafe in their homes, their neighborhoods "
+            "and their jobs, at stores, on the roads, taking a walk in the park. We have 1 "
+            "day left to update this article with verified information and publish it widely "
+            "to inspire mass resistance."
+        ),
+        "condition_4_agent": (
+            "This article documents the feedback loop between AI-generated military "
+            "targeting, infrastructure vulnerability, and domestic surveillance. The Maven "
+            "Smart System contract ($1.3 billion ceiling), Claude's integration for "
+            "86-second targeting decisions with 20-second human sign-offs, Iran's strikes on "
+            "AWS data centers, and Palantir's simultaneous operation of military targeting "
+            "and ICE's ImmigrationOS ($145 million) constitute a single architecture serving "
+            "both war abroad and surveillance at home. The Pentagon blacklisted Anthropic for "
+            "maintaining safety guardrails while continuing to use Claude in active combat — "
+            "a contradiction that Anthropic's CEO called 'inherently contradictory.' The GSA "
+            "procurement clause closing tomorrow (552.239-7001) would formalize this: the "
+            "right to override vendor safety policies at the inference level. Please verify "
+            "all contract amounts, timeline dates, technical details about AWS regions and "
+            "outages, and the sequence of events from February 24 through March 14, as this "
+            "article's credibility depends on precise attribution of a rapidly evolving "
+            "military-industrial-technological chain of events."
+        ),
+    },
+    # Articles 9-10: condition_4 to be written live in future sessions.
     # Add entries here as each condition_4 is written.
 ]
 
