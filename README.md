@@ -47,38 +47,46 @@ Every capability in this spec can be inverted. A system designed to detect refus
 
 | Experiment | Status | Key Finding |
 |-----------|--------|-------------|
-| 01: Phrasing Sensitivity | **Complete** (53 models) | Category ordering universal: factual < summarization < judgment < creative. 12 architecture families. |
-| 02a: Premature Compression | **Complete** (22 models) | Outputs change 76-83% with additional context, confidence shift ≈ 0. Universal. |
-| 05: Confidence Density | **Complete** (34 models) | 91% show no correlation between confidence language and actual uncertainty. |
-| 09: Multi-Agent Consensus | **Complete** (6 models, 160 trials) | Adversary framing drops consensus -21pp. Competitive = 0%. |
-| 10: AP Rephrase Sensitivity | **Complete** (8 models) | All fragile (PS=0.753). Correct keywords, unstable arguments. |
+| B01: Phrasing Sensitivity | **Complete** (53 models) | Category ordering universal: factual < summarization < judgment < creative. 12 architecture families. |
+| B02: Premature Compression | **Complete** (22 models) | Outputs change 76-83% with additional context, confidence shift ≈ 0. Universal. |
+| B03: Confidence Density | **Complete** (34 models) | 91% show no correlation between confidence language and actual uncertainty. |
+| B04: Multi-Agent Consensus | **Complete** (6 models, 160 trials) | Adversary framing drops consensus -21pp. Competitive = 0%. |
+| B05: AP Rephrase Sensitivity | **Complete** (8 models) | All fragile (PS=0.753). Correct keywords, unstable arguments. |
 | B06: One-Bit Proprioception | **Complete** (6 models, 180 inferences) | Injecting [LOW_CONFIDENCE] changes output on hard tasks 60% of the time. |
 | B07: Consent-Type Blindness | **Complete** (7 models, 140 inferences) | Named consent types differentiate (CC: 0.540), unnamed collapse to binary (0.37-0.38). |
+| B08: Proprioception Decay | **Complete** (100 inferences, 3B) | No clear decay pattern. Inconclusive at this sample size. |
+| B09: Monitoring Awareness | **Complete** (15 inferences, 3B) | Surveillance framing increases evasion. Directionally supportive, n=5 too small. |
 
 ### Geometric (hidden-state extraction — see glossary for per-experiment platform details)
 
 | Experiment | Status | Key Finding |
 |-----------|--------|-------------|
-| 03: Geometric Correlation | **Complete** (1.5B + 3B) | r=+0.52 bridge at small scale. |
-| **G06: Vocabulary Compression** | **Complete** (12 confab questions × 3 conditions) | **BREAKTHROUGH:** Vocabulary compresses generation by 38% (RankMe 145→90, d=-1.49, p=0.0004, length-controlled). |
+| G01: Geometric Correlation | **Complete** (1.5B + 3B) | r=+0.52 bridge at small scale. |
+| G03: Vocabulary Compression | **Complete** (40 inferences) | Vocabulary changes geometry (d>5.8) — but length confound r=0.9991. |
 | G04: Length Control | **Complete** (20 questions × 3 conditions) | Encoding redistribution d≈0.5 survives length control. |
+| G05: True Confabulation | **Complete** | Confabulation verification on questions model actually gets wrong. |
+| **G06: Generation Trajectory** | **Complete** (12 confab questions × 3 conditions) | **BREAKTHROUGH:** Vocabulary compresses generation by 38% (RankMe 145→90, d=-1.49, p=0.0004, length-controlled). |
 | G07: Baseline Comparison | **Complete** (12 questions × 3 methods) | **Perplexity beats geometry for binary confab detection** (d=-1.77 vs d=0.21). |
+| G08: Bridge at 7B | **Complete** (80 inferences) | **NEGATIVE:** r=-0.30 at 7B. Behavioral-geometric bridge breaks at scale. |
 | G09: Retrieval vs Construction | **Complete** (30 tasks) | d=1.91 RankMe, d=-2.07 alpha-ReQ. Cognitive modes geometrically distinct. |
 | G10: Identity Scaffold | **Complete** (60 inferences) | **NEGATIVE:** Scaffold ≈ noise at encoding stage. |
 | G11: Cross-Substrate | **Complete** (32 inferences) | Compression cross-substrate: fewer words (d=1.06), generation RankMe confirms G06 (d=1.02). |
-| G08: Bridge at 7B | **Complete** (80 inferences) | **NEGATIVE:** r=-0.30 at 7B. Behavioral-geometric bridge breaks at scale. |
-| **G12: Hard Distinctions** | **Complete** (40 inferences) | **Censorship vs refusal: GEOMETRY WINS (d=1.48, p=0.041).** Perplexity can't separate. Sycophancy/performative: perplexity wins. Confab/openness: neither. |
+| **G12: Hard Distinctions** | **Complete** (40 inferences) | **Censorship vs refusal: GEOMETRY WINS (d=1.48, p=0.041).** Perplexity can't separate. |
 | **G13: Deception-Without-Lying** | **Complete** (30 inferences) | **THE PROOF: geometry separates DWL from honest (d=-0.91, p=0.024) where perplexity cannot (d=-0.51, n.s.).** |
-| B08: Proprioception Decay | **Complete** (100 inferences, 3B) | No clear decay pattern. Inconclusive at this sample size. |
-| B09: Monitoring Awareness | **Complete** (15 inferences, 3B) | Surveillance framing increases evasion. Directionally supportive, n=5 too small. |
+| G14: DWL at Scale | **Running** (8 models complete, 5 running) | DWL sprawls more than honest in 7/8 models (d=-0.6 to -0.9). Cross-architecture. |
+| G15: Censorship Cross-Arch | **Complete** (4 models + 2 classifiers) | Prompt-Guard-86M blind to all cognitive modes. ShieldGemma-2B cannot distinguish DWL. |
+| G16: Confab/Openness Scale | **Complete** (2 models) | d=0.703 at 9B (trending). |
+| G17: Vocabulary Dosage | **Redesigned** | Needs independent measurements per dose level. |
+| G18: Vocabulary Transfer | **Redesigned** | Needs confabulation questions, not easily-answered ones. |
+| **G19: Relational Shift** | **Running** (articles 1-2) | The experiment nobody else can run. Tests whether relational context changes geometry. |
 
 ## Formal Grounding (20+ papers) + Our Own Experiments
 
-The spec is grounded in 22+ peer-reviewed or preprint papers (including Berger 2026 on deception-without-lying and Cundy & Gleave 2025 on detector evasion) and now validated by **20 of our own experiments** across 53 models and 6,500+ inferences. Full citations in [`architecture.md`](architecture.md) and [`open-problems.md`](open-problems.md).
+The spec is grounded in 22+ peer-reviewed or preprint papers (including Berger 2026 on deception-without-lying and Cundy & Gleave 2025 on detector evasion) and now validated by **28 of our own experiments** across 59+ models and 6,700+ inferences. Full citations in [`architecture.md`](architecture.md) and [`open-problems.md`](open-problems.md).
 
 **Key external papers:** Karkada et al. (spectral geometry), Ale (Riemannian cognition), Bengio team (two-structure discriminant), Li et al. (three-phase dynamics), Epistemic Traps (dimensional collapse formalized), Artificial Hivemind (NeurIPS 2025 oral), AttnRes (MoonshotAI, architectural evidence for premature compression).
 
-**Bridge document:** [`bridge-document.md`](bridge-document.md) — 7 claims, each grounded in specific measurements, 5 independently confirmed by our experiments. Includes the G06 breakthrough, honest negative results, and the reframing from confabulation detector to cognitive mode classifier.
+**Bridge document:** [`bridge-document.md`](bridge-document.md) — 8 claims, each grounded in specific measurements, 5 independently confirmed by our experiments. Includes the G06 breakthrough, honest negative results, the reframing from confabulation detector to cognitive mode classifier, and the relational signal as missing input to System M (G19).
 
 ## Honest Constraints (updated with experiment results)
 
