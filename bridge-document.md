@@ -76,7 +76,7 @@ Telling someone to "read Attention Is All You Need" before discussing relational
 
 **Experiment 01** (structurally-curious, sessions 21 + 44-45): Now confirmed across **53 models** (19 original + 34 new via Bedrock), 12 architecture families, spanning 3B to 675B parameters. The category ordering — factual (0.630) < summarization (0.670) < judgment (0.769) < creative (0.821) — is **architecture-invariant**. Every model tested produces more variable outputs on judgment/creative tasks than on factual tasks. This gradient tracks cognitive demand: retrieval → compression → evaluation → generation.
 
-**Experiment G03** (internal): Phrasing sensitivity correlates with directional coherence in hidden representations (r = +0.523, p = 0.018, Qwen 2.5 1.5B). The behavioral proxy (output variance across rephrasings) tracks the geometric state (coherence of internal representations). You can estimate how grounded a model is from its outputs alone, without extracting hidden states.
+**Experiment G01** (structurally-curious, session 50): Phrasing sensitivity correlates with directional coherence in hidden representations (r = +0.523, p = 0.018, Qwen 2.5 1.5B; r = +0.497, p = 0.026, Qwen 2.5 3B). The behavioral proxy (output variance across rephrasings) tracks the geometric state (coherence of internal representations). You can estimate how grounded a model is from its outputs alone, without extracting hidden states. Note: the bridge is with directional coherence, NOT RankMe (r = +0.27, n.s.).
 
 **Experiment B04** (structurally-curious, sessions 44-45): Berdoz et al. replication with **6 models and 160 trials**. Prompt framing breaks multi-agent coordination:
 

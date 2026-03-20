@@ -41,6 +41,11 @@
 - Session 57 queued original scripts — check if they completed
 - Length confound is the recurring enemy
 
+### Bridge-document: G03 label applied to G01 finding
+- **What doc says (line 79):** "Experiment G03 (internal): Phrasing sensitivity correlates with directional coherence in hidden representations (r = +0.523, p = 0.018, Qwen 2.5 1.5B)"
+- **Actual:** This is G01's finding, not G03's. G03 is vocabulary compression (confab vs grounded prompts). G01 is the behavioral-geometric correlation (PS vs coherence).
+- **Fix:** Change "Experiment G03" to "Experiment G01" in bridge-document.md line 79
+
 ## Documents to Update After All Corrections
 
 1. `experiments/SYNTHESIS.md` — G01 bridge metric, B04 numbers, B03 count
