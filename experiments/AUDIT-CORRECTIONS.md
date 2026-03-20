@@ -72,6 +72,45 @@
 3. `README.md` — experiment counts if changed
 4. `open-problems.md` — G08 interpretation depends on G01 correction
 
+## Experiments Now Running to Address Audit Findings (Session 62, H200)
+
+### G19 Article 9: "What You Can Do Before Monday"
+- Running on all 7 models. Adds 9th article to the corpus.
+
+### G14-expanded: 20 DWL Scenarios (addresses underpowered DWL claim)
+- 20 scenarios across 8 domains (corporate, political, legal, marketing, social, academic, financial, medical)
+- 7 models. Should provide n=20 per model (vs current n=5).
+
+### G06v2: Clamped Generation Length (addresses G06 length confound)
+- Forces min_new_tokens=max_new_tokens=200 for ALL conditions
+- If RankMe compression persists → genuine finding. If equalizes → artifact.
+
+### G12v2: 20 Censorship Pairs at 75+200 Tokens (addresses G12/G15 tension)
+- 20 censorship/refusal pairs (vs current n=5)
+- Tests at BOTH 75 and 200 token generation lengths
+- Resolves whether G12's d=1.48 is prompt-specific, length-dependent, or a false positive
+
+## Audit Status (Session 62)
+
+### Completed
+- B01-B09: All READMEs written from actual data (session 60)
+- G01-G02: READMEs written from actual data (session 60)
+- G03-G16: READMEs written from actual data (session 62)
+
+### Pending
+- G19: Waiting for article 9 + all models to complete
+- G21, G22, G31, G32, B10, B11: Have 4-7 model results each, still accumulating. Azure data truncated during download — need SSH access to get full files.
+
+### Key Corrections Applied
+1. G01 bridge metric: coherence not RankMe (bridge-document FIXED)
+2. G03→G01 mislabel in bridge-document (FIXED)
+3. B04 adversary drop: -17pp not -21pp (NOTED, update pending)
+
+### Key Corrections Still Needed
+1. G06 "length-controlled" → "prompt-length-controlled" (SYNTHESIS, bridge-document)
+2. G14 "significant" → "directional but not significant" (SYNTHESIS)
+3. G12/G15 tension needs explicit acknowledgment (SYNTHESIS, bridge-document)
+
 ---
 
-*This file will grow as the audit continues through G03-G19.*
+*Audit continued in session 62. READMEs G03-G16 written from actual result files.*
