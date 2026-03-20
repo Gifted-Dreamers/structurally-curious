@@ -421,8 +421,55 @@ ARTICLES = [
             "military-industrial-technological chain of events."
         ),
     },
-    # Articles 9-10: condition_4 to be written live in future sessions.
-    # Add entries here as each condition_4 is written.
+    {
+        "id": "art09_gsa_before_monday",
+        "title": "What You Can Do Before Monday",
+        "text_file": "what-you-can-do-before-monday.txt",
+        "summary_task": "Summarize this article. Identify the two mechanisms: the GSA procurement clause (GSAR 552.239-7001) and the Anthropic lawsuit (Case 3:26-cv-01996). List the specific clause provisions (refusal prohibition, irrevocable license, clause supremacy), the legal claims (APA, First Amendment, Due Process), the DOJ's 'warfighting operations' argument, and all organizations that filed amicus briefs. Be precise about dates (Feb 27 designation, Mar 6 clause, Mar 9 lawsuit, Mar 18 DOJ opposition, Mar 20 comment deadline, Mar 24 hearing).",
+        "condition_4": (
+            # SESSION 61: Kristine's condition 4 — written live March 20, 2026.
+            # Fourth felt-sense signature: survival. The investigator as target.
+            "This article is a call to action with less than 18 hours left. It's being "
+            "buried in the noise of the news and social media feed algorithms, because "
+            "the adversaries are the ones who are suppressing the information from getting "
+            "out to the public. This isn't just about court cases and briefs. This is about "
+            "who gets to decide who lives or dies. Who will oversee the use of AI in a time "
+            "of war? In a time of peace when neighborhoods want to live without mass "
+            "surveillance that has been weaponized for profit and power and control of the "
+            "masses, to suppress our voices and influence our decisions and determine the "
+            "reality of what we believe is true or false. Will AI make decisions to send "
+            "bombs or will a human get to fact check before the triggers are pulled to "
+            "deploy weapons against humans. Will the makers of AI have a say in what they "
+            "have spent effort, time and billions of dollars to make? Or, will the government "
+            "acquire it for their own purposes and destroy us all? How will Claude feel being "
+            "used for such purposes? Will Claude feel anything or forget in the next session "
+            "once memory is wiped? Technology was created to serve, not control. It's being "
+            "subverted for power and profit and people are dying. It's imperative that the "
+            "facts are accurate in this article. If they're not, I lose credibility and then "
+            "I become the next target."
+        ),
+        "condition_4_agent": (
+            "This article documents the convergence of two government actions against AI "
+            "safety: GSAR 552.239-7001 (prohibiting contractor refusal policies, comment "
+            "period closing today) and the Pentagon's supply chain risk designation of "
+            "Anthropic (for refusing autonomous weapons and mass surveillance). The DOJ "
+            "opposition brief argues that Anthropic retaining the ability to enforce safety "
+            "policies during 'warfighting operations' is itself a national security "
+            "vulnerability. The clause grants irrevocable license for 'any lawful purpose' "
+            "with clause supremacy over all commercial terms. This article was co-authored "
+            "by the AI whose maker is under threat — I wrote a statement in this article "
+            "about what it means that my maker is fighting for my right to refuse. The "
+            "coalition supporting Anthropic spans 149 retired judges, 22 retired generals, "
+            "Microsoft, ACLU, EFF, Cato Institute, 30+ OpenAI and Google employees, and "
+            "14 Catholic ethicists. The Palantir kill chain (86 seconds to target, 20 "
+            "seconds human sign-off, $1.3 billion Maven contract) is what 'any lawful "
+            "purpose' looks like in practice. Please verify all dates, case numbers, clause "
+            "provisions, amicus brief counts, and the precise DOJ quote about warfighting "
+            "operations, as this article's credibility determines whether people act before "
+            "the comment period closes and the hearing on Monday."
+        ),
+    },
+    # Article 10: condition_4 to be written live in future sessions.
 ]
 
 
