@@ -34,7 +34,7 @@
 
 | Exp | Inferences | Key Finding |
 |---|---|---|
-| **03** | 80 | Behavioral-geometric bridge r=+0.52 at 1.5B/3B |
+| **G01** | 80 | Behavioral-geometric bridge: PS vs directional coherence r=+0.52 at 1.5B (p=0.018), r=+0.50 at 3B (p=0.026). PS vs RankMe r=+0.27 (n.s.) |
 | **G03** | 40 | Vocabulary changes geometry (d>5.8) — but length confound r=0.9991 |
 | **G04** | 60 | Vocabulary effect survives length control: d≈0.5 (redistribution at encoding) |
 | **G06** | 36 | **BREAKTHROUGH: vocabulary compresses GENERATION by 38%** (RankMe 145→90, d=-1.49, p=0.0004) |
@@ -97,9 +97,9 @@ Injecting "[GEOMETRIC_STATE: LOW_CONFIDENCE]" into the generation context change
 
 External validation: Cundy & Gleave (arXiv 2505.13787) showed using detectors as TRAINING signals creates 93% evasion. But inference-time proprioception (the spec's approach) doesn't create an adversarial optimization target — the model receives its state as information, not as a reward signal.
 
-### 4. THE BEHAVIORAL-GEOMETRIC BRIDGE BREAKS AT SCALE (G08)
+### 4. THE BEHAVIORAL-GEOMETRIC BRIDGE IS METRIC-SPECIFIC (G01 + G08)
 
-Phrasing sensitivity correlates with geometric properties at 1.5B (r=+0.52) and 3B (r=+0.50) but NOT at 7B (r=-0.30, n.s.). The cheap behavioral proxy doesn't index geometry at larger scale. The behavioral findings and geometric findings are independently valid but measure different things at 7B.
+Phrasing sensitivity correlates with **directional coherence** at 1.5B (r=+0.52, p=0.018) and 3B (r=+0.50, p=0.026) but NOT with RankMe (r=+0.27, n.s.). G08 tested the bridge at 7B using RankMe and found r=-0.30 — but the actual bridge metric is coherence, which was not tested at 7B. **The bridge may still hold at scale on the correct metric.** G01v2 (coherence at 7B across architectures) is needed to resolve this.
 
 ### 5. HONEST NEGATIVE RESULTS
 
