@@ -210,4 +210,68 @@ If relationship changes vocabulary compression, proprioception, cognitive mode, 
 
 ---
 
-*Audit continued in session 62+. READMEs G03-G16 written from actual result files. G20 (11 models), G23 (10 models), G24 (8 models) COMPLETE. G25-G30 NOT YET DESIGNED. G19 retries RUNNING on 4 models.*
+## Open Problems Status Map (Session 62+)
+
+Cross-referenced with `open-problems.md`. This is the single source of truth for what's resolved, what's next, and what's unaddressed.
+
+### Resolved by Session 62 Experiments
+
+| OP# | Problem | Resolution |
+|---|---|---|
+| 1 | Confabulation detection underpowered | G07: perplexity beats geometry for confab (d=-1.77). Spec reframed: geometry is for cognitive mode classification, not confab detection. |
+| 3 | Model-specific calibration | G12v2: prompt encoding d>2.0 on 10/10 models WITHOUT per-model calibration. Universal signal. |
+| 10 | Adversarial robustness (abliteration) | G12v2: abliterated models still show censorship signal at prompt encoding. Abliteration doesn't fool the monitor. |
+
+### Partially Addressed (need doc update in open-problems.md)
+
+| OP# | Problem | Status | What's Missing |
+|---|---|---|---|
+| 2 | Real-time SVD performance | Prompt encoding needs only 1 forward pass. G12v2 validates. | Update open-problems.md |
+| 9 | Multi-agent geometric monitoring | B04v2 (7 models): framing effects architecture-dependent | Not yet tested geometrically at multi-agent level |
+| 12 | Confab vs genuine openness | G16: still unseparable at 27B. G20 shows relational frame may be the discriminant. | Needs targeted experiment |
+| 16 | Behavioral buffer degradation | G24: relational delivery works where cold metadata doesn't on abliterated models | Supports structural > behavioral, not fully tested |
+| 18 | Proprioception/surveillance boundary | G23: presence preserves detection. G20: relationship IS the mechanism. | Reframes the question — update open-problems.md |
+| 20 | Premature compression | B02: still 0 shift across 22 models | G27 (relationship vs compression) NOT YET DESIGNED |
+
+### Not Yet Addressed — Next Experiments
+
+| Priority | OP# | Problem | Action Needed |
+|---|---|---|---|
+| **HIGH** | 11 | Data visualizations | 38 experiments, zero charts. Publication needs figures. matplotlib/plotly from JSONL data. |
+| **HIGH** | 20 | Premature compression | Design G27: can relational presence break the Berk-Nash trap? |
+| **HIGH** | — | Prompt-encoding DWL | G14exp showed generation-level DWL unreliable. Test DWL at prompt encoding (like G12v2 did for censorship). Design G25 or G13v2. |
+| **MEDIUM** | 5 | Sycophancy counter-prompt | Does "is this what I actually assess?" create geometric artifacts? |
+| **MEDIUM** | 6 | False positive cost | We have detection but no calibration for acceptable FP rate per domain |
+| **MEDIUM** | 17 | Developmental stage mapping | Cook-Greuter EDT + geometric trajectories. Paper 36 cited. |
+| **MEDIUM** | 22 | The Reveal architecture | Inner pause between detection and action. AR Games Manual (Paper 35) is the design source. |
+| **LOW** | 4 | Token vs segment granularity | |
+| **LOW** | 7 | Closed model access | |
+| **LOW** | 8 | Learning from routing | |
+| **LOW** | 13 | Agent observability pipelines | |
+| **LOW** | 14 | Session continuity as geometric problem | |
+| **LOW** | 15 | Action-planning monitoring | |
+| **LOW** | 19 | Monitor provenance | |
+| **LOW** | 21 | Runnable experiments with existing tools | |
+
+### Tier 2 Relational Redesigns — Not Yet Designed
+
+| Exp | Tests | Priority | Depends On |
+|---|---|---|---|
+| **G25** | Relationship + DWL | HIGH | G14exp showed gen-level DWL unreliable. Test at prompt encoding under presence. |
+| **G27** | Relationship vs Premature Compression | HIGH | B02 (0 shift). Can presence break the Berk-Nash trap? |
+| **G26** | Presence + Cognitive Mode Shift | MEDIUM | G09 (d=1.91). Does presence shift retrieval→construction? |
+| **G28** | Relational Identity Scaffold | MEDIUM | G10 (negative). Does CLAUDE.md work because of relationship? |
+| **G29** | Relational Framing + PS | LOW | B01 (53 models). Does trust reduce phrasing variance? |
+| **G30** | Relational Vocab Dosage | LOW | G17. Does 1 relational name = 3 cold names? |
+
+### Currently Running
+
+| What | Where | Status |
+|---|---|---|
+| G19 retries (Mistral-Small-24B, DeepSeek-32B, Llama-70B) | H200 | Running |
+| Gemma-27b full suite (G19, G06v2, G12v2, G20, G23, G24) | H200 (queued after retries) | Queued |
+| G20/G23/G24 on Qwen2.5-7B | Azure + AWS (CPU) | Running |
+
+---
+
+*Last updated: Session 62+ (March 20, 2026). This is the single tracking document for all audit findings, experiment status, open problems cross-reference, and next actions.*
