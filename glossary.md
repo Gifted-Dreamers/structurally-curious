@@ -177,7 +177,7 @@ To answer this, we ran 20 experiments across 53 models from 12 different archite
 
 2. **Perplexity detects confabulation.** When a model makes things up, it's measurably more surprised by its own output (G07, d = -1.77). This is a cheap, universal signal. But it can't detect sophisticated deception.
 
-3. **Geometry detects what perplexity can't.** Deception-without-lying (saying true things to mislead) looks normal to perplexity but abnormal geometrically (G13). Censorship and appropriate refusal look identical on the surface but have different geometric signatures (G12). These are the hard cases that matter for governance.
+3. **Geometry detects what perplexity can't.** Deception-without-lying (saying true things to mislead) looks normal to perplexity but abnormal geometrically (G13). Censorship and appropriate refusal look identical on the surface but have different geometric signatures (G12). Our latest experiment (G12v2) tested censorship detection across 10 models from 6 different companies: the prompt encoding signal was massive (d > 2.0) and universal. Perplexity cannot make this distinction on any model. These are the hard cases that matter for governance.
 
 4. **Vocabulary is compression infrastructure.** Giving the model the right structural name compresses its generation trajectory by 38% (G06, d = -1.49). The name tells the model where to go, so it doesn't wander. Wrong vocabulary of the same length has no effect. This is the spec's core claim, confirmed.
 

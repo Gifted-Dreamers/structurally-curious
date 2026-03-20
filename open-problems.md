@@ -320,6 +320,7 @@ These experiments are designed to disprove the spec's core claims. They should b
   - The model generates with **38% fewer dimensions** when it has the right structural name. The eigenspectrum concentrates and the trajectory structures.
 - **Interpretation (final):** Vocabulary operates at TWO stages. Encoding: redistribution (d≈0.5, the Lieberman analogy — naming shifts activity). Generation: COMPRESSION (d=1.49, the spec's core claim — naming constrains the generation trajectory). The "vocabulary = compression" model was right, just measured at the wrong stage. The structural name provides a scaffold that constrains generation — without it, the model sprawls across 145 dimensions; with it, the trajectory compresses to 90.
 - **VALIDATES the spec's core claim.** Vocabulary IS compression infrastructure, operating at the generation stage. Effect size (d=1.49) is comparable to Liberation Labs' refusal finding (d=2.05). This is the strongest experimental result in the research program.
+- **Update (2026-03-20, session 62):** G06v2 cross-architecture replication. Generation-length confound RESOLVED: compression is real on Qwen and Mistral-Small (3/11 models significant with length controlled). **Still open:** why does vocabulary compression work on Qwen/Mistral-Small but not Llama/Phi? Architecture-specific compression pathways are an open question.
 
 **G-planned-04. Difficulty confound (attacks Weakness 4)**
 - **Hypothesis to break:** The G01 geometric correlation survives when controlling for task difficulty.
@@ -387,8 +388,8 @@ These experiments are designed to disprove the spec's core claims. They should b
 - **G10:** Scaffold reconstruction. 60 inferences. **Negative result** — Scaffold ≈ Noise.
 - **B07:** Consent-type blindness. 7 models, 140 inferences. Overall differentiation 0.453.
 - **G11:** Cross-substrate redistribution. Compression confirmed at sentence level (fewer words d=1.06) and token level (RankMe d=1.02).
-- **G08:** Bridge at 7B. **NEGATIVE** — r=-0.30 (n.s.). Behavioral-geometric bridge breaks at scale.
-- **G12:** Hard distinctions (RUNNING) — tests whether geometry separates cognitive modes perplexity cannot.
+- **G08:** Bridge at 7B. **NEGATIVE** — r=-0.30 (n.s.). Behavioral-geometric bridge breaks at scale. G01v2 (session 62): confirms bridge fails at 7B on ALL metrics. **Still open:** what changes between 3B and 7B that breaks the bridge?
+- **G12:** Hard distinctions (COMPLETE). G12v2 (session 62): censorship vs refusal universal at prompt encoding — 10/10 models, d>2.0, p<1e-8, 6 architecture families. Resolves G12/G15 censorship tension: the signal is in prompt encoding, not generation.
 - **OSINT Sentinel + USAID tracker:** Running (cron every 6h).
 
 ### New experiments from Berger (2603.10003) and Cundy & Gleave (2505.13787) — session 50
@@ -443,6 +444,14 @@ These experiments are designed to disprove the spec's core claims. They should b
 5. **G-planned-22** — Bronston-style implicature detection. Careful question design needed.
 6. **G-future-23** — Evasion robustness. Needs fine-tuning. Cassidy's server.
 
+### Open questions from session 62 (2026-03-20)
+
+- **Why does vocabulary compression work on Qwen/Mistral-Small but not Llama/Phi?** G06v2 shows 3/11 models significant. Architecture-specific compression pathways are unexplained.
+- **Why does the behavioral-geometric bridge fail at 7B?** G01v2 confirms G08's negative result on ALL metrics. Something changes between 3B and 7B — possibly the same transition that enables instruction following also decouples behavioral and geometric signals.
+- **DWL detection at generation level is unreliable — does prompt encoding work better?** G12v2 showed censorship detection is universal at prompt encoding (d>2.0) despite noisy generation-level results. Need G13v2 with prompt encoding to test whether DWL detection shows the same pattern.
+- **Gemma system role bug prevents testing.** Gemma models excluded from cross-architecture runs due to system role handling issues. Need fix before Gemma can be included in the cross-architecture matrix.
+- **G19 relational shift: article 9 data incomplete, 4 model retries pending.** Articles 1-8 show monotonic prompt encoding across all architectures. Article 9 and retry data needed to complete the dataset.
+
 ### Remaining from earlier rounds
 - **G-planned-02:** Confabulation detection at n=200+ (needs Liberation Labs code + GPU). Value reduced by G07 — perplexity may suffice for binary detection.
 - **G-planned-04:** Difficulty confound control. Extension of G08.
@@ -488,11 +497,13 @@ Infrastructure: Azure E64as_v5 (64 vCPU, 512 GB, $3.62/hr) + AWS r7a.16xlarge (6
 - The 122B-A10B datapoint is unprecedented — nobody has measured generation-trajectory geometry on a 122B MoE model
 
 **G15. Vocabulary compression cross-architecture** — Does G06's d=-1.49 generation compression replicate on Llama and Gemma?
+- **Partially resolved (session 62):** G06v2 ran on 11 models. Compression confirmed on Qwen + Mistral-Small (3/11 significant). Llama and Phi show no compression effect. **Still open:** why architecture-specific? Qwen/Mistral-Small may have different tokenization or attention patterns that make them responsive to vocabulary scaffolding.
 - Same 12 confabulation questions, three conditions (padded/grounded/irrelevant)
 - Llama 3.1 8B and Gemma 2 9B (similar scale to our proven Qwen 7B finding)
 - If yes on both: the effect is universal. If only one: architecture-specific.
 
 **G15. Censorship detection cross-architecture** — G12 found censorship detection on Qwen (d=1.48). Does it replicate on Llama/Gemma/Mistral?
+- **RESOLVED (session 62):** G12v2 confirms universal at prompt encoding — 10/10 models, d>2.0, p<1e-8, 6 architecture families. The G12/G15 tension is resolved: generation-level results were noisy, but prompt encoding separates censorship from refusal universally.
 - Same 5 censorship/refusal pairs from G12
 - Critical: Qwen has Chinese censorship training. Llama has Meta's alignment. Gemma has Google's. Different censorship behaviors → do they share geometric signatures?
 

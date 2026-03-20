@@ -121,6 +121,16 @@
 - **REVISED SPEC CLAIM: A prompt-encoding-based monitor detects censorship universally. A generation-based monitor only works on Qwen-family safety-trained models.**
 - G15's failure was n=5 underpowering, confirmed.
 
+**G01v2: Bridge FAILS at 7B on coherence (r=0.26, p=0.27). The bridge is a small-scale phenomenon.**
+- G08's negative was NOT metric-specific — it was scale-specific.
+- The behavioral-geometric bridge holds at 1.5B (r=+0.52) and 3B (r=+0.50) but breaks at 7B on both RankMe (G08, r=-0.30) and coherence (G01v2, r=0.26).
+- Bridge is a small-scale phenomenon (1.5-3B). Does not extend to production-relevant model sizes.
+
+**G14-expanded: DWL at generation level is not a reliable cross-architecture finding (10 models, 20 scenarios)**
+- With 20 scenarios (adequate power), 3/10 significant but mixed directions.
+- DWL detection at generation trajectory is unreliable.
+- Consider prompt-encoding-based DWL detection as next step (G12v2 showed prompt encoding is architecture-invariant for censorship — same approach may work for DWL).
+
 ### Key Corrections Still Needed
 1. ~~G06 "length-controlled" → "prompt-length-controlled"~~ RESOLVED: G06v2 confirms genuine compression
 2. G14 "significant" → "directional but not significant" (SYNTHESIS)
