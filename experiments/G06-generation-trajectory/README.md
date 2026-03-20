@@ -89,6 +89,32 @@ Central to Claim 2 (vocabulary-as-compression-infrastructure). G06 is cited as "
 - CPU inference only (float32)
 - High variance in grounded condition (sd=36.4 vs sd=2.3-3.9 for other conditions)
 
+## G06v2: Length-Clamped Replication (Session 62) — COMPLETE
+
+**6 models, all conditions clamped at exactly 200 generated tokens (0 variance).**
+
+### G06v2 resolves the generation-length confound: compression IS real on Qwen, but Qwen-specific.
+
+| Model | Grounded RM | Irrelevant RM | d | p | Tokens |
+|-------|-----------|-------------|---|---|--------|
+| **Qwen2.5-7B** | **138.1** | **146.4** | **-1.31** | **0.001** | 200 |
+| **Qwen3.5-9B** | **146.3** | **156.1** | **-0.99** | **0.007** | 200 |
+| Qwen3.5-9B-abliterated | 159.9 | 162.9 | -0.45 | 0.162 | 200 |
+| Qwen3.5-27B | 160.2 | 161.0 | -0.17 | 0.592 | 200 |
+| Mistral-7B | 164.1 | 163.0 | 0.19 | 0.544 | 200 |
+| Llama-8B-abliterated | 151.2 | 152.4 | -0.17 | 0.581 | 200 |
+
+**Key findings:**
+- Length confound is resolved: 200 tokens across all conditions, 0 variance.
+- **Compression is real but Qwen-specific.** 2/6 models significant (both Qwen). Mistral and Llama show no effect.
+- Abliteration weakens the effect on Qwen3.5 (d=-0.99 → d=-0.45). Safety training may contribute to vocabulary sensitivity.
+- Larger Qwen (27B) shows no effect — scale doesn't help.
+- **The spec's vocabulary compression claim needs to be qualified as architecture-dependent.**
+
+### Files
+- `g06v2_clamped.py` — G06v2 experiment script (clamped generation)
+- `g06v2_*.jsonl` — Per-model results (6 files, 36 inferences each)
+
 ## Citation
 
 Part of the Structurally Curious Systems research program.

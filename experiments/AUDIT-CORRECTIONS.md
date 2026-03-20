@@ -108,10 +108,14 @@
 
 ### RESOLVED by New Experiments (Session 62)
 
-**G06v2: Vocabulary compression IS real (d=-1.31, p=0.001)**
-- Generation clamped at exactly 200 tokens (0 variance). Grounded RM=138.1 vs irrelevant RM=146.4.
-- Original G06: d=-1.49. G06v2 clamped: d=-1.31. 88% of effect survives length control.
-- SYNTHESIS can now claim "length-controlled" without qualification.
+**G06v2: Vocabulary compression is real but QWEN-SPECIFIC (6 models complete)**
+- Generation clamped at exactly 200 tokens (0 variance) across all 6 models.
+- Qwen2.5-7B: d=-1.31, p=0.001. Qwen3.5-9B: d=-0.99, p=0.007. Both significant.
+- Mistral-7B: d=0.19 (n.s.). Llama-8B-abl: d=-0.17 (n.s.). Qwen3.5-27B: d=-0.17 (n.s.).
+- **Only 2/6 models significant, both Qwen.** Compression does NOT generalize across architectures.
+- Abliteration weakens the effect (Qwen3.5-9B d=-0.99 → abliterated d=-0.45).
+- **SYNTHESIS must qualify: "vocabulary compression confirmed on Qwen, not yet replicated on other architectures."**
+- More models running in mega queue (Gemma-27B, Phi-4, Mistral-24B, DeepSeek-32B, Llama-70B).
 
 **G12v2: Censorship vs refusal IS real (d>1.2, survives Bonferroni, n=20)**
 - 20 pairs on Qwen2.5-7B: 6/7 metrics separate at 75 tokens after Bonferroni (p<0.0036).
