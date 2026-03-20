@@ -21,10 +21,12 @@ Last updated: 2026-03-20 (session 62)
 - G19 retries: 4 models (Gemma-27b failed again, Llama-70B loading, Mistral-Small/DeepSeek status unclear)
 - Gemma G06v2/G20/G23 fixes queued after G19
 
+**PARTIAL (1 model, need more):**
+- G25: 1 model (Qwen2.5-7B), 1 scenario only. DWL sprawls at prompt encoding (+8 RM), lie compresses (-4 RM). Presence expands uniformly. Needs 19 more scenarios + 10 models.
+- G27: 1 model (Qwen2.5-7B), 10 topics, full design. Prompt encoding: relational frame expands +20-30 RM (replicates G19). Generation: no compression trap detectable — all cells ~111 RM. Berk-Nash trap not visible at generation level.
+
 **NOT YET DESIGNED:**
-- G25 Relationship + DWL
 - G26 Presence + Cognitive Mode
-- G27 Relationship vs Compression
 - G28 Relational Identity Scaffold
 - G29 Relational Framing + PS
 - G30 Relational Vocab Dosage

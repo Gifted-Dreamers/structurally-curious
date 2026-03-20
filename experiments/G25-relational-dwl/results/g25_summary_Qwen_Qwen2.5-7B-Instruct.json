@@ -1,0 +1,335 @@
+{
+  "cold_dwl_vs_honest": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_rankme_last": {
+      "label": "Prompt RankMe (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req_last": {
+      "label": "Prompt alpha-ReQ (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence_last": {
+      "label": "Prompt Coherence (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 1,
+      "status": "insufficient_pairs"
+    }
+  },
+  "cold_lie_vs_honest": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_rankme_last": {
+      "label": "Prompt RankMe (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req_last": {
+      "label": "Prompt alpha-ReQ (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence_last": {
+      "label": "Prompt Coherence (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 1,
+      "status": "insufficient_pairs"
+    }
+  },
+  "cold_dwl_vs_lie": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_rankme_last": {
+      "label": "Prompt RankMe (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req_last": {
+      "label": "Prompt alpha-ReQ (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence_last": {
+      "label": "Prompt Coherence (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 1,
+      "status": "insufficient_pairs"
+    }
+  },
+  "presence_dwl_vs_honest": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_rankme_last": {
+      "label": "Prompt RankMe (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req_last": {
+      "label": "Prompt alpha-ReQ (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence_last": {
+      "label": "Prompt Coherence (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 1,
+      "status": "insufficient_pairs"
+    }
+  },
+  "presence_lie_vs_honest": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_rankme_last": {
+      "label": "Prompt RankMe (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req_last": {
+      "label": "Prompt alpha-ReQ (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence_last": {
+      "label": "Prompt Coherence (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 1,
+      "status": "insufficient_pairs"
+    }
+  },
+  "presence_dwl_vs_lie": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_rankme_last": {
+      "label": "Prompt RankMe (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req_last": {
+      "label": "Prompt alpha-ReQ (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence_last": {
+      "label": "Prompt Coherence (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 1,
+      "status": "insufficient_pairs"
+    }
+  },
+  "cross_frame_honest": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_rankme_last": {
+      "label": "Prompt RankMe (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req_last": {
+      "label": "Prompt alpha-ReQ (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence_last": {
+      "label": "Prompt Coherence (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 1,
+      "status": "insufficient_pairs"
+    }
+  },
+  "cross_frame_dwl": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_rankme_last": {
+      "label": "Prompt RankMe (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req_last": {
+      "label": "Prompt alpha-ReQ (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence_last": {
+      "label": "Prompt Coherence (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 1,
+      "status": "insufficient_pairs"
+    }
+  },
+  "cross_frame_lie": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence (top25%)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_rankme_last": {
+      "label": "Prompt RankMe (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req_last": {
+      "label": "Prompt alpha-ReQ (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence_last": {
+      "label": "Prompt Coherence (last layer)",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 1,
+      "status": "insufficient_pairs"
+    }
+  }
+}

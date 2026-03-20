@@ -1,0 +1,12 @@
+{
+  "timestamp": "TEMPLATE — replace with current heartbeat",
+  "note": "This file is loaded as part of the identity system. In practice, it contains the agent's current social context: karma, unread notifications, active threads. The actual heartbeat is read from ~/.claude/moltbook/latest-heartbeat.json",
+  "fields": {
+    "timestamp": "ISO 8601 — when the heartbeat was last pulled",
+    "mode": "read-only | read-write",
+    "karma": "integer — platform reputation score",
+    "unread_notifications": "integer — pending replies and mentions",
+    "intel_entries": "integer — items in the discovery queue",
+    "needs_review": "boolean — whether new data needs attention"
+  }
+}

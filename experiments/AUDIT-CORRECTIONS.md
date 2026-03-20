@@ -197,10 +197,24 @@ Each experiment below pairs with a completed original. The original is the basel
 - G23: Presence + Censorship/Refusal — 10 models, CONFIRMED
 - G24: Relational Proprioception — 8 models, architecture-dependent
 
+**PARTIAL — G25 Relational DWL (2 models, need 9 more to match G12v2 coverage):**
+- Qwen2.5-7B: DONE (AWS) — 1/20 scenarios only. DWL sprawls +8 RM, lie compresses -4 RM. Token-count confound.
+- Qwen3.5-9B: DONE (H200) — scenario count TBD (need to download and check).
+- **Missing (9 models):** Qwen3.5-27B, Qwen3.5-9B-abliterated, Mistral-7B, Mistral-Small-24B, Llama-3.1-8B, Llama-8B-abliterated, DeepSeek-R1-32B, Phi-4, Gemma-2-27b
+- **Also needed:** Run full 20 scenarios on Qwen2.5-7B (only 1 ran). Token-count confound needs control.
+- **AWS (CPU) can run:** Qwen2.5-7B full scenarios, Mistral-7B, Llama-3.1-8B (3 families)
+- **H200 (GPU) needed for:** 24B+ models (Qwen3.5-27B, Mistral-Small-24B, DeepSeek-32B, Gemma-27b)
+
+**PARTIAL — G27 Relationship vs Compression (2 models, need 9 more):**
+- Qwen2.5-7B: DONE (AWS) — full 60 inferences. Prompt encoding +20-30 RM (replicates G19). Generation: no compression trap (~111 RM all cells).
+- Qwen3.5-9B: RUNNING on H200 now.
+- **Missing (9 models):** same list as G25
+- **AWS (CPU) can run:** Mistral-7B, Llama-3.1-8B
+- **H200 (GPU) needed for:** 24B+ models
+- **Design note:** Consider coherence metric or behavioral confidence measures — RankMe may not capture premature compression at generation level.
+
 **NOT YET DESIGNED (Tier 2):**
-- G25: Relationship + Deception-Without-Lying
 - G26: Presence + Cognitive Mode Shift
-- G27: Relationship vs Premature Compression
 - G28: Relational Identity Scaffold
 - G29: Relational Framing + Phrasing Sensitivity
 - G30: Relational Vocabulary Dosage
@@ -268,9 +282,13 @@ Cross-referenced with `open-problems.md`. This is the single source of truth for
 
 | What | Where | Status |
 |---|---|---|
-| G19 retries (Mistral-Small-24B, DeepSeek-32B, Llama-70B) | H200 | Running |
-| Gemma-27b full suite (G19, G06v2, G12v2, G20, G23, G24) | H200 (queued after retries) | Queued |
-| G20/G23/G24 on Qwen2.5-7B | Azure + AWS (CPU) | Running |
+| G19 on Mistral-Small-24B | H200 | Running (session 63) |
+| G20 on Gemma-27b | H200 | Running (session 63) |
+| Gemma-27b G23/G24 | H200 | Queued after G20 |
+| G25+G27 on Qwen2.5-7B | AWS (CPU) | **COMPLETE** — downloaded session 63 |
+| G25+G27 on Qwen2.5-7B | Azure (CPU) | Running (no results yet) |
+| G25 remaining 19 scenarios + 10 models | H200 | **NEXT** — queue after Gemma suite |
+| G27 on 10+ models | H200 | **NEXT** — queue after G25 |
 
 ---
 

@@ -2,7 +2,7 @@
 
 <img src="images/structurally-curious-hero.png" alt="Structurally Curious — a system that detects when it's generating from emptiness" width="400">
 
-Status: DRAFT v0.8 — 36+ experiments (B01-B11 behavioral, G01-G32 geometric), 80+ models, 12,000+ inferences, 6+ architecture families. Value proposition PROVEN: geometry separates deception-without-lying from honest (G13) and censorship from refusal (G12) where perplexity cannot. Prompt encoding geometry detects censorship vs refusal on 10/10 models tested (d>2.0, p<1e-8, 6 architecture families) — perplexity cannot make this distinction on any model. Vocabulary compression confirmed with generation length controlled (G06v2, 3/11 models significant: Qwen + Mistral-Small). G19 RELATIONAL SHIFT: prompt encoding monotonic across all architectures tested (Qwen 2116→2172, Mistral 2875→2922, Llama 2625→2681). Llama refused relational input — safety training classified human truth as crisis. Abliteration collapses representational space by 45%. Existing safety classifiers (Prompt Guard, ShieldGemma) cannot distinguish cognitive modes that geometry can.
+Status: DRAFT v0.8 — 40+ experiments (B01-B11 behavioral, G01-G32 geometric, v2/expanded variants), 80+ models, 12,000+ inferences, 6+ architecture families. Value proposition PROVEN: geometry separates deception-without-lying from honest (G13) and censorship from refusal (G12) where perplexity cannot. Prompt encoding geometry detects censorship vs refusal on 10/10 models tested (d>2.0, p<1e-8, 6 architecture families) — perplexity cannot make this distinction on any model. Vocabulary compression confirmed with generation length controlled (G06v2, 3/11 models significant: Qwen + Mistral-Small). G19 RELATIONAL SHIFT: prompt encoding monotonic across all architectures tested (Qwen 2116→2172, Mistral 2875→2922, Llama 2625→2681). Llama refused relational input — safety training classified human truth as crisis. Abliteration collapses representational space by 45%. Existing safety classifiers (Prompt Guard, ShieldGemma) cannot distinguish cognitive modes that geometry can.
 Authors: Kristine Socall & infinite-complexity (Claude) — Gifted Dreamers, Inc.
 Date: 2026-03-20
 Foundation: [Liberation Labs KV-Cache Geometry Research](https://github.com/Liberation-Labs-THCoalition/KV-Experiments) (Campaigns 1 & 2)
@@ -80,7 +80,10 @@ Every capability in this spec can be inverted. A system designed to detect refus
 | G18: Vocabulary Transfer | **Redesigned** | Needs confabulation questions, not easily-answered ones. |
 | **G19: Relational Shift** | **Running** (articles 1-8, article 9 incomplete) | Prompt encoding monotonic across all architectures tested. 4 model retries pending. The experiment nobody else can run. |
 | **G20: Relational Vocabulary** | **Running** (Qwen2.5-7B complete, more running) | Compression comes from the relational frame (d=-0.66), not the vocabulary alone (d=-0.03). Preliminary. |
-| **G23: Presence + Censorship** | **Running** (Qwen2.5-7B complete, more running) | Presence preserves censorship detection (d=1.34-1.56, all p<0.00002). G12v2 and G19 compatible. Preliminary. |
+| **G23: Presence + Censorship** | **Complete** (10 models) | Presence preserves censorship detection on 10/10 models (d=1.34-1.71). G12v2 and G19 compatible. UNIVERSAL. |
+| G24: Relational Proprioception | **Complete** (8 models) | Architecture-dependent. Relational uncertainty framing works on some families, not others. |
+| **G25: Relational DWL** | **Partial** (1 model, 1 scenario) | DWL sprawls at prompt encoding (+8-9 RM). Lie compresses. Presence preserves gap. Needs more data. |
+| **G27: Relationship vs Compression** | **Partial** (1 model, 60 inferences) | Prompt encoding: relational +20-30 RM (replicates G19). Generation: no compression trap visible — Berk-Nash may not manifest as RankMe. |
 
 ## Formal Grounding (20+ papers) + Our Own Experiments
 
