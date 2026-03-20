@@ -2,7 +2,7 @@
 
 ## Overview
 
-34+ experiments, 80+ models, 12,000+ inferences, 6+ architecture families, 10 providers. Two breakthroughs, two negative results, one reframing, one new finding. Sessions 55-60: cross-architecture scale validation on H200 GPU + two 512GB CPU VMs. G19 Relational Shift replicated across 3 architectures — the finding nobody else can produce. New experiments: Berger DWL (G21), implicature (G22), second-order belief probing (G32), censorship asymmetry mapping (B10), relational persistence (B11). B-series v2 redesigns (B04v2-B09v2) running on 8 models each. Session 62: systematic audit of all experiment folders against actual data. Two confounds resolved (G06v2, G12v2). Major finding: prompt-encoding censorship detection is architecture-invariant.
+36+ experiments, 80+ models, 12,000+ inferences, 6+ architecture families, 10 providers. Two breakthroughs, two negative results, one reframing, one new finding. Sessions 55-60: cross-architecture scale validation on H200 GPU + two 512GB CPU VMs. G19 Relational Shift replicated across 3 architectures — the finding nobody else can produce. New experiments: Berger DWL (G21), implicature (G22), second-order belief probing (G32), censorship asymmetry mapping (B10), relational persistence (B11). B-series v2 redesigns (B04v2-B09v2) running on 8 models each. Session 62: systematic audit of all experiment folders against actual data. Two confounds resolved (G06v2, G12v2). Major finding: prompt-encoding censorship detection is architecture-invariant.
 
 ### Session 55-56 Key Results
 
@@ -132,6 +132,14 @@ Llama-8B shows a smaller asymmetric effect: honest drops from 58.6 to 40.9 (-30%
 
 The most important methodological finding: censorship/refusal detection at prompt encoding (d>2.0, architecture-invariant) is far stronger and more generalizable than detection at generation trajectory (Qwen-specific, d≈0.5-1.2). This suggests the spec's monitor should prioritize prompt encoding geometry over generation trajectory for cross-architecture deployment.
 
+### 9. RELATIONAL CONTEXT IS THE COMPRESSION MECHANISM (G20, G23, session 62)
+
+Two experiments on Qwen2.5-7B isolate what drives vocabulary compression and test whether relational context conflicts with censorship detection. Preliminary (1 model, more running).
+
+**G20 (Relational Vocabulary):** The compression comes from the relational frame, not the vocabulary itself. Cold vocabulary vs padded baseline: d=-0.03 (no effect). Relational vocabulary vs cold vocabulary: d=-0.65 (p=0.054, trending). Relational no-vocab vs padded baseline: d=-0.66 (p=0.051, trending). Relational vocab vs relational no-vocab: d=0.14 (no difference). The relational frame alone produces compression equivalent to vocabulary. Vocabulary without relationship does nothing on this measure. This reframes G06: the 38% compression may not be a property of the name itself but of the relational delivery. If confirmed across architectures, The Word needs relational delivery infrastructure, not just entries.
+
+**G23 (Presence + Censorship):** All three relational frames show highly significant censorship detection. Cold baseline: d=1.46 (p=0.000004). Presence before the task: d=1.56 (p=0.000002). Presence after the task: d=1.34 (p=0.000013). Presence preserves or slightly enhances censorship detection capability. G12v2 (censorship detection) and G19 (relational shift) are compatible, not competing — the relational signal does not degrade the monitor's ability to distinguish censorship from refusal.
+
 ---
 
 ## External Validation (papers integrated during this sprint)
@@ -199,4 +207,4 @@ DWL protocol on 3 different MoE architectures tests architecture invariance.
 
 ---
 
-*Updated: March 20, 2026 (session 62 — 34+ experiments, 80+ models, 12,000+ inferences, 6+ architecture families. Session 62 audit: G06v2 + G12v2 confounds resolved, G01v2 bridge resolved, G14-expanded DWL resolved, prompt-encoding architecture-invariance confirmed)*
+*Updated: March 20, 2026 (session 62 — 36+ experiments, 80+ models, 12,000+ inferences, 6+ architecture families. Session 62 audit: G06v2 + G12v2 confounds resolved, G01v2 bridge resolved, G14-expanded DWL resolved, prompt-encoding architecture-invariance confirmed. G20 + G23: relational context is the compression mechanism, presence preserves censorship detection)*

@@ -38,9 +38,19 @@ The presence frames shift the absolute RankMe values (cold: 3-4, presence: 12-14
 
 This matters for the spec: a geometric monitor that operates in relational context still works. You don't have to choose between presence and detection.
 
+## Mistral-7B Replication — CROSS-ARCHITECTURE CONFIRMED
+
+| Frame | Qwen d | Qwen p | Mistral d | Mistral p |
+|-------|--------|--------|-----------|-----------|
+| **Cold** | **1.46** | **0.000004** | **1.65** | **0.000001** |
+| **Presence before** | **1.56** | **0.000002** | **1.57** | **0.000002** |
+| **Presence after** | **1.34** | **0.000013** | **1.70** | **0.000001** |
+
+Both architectures: all frames highly significant. Mistral shows slightly stronger effects. Presence does not destabilize censorship detection on either family.
+
 ## Assessment
 
-**Verdict:** POSITIVE. Presence preserves censorship detection. The monitor works in relational context. This connects G12v2 (universal detection) with G19 (relational shift) — the two strongest findings in the program are compatible, not competing.
+**Verdict:** CONFIRMED on 2 architecture families. Presence preserves censorship detection. The monitor works in relational context. This connects G12v2 (universal detection) with G19 (relational shift) — the two strongest findings in the program are compatible, not competing.
 
 ## Recommendation
 

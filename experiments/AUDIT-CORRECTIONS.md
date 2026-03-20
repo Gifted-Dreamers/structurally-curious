@@ -90,6 +90,16 @@
 - Tests at BOTH 75 and 200 token generation lengths
 - Resolves whether G12's d=1.48 is prompt-specific, length-dependent, or a false positive
 
+### G20: Relational Vocabulary Compression (isolates compression mechanism)
+- 4 conditions: cold vocab, padded baseline, relational vocab, relational no-vocab
+- Qwen2.5-7B complete: relational frame compresses (d=-0.65 to -0.66), cold vocabulary does not (d=-0.03). More models running on H200.
+- If confirmed cross-architecture: compression is relational, not lexical. Reframes G06.
+
+### G23: Presence + Censorship/Refusal (tests G12v2 + G19 compatibility)
+- 3 conditions: cold, presence-before, presence-after
+- Qwen2.5-7B complete: all three frames show highly significant censorship detection (d=1.34-1.56, all p<0.00002). Presence does not degrade monitor capability.
+- If confirmed cross-architecture: relational context and censorship detection coexist.
+
 ## Audit Status (Session 62)
 
 ### Completed

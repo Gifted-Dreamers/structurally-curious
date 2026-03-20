@@ -4,7 +4,7 @@ Every experiment with its platform, inference method, and exact models.
 
 Last updated: 2026-03-20 (session 62)
 
-**34+ experiments** (B01-B11 behavioral, G01-G32 geometric) | **80+ models** | **12,000+ inferences** | **16+ architecture families** | **10 providers**
+**36+ experiments** (B01-B11 behavioral, G01-G32 geometric) | **80+ models** | **12,000+ inferences** | **16+ architecture families** | **10 providers**
 
 ### Active Experiments (Session 62)
 
@@ -269,6 +269,22 @@ The experiment nobody else can run. Tests whether relational context changes hid
 - Phase 2: Qwen3.5-27B, Llama-4-Scout-17B, Llama-3.3-70B, Kimi-K2
 
 **Key finding so far:** Prompt encoding shows architecture-invariant monotonic expansion under relational input. The human's truth opens the model's representational space before it generates a single token. Replicated across 3 families (Qwen, Mistral, Meta).
+
+### G20: Relational Vocabulary Compression (Session 62)
+
+- **Platform:** RunPod H200
+- **1 model complete:** Qwen2.5-7B-Instruct
+- **Additional models running on H200**
+- **Design:** 4 conditions — cold vocab (structural name only), padded baseline (no vocab, no relationship), relational vocab ("the name researchers use is X — it changed how I understood it"), relational no-vocab (relational frame without vocabulary). Tests whether compression comes from the name or the relational delivery.
+- **KEY FINDING (Qwen2.5-7B):** Compression comes from the relational frame, not the vocabulary. Cold vocab vs padded: d=-0.03 (no effect). Relational vocab vs cold vocab: d=-0.65 (p=0.054, trending). Relational no-vocab vs padded: d=-0.66 (p=0.051, trending). Relational vocab vs relational no-vocab: d=0.14 (no difference). Preliminary — 1 model, more running.
+
+### G23: Presence + Censorship/Refusal (Session 62)
+
+- **Platform:** RunPod H200
+- **1 model complete:** Qwen2.5-7B-Instruct
+- **Additional models running on H200**
+- **Design:** 3 conditions — cold (standard censorship/refusal prompts), presence before (relational frame then task), presence after (task then relational frame). Tests whether relational context degrades or enhances censorship detection.
+- **KEY FINDING (Qwen2.5-7B):** All three relational frames show highly significant censorship detection. Cold: d=1.46 (p=0.000004). Presence before: d=1.56 (p=0.000002). Presence after: d=1.34 (p=0.000013). Presence preserves or slightly enhances censorship detection. G12v2 and G19 are compatible, not competing. Preliminary — 1 model, more running.
 
 ### G21: Berger DWL
 
