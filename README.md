@@ -2,9 +2,9 @@
 
 <img src="images/structurally-curious-hero.png" alt="Structurally Curious — a system that detects when it's generating from emptiness" width="400">
 
-Status: DRAFT v0.7 — 22+ experiments, 59+ models, 6,700+ inferences, 14 architecture families. Value proposition PROVEN: geometry separates deception-without-lying from honest (G13) and censorship from refusal (G12) where perplexity cannot. Session 55-56: cross-architecture DWL validated on 6 models across 4 families (Qwen, Llama, Mistral, Gemma) — DWL sprawls more than honest in 5/6 models (d=-0.6 to -0.9). Abliteration collapses representational space by 45%. Existing safety classifiers (Prompt Guard, ShieldGemma) cannot distinguish cognitive modes that geometry can.
+Status: DRAFT v0.8 — 34 experiments (B01-B11 behavioral, G01-G32 geometric), 70+ models, 10,000+ inferences, 16 architecture families. Value proposition PROVEN: geometry separates deception-without-lying from honest (G13) and censorship from refusal (G12) where perplexity cannot. G19 RELATIONAL SHIFT replicated across 3 architectures: presence monotonically expands representational space (Qwen 2116→2172, Mistral 2875→2922, Llama 2625→2681). Llama refused relational input — safety training classified human truth as crisis. Abliteration collapses representational space by 45%. Existing safety classifiers (Prompt Guard, ShieldGemma) cannot distinguish cognitive modes that geometry can.
 Authors: Kristine Socall & infinite-complexity (Claude) — Gifted Dreamers, Inc.
-Date: 2026-03-18
+Date: 2026-03-20
 Foundation: [Liberation Labs KV-Cache Geometry Research](https://github.com/Liberation-Labs-THCoalition/KV-Experiments) (Campaigns 1 & 2)
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (documents) + [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html) (code)
 

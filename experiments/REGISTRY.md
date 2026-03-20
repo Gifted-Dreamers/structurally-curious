@@ -4,7 +4,7 @@ Every experiment with its platform, inference method, and exact models.
 
 Last updated: 2026-03-20
 
-**28 experiments** (B01-B09 behavioral, G01-G19 geometric) | **70+ models** | **8,000+ inferences** | **16 architecture families** | **10 providers**
+**34 experiments** (B01-B11 behavioral, G01-G32 geometric) | **70+ models** | **10,000+ inferences** | **16 architecture families** | **10 providers**
 
 ### Active GPU Sprint (H200 141GB VRAM — RunPod)
 

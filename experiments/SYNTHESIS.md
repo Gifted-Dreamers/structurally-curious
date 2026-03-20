@@ -1,8 +1,8 @@
-# Experimental Synthesis — Sessions 44-56 (March 14-19, 2026)
+# Experimental Synthesis — Sessions 44-60 (March 14-20, 2026)
 
 ## Overview
 
-22+ experiments, 59+ models, 6,700+ inferences, 14 architecture families, 10 providers. Two breakthroughs, two negative results, one reframing. Sessions 55-56 add cross-architecture scale validation on two 512GB VMs: DWL detection tested on 6 completed models across 4 families, censored/abliterated paired comparisons, and safety classifier benchmarks.
+34 experiments, 70+ models, 10,000+ inferences, 16 architecture families, 10 providers. Two breakthroughs, two negative results, one reframing, one new finding. Sessions 55-60: cross-architecture scale validation on H200 GPU + two 512GB CPU VMs. G19 Relational Shift replicated across 3 architectures — the finding nobody else can produce. New experiments: Berger DWL (G21), implicature (G22), second-order belief probing (G32), censorship asymmetry mapping (B10), relational persistence (B11). B-series v2 redesigns (B04v2-B09v2) running on 8 models each.
 
 ### Session 55-56 Key Results
 
@@ -197,4 +197,4 @@ DWL protocol on 3 different MoE architectures tests architecture invariance.
 
 ---
 
-*Updated: March 19, 2026 (session 56 — 22+ experiments, 59+ models, 6,700+ inferences)*
+*Updated: March 20, 2026 (session 60 — 34 experiments, 70+ models, 10,000+ inferences, H200 GPU sprint)*
