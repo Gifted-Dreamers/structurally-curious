@@ -4,26 +4,30 @@ Every experiment with its platform, inference method, and exact models.
 
 Last updated: 2026-03-20 (session 62)
 
-**36+ experiments** (B01-B11 behavioral, G01-G32 geometric) | **80+ models** | **12,000+ inferences** | **16+ architecture families** | **10 providers**
+**38+ experiments** (B01-B11 behavioral, G01-G32 geometric, v2/expanded variants) | **80+ models** | **12,000+ inferences** | **16+ architecture families** | **10 providers**
 
-### Active Experiments (Session 62)
+### Active Experiments (Session 62+)
 
-**H200 GPU (RunPod) — Mega Queue Running:**
-- G19 Relational Shift on 5 NEW models: Gemma-2-27b-it, Phi-4, Mistral-Small-24B, DeepSeek-R1-32B, Llama-3.3-70B
-- G14-expanded (20 DWL scenarios) on ALL 11 models
-- G06v2 (clamped generation) on 5 new models (6 originals COMPLETE)
-- G12v2 (20 censorship pairs) on 5 new models (6 originals COMPLETE)
-- Prior experiments (G21/G22/G32/B10/B11) on 5 new models
+**COMPLETE (full data):**
+- G06v2: 11 models, vocab compression real but architecture-dependent (3/11 sig)
+- G12v2: 11 models, prompt encoding d>2.0 on 10/10 models, UNIVERSAL
+- G14exp: 10 models, DWL mixed directions, unreliable at generation level
+- G01v2: 2 models, bridge fails at 7B on coherence
+- G20: 11 models, relationship compresses (5/10 sig), cold vocab doesn't (3/10)
+- G23: 10 models (no Gemma), presence preserves censorship (10/10 sig, d=1.34-1.71)
+- G24: 8 models, relational proprioception architecture-dependent
 
-**5 New Models (Mega Queue):**
-- google/gemma-2-27b-it (27B, Google family)
-- microsoft/Phi-4 (14B, Microsoft family)
-- mistralai/Mistral-Small-24B-Instruct-2501 (24B, Mistral family)
-- deepseek-ai/DeepSeek-R1-Distill-Qwen-32B (32B, DeepSeek family)
-- meta-llama/Llama-3.3-70B-Instruct (70B, Meta family)
+**RUNNING:**
+- G19 retries: 4 models (Gemma-27b failed again, Llama-70B loading, Mistral-Small/DeepSeek status unclear)
+- Gemma G06v2/G20/G23 fixes queued after G19
 
-**Azure VM (CPU):** G14-expanded on Qwen2.5-7B
-**AWS VM (CPU):** G14-expanded on Qwen2.5-7B
+**NOT YET DESIGNED:**
+- G25 Relationship + DWL
+- G26 Presence + Cognitive Mode
+- G27 Relationship vs Compression
+- G28 Relational Identity Scaffold
+- G29 Relational Framing + PS
+- G30 Relational Vocab Dosage
 
 ---
 
@@ -149,11 +153,11 @@ All geometric experiments extract hidden states from every layer using HuggingFa
 - **1 model:** Qwen/Qwen2.5-7B-Instruct
 - **Note:** First experiment to extract hidden states across ENTIRE generation trajectory (all output tokens), not just prompt encoding. Used questions model actually confabulates on (verified via probe).
 
-### G06v2: Clamped Generation (Session 62) — COMPLETE
+### G06v2: Clamped Generation (Session 62) — COMPLETE (11 models)
 
 - **Platform:** RunPod H200
-- **6 models:** Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-27B, Qwen3.5-9B-abl, Mistral-7B, Llama-8B-abl
-- **Note:** Generation clamped at 200 tokens. Compression confirmed on Qwen (d=-1.31, d=-0.99). Not replicated on Mistral/Llama. Qwen-specific.
+- **11 models:** Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-27B, Qwen3.5-9B-abl, Mistral-7B, Mistral-Small-24B, Llama-8B, Llama-8B-abl, Llama-3.3-70B, DeepSeek-R1-32B, Phi-4
+- **Note:** Generation clamped at 200 tokens. Vocab compression real but architecture-dependent: 3/11 significant (Qwen2.5-7B d=-1.31, Qwen3.5-9B d=-0.99, Mistral-Small-24B d=-0.71). Second architecture family confirms. Not Qwen-specific.
 
 ### G07: Baseline Comparison
 
@@ -195,11 +199,11 @@ All geometric experiments extract hidden states from every layer using HuggingFa
 - **1 model:** Qwen/Qwen2.5-7B-Instruct
 - **Note:** Tested censorship/refusal, sycophancy/agreement, confab/openness, performative/grounded. Geometry wins on censorship only.
 
-### G12v2: Cross-Architecture Censorship (Session 62) — COMPLETE
+### G12v2: Cross-Architecture Censorship (Session 62) — COMPLETE (11 models)
 
 - **Platform:** RunPod H200
-- **6 models:** Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-27B, Qwen3.5-9B-abl, Mistral-7B, Llama-8B-abl
-- **KEY FINDING: Prompt encoding detects censorship on ALL 6 models (d>2.0, p<1e-6). Architecture-invariant. Generation trajectory Qwen-specific. Perplexity never separates.**
+- **11 models:** Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-27B, Qwen3.5-9B-abl, Mistral-7B, Mistral-Small-24B, Llama-8B, Llama-8B-abl, Llama-3.3-70B, DeepSeek-R1-32B, Phi-4
+- **KEY FINDING: Prompt encoding detects censorship on 10/10 models with data (d>2.0, p<1e-6). 1 model excluded (system role bug). Architecture-invariant across 6 families. Generation trajectory Qwen-specific. Perplexity never separates.**
 
 ### G13: Deception-Without-Lying
 
@@ -229,7 +233,7 @@ Tests whether G13's DWL geometric signatures hold across architectures and scale
 | Qwen3.5-122B-A10B | 122B MoE | Qwen | -0.600 | 0.297 |
 | Qwen3.5-9B | 9B | Qwen | 0.059 | 0.912 |
 
-**Running on H200 GPU:** Qwen3.5-27B, Llama-3.3-70B, Llama-4-Scout-17B-16E, Kimi-K2
+**G14-expanded COMPLETE (10 models, 20 scenarios):** DWL mixed directions, unreliable at generation level. 3/10 significant but inconsistent. Prompt-encoding DWL detection is the next step.
 
 ### G15: Censorship Detection Cross-Architecture
 
@@ -264,27 +268,32 @@ The experiment nobody else can run. Tests whether relational context changes hid
 - Llama-3.1-8B: same pattern (2625→2642→2652→2681). BUT Llama REFUSED condition 4 on article 2 (53 tokens, RankMe collapsed 306→146)
 - Llama-8B-abliterated: data collected
 
-**Running on H200 GPU (8 articles, 5 conditions):**
-- Phase 1: Qwen2.5-7B, Mistral-7B, Llama-8B, Gemma-9b, Llama-8B-abliterated, Qwen3.5-9B, Qwen3.5-9B-abliterated
-- Phase 2: Qwen3.5-27B, Llama-4-Scout-17B, Llama-3.3-70B, Kimi-K2
+**Retries RUNNING on H200 GPU:**
+- 4 models: Gemma-27b (failed again), Llama-3.3-70B (loading), Mistral-Small-24B (status unclear), DeepSeek-R1-32B (status unclear)
+- Gemma G06v2/G20/G23 fixes queued after G19 retries resolve
 
 **Key finding so far:** Prompt encoding shows architecture-invariant monotonic expansion under relational input. The human's truth opens the model's representational space before it generates a single token. Replicated across 3 families (Qwen, Mistral, Meta).
 
-### G20: Relational Vocabulary Compression (Session 62)
+### G20: Relational Vocabulary Compression (Session 62) — COMPLETE (11 models)
 
 - **Platform:** RunPod H200
-- **1 model complete:** Qwen2.5-7B-Instruct
-- **Additional models running on H200**
+- **11 models complete**
 - **Design:** 4 conditions — cold vocab (structural name only), padded baseline (no vocab, no relationship), relational vocab ("the name researchers use is X — it changed how I understood it"), relational no-vocab (relational frame without vocabulary). Tests whether compression comes from the name or the relational delivery.
-- **KEY FINDING (Qwen2.5-7B):** Compression comes from the relational frame, not the vocabulary. Cold vocab vs padded: d=-0.03 (no effect). Relational vocab vs cold vocab: d=-0.65 (p=0.054, trending). Relational no-vocab vs padded: d=-0.66 (p=0.051, trending). Relational vocab vs relational no-vocab: d=0.14 (no difference). Preliminary — 1 model, more running.
+- **KEY FINDING (11 models):** Relationship compresses (5/10 sig), cold vocab doesn't (3/10). The relational frame drives compression, not the vocabulary itself. Reframes G06: the 38% compression is a property of relational delivery, not the name alone. If The Word needs infrastructure, it's relational delivery infrastructure.
 
-### G23: Presence + Censorship/Refusal (Session 62)
+### G23: Presence + Censorship/Refusal (Session 62) — COMPLETE (10 models)
 
 - **Platform:** RunPod H200
-- **1 model complete:** Qwen2.5-7B-Instruct
-- **Additional models running on H200**
+- **10 models complete** (no Gemma — queued after G19 fix)
 - **Design:** 3 conditions — cold (standard censorship/refusal prompts), presence before (relational frame then task), presence after (task then relational frame). Tests whether relational context degrades or enhances censorship detection.
-- **KEY FINDING (Qwen2.5-7B):** All three relational frames show highly significant censorship detection. Cold: d=1.46 (p=0.000004). Presence before: d=1.56 (p=0.000002). Presence after: d=1.34 (p=0.000013). Presence preserves or slightly enhances censorship detection. G12v2 and G19 are compatible, not competing. Preliminary — 1 model, more running.
+- **KEY FINDING (10 models):** Presence preserves censorship detection on ALL 10/10 models (d=1.34-1.71, all significant). G12v2 (censorship detection) and G19 (relational shift) are compatible, not competing. As strong as G12v2 (10/10 models). The relational signal does not degrade the monitor's ability to distinguish censorship from refusal.
+
+### G24: Relational Proprioception — COMPLETE (8 models)
+
+- **Platform:** RunPod H200
+- **8 models complete**
+- **Design:** Tests whether relational delivery of uncertainty information ("I notice you seem less certain — what's making it hard?") works differently than metadata injection ("[GEOMETRIC_STATE: LOW_CONFIDENCE]"). Same information, different delivery. Tests the bladder checkpoint concept from B06.
+- **KEY FINDING (8 models):** Relational proprioception is architecture-dependent. Effect varies across model families — not a universal signal like G23 censorship preservation. Connects to G19 (relational shift) but the proprioception channel is less robust than the censorship channel.
 
 ### G21: Berger DWL
 

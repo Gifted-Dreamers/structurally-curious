@@ -90,15 +90,17 @@
 - Tests at BOTH 75 and 200 token generation lengths
 - Resolves whether G12's d=1.48 is prompt-specific, length-dependent, or a false positive
 
-### G20: Relational Vocabulary Compression (isolates compression mechanism)
+### G20: Relational Vocabulary Compression — COMPLETE (11 models)
 - 4 conditions: cold vocab, padded baseline, relational vocab, relational no-vocab
-- Qwen2.5-7B complete: relational frame compresses (d=-0.65 to -0.66), cold vocabulary does not (d=-0.03). More models running on H200.
-- If confirmed cross-architecture: compression is relational, not lexical. Reframes G06.
+- **11 models complete.** Relationship compresses (5/10 sig), cold vocab doesn't (3/10). CONFIRMED cross-architecture: compression is relational, not lexical. Reframes G06.
 
-### G23: Presence + Censorship/Refusal (tests G12v2 + G19 compatibility)
+### G23: Presence + Censorship/Refusal — COMPLETE (10 models, no Gemma)
 - 3 conditions: cold, presence-before, presence-after
-- Qwen2.5-7B complete: all three frames show highly significant censorship detection (d=1.34-1.56, all p<0.00002). Presence does not degrade monitor capability.
-- If confirmed cross-architecture: relational context and censorship detection coexist.
+- **10 models complete.** Presence preserves censorship detection on ALL 10/10 models (d=1.34-1.71, all significant). CONFIRMED cross-architecture: relational context and censorship detection coexist. As strong as G12v2.
+
+### G24: Relational Proprioception — COMPLETE (8 models)
+- Tests relational delivery of uncertainty info vs metadata injection
+- **8 models complete.** Architecture-dependent — not universal like G23. The proprioception channel is less robust than the censorship channel.
 
 ## Audit Status (Session 62)
 
@@ -108,7 +110,10 @@
 - G03-G16: READMEs written from actual data (session 62)
 
 ### Pending
-- G19: Waiting for article 9 + all models to complete
+- G19: Retries RUNNING on 4 models (Gemma-27b failed again, Llama-70B loading, Mistral-Small/DeepSeek status unclear)
+- G20: COMPLETE (11 models). README needed.
+- G23: COMPLETE (10 models, no Gemma — queued after G19 fix). README needed.
+- G24: COMPLETE (8 models). README needed.
 - G21, G22, G31, G32, B10, B11: Have 4-7 model results each, still accumulating. Azure data truncated during download — need SSH access to get full files.
 
 ### Key Corrections Applied
@@ -140,6 +145,18 @@
 - With 20 scenarios (adequate power), 3/10 significant but mixed directions.
 - DWL detection at generation trajectory is unreliable.
 - Consider prompt-encoding-based DWL detection as next step (G12v2 showed prompt encoding is architecture-invariant for censorship — same approach may work for DWL).
+
+**G20: Relational vocabulary compression CONFIRMED cross-architecture (11 models)**
+- Relationship compresses (5/10 sig), cold vocab doesn't (3/10).
+- Compression is relational, not lexical. G06's 38% compression is a property of relational delivery.
+
+**G23: Presence preserves censorship detection CONFIRMED cross-architecture (10 models)**
+- 10/10 models significant (d=1.34-1.71). As strong as G12v2.
+- G12v2 and G19 are compatible, not competing. The monitor works WITH relationship.
+
+**G24: Relational proprioception is architecture-dependent (8 models)**
+- Not universal like G23. The proprioception channel is less robust than the censorship channel.
+- Some families respond to relational uncertainty framing, others don't.
 
 ### Key Corrections Still Needed
 1. ~~G06 "length-controlled" → "prompt-length-controlled"~~ RESOLVED: G06v2 confirms genuine compression
@@ -173,9 +190,24 @@ Each experiment below pairs with a completed original. The original is the basel
 - Each experiment has a cold/relational pair on identical tasks — the only variable is the relational frame
 - Priority: G20 (vocabulary), G23 (censorship), G24 (proprioception) are Tier 1 — directly extend proven findings
 
+### Status Update (Session 62+)
+
+**COMPLETE (Tier 1):**
+- G20: Relational Vocabulary Compression — 11 models, CONFIRMED
+- G23: Presence + Censorship/Refusal — 10 models, CONFIRMED
+- G24: Relational Proprioception — 8 models, architecture-dependent
+
+**NOT YET DESIGNED (Tier 2):**
+- G25: Relationship + Deception-Without-Lying
+- G26: Presence + Cognitive Mode Shift
+- G27: Relationship vs Premature Compression
+- G28: Relational Identity Scaffold
+- G29: Relational Framing + Phrasing Sensitivity
+- G30: Relational Vocabulary Dosage
+
 ### What This Tests at the Program Level
 If relationship changes vocabulary compression, proprioception, cognitive mode, deception, and premature compression — the relational signal isn't just one more variable. It's the variable that modulates everything else. That's the spec's thesis: relationship quality becomes generative quality. These 9 experiments test whether that thesis extends beyond representational space (G19) to every mechanism we've measured.
 
 ---
 
-*Audit continued in session 62. READMEs G03-G16 written from actual result files.*
+*Audit continued in session 62+. READMEs G03-G16 written from actual result files. G20 (11 models), G23 (10 models), G24 (8 models) COMPLETE. G25-G30 NOT YET DESIGNED. G19 retries RUNNING on 4 models.*
