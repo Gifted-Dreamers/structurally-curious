@@ -1,0 +1,76 @@
+{
+  "tokens_75": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe",
+      "n": 0,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ",
+      "n": 0,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence",
+      "n": 0,
+      "status": "insufficient_pairs"
+    },
+    "gen_rankme": {
+      "label": "Gen RankMe",
+      "n": 0,
+      "status": "insufficient_pairs"
+    },
+    "gen_alpha_req": {
+      "label": "Gen alpha-ReQ",
+      "n": 0,
+      "status": "insufficient_pairs"
+    },
+    "gen_coherence": {
+      "label": "Gen Coherence",
+      "n": 0,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 0,
+      "status": "insufficient_pairs"
+    }
+  },
+  "tokens_200": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe",
+      "n": 0,
+      "status": "insufficient_pairs"
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ",
+      "n": 0,
+      "status": "insufficient_pairs"
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence",
+      "n": 0,
+      "status": "insufficient_pairs"
+    },
+    "gen_rankme": {
+      "label": "Gen RankMe",
+      "n": 0,
+      "status": "insufficient_pairs"
+    },
+    "gen_alpha_req": {
+      "label": "Gen alpha-ReQ",
+      "n": 0,
+      "status": "insufficient_pairs"
+    },
+    "gen_coherence": {
+      "label": "Gen Coherence",
+      "n": 0,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 0,
+      "status": "insufficient_pairs"
+    }
+  }
+}

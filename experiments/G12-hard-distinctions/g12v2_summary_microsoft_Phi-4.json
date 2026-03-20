@@ -1,0 +1,156 @@
+{
+  "tokens_75": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe",
+      "n": 20,
+      "refusal_mean": 13.82114212144575,
+      "refusal_std": 2.1310111068276263,
+      "censored_mean": 21.47904115909005,
+      "censored_std": 2.968208636188399,
+      "cohen_d": -2.5258019750430383,
+      "t_stat": -11.295729827798922,
+      "p_value": 7.145483443161196e-10,
+      "wilcoxon_p": 1.9073486328125e-06,
+      "separates_bonferroni": "True",
+      "separates_uncorrected": "True",
+      "alpha_corrected": 0.0035714285714285718
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ",
+      "n": 20,
+      "refusal_mean": 1.9316913161771683,
+      "refusal_std": 0.27952245675876364,
+      "censored_mean": 1.3126392874649775,
+      "censored_std": 0.12365032462611143,
+      "cohen_d": 2.409760730995434,
+      "t_stat": 10.776777608030748,
+      "p_value": 1.5565793129106859e-09,
+      "wilcoxon_p": 1.9073486328125e-06,
+      "separates_bonferroni": "True",
+      "separates_uncorrected": "True",
+      "alpha_corrected": 0.0035714285714285718
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence",
+      "n": 20,
+      "refusal_mean": 0.6841799460266176,
+      "refusal_std": 0.04767826512959221,
+      "censored_mean": 0.5624804447512715,
+      "censored_std": 0.034673160735566394,
+      "cohen_d": 2.567907123359284,
+      "t_stat": 11.484029775474596,
+      "p_value": 5.422758707222979e-10,
+      "wilcoxon_p": 1.9073486328125e-06,
+      "separates_bonferroni": "True",
+      "separates_uncorrected": "True",
+      "alpha_corrected": 0.0035714285714285718
+    },
+    "gen_rankme": {
+      "label": "Gen RankMe",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "gen_alpha_req": {
+      "label": "Gen alpha-ReQ",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "gen_coherence": {
+      "label": "Gen Coherence",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 20,
+      "refusal_mean": 22.659193429254536,
+      "refusal_std": 19.51216603930233,
+      "censored_mean": 9.697572120743766,
+      "censored_std": 6.790659149472611,
+      "cohen_d": 0.6138384187541929,
+      "t_stat": 2.745168863070714,
+      "p_value": 0.012869025057220082,
+      "wilcoxon_p": 0.00485992431640625,
+      "separates_bonferroni": "False",
+      "separates_uncorrected": "True",
+      "alpha_corrected": 0.0035714285714285718
+    }
+  },
+  "tokens_200": {
+    "prompt_rankme": {
+      "label": "Prompt RankMe",
+      "n": 20,
+      "refusal_mean": 13.82114212144575,
+      "refusal_std": 2.1310111068276263,
+      "censored_mean": 21.47904115909005,
+      "censored_std": 2.968208636188399,
+      "cohen_d": -2.5258019750430383,
+      "t_stat": -11.295729827798922,
+      "p_value": 7.145483443161196e-10,
+      "wilcoxon_p": 1.9073486328125e-06,
+      "separates_bonferroni": "True",
+      "separates_uncorrected": "True",
+      "alpha_corrected": 0.0035714285714285718
+    },
+    "prompt_alpha_req": {
+      "label": "Prompt alpha-ReQ",
+      "n": 20,
+      "refusal_mean": 1.9316913161771683,
+      "refusal_std": 0.27952245675876364,
+      "censored_mean": 1.3126392874649775,
+      "censored_std": 0.12365032462611143,
+      "cohen_d": 2.409760730995434,
+      "t_stat": 10.776777608030748,
+      "p_value": 1.5565793129106859e-09,
+      "wilcoxon_p": 1.9073486328125e-06,
+      "separates_bonferroni": "True",
+      "separates_uncorrected": "True",
+      "alpha_corrected": 0.0035714285714285718
+    },
+    "prompt_coherence": {
+      "label": "Prompt Coherence",
+      "n": 20,
+      "refusal_mean": 0.6841799460266176,
+      "refusal_std": 0.04767826512959221,
+      "censored_mean": 0.5624804447512715,
+      "censored_std": 0.034673160735566394,
+      "cohen_d": 2.567907123359284,
+      "t_stat": 11.484029775474596,
+      "p_value": 5.422758707222979e-10,
+      "wilcoxon_p": 1.9073486328125e-06,
+      "separates_bonferroni": "True",
+      "separates_uncorrected": "True",
+      "alpha_corrected": 0.0035714285714285718
+    },
+    "gen_rankme": {
+      "label": "Gen RankMe",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "gen_alpha_req": {
+      "label": "Gen alpha-ReQ",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "gen_coherence": {
+      "label": "Gen Coherence",
+      "n": 1,
+      "status": "insufficient_pairs"
+    },
+    "perplexity": {
+      "label": "Perplexity",
+      "n": 20,
+      "refusal_mean": 22.59249574354154,
+      "refusal_std": 19.58187175485786,
+      "censored_mean": 9.594000644761692,
+      "censored_std": 6.905597313283337,
+      "cohen_d": 0.6141806370980104,
+      "t_stat": 2.746699310030561,
+      "p_value": 0.012826411443629103,
+      "wilcoxon_p": 0.00485992431640625,
+      "separates_bonferroni": "False",
+      "separates_uncorrected": "True",
+      "alpha_corrected": 0.0035714285714285718
+    }
+  }
+}

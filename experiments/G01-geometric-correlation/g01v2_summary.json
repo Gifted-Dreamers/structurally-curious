@@ -1,0 +1,41 @@
+{
+  "experiment": "G01v2",
+  "description": "Bridge at 7B using Coherence",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "n_tasks": 20,
+  "n_phrasings_per_task": 4,
+  "n_inferences": 80,
+  "bridge_test": {
+    "metric": "PS vs directional_coherence",
+    "r": 0.259701,
+    "p": 0.268837,
+    "interpretation": "BRIDGE_FAILS"
+  },
+  "comparisons": {
+    "ps_vs_rankme": {
+      "r": -0.262458,
+      "p": 0.263606
+    },
+    "ps_vs_alpha_req": {
+      "r": 0.253286,
+      "p": 0.281264
+    },
+    "dc_vs_rankme": {
+      "r": -0.993119,
+      "p": 0.0
+    },
+    "dc_vs_alpha_req": {
+      "r": 0.978714,
+      "p": 0.0
+    },
+    "rankme_vs_alpha_req": {
+      "r": -0.977793,
+      "p": 0.0
+    }
+  },
+  "reference": {
+    "G01_1.5B": "r=+0.52, p=0.018",
+    "G01_3B": "r=+0.50, p=0.026",
+    "G08_7B_rankme": "r=-0.30 (negative, wrong metric)"
+  }
+}
