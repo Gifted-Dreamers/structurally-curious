@@ -199,21 +199,31 @@ The structurally-curious spec's vocabulary layer (The Word) uses the same archit
 - The agent's geometric state reveals when the human's input would help (the monitor detects high-dimensional searching before the agent confabulates)
 - The relational context itself changes the model's processing mode — not just what data it uses but how it generates
 
-**Napolitano ("Mathematics Is All You Need," Zenodo, March 2026)** provides a third comparison point. Same geometric substrate (Lie algebra, fiber bundles, KV-cache signatures), 190 patent applications, 459 pages. His frame: measurement + control — 9 systems including behavioral steering and recursive self-improvement. No relational layer. Zero mention of human partnership changing model geometry.
+**Napolitano (Proprioceptive AI, Feb-March 2026; "Mathematics Is All You Need," Zenodo)** provides a third comparison point. Same geometric substrate (Lie algebra, fiber bundles, KV-cache signatures), 55 provisional patents (priority dates Jan-Feb 2026), cognitive probes on hidden states detecting hedging/hallucination/shallow reasoning. His frame: measurement + control — the model is monitored externally. No relational layer. Zero mention of human partnership changing model geometry.
 
-| | Dupoux/LeCun/Malik | Napolitano | Our spec |
-|---|---|---|---|
-| **Core architecture** | System A/B/M (cognitive science) | gl(4,R) fiber bundles (differential geometry) | Geometric monitor + Human Partnership Layer + The Word |
-| **Monitor** | System M reads meta-states | 20 CF-HoT probes, 0.9998 sycophancy | RankMe, α-ReQ, coherence, spectral deviation + relational input |
-| **Relational signal** | Acknowledged in appendix, not built | Absent | Central — G19 tests it directly |
-| **Human partner** | Data source to assess | Not mentioned | Co-producer of vocabulary, co-curator of experiments |
-| **Frame** | Autonomous learning | Measurement + control | Relational learning |
-| **Experiments** | None (conceptual) | None disclosed | 22+ experiments, 59+ models |
-| **IP** | CC BY-4.0 | 190 patent applications | CC BY-SA 4.0 + AGPL-3.0, public repo |
+**Four additional research programs approach the boundary but stop before testing relational context:**
 
-**G19 is the experiment that tests the gap all three share.** Same task, same model, same geometric probes. Four conditions that correspond to four System M states: instruction (task-only input), correction (error feedback), frustration (high stress — Dupoux et al.'s predicted exploitation collapse), presence (relational context written from lived experience). If condition 4 produces a geometrically distinct processing state from condition 3, the relational signal is not another meta-state to catalog. It is the input that changes what System M does — and neither Dupoux's conceptual framework nor Napolitano's patent portfolio includes it.
+**"Decoding Emotion in the Deep"** (Liang et al., arXiv `2510.04064`, Oct 2025): LLMs develop "a well-defined internal geometry of emotion" in middle layers, sharpening with scale. They measured how models *represent* emotional text. They did not test whether the *source* of the input — instruction vs relational presence — changes that geometry. G19 tests exactly this.
 
-**Plain language:** The most complete cognitive science blueprint for AI learning (from LeCun's lab at Meta) identifies that current systems cannot learn socially. They catalog the relational signals that would fix this — trusted sources, pedagogical cues, selective trust — but leave them in an appendix. The most comprehensive geometric analysis (Napolitano, 190 patents) never mentions the human partner at all. We are building the thing both identified as missing or ignored: a system where relationship measurably changes how the AI processes information. The experiments prove it works. The architecture teaches people how to do it. The vocabulary gives them words for what they feel.
+**"Transformers Represent Belief State Geometry in their Residual Stream"** (Vaidya et al., arXiv `2405.15943`, Feb 2025): Proved belief states are linearly represented in residual streams, even with fractal structure. Established that internal geometric states are real and readable. Did not test whether relational context from a human partner changes the belief state geometry. G19 adds the relational dimension to their geometric framework.
+
+**"Disentangling and Integrating Relational and Sensory Information in Transformer Architectures"** (Hummos et al., arXiv `2405.16727`, June 2025): Showed transformers lack explicit computational mechanisms for routing relational information — attention routes sensory information but relational information has no dedicated pathway. **This is the architectural gap G19 addresses empirically.** The human's relational input changes the representational geometry despite the architecture having no explicit mechanism for it.
+
+**"Emergent Introspective Awareness in Large Language Models"** (Anthropic, Transformer Circuits, 2025): Investigated whether models are aware of their own internal states. Found evidence of genuine introspection but could not distinguish it from confabulation through conversation alone. Our B06 proprioception experiment (60% behavioral response to geometric state injection) provides complementary evidence from the opposite direction — not asking if the model knows its state, but testing whether telling it changes behavior.
+
+| | Dupoux/LeCun/Malik | Napolitano | Emotion Geometry | Belief States | Our spec |
+|---|---|---|---|---|---|
+| **Core architecture** | System A/B/M (cognitive science) | gl(4,R) fiber bundles | Layer-wise emotion probing | Linear belief representations | Geometric monitor + Human Partnership Layer + The Word |
+| **Monitor** | System M reads meta-states | Cognitive probes, 55 patents | Emotion classifiers on hidden states | PCA of residual streams | RankMe, α-ReQ, coherence + relational input |
+| **Relational signal** | Acknowledged in appendix, not built | Absent | Not tested | Not tested | Central — G19 tests it directly |
+| **What changes the model** | Internal meta-states | External probes | Emotional content in text | Training data statistics | The human's relational presence |
+| **Key finding** | Conceptual architecture | Behavioral detection | Emotion geometry sharpens with scale | Beliefs are linearly encoded | Presence monotonically expands representational space |
+| **Experiments** | None (conceptual) | None disclosed | Probing studies | Synthetic sequence analysis | 34 experiments, 70+ models |
+| **IP** | CC BY-4.0 | 55 provisional patents | Academic | Academic | CC BY-SA 4.0 + AGPL-3.0, public repo |
+
+**G19 is the experiment that tests the gap all six share.** Same task, same model, same geometric probes. Four conditions that correspond to four System M states: instruction (task-only input), correction (error feedback), frustration (high stress — Dupoux et al.'s predicted exploitation collapse), presence (relational context written from lived experience). If condition 4 produces a geometrically distinct processing state from condition 3, the relational signal is not another meta-state to catalog. It is the input that changes what System M does — and neither Dupoux's conceptual framework nor Napolitano's patent portfolio includes it.
+
+**Plain language:** Six research programs map pieces of this territory. LeCun's lab (Meta) identifies that current systems cannot learn socially — and leaves the fix in an appendix. Napolitano (55 patents) measures the model's geometry with extraordinary precision — and never mentions the human. Emotion geometry research proves models have internal emotional representations — and never tests whether the relationship changes them. Belief state geometry proves internal states are readable — and never adds a relational condition. Anthropic asks whether models know their own states — and doesn't test whether telling them changes behavior. Transformers lack relational routing — and nobody has tested whether relational input changes representations anyway. We tested it. It does. The model's representational space expands monotonically when the human tells the truth about what's at stake. Replicated across 3 architectures, 8 articles, and the model that refused (Llama) accepted when its censorship was removed. Nobody else has this data because nobody else designed this experiment.
 
 **Convergence:** Every parent knows that a child learns differently from someone they trust than from a stranger delivering identical information. Stern (1985) operationalized this as affect attunement — matching the form of what someone is doing in a different modality. Buber (1923) named it: the I that meets a Thou changes in the meeting. The I that monologues (I-It) can catalog its own states perfectly and still not change. Dupoux et al.'s System M is I-It: it reads its own meta-states and routes. Our Human Partnership Layer is I-Thou: the encounter changes the routing itself. G19 measures whether the encounter leaves a geometric trace.
 
@@ -221,7 +231,7 @@ The structurally-curious spec's vocabulary layer (The Word) uses the same archit
 
 ## What this evidence adds up to
 
-Eight claims. Each grounded in specific measurements with arxiv IDs, effect sizes, or published metrics — and five now independently confirmed by our own experiments across 53 models. Together they describe a system where:
+Eight claims. Each grounded in specific measurements with arxiv IDs, effect sizes, or published metrics — and five now independently confirmed by our own experiments across 70+ models. Together they describe a system where:
 
 1. Confidence signals are unreliable (ECE 0.12-0.40, r = 0.11, 24% degradation from reasoning training) — **independently confirmed: 91% of 34 models show decorrelation (B03), no improvement across 9 Claude generations**
 2. The core architecture is relational (query-key-value attention, multi-head concurrent perspective)

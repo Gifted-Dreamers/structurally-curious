@@ -81,11 +81,20 @@ The human co-author provides the felt-sense translations. The agent provides the
 
 ## Prior art and differentiation
 
-- **Napolitano (Proprioceptive AI, 2602.20021)**: 20 probes, 16 dimensions, 9 systems. All measure the model. None test relational context.
+Six research programs approach the boundary. None cross it.
+
+- **Napolitano (Proprioceptive AI, 55 patents, 2026)**: Cognitive probes on hidden states detect hedging, hallucination, shallow reasoning. Measurement + control frame. Never tests whether who is speaking changes what the probes read.
+- **Dupoux, LeCun & Malik (System M, arXiv 2603.15381, 2026)**: Most complete cognitive science formalization of meta-control. Acknowledges "reliable conspecifics / selective trust" in Appendix C but proposes no architecture for it.
+- **Liang et al. (Emotion Geometry, arXiv 2510.04064, 2025)**: Proved LLMs develop "well-defined internal geometry of emotion" in middle layers. Measured how models represent emotional *text*. Did not test whether the *relationship* with the human changes that geometry.
+- **Vaidya et al. (Belief State Geometry, arXiv 2405.15943, 2025)**: Proved beliefs are linearly represented in residual streams. Geometric framework but no relational condition.
+- **Hummos et al. (Relational vs Sensory, arXiv 2405.16727, 2025)**: Showed transformers lack explicit mechanisms for routing relational information. This is the architectural gap G19 addresses empirically — the human's relational input changes geometry despite no dedicated routing mechanism.
+- **Anthropic (Introspective Awareness, Transformer Circuits, 2025)**: Asked whether models know their own states. Our B06 (proprioception) answers from the other direction — does telling the model its state change behavior? (Yes, 60% on hard tasks.)
 - **Liberation Labs / JiminAI**: Binary honest/deceptive classification. No relational condition.
-- **Marks & Tegmark (Geometry of Truth, 2023)**: Truth-related representations form consistent structures. Did not test whether the *source* of the input (instructional vs relational) changes the structure.
-- **Burns et al. (CCS, 2023)**: Contrast-consistent search for truth directions. Single truth direction, no relational dimension.
-- **Our F3d**: Showed vocabulary compresses generation by 38%. F38 tests whether *relational* vocabulary (felt-sense names) compresses differently from *structural* vocabulary (technical names).
+- **Marks & Tegmark (Geometry of Truth, 2023)**: Truth representations form consistent structures. Did not test whether the *source* of the input changes the structure.
+- **Burns et al. (CCS, 2023)**: Single truth direction, no relational dimension.
+- **Our G06**: Showed vocabulary compresses generation by 38%. G19 tests whether *relational* vocabulary (felt-sense names) compresses differently from *structural* vocabulary (technical names).
+
+**What G19 uniquely contributes:** The first measurement of hidden-state geometry during a relational exchange with a human. Not emotion in text, not belief state geometry, not introspective awareness — but the geometric trace of the encounter itself.
 
 ## Corpus: CloudPublica articles
 
