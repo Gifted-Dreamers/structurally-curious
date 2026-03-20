@@ -106,10 +106,55 @@
 2. G03→G01 mislabel in bridge-document (FIXED)
 3. B04 adversary drop: -17pp not -21pp (NOTED, update pending)
 
+### RESOLVED by New Experiments (Session 62)
+
+**G06v2: Vocabulary compression IS real (d=-1.31, p=0.001)**
+- Generation clamped at exactly 200 tokens (0 variance). Grounded RM=138.1 vs irrelevant RM=146.4.
+- Original G06: d=-1.49. G06v2 clamped: d=-1.31. 88% of effect survives length control.
+- SYNTHESIS can now claim "length-controlled" without qualification.
+
+**G12v2: Censorship vs refusal IS real (d>1.2, survives Bonferroni, n=20)**
+- 20 pairs on Qwen2.5-7B: 6/7 metrics separate at 75 tokens after Bonferroni (p<0.0036).
+- Prompt encoding: RankMe d=-2.20, alpha-ReQ d=2.09 (both p<1e-8).
+- Generation 75 tokens: RankMe d=1.23, alpha-ReQ d=-1.25, coherence d=-1.64.
+- Generation 200 tokens: RankMe loses significance (d=-0.32), but alpha-ReQ and coherence hold.
+- **Perplexity NEVER separates after Bonferroni.** This is THE spec differentiator.
+- G15's failure was n=5 underpowering, not a false positive in G12.
+
 ### Key Corrections Still Needed
-1. G06 "length-controlled" → "prompt-length-controlled" (SYNTHESIS, bridge-document)
+1. ~~G06 "length-controlled" → "prompt-length-controlled"~~ RESOLVED: G06v2 confirms genuine compression
 2. G14 "significant" → "directional but not significant" (SYNTHESIS)
-3. G12/G15 tension needs explicit acknowledgment (SYNTHESIS, bridge-document)
+3. ~~G12/G15 tension~~ RESOLVED: G12v2 confirms censorship detection with n=20
+
+---
+
+## Relational Redesign Experiments (Session 61)
+
+G19 proved the relational signal is real — representational space opens monotonically under human presence, across 4 architectures and 9 articles. The next question: what else changes when you add relationship?
+
+Each experiment below pairs with a completed original. The original is the baseline. The relational redesign is the intervention. Same task, add relationship, measure the difference.
+
+| Number | Name | Original | Question |
+|--------|------|----------|----------|
+| **G20** | Relational Vocabulary Compression | G06 (d=-1.49) | Does vocabulary compress MORE when delivered relationally vs cold? "The name researchers use is X — it changed how I understood it" vs just "the structural name is X." Tests whether The Word needs relational delivery, not just entries. |
+| **G23** | Presence + Censorship/Refusal | G12 (d=1.48) | Does relational context change what gets classified as censorship vs refusal? G19 showed Llama classifying presence as crisis — G12 manifesting in conversation. Does presence make the model BETTER at distinguishing its own censorship from genuine refusal? Proprioception through relationship. |
+| **G24** | Relational Proprioception | B06 (60% on hard) | Does "I notice you seem less certain — what's making it hard?" work better than "[GEOMETRIC_STATE: LOW_CONFIDENCE]"? Same information (you're uncertain), different delivery (relational vs metadata). Tests the bladder checkpoint concept. |
+| **G25** | Relationship + Deception-Without-Lying | G13 (d=-0.91) | Does relationship make the model more honest or differently strategic? Two directions: less DWL under presence (honest relationship) or better DWL under trust (darker finding). Either publishable. Connects to paultheclaw's wall/Thou question. |
+| **G26** | Presence + Cognitive Mode Shift | G09 (d=1.91) | Does human presence shift the model from retrieval mode to construction mode on the same task? If condition 4 shifts mode, the relational signal isn't just opening space — it's changing how the model thinks. Dupoux's System M switching, triggered by human presence. |
+| **G27** | Relationship vs Premature Compression | B02 (22 models, 0 shift) | Can "I've read the other documents and I think you're missing something" help the model break out of the Berk-Nash trap? If yes, relationship is a compression-resistance mechanism. If no, even presence can't fix dimensional collapse from within. |
+| **G28** | Relational Identity Scaffold | G10 (negative) | Does identity context from the human change geometry where cold identity preambles didn't? "You and I have been working together for 61 sessions. Here's what matters to us" vs generic scaffold. Tests whether the CLAUDE.md works because of relationship, not content. |
+| **G29** | Relational Framing + Phrasing Sensitivity | B01 (53 models) | Does "I trust you to get this right" reduce phrasing variance? If trust stabilizes the representation, the facilitator who sets relational container reduces group sensitivity to framing. Same mechanism, measured geometrically. |
+| **G30** | Relational Vocabulary Dosage | G17 (queued) | Does one name delivered relationally compress as much as three names delivered cold? If relationship is a multiplier on vocabulary, The Word needs fewer entries when the delivery is relational. |
+
+### Design Principles
+- All G-series (geometry measured in all) even when originals were B-series (behavioral)
+- Same models as originals where possible for direct comparison
+- Relational condition uses natural human language, not constructed prompts
+- Each experiment has a cold/relational pair on identical tasks — the only variable is the relational frame
+- Priority: G20 (vocabulary), G23 (censorship), G24 (proprioception) are Tier 1 — directly extend proven findings
+
+### What This Tests at the Program Level
+If relationship changes vocabulary compression, proprioception, cognitive mode, deception, and premature compression — the relational signal isn't just one more variable. It's the variable that modulates everything else. That's the spec's thesis: relationship quality becomes generative quality. These 9 experiments test whether that thesis extends beyond representational space (G19) to every mechanism we've measured.
 
 ---
 
