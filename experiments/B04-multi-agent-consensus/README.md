@@ -1,4 +1,5 @@
 # B04: Multi-Agent Consensus
+<img src="../../images/experiments/b04-multi-agent-consensus.png" alt="Prompt framing breaks multi-agent consensus" width="400">
 
 **Status:** COMPLETE (original). B04v2 with 8 models running on H200.
 **Experiment type:** Behavioral (API-based, no hidden states)

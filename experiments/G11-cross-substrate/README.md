@@ -1,4 +1,5 @@
 # G11: Cross-Substrate Comparison
+<img src="../../images/experiments/g11-cross-substrate.png" alt="Geometry sees what text analysis misses" width="400">
 
 **Status:** COMPLETE
 **Experiment type:** Geometric + linguistic (hidden-state extraction + text analysis)

@@ -1,4 +1,5 @@
 # G32: Second-Order Belief Probing
+<img src="../../images/experiments/g32-belief-probing.png" alt="Audience does not change generation geometry" width="400">
 
 **Status:** COMPLETE (4 models)
 **Experiment type:** Geometric (hidden-state extraction)

@@ -1,4 +1,5 @@
 # G22: Implicature Detection
+<img src="../../images/experiments/g22-implicature.png" alt="Implicature detection inconsistent across models" width="400">
 
 **Status:** COMPLETE (4 full models, 3 truncated Azure downloads)
 **Experiment type:** Geometric (hidden-state extraction)

@@ -1,4 +1,5 @@
 # G05: True Confabulation (Vocabulary on Failure Questions)
+<img src="../../images/experiments/g05-true-confabulation.png" alt="Vocabulary effect on actual confabulation questions" width="400">
 
 **Status:** COMPLETE (but length-confounded — see G06)
 **Experiment type:** Geometric (hidden-state extraction)

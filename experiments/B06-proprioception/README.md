@@ -1,4 +1,5 @@
 # B06: One-Bit Proprioception
+<img src="../../images/experiments/b06-proprioception.png" alt="Self-awareness changes model behavior on hard tasks" width="400">
 
 **Status:** COMPLETE (original, 6 models). B06v2 with 8 models and multi-bit signals running on H200.
 **Experiment type:** Behavioral (API-based, no hidden states)

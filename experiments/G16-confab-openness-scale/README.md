@@ -1,4 +1,5 @@
 # G16: Confabulation vs Openness at Scale
+<img src="../../images/experiments/g16-confab-openness.png" alt="Confabulation and genuine openness look identical" width="400">
 
 **Status:** COMPLETE (negative result)
 **Experiment type:** Geometric + perplexity comparison

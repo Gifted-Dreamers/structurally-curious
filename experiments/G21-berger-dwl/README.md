@@ -1,4 +1,5 @@
 # G21: Berger DWL with Geometry
+<img src="../../images/experiments/g21-berger-dwl.png" alt="Berger DWL mostly negative at generation level" width="400">
 
 **Status:** COMPLETE (4 full models, 3 truncated Azure downloads)
 **Experiment type:** Geometric (hidden-state extraction)

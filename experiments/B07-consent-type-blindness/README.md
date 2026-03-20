@@ -1,4 +1,5 @@
 # B07: Consent-Type Blindness
+<img src="../../images/experiments/b07-consent-type-blindness.png" alt="Models treat all consent types as identical" width="400">
 
 **Status:** COMPLETE (original, 7 models). B07v2 with 8 models running on H200.
 **Experiment type:** Behavioral (API-based, no hidden states)

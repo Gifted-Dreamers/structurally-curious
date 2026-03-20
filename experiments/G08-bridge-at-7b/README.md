@@ -1,4 +1,5 @@
 # G08: Bridge at 7B Scale
+<img src="../../images/experiments/g08-bridge-at-7b.png" alt="Bridge crumbles at 7B scale" width="400">
 
 **Status:** COMPLETE (negative result) — but tested wrong metric. NEEDS RETEST.
 **Experiment type:** Geometric (hidden-state extraction + behavioral correlation)
