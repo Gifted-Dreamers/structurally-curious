@@ -30,6 +30,17 @@
 - If coherence bridge holds: G08 negative result is metric-specific, not scale-specific
 - If coherence bridge also breaks: bridge genuinely fails at scale
 
+### G14: DWL detection underpowered — needs 20+ scenarios
+- **What docs say:** "DWL sprawls more than honest in 5/6 models (d=-0.6 to -0.9)"
+- **Actual data:** Direction holds in 7/10 models, but NO model reaches significance at n=5. All p>0.14.
+- **Fix:** Note "directional but not significant" in SYNTHESIS. Run with 20+ scenarios per model.
+- **Impact:** The DWL claim (G13's core finding + G14's replication) is underpowered. At d≈0.7 and n=5, power is ~40%. At n=20, power rises to ~85%. This is a priority expansion.
+
+### G12: Censorship vs refusal needs more pairs and models
+- **What docs say:** "d=1.48, p=0.041"
+- **Actual data:** Correct, but n=5 on 1 model only.
+- **Fix:** Replicate with 20+ pairs across 8+ models. G15 has 7 models but may have different n.
+
 ### B08v2: Already running on H200 (8 models, 10 turns)
 - Original inconclusive (1 model, no difference between signal/no-signal)
 
