@@ -41,6 +41,12 @@
 - Session 57 queued original scripts — check if they completed
 - Length confound is the recurring enemy
 
+### G06: "length-controlled" omits generation-length confound
+- **What docs say:** "d=-1.49, p=0.0004, length-controlled" (SYNTHESIS, bridge-document)
+- **Actual data:** PROMPT length is controlled (~70 tokens all conditions). GENERATION length is NOT controlled (grounded avg 120 tokens, padded/irrelevant avg 200). RankMe correlates with generation token count at r=0.996 across all conditions, r=0.997 within grounded.
+- **Fix:** Change "length-controlled" to "prompt-length-controlled" in SYNTHESIS and bridge-document. Add note that generation-length confound is unresolved.
+- **Impact:** The d=-1.49 is real but may be a generation-length artifact. **G06v2 needed** with clamped generation length (`min_new_tokens=max_new_tokens`). If compression persists → genuine finding. If equalizes → artifact.
+
 ### Bridge-document: G03 label applied to G01 finding
 - **What doc says (line 79):** "Experiment G03 (internal): Phrasing sensitivity correlates with directional coherence in hidden representations (r = +0.523, p = 0.018, Qwen 2.5 1.5B)"
 - **Actual:** This is G01's finding, not G03's. G03 is vocabulary compression (confab vs grounded prompts). G01 is the behavioral-geometric correlation (PS vs coherence).
