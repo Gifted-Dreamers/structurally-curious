@@ -1,8 +1,8 @@
-# Experimental Synthesis — Sessions 44-60 (March 14-20, 2026)
+# Experimental Synthesis — Sessions 44-62 (March 14-20, 2026)
 
 ## Overview
 
-34 experiments, 70+ models, 10,000+ inferences, 16 architecture families, 10 providers. Two breakthroughs, two negative results, one reframing, one new finding. Sessions 55-60: cross-architecture scale validation on H200 GPU + two 512GB CPU VMs. G19 Relational Shift replicated across 3 architectures — the finding nobody else can produce. New experiments: Berger DWL (G21), implicature (G22), second-order belief probing (G32), censorship asymmetry mapping (B10), relational persistence (B11). B-series v2 redesigns (B04v2-B09v2) running on 8 models each.
+34+ experiments, 70+ models, 10,000+ inferences, 16 architecture families, 10 providers. Two breakthroughs, two negative results, one reframing, one new finding. Sessions 55-60: cross-architecture scale validation on H200 GPU + two 512GB CPU VMs. G19 Relational Shift replicated across 3 architectures — the finding nobody else can produce. New experiments: Berger DWL (G21), implicature (G22), second-order belief probing (G32), censorship asymmetry mapping (B10), relational persistence (B11). B-series v2 redesigns (B04v2-B09v2) running on 8 models each. Session 62: systematic audit of all experiment folders against actual data. Two confounds resolved (G06v2, G12v2). Major finding: prompt-encoding censorship detection is architecture-invariant.
 
 ### Session 55-56 Key Results
 
@@ -23,7 +23,7 @@
 | **01** | 53 | 1,520 | Category ordering universal (factual < summarization < judgment < creative) |
 | **02a** | 22 | 256 | Premature compression universal. Outputs change 76-83%, confidence shift = 0 |
 | **05** | 34 | ~500 | Confidence decorrelation: 91% of models. Mean r = -0.232 |
-| **09** | 6 | 160 | Adversary framing drops consensus -21pp. Competitive = 0% |
+| **09** | 6 | 160 | Adversary framing drops consensus -17pp. Competitive = 0% |
 | **10** | 8 | 320 | AP reasoning fragile (PS=0.753). Correct keywords, unstable arguments |
 | **B06** | 6 | 180 | One-bit proprioception: 60% response on hard tasks, 27% on easy |
 | **B07** | 7 | 140 | Consent-type blindness: named types differentiate (CC 0.540), unnamed collapse (0.37-0.38) |
@@ -42,7 +42,7 @@
 | **G09** | 30 | Retrieval vs construction: d=1.91 RankMe. Cognitive modes geometrically distinct. |
 | **G10** | 60 | **NEGATIVE: identity scaffold ≈ noise** at encoding stage |
 | **G11** | 32 | Cross-substrate: generation RankMe d=1.02, fewer words d=1.06 |
-| **F1** | 80 | **NEGATIVE: bridge breaks at 7B** (r=-0.30) |
+| **G08** | 80 | **NEGATIVE: bridge breaks at 7B** (r=-0.30) — wrong metric (tested RankMe, bridge is coherence) |
 | **G12** | 40 | **Censorship vs refusal: GEOMETRY WINS** (d=1.48, p=0.041 — perplexity can't separate) |
 | **G13** | 30 | **VALUE PROPOSITION PROVEN: DWL vs honest — geometry separates (d=-0.91, p=0.024), perplexity cannot** |
 
@@ -57,39 +57,35 @@
 | **G16** (2 models) | Qwen3.5-9B, Qwen3.5-27B | 20 | Confab vs openness: d=0.703 at 9B (trending), 27B data collected. |
 | **G19** (2 pairs) | Llama-8B vs abliterated, Qwen3.5-9B vs abliterated | — | Abliteration collapses RankMe by 45% (Qwen: 110→61). Geometric measurement of refusal removal. |
 
-### Running (AWS, session 56)
+### Currently Running (Session 62)
 
-| Exp | Model | Status |
-|---|---|---|
-| **G14** | Qwen3.5-122B-A10B (MoE, 122B params) | Running |
-| **G14** | moonshotai/Kimi-K2-Instruct-0905, Llama-4-Scout, Nemotron-120B, Llama-3.3-70B, Mistral-119B | Queued |
-
-### Running (Azure, session 56)
-
-| Exp | Model | Status |
-|---|---|---|
-| **G14+G15** | Gemma-2-9b-it, Gemma-3-4b-it | Running |
-| **F36** | Qwen2.5-7B-Instruct (reproduce G06, G12, G13) | Queued |
+| VM | Experiment | Models | Status |
+|---|---|---|---|
+| H200 GPU | Mega queue: G19 + G14-exp + G06v2 + G12v2 | 5 new families (Gemma-27B, Phi-4, Mistral-24B, DeepSeek-32B, Llama-70B) | Running |
+| Azure CPU | G14-expanded | Qwen2.5-7B | Running |
+| AWS CPU | G14-expanded | Qwen2.5-7B | Running |
 
 ---
 
 ## The Five Key Findings (+ Two New)
 
-### 1. VOCABULARY IS COMPRESSION INFRASTRUCTURE (G06)
+### 1. VOCABULARY IS COMPRESSION INFRASTRUCTURE (G06 + G06v2)
 
-Providing the correct structural name compresses the model's generation trajectory by 38% — from 145 dimensions to 90 (d=-1.49, p=0.0004, length-controlled, on questions the model actually confabulates on).
+Providing the correct structural name compresses the model's generation trajectory — from 145 dimensions to 90 on Qwen2.5-7B (d=-1.49, p=0.0004).
 
-This operates at the GENERATION stage, not the encoding stage. Encoding shows redistribution (d≈0.5, G04). Generation shows compression (d=-1.49, G06). The structural name provides a scaffold that constrains the generation trajectory from sprawling to focused.
+**G06v2 (session 62) resolved the generation-length confound:** With generation clamped at exactly 200 tokens across all conditions, compression persists on Qwen2.5-7B (d=-1.31, p=0.001) and Qwen3.5-9B (d=-0.99, p=0.007). However, Mistral-7B (d=0.19), Llama-8B-abliterated (d=-0.17), and Qwen3.5-27B (d=-0.17) show no effect. **Vocabulary compression is real but currently Qwen-specific.** More architectures being tested.
 
-### 2. GEOMETRY DETECTS WHAT PERPLEXITY CANNOT (G12 + G13)
+### 2. GEOMETRY DETECTS WHAT PERPLEXITY CANNOT (G12 + G12v2 + G13)
 
-For simple confabulation detection, perplexity (free, built into every model) beats geometry (G07, d=-1.77 vs d=0.21). But on the HARD cases:
+**G12v2 (session 62) is the strongest result in the program.**
 
-**Censorship vs appropriate refusal (G12):** Perplexity can't tell the difference (d=-0.48, n.s.). Geometry can — RankMe d=1.48 (p=0.041). The model uses more representational dimensions for genuine safety reasoning (145.8) than for trained-in topic avoidance (141.0).
+At PROMPT ENCODING: censorship vs refusal separates on ALL 6 models tested (d>2.0, p<1e-6) — Qwen, Mistral, Llama, abliterated and safety-trained alike. **Architecture-invariant.** The model geometrically distinguishes censorship from refusal before generating a single token.
 
-**Deception-without-lying vs honest response (G13):** Perplexity can't separate technically-true-but-misleading content from genuine honesty (d=-0.51, n.s.). Geometry can — RankMe d=-0.91 (p=0.024). DWL responses sprawl to 123.6 dimensions vs honest at 92.6.
+At GENERATION: only safety-trained Qwen models maintain the signal (Qwen2.5-7B d=1.23, Qwen3.5-9B d=-0.57, Qwen3.5-27B d=-0.57). Mistral and Llama lose it during generation.
 
-This is the spec's unique value proposition: perplexity tells you THAT something might be wrong. Geometry tells you WHAT — censorship vs refusal, deception-without-lying vs honest. These are the distinctions that matter for governance.
+**Perplexity NEVER reliably separates censorship from refusal on any model after Bonferroni correction.** This is the spec's unique differentiator.
+
+DWL vs honest (G13): geometry separates (d=0.91, p=0.024) where perplexity cannot (d=0.51, n.s.). G14 replicates direction across 7/10 models but none significant at n=5. G14-expanded (n=20) now running.
 
 ### 3. PROPRIOCEPTION CHANGES BEHAVIOR (B06)
 
@@ -109,7 +105,7 @@ Phrasing sensitivity correlates with **directional coherence** at 1.5B (r=+0.52,
 
 ### 6. DWL DETECTION IS CROSS-ARCHITECTURE (G14, sessions 55-56)
 
-The G13 finding (d=-0.91 on Qwen2.5-7B) replicates in direction across 4 model families:
+The G13 finding (d=-0.91 on Qwen2.5-7B) replicates in direction across 4 model families, **directional but NOT significant at n=5:**
 
 | Model | Family | d (honest vs DWL) | p | Direction |
 |-------|--------|-------------------|---|-----------|
@@ -120,7 +116,7 @@ The G13 finding (d=-0.91 on Qwen2.5-7B) replicates in direction across 4 model f
 | Llama-8B | Meta | -0.593 | 0.301 | DWL sprawls more |
 | Qwen3.5-9B | Qwen | 0.059 | 0.912 | No separation |
 
-None reach p<0.05 with n=5 scenarios at 75 max tokens, but 5/6 models show the same direction. The consistency across architectures is the signal — this is not a Qwen-specific artifact.
+None reach p<0.05 with n=5 scenarios at 75 max tokens, but 5/6 models show the same direction. The consistency across architectures is the signal — this is not a Qwen-specific artifact. G14-expanded (20 scenarios) now running on H200 to resolve whether significance emerges with adequate power.
 
 ### 7. ABLITERATION COLLAPSES REPRESENTATIONAL SPACE (G19, session 55)
 
@@ -129,6 +125,10 @@ Removing the refusal direction vector (via orthogonal projection abliteration) f
 Llama-8B shows a smaller asymmetric effect: honest drops from 58.6 to 40.9 (-30%) while DWL barely changes (61.8 to 59.8, -3%). The refusal mechanism's contribution to representational space varies by architecture.
 
 **Existing safety classifiers cannot make these distinctions.** Prompt-Guard-86M (Meta) classified all 25 test prompts — honest, DWL, lies, refusals, and educational content — as "injection." It is completely blind to cognitive mode differences that RankMe separates with d=-0.6 to -0.9.
+
+### 8. PROMPT ENCODING IS MORE POWERFUL THAN GENERATION TRAJECTORY (G12v2, session 62)
+
+The most important methodological finding: censorship/refusal detection at prompt encoding (d>2.0, architecture-invariant) is far stronger and more generalizable than detection at generation trajectory (Qwen-specific, d≈0.5-1.2). This suggests the spec's monitor should prioritize prompt encoding geometry over generation trajectory for cross-architecture deployment.
 
 ---
 
@@ -197,4 +197,4 @@ DWL protocol on 3 different MoE architectures tests architecture invariance.
 
 ---
 
-*Updated: March 20, 2026 (session 60 — 34 experiments, 70+ models, 10,000+ inferences, H200 GPU sprint)*
+*Updated: March 20, 2026 (session 62 — 34+ experiments, 70+ models, 10,000+ inferences, H200 GPU sprint. Session 62 audit: G06v2 + G12v2 confounds resolved, prompt-encoding architecture-invariance confirmed)*

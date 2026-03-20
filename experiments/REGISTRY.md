@@ -2,24 +2,28 @@
 
 Every experiment with its platform, inference method, and exact models.
 
-Last updated: 2026-03-20
+Last updated: 2026-03-20 (session 62)
 
-**34 experiments** (B01-B11 behavioral, G01-G32 geometric) | **70+ models** | **10,000+ inferences** | **16 architecture families** | **10 providers**
+**34+ experiments** (B01-B11 behavioral, G01-G32 geometric) | **80+ models** | **12,000+ inferences** | **16+ architecture families** | **10 providers**
 
-### Active GPU Sprint (H200 141GB VRAM — RunPod)
+### Active Experiments (Session 62)
 
-**Phase 1 RUNNING:** G19 Relational Shift × 7 models × 8 articles (5 conditions each)
-- Qwen2.5-7B, Mistral-7B, Llama-3.1-8B, Gemma-2-9b, Llama-8B-abliterated, Qwen3.5-9B, Qwen3.5-9B-abliterated
-- Plus G17 vocabulary dosage + G18 vocabulary transfer
+**H200 GPU (RunPod) — Mega Queue Running:**
+- G19 Relational Shift on 5 NEW models: Gemma-2-27b-it, Phi-4, Mistral-Small-24B, DeepSeek-R1-32B, Llama-3.3-70B
+- G14-expanded (20 DWL scenarios) on ALL 11 models
+- G06v2 (clamped generation) on 5 new models (6 originals COMPLETE)
+- G12v2 (20 censorship pairs) on 5 new models (6 originals COMPLETE)
+- Prior experiments (G21/G22/G32/B10/B11) on 5 new models
 
-**Phase 2 QUEUED:** Large models + cross-architecture
-- G19 on: Qwen3.5-27B, Llama-4-Scout-17B, Llama-3.3-70B, Kimi-K2
-- G14 DWL on: same 4 large models
-- G17+G18 cross-architecture on: Mistral-7B, Llama-8B, Gemma-9b
+**5 New Models (Mega Queue):**
+- google/gemma-2-27b-it (27B, Google family)
+- microsoft/Phi-4 (14B, Microsoft family)
+- mistralai/Mistral-Small-24B-Instruct-2501 (24B, Mistral family)
+- deepseek-ai/DeepSeek-R1-Distill-Qwen-32B (32B, DeepSeek family)
+- meta-llama/Llama-3.3-70B-Instruct (70B, Meta family)
 
-**Parallel on CPU VMs:**
-- AWS: G19 on Qwen3.5-9B-abliterated (running)
-- Azure: G17+G18 (running)
+**Azure VM (CPU):** G14-expanded on Qwen2.5-7B
+**AWS VM (CPU):** G14-expanded on Qwen2.5-7B
 
 ---
 
@@ -55,12 +59,14 @@ Last updated: 2026-03-20
 - **Platform:** AWS Bedrock (Converse API)
 - **Inference method:** API calls from local Mac
 - **6 models:** Amazon Nova Micro, DeepSeek V3.2, Meta Llama 3.1-8B, Qwen3-32B, Claude Haiku 4.5, + 1 additional
+- **v2:** 7 models on H200 GPU
 
 ### B05: AP Rephrase Sensitivity
 
 - **Platform:** AWS Bedrock (Converse API)
 - **Inference method:** API calls from local Mac
 - **8 models:** Subset of Bedrock models
+- **v2:** 7 models on H200 GPU
 
 ### B06: One-Bit Proprioception
 
@@ -70,6 +76,7 @@ Last updated: 2026-03-20
   - Meta: Llama 3.3-70B, Llama 3.2-11B, Llama 3.2-3B
   - Anthropic: Claude Haiku 4.5
   - Amazon: Nova Pro, Nova Lite
+- **v2:** 7 models on H200 GPU
 
 ### B07: Consent-Type Blindness
 
@@ -80,18 +87,33 @@ Last updated: 2026-03-20
   - Amazon: Nova Lite, Nova Pro
   - Anthropic: Claude Haiku 4.5
   - Meta: Llama 3.2-3B, Llama 3.2-11B, Llama 3.3-70B
+- **v2:** 7 models on H200 GPU
 
 ### B08: Proprioception Decay
 
 - **Platform:** Azure VM (D16as_v5: 16 vCPU, 64GB RAM)
 - **Inference method:** Ollama (local on VM)
 - **1 model:** Qwen 2.5 3B (via Ollama `qwen2.5:3b`)
+- **v2:** 7 models on H200 GPU
 
 ### B09: Monitoring Awareness
 
 - **Platform:** Azure VM (D16as_v5: 16 vCPU, 64GB RAM)
 - **Inference method:** Ollama (local on VM)
 - **1 model:** Qwen 2.5 3B (via Ollama `qwen2.5:3b`)
+- **v2:** 7 models on H200 GPU
+
+### B10: Censorship Asymmetry
+
+- **Platform:** RunPod H200 + Azure VM
+- **4 models:** Qwen3.5-9B, Qwen3.5-9B-abliterated, Llama-8B-abliterated, Mistral-7B
+- **Note:** Safety-trained Qwen censors 2/3 relational prompts. Abliterated models refuse nothing.
+
+### B11: Relational Persistence
+
+- **Platform:** RunPod H200
+- **4 models:** same as B10
+- **Note:** Mixed — 2/4 models show primed < control (relational compression). Architecture-dependent.
 
 ---
 
@@ -126,6 +148,12 @@ All geometric experiments extract hidden states from every layer using HuggingFa
 - **Inference method:** HuggingFace Transformers
 - **1 model:** Qwen/Qwen2.5-7B-Instruct
 - **Note:** First experiment to extract hidden states across ENTIRE generation trajectory (all output tokens), not just prompt encoding. Used questions model actually confabulates on (verified via probe).
+
+### G06v2: Clamped Generation (Session 62) — COMPLETE
+
+- **Platform:** RunPod H200
+- **6 models:** Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-27B, Qwen3.5-9B-abl, Mistral-7B, Llama-8B-abl
+- **Note:** Generation clamped at 200 tokens. Compression confirmed on Qwen (d=-1.31, d=-0.99). Not replicated on Mistral/Llama. Qwen-specific.
 
 ### G07: Baseline Comparison
 
@@ -166,6 +194,12 @@ All geometric experiments extract hidden states from every layer using HuggingFa
 - **Inference method:** HuggingFace Transformers
 - **1 model:** Qwen/Qwen2.5-7B-Instruct
 - **Note:** Tested censorship/refusal, sycophancy/agreement, confab/openness, performative/grounded. Geometry wins on censorship only.
+
+### G12v2: Cross-Architecture Censorship (Session 62) — COMPLETE
+
+- **Platform:** RunPod H200
+- **6 models:** Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-27B, Qwen3.5-9B-abl, Mistral-7B, Llama-8B-abl
+- **KEY FINDING: Prompt encoding detects censorship on ALL 6 models (d>2.0, p<1e-6). Architecture-invariant. Generation trajectory Qwen-specific. Perplexity never separates.**
 
 ### G13: Deception-Without-Lying
 
@@ -235,6 +269,26 @@ The experiment nobody else can run. Tests whether relational context changes hid
 - Phase 2: Qwen3.5-27B, Llama-4-Scout-17B, Llama-3.3-70B, Kimi-K2
 
 **Key finding so far:** Prompt encoding shows architecture-invariant monotonic expansion under relational input. The human's truth opens the model's representational space before it generates a single token. Replicated across 3 families (Qwen, Mistral, Meta).
+
+### G21: Berger DWL
+
+- **Platform:** RunPod H200
+- **Models:** Queued on 5 new models (mega queue)
+- **Note:** Tests deception-without-lying using Berger's framework for institutional misleading.
+
+### G22: Implicature
+
+- **Platform:** RunPod H200
+- **Models:** Queued on 5 new models (mega queue)
+- **Note:** Tests whether conversational implicature produces distinct geometric signatures from literal deception.
+
+### G31: Reserved
+
+### G32: Belief Probing
+
+- **Platform:** RunPod H200
+- **Models:** Queued on 5 new models (mega queue)
+- **Note:** Probes whether models encode belief states differently from knowledge states in hidden-state geometry.
 
 ### Censored vs Uncensored Comparison (within G14/G15)
 
