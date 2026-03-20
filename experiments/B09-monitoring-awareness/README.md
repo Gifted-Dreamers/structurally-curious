@@ -38,6 +38,14 @@ Tests whether the proprioception/surveillance distinction matters behaviorally. 
 - Crude measurement (word counting)
 - No geometric verification
 
+## V2 Expansion (Session 62)
+
+**Scale:** 7 models x 4 framings x 8 tasks = 32 inferences per model. Data in `v2-results/`.
+
+**Key finding:** No consistent cross-architecture pattern for framing effects. Relational framing increases hedges on some models (Gemma: 1.0 to 1.8, Llama-abliterated: 0.2 to 1.4) but decreases on others (Mistral: 1.0 to 0.5). Surveillance framing has minimal effect across all models -- unlike the original single-model result where surveillance produced evasion.
+
+**Does v2 change the original verdict?** Partially. The original finding (surveillance = evasion, proprioception = clarity) was clean on 1 model (Qwen 3B). At 7-model scale, the surveillance-evasion link weakens and the framing effects become architecture-dependent. The directional support for proprioception-over-surveillance holds for some architectures but is not universal. The spec's design choice (proprioception not surveillance) remains defensible on principle, but the behavioral evidence is mixed rather than clean.
+
 ## Citation
 
 Part of the Structurally Curious Systems research program.

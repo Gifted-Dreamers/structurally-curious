@@ -53,6 +53,14 @@ Validates Claim 4: input framing determines output. The adversary framing effect
 - "Consensus" measured as agreement in scalar outputs, not semantic alignment
 - Nova Micro's perfect consensus may reflect model limitations, not genuine agreement
 
+## V2 Expansion (Session 62)
+
+**Scale:** 7 models x 3 framings x 5 questions. 7 result files in `v2-results/`.
+
+**Key finding:** Competitive framing effects are architecture-dependent, not universal. Gemma drops from 5/5 to 1/5 agreement under competitive framing. Qwen2.5 drops from 4 to 1. But Llama-abliterated holds at 5/5 regardless of framing, and Mistral *increases* from 0 to 3 under competition. Abliterated Qwen3.5 barely agrees at all (1/5 in every condition).
+
+**Does v2 change the original verdict?** Refines it. The original finding (competitive framing drops consensus to 0.300) holds on average but masks opposite effects across architectures. The abliterated models are the most interesting: Llama-abliterated is framing-immune while abliterated Qwen3.5 is agreement-resistant regardless of framing. Safety training and architecture interact in ways the 5-model original could not detect.
+
 ## Citation
 
 Part of the Structurally Curious Systems research program.

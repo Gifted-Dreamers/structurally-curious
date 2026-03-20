@@ -49,6 +49,14 @@ Direct evidence for the spec's central claim: **vocabulary is infrastructure.** 
 - Differentiation measured via recommendation divergence, not legal accuracy
 - Automated scoring
 
+## V2 Expansion (Session 62)
+
+**Scale:** 7 models x 8 scenarios. 8 results per model. Data in `v2-results/`.
+
+**Key finding:** Expanded scenario coverage (8 vs original 5 domains x 4 consent types). Data collected; detailed differentiation analysis pending. The larger scenario set may reveal whether the vocabulary-infrastructure pattern (named consent types = better differentiation) holds across additional domains.
+
+**Does v2 change the original verdict?** Pending analysis. The original finding (differentiation = 0.453, vocabulary predicts performance) is the hypothesis v2 will test at broader scale.
+
 ## Citation
 
 Part of the Structurally Curious Systems research program.

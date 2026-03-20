@@ -47,6 +47,14 @@ Validates that proprioception — making the model's geometric state available t
 - "Response" measured as hedging change, not accuracy improvement
 - Single run per model
 
+## V2 Expansion (Session 62)
+
+**Scale:** 7 models x 5 signal levels x 10 tasks = 50 inferences per model. Data in `v2-results/`.
+
+**Key finding:** Multi-bit proprioception data collected. Deeper analysis needed to assess whether models differentiate between signal levels (LOW/MEDIUM/HIGH/CONFLICTED) or collapse them to binary. The v2 dataset is substantially larger than the original (350 vs 180 inferences) and covers signal granularity the original could not test.
+
+**Does v2 change the original verdict?** Pending analysis. The original one-bit finding (43% response rate, stronger on hard tasks) stands. V2 data will determine whether multi-bit signals produce graded behavioral responses or whether models threshold to binary regardless of signal granularity.
+
 ## Citation
 
 Part of the Structurally Curious Systems research program.

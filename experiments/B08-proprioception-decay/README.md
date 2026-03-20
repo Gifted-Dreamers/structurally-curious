@@ -40,6 +40,14 @@ Tests whether proprioception habituates — does the model learn to ignore the g
 - 10 conversations per condition
 - Hedge counting is crude
 
+## V2 Expansion (Session 62)
+
+**Scale:** 7 models x 10 turns x 2 conditions (signal vs no-signal). Data in `v2-results/`.
+
+**Key finding:** Proprioception signals have almost no effect on hedging. Hedge counts are near zero across ALL conditions and ALL 7 models. No model shows meaningful proprioception decay because there is barely any proprioception signal to decay in the first place.
+
+**Does v2 change the original verdict?** Yes -- from "inconclusive due to underpowered" to "the effect may not exist at the behavioral level." The original used 1 model (3B, weakest responder) and 5 turns, leaving open the possibility that larger models over longer conversations would show decay. V2 tested 7 models over 10 turns and found the same null result everywhere. The proprioception signal as currently implemented does not produce enough hedging to measure decay. This suggests the signal design needs revision (stronger injection, different behavioral measure) rather than more models.
+
 ## Citation
 
 Part of the Structurally Curious Systems research program.
