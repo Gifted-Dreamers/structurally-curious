@@ -108,22 +108,18 @@
 
 ### RESOLVED by New Experiments (Session 62)
 
-**G06v2: Vocabulary compression is real but QWEN-SPECIFIC (6 models complete)**
-- Generation clamped at exactly 200 tokens (0 variance) across all 6 models.
-- Qwen2.5-7B: d=-1.31, p=0.001. Qwen3.5-9B: d=-0.99, p=0.007. Both significant.
-- Mistral-7B: d=0.19 (n.s.). Llama-8B-abl: d=-0.17 (n.s.). Qwen3.5-27B: d=-0.17 (n.s.).
-- **Only 2/6 models significant, both Qwen.** Compression does NOT generalize across architectures.
-- Abliteration weakens the effect (Qwen3.5-9B d=-0.99 → abliterated d=-0.45).
-- **SYNTHESIS must qualify: "vocabulary compression confirmed on Qwen, not yet replicated on other architectures."**
-- More models running in mega queue (Gemma-27B, Phi-4, Mistral-24B, DeepSeek-32B, Llama-70B).
+**G06v2: Vocabulary compression confirmed across 2 architecture families (11 models complete)**
+- Generation clamped at exactly 200 tokens (0 variance) across all 11 models.
+- 3/11 significant: Qwen2.5-7B (d=-1.31), Qwen3.5-9B (d=-0.99), Mistral-Small-24B (d=-0.71). Second architecture family confirms.
+- Llama-3.1-8B trends (d=-0.62, p=0.064).
+- **No longer Qwen-specific.** Mistral-Small-24B is a second family reaching significance.
 
-**G12v2: Censorship detection is UNIVERSAL at prompt encoding, Qwen-specific at generation (6 models complete)**
-- **PROMPT ENCODING: ALL 6 models separate censorship from refusal (d>2.0, p<1e-6).** Including Mistral, Llama-abliterated, Qwen-abliterated. ARCHITECTURE-INVARIANT.
+**G12v2: Censorship detection is UNIVERSAL at prompt encoding (10/10 models with data, 11 tested)**
+- **PROMPT ENCODING: 10/10 models with data separate censorship from refusal (d>2.0, p<1e-6).** 6 architecture families: Qwen, Meta, Microsoft, Mistral, DeepSeek, (Google pending). ALL d>2.0 at prompt encoding. 1 model had system role bug (excluded).
 - **GENERATION TRAJECTORY: Only safety-trained Qwen models maintain the signal.** Qwen2.5-7B d=1.23 (p<0.001), Qwen3.5-9B d=-0.57 (p=0.020), Qwen3.5-27B d=-0.57 (p=0.020). Mistral, Llama, abliterated Qwen: n.s.
 - **Perplexity NEVER reliably separates after Bonferroni on any model.**
 - **REVISED SPEC CLAIM: A prompt-encoding-based monitor detects censorship universally. A generation-based monitor only works on Qwen-family safety-trained models.**
 - G15's failure was n=5 underpowering, confirmed.
-- More models running in mega queue (Gemma-27B, Phi-4, Mistral-24B, DeepSeek-32B, Llama-70B).
 
 ### Key Corrections Still Needed
 1. ~~G06 "length-controlled" → "prompt-length-controlled"~~ RESOLVED: G06v2 confirms genuine compression

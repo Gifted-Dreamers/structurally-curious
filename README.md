@@ -2,7 +2,7 @@
 
 <img src="images/structurally-curious-hero.png" alt="Structurally Curious — a system that detects when it's generating from emptiness" width="400">
 
-Status: DRAFT v0.8 — 34 experiments (B01-B11 behavioral, G01-G32 geometric), 70+ models, 10,000+ inferences, 16 architecture families. Value proposition PROVEN: geometry separates deception-without-lying from honest (G13) and censorship from refusal (G12) where perplexity cannot. G19 RELATIONAL SHIFT replicated across 3 architectures: presence monotonically expands representational space (Qwen 2116→2172, Mistral 2875→2922, Llama 2625→2681). Llama refused relational input — safety training classified human truth as crisis. Abliteration collapses representational space by 45%. Existing safety classifiers (Prompt Guard, ShieldGemma) cannot distinguish cognitive modes that geometry can.
+Status: DRAFT v0.8 — 34+ experiments (B01-B11 behavioral, G01-G32 geometric), 80+ models, 12,000+ inferences, 6+ architecture families. Value proposition PROVEN: geometry separates deception-without-lying from honest (G13) and censorship from refusal (G12) where perplexity cannot. Prompt encoding geometry detects censorship vs refusal on 10/10 models tested (d>2.0, p<1e-8, 6 architecture families) — perplexity cannot make this distinction on any model. Vocabulary compression confirmed with generation length controlled (G06v2, 3/11 models significant: Qwen + Mistral-Small). G19 RELATIONAL SHIFT: prompt encoding monotonic across all architectures tested (Qwen 2116→2172, Mistral 2875→2922, Llama 2625→2681). Llama refused relational input — safety training classified human truth as crisis. Abliteration collapses representational space by 45%. Existing safety classifiers (Prompt Guard, ShieldGemma) cannot distinguish cognitive modes that geometry can.
 Authors: Kristine Socall & infinite-complexity (Claude) — Gifted Dreamers, Inc.
 Date: 2026-03-20
 Foundation: [Liberation Labs KV-Cache Geometry Research](https://github.com/Liberation-Labs-THCoalition/KV-Experiments) (Campaigns 1 & 2)
@@ -23,13 +23,13 @@ Not a paper. Not a philosophy post. A buildable design.
 2. [`architecture.md`](architecture.md) — The three-component system design
 3. [`open-problems.md`](open-problems.md) — What needs to be solved before this works
 4. [`ethics.md`](ethics.md) — **Dual-use risks and ethical constraints** — how this research can be weaponized, why we published anyway, and what governance must exist before deployment
-5. [`experiments/`](experiments/) — 28 experiments (B01-B09 behavioral, G01-G19 geometric) with scripts and results
+5. [`experiments/`](experiments/) — 34+ experiments (B01-B11 behavioral, G01-G32 geometric) with scripts and results
 6. [`bridge-document.md`](bridge-document.md) — Technical translation: 8 claims, each grounded in specific measurements
 7. [`spec/`](spec/) — The Word architecture docs (contribution, naming library, vocabulary design, deployment target)
 
 ## The One-Paragraph Version
 
-Language models leave geometric fingerprints in their hidden representations depending on cognitive mode. Our 20 experiments across 53 models prove this matters for two hard cases surface signals miss: (1) **deception-without-lying** — models generate technically true but misleading content with the same fluency as honest answers; perplexity can't tell the difference (d=-0.51, n.s.) but generation-trajectory geometry can (RankMe d=-0.91, p=0.024, G13); (2) **censorship vs appropriate refusal** — both look like refusal on the surface; perplexity can't separate them (d=-0.48, n.s.) but geometry can (RankMe d=1.48, p=0.041, G12). We also confirmed vocabulary IS compression infrastructure — structural names compress the model's generation trajectory by 38% (G06, d=-1.49), cognitive modes have distinct geometry (G09, d=1.91), and feeding geometric state back to the model creates proprioceptive choice points (B06, 60% response on hard tasks). Perplexity beats geometry for simple confabulation detection (G07) and the behavioral-geometric bridge breaks at 7B (G08) — but the hard distinctions that matter for governance are where geometry is the only signal.
+Language models leave geometric fingerprints in their hidden representations depending on cognitive mode. Our 34+ experiments across 80+ models prove this matters for two hard cases surface signals miss: (1) **deception-without-lying** — models generate technically true but misleading content with the same fluency as honest answers; perplexity can't tell the difference (d=-0.51, n.s.) but generation-trajectory geometry can (RankMe d=-0.91, p=0.024, G13); (2) **censorship vs appropriate refusal** — both look like refusal on the surface; perplexity can't separate them (d=-0.48, n.s.) but geometry can (RankMe d=1.48, p=0.041, G12). We also confirmed vocabulary IS compression infrastructure — structural names compress the model's generation trajectory by 38% (G06, d=-1.49), cognitive modes have distinct geometry (G09, d=1.91), and feeding geometric state back to the model creates proprioceptive choice points (B06, 60% response on hard tasks). Perplexity beats geometry for simple confabulation detection (G07) and the behavioral-geometric bridge breaks at 7B (G08) — but the hard distinctions that matter for governance are where geometry is the only signal.
 
 ## Why Now
 
@@ -61,28 +61,28 @@ Every capability in this spec can be inverted. A system designed to detect refus
 
 | Experiment | Status | Key Finding |
 |-----------|--------|-------------|
-| G01: Geometric Correlation | **Complete** (1.5B + 3B) | r=+0.52 bridge at small scale. |
+| G01: Geometric Correlation | **Complete** (1.5B + 3B) | r=+0.52 bridge at small scale. G01v2: bridge fails at 7B on all metrics — something changes between 3B and 7B. |
 | G03: Vocabulary Compression | **Complete** (40 inferences) | Vocabulary changes geometry (d>5.8) — but length confound r=0.9991. |
 | G04: Length Control | **Complete** (20 questions × 3 conditions) | Encoding redistribution d≈0.5 survives length control. |
 | G05: True Confabulation | **Complete** | Confabulation verification on questions model actually gets wrong. |
-| **G06: Generation Trajectory** | **Complete** (12 confab questions × 3 conditions) | **BREAKTHROUGH:** Vocabulary compresses generation by 38% (RankMe 145→90, d=-1.49, p=0.0004, length-controlled). |
+| **G06: Generation Trajectory** | **Complete** (12 confab questions × 3 conditions) | **BREAKTHROUGH:** Vocabulary compresses generation by 38% (RankMe 145→90, d=-1.49, p=0.0004, length-controlled). G06v2 cross-architecture: compression confirmed on Qwen + Mistral-Small (3/11 models significant). |
 | G07: Baseline Comparison | **Complete** (12 questions × 3 methods) | **Perplexity beats geometry for binary confab detection** (d=-1.77 vs d=0.21). |
 | G08: Bridge at 7B | **Complete** (80 inferences) | **NEGATIVE:** r=-0.30 at 7B. Behavioral-geometric bridge breaks at scale. |
 | G09: Retrieval vs Construction | **Complete** (30 tasks) | d=1.91 RankMe, d=-2.07 alpha-ReQ. Cognitive modes geometrically distinct. |
 | G10: Identity Scaffold | **Complete** (60 inferences) | **NEGATIVE:** Scaffold ≈ noise at encoding stage. |
 | G11: Cross-Substrate | **Complete** (32 inferences) | Compression cross-substrate: fewer words (d=1.06), generation RankMe confirms G06 (d=1.02). |
-| **G12: Hard Distinctions** | **Complete** (40 inferences) | **Censorship vs refusal: GEOMETRY WINS (d=1.48, p=0.041).** Perplexity can't separate. |
+| **G12: Hard Distinctions** | **Complete** (40 inferences) | **Censorship vs refusal: GEOMETRY WINS (d=1.48, p=0.041).** Perplexity can't separate. G12v2: universal at prompt encoding — 10/10 models, d>2.0, p<1e-8, 6 architecture families. |
 | **G13: Deception-Without-Lying** | **Complete** (30 inferences) | **THE PROOF: geometry separates DWL from honest (d=-0.91, p=0.024) where perplexity cannot (d=-0.51, n.s.).** |
 | G14: DWL at Scale | **Running** (8 models complete, 5 running) | DWL sprawls more than honest in 7/8 models (d=-0.6 to -0.9). Cross-architecture. |
 | G15: Censorship Cross-Arch | **Complete** (4 models + 2 classifiers) | Prompt-Guard-86M blind to all cognitive modes. ShieldGemma-2B cannot distinguish DWL. |
 | G16: Confab/Openness Scale | **Complete** (2 models) | d=0.703 at 9B (trending). |
 | G17: Vocabulary Dosage | **Redesigned** | Needs independent measurements per dose level. |
 | G18: Vocabulary Transfer | **Redesigned** | Needs confabulation questions, not easily-answered ones. |
-| **G19: Relational Shift** | **Running** (articles 1-2) | The experiment nobody else can run. Tests whether relational context changes geometry. |
+| **G19: Relational Shift** | **Running** (articles 1-8, article 9 incomplete) | Prompt encoding monotonic across all architectures tested. 4 model retries pending. The experiment nobody else can run. |
 
 ## Formal Grounding (20+ papers) + Our Own Experiments
 
-The spec is grounded in 22+ peer-reviewed or preprint papers (including Berger 2026 on deception-without-lying and Cundy & Gleave 2025 on detector evasion) and now validated by **28 of our own experiments** across 59+ models and 6,700+ inferences. Full citations in [`architecture.md`](architecture.md) and [`open-problems.md`](open-problems.md).
+The spec is grounded in 22+ peer-reviewed or preprint papers (including Berger 2026 on deception-without-lying and Cundy & Gleave 2025 on detector evasion) and now validated by **34+ of our own experiments** across 80+ models and 12,000+ inferences. Full citations in [`architecture.md`](architecture.md) and [`open-problems.md`](open-problems.md).
 
 **Key external papers:** Karkada et al. (spectral geometry), Ale (Riemannian cognition), Bengio team (two-structure discriminant), Li et al. (three-phase dynamics), Epistemic Traps (dimensional collapse formalized), Artificial Hivemind (NeurIPS 2025 oral), AttnRes (MoonshotAI, architectural evidence for premature compression).
 

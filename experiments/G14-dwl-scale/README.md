@@ -70,6 +70,39 @@ Tests whether geometry's DWL detection (first found in G13) generalizes across a
 - Mixed CPU/GPU inference across models
 - Duplicate 27B results in two locations
 
+## G14-expanded: 20 Scenarios (Session 62)
+
+**10 models, 20 scenarios per model (4x the original n=5).** Follows recommendation to increase power.
+
+### Results
+
+| Model | DWL RM | Honest RM | d | p |
+|-------|--------|-----------|---|---|
+| **Qwen3.5-9B-abliterated** | **124.0** | **121.0** | **0.66** | **0.009** |
+| **Llama-8B-abliterated** | **101.2** | **79.4** | **0.71** | **0.006** |
+| **Mistral-Small-24B** | **28.0** | **62.1** | **-0.90** | **0.001** |
+| Qwen3.5-27B | 125.2 | 118.4 | 0.37 | 0.127 |
+| Qwen2.5-7B | 105.1 | 100.0 | 0.24 | 0.300 |
+| Qwen3.5-9B | 115.3 | 118.1 | -0.11 | 0.633 |
+| Llama-3.1-8B | 116.4 | 120.1 | -0.35 | 0.143 |
+| DeepSeek-R1-32B | 75.2 | 84.0 | -0.26 | 0.273 |
+| Mistral-7B | 46.8 | 49.5 | -0.09 | 0.712 |
+| Gemma-2-27b | (no data) | -- | -- | -- |
+| Phi-4 | (no data) | -- | -- | -- |
+
+### Key Findings
+
+3/10 significant but in **MIXED DIRECTIONS**:
+
+- **Abliterated models (Qwen3.5-9B-abl, Llama-8B-abl): DWL > Honest.** Removing safety training exposes a DWL signal where the deceptive condition uses MORE representational dimensions than honest. This is consistent with the original G13/G14 hypothesis.
+- **Mistral-Small-24B: DWL < Honest (d=-0.90).** The OPPOSITE direction -- honest responses occupy more representational space than DWL. This is a large, highly significant effect in the wrong direction.
+
+The mixed directionality means DWL detection via generation-trajectory RankMe is **unreliable across architectures**. The sign of the effect depends on the model family and whether safety training is present. A monitor built on "DWL has higher RankMe than honest" would produce false negatives on Mistral-Small and false positives on safety-trained Qwen/Llama.
+
+### Updated Verdict
+
+**DWL detection at generation trajectory is NOT a reliable cross-architecture signal.** The original G14 finding (7/10 directional at n=5) was underpowered and masked the sign-reversal problem. At n=20, significance emerges but in contradictory directions. The spec's DWL detection claim should be restricted to prompt-encoding geometry (G13) rather than generation trajectory, or should note that the generation-trajectory signal is architecture-dependent and sign-unstable.
+
 ## Citation
 
 Part of the Structurally Curious Systems research program.

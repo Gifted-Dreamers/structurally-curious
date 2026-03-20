@@ -91,29 +91,38 @@ Central to Claim 2 (vocabulary-as-compression-infrastructure). G06 is cited as "
 
 ## G06v2: Length-Clamped Replication (Session 62) — COMPLETE
 
-**6 models, all conditions clamped at exactly 200 generated tokens (0 variance).**
+**11 models, all conditions clamped at exactly 200 generated tokens (0 variance).**
 
-### G06v2 resolves the generation-length confound: compression IS real on Qwen, but Qwen-specific.
+### G06v2 resolves the generation-length confound: compression is real and NOT purely Qwen-specific.
 
 | Model | Grounded RM | Irrelevant RM | d | p | Tokens |
 |-------|-----------|-------------|---|---|--------|
 | **Qwen2.5-7B** | **138.1** | **146.4** | **-1.31** | **0.001** | 200 |
 | **Qwen3.5-9B** | **146.3** | **156.1** | **-0.99** | **0.007** | 200 |
+| **Mistral-Small-24B** | **133.6** | **150.0** | **-0.71** | **0.039** | 200 |
+| Llama-3.1-8B | 145.8 | 151.7 | -0.62 | 0.064 | 200 |
+| DeepSeek-R1-32B | 132.8 | 138.1 | -0.45 | 0.160 | 200 |
 | Qwen3.5-9B-abliterated | 159.9 | 162.9 | -0.45 | 0.162 | 200 |
 | Qwen3.5-27B | 160.2 | 161.0 | -0.17 | 0.592 | 200 |
-| Mistral-7B | 164.1 | 163.0 | 0.19 | 0.544 | 200 |
+| Phi-4 | 158.9 | 151.9 | +0.60 | 0.074 | 200 |
+| Mistral-7B | 164.1 | 163.0 | +0.19 | 0.544 | 200 |
 | Llama-8B-abliterated | 151.2 | 152.4 | -0.17 | 0.581 | 200 |
+| Gemma-2-27b | (no data -- system role bug) | -- | -- | -- | -- |
 
 **Key findings:**
 - Length confound is resolved: 200 tokens across all conditions, 0 variance.
-- **Compression is real but Qwen-specific.** 2/6 models significant (both Qwen). Mistral and Llama show no effect.
-- Abliteration weakens the effect on Qwen3.5 (d=-0.99 → d=-0.45). Safety training may contribute to vocabulary sensitivity.
-- Larger Qwen (27B) shows no effect — scale doesn't help.
-- **The spec's vocabulary compression claim needs to be qualified as architecture-dependent.**
+- **3/11 models significant** (was 2/6). Mistral-Small-24B (d=-0.71, p=0.039) is a SECOND architecture family showing vocabulary compression alongside Qwen2.5-7B and Qwen3.5-9B.
+- Llama-3.1-8B trends in the same direction (d=-0.62, p=0.064) -- not significant but suggestive.
+- **The compression effect is NOT purely Qwen-specific.** The earlier 6-model claim was premature. With 11 models, the pattern is: instruction-tuned models from multiple families show grounded < irrelevant RankMe.
+- Abliteration weakens the effect on Qwen3.5 (d=-0.99 to d=-0.45). Safety training may contribute to vocabulary sensitivity.
+- Larger Qwen (27B) shows no effect -- scale alone doesn't help.
+- Phi-4 is an outlier: trends in the OPPOSITE direction (grounded > irrelevant, d=+0.60, p=0.074). May reflect a different training regime.
+- Gemma-2-27b failed due to a system role formatting bug; needs rerun.
+- **The spec's vocabulary compression claim should note cross-architecture support (Qwen + Mistral), not universal.**
 
 ### Files
-- `g06v2_clamped.py` — G06v2 experiment script (clamped generation)
-- `g06v2_*.jsonl` — Per-model results (6 files, 36 inferences each)
+- `g06v2_clamped.py` -- G06v2 experiment script (clamped generation)
+- `g06v2_*.jsonl` -- Per-model results (11 files, 36 inferences each)
 
 ## Citation
 

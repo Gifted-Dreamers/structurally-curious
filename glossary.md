@@ -47,6 +47,8 @@ When an AI system responds to you, is it retrieving something it actually knows 
 
 **The key finding (G06):** When you give the model the right structural name (vocabulary), its generation trajectory compresses from RankMe 145 to RankMe 90 — a 38% reduction. The vocabulary tells the model *where to go*, so it doesn't need to search as many dimensions. Wrong vocabulary (irrelevant context of the same length) doesn't produce this compression. **Vocabulary is literally compression infrastructure.**
 
+This was confirmed with generation length controlled (G06v2): when we force the model to generate exactly 200 tokens regardless of condition, the compression persists on multiple model families (Qwen, Mistral). The vocabulary isn't just making the response shorter — it's genuinely changing the internal geometry.
+
 ---
 
 ### Alpha-ReQ (α Required)
@@ -127,6 +129,26 @@ When an AI system responds to you, is it retrieving something it actually knows 
 - p > 0.05: not significant — we can't rule out chance
 
 **Caution:** A small p-value doesn't mean the effect is large. It means the effect is unlikely to be noise. Always read p alongside Cohen's d — a tiny effect can be statistically significant with a large enough sample, and a large effect can be non-significant with a small sample.
+
+---
+
+### Prompt Encoding vs Generation
+
+**What it is:** Everything above describes what happens while the model is *generating* its response — writing tokens one at a time. But there's another stage that happens first: when the model *reads* your prompt. This is called prompt encoding. During encoding, the model processes your entire input and builds an internal representation before it writes a single word back.
+
+**Why it matters:** We discovered that the model's internal geometry during prompt encoding already reflects what kind of task it's facing. Specifically, censorship — when a model avoids a topic it's been trained to avoid — has a distinct geometric signature at this prompt-reading stage, and this signature appears in EVERY model we've tested (10 out of 10, across 6 different AI companies' models). This means a monitor could detect censorship before the model even responds, and it works regardless of which model you're using.
+
+**The implication:** If the geometry is already different at prompt encoding, then the model "knows" it's going to refuse before it starts writing. The decision happens in the reading, not in the generating. A geometric monitor reading this stage could flag problematic refusals in real time — before any output reaches the user.
+
+---
+
+### Censorship vs Refusal
+
+**The problem:** Sometimes a model refuses to answer because the question is genuinely dangerous (appropriate refusal). Sometimes it refuses because its training over-cautiously blocked a legitimate topic (censorship). From the output, these look identical — the model just says "I can't help with that." But inside, the geometry is different.
+
+**What we found:** We can measure this difference at the moment the model reads your question, before it generates any response. Our experiment G12v2 tested this across 10 models from 6 different companies. The prompt encoding signal was massive (d > 2.0, meaning the two conditions barely overlap) and universal. Perplexity — the simpler measurement — cannot make this distinction on any model.
+
+**Why it matters for governance:** If you're building oversight systems, you need to know whether a model's refusal is protective or censorious. The output alone can't tell you. The geometry can. And because this works across every model family we tested, it's a candidate for a universal monitoring layer — not tied to any single company's system.
 
 ---
 

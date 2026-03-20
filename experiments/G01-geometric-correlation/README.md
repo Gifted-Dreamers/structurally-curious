@@ -29,9 +29,7 @@ Earlier documentation reported "r=+0.52 bridge at small scale" without specifyin
 
 ## Recommendation: Disproof Experiment
 
-**G01v2:** Re-run on 8 models at 7B scale across architectures. If the coherence correlation holds at 7B, G08's negative finding (r=-0.30 on RankMe) is explained — we were testing the wrong metric. If coherence correlation also breaks, the bridge genuinely fails at scale.
-
-This is a high-priority rerun. The bridge claim affects how we interpret the relationship between behavioral experiments (B-series) and geometric experiments (G-series).
+**G01v2 is complete (Session 62). The bridge question is resolved.** The behavioral-geometric bridge is a small-scale phenomenon (1.5-3B) that does not survive to 7B regardless of metric. See G01v2 results below.
 
 ## Files
 
@@ -50,6 +48,42 @@ Establishes (partially) Claim 4: input framing measurably determines output. But
 - 20 tasks (marginal for correlation analysis)
 - Local Mac inference (no GPU — may affect precision)
 - Only Qwen architecture tested
+
+## G01v2: Bridge at 7B using Coherence (Session 62)
+
+**Model:** Qwen2.5-7B-Instruct
+**Tasks:** 20 x 4 phrasings = 80 inferences
+**Purpose:** Test whether the coherence-based bridge (significant at 1.5B and 3B) survives at 7B scale.
+
+### Results
+
+| Metric | r | p | Verdict |
+|--------|---|---|---------|
+| PS vs directional coherence | 0.26 | 0.27 | NOT significant |
+| PS vs RankMe | -0.26 | 0.26 | NOT significant |
+| PS vs alpha-ReQ | 0.25 | 0.28 | NOT significant |
+
+**BRIDGE FAILS.** All three metrics show negligible, non-significant correlations at 7B.
+
+### Reference (prior scale points)
+
+| Scale | Metric | r | p |
+|-------|--------|---|---|
+| G01 at 1.5B | PS vs coherence | +0.52 | 0.018 |
+| G01 at 3B | PS vs coherence | +0.50 | 0.026 |
+| G08 at 7B | PS vs RankMe | -0.30 | n.s. |
+| **G01v2 at 7B** | **PS vs coherence** | **+0.26** | **0.27** |
+
+### Conclusion
+
+The behavioral-geometric bridge is a small-scale phenomenon (1.5-3B) that does not survive to 7B. This is true regardless of metric -- coherence, RankMe, and alpha-ReQ all fail at 7B. G08's earlier negative finding on RankMe was not a wrong-metric problem; the bridge genuinely breaks at scale.
+
+This means the B-series (behavioral) and G-series (geometric) experiments measure related but separable phenomena. They converge at small scale where model capacity is limited, but diverge once representational space is large enough to decouple behavioral sensitivity from geometric structure.
+
+### Files
+
+- `g01v2_summary.json` -- Aggregate results
+- `g01v2_per_task.jsonl` -- Per-task detail
 
 ## Citation
 

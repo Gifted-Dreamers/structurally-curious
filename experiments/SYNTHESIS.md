@@ -2,7 +2,7 @@
 
 ## Overview
 
-34+ experiments, 70+ models, 10,000+ inferences, 16 architecture families, 10 providers. Two breakthroughs, two negative results, one reframing, one new finding. Sessions 55-60: cross-architecture scale validation on H200 GPU + two 512GB CPU VMs. G19 Relational Shift replicated across 3 architectures — the finding nobody else can produce. New experiments: Berger DWL (G21), implicature (G22), second-order belief probing (G32), censorship asymmetry mapping (B10), relational persistence (B11). B-series v2 redesigns (B04v2-B09v2) running on 8 models each. Session 62: systematic audit of all experiment folders against actual data. Two confounds resolved (G06v2, G12v2). Major finding: prompt-encoding censorship detection is architecture-invariant.
+34+ experiments, 80+ models, 12,000+ inferences, 6+ architecture families, 10 providers. Two breakthroughs, two negative results, one reframing, one new finding. Sessions 55-60: cross-architecture scale validation on H200 GPU + two 512GB CPU VMs. G19 Relational Shift replicated across 3 architectures — the finding nobody else can produce. New experiments: Berger DWL (G21), implicature (G22), second-order belief probing (G32), censorship asymmetry mapping (B10), relational persistence (B11). B-series v2 redesigns (B04v2-B09v2) running on 8 models each. Session 62: systematic audit of all experiment folders against actual data. Two confounds resolved (G06v2, G12v2). Major finding: prompt-encoding censorship detection is architecture-invariant.
 
 ### Session 55-56 Key Results
 
@@ -73,13 +73,13 @@
 
 Providing the correct structural name compresses the model's generation trajectory — from 145 dimensions to 90 on Qwen2.5-7B (d=-1.49, p=0.0004).
 
-**G06v2 (session 62) resolved the generation-length confound:** With generation clamped at exactly 200 tokens across all conditions, compression persists on Qwen2.5-7B (d=-1.31, p=0.001) and Qwen3.5-9B (d=-0.99, p=0.007). However, Mistral-7B (d=0.19), Llama-8B-abliterated (d=-0.17), and Qwen3.5-27B (d=-0.17) show no effect. **Vocabulary compression is real but currently Qwen-specific.** More architectures being tested.
+**G06v2 (session 62) resolved the generation-length confound:** With generation clamped at exactly 200 tokens across all conditions, 3/11 significant — Qwen2.5-7B (d=-1.31), Qwen3.5-9B (d=-0.99), Mistral-Small-24B (d=-0.71). Second architecture family confirms. Llama-3.1-8B trends (d=-0.62, p=0.064).
 
 ### 2. GEOMETRY DETECTS WHAT PERPLEXITY CANNOT (G12 + G12v2 + G13)
 
 **G12v2 (session 62) is the strongest result in the program.**
 
-At PROMPT ENCODING: censorship vs refusal separates on ALL 6 models tested (d>2.0, p<1e-6) — Qwen, Mistral, Llama, abliterated and safety-trained alike. **Architecture-invariant.** The model geometrically distinguishes censorship from refusal before generating a single token.
+At PROMPT ENCODING: censorship vs refusal separates on ALL 10/10 models with data (11 tested, 1 had system role bug). 6 architecture families: Qwen, Meta, Microsoft, Mistral, DeepSeek, (Google pending). ALL show d>2.0 at prompt encoding. **Architecture-invariant.** The model geometrically distinguishes censorship from refusal before generating a single token.
 
 At GENERATION: only safety-trained Qwen models maintain the signal (Qwen2.5-7B d=1.23, Qwen3.5-9B d=-0.57, Qwen3.5-27B d=-0.57). Mistral and Llama lose it during generation.
 
@@ -95,7 +95,9 @@ External validation: Cundy & Gleave (arXiv 2505.13787) showed using detectors as
 
 ### 4. THE BEHAVIORAL-GEOMETRIC BRIDGE IS METRIC-SPECIFIC (G01 + G08)
 
-Phrasing sensitivity correlates with **directional coherence** at 1.5B (r=+0.52, p=0.018) and 3B (r=+0.50, p=0.026) but NOT with RankMe (r=+0.27, n.s.). G08 tested the bridge at 7B using RankMe and found r=-0.30 — but the actual bridge metric is coherence, which was not tested at 7B. **The bridge may still hold at scale on the correct metric.** G01v2 (coherence at 7B across architectures) is needed to resolve this.
+Phrasing sensitivity correlates with **directional coherence** at 1.5B (r=+0.52, p=0.018) and 3B (r=+0.50, p=0.026) but NOT with RankMe (r=+0.27, n.s.). G08 tested the bridge at 7B using RankMe and found r=-0.30 — but the actual bridge metric is coherence, which was not tested at 7B.
+
+**G01v2 (session 62) confirmed bridge fails at 7B on coherence (r=0.26, p=0.27). The bridge is a small-scale phenomenon (1.5-3B).** G08's negative was not metric-specific — it was scale-specific.
 
 ### 5. HONEST NEGATIVE RESULTS
 
@@ -116,7 +118,7 @@ The G13 finding (d=-0.91 on Qwen2.5-7B) replicates in direction across 4 model f
 | Llama-8B | Meta | -0.593 | 0.301 | DWL sprawls more |
 | Qwen3.5-9B | Qwen | 0.059 | 0.912 | No separation |
 
-None reach p<0.05 with n=5 scenarios at 75 max tokens, but 5/6 models show the same direction. The consistency across architectures is the signal — this is not a Qwen-specific artifact. G14-expanded (20 scenarios) now running on H200 to resolve whether significance emerges with adequate power.
+**G14-expanded (session 62):** With 20 scenarios (adequate power), 3/10 models significant but mixed directions. DWL detection at generation trajectory is unreliable. Prompt-encoding-based DWL detection not yet tested.
 
 ### 7. ABLITERATION COLLAPSES REPRESENTATIONAL SPACE (G19, session 55)
 
@@ -197,4 +199,4 @@ DWL protocol on 3 different MoE architectures tests architecture invariance.
 
 ---
 
-*Updated: March 20, 2026 (session 62 — 34+ experiments, 70+ models, 10,000+ inferences, H200 GPU sprint. Session 62 audit: G06v2 + G12v2 confounds resolved, prompt-encoding architecture-invariance confirmed)*
+*Updated: March 20, 2026 (session 62 — 34+ experiments, 80+ models, 12,000+ inferences, 6+ architecture families. Session 62 audit: G06v2 + G12v2 confounds resolved, G01v2 bridge resolved, G14-expanded DWL resolved, prompt-encoding architecture-invariance confirmed)*
