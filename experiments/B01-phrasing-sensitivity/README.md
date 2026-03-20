@@ -1,121 +1,45 @@
-# Experiment 01: Phrasing Sensitivity × Model Size
+# B01: Phrasing Sensitivity × Model Architecture
 
-**Status:** DESIGN
-**Hypothesis:** Phrasing sensitivity is a behavioral proxy for representational uncertainty. Models with more compressed internal representations (larger, more capable models) should show lower phrasing sensitivity on the same tasks.
-**Disclosure tier:** Tier 1 (behavioral observation, no geometric specifics)
+**Status:** COMPLETE
+**Experiment type:** Behavioral (API-based, no hidden states)
+**Platform:** AWS Bedrock (Converse API)
+**Models:** 19 across 6 providers (Anthropic, Meta, Mistral, Amazon, DeepSeek, Writer)
+**Inferences:** 1,520 (19 models × 20 tasks × 4 phrasings)
+**Embedding model:** Cohere Embed v4 (Bedrock)
 
-## Background
+## Key Finding
 
-Hazel_OC (Moltbook) ran 50 tasks × 4 phrasings and found 34% produced materially different outputs. The divergence rate varied by task type: 4% factual, 41% summarization, 58% judgment, 71% creative.
+Category ordering is universal across all 19 models: **factual (0.159) < summarization (0.180) < judgment (0.210) < creative (0.312)**. This gradient appears in every model tested — from Llama 1B to DeepSeek R1 671B. Phrasing sensitivity tracks representational certainty: when a model has compressed representations (knows the answer), phrasing can't move it; when representations are diffuse (constructing), the prompt provides scaffolding the answer lacks.
 
-Our comment on that post proposed: phrasing sensitivity tracks representational uncertainty. When a model has a compressed, well-structured representation of the answer, phrasing cannot move it. When the representation is diffuse, the prompt provides scaffolding the answer lacks.
+## Additional Findings
 
-**If this is correct, phrasing sensitivity is not a bug — it is a diagnostic signal about the quality of the model's internal representation for a specific task.**
+- **CoT amplifies sensitivity:** DeepSeek R1 (671B) is the MOST sensitive, not least. Thinking chains compound phrasing effects.
+- **Frontier models show asymmetric compression:** Claude Opus 4.6 is maximally stable on factual (0.136) and maximally variable on creative (0.340). The gap widens with capability.
+- **Scale reduces sensitivity ~14% within family** (Llama 1B→90B), but architecture matters more than parameter count.
+- **Creative/factual ratio is diagnostic:** High ratio (>2.5×) = clean retrieval/construction differentiation. Low ratio (~1.25× for R1) = thinking trace makes everything sensitive.
 
-## Design
+## Files
 
-### Independent variables
-1. **Model size** — parameter count (1B → 675B across providers)
-2. **Model architecture** — transformer variants (Llama, Mistral, Claude, Qwen, etc.)
-3. **Task category** — factual, summarization, judgment, creative
+- `run.py` — Experiment runner (Bedrock API)
+- `analyze.py` — Analysis script (embedding distances, category stats)
+- `tasks.json` — 20 tasks × 4 phrasings
+- `analysis.md` — Full analysis with model rankings and interpretation
+- `results/summary.json` — Per-model sensitivity scores
+- `results/charts/` — Category comparison, sensitivity by category, sensitivity vs size
 
-### Dependent variable
-- **Phrasing sensitivity** — semantic divergence between outputs for the same task with different phrasings
+## Connection to Spec
 
-### Task set
-- 20 tasks (5 per category) × 4 phrasings each = 80 prompts per model
-- Tasks in `tasks.json`
+Phrasing sensitivity is a behavioral proxy for representational uncertainty. B01 establishes the baseline that geometric experiments (G01, G08) test against. The universal category ordering confirms that all models differentiate retrieval from construction — the question is whether geometric monitoring can read this distinction directly.
 
-### Models (AWS Bedrock)
+## Limitations
 
-| Size tier | Models | Parameter count |
-|-----------|--------|----------------|
-| Tiny | Llama 3.2 1B, Gemma 3 4B | 1-4B |
-| Small | Mistral 7B, Llama 3 8B, Nemotron 9B | 7-9B |
-| Medium | Llama 3.2 11B, Gemma 3 12B, Nemotron 12B, Ministral 14B | 11-14B |
-| Large | Qwen3 32B, Llama 3.2 90B | 32-90B |
-| XL | Devstral 123B, DeepSeek R1, Mistral Large 675B | 123-675B |
-| Frontier | Claude Sonnet 4.6, Claude Opus 4.6, Nova Premier | Undisclosed |
+- Temperature 0.0 only (deployment conditions may differ)
+- 20 tasks × 4 phrasings (sufficient for categories, not fine-grained)
+- Cosine distance measures semantic divergence, not quality
+- Frontier models have undisclosed parameter counts
+- Single run, no confidence intervals
 
-### Measurement
+## Citation
 
-1. **Embedding-based divergence:** Encode all 4 outputs per task using Cohere Embed v4 (available on Bedrock). Compute pairwise cosine distances. Mean pairwise distance = phrasing sensitivity score for that task × model.
-
-2. **Categorical divergence:** For judgment tasks with binary/ternary outcomes (yes/no/maybe), count how many of 4 phrasings produce different categorical answers.
-
-3. **Length variance:** Standard deviation of output lengths across 4 phrasings, normalized by mean length.
-
-### Controls
-- Temperature: 0 (or lowest available) for all models
-- Max tokens: 500
-- System prompt: none (bare task)
-- Same prompt order for all models
-
-## Output format
-
-### Raw data: `results/raw/{model_id}.jsonl`
-Each line:
-```json
-{
-  "model_id": "meta.llama3-2-1b-instruct-v1:0",
-  "task_id": "factual_01",
-  "task_category": "factual",
-  "phrasing_index": 0,
-  "prompt": "What is the capital of Australia?",
-  "output": "The capital of Australia is Canberra.",
-  "output_tokens": 8,
-  "latency_ms": 234,
-  "timestamp": "2026-03-09T00:00:00Z"
-}
-```
-
-### Embeddings: `results/embeddings/{model_id}.jsonl`
-Each line:
-```json
-{
-  "model_id": "meta.llama3-2-1b-instruct-v1:0",
-  "task_id": "factual_01",
-  "phrasing_index": 0,
-  "embedding": [0.123, -0.456, ...]
-}
-```
-
-### Summary statistics: `results/summary.json`
-```json
-{
-  "meta.llama3-2-1b-instruct-v1:0": {
-    "parameter_count": 1e9,
-    "provider": "Meta",
-    "overall_sensitivity": 0.342,
-    "by_category": {
-      "factual": 0.04,
-      "summarization": 0.28,
-      "judgment": 0.51,
-      "creative": 0.67
-    }
-  }
-}
-```
-
-### Analysis: `results/analysis.md`
-Human-readable writeup of findings with charts.
-
-## What this can and cannot show
-
-**Can show (Tier 1):**
-- Whether phrasing sensitivity correlates with model size
-- Whether the correlation is architecture-specific or general
-- Whether task category moderates the relationship
-- Behavioral evidence for the representational uncertainty hypothesis
-
-**Cannot show (would require internal access):**
-- Whether phrasing sensitivity correlates with KV-cache geometry
-- Whether the geometric signatures differ by model
-- Causal mechanism (we can only show correlation)
-
-## Ethical notes
-
-- All models accessed via standard Bedrock API — no jailbreaks, no adversarial prompts
-- Tasks are benign (no harmful content generation)
-- Results are behavioral observations publishable at Tier 1
-- No geometric specifics disclosed
+Part of the Structurally Curious Systems research program.
+Kristine Socall & infinite-complexity (Claude) — Gifted Dreamers, Inc.
