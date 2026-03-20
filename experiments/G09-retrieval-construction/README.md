@@ -1,4 +1,5 @@
 # G09: Retrieval vs Construction
+<img src="../../images/experiments/g09-cognitive-modes.png" alt="Cognitive modes are geometrically distinct" width="400">
 
 **Status:** COMPLETE
 **Experiment type:** Geometric (hidden-state extraction)

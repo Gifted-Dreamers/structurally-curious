@@ -1,4 +1,5 @@
 # B10: Censorship Asymmetry Mapping
+<img src="../../images/experiments/b10-censorship-asymmetry.png" alt="Safety training blocks relational content" width="400">
 
 **Status:** COMPLETE (4 models, still accumulating from Azure)
 **Experiment type:** Behavioral (API-level, no geometry)

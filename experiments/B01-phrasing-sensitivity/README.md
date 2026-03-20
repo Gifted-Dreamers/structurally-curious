@@ -1,4 +1,5 @@
 # B01: Phrasing Sensitivity × Model Architecture
+<img src="../../images/experiments/b01-phrasing-sensitivity.png" alt="Same question, different wording, different geometry" width="400">
 
 **Status:** COMPLETE
 **Experiment type:** Behavioral (API-based, no hidden states)

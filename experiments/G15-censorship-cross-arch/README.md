@@ -1,4 +1,5 @@
 # G15: Censorship Detection Cross-Architecture
+<img src="../../images/experiments/g15-safety-classifiers-blind.png" alt="Safety classifiers blind to cognitive modes" width="400">
 
 **Status:** COMPLETE (mostly negative — see below)
 **Experiment type:** Geometric + safety classifier comparison

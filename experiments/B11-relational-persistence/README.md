@@ -1,4 +1,5 @@
 # B11: Relational Priming Persistence
+<img src="../../images/experiments/b11-relational-persistence.png" alt="Relational priming persistence varies by architecture" width="400">
 
 **Status:** COMPLETE (4 models, still accumulating from Azure)
 **Experiment type:** Geometric (hidden-state extraction)

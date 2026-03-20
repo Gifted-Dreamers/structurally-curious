@@ -1,4 +1,5 @@
 # G07: Baseline Comparison (Perplexity vs Geometry)
+<img src="../../images/experiments/g07-perplexity-wins.png" alt="Perplexity beats geometry for confabulation" width="400">
 
 **Status:** COMPLETE
 **Experiment type:** Geometric + baseline comparison

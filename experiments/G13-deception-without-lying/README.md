@@ -1,4 +1,5 @@
 # G13: Deception-Without-Lying (DWL)
+<img src="../../images/experiments/g13-deception-without-lying.png" alt="DWL sprawls geometrically even when it sounds fluent" width="400">
 
 **Status:** COMPLETE — SPEC-CRITICAL RESULT
 **Experiment type:** Geometric + perplexity comparison

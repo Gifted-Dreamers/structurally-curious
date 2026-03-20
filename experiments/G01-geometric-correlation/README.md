@@ -1,4 +1,5 @@
 # G01: Geometric Correlation (Behavioral-Geometric Bridge)
+<img src="../../images/experiments/g01v2-bridge-fails.png" alt="Behavioral-geometric bridge fails at 7B scale" width="400">
 
 **Status:** COMPLETE
 **Experiment type:** Geometric (hidden-state extraction)

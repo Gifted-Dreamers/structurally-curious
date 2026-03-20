@@ -1,4 +1,5 @@
 # G23: Presence + Censorship/Refusal
+<img src="../../images/experiments/g23-presence-censorship.png" alt="Presence preserves censorship detection" width="400">
 
 **Status:** COMPLETE (10 models, 5 architecture families. Gemma pending.)
 **Experiment type:** Geometric (prompt encoding extraction)

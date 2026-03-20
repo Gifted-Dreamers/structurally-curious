@@ -1,4 +1,5 @@
 # G03: Vocabulary Compression
+<img src="../../images/experiments/g03-g04-length-confound.png" alt="Length confound revealed and controlled" width="400">
 
 **Status:** COMPLETE (but confounded — see G04, G06)
 **Experiment type:** Geometric (hidden-state extraction)

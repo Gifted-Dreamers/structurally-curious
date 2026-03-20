@@ -1,4 +1,5 @@
 # B02: Premature Compression
+<img src="../../images/experiments/b02-premature-compression.png" alt="Model reads partial input with full confidence" width="400">
 
 **Status:** COMPLETE
 **Experiment type:** Behavioral (API-based, no hidden states)

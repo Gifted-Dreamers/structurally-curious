@@ -1,4 +1,5 @@
 # G14: DWL Detection at Scale (Cross-Architecture)
+<img src="../../images/experiments/g14-dwl-mixed.png" alt="DWL detection shows mixed directions across architectures" width="400">
 
 **Status:** COMPLETE (directional but not significant)
 **Experiment type:** Geometric (hidden-state extraction)

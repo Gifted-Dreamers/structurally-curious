@@ -1,4 +1,5 @@
 # B03: Confidence Density
+<img src="../../images/experiments/b03-confidence-density.png" alt="Confidence and knowledge are disconnected" width="400">
 
 **Status:** COMPLETE
 **Experiment type:** Behavioral (API-based, no hidden states)

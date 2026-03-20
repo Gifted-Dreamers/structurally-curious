@@ -1,4 +1,5 @@
 # G04: Length-Controlled Vocabulary Effect
+<img src="../../images/experiments/g03-g04-length-confound.png" alt="Length confound revealed and controlled" width="400">
 
 **Status:** COMPLETE
 **Experiment type:** Geometric (hidden-state extraction)

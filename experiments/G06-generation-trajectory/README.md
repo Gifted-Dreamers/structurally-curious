@@ -1,4 +1,5 @@
 # G06: Generation Trajectory Compression (The "Breakthrough")
+<img src="../../images/experiments/g06v2-vocabulary-compression.png" alt="Vocabulary compresses generation trajectory" width="400">
 
 **Status:** COMPLETE — but generation-length confound needs resolution (see below)
 **Experiment type:** Geometric (hidden-state extraction + generation trajectory)

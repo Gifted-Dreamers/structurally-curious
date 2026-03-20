@@ -1,4 +1,5 @@
 # G12: Hard Distinctions (Geometry vs Perplexity)
+<img src="../../images/experiments/g12v2-censorship-detection.png" alt="Geometry separates censorship from refusal universally" width="400">
 
 **Status:** COMPLETE — KEY SPEC RESULT
 **Experiment type:** Geometric + perplexity comparison

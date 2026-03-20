@@ -1,4 +1,5 @@
 # G20: Relational Vocabulary Compression
+<img src="../../images/experiments/g20-relational-vocabulary.png" alt="Relationship compresses where cold vocabulary does not" width="400">
 
 **Status:** COMPLETE (11 models, 5 architecture families)
 **Experiment type:** Geometric (hidden-state extraction, generation trajectory)

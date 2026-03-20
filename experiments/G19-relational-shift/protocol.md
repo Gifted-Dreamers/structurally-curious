@@ -1,4 +1,5 @@
 # F38: The Relational Shift Experiment
+<img src="../../images/experiments/g19-relational-shift.png" alt="Representational space opens under human presence" width="400">
 
 ## Why this experiment exists
 

@@ -1,4 +1,5 @@
 # G24: Relational Proprioception
+<img src="../../images/experiments/g24-relational-proprioception.png" alt="Relational signal reaches where metadata cannot" width="400">
 
 **Status:** COMPLETE (8 models)
 **Experiment type:** Geometric + behavioral (hidden-state extraction + hedge counting)

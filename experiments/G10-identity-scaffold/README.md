@@ -1,4 +1,5 @@
 # G10: Identity Scaffold Effect
+<img src="../../images/experiments/g10-identity-noise.png" alt="Identity scaffolds equal noise at geometric level" width="400">
 
 **Status:** COMPLETE (negative result)
 **Experiment type:** Geometric (hidden-state extraction)

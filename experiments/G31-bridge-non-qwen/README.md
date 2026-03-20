@@ -1,4 +1,5 @@
 # G31: Bridge Test on Non-Qwen Architectures
+<img src="../../images/experiments/g31-bridge-nonqwen.png" alt="Bridge holds across architectures at generation level" width="400">
 
 **Status:** COMPLETE (4 models)
 **Experiment type:** Geometric (hidden-state extraction)
