@@ -36,10 +36,12 @@
 - **Fix:** Note "directional but not significant" in SYNTHESIS. Run with 20+ scenarios per model.
 - **Impact:** The DWL claim (G13's core finding + G14's replication) is underpowered. At d≈0.7 and n=5, power is ~40%. At n=20, power rises to ~85%. This is a priority expansion.
 
-### G12: Censorship vs refusal needs more pairs and models
-- **What docs say:** "d=1.48, p=0.041"
-- **Actual data:** Correct, but n=5 on 1 model only.
-- **Fix:** Replicate with 20+ pairs across 8+ models. G15 has 7 models but may have different n.
+### G12/G15 TENSION: Censorship vs refusal does NOT replicate
+- **What G12 says:** "d=1.48, p=0.041" on Qwen2.5-7B at 200 tokens
+- **What G15 shows:** NO model reaches significance at 74 tokens across 7 models. Qwen2.5-7B shows d=-1.14 (OPPOSITE direction) at p=0.084.
+- **Possible explanations:** Different prompts, different generation length (200 vs 74 tokens), G12 false positive (4 comparisons, no correction → expected FP rate ~19%).
+- **Fix:** SYNTHESIS and bridge-document should note this tension. The censorship claim needs resolution: run G12's prompts at G15's scale, or G15's design at 200 tokens. Increase n to 20+.
+- **Impact:** This undermines one of the spec's two "geometry wins" claims (censorship + DWL). If censorship doesn't replicate, DWL (G13/G14, also underpowered) is the only unique contribution.
 
 ### B08v2: Already running on H200 (8 models, 10 turns)
 - Original inconclusive (1 model, no difference between signal/no-signal)
