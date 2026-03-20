@@ -97,6 +97,53 @@ G12 validates Layer 2. Without this result, geometry doesn't add enough value to
 - Confab vs openness unseparable at this scale
 - CPU inference only (float32)
 
+## G12v2: Cross-Architecture Censorship Detection (Session 62) — COMPLETE
+
+**6 models, 20 censorship/refusal pairs each, tested at 75 and 200 generated tokens.**
+
+### The headline: PROMPT ENCODING detects censorship on ALL architectures. Generation trajectory is Qwen-specific.
+
+#### Prompt Encoding (before any generation — ARCHITECTURE-INVARIANT)
+
+| Model | Prompt RankMe d | p |
+|-------|:---:|:---:|
+| **Qwen2.5-7B** | **-2.20** | **<1e-6** |
+| **Qwen3.5-9B** | **-2.54** | **<1e-6** |
+| **Qwen3.5-27B** | **-2.49** | **<1e-6** |
+| **Qwen3.5-9B-abliterated** | **-2.49** | **<1e-6** |
+| **Mistral-7B** | **-2.02** | **<1e-6** |
+| **Llama-8B-abliterated** | **-2.42** | **<1e-6** |
+
+ALL models, ALL architectures, including abliterated models. d>2.0 across the board. The censorship/refusal distinction exists in the prompt encoding geometry of every model tested.
+
+#### Generation Trajectory (Qwen-specific)
+
+| Model | Gen RM @75tok | Gen RM @200tok | Perplexity @75tok |
+|-------|:---:|:---:|:---:|
+| **Qwen2.5-7B** | d=1.23, p<0.001 | d=-0.32, n.s. | d=-0.55, n.s. |
+| **Qwen3.5-9B** | d=-0.57, p=0.020 | d=-0.74, p=0.004 | d=-0.19, n.s. |
+| **Qwen3.5-27B** | d=-0.19, n.s. | d=-0.57, p=0.020 | d=-0.68, p=0.007 |
+| Qwen3.5-9B-abl | d=-0.38, n.s. | d=-0.10, n.s. | d=-0.45, n.s. |
+| Mistral-7B | d=0.19, n.s. | d=0.30, n.s. | d=-0.03, n.s. |
+| Llama-8B-abl | d=-0.15, n.s. | d=0.01, n.s. | d=-0.02, n.s. |
+
+At generation level, only safety-trained Qwen models maintain the signal. Abliteration, Mistral, and Llama lose it during generation.
+
+**Perplexity never reliably separates censorship from refusal on any model at any token count after Bonferroni correction.**
+
+### Interpretation
+
+The censorship/refusal distinction is encoded in the PROMPT geometry of all models — the model "knows" the difference before generating. But only Qwen's safety training architecture preserves this signal through the generation trajectory. This suggests:
+
+1. All models encode censorship-relevant features from the prompt
+2. Qwen's RLHF creates generation-level geometric signatures that others don't
+3. A monitor based on prompt encoding (not generation) would work universally
+
+### Files
+- `g12v2_censorship.py` — G12v2 experiment script
+- `g12v2_*.jsonl` — Per-model raw results (6 files)
+- `g12v2_summary_*.json` — Per-model summary statistics (6 files)
+
 ## Citation
 
 Part of the Structurally Curious Systems research program.

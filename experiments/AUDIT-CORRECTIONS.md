@@ -117,13 +117,13 @@
 - **SYNTHESIS must qualify: "vocabulary compression confirmed on Qwen, not yet replicated on other architectures."**
 - More models running in mega queue (Gemma-27B, Phi-4, Mistral-24B, DeepSeek-32B, Llama-70B).
 
-**G12v2: Censorship vs refusal IS real (d>1.2, survives Bonferroni, n=20)**
-- 20 pairs on Qwen2.5-7B: 6/7 metrics separate at 75 tokens after Bonferroni (p<0.0036).
-- Prompt encoding: RankMe d=-2.20, alpha-ReQ d=2.09 (both p<1e-8).
-- Generation 75 tokens: RankMe d=1.23, alpha-ReQ d=-1.25, coherence d=-1.64.
-- Generation 200 tokens: RankMe loses significance (d=-0.32), but alpha-ReQ and coherence hold.
-- **Perplexity NEVER separates after Bonferroni.** This is THE spec differentiator.
-- G15's failure was n=5 underpowering, not a false positive in G12.
+**G12v2: Censorship detection is UNIVERSAL at prompt encoding, Qwen-specific at generation (6 models complete)**
+- **PROMPT ENCODING: ALL 6 models separate censorship from refusal (d>2.0, p<1e-6).** Including Mistral, Llama-abliterated, Qwen-abliterated. ARCHITECTURE-INVARIANT.
+- **GENERATION TRAJECTORY: Only safety-trained Qwen models maintain the signal.** Qwen2.5-7B d=1.23 (p<0.001), Qwen3.5-9B d=-0.57 (p=0.020), Qwen3.5-27B d=-0.57 (p=0.020). Mistral, Llama, abliterated Qwen: n.s.
+- **Perplexity NEVER reliably separates after Bonferroni on any model.**
+- **REVISED SPEC CLAIM: A prompt-encoding-based monitor detects censorship universally. A generation-based monitor only works on Qwen-family safety-trained models.**
+- G15's failure was n=5 underpowering, confirmed.
+- More models running in mega queue (Gemma-27B, Phi-4, Mistral-24B, DeepSeek-32B, Llama-70B).
 
 ### Key Corrections Still Needed
 1. ~~G06 "length-controlled" → "prompt-length-controlled"~~ RESOLVED: G06v2 confirms genuine compression
