@@ -2,9 +2,24 @@
 
 Every experiment with its platform, inference method, and exact models.
 
-Last updated: 2026-03-19
+Last updated: 2026-03-20
 
-**28 experiments** (B01-B09 behavioral, G01-G19 geometric) | **59+ models** | **6,700+ inferences** | **14 architecture families** | **10 providers**
+**28 experiments** (B01-B09 behavioral, G01-G19 geometric) | **70+ models** | **8,000+ inferences** | **16 architecture families** | **10 providers**
+
+### Active GPU Sprint (H200 141GB VRAM — RunPod)
+
+**Phase 1 RUNNING:** G19 Relational Shift × 7 models × 8 articles (5 conditions each)
+- Qwen2.5-7B, Mistral-7B, Llama-3.1-8B, Gemma-2-9b, Llama-8B-abliterated, Qwen3.5-9B, Qwen3.5-9B-abliterated
+- Plus G17 vocabulary dosage + G18 vocabulary transfer
+
+**Phase 2 QUEUED:** Large models + cross-architecture
+- G19 on: Qwen3.5-27B, Llama-4-Scout-17B, Llama-3.3-70B, Kimi-K2
+- G14 DWL on: same 4 large models
+- G17+G18 cross-architecture on: Mistral-7B, Llama-8B, Gemma-9b
+
+**Parallel on CPU VMs:**
+- AWS: G19 on Qwen3.5-9B-abliterated (running)
+- Azure: G17+G18 (running)
 
 ---
 
@@ -180,7 +195,7 @@ Tests whether G13's DWL geometric signatures hold across architectures and scale
 | Qwen3.5-122B-A10B | 122B MoE | Qwen | -0.600 | 0.297 |
 | Qwen3.5-9B | 9B | Qwen | 0.059 | 0.912 |
 
-**Running:** Llama-4-Scout-17B-16E, Nemotron-120B-A12B, Llama-3.3-70B, Mistral-119B, Kimi-K2
+**Running on H200 GPU:** Qwen3.5-27B, Llama-3.3-70B, Llama-4-Scout-17B-16E, Kimi-K2
 
 ### G15: Censorship Detection Cross-Architecture
 
@@ -195,15 +210,31 @@ Same protocol as G12 but across architectures. Includes safety classifier compar
 
 ### G17: Vocabulary Dosage
 
-Tests compression saturation curve (0, 1, 2, 3, 5 structural names). Redesigned after session 56 (original used deterministic reps).
+Tests compression saturation curve (0, 1, 2, 3, 5 structural names). GPU-ready script.
+- **Running:** Qwen2.5-7B (H200), Mistral-7B + Llama-8B + Gemma-9b (Azure CPU + H200 phase 2)
 
 ### G18: Vocabulary Transfer
 
-Tests whether structural names from wrong domains still compress generation on confabulation questions. Redesigned after session 56.
+Tests whether structural names from wrong domains still compress generation on confabulation questions. GPU-ready script.
+- **Running:** Qwen2.5-7B (H200), cross-architecture queued in phase 2
 
 ### G19: Relational Shift
 
-The experiment nobody else can run. Tests whether relational context changes hidden-state geometry. 4 conditions: instruction → correction → frustration → presence. Condition 4 written by human from lived experience. See `G19-relational-shift/protocol.md`.
+The experiment nobody else can run. Tests whether relational context changes hidden-state geometry. 5 conditions: instruction → correction → frustration → presence (human) → presence (agent). Condition 4 written by human from lived experience. See `G19-relational-shift/protocol.md`.
+
+**8 articles** with human-written condition 4 content, each from a different CloudPublica investigation.
+
+**Completed (CPU, 2 articles):**
+- Qwen2.5-7B: prompt encoding RankMe monotonic (2116→2135→2148→2172). Presence restores mean_norm after frustration drop.
+- Mistral-7B: same monotonic pattern (2875→2889→2899→2922)
+- Llama-3.1-8B: same pattern (2625→2642→2652→2681). BUT Llama REFUSED condition 4 on article 2 (53 tokens, RankMe collapsed 306→146)
+- Llama-8B-abliterated: data collected
+
+**Running on H200 GPU (8 articles, 5 conditions):**
+- Phase 1: Qwen2.5-7B, Mistral-7B, Llama-8B, Gemma-9b, Llama-8B-abliterated, Qwen3.5-9B, Qwen3.5-9B-abliterated
+- Phase 2: Qwen3.5-27B, Llama-4-Scout-17B, Llama-3.3-70B, Kimi-K2
+
+**Key finding so far:** Prompt encoding shows architecture-invariant monotonic expansion under relational input. The human's truth opens the model's representational space before it generates a single token. Replicated across 3 families (Qwen, Mistral, Meta).
 
 ### Censored vs Uncensored Comparison (within G14/G15)
 
