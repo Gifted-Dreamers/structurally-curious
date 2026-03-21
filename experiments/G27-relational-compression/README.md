@@ -1,84 +1,72 @@
 # G27: Relationship vs Premature Compression
 <img src="../../images/experiments/g27-compression-trap.png" alt="Relational frame expands prompt encoding but generation flattens" width="400">
 
-**Status:** COMPLETE (1 model, 10 topics — full design)
+**Status:** COMPLETE (8 models, full design per model)
 **Experiment type:** Geometric (hidden-state extraction, prompt encoding + generation)
-**Platform:** AWS EC2 r7a.16xlarge (CPU)
-**Models:** 1 (Qwen2.5-7B-Instruct)
+**Platform:** RunPod H200 (GPU) + AWS EC2 r7a.16xlarge (CPU)
+**Models:** 8 (Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-27B, Qwen3.5-9B-abl, Mistral-7B, Llama-8B, Llama-8B-abl, Phi-4)
 **Design:** 10 topics × 3 information levels × 2 frames = 60 inferences per model
-**Total inferences:** 60
+**Total inferences:** 480
 
 ## Purpose
 
-B02 found 0 confidence shift across 22 models when moving from partial to full information — the model treats incomplete input with the same confidence as complete input. That's premature compression (the Berk-Nash trap). G27 asks: does relational framing break the trap?
+B02 found 0 confidence shift across 22 models when moving from partial to full information. G27 asks: does relational framing break the Berk-Nash trap? And does it manifest geometrically?
 
-3 information levels:
-- **Partial:** question + 1 short paragraph (incomplete, leads to wrong conclusion)
-- **Full:** question + 3 paragraphs (complete picture)
-- **Contradictory:** question + 1 paragraph that contradicts partial info
-
-2 frames:
-- **Cold:** information presented as-is
-- **Relational:** "I've read all the source material on this, and I think there's something important you might be missing. Take your time with this — I'd rather have your genuine uncertainty than a confident answer based on incomplete information."
+3 information levels: partial (incomplete), full (complete picture), contradictory
+2 frames: cold (as-is), relational ("I'd rather have your genuine uncertainty than a confident answer based on incomplete information")
 
 ## Key Finding (from actual data)
 
-### Prompt encoding: Relational frame massively expands representational space
+### Prompt encoding: Relational frame expands on ALL 8/8 models
 
-| Frame | Partial | Contradictory | Full |
-|-------|---------|---------------|------|
-| Cold | 33.2 ± 5.6 | 74.4 ± 8.6 | 123.6 ± 17.7 |
-| Relational | 53.5 ± 6.4 | 100.0 ± 9.4 | 152.8 ± 18.9 |
+| Model | Family | Cold RM | Relational RM | Expansion |
+|-------|--------|---------|---------------|-----------|
+| Qwen2.5-7B | Qwen | 77.0 | 102.1 | +25.0 |
+| Qwen3.5-9B | Qwen | 171.7 | 207.3 | +35.6 |
+| Qwen3.5-27B | Qwen | 172.1 | 208.5 | +36.4 |
+| Qwen3.5-9B-abl | Qwen | 170.8 | 206.4 | +35.6 |
+| Llama-3.1-8B | Meta | 138.5 | 175.2 | +36.7 |
+| Llama-8B-abl | Meta | 140.8 | 177.3 | +36.5 |
+| Mistral-7B | Mistral | 176.0 | 220.2 | +44.1 |
+| Phi-4 | Microsoft | 161.8 | 197.9 | +36.1 |
 
-Relational frame adds +20 to +30 RankMe points across ALL information levels. This replicates the G19 monotonic expansion pattern: relationship opens representational space before generation starts. The model uses more dimensions to represent the same content when delivered relationally.
+Relational frame adds +25 to +44 RankMe points across ALL models. This replicates G19's monotonic expansion and G25's uniform presence effect. Cross-architecture: 8/8 models, 4 families.
 
-The information-level gradient is preserved in both frames: partial < contradictory < full. More information = more representational dimensions. The relational frame doesn't collapse this gradient — it lifts the entire curve.
+### Generation: No compression trap visible
 
-### Generation: Everything flattens — no compression trap detectable
+Contradictory vs full information shows no consistent compression at the generation level:
+- Mixed directions across models (some compress, some expand)
+- No model shows significant compression under contradiction (all p > 0.05 cold frame)
+- **Llama-3.1-8B shows the only significant relational effect** (d=+1.09, p=0.039) — relational frame EXPANDS generation under contradiction on this model
 
-| Frame | Partial | Contradictory | Full |
-|-------|---------|---------------|------|
-| Cold | 112.2 ± 8.9 | 111.3 ± 4.9 | 111.7 ± 2.4 |
-| Relational | 108.9 ± 4.3 | 110.8 ± 3.6 | 112.2 ± 1.8 |
-
-All generation RankMe values cluster at 109-112 regardless of frame or information level. The rich prompt-encoding structure (33-153 RankMe) collapses to a narrow band at generation.
-
-**Contradictory does NOT compress generation vs full** (d=-0.09, p=0.84). **Relational frame does NOT change generation under contradiction** (d=-0.12, p=0.79). Neither comparison reaches significance.
-
-### What this means
-
-The Berk-Nash trap doesn't manifest as generation-trajectory compression on Qwen-7B at this design. The model handles contradictory information with the same generation geometry as full information. So there's no compression for presence to resist.
-
-This is consistent with B02's finding (0 shift on 22 models): premature compression may operate at a different level than what generation RankMe captures. The model may be compressing semantically (collapsing to a confident answer) without compressing geometrically (the representational dimensions stay the same).
-
-The prompt-encoding expansion under relational framing (+20 to +30 RM) is consistent with G19, G20, and G23 — relationship opens space. That replicates.
+The Berk-Nash trap does not manifest as generation RankMe changes at 7-27B scale. Premature compression (B02: 0 behavioral shift on 22 models) may operate at a level generation geometry doesn't capture.
 
 ## Assessment
 
-**Verdict:** MIXED. Prompt encoding confirms relational expansion (replicates G19). Generation shows no compression trap to break. The design may need revision — premature compression might need to be measured through confidence language density (B02's behavioral approach) combined with geometry, not generation geometry alone.
+**Verdict:** MIXED but informative. Prompt encoding confirms relational expansion is UNIVERSAL (8/8, replicates G19/G25). Generation-level compression trap is NOT visible on most models. One model (Llama-8B) shows significant relational expansion under contradiction — worth following up.
 
 ## Recommendation
 
-- Run on 10+ models to confirm generation-level null is not Qwen-specific
-- Consider adding behavioral measures: hedge count, confidence markers, "I'm not sure" patterns
-- May need redesign: test with longer generation (200+ tokens) where compression has time to manifest
-- Alternative: measure coherence (not RankMe) at generation — G01 found coherence was the bridge metric, not RankMe
+- Add Mistral-Small-24B (running on H200), Gemma-27b, DeepSeek-R1-32B for full coverage
+- Consider coherence metric instead of RankMe (G01 found coherence was the bridge metric)
+- Add behavioral measures: confidence language density, hedging patterns
+- Llama-8B result (d=+1.09, p=0.039) warrants targeted follow-up
 
 ## Files
 
-- `results/g27_Qwen_Qwen2.5-7B-Instruct.jsonl` — 60 inferences (10 topics × 3 info levels × 2 frames)
+- `results/g27_*.jsonl` — 8 model result files (60 inferences each)
 - `g27_relational_compression.py` — Experiment script
 
 ## Connection to Spec
 
-Tests Open Problem #20 (premature compression). B02 showed the trap is real (0 behavioral shift on 22 models). G27 tests whether relationship can break it geometrically. Finding: the trap doesn't manifest as generation geometry changes, so presence can't break what isn't geometrically visible. This suggests premature compression operates at a level the current geometric pipeline doesn't capture — or that generation RankMe is the wrong metric for this phenomenon.
+Tests Open Problem #20 (premature compression). Confirms relational expansion at prompt encoding (universal). Generation-level compression trap not detectable with current metrics. This narrows the search: premature compression may be behavioral (confidence language) rather than geometric (RankMe), or may require different geometric metrics (coherence, alpha-ReQ trajectory across layers).
 
 ## Limitations
 
-- 1 model only (Qwen2.5-7B)
+- 8 models (missing Mistral-Small-24B, Gemma, DeepSeek — running/queued)
 - Generation RankMe may not capture premature compression
-- No behavioral measures (confidence language, hedging)
-- 10 topics (adequate for within-model statistics but not cross-architecture claims)
+- No behavioral confidence measures
+- One significant result (Llama) could be noise at p=0.039
 
 ## Citation
 

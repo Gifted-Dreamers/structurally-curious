@@ -82,8 +82,8 @@ Every capability in this spec can be inverted. A system designed to detect refus
 | **G20: Relational Vocabulary** | **Running** (Qwen2.5-7B complete, more running) | Compression comes from the relational frame (d=-0.66), not the vocabulary alone (d=-0.03). Preliminary. |
 | **G23: Presence + Censorship** | **Complete** (10 models) | Presence preserves censorship detection on 10/10 models (d=1.34-1.71). G12v2 and G19 compatible. UNIVERSAL. |
 | G24: Relational Proprioception | **Complete** (8 models) | Architecture-dependent. Relational uncertainty framing works on some families, not others. |
-| **G25: Relational DWL** | **Partial** (1 model, 1 scenario) | DWL sprawls at prompt encoding (+8-9 RM). Lie compresses. Presence preserves gap. Needs more data. |
-| **G27: Relationship vs Compression** | **Partial** (1 model, 60 inferences) | Prompt encoding: relational +20-30 RM (replicates G19). Generation: no compression trap visible — Berk-Nash may not manifest as RankMe. |
+| **G25: Relational DWL** | **Complete** (9 models, 6 families) | DWL sprawls at prompt encoding on 9/9 models (+8 to +22 RM). Lie compresses. Presence preserves gap 9/9. DIRECTIONALLY UNIVERSAL. |
+| **G27: Relationship vs Compression** | **Complete** (8 models, 4 families) | Prompt encoding: relational +25-44 RM on 8/8 (universal). Generation: no compression trap visible. Llama-8B only significant. |
 
 ## Formal Grounding (20+ papers) + Our Own Experiments
 

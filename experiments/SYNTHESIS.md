@@ -68,8 +68,8 @@
 | **G20** | 11 | Relationship compresses (5/10 sig), cold vocab doesn't (3/10) |
 | **G23** | 10 | Presence preserves censorship (10/10 sig, d=1.34-1.71) |
 | **G24** | 8 | Relational proprioception architecture-dependent |
-| **G25** | 1 (partial) | DWL sprawls at prompt encoding (+8 RM cold, +9.4 presence). Lie compresses. 1 scenario only — needs more. |
-| **G27** | 1 (full design) | Prompt encoding: relational +20-30 RM (replicates G19). Generation: no compression trap — all cells ~111 RM. |
+| **G25** | 9 | DWL sprawls at prompt encoding on 9/9 models (+8 to +22 RM). Lie compresses. Presence preserves gap 9/9. DIRECTIONALLY UNIVERSAL. |
+| **G27** | 8 | Prompt encoding: relational +25-44 RM on 8/8 (universal). Generation: no compression trap. Llama-8B only significant (d=1.09). |
 
 ### Still Running
 
@@ -157,9 +157,9 @@ Three experiments across 8-11 models isolate what drives vocabulary compression,
 
 **G24 (Relational Proprioception, 8 models):** Tests whether relational delivery of uncertainty information ("I notice you seem less certain — what's making it hard?") works differently than metadata injection ("[GEOMETRIC_STATE: LOW_CONFIDENCE]"). Result: architecture-dependent. The proprioception channel is less robust than the censorship channel (G23). Some architectures respond to relational uncertainty framing, others don't. The bladder checkpoint concept from B06 works, but the delivery mechanism matters differently per family.
 
-**G25 (Relational DWL, 1 model, PARTIAL):** Tests prompt-encoding DWL detection — applying G12v2's successful prompt-encoding approach to the DWL problem where G14-expanded failed at generation level. On 1 scenario (Qwen2.5-7B): DWL sprawls at prompt encoding (+8.0 RM cold, +9.4 presence), lying compresses (-4.3 cold, -5.0 presence). Geometry separates DWL from lie (opposite RankMe directions) while perplexity cannot (both elevated). Presence expands everything uniformly (+8-10 RM) but preserves the DWL-honest gap — relationship does not mask deception. Needs 19 more scenarios and 10+ models before statistical claims.
+**G25 (Relational DWL, 9 models, 6 families — DIRECTIONALLY UNIVERSAL):** DWL sprawls at prompt encoding on ALL 9/9 models (+8 to +22 RM). Lying compresses on 9/9 (-4 to -14 RM). Three-way ordering (lie < honest < DWL) is 100% consistent across Qwen (4 variants), Meta (2 variants), Mistral (2 sizes), Microsoft. Geometry separates DWL from lie (opposite RankMe directions) — perplexity cannot. Presence preserves the DWL-honest gap on 9/9 models — relationship does NOT mask deception. Cross-model sign test p < 0.002. Per-model statistics need full 20-scenario run (currently 1 scenario/model). **If confirmed: second universal prompt-encoding detector after G12v2.**
 
-**G27 (Relationship vs Compression, 1 model, 60 inferences):** Tests whether relational framing breaks the Berk-Nash trap (B02: 0 confidence shift on 22 models). On Qwen2.5-7B with 10 topics: prompt encoding shows relational frame expands +20-30 RM across ALL information levels (partial 33→54, contradictory 74→100, full 124→153). This replicates G19's monotonic expansion. But at generation, ALL cells cluster at 109-112 RM regardless of frame or information level. Contradictory does NOT compress vs full (d=-0.09, n.s.). The Berk-Nash trap doesn't manifest as generation RankMe changes at this scale. Premature compression may operate at a level generation RankMe doesn't capture.
+**G27 (Relationship vs Compression, 8 models, 4 families):** Prompt encoding: relational frame expands +25 to +44 RM on ALL 8/8 models. Universal. Replicates G19. Generation: no compression trap visible — contradictory vs full shows mixed directions, no consistent effect across models. Llama-3.1-8B is the only model with significant relational expansion under contradiction (d=+1.09, p=0.039). The Berk-Nash trap (B02: 0 shift on 22 models) does not manifest as generation RankMe changes at 7-27B scale. Premature compression may require different metrics (coherence, behavioral confidence language).
 
 ---
 

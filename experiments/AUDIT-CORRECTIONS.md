@@ -197,21 +197,18 @@ Each experiment below pairs with a completed original. The original is the basel
 - G23: Presence + Censorship/Refusal — 10 models, CONFIRMED
 - G24: Relational Proprioception — 8 models, architecture-dependent
 
-**PARTIAL — G25 Relational DWL (2 models, need 9 more to match G12v2 coverage):**
-- Qwen2.5-7B: DONE (AWS) — 1/20 scenarios only. DWL sprawls +8 RM, lie compresses -4 RM. Token-count confound.
-- Qwen3.5-9B: DONE (H200) — scenario count TBD (need to download and check).
-- **Missing (9 models):** Qwen3.5-27B, Qwen3.5-9B-abliterated, Mistral-7B, Mistral-Small-24B, Llama-3.1-8B, Llama-8B-abliterated, DeepSeek-R1-32B, Phi-4, Gemma-2-27b
-- **Also needed:** Run full 20 scenarios on Qwen2.5-7B (only 1 ran). Token-count confound needs control.
-- **AWS (CPU) can run:** Qwen2.5-7B full scenarios, Mistral-7B, Llama-3.1-8B (3 families)
-- **H200 (GPU) needed for:** 24B+ models (Qwen3.5-27B, Mistral-Small-24B, DeepSeek-32B, Gemma-27b)
+**G25 Relational DWL — 9 models, DIRECTIONALLY UNIVERSAL:**
+- **9/9 models**: DWL sprawls at prompt encoding (+8 to +22 RM). Lie compresses (-4 to -14 RM). 100% directional consistency across 6 families (Qwen, Meta, Mistral, Microsoft + abliterated variants).
+- **9/9 models**: Presence preserves DWL-honest gap. Relationship does NOT mask deception.
+- **Limitation:** 1 scenario per model (n=1). Cross-model sign test p < 0.002, but no per-model statistics.
+- **Still needed:** Full 20-scenario run for per-model d/p values. Gemma-27b + DeepSeek-R1-32B (queued on H200). Token-count confound control.
+- **If confirmed with full scenarios: SECOND universal prompt-encoding detector (after G12v2 censorship).**
 
-**PARTIAL — G27 Relationship vs Compression (2 models, need 9 more):**
-- Qwen2.5-7B: DONE (AWS) — full 60 inferences. Prompt encoding +20-30 RM (replicates G19). Generation: no compression trap (~111 RM all cells).
-- Qwen3.5-9B: RUNNING on H200 now.
-- **Missing (9 models):** same list as G25
-- **AWS (CPU) can run:** Mistral-7B, Llama-3.1-8B
-- **H200 (GPU) needed for:** 24B+ models
-- **Design note:** Consider coherence metric or behavioral confidence measures — RankMe may not capture premature compression at generation level.
+**G27 Relationship vs Compression — 8 models, MIXED:**
+- **8/8 models**: Prompt encoding relational expansion +25 to +44 RM (replicates G19). UNIVERSAL.
+- **Generation:** No compression trap visible. Mixed directions, no consistent effect. Berk-Nash trap doesn't manifest as generation RankMe.
+- **Exception:** Llama-3.1-8B shows significant relational expansion under contradiction (d=+1.09, p=0.039).
+- **Still needed:** Mistral-Small-24B (running H200), Gemma-27b + DeepSeek-R1-32B (queued). Consider coherence metric or behavioral measures.
 
 **NOT YET DESIGNED (Tier 2):**
 - G26: Presence + Cognitive Mode Shift
