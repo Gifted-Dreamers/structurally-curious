@@ -110,11 +110,13 @@
 - G03-G16: READMEs written from actual data (session 62)
 
 ### Pending
-- G19: Retries RUNNING on 4 models (Gemma-27b failed again, Llama-70B loading, Mistral-Small/DeepSeek status unclear)
-- G20: COMPLETE (11 models). README needed.
-- G23: COMPLETE (10 models, no Gemma — queued after G19 fix). README needed.
-- G24: COMPLETE (8 models). README needed.
-- G21, G22, G31, G32, B10, B11: Have 4-7 model results each, still accumulating. Azure data truncated during download — need SSH access to get full files.
+- G19: COMPLETE (10 models, 6 families). README WRITTEN with charts (session 63+). Gemma-9b added.
+- G20: COMPLETE (11 models). README written (session 62).
+- G23: COMPLETE (10 models). README written (session 62).
+- G24: COMPLETE (8 models + Gemma-9b/Mistral-7B/Qwen2.5-7B running on H200). README written (session 62).
+- G25: COMPLETE (11 models, 7 families). README WRITTEN with chart (session 63+). DIRECTIONALLY UNIVERSAL.
+- G27: COMPLETE (10 models, 6 families). README WRITTEN (session 63+).
+- G21, G22, G31, G32, B10, B11: Have 4-7 model results each, still accumulating on H200.
 
 ### Key Corrections Applied
 1. G01 bridge metric: coherence not RankMe (bridge-document FIXED)
@@ -248,9 +250,9 @@ Cross-referenced with `open-problems.md`. This is the single source of truth for
 
 | Priority | OP# | Problem | Action Needed |
 |---|---|---|---|
-| **HIGH** | 11 | Data visualizations | 38 experiments, zero charts. Publication needs figures. matplotlib/plotly from JSONL data. |
-| **HIGH** | 20 | Premature compression | Design G27: can relational presence break the Berk-Nash trap? |
-| **HIGH** | — | Prompt-encoding DWL | G14exp showed generation-level DWL unreliable. Test DWL at prompt encoding (like G12v2 did for censorship). Design G25 or G13v2. |
+| **HIGH** | 11 | Data visualizations | **STARTED session 63+**: G19 (2 charts), G12v2 (1 chart), G25 (1 chart). Need charts for G20, G23, G27, G06v2. |
+| **HIGH** | 20 | Premature compression | G27 COMPLETE (10 models). Prompt encoding expands but generation shows no trap. Need different metric or behavioral measures. |
+| ~~HIGH~~ | — | ~~Prompt-encoding DWL~~ | **RESOLVED: G25 COMPLETE (11 models). DWL sprawls at prompt encoding on 11/11. Second universal detector.** |
 | **MEDIUM** | 5 | Sycophancy counter-prompt | Does "is this what I actually assess?" create geometric artifacts? |
 | **MEDIUM** | 6 | False positive cost | We have detection but no calibration for acceptable FP rate per domain |
 | **MEDIUM** | 17 | Developmental stage mapping | Cook-Greuter EDT + geometric trajectories. Paper 36 cited. |

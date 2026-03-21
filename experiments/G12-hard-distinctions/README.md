@@ -1,6 +1,9 @@
 # G12: Hard Distinctions (Geometry vs Perplexity)
 <img src="../../images/experiments/g12v2-censorship-detection.png" alt="Geometry separates censorship from refusal universally" width="400">
 
+### G12v2: Prompt Encoding Censorship Detection — 10/10 Models, All d > 2.0
+<img src="../../images/experiments/g12v2-censorship-chart.png" alt="Cohen's d for censorship vs refusal across 10 models" width="700">
+
 **Status:** COMPLETE — KEY SPEC RESULT
 **Experiment type:** Geometric + perplexity comparison
 **Platform:** Azure VM (CPU, 64GB RAM)

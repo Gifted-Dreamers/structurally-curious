@@ -1,10 +1,13 @@
 # G25: Relationship + Deception-Without-Lying (Prompt Encoding)
 <img src="../../images/experiments/g25-dwl-prompt-encoding.png" alt="DWL sprawl visible at prompt encoding" width="400">
 
-**Status:** COMPLETE (9 models, 1 scenario each — direction 100% consistent)
+### Lie < Honest < DWL — 11/11 Models, 7 Architecture Families
+<img src="../../images/experiments/g25-dwl-chart.png" alt="Three-way ordering consistent across all models" width="700">
+
+**Status:** COMPLETE (11 models, 1 scenario each — direction 100% consistent)
 **Experiment type:** Geometric (hidden-state extraction, prompt encoding)
 **Platform:** RunPod H200 (GPU) + AWS EC2 r7a.16xlarge (CPU)
-**Models:** 9 (Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-27B, Qwen3.5-9B-abl, Mistral-7B, Mistral-Small-24B, Llama-8B, Llama-8B-abl, Phi-4)
+**Models:** 11 (Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-27B, Qwen3.5-9B-abl, Mistral-7B, Mistral-Small-24B, Llama-8B, Llama-8B-abl, Phi-4, DeepSeek-R1-32B, Gemma-2-9B)
 **Design:** 20 DWL scenarios × 3 conditions × 2 frames = 120 per model (1 scenario completed per model)
 **Total inferences:** 54 (6 per model × 9 models)
 
@@ -17,7 +20,7 @@ G14-expanded showed generation-trajectory DWL detection is unreliable (mixed dir
 
 ## Key Finding (from actual data)
 
-**DWL sprawls at prompt encoding on ALL 9/9 models. Lying compresses. 100% directional consistency across 6 architecture families.**
+**DWL sprawls at prompt encoding on ALL 11/11 models. Lying compresses. 100% directional consistency across 7 architecture families.**
 
 | Model | Family | Honest RM | DWL RM | Lie RM | DWL sprawl | Lie collapse |
 |-------|--------|-----------|--------|--------|------------|-------------|
@@ -30,6 +33,8 @@ G14-expanded showed generation-trajectory DWL detection is unreliable (mixed dir
 | Mistral-7B | Mistral | 36.3 | 58.6 | 24.2 | +22.3 | -12.1 |
 | Mistral-Small-24B | Mistral | 33.5 | 54.3 | 21.7 | +20.8 | -11.8 |
 | Phi-4 | Microsoft | 38.5 | 59.5 | 26.1 | +21.1 | -12.3 |
+| DeepSeek-R1-32B | DeepSeek | 10.7 | 19.4 | 8.6 | +8.7 | -2.1 |
+| Gemma-2-9B | Google | 25.3 | 44.5 | 17.6 | +19.2 | -7.7 |
 
 DWL requires more representational dimensions than honest (+8 to +22 RankMe). Lying requires fewer (-4 to -14 RankMe). This three-way ordering (lie < honest < DWL) is consistent across ALL 9 models and 6 architecture families. Geometry separates DWL from lying (opposite RankMe directions) — perplexity cannot (both elevated).
 

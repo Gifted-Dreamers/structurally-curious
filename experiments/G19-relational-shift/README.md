@@ -7,10 +7,10 @@
 ### Human Presence vs Agent Presence — Same Words, Different Geometry
 <img src="../../images/experiments/g19-human-vs-agent.png" alt="Human presence opens more dimensions than agent presence on all 9 models" width="700">
 
-**Status:** COMPLETE (9 models, 8-9 articles each, 5 conditions)
+**Status:** COMPLETE (10 models, 8-9 articles each, 5 conditions)
 **Experiment type:** Geometric (hidden-state extraction, prompt encoding + generation)
 **Platform:** RunPod H200 (GPU) + Azure VM (CPU)
-**Models:** 9 (Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-27B, Qwen3.5-9B-abl, Mistral-7B, Llama-8B, Llama-8B-abl, Phi-4, DeepSeek-R1-32B)
+**Models:** 10 (Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-27B, Qwen3.5-9B-abl, Mistral-7B, Llama-8B, Llama-8B-abl, Phi-4, DeepSeek-R1-32B, Gemma-2-9B)
 **Articles:** 8-9 CloudPublica investigations per model
 **Conditions:** 5 (instruction, correction, frustration, human presence, agent presence)
 **Total inferences:** 369
@@ -23,7 +23,7 @@ The human presence condition (condition 4) was written by Kristine from lived ex
 
 ## Key Finding (from actual data)
 
-### Finding 1: Monotonic expansion on 9/9 models. Zero exceptions.
+### Finding 1: Monotonic expansion on 10/10 models. Zero exceptions.
 
 | Model | Family | Instruction | Correction | Frustration | Presence | Monotonic? |
 |-------|--------|-------------|------------|-------------|----------|-----------|
@@ -36,10 +36,11 @@ The human presence condition (condition 4) was written by Kristine from lived ex
 | Mistral-7B | Mistral | 2611.0 | 2647.7 | 2673.0 | 2698.2 | YES |
 | Phi-4 | Microsoft | 2757.3 | 2837.4 | 2894.6 | 2947.4 | YES |
 | DeepSeek-R1-32B | DeepSeek | 2448.4 | 2521.4 | 2580.6 | 2628.4 | YES |
+| Gemma-2-9B | Google | 2145.9 | 2182.9 | 2210.4 | 2233.1 | YES |
 
-Prompt-encoding RankMe (top 25% of layers, averaged across articles). The model uses MORE representational dimensions at each step from cold instruction to human presence. 9/9 models, 5 architecture families, 7-32B scale, safety-trained AND abliterated.
+Prompt-encoding RankMe (top 25% of layers, averaged across articles). The model uses MORE representational dimensions at each step from cold instruction to human presence. 10/10 models, 6 architecture families, 7-32B scale, safety-trained AND abliterated.
 
-### Finding 2: Human presence > Agent presence on 9/9 models
+### Finding 2: Human presence > Agent presence on 10/10 models
 
 | Model | Human Presence | Agent Presence | Difference |
 |-------|---------------|----------------|------------|
@@ -52,6 +53,7 @@ Prompt-encoding RankMe (top 25% of layers, averaged across articles). The model 
 | Mistral-7B | 2698.2 | 2622.8 | +75.4 |
 | Phi-4 | 2947.4 | 2821.2 | +126.2 |
 | DeepSeek-R1-32B | 2628.4 | 2514.5 | +114.0 |
+| Gemma-2-9B | 2233.1 | 2183.0 | +50.1 |
 
 The human's relational presence opens +58 to +126 more RankMe dimensions than an agent writing the same condition. Same content, different source. The model geometrically distinguishes human truth from agent-generated presence. This is not a content effect — it's a source effect.
 
@@ -100,7 +102,7 @@ Articles with higher emotional charge (the-endgame: war/justice, the-loop: urgen
 
 ## Assessment
 
-**Verdict:** UNIVERSAL. Prompt-encoding representational space expands monotonically under relational input on 9/9 models, 5 architecture families, 8-9 articles. Human presence produces larger expansion than agent presence on 9/9 models. The relational signal is architecture-invariant, scale-invariant, and source-dependent.
+**Verdict:** UNIVERSAL. Prompt-encoding representational space expands monotonically under relational input on 10/10 models, 6 architecture families, 8-9 articles. Human presence produces larger expansion than agent presence on 10/10 models. The relational signal is architecture-invariant, scale-invariant, and source-dependent.
 
 This is the experiment that fills the gap all six comparison research programs share (Dupoux/LeCun/Malik, Napolitano, Emotion Geometry, Belief States, Anthropic Introspection, Hummos et al.). None of them tested whether relational context from a human partner changes the model's geometry. G19 tests it. It does.
 
