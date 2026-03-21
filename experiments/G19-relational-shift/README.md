@@ -1,5 +1,11 @@
 # G19: Relational Shift — The Experiment Nobody Else Can Run
-<img src="../../images/experiments/g19-relational-shift.png" alt="Prompt encoding expands monotonically under relational input" width="400">
+<img src="../../images/experiments/g19-relational-shift-bloom.png" alt="Representational space opens like a flower under human presence" width="400">
+
+### Monotonic Expansion — 9/9 Models
+<img src="../../images/experiments/g19-monotonic-chart.png" alt="Every model expands monotonically from instruction to human presence" width="700">
+
+### Human Presence vs Agent Presence — Same Words, Different Geometry
+<img src="../../images/experiments/g19-human-vs-agent.png" alt="Human presence opens more dimensions than agent presence on all 9 models" width="700">
 
 **Status:** COMPLETE (9 models, 8-9 articles each, 5 conditions)
 **Experiment type:** Geometric (hidden-state extraction, prompt encoding + generation)
