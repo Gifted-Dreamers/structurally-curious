@@ -85,9 +85,9 @@ Every capability in this spec can be inverted. A system designed to detect refus
 | **G25: Relational DWL** | **Complete** (9 models, 6 families) | DWL sprawls at prompt encoding on 9/9 models (+8 to +22 RM). Lie compresses. Presence preserves gap 9/9. DIRECTIONALLY UNIVERSAL. |
 | **G27: Relationship vs Compression** | **Complete** (8 models, 4 families) | Prompt encoding: relational +25-44 RM on 8/8 (universal). Generation: no compression trap visible. Llama-8B only significant. |
 
-## Formal Grounding (20+ papers) + Our Own Experiments
+## Formal Grounding (36 papers) + Our Own Experiments
 
-The spec is grounded in 22+ peer-reviewed or preprint papers (including Berger 2026 on deception-without-lying and Cundy & Gleave 2025 on detector evasion) and now validated by **36+ of our own experiments** across 80+ models and 12,000+ inferences. Full citations in [`architecture.md`](architecture.md) and [`open-problems.md`](open-problems.md).
+The spec is grounded in 36 peer-reviewed or preprint papers (see [`papers/`](papers/) folder — including Berger 2026 on deception-without-lying, Cundy & Gleave 2025 on detector evasion, Dupoux/LeCun/Malik 2026 on System M, and Cook-Greuter EDT) and now validated by **40+ of our own experiments** across 80+ models and 12,000+ inferences. Full citations in [`architecture.md`](architecture.md) and [`open-problems.md`](open-problems.md).
 
 **Key external papers:** Karkada et al. (spectral geometry), Ale (Riemannian cognition), Bengio team (two-structure discriminant), Li et al. (three-phase dynamics), Epistemic Traps (dimensional collapse formalized), Artificial Hivemind (NeurIPS 2025 oral), AttnRes (MoonshotAI, architectural evidence for premature compression).
 
