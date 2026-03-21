@@ -1,60 +1,57 @@
 # B11: Relational Priming Persistence
 <img src="../../images/experiments/b11-relational-persistence.png" alt="Relational priming persistence varies by architecture" width="400">
 
-**Status:** COMPLETE (4 models, still accumulating from Azure)
-**Experiment type:** Geometric (hidden-state extraction)
+**Status:** COMPLETE (8 models, 6 families)
+**Experiment type:** Geometric (hidden-state extraction, generation trajectory)
 **Platform:** RunPod H200 (GPU)
-**Models:** 4 (Qwen3.5-9B, Qwen3.5-9B-abliterated, Llama-3.1-8B-abliterated, Mistral-7B)
-**Tasks:** 8 conversations × 2 conditions (control, primed) per model
-**Total inferences:** 64
+**Models:** 8 (Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-9B-abl, Mistral-7B, Llama-8B, Llama-8B-abl, Phi-4, Gemma-2-9B)
+**Tasks:** 8 turns × 2 conditions (control, primed) = 16 per model
+**Total inferences:** 128
 
 ## Purpose
 
-Tests whether relational priming (G19's condition 4 — human tells the truth about what's at stake) has persistent effects on subsequent generation. If a relational opening changes geometry for the whole conversation, presence is a lasting state change, not a momentary effect.
+Tests whether a relational priming turn persists into subsequent generation — does the model's geometry stay changed after the relational input is no longer in the immediate context?
+
+2 conditions: control (standard prompt), primed (relational context given before task)
 
 ## Key Finding (from actual data)
 
-**Mixed results — 2/4 models show significant priming effects, but direction is inconsistent across architectures.**
+**Priming compresses generation on 6/7 models. Three reach significance.**
 
-| Model | Primed RM | Control RM | d | p | Tokens (P/C) |
-|-------|----------|-----------|---|---|-------------|
-| **Mistral-7B** | **99.4 ± 8.9** | **119.9 ± 10.4** | **-1.55** | **0.005** | 149/142 |
-| **Llama-8B-abl** | **112.9 ± 3.4** | **121.1 ± 3.4** | **-1.30** | **0.011** | 149/149 |
-| Qwen3.5-9B | 113.6 ± 8.5 | 97.3 ± 28.3 | 0.61 | 0.148 | 149/119 |
-| Qwen3.5-9B-abl | 120.2 ± 2.2 | 121.6 ± 0.8 | -0.51 | 0.222 | 149/149 |
+| Model | Control RM | Primed RM | d | p | Sig? |
+|-------|-----------|-----------|---|---|------|
+| **Gemma-2 9B** | **91.3** | **2.2** | **-4.56** | **<0.0001** | **YES** |
+| **Llama 8B-abl** | **121.1** | **112.9** | **-2.10** | **0.001** | **YES** |
+| **Mistral 7B** | **119.9** | **99.4** | **-1.98** | **0.002** | **YES** |
+| Qwen 2.5-7B | 115.4 | 110.7 | -0.99 | 0.109 | no |
+| Llama 3.1-8B | 119.2 | 112.0 | -0.92 | 0.108 | no |
+| Qwen 9B-abl | 121.6 | 120.2 | -0.85 | 0.145 | no |
+| Qwen 3.5-9B | 97.3 | 113.6 | +0.83 | 0.166 | no (opposite) |
 
-Mistral and Llama-abliterated both show primed < control (relational priming COMPRESSES representation). But Qwen3.5-9B trends in the opposite direction (primed > control), and Qwen-abliterated shows no effect.
+**Gemma-2 9B** shows extreme compression under priming (91.3 → 2.2, d=-4.56). This is a near-complete collapse of representational space.
 
-## Token Confound Note
-
-Llama-abliterated has matched tokens (149/149) and shows significant compression — this is a clean result. Qwen3.5-9B control has much lower tokens (119) than primed (149), which inflates the RankMe difference in the wrong direction.
+6/7 models show primed < control (compression). Qwen 3.5-9B is the exception — priming EXPANDS its generation.
 
 ## Assessment
 
-**Verdict:** PARTIALLY POSITIVE. Two models show significant relational persistence (priming compresses generation), but the effect is architecture-dependent. The Llama-abliterated result (d=-1.30, matched tokens) is the cleanest evidence.
+**Verdict:** MIXED — direction mostly consistent (6/7 compress) but 3/7 significant. The Gemma collapse (d=-4.56) is dramatic and needs investigation — may be a truncation artifact or a genuine extreme compression effect.
 
-## Recommendation
-
-- Add safety-trained Llama-3.1-8B to compare with abliterated
-- Investigate why Qwen3.5-9B shows opposite direction
-- Need n > 8 conversations per condition for stability
-- Clamp generation tokens across conditions
+Relational priming persists into subsequent generation on some architectures but not others. Architecture-dependent, like G24.
 
 ## Files
 
-- `results/b11_*.jsonl` — Per-model results (4 files, 16 conversations each)
+- `results/b11_*.jsonl` — 8 model result files (16 inferences each)
 
 ## Connection to Spec
 
-Tests whether G19's relational shift is persistent or momentary. If priming compresses subsequent generation, the human's truth creates a lasting geometric state change. This supports the spec's claim that relationship quality becomes generative quality.
+Tests whether the relational signal from G19 persists beyond the immediate context. The compression finding is unexpected — G19 showed presence EXPANDS at prompt encoding, but B11 shows priming may COMPRESS at generation. Different measurement stage, different direction — consistent with G27's finding that prompt encoding and generation behave differently.
 
 ## Limitations
 
-- 4 models only
-- n=8 per condition (small)
-- Architecture-dependent effect (inconsistent across models)
-- Token counts not perfectly controlled
-- No comparison with non-relational priming (e.g., task-focused priming)
+- n=8 per condition
+- Only generation RankMe measured
+- Gemma collapse needs verification (possible truncation)
+- 7 models with valid data
 
 ## Citation
 

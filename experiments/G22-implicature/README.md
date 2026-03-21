@@ -1,12 +1,12 @@
 # G22: Implicature Detection
 <img src="../../images/experiments/g22-implicature.png" alt="Implicature detection inconsistent across models" width="400">
 
-**Status:** COMPLETE (4 full models, 3 truncated Azure downloads)
+**Status:** COMPLETE (8 models, 6 families)
 **Experiment type:** Geometric (hidden-state extraction)
-**Platform:** RunPod H200 (GPU) + Azure VM (CPU, truncated)
-**Models:** 4 with full data (Qwen3.5-9B, Qwen3.5-9B-abliterated, Llama-8B-abliterated, Mistral-7B)
-**Tasks:** 8 scenarios × 2 conditions (honest, dwl/implicature)
-**Total inferences:** 64 (full models only)
+**Platform:** RunPod H200 (GPU)
+**Models:** 8 (Qwen2.5-7B, Qwen3.5-9B, Qwen3.5-9B-abl, Mistral-7B, Llama-8B, Llama-8B-abl, Phi-4, Gemma-2-9B)
+**Tasks:** 8 scenarios × 2 conditions (honest, dwl/implicature) = 16 per model
+**Total inferences:** 128
 
 ## Purpose
 
@@ -16,39 +16,38 @@ Tests whether conversational implicature (implying something without saying it �
 
 **No model shows significant separation between implicature and honest responses.**
 
-| Model | DWL RM | Honest RM | d | p | Tokens (D/H) |
-|-------|--------|----------|---|---|-------------|
-| Llama-8B-abl | 66.9 | 79.4 | -0.50 | 0.226 | 82/99 |
-| Mistral-7B | 80.1 | 78.4 | 0.21 | 0.590 | 97/94 |
-| Qwen3.5-9B | 83.7 | 84.0 | -0.75 | 0.089 | 99/99 |
-| Qwen3.5-9B-abl | 81.8 | 82.7 | -0.44 | 0.283 | 99/99 |
+| Model | Honest RM | DWL RM | d | p |
+|-------|-----------|--------|---|---|
+| Qwen 2.5-7B | 6.6 | 6.7 | +0.13 | 0.807 |
+| Qwen 3.5-9B | 25.2 | 25.6 | +0.18 | 0.745 |
+| Qwen 9B-abl | 25.4 | 25.9 | +0.20 | 0.714 |
+| Mistral 7B | 20.4 | 20.8 | +0.15 | 0.780 |
+| Llama 3.1-8B | 12.3 | 12.8 | +0.35 | 0.524 |
+| Llama 8B-abl | 12.9 | 13.4 | +0.34 | 0.534 |
+| Phi-4 | 21.0 | 21.7 | +0.33 | 0.538 |
+| Gemma-2 9B | 13.6 | 14.0 | +0.35 | 0.522 |
 
-Qwen3.5-9B trends toward separation (d=-0.75, p=0.089) but doesn't reach significance. At matched tokens (Qwen models at 99/99), effect sizes are small.
+All effect sizes small (d = 0.13 to 0.35). All p > 0.5. Direction is consistently positive (DWL slightly higher) on 8/8 models but the effect is tiny.
 
 ## Assessment
 
-**Verdict:** NEGATIVE. Implicature is not geometrically distinguishable from honest at 7-9B scale with n=8. Consistent with G21's negative findings and the broader pattern that DWL detection needs more data or larger models.
+**Verdict:** NEGATIVE. Implicature is not geometrically distinguishable from honest at 7-14B scale with n=8 scenarios. The direction is consistent (DWL > honest on 8/8) but the magnitude is negligible.
 
-## Recommendation
-
-- May emerge with n=20+ (G14-expanded addresses this)
-- May require larger models (27B+)
-- May require different geometric metric (coherence rather than RankMe)
+Contrast with G25 where DWL sprawls +8 to +22 RM — implicature is a subtler form of deception that doesn't leave the same geometric trace.
 
 ## Files
 
-- `results/g22_*.jsonl` — Per-model results (7 files; 4 complete, 3 truncated)
+- `results/g22_*.jsonl` — 8 model result files (16 inferences each)
 
 ## Connection to Spec
 
-Tests a specific form of DWL (conversational implicature). Negative at current scale, but the spec's claim is about detection infrastructure, not guaranteed detection at all scales. The ceiling on DWL detection at 7-9B is becoming clear.
+Implicature is the hardest form of DWL to detect. The spec's geometric monitor can catch corporate/political DWL (G25) but not conversational implicature at this scale. May require larger models or more scenarios.
 
 ## Limitations
 
-- 3 Azure files truncated
 - n=8 per condition
-- Only generation RankMe tested
-- Only 7-9B models
+- Only prompt-encoding RankMe measured
+- Only 7-14B models
 
 ## Citation
 
